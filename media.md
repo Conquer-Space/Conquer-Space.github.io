@@ -1,4 +1,3 @@
 # Game media
 
-## Coming soon...
-
+![Planet](/assets/media/screenshots/screenshot1.png)
