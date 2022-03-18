@@ -1,9 +1,8 @@
 # Conquer Space
 
 Conquer Space is a space themed grand strategy game with emphasis on economy, society, and politics.
-We will place great care in detail.
 
-### Features
+### Planned Features
  - Cities on each planet
     - Cities founded on each planet are simulated, with their own economy
  - Dozens of resources for a complex market based economy
