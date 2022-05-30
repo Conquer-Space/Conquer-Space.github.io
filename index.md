@@ -15,3 +15,5 @@ Conquer Space is a space themed grand strategy game with emphasis on economy, so
 
 ### Help
 We are currently looking for people to help us. Come on over to our [discord server](https://discord.gg/h5r77Sa) to discuss thing with us.
+
+### Developer
