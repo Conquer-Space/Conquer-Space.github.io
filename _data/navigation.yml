@@ -4,6 +4,8 @@ items:
     link: /media.html
   - name: Features
     link: /features.html
+  - name: Documentation
+    link: /docs/
   - name: Community
     link: /community.html
   - name: About
