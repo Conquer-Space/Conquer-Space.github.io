@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -80,15 +82,17 @@ $(function() {
   <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#ab92211dce95622133ff0949f583e26b3">IsDirectory</a>(const std::string &amp;path) override</td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">cqsp::asset::NativeFileSystem</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#ad5ca947548553abb0d379ae139707a38">IsFile</a>(const std::string &amp;path) override</td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">cqsp::asset::NativeFileSystem</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad4ac6555fff82b524ed39cc32e745fd2">IVirtualFileSystem</a>()</td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html">cqsp::asset::IVirtualFileSystem</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a05a76f382f725d45fa812b5e2d57d55a">NativeFileSystem</a>(const std::string &amp;root)</td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">cqsp::asset::NativeFileSystem</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#adb01469a6eb36d7aa79867a4c522232f">Open</a>(const std::string &amp;path, FileModes=None) override</td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">cqsp::asset::NativeFileSystem</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#ad85354eec52bc5d9518bc2d6aec836dd">OpenDirectory</a>(const std::string &amp;path) override</td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">cqsp::asset::NativeFileSystem</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a1e55904612261b1b31e899d4d7e38811">NativeDirectory</a></td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">cqsp::asset::NativeFileSystem</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a05a76f382f725d45fa812b5e2d57d55a">NativeFileSystem</a>(const std::string &amp;root)</td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">cqsp::asset::NativeFileSystem</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#adb01469a6eb36d7aa79867a4c522232f">Open</a>(const std::string &amp;path, FileModes=None) override</td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">cqsp::asset::NativeFileSystem</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#ad85354eec52bc5d9518bc2d6aec836dd">OpenDirectory</a>(const std::string &amp;path) override</td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">cqsp::asset::NativeFileSystem</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a697074fa9e0d0b37fe09de35c2099d46">root</a></td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">cqsp::asset::NativeFileSystem</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad1a61f682a063489a274e35eaa111206">~IVirtualFileSystem</a>()</td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html">cqsp::asset::IVirtualFileSystem</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a12cceb18dfc2bca1bae410b305ef7800">~NativeFileSystem</a>()</td><td class="entry"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">cqsp::asset::NativeFileSystem</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:42 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

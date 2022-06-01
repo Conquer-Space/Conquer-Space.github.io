@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1asset_1_1_native_file-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::asset::NativeFile Class Reference</div></div>
 </div><!--header-->
@@ -89,7 +92,7 @@ Inheritance diagram for cqsp::asset::NativeFile:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aadcc29bb2e3a343033cfc7343e216d0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file.html#aadcc29bb2e3a343033cfc7343e216d0a">NativeFile</a> (<a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">NativeFileSystem</a> *_nfs)</td></tr>
 <tr class="separator:aadcc29bb2e3a343033cfc7343e216d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d1c1cdf49141ceef5ee51b06f22736b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file.html#a7d1c1cdf49141ceef5ee51b06f22736b">NativeFile</a> (<a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">NativeFileSystem</a> *_nfs, const std::string &amp;file)</td></tr>
+<tr class="memitem:a7d1c1cdf49141ceef5ee51b06f22736b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file.html#a7d1c1cdf49141ceef5ee51b06f22736b">NativeFile</a> (<a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">NativeFileSystem</a> *_nfs, const std::string &amp;<a class="el" href="classcqsp_1_1asset_1_1_native_file.html#a2bd308863fdd81518ba5a9f288dc8b25">file</a>)</td></tr>
 <tr class="separator:a7d1c1cdf49141ceef5ee51b06f22736b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad175d82333dae6d9f79b392900d84fe3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file.html#ad175d82333dae6d9f79b392900d84fe3">~NativeFile</a> ()</td></tr>
 <tr class="separator:ad175d82333dae6d9f79b392900d84fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,6 +123,17 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a995dcdc12c28bfbeeebc28290fe37b1d"><td class="memItemLeft" align="right" valign="top">friend&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file.html#a995dcdc12c28bfbeeebc28290fe37b1d">NativeFileSystem</a></td></tr>
 <tr class="separator:a995dcdc12c28bfbeeebc28290fe37b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa966e13fd1f1616b5afbbf9bba2c6cee"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file.html#aa966e13fd1f1616b5afbbf9bba2c6cee">path</a></td></tr>
+<tr class="separator:aa966e13fd1f1616b5afbbf9bba2c6cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bd308863fdd81518ba5a9f288dc8b25"><td class="memItemLeft" align="right" valign="top">std::ifstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file.html#a2bd308863fdd81518ba5a9f288dc8b25">file</a></td></tr>
+<tr class="separator:a2bd308863fdd81518ba5a9f288dc8b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe545fbe8023a1eb5350751c0e5801b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file.html#afe545fbe8023a1eb5350751c0e5801b8">size</a></td></tr>
+<tr class="separator:afe545fbe8023a1eb5350751c0e5801b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf72486fd77187d42a0cacb054cec57b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">NativeFileSystem</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file.html#abf72486fd77187d42a0cacb054cec57b">nfs</a></td></tr>
+<tr class="separator:abf72486fd77187d42a0cacb054cec57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aadcc29bb2e3a343033cfc7343e216d0a" name="aadcc29bb2e3a343033cfc7343e216d0a"></a>
@@ -404,6 +418,28 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2bd308863fdd81518ba5a9f288dc8b25" name="a2bd308863fdd81518ba5a9f288dc8b25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bd308863fdd81518ba5a9f288dc8b25">&#9670;&nbsp;</a></span>file</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ifstream cqsp::asset::NativeFile::file</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a995dcdc12c28bfbeeebc28290fe37b1d" name="a995dcdc12c28bfbeeebc28290fe37b1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a995dcdc12c28bfbeeebc28290fe37b1d">&#9670;&nbsp;</a></span>NativeFileSystem</h2>
 
@@ -418,6 +454,72 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abf72486fd77187d42a0cacb054cec57b" name="abf72486fd77187d42a0cacb054cec57b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf72486fd77187d42a0cacb054cec57b">&#9670;&nbsp;</a></span>nfs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html">NativeFileSystem</a>* const cqsp::asset::NativeFile::nfs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa966e13fd1f1616b5afbbf9bba2c6cee" name="aa966e13fd1f1616b5afbbf9bba2c6cee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa966e13fd1f1616b5afbbf9bba2c6cee">&#9670;&nbsp;</a></span>path</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cqsp::asset::NativeFile::path</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe545fbe8023a1eb5350751c0e5801b8" name="afe545fbe8023a1eb5350751c0e5801b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe545fbe8023a1eb5350751c0e5801b8">&#9670;&nbsp;</a></span>size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::asset::NativeFile::size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/engine/asset/vfs/<a class="el" href="nativevfs_8h_source.html">nativevfs.h</a></li>
 <li>/github/workspace/src/engine/asset/vfs/<a class="el" href="nativevfs_8cpp.html">nativevfs.cpp</a></li>
@@ -425,7 +527,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:42 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classcqsp_1_1asset_1_1_shader-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::asset::Shader Class Reference</div></div>
 </div><!--header-->
@@ -81,7 +84,7 @@ Inheritance diagram for cqsp::asset::Shader:</div>
  <div class="center">
   <img src="classcqsp_1_1asset_1_1_shader.png" usemap="#cqsp::asset::Shader_map" alt=""/>
   <map id="cqsp::asset::Shader_map" name="cqsp::asset::Shader_map">
-<area href="classcqsp_1_1asset_1_1_asset.html" alt="cqsp::asset::Asset" shape="rect" coords="0,0,120,24"/>
+<area href="classcqsp_1_1asset_1_1_asset.html" title="The base class for assets." alt="cqsp::asset::Asset" shape="rect" coords="0,0,120,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -90,8 +93,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a94d88309e946914a89cdba820f068d86"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_shader.html#a94d88309e946914a89cdba820f068d86">Shader</a> ()=default</td></tr>
 <tr class="separator:a94d88309e946914a89cdba820f068d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa4dcd442a4884bf2d76077e2dff8458"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_shader.html#afa4dcd442a4884bf2d76077e2dff8458">Shader</a> (const std::string &amp;code, <a class="el" href="namespacecqsp_1_1asset.html#ae79e1b7d66fb5729ccbb3c15f495a678">ShaderType</a> <a class="el" href="assetmanager_8cpp.html#ac765329451135abec74c45e1897abf26">type</a>)</td></tr>
+<tr class="memdesc:afa4dcd442a4884bf2d76077e2dff8458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a shader from the code provided.  <a href="classcqsp_1_1asset_1_1_shader.html#afa4dcd442a4884bf2d76077e2dff8458">More...</a><br /></td></tr>
 <tr class="separator:afa4dcd442a4884bf2d76077e2dff8458"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdab500e727402552665ef2bd6423c4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_shader.html#afdab500e727402552665ef2bd6423c4b">operator()</a> (const std::string &amp;code, <a class="el" href="namespacecqsp_1_1asset.html#ae79e1b7d66fb5729ccbb3c15f495a678">ShaderType</a> <a class="el" href="assetmanager_8cpp.html#ac765329451135abec74c45e1897abf26">type</a>)</td></tr>
+<tr class="memdesc:afdab500e727402552665ef2bd6423c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a shader from the code provided.  <a href="classcqsp_1_1asset_1_1_shader.html#afdab500e727402552665ef2bd6423c4b">More...</a><br /></td></tr>
 <tr class="separator:afdab500e727402552665ef2bd6423c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9194ee66db5aca012ebb1c9fd4da4ace"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_shader.html#a9194ee66db5aca012ebb1c9fd4da4ace">~Shader</a> ()</td></tr>
 <tr class="separator:a9194ee66db5aca012ebb1c9fd4da4ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -104,14 +109,25 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6dcc1f9e9f87ddb8945b745f6f847a0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1asset.html#ae79e1b7d66fb5729ccbb3c15f495a678">ShaderType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_shader.html#a6dcc1f9e9f87ddb8945b745f6f847a0a">shader_type</a> = <a class="el" href="namespacecqsp_1_1asset.html#ae79e1b7d66fb5729ccbb3c15f495a678ab50339a10e1de285ac99d4c3990b8693">ShaderType::NONE</a></td></tr>
 <tr class="separator:a6dcc1f9e9f87ddb8945b745f6f847a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a440cb01cb980d806cb7150353f691c9c"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_shader.html#a440cb01cb980d806cb7150353f691c9c">id</a></td></tr>
+<tr class="memdesc:a440cb01cb980d806cb7150353f691c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Id of the shader.  <a href="classcqsp_1_1asset_1_1_shader.html#a440cb01cb980d806cb7150353f691c9c">More...</a><br /></td></tr>
 <tr class="separator:a440cb01cb980d806cb7150353f691c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classcqsp_1_1asset_1_1_asset"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classcqsp_1_1asset_1_1_asset')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a></td></tr>
 <tr class="memitem:a88cae102135cad8fd03e0cdbb2e30b79 inherit pub_attribs_classcqsp_1_1asset_1_1_asset"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset.html#a88cae102135cad8fd03e0cdbb2e30b79">path</a></td></tr>
 <tr class="separator:a88cae102135cad8fd03e0cdbb2e30b79 inherit pub_attribs_classcqsp_1_1asset_1_1_asset"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a557278245d8b527519bd792f33b67147"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classcqsp_1_1asset_1_1_shader.html">Shader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_shader.html#a557278245d8b527519bd792f33b67147">operator=</a> (const <a class="el" href="classcqsp_1_1asset_1_1_shader.html">Shader</a> &amp;)</td></tr>
+<tr class="separator:a557278245d8b527519bd792f33b67147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af300774355d0b2622d493fa770390b6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_shader.html#af300774355d0b2622d493fa770390b6e">Shader</a> (const <a class="el" href="classcqsp_1_1asset_1_1_shader.html">Shader</a> &amp;)=default</td></tr>
+<tr class="separator:af300774355d0b2622d493fa770390b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >An opengl shader.</p>
+<p >Do note that this is distinct from a shader program, and this has to be combined with either a vertex or fragmenet shader counterpart to be used in <a class="el" href="classcqsp_1_1asset_1_1_shader_program.html">ShaderProgram</a> </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a94d88309e946914a89cdba820f068d86" name="a94d88309e946914a89cdba820f068d86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94d88309e946914a89cdba820f068d86">&#9670;&nbsp;</a></span>Shader() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a94d88309e946914a89cdba820f068d86">&#9670;&nbsp;</a></span>Shader() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,7 +152,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="afa4dcd442a4884bf2d76077e2dff8458" name="afa4dcd442a4884bf2d76077e2dff8458"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa4dcd442a4884bf2d76077e2dff8458">&#9670;&nbsp;</a></span>Shader() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afa4dcd442a4884bf2d76077e2dff8458">&#9670;&nbsp;</a></span>Shader() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -161,6 +177,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructs a shader from the code provided. </p>
+
 </div>
 </div>
 <a id="a9194ee66db5aca012ebb1c9fd4da4ace" name="a9194ee66db5aca012ebb1c9fd4da4ace"></a>
@@ -176,6 +194,32 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af300774355d0b2622d493fa770390b6e" name="af300774355d0b2622d493fa770390b6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af300774355d0b2622d493fa770390b6e">&#9670;&nbsp;</a></span>Shader() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">cqsp::asset::Shader::Shader </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1asset_1_1_shader.html">Shader</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -207,6 +251,34 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructs a shader from the code provided. </p>
+
+</div>
+</div>
+<a id="a557278245d8b527519bd792f33b67147" name="a557278245d8b527519bd792f33b67147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a557278245d8b527519bd792f33b67147">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classcqsp_1_1asset_1_1_shader.html">Shader</a> &amp; cqsp::asset::Shader::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1asset_1_1_shader.html">Shader</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -221,6 +293,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Id of the shader. </p>
 
 </div>
 </div>
@@ -245,7 +319,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:42 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

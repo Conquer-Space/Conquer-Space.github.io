@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -66,40 +68,79 @@ $(function() {
 
 <h3><a id="index_m" name="index_m"></a>- m -</h3><ul>
 <li>M0&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#a21cec650f4cc7ef1913be8c9a76f8cd0">cqsp::common::components::types::Orbit</a></li>
+<li>m_app&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1_credits_window.html#a72884042aa166748c54dfe885138c007">cqsp::client::CreditsWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a1318a5dacd69a69ccc196cb34ade6d5c">cqsp::client::systems::SysStarSystemRenderer</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html#af31ba21b385cbc963ecd01cd9369ef47">cqsp::client::systems::SysUserInterface</a>, <a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#af382d1239a7c937323f8088680ba560c">cqsp::engine::CQSPSystemInterface</a></li>
+<li>m_application&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_scene.html#a81dec7a4c5430acece13b00434d8552a">cqsp::engine::Scene</a></li>
+<li>m_asset_queue&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a299aba2b2f0bc9032fed9e520d469762">cqsp::asset::AssetLoader</a></li>
+<li>m_audio_interface&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#abff1bdcd10c484aea350831c9ea346d2">cqsp::engine::Application</a></li>
+<li>m_client_options&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#ad539c956b25728358854f3d9c6bb57f3">cqsp::engine::Application</a></li>
+<li>m_completed_loading&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_universe_loading_scene.html#a86aec410f18bee89badff4bac88ca10c">cqsp::scene::UniverseLoadingScene</a></li>
+<li>m_done_loading&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a64be1595f186c3d43e38360ca9ff604f">cqsp::scene::LoadingScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_universe_loading_scene.html#aa537bbed8ed0eabcf8c3a41eb438ee23">cqsp::scene::UniverseLoadingScene</a></li>
+<li>m_event_instancer&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a6bca2af6e43f07f8c3ace54e29ab9a1c">cqsp::engine::Application</a></li>
+<li>m_font&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a68857286e04f7a99d301bd919f5cef7a">cqsp::engine::Application</a></li>
+<li>m_game&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#adf5df0d3dfd97748ffe4ea74d229d4b1">cqsp::common::systems::simulation::Simulation</a>, <a class="el" href="classcqsp_1_1engine_1_1_application.html#a022c3d526ee28b87f4a752319a0150f6">cqsp::engine::Application</a></li>
+<li>m_ne_context&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a5629fbd77d57300526a2d42463e70c30">cqsp::engine::Application</a></li>
+<li>m_next_scene&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#ad852605b89188a54e3aa3e9a2f53feda">cqsp::engine::SceneManager</a></li>
 <li>m_package_prototype_list&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html#a047b87c171d405fb8fe30362f42bfc50">cqsp::asset::AssetManager</a></li>
+<li>m_render_interface&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a741fb66aca6b660a72a99526b9fcbc02">cqsp::engine::Application</a></li>
+<li>m_scene&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a736108e7df6fb32fe33578b2ffb63a05">cqsp::engine::SceneManager</a>, <a class="el" href="classcqsp_1_1scene_1_1_main_menu_scene_1_1_event_listener.html#a5c00193ee1cd5d20aa38a450a3c18fef">cqsp::scene::MainMenuScene::EventListener</a></li>
+<li>m_scene_manager&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a2aefcf536ae95e78ffe644326a9fcad9">cqsp::engine::Application</a></li>
+<li>m_switch&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a7b8ff55a49fc0c7ac79000e049e9bb74">cqsp::engine::SceneManager</a></li>
+<li>m_system_interface&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a6391397e521132664e88ac2a9d5378cc">cqsp::engine::Application</a></li>
+<li>m_transform_enabled&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html#aa7bedf8e5773fbe1b4af86a1942320ca">cqsp::engine::CQSPRenderInterface</a></li>
+<li>m_transform_matrix&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html#a592f28dcd7bdc458a5808a25105b97ee">cqsp::engine::CQSPRenderInterface</a></li>
+<li>m_universe&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a8a8cc47f551f9cc255944775c358a2d2">cqsp::client::systems::SysStarSystemRenderer</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#a16c7550ad91a1ab5f114c23874ca519c">cqsp::common::systems::simulation::Simulation</a></li>
+<li>m_viewing_entity&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#abccbcec4594e7a49a760195e35e60a0b">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>m_window&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#ac6b2ccb9982ead7095899579a63108fe">cqsp::engine::Application</a></li>
 <li>mag_filter&#160;:&#160;<a class="el" href="structcqsp_1_1asset_1_1_texture_loading_options.html#ab1ff95de47b8366f66b0799bb8632938">cqsp::asset::TextureLoadingOptions</a></li>
+<li>main_menu&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_main_menu_scene.html#ae71e8e533e82adf99f04626dfb42d596">cqsp::scene::MainMenuScene</a></li>
 <li>MainMenuScene()&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_main_menu_scene.html#a3b55ed3d563d30a75a1f635b608358ac">cqsp::scene::MainMenuScene</a></li>
-<li>MakeShader()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html#a110f6c0475391a796f90056e8f3201af">cqsp::asset::AssetManager</a>, <a class="el" href="classcqsp_1_1asset_1_1_shader_definition.html#aa442b929dace7b865d06576a91c7ce5a">cqsp::asset::ShaderDefinition</a></li>
-<li>manager&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#adfe3c957b0400369ed82ec6870c7f26a">cqsp::asset::AssetLoader</a></li>
+<li>MakeShader()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a503615e7e0f7b3c4639279c9d72bc12b">cqsp::asset::AssetLoader</a>, <a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html#a13c32566847481452f052209acacc3ca">cqsp::asset::AssetManager</a>, <a class="el" href="classcqsp_1_1asset_1_1_shader_definition.html#aa442b929dace7b865d06576a91c7ce5a">cqsp::asset::ShaderDefinition</a></li>
+<li>manager&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#adfe3c957b0400369ed82ec6870c7f26a">cqsp::asset::AssetLoader</a>, <a class="el" href="classcqsp_1_1engine_1_1_application.html#aeecf66ecd3cb73dc0f290673d256f11a">cqsp::engine::Application</a></li>
 <li>markdownConfig&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a2f9520d24a2bd10b6d9dad5b16c36493">cqsp::engine::Application</a></li>
 <li>market&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_market_agent.html#ac18f63ce9406c265d75d7d6153447408">cqsp::common::components::MarketAgent</a>, <a class="el" href="structcqsp_1_1common_1_1components_1_1_market_center.html#ac1179c869abbbfc9105cee322f8104c4">cqsp::common::components::MarketCenter</a></li>
 <li>market_information&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_market.html#a616fd64364fd05eceeb38bee7b88e773">cqsp::common::components::Market</a></li>
+<li>market_information_panel&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#aba191c201463f92b10d4c888c2d6c5fa">cqsp::client::systems::SysPlanetInformation</a></li>
+<li>MarketInformationTooltipContent()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#afd6f460d942cf781e02e006c5988a83e">cqsp::client::systems::SysPlanetInformation</a></li>
 <li>mass&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#a1bb6c2e52dd17ae051017bc3f3dc9fc3">cqsp::common::components::bodies::Body</a>, <a class="el" href="structcqsp_1_1common_1_1components_1_1_matter.html#ad6e4384f5d15e741f027e081e59f1248">cqsp::common::components::Matter</a></li>
-<li>max&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1infrastructure_1_1_power_consumption.html#ad26f12d4cb4075ef1c4c344301dbc78b">cqsp::common::components::infrastructure::PowerConsumption</a></li>
+<li>max&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1infrastructure_1_1_power_consumption.html#ad26f12d4cb4075ef1c4c344301dbc78b">cqsp::common::components::infrastructure::PowerConsumption</a>, <a class="el" href="structcqsp_1_1scene_1_1_loading_scene_1_1_loading_data_model.html#afb6172cec458645db2d8ec0ca10d5106">cqsp::scene::LoadingScene::LoadingDataModel</a></li>
+<li>max_loading&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#acbfef2da38202446d5c5b87545c33c92">cqsp::asset::AssetLoader</a></li>
 <li>max_production&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_factory_productivity.html#aa1d17daa6e6ceb37d552b5a3ce49c245">cqsp::common::components::FactoryProductivity</a>, <a class="el" href="structcqsp_1_1common_1_1components_1_1_production_traits.html#a09802433aaf8bb73f321d738146bac48">cqsp::common::components::ProductionTraits</a></li>
 <li>max_zoom&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a7711ef4cc9b1bccbd71dc8dbaa606b98">cqsp::client::systems::SysStarSystemRenderer</a></li>
 <li>Mesh()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_mesh.html#a293f54d7642467ed035675ee159bd339">cqsp::engine::Mesh</a></li>
 <li>mesh&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_renderable.html#a6d21ccebe158b7e34d06095ff5d58f94">cqsp::engine::Renderable</a></li>
+<li>mesh_output&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a398b6a0b7ccbce9450273df958ae3dc0">cqsp::engine::AAFrameBufferRenderer</a>, <a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#a26dd0371f2cd20975ba27e07363a4062">cqsp::engine::FramebufferRenderer</a></li>
 <li>min&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1infrastructure_1_1_power_consumption.html#ae87e045a5b5b785ff1ae5fdbb386437c">cqsp::common::components::infrastructure::PowerConsumption</a></li>
 <li>min_zoom&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ade2f94be95fc253e2f2159ec4045f4af">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>mine_list_panel&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#ae4dba43251a4f4cec74e2a6042a926ca">cqsp::client::systems::SysPlanetInformation</a></li>
+<li>MineConstruction()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#a9ec923948ba436e88a2a532d8ca6c2b7">cqsp::client::systems::SysPlanetInformation</a></li>
+<li>MineInformationPanel()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#aef8ce64bf5371e91dca03448dc62ebfc">cqsp::client::systems::SysPlanetInformation</a></li>
+<li>missing_assets&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9aa4b62463270f96b1e1ca44baf9de81">cqsp::asset::AssetLoader</a></li>
 <li>mode&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_mesh.html#af670d67bde03401d9219396797b6c5cf">cqsp::engine::Mesh</a></li>
 <li>model&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_renderable.html#a497139ff38b88b629890a992604c979c">cqsp::engine::Renderable</a></li>
+<li>model_handle&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1_settings_window.html#ab3e0d1d5d4e29b4e13392575960bcc7c">cqsp::client::SettingsWindow</a>, <a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a481a3d52e6d2d0425cc57c4187d41438">cqsp::scene::LoadingScene</a></li>
+<li>ModWindow()&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_main_menu_scene.html#aabd6de05b6bd5ddc8ddfeb52f810c251">cqsp::scene::MainMenuScene</a></li>
+<li>mount_points&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html#ae6e198367dca1708671de98069fc5728">cqsp::asset::VirtualMounter</a></li>
+<li>mounter&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a531c1b28ef2e8d7994ab4e5591cb1426">cqsp::asset::AssetLoader</a></li>
 <li>MouseButtonDoubleClicked()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a92e7319ee1e94dafb1a8627866be14e7">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_window.html#a92c0e932ec10193317b371692f30ce05">cqsp::engine::Window</a></li>
 <li>MouseButtonIsHeld()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a2bea104aed0b875bd95a388ffc87850f">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_window.html#a2b4bf39aff7817b6d67a17ca73fe63ed">cqsp::engine::Window</a></li>
 <li>MouseButtonIsPressed()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a444f53b562b30c8bdf30876b5fe2ef11">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_window.html#aba512a8c460c3f7c4290b5d2d9c552bf">cqsp::engine::Window</a></li>
 <li>MouseButtonIsReleased()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#af929431cdda2e9c877196ffc291744c3">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_window.html#adbb205f76fc6c09f83a2f8924434ed34">cqsp::engine::Window</a></li>
 <li>MouseButtonLastReleased()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a487c24a717e8fac2cf60e76ed3c5caf6">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_window.html#a5b5690b5e59380318a314b6631bc662a">cqsp::engine::Window</a></li>
 <li>MouseDragged()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a7f23d7d8753c9c088da9f2617cf5f693">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_window.html#a7b8f8f882ef833b0268f9f8b29fafd10">cqsp::engine::Window</a></li>
+<li>MoveCamera()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ae8cc1f01abf3939e67a3d6acc2dae273">cqsp::client::systems::SysStarSystemRenderer</a></li>
 <li>MoveTarget()&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_move_target.html#a2229790afce1784119b9654d85614af6">cqsp::common::components::types::MoveTarget</a></li>
+<li>mscat&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#adfeae9b209b0bdfc988d691ec10fe0fd">cqsp::engine::AAFrameBufferRenderer</a></li>
 <li>Mu&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#af21715ce7b88625b7056db253a6fa3a8">cqsp::common::components::types::Orbit</a></li>
 <li>MultiplyAdd()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html#a074a52148ca6461fb0dd4018b153842d">cqsp::common::components::ResourceLedger</a></li>
 <li>MultiplyAndGetSum()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html#a83534f687729fe2eedfa73e2d48efd5a">cqsp::common::components::ResourceLedger</a></li>
 <li>music&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#abc19a0330e7c65fdbe41236daaf641ed">cqsp::engine::audio::AudioInterface</a></li>
+<li>music_volume&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1_settings_window.html#adfbb98d45d4e63c24248e804fe2210be">cqsp::client::SettingsWindow</a>, <a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a7632f117eeaacae97de4d52626fa6e5b">cqsp::engine::audio::AudioInterface</a></li>
+<li>mutex_&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_threadsafe_queue.html#ae5eb131b1cabee78e3daf64801f3f289">cqsp::asset::ThreadsafeQueue&lt; T &gt;</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:44 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

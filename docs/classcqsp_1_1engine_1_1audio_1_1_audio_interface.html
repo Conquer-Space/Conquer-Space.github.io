@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +71,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1engine_1_1audio_1_1_audio_interface-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::engine::audio::AudioInterface Class Reference</div></div>
 </div><!--header-->
@@ -136,6 +140,24 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a8ca99767141457f7f68bbedd766f446a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab94846a0fd2170e428e89367ba5c956"><td class="memItemLeft" align="right" valign="top">Hjson::Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#aab94846a0fd2170e428e89367ba5c956">playlist</a></td></tr>
 <tr class="separator:aab94846a0fd2170e428e89367ba5c956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a5062b4c6895ce322175e56e91aa4720d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a5062b4c6895ce322175e56e91aa4720d">PrintInformation</a> ()</td></tr>
+<tr class="separator:a5062b4c6895ce322175e56e91aa4720d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77b6e551476a43853b838ec4f4756c66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a77b6e551476a43853b838ec4f4756c66">InitListener</a> ()</td></tr>
+<tr class="separator:a77b6e551476a43853b838ec4f4756c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75245695e221ad549670652ce5117b38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a75245695e221ad549670652ce5117b38">InitALContext</a> ()</td></tr>
+<tr class="separator:a75245695e221ad549670652ce5117b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:acf5618dd58b937dec027b7df6c1add12"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="classcqsp_1_1asset_1_1_audio_asset.html">cqsp::asset::AudioAsset</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#acf5618dd58b937dec027b7df6c1add12">assets</a></td></tr>
+<tr class="separator:acf5618dd58b937dec027b7df6c1add12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6b26ffe7eb0d507da180b561ec6c403"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="structcqsp_1_1engine_1_1audio_1_1_audio_channel.html">AudioChannel</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#ae6b26ffe7eb0d507da180b561ec6c403">channels</a></td></tr>
+<tr class="separator:ae6b26ffe7eb0d507da180b561ec6c403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7632f117eeaacae97de4d52626fa6e5b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a7632f117eeaacae97de4d52626fa6e5b">music_volume</a> = 0</td></tr>
+<tr class="separator:a7632f117eeaacae97de4d52626fa6e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a418ed4ffe27220b2851f56eef17dbd42" name="a418ed4ffe27220b2851f56eef17dbd42"></a>
@@ -265,6 +287,31 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a75245695e221ad549670652ce5117b38" name="a75245695e221ad549670652ce5117b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75245695e221ad549670652ce5117b38">&#9670;&nbsp;</a></span>InitALContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioInterface::InitALContext </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab9ac9ec7f339761725c026cc0b9e852b" name="ab9ac9ec7f339761725c026cc0b9e852b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9ac9ec7f339761725c026cc0b9e852b">&#9670;&nbsp;</a></span>Initialize()</h2>
 
@@ -289,6 +336,31 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classcqsp_1_1engine_1_1audio_1_1_i_audio_interface.html#ad4b2679626ecf01e7996496adcc0a485">cqsp::engine::audio::IAudioInterface</a>.</p>
+
+</div>
+</div>
+<a id="a77b6e551476a43853b838ec4f4756c66" name="a77b6e551476a43853b838ec4f4756c66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77b6e551476a43853b838ec4f4756c66">&#9670;&nbsp;</a></span>InitListener()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioInterface::InitListener </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -432,6 +504,31 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5062b4c6895ce322175e56e91aa4720d" name="a5062b4c6895ce322175e56e91aa4720d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5062b4c6895ce322175e56e91aa4720d">&#9670;&nbsp;</a></span>PrintInformation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioInterface::PrintInformation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab789aff8127f8a4ab28dbef05c8e79e0" name="ab789aff8127f8a4ab28dbef05c8e79e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab789aff8127f8a4ab28dbef05c8e79e0">&#9670;&nbsp;</a></span>RequestPlayAudio()</h2>
 
@@ -553,6 +650,50 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="acf5618dd58b937dec027b7df6c1add12" name="acf5618dd58b937dec027b7df6c1add12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf5618dd58b937dec027b7df6c1add12">&#9670;&nbsp;</a></span>assets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, <a class="el" href="classcqsp_1_1asset_1_1_audio_asset.html">cqsp::asset::AudioAsset</a> *&gt; cqsp::engine::audio::AudioInterface::assets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6b26ffe7eb0d507da180b561ec6c403" name="ae6b26ffe7eb0d507da180b561ec6c403"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6b26ffe7eb0d507da180b561ec6c403">&#9670;&nbsp;</a></span>channels</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="structcqsp_1_1engine_1_1audio_1_1_audio_channel.html">AudioChannel</a>&gt; &gt; cqsp::engine::audio::AudioInterface::channels</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a95a0ab61405231648d68a6d888e8ae49" name="a95a0ab61405231648d68a6d888e8ae49"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a95a0ab61405231648d68a6d888e8ae49">&#9670;&nbsp;</a></span>context</h2>
 
@@ -623,6 +764,28 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7632f117eeaacae97de4d52626fa6e5b" name="a7632f117eeaacae97de4d52626fa6e5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7632f117eeaacae97de4d52626fa6e5b">&#9670;&nbsp;</a></span>music_volume</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float cqsp::engine::audio::AudioInterface::music_volume = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aab94846a0fd2170e428e89367ba5c956" name="aab94846a0fd2170e428e89367ba5c956"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab94846a0fd2170e428e89367ba5c956">&#9670;&nbsp;</a></span>playlist</h2>
 
@@ -672,7 +835,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

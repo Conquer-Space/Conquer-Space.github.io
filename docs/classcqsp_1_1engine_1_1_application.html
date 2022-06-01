@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -71,6 +73,8 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1engine_1_1_application-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::engine::Application Class Reference</div></div>
 </div><!--header-->
@@ -205,6 +209,88 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2f9520d24a2bd10b6d9dad5b16c36493"><td class="memItemLeft" align="right" valign="top">ImGui::MarkdownConfig&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a2f9520d24a2bd10b6d9dad5b16c36493">markdownConfig</a></td></tr>
 <tr class="separator:a2f9520d24a2bd10b6d9dad5b16c36493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a77507657fe650bd8b33c38dd3bb658ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a77507657fe650bd8b33c38dd3bb658ad">InitFonts</a> ()</td></tr>
+<tr class="separator:a77507657fe650bd8b33c38dd3bb658ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59fe1847f499cab8be3c0c0c3c992a92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a59fe1847f499cab8be3c0c0c3c992a92">SetIcon</a> ()</td></tr>
+<tr class="separator:a59fe1847f499cab8be3c0c0c3c992a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe9c009a934813c6cd5d1257569abd1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#abe9c009a934813c6cd5d1257569abd1f">GlInit</a> ()</td></tr>
+<tr class="separator:abe9c009a934813c6cd5d1257569abd1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a800c869629c490cbfb187da61b7bf97d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a800c869629c490cbfb187da61b7bf97d">LoggerInit</a> ()</td></tr>
+<tr class="separator:a800c869629c490cbfb187da61b7bf97d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d694183bad02b8718373c9dc40e4ec4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a3d694183bad02b8718373c9dc40e4ec4">LogInfo</a> ()</td></tr>
+<tr class="separator:a3d694183bad02b8718373c9dc40e4ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1083f5b119d9fa89b2ba1af52dfccff9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a1083f5b119d9fa89b2ba1af52dfccff9">InitRmlUi</a> ()</td></tr>
+<tr class="separator:a1083f5b119d9fa89b2ba1af52dfccff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e3a04be90c16f8104f4dd583241a6dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a3e3a04be90c16f8104f4dd583241a6dd">InitImgui</a> ()</td></tr>
+<tr class="separator:a3e3a04be90c16f8104f4dd583241a6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8845dd2323e8fb3aeb7fa33ccbfae95d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a8845dd2323e8fb3aeb7fa33ccbfae95d">ProcessRmlUiUserInput</a> ()</td></tr>
+<tr class="separator:a8845dd2323e8fb3aeb7fa33ccbfae95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0005e1ceab90c08ac8e366d061f69f5b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a0005e1ceab90c08ac8e366d061f69f5b">init</a> ()</td></tr>
+<tr class="separator:a0005e1ceab90c08ac8e366d061f69f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74fcdbfb3acdc9ddf6a79f5c9bbb4ea5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a74fcdbfb3acdc9ddf6a79f5c9bbb4ea5">destroy</a> ()</td></tr>
+<tr class="separator:a74fcdbfb3acdc9ddf6a79f5c9bbb4ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46fab40918b538f3606eea414ee09ee6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a46fab40918b538f3606eea414ee09ee6">CalculateProjections</a> ()</td></tr>
+<tr class="separator:a46fab40918b538f3606eea414ee09ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a8a0caa6703616fbab952f37f97706df9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a8a0caa6703616fbab952f37f97706df9">cmd_line_args</a></td></tr>
+<tr class="separator:a8a0caa6703616fbab952f37f97706df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3520f24b665eaac2c5974073f249c03"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#aa3520f24b665eaac2c5974073f249c03">full_screen</a></td></tr>
+<tr class="separator:aa3520f24b665eaac2c5974073f249c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6b2ccb9982ead7095899579a63108fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_window.html">Window</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#ac6b2ccb9982ead7095899579a63108fe">m_window</a></td></tr>
+<tr class="separator:ac6b2ccb9982ead7095899579a63108fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f97b3a924eb2fdcc63d70bec958e2d9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a7f97b3a924eb2fdcc63d70bec958e2d9">icon_path</a></td></tr>
+<tr class="separator:a7f97b3a924eb2fdcc63d70bec958e2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cf25f53f91ef81b6b738d436c6ae649"><td class="memItemLeft" align="right" valign="top">Rml::Context *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a8cf25f53f91ef81b6b738d436c6ae649">rml_context</a></td></tr>
+<tr class="separator:a8cf25f53f91ef81b6b738d436c6ae649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6391397e521132664e88ac2a9d5378cc"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; Rml::SystemInterface &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a6391397e521132664e88ac2a9d5378cc">m_system_interface</a></td></tr>
+<tr class="separator:a6391397e521132664e88ac2a9d5378cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a741fb66aca6b660a72a99526b9fcbc02"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html">cqsp::engine::CQSPRenderInterface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a741fb66aca6b660a72a99526b9fcbc02">m_render_interface</a></td></tr>
+<tr class="separator:a741fb66aca6b660a72a99526b9fcbc02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5629fbd77d57300526a2d42463e70c30"><td class="memItemLeft" align="right" valign="top">ax::NodeEditor::EditorContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a5629fbd77d57300526a2d42463e70c30">m_ne_context</a> = nullptr</td></tr>
+<tr class="separator:a5629fbd77d57300526a2d42463e70c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bca2af6e43f07f8c3ace54e29ab9a1c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1engine_1_1_application_1_1_cqsp_event_instancer.html">CqspEventInstancer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a6bca2af6e43f07f8c3ace54e29ab9a1c">m_event_instancer</a></td></tr>
+<tr class="separator:a6bca2af6e43f07f8c3ace54e29ab9a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aefcf536ae95e78ffe644326a9fcad9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a2aefcf536ae95e78ffe644326a9fcad9">m_scene_manager</a></td></tr>
+<tr class="separator:a2aefcf536ae95e78ffe644326a9fcad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad539c956b25728358854f3d9c6bb57f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1client_1_1_client_options.html">client::ClientOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#ad539c956b25728358854f3d9c6bb57f3">m_client_options</a></td></tr>
+<tr class="separator:ad539c956b25728358854f3d9c6bb57f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79d69aa30724945bd5853e2297c49e0b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a79d69aa30724945bd5853e2297c49e0b">fps</a></td></tr>
+<tr class="separator:a79d69aa30724945bd5853e2297c49e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf20899d689fd1ac433ed44752281a05"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#aaf20899d689fd1ac433ed44752281a05">deltaTime</a></td></tr>
+<tr class="separator:aaf20899d689fd1ac433ed44752281a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99bdcebadc0d886285ab9084b5e7b5eb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a99bdcebadc0d886285ab9084b5e7b5eb">lastFrame</a></td></tr>
+<tr class="separator:a99bdcebadc0d886285ab9084b5e7b5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b8fce19710ecb815282c0e892ea4774"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a9b8fce19710ecb815282c0e892ea4774">locale</a></td></tr>
+<tr class="separator:a9b8fce19710ecb815282c0e892ea4774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fb0667c6a1fc9bf8c31080c38fb0f0b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; spdlog::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a4fb0667c6a1fc9bf8c31080c38fb0f0b">logger</a></td></tr>
+<tr class="separator:a4fb0667c6a1fc9bf8c31080c38fb0f0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeecf66ecd3cb73dc0f290673d256f11a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html">cqsp::asset::AssetManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#aeecf66ecd3cb73dc0f290673d256f11a">manager</a></td></tr>
+<tr class="separator:aeecf66ecd3cb73dc0f290673d256f11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a022c3d526ee28b87f4a752319a0150f6"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1common_1_1_game.html">cqsp::common::Game</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a022c3d526ee28b87f4a752319a0150f6">m_game</a></td></tr>
+<tr class="separator:a022c3d526ee28b87f4a752319a0150f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68857286e04f7a99d301bd919f5cef7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_font.html">cqsp::asset::Font</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a68857286e04f7a99d301bd919f5cef7a">m_font</a> = nullptr</td></tr>
+<tr class="separator:a68857286e04f7a99d301bd919f5cef7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715d0b5c840ec7ddcfd7da69753acb58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_shader_program.html">cqsp::asset::ShaderProgram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a715d0b5c840ec7ddcfd7da69753acb58">fontShader</a> = nullptr</td></tr>
+<tr class="separator:a715d0b5c840ec7ddcfd7da69753acb58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab97788bc622f17fc37242f2a729a11"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a3ab97788bc622f17fc37242f2a729a11">properties</a></td></tr>
+<tr class="separator:a3ab97788bc622f17fc37242f2a729a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abff1bdcd10c484aea350831c9ea346d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_i_audio_interface.html">cqsp::engine::audio::IAudioInterface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#abff1bdcd10c484aea350831c9ea346d2">m_audio_interface</a></td></tr>
+<tr class="separator:abff1bdcd10c484aea350831c9ea346d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72690707a68b9c50454a81117f521926"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, Rml::ElementDocument * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a72690707a68b9c50454a81117f521926">loaded_documents</a></td></tr>
+<tr class="separator:a72690707a68b9c50454a81117f521926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a4e2ada6e4efd4dba63d1a078cbb5f4"><td class="memItemLeft" align="right" valign="top">glm::mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a3a4e2ada6e4efd4dba63d1a078cbb5f4">two_dim_projection</a></td></tr>
+<tr class="separator:a3a4e2ada6e4efd4dba63d1a078cbb5f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53a4990eff007e62c48c24819f01eddf"><td class="memItemLeft" align="right" valign="top">glm::mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a53a4990eff007e62c48c24819f01eddf">three_dim_projection</a></td></tr>
+<tr class="separator:a53a4990eff007e62c48c24819f01eddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f8321bbf11cce54f065353376449cc5"><td class="memItemLeft" align="right" valign="top">glm::mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a5f8321bbf11cce54f065353376449cc5">rmlui_projection</a></td></tr>
+<tr class="separator:a5f8321bbf11cce54f065353376449cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a8fd0d2a247336d37f7fda3153a6a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a10a8fd0d2a247336d37f7fda3153a6a0">to_halt</a></td></tr>
+<tr class="separator:a10a8fd0d2a247336d37f7fda3153a6a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a830fad414bc29aef2865cd43bd8a6700" name="a830fad414bc29aef2865cd43bd8a6700"></a>
@@ -407,6 +493,31 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a46fab40918b538f3606eea414ee09ee6" name="a46fab40918b538f3606eea414ee09ee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46fab40918b538f3606eea414ee09ee6">&#9670;&nbsp;</a></span>CalculateProjections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::engine::Application::CalculateProjections </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8e4f32414437e16bc871f26037a540e8" name="a8e4f32414437e16bc871f26037a540e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e4f32414437e16bc871f26037a540e8">&#9670;&nbsp;</a></span>CloseDocument()</h2>
 
@@ -421,6 +532,31 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74fcdbfb3acdc9ddf6a79f5c9bbb4ea5" name="a74fcdbfb3acdc9ddf6a79f5c9bbb4ea5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74fcdbfb3acdc9ddf6a79f5c9bbb4ea5">&#9670;&nbsp;</a></span>destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::engine::Application::destroy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1156,6 +1292,31 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abe9c009a934813c6cd5d1257569abd1f" name="abe9c009a934813c6cd5d1257569abd1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe9c009a934813c6cd5d1257569abd1f">&#9670;&nbsp;</a></span>GlInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::engine::Application::GlInit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a916b768c3fc01aff8c2a0cc1bf74953b" name="a916b768c3fc01aff8c2a0cc1bf74953b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a916b768c3fc01aff8c2a0cc1bf74953b">&#9670;&nbsp;</a></span>HasCmdLineArgs()</h2>
 
@@ -1182,6 +1343,106 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0005e1ceab90c08ac8e366d061f69f5b" name="a0005e1ceab90c08ac8e366d061f69f5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0005e1ceab90c08ac8e366d061f69f5b">&#9670;&nbsp;</a></span>init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::engine::Application::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77507657fe650bd8b33c38dd3bb658ad" name="a77507657fe650bd8b33c38dd3bb658ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77507657fe650bd8b33c38dd3bb658ad">&#9670;&nbsp;</a></span>InitFonts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::engine::Application::InitFonts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e3a04be90c16f8104f4dd583241a6dd" name="a3e3a04be90c16f8104f4dd583241a6dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e3a04be90c16f8104f4dd583241a6dd">&#9670;&nbsp;</a></span>InitImgui()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::engine::Application::InitImgui </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1083f5b119d9fa89b2ba1af52dfccff9" name="a1083f5b119d9fa89b2ba1af52dfccff9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1083f5b119d9fa89b2ba1af52dfccff9">&#9670;&nbsp;</a></span>InitRmlUi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::engine::Application::InitRmlUi </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2a04c766a78ca5ed4c6b43443936b0ca" name="a2a04c766a78ca5ed4c6b43443936b0ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a04c766a78ca5ed4c6b43443936b0ca">&#9670;&nbsp;</a></span>LoadDocument()</h2>
 
@@ -1196,6 +1457,56 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a800c869629c490cbfb187da61b7bf97d" name="a800c869629c490cbfb187da61b7bf97d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a800c869629c490cbfb187da61b7bf97d">&#9670;&nbsp;</a></span>LoggerInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::engine::Application::LoggerInit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d694183bad02b8718373c9dc40e4ec4" name="a3d694183bad02b8718373c9dc40e4ec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d694183bad02b8718373c9dc40e4ec4">&#9670;&nbsp;</a></span>LogInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::engine::Application::LogInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1355,6 +1666,31 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8845dd2323e8fb3aeb7fa33ccbfae95d" name="a8845dd2323e8fb3aeb7fa33ccbfae95d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8845dd2323e8fb3aeb7fa33ccbfae95d">&#9670;&nbsp;</a></span>ProcessRmlUiUserInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::engine::Application::ProcessRmlUiUserInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1230ecef406e96e46cacba5d75b1087a" name="a1230ecef406e96e46cacba5d75b1087a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1230ecef406e96e46cacba5d75b1087a">&#9670;&nbsp;</a></span>ReloadDocument()</h2>
 
@@ -1498,6 +1834,31 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a59fe1847f499cab8be3c0c0c3c992a92" name="a59fe1847f499cab8be3c0c0c3c992a92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59fe1847f499cab8be3c0c0c3c992a92">&#9670;&nbsp;</a></span>SetIcon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::engine::Application::SetIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4597d4c0f6d1987c2432c70c92dc4b51" name="a4597d4c0f6d1987c2432c70c92dc4b51"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4597d4c0f6d1987c2432c70c92dc4b51">&#9670;&nbsp;</a></span>SetScene()</h2>
 
@@ -1571,6 +1932,468 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8a0caa6703616fbab952f37f97706df9" name="a8a0caa6703616fbab952f37f97706df9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a0caa6703616fbab952f37f97706df9">&#9670;&nbsp;</a></span>cmd_line_args</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; cqsp::engine::Application::cmd_line_args</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf20899d689fd1ac433ed44752281a05" name="aaf20899d689fd1ac433ed44752281a05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf20899d689fd1ac433ed44752281a05">&#9670;&nbsp;</a></span>deltaTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::engine::Application::deltaTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a715d0b5c840ec7ddcfd7da69753acb58" name="a715d0b5c840ec7ddcfd7da69753acb58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a715d0b5c840ec7ddcfd7da69753acb58">&#9670;&nbsp;</a></span>fontShader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_shader_program.html">cqsp::asset::ShaderProgram</a>* cqsp::engine::Application::fontShader = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79d69aa30724945bd5853e2297c49e0b" name="a79d69aa30724945bd5853e2297c49e0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79d69aa30724945bd5853e2297c49e0b">&#9670;&nbsp;</a></span>fps</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::engine::Application::fps</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3520f24b665eaac2c5974073f249c03" name="aa3520f24b665eaac2c5974073f249c03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3520f24b665eaac2c5974073f249c03">&#9670;&nbsp;</a></span>full_screen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::engine::Application::full_screen</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f97b3a924eb2fdcc63d70bec958e2d9" name="a7f97b3a924eb2fdcc63d70bec958e2d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f97b3a924eb2fdcc63d70bec958e2d9">&#9670;&nbsp;</a></span>icon_path</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cqsp::engine::Application::icon_path</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99bdcebadc0d886285ab9084b5e7b5eb" name="a99bdcebadc0d886285ab9084b5e7b5eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99bdcebadc0d886285ab9084b5e7b5eb">&#9670;&nbsp;</a></span>lastFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::engine::Application::lastFrame</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72690707a68b9c50454a81117f521926" name="a72690707a68b9c50454a81117f521926"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72690707a68b9c50454a81117f521926">&#9670;&nbsp;</a></span>loaded_documents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, Rml::ElementDocument*&gt; cqsp::engine::Application::loaded_documents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b8fce19710ecb815282c0e892ea4774" name="a9b8fce19710ecb815282c0e892ea4774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b8fce19710ecb815282c0e892ea4774">&#9670;&nbsp;</a></span>locale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cqsp::engine::Application::locale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4fb0667c6a1fc9bf8c31080c38fb0f0b" name="a4fb0667c6a1fc9bf8c31080c38fb0f0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fb0667c6a1fc9bf8c31080c38fb0f0b">&#9670;&nbsp;</a></span>logger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;spdlog::logger&gt; cqsp::engine::Application::logger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abff1bdcd10c484aea350831c9ea346d2" name="abff1bdcd10c484aea350831c9ea346d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abff1bdcd10c484aea350831c9ea346d2">&#9670;&nbsp;</a></span>m_audio_interface</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_i_audio_interface.html">cqsp::engine::audio::IAudioInterface</a>* cqsp::engine::Application::m_audio_interface</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad539c956b25728358854f3d9c6bb57f3" name="ad539c956b25728358854f3d9c6bb57f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad539c956b25728358854f3d9c6bb57f3">&#9670;&nbsp;</a></span>m_client_options</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1client_1_1_client_options.html">client::ClientOptions</a> cqsp::engine::Application::m_client_options</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bca2af6e43f07f8c3ace54e29ab9a1c" name="a6bca2af6e43f07f8c3ace54e29ab9a1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bca2af6e43f07f8c3ace54e29ab9a1c">&#9670;&nbsp;</a></span>m_event_instancer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classcqsp_1_1engine_1_1_application_1_1_cqsp_event_instancer.html">CqspEventInstancer</a>&gt; cqsp::engine::Application::m_event_instancer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68857286e04f7a99d301bd919f5cef7a" name="a68857286e04f7a99d301bd919f5cef7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68857286e04f7a99d301bd919f5cef7a">&#9670;&nbsp;</a></span>m_font</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_font.html">cqsp::asset::Font</a>* cqsp::engine::Application::m_font = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a022c3d526ee28b87f4a752319a0150f6" name="a022c3d526ee28b87f4a752319a0150f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a022c3d526ee28b87f4a752319a0150f6">&#9670;&nbsp;</a></span>m_game</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classcqsp_1_1common_1_1_game.html">cqsp::common::Game</a>&gt; cqsp::engine::Application::m_game</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5629fbd77d57300526a2d42463e70c30" name="a5629fbd77d57300526a2d42463e70c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5629fbd77d57300526a2d42463e70c30">&#9670;&nbsp;</a></span>m_ne_context</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ax::NodeEditor::EditorContext* cqsp::engine::Application::m_ne_context = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a741fb66aca6b660a72a99526b9fcbc02" name="a741fb66aca6b660a72a99526b9fcbc02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a741fb66aca6b660a72a99526b9fcbc02">&#9670;&nbsp;</a></span>m_render_interface</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html">cqsp::engine::CQSPRenderInterface</a>&gt; cqsp::engine::Application::m_render_interface</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2aefcf536ae95e78ffe644326a9fcad9" name="a2aefcf536ae95e78ffe644326a9fcad9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aefcf536ae95e78ffe644326a9fcad9">&#9670;&nbsp;</a></span>m_scene_manager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a> cqsp::engine::Application::m_scene_manager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6391397e521132664e88ac2a9d5378cc" name="a6391397e521132664e88ac2a9d5378cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6391397e521132664e88ac2a9d5378cc">&#9670;&nbsp;</a></span>m_system_interface</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;Rml::SystemInterface&gt; cqsp::engine::Application::m_system_interface</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6b2ccb9982ead7095899579a63108fe" name="ac6b2ccb9982ead7095899579a63108fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6b2ccb9982ead7095899579a63108fe">&#9670;&nbsp;</a></span>m_window</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_window.html">Window</a>* cqsp::engine::Application::m_window</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeecf66ecd3cb73dc0f290673d256f11a" name="aeecf66ecd3cb73dc0f290673d256f11a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeecf66ecd3cb73dc0f290673d256f11a">&#9670;&nbsp;</a></span>manager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html">cqsp::asset::AssetManager</a> cqsp::engine::Application::manager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2f9520d24a2bd10b6d9dad5b16c36493" name="a2f9520d24a2bd10b6d9dad5b16c36493"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2f9520d24a2bd10b6d9dad5b16c36493">&#9670;&nbsp;</a></span>markdownConfig</h2>
 
@@ -1585,6 +2408,138 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a3ab97788bc622f17fc37242f2a729a11" name="a3ab97788bc622f17fc37242f2a729a11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ab97788bc622f17fc37242f2a729a11">&#9670;&nbsp;</a></span>properties</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, std::string&gt; cqsp::engine::Application::properties</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8cf25f53f91ef81b6b738d436c6ae649" name="a8cf25f53f91ef81b6b738d436c6ae649"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cf25f53f91ef81b6b738d436c6ae649">&#9670;&nbsp;</a></span>rml_context</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rml::Context* cqsp::engine::Application::rml_context</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f8321bbf11cce54f065353376449cc5" name="a5f8321bbf11cce54f065353376449cc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f8321bbf11cce54f065353376449cc5">&#9670;&nbsp;</a></span>rmlui_projection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::mat4 cqsp::engine::Application::rmlui_projection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53a4990eff007e62c48c24819f01eddf" name="a53a4990eff007e62c48c24819f01eddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53a4990eff007e62c48c24819f01eddf">&#9670;&nbsp;</a></span>three_dim_projection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::mat4 cqsp::engine::Application::three_dim_projection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10a8fd0d2a247336d37f7fda3153a6a0" name="a10a8fd0d2a247336d37f7fda3153a6a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10a8fd0d2a247336d37f7fda3153a6a0">&#9670;&nbsp;</a></span>to_halt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::engine::Application::to_halt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a4e2ada6e4efd4dba63d1a078cbb5f4" name="a3a4e2ada6e4efd4dba63d1a078cbb5f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a4e2ada6e4efd4dba63d1a078cbb5f4">&#9670;&nbsp;</a></span>two_dim_projection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::mat4 cqsp::engine::Application::two_dim_projection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/engine/<a class="el" href="application_8h_source.html">application.h</a></li>
 <li>/github/workspace/src/engine/<a class="el" href="application_8cpp.html">application.cpp</a></li>
@@ -1592,7 +2547,7 @@ template&lt;class T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

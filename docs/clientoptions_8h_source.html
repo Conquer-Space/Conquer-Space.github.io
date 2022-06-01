@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -102,29 +104,30 @@ $(function() {
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>     <span class="keywordtype">void</span> <a class="code hl_function" href="classcqsp_1_1client_1_1_client_options.html#ad5f9db8b99051b06336370839804a598">LoadDefaultOptions</a>();</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classcqsp_1_1client_1_1_client_options.html#a97bb5d5d2033d985c2751d0ce0e83a73">   34</a></span>     Hjson::Value&amp; <a class="code hl_function" href="classcqsp_1_1client_1_1_client_options.html#a97bb5d5d2033d985c2751d0ce0e83a73">GetOptions</a>() { <span class="keywordflow">return</span> options; }</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classcqsp_1_1client_1_1_client_options.html#a97bb5d5d2033d985c2751d0ce0e83a73">   34</a></span>     Hjson::Value&amp; <a class="code hl_function" href="classcqsp_1_1client_1_1_client_options.html#a97bb5d5d2033d985c2751d0ce0e83a73">GetOptions</a>() { <span class="keywordflow">return</span> <a class="code hl_variable" href="classcqsp_1_1client_1_1_client_options.html#a5d022c24e6c341e3fd1b118eae32156d">options</a>; }</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>     Hjson::Value <a class="code hl_function" href="classcqsp_1_1client_1_1_client_options.html#ad9aa285402d780753f6d4295d85ebd68">GetDefaultOptions</a>();</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>     std::string <a class="code hl_function" href="classcqsp_1_1client_1_1_client_options.html#aaefdb84ecd1abf40624aa5f6bd2606be">GetDefaultLocation</a>();</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>     Hjson::Value options;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="classcqsp_1_1client_1_1_client_options.html#a5d022c24e6c341e3fd1b118eae32156d">   41</a></span>     Hjson::Value <a class="code hl_variable" href="classcqsp_1_1client_1_1_client_options.html#a5d022c24e6c341e3fd1b118eae32156d">options</a>;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>};</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>}  <span class="comment">// namespace client</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}  <span class="comment">// namespace cqsp</span></div>
 <div class="ttc" id="aclasscqsp_1_1client_1_1_client_options_html"><div class="ttname"><a href="classcqsp_1_1client_1_1_client_options.html">cqsp::client::ClientOptions</a></div><div class="ttdef"><b>Definition:</b> clientoptions.h:26</div></div>
 <div class="ttc" id="aclasscqsp_1_1client_1_1_client_options_html_a03b43b0330150df16d0de92dbfd98004"><div class="ttname"><a href="classcqsp_1_1client_1_1_client_options.html#a03b43b0330150df16d0de92dbfd98004">cqsp::client::ClientOptions::WriteOptions</a></div><div class="ttdeci">void WriteOptions()</div><div class="ttdef"><b>Definition:</b> clientoptions.cpp:32</div></div>
+<div class="ttc" id="aclasscqsp_1_1client_1_1_client_options_html_a5d022c24e6c341e3fd1b118eae32156d"><div class="ttname"><a href="classcqsp_1_1client_1_1_client_options.html#a5d022c24e6c341e3fd1b118eae32156d">cqsp::client::ClientOptions::options</a></div><div class="ttdeci">Hjson::Value options</div><div class="ttdef"><b>Definition:</b> clientoptions.h:41</div></div>
 <div class="ttc" id="aclasscqsp_1_1client_1_1_client_options_html_a6c8eeb5b5141552634ef394dea0b88c1"><div class="ttname"><a href="classcqsp_1_1client_1_1_client_options.html#a6c8eeb5b5141552634ef394dea0b88c1">cqsp::client::ClientOptions::LoadOptions</a></div><div class="ttdeci">void LoadOptions(std::istream &amp;stream)</div><div class="ttdef"><b>Definition:</b> clientoptions.cpp:21</div></div>
 <div class="ttc" id="aclasscqsp_1_1client_1_1_client_options_html_a97bb5d5d2033d985c2751d0ce0e83a73"><div class="ttname"><a href="classcqsp_1_1client_1_1_client_options.html#a97bb5d5d2033d985c2751d0ce0e83a73">cqsp::client::ClientOptions::GetOptions</a></div><div class="ttdeci">Hjson::Value &amp; GetOptions()</div><div class="ttdef"><b>Definition:</b> clientoptions.h:34</div></div>
 <div class="ttc" id="aclasscqsp_1_1client_1_1_client_options_html_aaefdb84ecd1abf40624aa5f6bd2606be"><div class="ttname"><a href="classcqsp_1_1client_1_1_client_options.html#aaefdb84ecd1abf40624aa5f6bd2606be">cqsp::client::ClientOptions::GetDefaultLocation</a></div><div class="ttdeci">std::string GetDefaultLocation()</div><div class="ttdef"><b>Definition:</b> clientoptions.cpp:52</div></div>
 <div class="ttc" id="aclasscqsp_1_1client_1_1_client_options_html_ad5f9db8b99051b06336370839804a598"><div class="ttname"><a href="classcqsp_1_1client_1_1_client_options.html#ad5f9db8b99051b06336370839804a598">cqsp::client::ClientOptions::LoadDefaultOptions</a></div><div class="ttdeci">void LoadDefaultOptions()</div><div class="ttdef"><b>Definition:</b> clientoptions.cpp:37</div></div>
 <div class="ttc" id="aclasscqsp_1_1client_1_1_client_options_html_ad9aa285402d780753f6d4295d85ebd68"><div class="ttname"><a href="classcqsp_1_1client_1_1_client_options.html#ad9aa285402d780753f6d4295d85ebd68">cqsp::client::ClientOptions::GetDefaultOptions</a></div><div class="ttdeci">Hjson::Value GetDefaultOptions()</div><div class="ttdef"><b>Definition:</b> clientoptions.cpp:41</div></div>
-<div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdef"><b>Definition:</b> clientctx.h:19</div></div>
+<div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdoc">When adding assets, it is extremely crucial that you read cqsp::asset::AssetLoader::LoadResources to ...</div><div class="ttdef"><b>Definition:</b> clientctx.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:42 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

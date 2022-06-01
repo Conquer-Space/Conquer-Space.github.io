@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -65,6 +67,7 @@ $(function() {
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_p" name="index_p"></a>- p -</h3><ul>
+<li>packages&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html#a33313d1dfbea8ae78b788af959ae2b9b">cqsp::asset::AssetManager</a></li>
 <li>parent_fleet&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1ships_1_1_fleet.html#aa41c816b26c83a975526227dc82af712">cqsp::common::components::ships::Fleet</a></li>
 <li>parents&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1science_1_1_field.html#a4236909f65a1dc571fcc23a795a19952">cqsp::common::components::science::Field</a></li>
 <li>ParseOrbitTree()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#a221069d9d1733faf15777c2b72c20878">cqsp::common::systems::SysOrbit</a></li>
@@ -72,34 +75,53 @@ $(function() {
 <li>participants&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_market.html#acaf70a4f4a5d84cb422023b3c0382bbb">cqsp::common::components::Market</a></li>
 <li>path&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset.html#a88cae102135cad8fd03e0cdbb2e30b79">cqsp::asset::Asset</a></li>
 <li>Path()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file.html#af210b8d35e8d18712022f75c9ae2e329">cqsp::asset::IVirtualFile</a>, <a class="el" href="classcqsp_1_1asset_1_1_native_file.html#aeaa391514ef11d25fc5c92c9b8d6d581">cqsp::asset::NativeFile</a></li>
-<li>path&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_package_prototype.html#a6a240ca70df57115cbe5aa143d602678">cqsp::asset::PackagePrototype</a>, <a class="el" href="classcqsp_1_1asset_1_1_pathed_text_asset.html#a9274d420d3c676009aa84c430021daea">cqsp::asset::PathedTextAsset</a></li>
-<li>paths&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_text_directory_asset.html#a39b40bf790fcb9a70647f4c0ef9c1294">cqsp::asset::TextDirectoryAsset</a></li>
+<li>path&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_native_file.html#aa966e13fd1f1616b5afbbf9bba2c6cee">cqsp::asset::NativeFile</a>, <a class="el" href="classcqsp_1_1asset_1_1_package_prototype.html#a6a240ca70df57115cbe5aa143d602678">cqsp::asset::PackagePrototype</a>, <a class="el" href="classcqsp_1_1asset_1_1_pathed_text_asset.html#a9274d420d3c676009aa84c430021daea">cqsp::asset::PathedTextAsset</a></li>
+<li>paths&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_native_directory.html#a7de547a9d091eab19ebb82029a795d3d">cqsp::asset::NativeDirectory</a>, <a class="el" href="classcqsp_1_1asset_1_1_text_directory_asset.html#a39b40bf790fcb9a70647f4c0ef9c1294">cqsp::asset::TextDirectoryAsset</a></li>
 <li>Pause()&#160;:&#160;<a class="el" href="structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#a5f093b9d5a22df980c188741e63357c5">cqsp::engine::audio::AudioChannel</a>, <a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#abec554d0189161cc8467714bcc780e1a">cqsp::engine::audio::AudioInterface</a>, <a class="el" href="classcqsp_1_1engine_1_1audio_1_1_i_audio_interface.html#a70c5ca0255a1720cdbd4ed16886d8804">cqsp::engine::audio::IAudioInterface</a></li>
 <li>PauseMusic()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#ab35da1cb7d5f05d9d0cc76ebf6cc7cbc">cqsp::engine::audio::AudioInterface</a>, <a class="el" href="classcqsp_1_1engine_1_1audio_1_1_i_audio_interface.html#accf84d93521ab52b0411e530c8b56769">cqsp::engine::audio::IAudioInterface</a></li>
+<li>percentage&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a9fd6337f35c2c870b4131fc33f99b913">cqsp::scene::LoadingScene</a></li>
+<li>physical_layer&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ad53b7d6ca62075a9fc4f619be7fdb082">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>PlaceAsset()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9549cc04b06220263fb31eef2144c51a">cqsp::asset::AssetLoader</a></li>
+<li>planet&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#abeef6a7cb4fda59fa6d98ff94f49e055">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>planet_circle&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a6be2f5893b934f072b6205a745ccaa80">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>planet_heightmap&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a8e7c0e38e6bcb25854634bf9b5a767d3">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>planet_icon_layer&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#afb9feccad17303bec3ad60c15d46136a">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>planet_resource&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a39c7bf8bdb830b6f5c338aa5fc108be6">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>planet_texture&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#abf4fd036c8f93dec3545820cccdee800">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>planetDisp&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_universe_scene.html#a860f9c23248f8d7c4597aed02d9a6112">cqsp::scene::UniverseScene</a></li>
+<li>PlanetInformationPanel()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#a3563aa3ff2a2b2f0445c8a878505754b">cqsp::client::systems::SysPlanetInformation</a></li>
 <li>PlanetLoader()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_planet_loader.html#aafe54ba10da045a79498958605d6b45a">cqsp::common::systems::loading::PlanetLoader</a></li>
-<li>planets&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1_universe.html#a4eb18c8787b4ecaa05efc93eabaaa0c9">cqsp::common::Universe</a></li>
+<li>planets&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_tree.html#a83a0d4208204a81abe622fad046b9046">cqsp::client::systems::SysStarSystemTree</a>, <a class="el" href="classcqsp_1_1common_1_1_universe.html#a4eb18c8787b4ecaa05efc93eabaaa0c9">cqsp::common::Universe</a></li>
 <li>Play()&#160;:&#160;<a class="el" href="structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#a4a5bb20830146689dfc62d64e6ca8296">cqsp::engine::audio::AudioChannel</a></li>
 <li>PlayAudioClip()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#ad25b0fc1b8092e6186fc1eba141615e9">cqsp::engine::audio::AudioInterface</a>, <a class="el" href="classcqsp_1_1engine_1_1audio_1_1_i_audio_interface.html#a53788ad57217ee8dfe50835cf0bb8048">cqsp::engine::audio::IAudioInterface</a></li>
+<li>player&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_universe_scene.html#afdc6d33cb48b317b7a1ffaced190c2f7">cqsp::scene::UniverseScene</a></li>
+<li>player_civ&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_universe_scene.html#a2462ead65b6dfefcd70f34bf3168edb9">cqsp::scene::UniverseScene</a></li>
 <li>playlist&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#aab94846a0fd2170e428e89367ba5c956">cqsp::engine::audio::AudioInterface</a></li>
 <li>PlayPosition()&#160;:&#160;<a class="el" href="structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#a0f54e1e641633f471e1087f64622a098">cqsp::engine::audio::AudioChannel</a></li>
-<li>PolarCoordinate_tp()&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_polar_coordinate__tp.html#abf989cffb005f8d9f90c567da32342ab">cqsp::common::components::types::PolarCoordinate_tp&lt; T &gt;</a></li>
+<li>PolarCoordinate_tp()&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_polar_coordinate__tp.html#a8504cb80cdb5c4abf1451ba6c6a85303">cqsp::common::components::types::PolarCoordinate_tp&lt; T &gt;</a></li>
 <li>pop()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_threadsafe_queue.html#a838b4e1c439e3f2f8526be9acf825921">cqsp::asset::ThreadsafeQueue&lt; T &gt;</a></li>
 <li>population&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_population_segment.html#afcc66ae34904cfe0bddf31a9d24afd82">cqsp::common::components::PopulationSegment</a>, <a class="el" href="structcqsp_1_1common_1_1components_1_1_settlement.html#af8a6323dfc050fef3aeb4d4f4e937edf">cqsp::common::components::Settlement</a></li>
 <li>population_fufilled&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_employer.html#a65af47f64a25d49b32431156b6e4e34f">cqsp::common::components::Employer</a></li>
 <li>population_needed&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_employer.html#a19077ea28565371a7877778684580d1e">cqsp::common::components::Employer</a></li>
 <li>position&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html#a57950ab8eb16d4ec127ee8770699f4fb">cqsp::common::components::types::Kinematics</a></li>
+<li>post&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_text_test_scene.html#a5e11570fbcb39238ed976e155014b893">cqsp::scene::TextTestScene</a></li>
 <li>PostLoad()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html#abd5c8cc6510b96faaeb17e50e0ef1005">cqsp::common::systems::loading::HjsonLoader</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_planet_loader.html#adbd959e61cb652ba1046d5fd10098849">cqsp::common::systems::loading::PlanetLoader</a></li>
 <li>potential_research&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1science_1_1_scientific_research.html#abd335b152847a930ee10eb70a8a82521">cqsp::common::components::science::ScientificResearch</a></li>
+<li>power_plant_changing&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#a57e2afa590c998ee308b6d9db08f076b">cqsp::client::systems::SysPlanetInformation</a></li>
+<li>power_plant_output_panel&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#a5f71b9924e4b47a2a7bb5bd656b1e828">cqsp::client::systems::SysPlanetInformation</a></li>
 <li>PrepareRenderBuffer()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html#a684aa9eb52b246c1c866c9093a86ca8d">cqsp::engine::CQSPRenderInterface</a></li>
 <li>PresentRenderBuffer()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html#ae1c44f8d255963c331748ebedfc27deb">cqsp::engine::CQSPRenderInterface</a></li>
-<li>previous_mouseX&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a85dd85d433e5b79e61a689a1ed1401cd">cqsp::client::systems::SysStarSystemRenderer</a></li>
-<li>previous_mouseY&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aa879d84561b16bf8aced70c38884c54a">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>previous_mouseX&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a85dd85d433e5b79e61a689a1ed1401cd">cqsp::client::systems::SysStarSystemRenderer</a>, <a class="el" href="classcqsp_1_1scene_1_1_universe_scene.html#ad05e1f8076b6ff583c7cd924a8e2cdf0">cqsp::scene::UniverseScene</a></li>
+<li>previous_mouseY&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aa879d84561b16bf8aced70c38884c54a">cqsp::client::systems::SysStarSystemRenderer</a>, <a class="el" href="classcqsp_1_1scene_1_1_universe_scene.html#a59c9b260c5a5e251e9129ef4fa49296e">cqsp::scene::UniverseScene</a></li>
 <li>price&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_market_element_information.html#a5cb0d3f48178b8a3d41bb81d8aa1e678">cqsp::common::components::MarketElementInformation</a>, <a class="el" href="structcqsp_1_1common_1_1components_1_1_order.html#a6addf5146164dcbc797c10167b34cad7">cqsp::common::components::Order</a>, <a class="el" href="structcqsp_1_1common_1_1components_1_1_price.html#a70337b39d947f22d931769d71e96adad">cqsp::common::components::Price</a></li>
 <li>price_history&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1components_1_1_market_history.html#abaf0e755304b975ba77526a5f22ac7b9">cqsp::common::components::MarketHistory</a></li>
-<li>ProcessEvent()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1_credits_window.html#aa0e334721cc56e6d56c55c8cc9da1ae2">cqsp::client::CreditsWindow</a>, <a class="el" href="classcqsp_1_1client_1_1_settings_window.html#ad17174725a2c2242ce58e05de0377b60">cqsp::client::SettingsWindow</a>, <a class="el" href="classcqsp_1_1engine_1_1_application_1_1_cqsp_event_listener.html#acc34a8dcb0b59d6db5a064ed4379ff69">cqsp::engine::Application::CqspEventListener</a></li>
+<li>PrintInformation()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a5062b4c6895ce322175e56e91aa4720d">cqsp::engine::audio::AudioInterface</a></li>
+<li>ProcessEvent()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1_credits_window.html#aa0e334721cc56e6d56c55c8cc9da1ae2">cqsp::client::CreditsWindow</a>, <a class="el" href="classcqsp_1_1client_1_1_settings_window.html#ad17174725a2c2242ce58e05de0377b60">cqsp::client::SettingsWindow</a>, <a class="el" href="classcqsp_1_1engine_1_1_application_1_1_cqsp_event_listener.html#acc34a8dcb0b59d6db5a064ed4379ff69">cqsp::engine::Application::CqspEventListener</a>, <a class="el" href="classcqsp_1_1scene_1_1_main_menu_scene_1_1_event_listener.html#a3ca564b6bb5fc92fd1faa063272a992f">cqsp::scene::MainMenuScene::EventListener</a></li>
+<li>ProcessRmlUiUserInput()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a8845dd2323e8fb3aeb7fa33ccbfae95d">cqsp::engine::Application</a></li>
 <li>production&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1infrastructure_1_1_power_plant.html#aa3109c88ca5a2ffc9e2e4dce78cf68d5">cqsp::common::components::infrastructure::PowerPlant</a></li>
 <li>program&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_shader_program.html#a7397060bd155c39d7cf2834f0c99e5bb">cqsp::asset::ShaderProgram</a></li>
-<li>projection&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_basic_renderer.html#a4320ac3c83fcb49631a1bdeb856742d1">cqsp::engine::BasicRenderer</a></li>
+<li>projection&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ab4109f732237709aa363478cd3d7bab8">cqsp::client::systems::SysStarSystemRenderer</a>, <a class="el" href="classcqsp_1_1engine_1_1_basic_renderer.html#a4320ac3c83fcb49631a1bdeb856742d1">cqsp::engine::BasicRenderer</a></li>
+<li>properties&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a3ab97788bc622f17fc37242f2a729a11">cqsp::engine::Application</a></li>
 <li>prototype&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_queue_holder.html#a4474128d2e8f27973758559371baa0ef">cqsp::asset::QueueHolder</a></li>
 <li>push()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_threadsafe_queue.html#a1fb2b982006d77a262f7e4f9a1872862">cqsp::asset::ThreadsafeQueue&lt; T &gt;</a></li>
 <li>push_back()&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1bodies_1_1_orbital_system.html#ade9c600f5b1a762c79ad7de5bc161ebf">cqsp::common::components::bodies::OrbitalSystem</a></li>
@@ -109,7 +131,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:44 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

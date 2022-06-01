@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1engine_1_1_scene_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::engine::SceneManager Class Reference</div></div>
 </div><!--header-->
@@ -105,6 +108,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a16533006e9187250bcaa1b7a2be9ee3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1e06d8f3843515fb5d25dc8c1a9a0be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#aa1e06d8f3843515fb5d25dc8c1a9a0be">DeleteCurrentScene</a> ()</td></tr>
 <tr class="separator:aa1e06d8f3843515fb5d25dc8c1a9a0be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a736108e7df6fb32fe33578b2ffb63a05"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1engine_1_1_scene.html">Scene</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a736108e7df6fb32fe33578b2ffb63a05">m_scene</a></td></tr>
+<tr class="separator:a736108e7df6fb32fe33578b2ffb63a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad852605b89188a54e3aa3e9a2f53feda"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1engine_1_1_scene.html">Scene</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#ad852605b89188a54e3aa3e9a2f53feda">m_next_scene</a></td></tr>
+<tr class="separator:ad852605b89188a54e3aa3e9a2f53feda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b8ff55a49fc0c7ac79000e049e9bb74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a7b8ff55a49fc0c7ac79000e049e9bb74">m_switch</a></td></tr>
+<tr class="memdesc:a7b8ff55a49fc0c7ac79000e049e9bb74"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the next scene has been set.  <a href="classcqsp_1_1engine_1_1_scene_manager.html#a7b8ff55a49fc0c7ac79000e049e9bb74">More...</a><br /></td></tr>
+<tr class="separator:a7b8ff55a49fc0c7ac79000e049e9bb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Manages scenes for the application. </p>
@@ -294,6 +307,75 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad852605b89188a54e3aa3e9a2f53feda" name="ad852605b89188a54e3aa3e9a2f53feda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad852605b89188a54e3aa3e9a2f53feda">&#9670;&nbsp;</a></span>m_next_scene</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classcqsp_1_1engine_1_1_scene.html">Scene</a>&gt; cqsp::engine::SceneManager::m_next_scene</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a736108e7df6fb32fe33578b2ffb63a05" name="a736108e7df6fb32fe33578b2ffb63a05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a736108e7df6fb32fe33578b2ffb63a05">&#9670;&nbsp;</a></span>m_scene</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classcqsp_1_1engine_1_1_scene.html">Scene</a>&gt; cqsp::engine::SceneManager::m_scene</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b8ff55a49fc0c7ac79000e049e9bb74" name="a7b8ff55a49fc0c7ac79000e049e9bb74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b8ff55a49fc0c7ac79000e049e9bb74">&#9670;&nbsp;</a></span>m_switch</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::engine::SceneManager::m_switch</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If the next scene has been set. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/engine/<a class="el" href="application_8h_source.html">application.h</a></li>
 <li>/github/workspace/src/engine/<a class="el" href="application_8cpp.html">application.cpp</a></li>
@@ -301,7 +383,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

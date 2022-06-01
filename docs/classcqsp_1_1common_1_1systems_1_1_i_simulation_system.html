@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::common::systems::ISimulationSystem Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
@@ -91,7 +94,7 @@ Inheritance diagram for cqsp::common::systems::ISimulationSystem:</div>
 <area href="classcqsp_1_1common_1_1systems_1_1_sys_population_consumption.html" alt="cqsp::common::systems::SysPopulationConsumption" shape="rect" coords="308,448,606,472"/>
 <area href="classcqsp_1_1common_1_1systems_1_1_sys_population_growth.html" alt="cqsp::common::systems::SysPopulationGrowth" shape="rect" coords="308,504,606,528"/>
 <area href="classcqsp_1_1common_1_1systems_1_1_sys_science_lab.html" alt="cqsp::common::systems::SysScienceLab" shape="rect" coords="308,560,606,584"/>
-<area href="classcqsp_1_1common_1_1systems_1_1_sys_script.html" alt="cqsp::common::systems::SysScript" shape="rect" coords="308,616,606,640"/>
+<area href="classcqsp_1_1common_1_1systems_1_1_sys_script.html" title="Runs scripts that are added to the game" alt="cqsp::common::systems::SysScript" shape="rect" coords="308,616,606,640"/>
 <area href="classcqsp_1_1common_1_1systems_1_1_sys_surface.html" alt="cqsp::common::systems::SysSurface" shape="rect" coords="308,672,606,696"/>
 <area href="classcqsp_1_1common_1_1systems_1_1_sys_tech_progress.html" alt="cqsp::common::systems::SysTechProgress" shape="rect" coords="308,728,606,752"/>
 <area href="classcqsp_1_1common_1_1systems_1_1_sys_wallet_reset.html" alt="cqsp::common::systems::SysWalletReset" shape="rect" coords="308,784,606,808"/>
@@ -101,7 +104,7 @@ Inheritance diagram for cqsp::common::systems::ISimulationSystem:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5c0163458b4975f070a6f45e12f61cdf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a5c0163458b4975f070a6f45e12f61cdf">ISimulationSystem</a> (<a class="el" href="classcqsp_1_1common_1_1_game.html">Game</a> &amp;game)</td></tr>
+<tr class="memitem:a5c0163458b4975f070a6f45e12f61cdf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a5c0163458b4975f070a6f45e12f61cdf">ISimulationSystem</a> (<a class="el" href="classcqsp_1_1common_1_1_game.html">Game</a> &amp;<a class="el" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a5f88777255125e6fee6951511f36f3e2">game</a>)</td></tr>
 <tr class="separator:a5c0163458b4975f070a6f45e12f61cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2cc6ad45a5161a8bb3d196240803caa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#af2cc6ad45a5161a8bb3d196240803caa">DoSystem</a> ()=0</td></tr>
 <tr class="separator:af2cc6ad45a5161a8bb3d196240803caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,6 +117,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a0d26814b4d4eb1b0ac1f8e1073709cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab073b6c86b35dadfaa8e166f42ac3330"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#ab073b6c86b35dadfaa8e166f42ac3330">GetUniverse</a> ()</td></tr>
 <tr class="separator:ab073b6c86b35dadfaa8e166f42ac3330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a5f88777255125e6fee6951511f36f3e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1_game.html">Game</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a5f88777255125e6fee6951511f36f3e2">game</a></td></tr>
+<tr class="separator:a5f88777255125e6fee6951511f36f3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5c0163458b4975f070a6f45e12f61cdf" name="a5c0163458b4975f070a6f45e12f61cdf"></a>
@@ -242,8 +250,32 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >How often is <code>DoSystem</code> is run. It will be run every n number of ticks when the tick becomes a multiple of the number below. The default is 25, which is slightly longer than the time of day. </p>
 
 <p>Reimplemented in <a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_population_growth.html#a85fa3f132e2ccb4c46f6ec31ca4cc3bc">cqsp::common::systems::SysPopulationGrowth</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_path.html#ab32f4e1841408b2384443a75a7103963">cqsp::common::systems::SysPath</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_surface.html#a2ba2869c34c02b7526dfd01c172b1ba0">cqsp::common::systems::SysSurface</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_script.html#a787908d7bcd4a86f85eca8ea9ebb8fc8">cqsp::common::systems::SysScript</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_agent.html#a0d74b104d65606deb99b5cac9d07bb25">cqsp::common::systems::SysAgent</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_mine.html#ad5df56c3007e41de27698e34332c6cb9">cqsp::common::systems::SysMine</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#ae3a7bfe9963abdeec167dc2dcfa097bb">cqsp::common::systems::SysOrbit</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html#a5f65446475ce1ffbef53556a56b90788">cqsp::common::systems::SysNavyControl</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_science_lab.html#a1499061fc504af9d86b47ab741f01c6f">cqsp::common::systems::SysScienceLab</a>, and <a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_tech_progress.html#acedf4b75b7bc849d474179cf3a6fc4f7">cqsp::common::systems::SysTechProgress</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5f88777255125e6fee6951511f36f3e2" name="a5f88777255125e6fee6951511f36f3e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f88777255125e6fee6951511f36f3e2">&#9670;&nbsp;</a></span>game</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1common_1_1_game.html">Game</a>&amp; cqsp::common::systems::ISimulationSystem::game</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -253,7 +285,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

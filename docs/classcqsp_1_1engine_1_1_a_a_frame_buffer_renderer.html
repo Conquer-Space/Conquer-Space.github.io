@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::engine::AAFrameBufferRenderer Class Reference</div></div>
 </div><!--header-->
@@ -90,7 +93,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1701ca27f32ef9c24edbc9b349ddabbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae814c70d37d13cbbf46ebd3ee3701762"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#ae814c70d37d13cbbf46ebd3ee3701762">~AAFrameBufferRenderer</a> ()</td></tr>
 <tr class="separator:ae814c70d37d13cbbf46ebd3ee3701762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab890559cfe1f905231cf0aaa5e49520b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#ab890559cfe1f905231cf0aaa5e49520b">InitTexture</a> (int width=1280, int height=720)</td></tr>
+<tr class="memitem:ab890559cfe1f905231cf0aaa5e49520b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#ab890559cfe1f905231cf0aaa5e49520b">InitTexture</a> (int <a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a5488fd380aa633a457d321201bdb3516">width</a>=1280, int <a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a840725a350601c3a176c38ac3bdc41b2">height</a>=720)</td></tr>
 <tr class="separator:ab890559cfe1f905231cf0aaa5e49520b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39085736a671e716b7178c5571dad6c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a39085736a671e716b7178c5571dad6c7">Clear</a> () override</td></tr>
 <tr class="separator:a39085736a671e716b7178c5571dad6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -113,6 +116,25 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_classcqsp_1_1engine_1_1_i_framebuffer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcqsp_1_1engine_1_1_i_framebuffer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcqsp_1_1engine_1_1_i_framebuffer.html">cqsp::engine::IFramebuffer</a></td></tr>
 <tr class="memitem:ac3cbdf622e572a5b8900d378de543252 inherit pub_methods_classcqsp_1_1engine_1_1_i_framebuffer"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_i_framebuffer.html#ac3cbdf622e572a5b8900d378de543252">~IFramebuffer</a> ()</td></tr>
 <tr class="separator:ac3cbdf622e572a5b8900d378de543252 inherit pub_methods_classcqsp_1_1engine_1_1_i_framebuffer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a5488fd380aa633a457d321201bdb3516"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a5488fd380aa633a457d321201bdb3516">width</a></td></tr>
+<tr class="separator:a5488fd380aa633a457d321201bdb3516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840725a350601c3a176c38ac3bdc41b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a840725a350601c3a176c38ac3bdc41b2">height</a></td></tr>
+<tr class="separator:a840725a350601c3a176c38ac3bdc41b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a875b181c5f8e01ddc1fdac055b243ca4"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a875b181c5f8e01ddc1fdac055b243ca4">framebuffer</a></td></tr>
+<tr class="separator:a875b181c5f8e01ddc1fdac055b243ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9551d650df2adc47cd66d1fe724e7af7"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a9551d650df2adc47cd66d1fe724e7af7">intermediateFBO</a></td></tr>
+<tr class="separator:a9551d650df2adc47cd66d1fe724e7af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02a52acd5ff5781642a56bf5225be313"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a02a52acd5ff5781642a56bf5225be313">screenTexture</a></td></tr>
+<tr class="separator:a02a52acd5ff5781642a56bf5225be313"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfeae9b209b0bdfc988d691ec10fe0fd"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#adfeae9b209b0bdfc988d691ec10fe0fd">mscat</a></td></tr>
+<tr class="separator:adfeae9b209b0bdfc988d691ec10fe0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a531acb88c3cdbc99acfee6cfb7334179"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">cqsp::asset::ShaderProgram_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a531acb88c3cdbc99acfee6cfb7334179">buffer_shader</a></td></tr>
+<tr class="separator:a531acb88c3cdbc99acfee6cfb7334179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a398b6a0b7ccbce9450273df958ae3dc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_mesh.html">cqsp::engine::Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a398b6a0b7ccbce9450273df958ae3dc0">mesh_output</a></td></tr>
+<tr class="separator:a398b6a0b7ccbce9450273df958ae3dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1701ca27f32ef9c24edbc9b349ddabbc" name="a1701ca27f32ef9c24edbc9b349ddabbc"></a>
@@ -442,6 +464,183 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a531acb88c3cdbc99acfee6cfb7334179" name="a531acb88c3cdbc99acfee6cfb7334179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a531acb88c3cdbc99acfee6cfb7334179">&#9670;&nbsp;</a></span>buffer_shader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">cqsp::asset::ShaderProgram_t</a> cqsp::engine::AAFrameBufferRenderer::buffer_shader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a875b181c5f8e01ddc1fdac055b243ca4" name="a875b181c5f8e01ddc1fdac055b243ca4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a875b181c5f8e01ddc1fdac055b243ca4">&#9670;&nbsp;</a></span>framebuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int cqsp::engine::AAFrameBufferRenderer::framebuffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a840725a350601c3a176c38ac3bdc41b2" name="a840725a350601c3a176c38ac3bdc41b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a840725a350601c3a176c38ac3bdc41b2">&#9670;&nbsp;</a></span>height</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::engine::AAFrameBufferRenderer::height</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9551d650df2adc47cd66d1fe724e7af7" name="a9551d650df2adc47cd66d1fe724e7af7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9551d650df2adc47cd66d1fe724e7af7">&#9670;&nbsp;</a></span>intermediateFBO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int cqsp::engine::AAFrameBufferRenderer::intermediateFBO</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a398b6a0b7ccbce9450273df958ae3dc0" name="a398b6a0b7ccbce9450273df958ae3dc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a398b6a0b7ccbce9450273df958ae3dc0">&#9670;&nbsp;</a></span>mesh_output</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_mesh.html">cqsp::engine::Mesh</a>* cqsp::engine::AAFrameBufferRenderer::mesh_output</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adfeae9b209b0bdfc988d691ec10fe0fd" name="adfeae9b209b0bdfc988d691ec10fe0fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfeae9b209b0bdfc988d691ec10fe0fd">&#9670;&nbsp;</a></span>mscat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int cqsp::engine::AAFrameBufferRenderer::mscat</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02a52acd5ff5781642a56bf5225be313" name="a02a52acd5ff5781642a56bf5225be313"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02a52acd5ff5781642a56bf5225be313">&#9670;&nbsp;</a></span>screenTexture</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int cqsp::engine::AAFrameBufferRenderer::screenTexture</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5488fd380aa633a457d321201bdb3516" name="a5488fd380aa633a457d321201bdb3516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5488fd380aa633a457d321201bdb3516">&#9670;&nbsp;</a></span>width</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::engine::AAFrameBufferRenderer::width</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/engine/renderer/<a class="el" href="framebuffer_8h_source.html">framebuffer.h</a></li>
 <li>/github/workspace/src/engine/renderer/<a class="el" href="framebuffer_8cpp.html">framebuffer.cpp</a></li>
@@ -449,7 +648,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

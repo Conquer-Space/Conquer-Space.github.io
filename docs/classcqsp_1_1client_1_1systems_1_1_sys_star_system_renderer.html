@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -70,6 +72,8 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::client::systems::SysStarSystemRenderer Class Reference</div></div>
 </div><!--header-->
@@ -131,6 +135,140 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7711ef4cc9b1bccbd71dc8dbaa606b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a853393e8621ac6bd6708d36984106ada"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a853393e8621ac6bd6708d36984106ada">view_center</a></td></tr>
 <tr class="separator:a853393e8621ac6bd6708d36984106ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a07c7801cfa76363db12be119294f53e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a07c7801cfa76363db12be119294f53e2">DrawStars</a> ()</td></tr>
+<tr class="separator:a07c7801cfa76363db12be119294f53e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9831593bf11fbd9ed0ed10d4407df58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ac9831593bf11fbd9ed0ed10d4407df58">DrawBodies</a> ()</td></tr>
+<tr class="separator:ac9831593bf11fbd9ed0ed10d4407df58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1efd279ce5a5bbb77c6d9ac3f01c8102"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a1efd279ce5a5bbb77c6d9ac3f01c8102">DrawShips</a> ()</td></tr>
+<tr class="separator:a1efd279ce5a5bbb77c6d9ac3f01c8102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3abded2f9070713744389b89af235cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ad3abded2f9070713744389b89af235cf">DrawSkybox</a> ()</td></tr>
+<tr class="separator:ad3abded2f9070713744389b89af235cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a3323044dc316d7bc92a88c683a328e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a5a3323044dc316d7bc92a88c683a328e">DrawEntityName</a> (glm::vec3 &amp;object_pos, entt::entity ent_id)</td></tr>
+<tr class="separator:a5a3323044dc316d7bc92a88c683a328e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad44bf8659cc0ff60a77d998017e3f488"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ad44bf8659cc0ff60a77d998017e3f488">DrawPlanetIcon</a> (glm::vec3 &amp;object_pos)</td></tr>
+<tr class="separator:ad44bf8659cc0ff60a77d998017e3f488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91908c77a4e602b7a9291cd27ab82d86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a91908c77a4e602b7a9291cd27ab82d86">DrawPlanetBillboards</a> (const entt::entity &amp;ent_id, const glm::vec3 &amp;object_pos)</td></tr>
+<tr class="separator:a91908c77a4e602b7a9291cd27ab82d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f30ac16e8d4cf8708aaf0b773343c8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a2f30ac16e8d4cf8708aaf0b773343c8d">DrawShipIcon</a> (glm::vec3 &amp;object_pos)</td></tr>
+<tr class="separator:a2f30ac16e8d4cf8708aaf0b773343c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba871d088320a8c817f5dd7268373b12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aba871d088320a8c817f5dd7268373b12">DrawCityIcon</a> (glm::vec3 &amp;object_pos)</td></tr>
+<tr class="separator:aba871d088320a8c817f5dd7268373b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7dbe3d7e072229465e08da28d6ac1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a6e7dbe3d7e072229465e08da28d6ac1f">DrawPlanet</a> (glm::vec3 &amp;object_pos, entt::entity entity)</td></tr>
+<tr class="separator:a6e7dbe3d7e072229465e08da28d6ac1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a134ad489e06198212d5f2de842be1885"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a134ad489e06198212d5f2de842be1885">DrawTexturedPlanet</a> (glm::vec3 &amp;object_pos, entt::entity entity)</td></tr>
+<tr class="separator:a134ad489e06198212d5f2de842be1885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34dc4d19af4622cb44594bffc1c061df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a34dc4d19af4622cb44594bffc1c061df">DrawStar</a> (const entt::entity &amp;entity, glm::vec3 &amp;object_pos)</td></tr>
+<tr class="separator:a34dc4d19af4622cb44594bffc1c061df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbfef56085c227bec5510380431d76da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#afbfef56085c227bec5510380431d76da">DrawTerrainlessPlanet</a> (const entt::entity &amp;entity, glm::vec3 &amp;object_pos)</td></tr>
+<tr class="separator:afbfef56085c227bec5510380431d76da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618e3130cde16a2872fbbbd3c27a6536"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a618e3130cde16a2872fbbbd3c27a6536">RenderCities</a> (glm::vec3 &amp;object_pos, const entt::entity &amp;body_entity)</td></tr>
+<tr class="separator:a618e3130cde16a2872fbbbd3c27a6536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44b9b62435a60dffec74dcf327780c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af44b9b62435a60dffec74dcf327780c0">CityIsVisible</a> (glm::vec3 city_pos, glm::vec3 planet_pos, glm::vec3 <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a94a5ca1342ed545d2b57dd2d55e3f862">cam_pos</a>)</td></tr>
+<tr class="separator:af44b9b62435a60dffec74dcf327780c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add2154b4e106f3483e1934cdd0d4260e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#add2154b4e106f3483e1934cdd0d4260e">CalculateCityPositions</a> ()</td></tr>
+<tr class="separator:add2154b4e106f3483e1934cdd0d4260e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac54a8b098e07810151782a7ad9443a2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ac54a8b098e07810151782a7ad9443a2e">CalculateScroll</a> ()</td></tr>
+<tr class="separator:ac54a8b098e07810151782a7ad9443a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a830739b8ac3ed7f984c738fc794bcce8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a830739b8ac3ed7f984c738fc794bcce8">FocusCityView</a> ()</td></tr>
+<tr class="separator:a830739b8ac3ed7f984c738fc794bcce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdce08c0253df99100ebcf2e436ff1f2"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#abdce08c0253df99100ebcf2e436ff1f2">CalculateObjectPos</a> (const entt::entity &amp;)</td></tr>
+<tr class="separator:abdce08c0253df99100ebcf2e436ff1f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75776ea3e00156bf0b6a06b787667cfa"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a75776ea3e00156bf0b6a06b787667cfa">CalculateCenteredObject</a> (const entt::entity &amp;)</td></tr>
+<tr class="separator:a75776ea3e00156bf0b6a06b787667cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172ae69afbcad4da21bb4794a916ea39"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a172ae69afbcad4da21bb4794a916ea39">CalculateCenteredObject</a> (const glm::vec3 &amp;)</td></tr>
+<tr class="separator:a172ae69afbcad4da21bb4794a916ea39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a7d28df06f7a6175edd0b7c4d6c67b"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af1a7d28df06f7a6175edd0b7c4d6c67b">TranslateToNormalized</a> (const glm::vec3 &amp;)</td></tr>
+<tr class="separator:af1a7d28df06f7a6175edd0b7c4d6c67b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add689aab6e8616e18469bb6b38637969"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#add689aab6e8616e18469bb6b38637969">CalculateCamera</a> ()</td></tr>
+<tr class="separator:add689aab6e8616e18469bb6b38637969"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8cc1f01abf3939e67a3d6acc2dae273"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ae8cc1f01abf3939e67a3d6acc2dae273">MoveCamera</a> (double deltaTime)</td></tr>
+<tr class="separator:ae8cc1f01abf3939e67a3d6acc2dae273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a807831b0d6dbef71b85f338cd2bf8c8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a807831b0d6dbef71b85f338cd2bf8c8b">CheckResourceDistRender</a> ()</td></tr>
+<tr class="separator:a807831b0d6dbef71b85f338cd2bf8c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1afab5371740962022f13280d50e04d"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aa1afab5371740962022f13280d50e04d">CalculateMouseRay</a> (const glm::vec3 &amp;ray_nds)</td></tr>
+<tr class="separator:aa1afab5371740962022f13280d50e04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0830fc9f9e34e142d08ef643ab9a3865"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a0830fc9f9e34e142d08ef643ab9a3865">GetWindowRatio</a> ()</td></tr>
+<tr class="separator:a0830fc9f9e34e142d08ef643ab9a3865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd61e7b5a16349bb18b8725676e8c04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#abcd61e7b5a16349bb18b8725676e8c04">GenerateOrbitLines</a> ()</td></tr>
+<tr class="separator:abcd61e7b5a16349bb18b8725676e8c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:abccbcec4594e7a49a760195e35e60a0b"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#abccbcec4594e7a49a760195e35e60a0b">m_viewing_entity</a> = entt::null</td></tr>
+<tr class="separator:abccbcec4594e7a49a760195e35e60a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a039000b9f88c99140b406eb0201e669c"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a039000b9f88c99140b406eb0201e669c">terrain_displaying</a> = entt::null</td></tr>
+<tr class="separator:a039000b9f88c99140b406eb0201e669c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a8cc47f551f9cc255944775c358a2d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a8a8cc47f551f9cc255944775c358a2d2">m_universe</a></td></tr>
+<tr class="separator:a8a8cc47f551f9cc255944775c358a2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1318a5dacd69a69ccc196cb34ade6d5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_application.html">cqsp::engine::Application</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a1318a5dacd69a69ccc196cb34ade6d5c">m_app</a></td></tr>
+<tr class="separator:a1318a5dacd69a69ccc196cb34ade6d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeef6a7cb4fda59fa6d98ff94f49e055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#abeef6a7cb4fda59fa6d98ff94f49e055">planet</a></td></tr>
+<tr class="separator:abeef6a7cb4fda59fa6d98ff94f49e055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad34f172a12bc8872b9e21612392bcb16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ad34f172a12bc8872b9e21612392bcb16">textured_planet</a></td></tr>
+<tr class="separator:ad34f172a12bc8872b9e21612392bcb16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac17cd2f351c82745511605304c16dc8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ac17cd2f351c82745511605304c16dc8b">sky</a></td></tr>
+<tr class="separator:ac17cd2f351c82745511605304c16dc8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be2f5893b934f072b6205a745ccaa80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a6be2f5893b934f072b6205a745ccaa80">planet_circle</a></td></tr>
+<tr class="separator:a6be2f5893b934f072b6205a745ccaa80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70b4a2704d3fc5bcaba619953c2cec3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a70b4a2704d3fc5bcaba619953c2cec3d">ship_overlay</a></td></tr>
+<tr class="separator:a70b4a2704d3fc5bcaba619953c2cec3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7060fe632db733dd151cf8c69fe610d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a7060fe632db733dd151cf8c69fe610d4">city</a></td></tr>
+<tr class="separator:a7060fe632db733dd151cf8c69fe610d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56a51fc7d3352321a0d842938da36508"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a56a51fc7d3352321a0d842938da36508">sun</a></td></tr>
+<tr class="separator:a56a51fc7d3352321a0d842938da36508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a6af76cb91e509261e61a453910cdc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">cqsp::asset::ShaderProgram_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a5a6af76cb91e509261e61a453910cdc0">orbit_shader</a></td></tr>
+<tr class="separator:a5a6af76cb91e509261e61a453910cdc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ba94acb65c84740509a4ff48983774f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">cqsp::asset::ShaderProgram_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a0ba94acb65c84740509a4ff48983774f">near_shader</a></td></tr>
+<tr class="separator:a0ba94acb65c84740509a4ff48983774f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf4fd036c8f93dec3545820cccdee800"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_texture.html">cqsp::asset::Texture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#abf4fd036c8f93dec3545820cccdee800">planet_texture</a></td></tr>
+<tr class="separator:abf4fd036c8f93dec3545820cccdee800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e7c0e38e6bcb25854634bf9b5a767d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_texture.html">cqsp::asset::Texture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a8e7c0e38e6bcb25854634bf9b5a767d3">planet_heightmap</a></td></tr>
+<tr class="separator:a8e7c0e38e6bcb25854634bf9b5a767d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c7bf8bdb830b6f5c338aa5fc108be6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_texture.html">cqsp::asset::Texture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a39c7bf8bdb830b6f5c338aa5fc108be6">planet_resource</a></td></tr>
+<tr class="separator:a39c7bf8bdb830b6f5c338aa5fc108be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94a5ca1342ed545d2b57dd2d55e3f862"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a94a5ca1342ed545d2b57dd2d55e3f862">cam_pos</a></td></tr>
+<tr class="separator:a94a5ca1342ed545d2b57dd2d55e3f862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab57bc4e979a33646286edd7199754863"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ab57bc4e979a33646286edd7199754863">cam_up</a> = glm::vec3(0.0f, 1.0f, 0.0f)</td></tr>
+<tr class="separator:ab57bc4e979a33646286edd7199754863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eabbb1c725c46d668c21758a0b794f7"><td class="memItemLeft" align="right" valign="top">glm::mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a9eabbb1c725c46d668c21758a0b794f7">camera_matrix</a></td></tr>
+<tr class="separator:a9eabbb1c725c46d668c21758a0b794f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4109f732237709aa363478cd3d7bab8"><td class="memItemLeft" align="right" valign="top">glm::mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ab4109f732237709aa363478cd3d7bab8">projection</a></td></tr>
+<tr class="separator:ab4109f732237709aa363478cd3d7bab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09134c766b3649644efb1f6c90367442"><td class="memItemLeft" align="right" valign="top">glm::vec4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a09134c766b3649644efb1f6c90367442">viewport</a></td></tr>
+<tr class="separator:a09134c766b3649644efb1f6c90367442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e56365a128b910cf39de6e0b55e578b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a3e56365a128b910cf39de6e0b55e578b">circle_size</a> = 0.01f</td></tr>
+<tr class="separator:a3e56365a128b910cf39de6e0b55e578b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaee3ebb532e409d989c825bcfe8aec9"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#adaee3ebb532e409d989c825bcfe8aec9">divider</a> = 0.01</td></tr>
+<tr class="separator:adaee3ebb532e409d989c825bcfe8aec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56c40afb05a2b9ab64631848d356dc70"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a56c40afb05a2b9ab64631848d356dc70">window_ratio</a></td></tr>
+<tr class="separator:a56c40afb05a2b9ab64631848d356dc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6794420285671409db5e5d1c0a721bc"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ad6794420285671409db5e5d1c0a721bc">sun_position</a></td></tr>
+<tr class="separator:ad6794420285671409db5e5d1c0a721bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99964e5178012ca92583e8ec1b1fc76f"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a99964e5178012ca92583e8ec1b1fc76f">sun_color</a></td></tr>
+<tr class="separator:a99964e5178012ca92583e8ec1b1fc76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad9d97f28187e5f605eb3117bbd2d381"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_layer_renderer.html">engine::LayerRenderer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aad9d97f28187e5f605eb3117bbd2d381">renderer</a></td></tr>
+<tr class="separator:aad9d97f28187e5f605eb3117bbd2d381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d89dc3261f1ea6273c918532b936f9d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a0d89dc3261f1ea6273c918532b936f9d">ship_icon_layer</a></td></tr>
+<tr class="separator:a0d89dc3261f1ea6273c918532b936f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9feccad17303bec3ad60c15d46136a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#afb9feccad17303bec3ad60c15d46136a">planet_icon_layer</a></td></tr>
+<tr class="separator:afb9feccad17303bec3ad60c15d46136a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53b7d6ca62075a9fc4f619be7fdb082"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ad53b7d6ca62075a9fc4f619be7fdb082">physical_layer</a></td></tr>
+<tr class="separator:ad53b7d6ca62075a9fc4f619be7fdb082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b72e056c273b5eaa4f9c3adbbfee45e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a7b72e056c273b5eaa4f9c3adbbfee45e">skybox_layer</a></td></tr>
+<tr class="separator:a7b72e056c273b5eaa4f9c3adbbfee45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a9ecdd0c73dca66564bfc721b44ffd8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a7a9ecdd0c73dca66564bfc721b44ffd8">is_founding_city</a> = false</td></tr>
+<tr class="separator:a7a9ecdd0c73dca66564bfc721b44ffd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d3b19aa78df4a3228d3ff3e79e0a50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a27d3b19aa78df4a3228d3ff3e79e0a50">is_rendering_founding_city</a> = false</td></tr>
+<tr class="separator:a27d3b19aa78df4a3228d3ff3e79e0a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3b0d6a7c8600780a121306304dd3cd5"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ad3b0d6a7c8600780a121306304dd3cd5">city_founding_position</a></td></tr>
+<tr class="separator:ad3b0d6a7c8600780a121306304dd3cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05dbd52ab45da5f6e93bcab929c52d0a"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a05dbd52ab45da5f6e93bcab929c52d0a">on_planet</a></td></tr>
+<tr class="separator:a05dbd52ab45da5f6e93bcab929c52d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c75d85fa0203a5e63f55b7db818127e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a9c75d85fa0203a5e63f55b7db818127e">view_scale</a> = 10.f</td></tr>
+<tr class="separator:a9c75d85fa0203a5e63f55b7db818127e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af7564e3ed4f7d75c9748ab1d3dadcf64" name="af7564e3ed4f7d75c9748ab1d3dadcf64"></a>
@@ -179,6 +317,252 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="add689aab6e8616e18469bb6b38637969" name="add689aab6e8616e18469bb6b38637969"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add689aab6e8616e18469bb6b38637969">&#9670;&nbsp;</a></span>CalculateCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::CalculateCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a75776ea3e00156bf0b6a06b787667cfa" name="a75776ea3e00156bf0b6a06b787667cfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75776ea3e00156bf0b6a06b787667cfa">&#9670;&nbsp;</a></span>CalculateCenteredObject() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 SysStarSystemRenderer::CalculateCenteredObject </td>
+          <td>(</td>
+          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>ent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a172ae69afbcad4da21bb4794a916ea39" name="a172ae69afbcad4da21bb4794a916ea39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a172ae69afbcad4da21bb4794a916ea39">&#9670;&nbsp;</a></span>CalculateCenteredObject() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 SysStarSystemRenderer::CalculateCenteredObject </td>
+          <td>(</td>
+          <td class="paramtype">const glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>vec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add2154b4e106f3483e1934cdd0d4260e" name="add2154b4e106f3483e1934cdd0d4260e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add2154b4e106f3483e1934cdd0d4260e">&#9670;&nbsp;</a></span>CalculateCityPositions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::CalculateCityPositions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1afab5371740962022f13280d50e04d" name="aa1afab5371740962022f13280d50e04d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1afab5371740962022f13280d50e04d">&#9670;&nbsp;</a></span>CalculateMouseRay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 SysStarSystemRenderer::CalculateMouseRay </td>
+          <td>(</td>
+          <td class="paramtype">const glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>ray_nds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abdce08c0253df99100ebcf2e436ff1f2" name="abdce08c0253df99100ebcf2e436ff1f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdce08c0253df99100ebcf2e436ff1f2">&#9670;&nbsp;</a></span>CalculateObjectPos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 SysStarSystemRenderer::CalculateObjectPos </td>
+          <td>(</td>
+          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>ent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac54a8b098e07810151782a7ad9443a2e" name="ac54a8b098e07810151782a7ad9443a2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac54a8b098e07810151782a7ad9443a2e">&#9670;&nbsp;</a></span>CalculateScroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::CalculateScroll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a807831b0d6dbef71b85f338cd2bf8c8b" name="a807831b0d6dbef71b85f338cd2bf8c8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a807831b0d6dbef71b85f338cd2bf8c8b">&#9670;&nbsp;</a></span>CheckResourceDistRender()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::CheckResourceDistRender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af44b9b62435a60dffec74dcf327780c0" name="af44b9b62435a60dffec74dcf327780c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af44b9b62435a60dffec74dcf327780c0">&#9670;&nbsp;</a></span>CityIsVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SysStarSystemRenderer::CityIsVisible </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec3&#160;</td>
+          <td class="paramname"><em>city_pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">glm::vec3&#160;</td>
+          <td class="paramname"><em>planet_pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">glm::vec3&#160;</td>
+          <td class="paramname"><em>cam_pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae1df6610df1a826f0ef4f3cb53726546" name="ae1df6610df1a826f0ef4f3cb53726546"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1df6610df1a826f0ef4f3cb53726546">&#9670;&nbsp;</a></span>DoUI()</h2>
 
@@ -197,6 +581,93 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac9831593bf11fbd9ed0ed10d4407df58" name="ac9831593bf11fbd9ed0ed10d4407df58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9831593bf11fbd9ed0ed10d4407df58">&#9670;&nbsp;</a></span>DrawBodies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::DrawBodies </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba871d088320a8c817f5dd7268373b12" name="aba871d088320a8c817f5dd7268373b12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba871d088320a8c817f5dd7268373b12">&#9670;&nbsp;</a></span>DrawCityIcon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::DrawCityIcon </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>object_pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a3323044dc316d7bc92a88c683a328e" name="a5a3323044dc316d7bc92a88c683a328e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a3323044dc316d7bc92a88c683a328e">&#9670;&nbsp;</a></span>DrawEntityName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::DrawEntityName </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>object_pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>ent_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="add47f847d27b2118534a004ae218ad75" name="add47f847d27b2118534a004ae218ad75"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add47f847d27b2118534a004ae218ad75">&#9670;&nbsp;</a></span>DrawOrbit()</h2>
 
@@ -211,6 +682,363 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e7dbe3d7e072229465e08da28d6ac1f" name="a6e7dbe3d7e072229465e08da28d6ac1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7dbe3d7e072229465e08da28d6ac1f">&#9670;&nbsp;</a></span>DrawPlanet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::DrawPlanet </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>object_pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91908c77a4e602b7a9291cd27ab82d86" name="a91908c77a4e602b7a9291cd27ab82d86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91908c77a4e602b7a9291cd27ab82d86">&#9670;&nbsp;</a></span>DrawPlanetBillboards()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::DrawPlanetBillboards </td>
+          <td>(</td>
+          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>ent_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>object_pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad44bf8659cc0ff60a77d998017e3f488" name="ad44bf8659cc0ff60a77d998017e3f488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad44bf8659cc0ff60a77d998017e3f488">&#9670;&nbsp;</a></span>DrawPlanetIcon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::DrawPlanetIcon </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>object_pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f30ac16e8d4cf8708aaf0b773343c8d" name="a2f30ac16e8d4cf8708aaf0b773343c8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f30ac16e8d4cf8708aaf0b773343c8d">&#9670;&nbsp;</a></span>DrawShipIcon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::DrawShipIcon </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>object_pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1efd279ce5a5bbb77c6d9ac3f01c8102" name="a1efd279ce5a5bbb77c6d9ac3f01c8102"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1efd279ce5a5bbb77c6d9ac3f01c8102">&#9670;&nbsp;</a></span>DrawShips()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::DrawShips </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3abded2f9070713744389b89af235cf" name="ad3abded2f9070713744389b89af235cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3abded2f9070713744389b89af235cf">&#9670;&nbsp;</a></span>DrawSkybox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::DrawSkybox </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34dc4d19af4622cb44594bffc1c061df" name="a34dc4d19af4622cb44594bffc1c061df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34dc4d19af4622cb44594bffc1c061df">&#9670;&nbsp;</a></span>DrawStar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::DrawStar </td>
+          <td>(</td>
+          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>object_pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07c7801cfa76363db12be119294f53e2" name="a07c7801cfa76363db12be119294f53e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07c7801cfa76363db12be119294f53e2">&#9670;&nbsp;</a></span>DrawStars()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::DrawStars </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbfef56085c227bec5510380431d76da" name="afbfef56085c227bec5510380431d76da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbfef56085c227bec5510380431d76da">&#9670;&nbsp;</a></span>DrawTerrainlessPlanet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::DrawTerrainlessPlanet </td>
+          <td>(</td>
+          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>object_pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a134ad489e06198212d5f2de842be1885" name="a134ad489e06198212d5f2de842be1885"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a134ad489e06198212d5f2de842be1885">&#9670;&nbsp;</a></span>DrawTexturedPlanet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::DrawTexturedPlanet </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>object_pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a830739b8ac3ed7f984c738fc794bcce8" name="a830739b8ac3ed7f984c738fc794bcce8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a830739b8ac3ed7f984c738fc794bcce8">&#9670;&nbsp;</a></span>FocusCityView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::FocusCityView </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcd61e7b5a16349bb18b8725676e8c04" name="abcd61e7b5a16349bb18b8725676e8c04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcd61e7b5a16349bb18b8725676e8c04">&#9670;&nbsp;</a></span>GenerateOrbitLines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::GenerateOrbitLines </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -296,6 +1124,31 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0830fc9f9e34e142d08ef643ab9a3865" name="a0830fc9f9e34e142d08ef643ab9a3865"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0830fc9f9e34e142d08ef643ab9a3865">&#9670;&nbsp;</a></span>GetWindowRatio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SysStarSystemRenderer::GetWindowRatio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adb3c5e620ee0b0ca6295e61afb81ebe8" name="adb3c5e620ee0b0ca6295e61afb81ebe8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb3c5e620ee0b0ca6295e61afb81ebe8">&#9670;&nbsp;</a></span>Initialize()</h2>
 
@@ -339,6 +1192,32 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae8cc1f01abf3939e67a3d6acc2dae273" name="ae8cc1f01abf3939e67a3d6acc2dae273"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8cc1f01abf3939e67a3d6acc2dae273">&#9670;&nbsp;</a></span>MoveCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::MoveCamera </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>deltaTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a22f9e5450810daa0bb378acadbd45fa5" name="a22f9e5450810daa0bb378acadbd45fa5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22f9e5450810daa0bb378acadbd45fa5">&#9670;&nbsp;</a></span>OnTick()</h2>
 
@@ -370,6 +1249,42 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a618e3130cde16a2872fbbbd3c27a6536" name="a618e3130cde16a2872fbbbd3c27a6536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618e3130cde16a2872fbbbd3c27a6536">&#9670;&nbsp;</a></span>RenderCities()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SysStarSystemRenderer::RenderCities </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>object_pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>body_entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -426,6 +1341,32 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af1a7d28df06f7a6175edd0b7c4d6c67b" name="af1a7d28df06f7a6175edd0b7c4d6c67b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a7d28df06f7a6175edd0b7c4d6c67b">&#9670;&nbsp;</a></span>TranslateToNormalized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 SysStarSystemRenderer::TranslateToNormalized </td>
+          <td>(</td>
+          <td class="paramtype">const glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a800bb1ec0f61cf47575345ad5417460f" name="a800bb1ec0f61cf47575345ad5417460f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a800bb1ec0f61cf47575345ad5417460f">&#9670;&nbsp;</a></span>Update()</h2>
 
@@ -445,6 +1386,270 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a94a5ca1342ed545d2b57dd2d55e3f862" name="a94a5ca1342ed545d2b57dd2d55e3f862"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94a5ca1342ed545d2b57dd2d55e3f862">&#9670;&nbsp;</a></span>cam_pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 cqsp::client::systems::SysStarSystemRenderer::cam_pos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab57bc4e979a33646286edd7199754863" name="ab57bc4e979a33646286edd7199754863"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab57bc4e979a33646286edd7199754863">&#9670;&nbsp;</a></span>cam_up</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 cqsp::client::systems::SysStarSystemRenderer::cam_up = glm::vec3(0.0f, 1.0f, 0.0f)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9eabbb1c725c46d668c21758a0b794f7" name="a9eabbb1c725c46d668c21758a0b794f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eabbb1c725c46d668c21758a0b794f7">&#9670;&nbsp;</a></span>camera_matrix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::mat4 cqsp::client::systems::SysStarSystemRenderer::camera_matrix</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e56365a128b910cf39de6e0b55e578b" name="a3e56365a128b910cf39de6e0b55e578b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e56365a128b910cf39de6e0b55e578b">&#9670;&nbsp;</a></span>circle_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float cqsp::client::systems::SysStarSystemRenderer::circle_size = 0.01f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7060fe632db733dd151cf8c69fe610d4" name="a7060fe632db733dd151cf8c69fe610d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7060fe632db733dd151cf8c69fe610d4">&#9670;&nbsp;</a></span>city</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a> cqsp::client::systems::SysStarSystemRenderer::city</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3b0d6a7c8600780a121306304dd3cd5" name="ad3b0d6a7c8600780a121306304dd3cd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3b0d6a7c8600780a121306304dd3cd5">&#9670;&nbsp;</a></span>city_founding_position</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 cqsp::client::systems::SysStarSystemRenderer::city_founding_position</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adaee3ebb532e409d989c825bcfe8aec9" name="adaee3ebb532e409d989c825bcfe8aec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaee3ebb532e409d989c825bcfe8aec9">&#9670;&nbsp;</a></span>divider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double cqsp::client::systems::SysStarSystemRenderer::divider = 0.01</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a9ecdd0c73dca66564bfc721b44ffd8" name="a7a9ecdd0c73dca66564bfc721b44ffd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a9ecdd0c73dca66564bfc721b44ffd8">&#9670;&nbsp;</a></span>is_founding_city</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::client::systems::SysStarSystemRenderer::is_founding_city = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27d3b19aa78df4a3228d3ff3e79e0a50" name="a27d3b19aa78df4a3228d3ff3e79e0a50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27d3b19aa78df4a3228d3ff3e79e0a50">&#9670;&nbsp;</a></span>is_rendering_founding_city</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::client::systems::SysStarSystemRenderer::is_rendering_founding_city = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1318a5dacd69a69ccc196cb34ade6d5c" name="a1318a5dacd69a69ccc196cb34ade6d5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1318a5dacd69a69ccc196cb34ade6d5c">&#9670;&nbsp;</a></span>m_app</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_application.html">cqsp::engine::Application</a>&amp; cqsp::client::systems::SysStarSystemRenderer::m_app</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a8cc47f551f9cc255944775c358a2d2" name="a8a8cc47f551f9cc255944775c358a2d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a8cc47f551f9cc255944775c358a2d2">&#9670;&nbsp;</a></span>m_universe</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a>&amp; cqsp::client::systems::SysStarSystemRenderer::m_universe</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abccbcec4594e7a49a760195e35e60a0b" name="abccbcec4594e7a49a760195e35e60a0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abccbcec4594e7a49a760195e35e60a0b">&#9670;&nbsp;</a></span>m_viewing_entity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">entt::entity cqsp::client::systems::SysStarSystemRenderer::m_viewing_entity = entt::null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7711ef4cc9b1bccbd71dc8dbaa606b98" name="a7711ef4cc9b1bccbd71dc8dbaa606b98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7711ef4cc9b1bccbd71dc8dbaa606b98">&#9670;&nbsp;</a></span>max_zoom</h2>
 
@@ -469,6 +1674,226 @@ Public Attributes</h2></td></tr>
           <td class="memname">double cqsp::client::systems::SysStarSystemRenderer::min_zoom = 1</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ba94acb65c84740509a4ff48983774f" name="a0ba94acb65c84740509a4ff48983774f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ba94acb65c84740509a4ff48983774f">&#9670;&nbsp;</a></span>near_shader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">cqsp::asset::ShaderProgram_t</a> cqsp::client::systems::SysStarSystemRenderer::near_shader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05dbd52ab45da5f6e93bcab929c52d0a" name="a05dbd52ab45da5f6e93bcab929c52d0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05dbd52ab45da5f6e93bcab929c52d0a">&#9670;&nbsp;</a></span>on_planet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">entt::entity cqsp::client::systems::SysStarSystemRenderer::on_planet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a6af76cb91e509261e61a453910cdc0" name="a5a6af76cb91e509261e61a453910cdc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a6af76cb91e509261e61a453910cdc0">&#9670;&nbsp;</a></span>orbit_shader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">cqsp::asset::ShaderProgram_t</a> cqsp::client::systems::SysStarSystemRenderer::orbit_shader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad53b7d6ca62075a9fc4f619be7fdb082" name="ad53b7d6ca62075a9fc4f619be7fdb082"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53b7d6ca62075a9fc4f619be7fdb082">&#9670;&nbsp;</a></span>physical_layer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::client::systems::SysStarSystemRenderer::physical_layer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abeef6a7cb4fda59fa6d98ff94f49e055" name="abeef6a7cb4fda59fa6d98ff94f49e055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeef6a7cb4fda59fa6d98ff94f49e055">&#9670;&nbsp;</a></span>planet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a> cqsp::client::systems::SysStarSystemRenderer::planet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6be2f5893b934f072b6205a745ccaa80" name="a6be2f5893b934f072b6205a745ccaa80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6be2f5893b934f072b6205a745ccaa80">&#9670;&nbsp;</a></span>planet_circle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a> cqsp::client::systems::SysStarSystemRenderer::planet_circle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e7c0e38e6bcb25854634bf9b5a767d3" name="a8e7c0e38e6bcb25854634bf9b5a767d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e7c0e38e6bcb25854634bf9b5a767d3">&#9670;&nbsp;</a></span>planet_heightmap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_texture.html">cqsp::asset::Texture</a>* cqsp::client::systems::SysStarSystemRenderer::planet_heightmap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb9feccad17303bec3ad60c15d46136a" name="afb9feccad17303bec3ad60c15d46136a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb9feccad17303bec3ad60c15d46136a">&#9670;&nbsp;</a></span>planet_icon_layer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::client::systems::SysStarSystemRenderer::planet_icon_layer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a39c7bf8bdb830b6f5c338aa5fc108be6" name="a39c7bf8bdb830b6f5c338aa5fc108be6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39c7bf8bdb830b6f5c338aa5fc108be6">&#9670;&nbsp;</a></span>planet_resource</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_texture.html">cqsp::asset::Texture</a>* cqsp::client::systems::SysStarSystemRenderer::planet_resource</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf4fd036c8f93dec3545820cccdee800" name="abf4fd036c8f93dec3545820cccdee800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf4fd036c8f93dec3545820cccdee800">&#9670;&nbsp;</a></span>planet_texture</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_texture.html">cqsp::asset::Texture</a>* cqsp::client::systems::SysStarSystemRenderer::planet_texture</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -501,6 +1926,50 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab4109f732237709aa363478cd3d7bab8" name="ab4109f732237709aa363478cd3d7bab8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4109f732237709aa363478cd3d7bab8">&#9670;&nbsp;</a></span>projection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::mat4 cqsp::client::systems::SysStarSystemRenderer::projection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad9d97f28187e5f605eb3117bbd2d381" name="aad9d97f28187e5f605eb3117bbd2d381"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad9d97f28187e5f605eb3117bbd2d381">&#9670;&nbsp;</a></span>renderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_layer_renderer.html">engine::LayerRenderer</a> cqsp::client::systems::SysStarSystemRenderer::renderer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3acf5f1f8c064b7e315c15ea99cd6d65" name="a3acf5f1f8c064b7e315c15ea99cd6d65"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3acf5f1f8c064b7e315c15ea99cd6d65">&#9670;&nbsp;</a></span>scroll</h2>
 
@@ -515,6 +1984,204 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0d89dc3261f1ea6273c918532b936f9d" name="a0d89dc3261f1ea6273c918532b936f9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d89dc3261f1ea6273c918532b936f9d">&#9670;&nbsp;</a></span>ship_icon_layer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::client::systems::SysStarSystemRenderer::ship_icon_layer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70b4a2704d3fc5bcaba619953c2cec3d" name="a70b4a2704d3fc5bcaba619953c2cec3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70b4a2704d3fc5bcaba619953c2cec3d">&#9670;&nbsp;</a></span>ship_overlay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a> cqsp::client::systems::SysStarSystemRenderer::ship_overlay</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac17cd2f351c82745511605304c16dc8b" name="ac17cd2f351c82745511605304c16dc8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac17cd2f351c82745511605304c16dc8b">&#9670;&nbsp;</a></span>sky</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a> cqsp::client::systems::SysStarSystemRenderer::sky</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b72e056c273b5eaa4f9c3adbbfee45e" name="a7b72e056c273b5eaa4f9c3adbbfee45e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b72e056c273b5eaa4f9c3adbbfee45e">&#9670;&nbsp;</a></span>skybox_layer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::client::systems::SysStarSystemRenderer::skybox_layer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56a51fc7d3352321a0d842938da36508" name="a56a51fc7d3352321a0d842938da36508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56a51fc7d3352321a0d842938da36508">&#9670;&nbsp;</a></span>sun</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a> cqsp::client::systems::SysStarSystemRenderer::sun</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99964e5178012ca92583e8ec1b1fc76f" name="a99964e5178012ca92583e8ec1b1fc76f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99964e5178012ca92583e8ec1b1fc76f">&#9670;&nbsp;</a></span>sun_color</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 cqsp::client::systems::SysStarSystemRenderer::sun_color</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad6794420285671409db5e5d1c0a721bc" name="ad6794420285671409db5e5d1c0a721bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6794420285671409db5e5d1c0a721bc">&#9670;&nbsp;</a></span>sun_position</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 cqsp::client::systems::SysStarSystemRenderer::sun_position</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a039000b9f88c99140b406eb0201e669c" name="a039000b9f88c99140b406eb0201e669c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a039000b9f88c99140b406eb0201e669c">&#9670;&nbsp;</a></span>terrain_displaying</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">entt::entity cqsp::client::systems::SysStarSystemRenderer::terrain_displaying = entt::null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad34f172a12bc8872b9e21612392bcb16" name="ad34f172a12bc8872b9e21612392bcb16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad34f172a12bc8872b9e21612392bcb16">&#9670;&nbsp;</a></span>textured_planet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">cqsp::engine::Renderable</a> cqsp::client::systems::SysStarSystemRenderer::textured_planet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a853393e8621ac6bd6708d36984106ada" name="a853393e8621ac6bd6708d36984106ada"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a853393e8621ac6bd6708d36984106ada">&#9670;&nbsp;</a></span>view_center</h2>
 
@@ -525,6 +2192,28 @@ Public Attributes</h2></td></tr>
           <td class="memname">glm::vec3 cqsp::client::systems::SysStarSystemRenderer::view_center</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c75d85fa0203a5e63f55b7db818127e" name="a9c75d85fa0203a5e63f55b7db818127e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c75d85fa0203a5e63f55b7db818127e">&#9670;&nbsp;</a></span>view_scale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float cqsp::client::systems::SysStarSystemRenderer::view_scale = 10.f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -557,6 +2246,50 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a09134c766b3649644efb1f6c90367442" name="a09134c766b3649644efb1f6c90367442"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09134c766b3649644efb1f6c90367442">&#9670;&nbsp;</a></span>viewport</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec4 cqsp::client::systems::SysStarSystemRenderer::viewport</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56c40afb05a2b9ab64631848d356dc70" name="a56c40afb05a2b9ab64631848d356dc70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56c40afb05a2b9ab64631848d356dc70">&#9670;&nbsp;</a></span>window_ratio</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float cqsp::client::systems::SysStarSystemRenderer::window_ratio</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/client/systems/views/<a class="el" href="starsystemview_8h_source.html">starsystemview.h</a></li>
 <li>/github/workspace/src/client/systems/views/<a class="el" href="starsystemview_8cpp.html">starsystemview.cpp</a></li>
@@ -564,7 +2297,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

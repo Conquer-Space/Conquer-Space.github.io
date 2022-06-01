@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -72,17 +74,18 @@ $(function() {
 
 <p>This is the complete list of members for <a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html">cqsp::common::systems::loading::RecipeLoader</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html#aff9d86b5b339fc7608ccb799195c81b8">GetDefaultValues</a>() override</td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html">cqsp::common::systems::loading::RecipeLoader</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html#ae2f9c18bce16cb445d0a01df152c287a">HjsonLoader</a>(Universe &amp;universe)</td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html">cqsp::common::systems::loading::HjsonLoader</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html#a7fd27b349baee484a7a140b844572412">LoadHjson</a>(const Hjson::Value &amp;values)</td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html">cqsp::common::systems::loading::HjsonLoader</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html#ad9190e65fcab14b083fad0036618649e">LoadValue</a>(const Hjson::Value &amp;values, entt::entity entity) override</td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html">cqsp::common::systems::loading::RecipeLoader</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html#abd5c8cc6510b96faaeb17e50e0ef1005">PostLoad</a>(const entt::entity &amp;entity)</td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html">cqsp::common::systems::loading::HjsonLoader</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html#a077a416892f48b746b9a68a37a096a53">RecipeLoader</a>(Universe &amp;universe)</td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html">cqsp::common::systems::loading::RecipeLoader</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html#a2e87a3eec01ace390f40eb12755aa6d7">universe</a></td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html">cqsp::common::systems::loading::HjsonLoader</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html#a457328151b27693c268ba7408941896b">default_val</a></td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html">cqsp::common::systems::loading::RecipeLoader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html#aff9d86b5b339fc7608ccb799195c81b8">GetDefaultValues</a>() override</td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html">cqsp::common::systems::loading::RecipeLoader</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html#ae2f9c18bce16cb445d0a01df152c287a">HjsonLoader</a>(Universe &amp;universe)</td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html">cqsp::common::systems::loading::HjsonLoader</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html#a7fd27b349baee484a7a140b844572412">LoadHjson</a>(const Hjson::Value &amp;values)</td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html">cqsp::common::systems::loading::HjsonLoader</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html#ad9190e65fcab14b083fad0036618649e">LoadValue</a>(const Hjson::Value &amp;values, entt::entity entity) override</td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html">cqsp::common::systems::loading::RecipeLoader</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html#abd5c8cc6510b96faaeb17e50e0ef1005">PostLoad</a>(const entt::entity &amp;entity)</td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html">cqsp::common::systems::loading::HjsonLoader</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html#a077a416892f48b746b9a68a37a096a53">RecipeLoader</a>(Universe &amp;universe)</td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html">cqsp::common::systems::loading::RecipeLoader</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html#a2e87a3eec01ace390f40eb12755aa6d7">universe</a></td><td class="entry"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html">cqsp::common::systems::loading::HjsonLoader</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

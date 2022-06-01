@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -68,12 +70,13 @@ $(function() {
 <li>Game()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1_game.html#a537bb14994c264b8b52590d2607aa605">cqsp::common::Game</a></li>
 <li>Generate()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1systems_1_1names_1_1_name_generator.html#ac4e3b7d39b693935bf4be6f9fcc6cc61">cqsp::common::systems::names::NameGenerator</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1universegenerator_1_1_i_sys_universe_generator.html#a6165c1a12860c6da85a86c6749b351e3">cqsp::common::systems::universegenerator::ISysUniverseGenerator</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1universegenerator_1_1_script_universe_generator.html#a8f481acadd55c36953df4a129a525a4d">cqsp::common::systems::universegenerator::ScriptUniverseGenerator</a></li>
 <li>GenerateHeightMap()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_terrain_image_generator.html#a2c6ab425ef00352c49956f9d6d2ed115">cqsp::client::systems::TerrainImageGenerator</a></li>
+<li>GenerateOrbitLines()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#abcd61e7b5a16349bb18b8725676e8c04">cqsp::client::systems::SysStarSystemRenderer</a></li>
 <li>GenerateTerrain()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_terrain_image_generator.html#a7b32650f07a1daf1b80f5a0d6339d332">cqsp::client::systems::TerrainImageGenerator</a></li>
 <li>GenerateTexture()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html#a8af7302a3cd593dc7badf21fed2a8e0a">cqsp::engine::CQSPRenderInterface</a></li>
 <li>Get2DProj()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#ac4885188d523f1386dafaaeef607e774">cqsp::engine::Application</a></li>
 <li>Get3DProj()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a4b5cfed497d78941e1c48220b97f7a44">cqsp::engine::Application</a></li>
 <li>GetAlbedoMap()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_terrain_image_generator.html#abae1eabf086a9ec603e086cb45ae2f52">cqsp::client::systems::TerrainImageGenerator</a></li>
-<li>GetApp()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html#a6b305ce63a36a1ad2d4ea8596ba0f8da">cqsp::client::systems::SysUserInterface</a>, <a class="el" href="classcqsp_1_1engine_1_1_scene.html#aa0f1662a767ed12324dd73424eee3fa3">cqsp::engine::Scene</a></li>
+<li>GetApp()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1_settings_window.html#a8fb46fd49e2b674fb73cb331f7ce553e">cqsp::client::SettingsWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html#a6b305ce63a36a1ad2d4ea8596ba0f8da">cqsp::client::systems::SysUserInterface</a>, <a class="el" href="classcqsp_1_1engine_1_1_scene.html#aa0f1662a767ed12324dd73424eee3fa3">cqsp::engine::Scene</a></li>
 <li>GetAsset()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html#a5c6f43e7b31efff019ab3cd06bd29beb">cqsp::asset::AssetManager</a>, <a class="el" href="classcqsp_1_1asset_1_1_package.html#ae8978eac4f40ea1240f42e726f8d9592">cqsp::asset::Package</a></li>
 <li>GetAssetManager()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html#a9f04ebc687dc504715766e4bc333d498">cqsp::client::systems::SysUserInterface</a>, <a class="el" href="classcqsp_1_1engine_1_1_application.html#a636d7b0f46e7231d2fd2a148af2a0223">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_scene.html#a06bf60c9538c83b4cbd0157d2cc1544c">cqsp::engine::Scene</a></li>
 <li>GetAudioInterface()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a612cbf4ea5de8e22f1edf4eca3ab8658">cqsp::engine::Application</a></li>
@@ -136,16 +139,19 @@ $(function() {
 <li>GetSupply()&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_auction_house.html#a4cb57ad3d414e69d0fae66aa2e0ee4d5">cqsp::common::components::AuctionHouse</a>, <a class="el" href="structcqsp_1_1common_1_1components_1_1_market.html#a46df9c90281fce827acdbb5882e01699">cqsp::common::components::Market</a></li>
 <li>GetTime()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a1d84635964c36d1d60dd4f05c6bd92f5">cqsp::engine::Application</a></li>
 <li>GetUniverse()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html#a10e13989f3dfffed5540871ead533fa7">cqsp::client::systems::SysUserInterface</a>, <a class="el" href="classcqsp_1_1common_1_1_game.html#a5a4af9a2fe05b63298e470225d152a60">cqsp::common::Game</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#ab073b6c86b35dadfaa8e166f42ac3330">cqsp::common::systems::ISimulationSystem</a>, <a class="el" href="classcqsp_1_1engine_1_1_application.html#af3b352401c3044fcddf600610f35a257">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_scene.html#a611cb0cd7448993fc5e975f986728129">cqsp::engine::Scene</a></li>
+<li>GetVfs()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#aa88155ae127853add9ce20bd48bb1d41">cqsp::asset::AssetLoader</a></li>
 <li>GetWindow()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a15924614c63936cd290f9a939dc02f71">cqsp::engine::Application</a></li>
 <li>GetWindowHeight()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#aefe4e16be8c42669401c80707c194794">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_window.html#a1d70eac2d36af94bdd51d84b55e6f2e0">cqsp::engine::Window</a></li>
+<li>GetWindowRatio()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a0830fc9f9e34e142d08ef643ab9a3865">cqsp::client::systems::SysStarSystemRenderer</a></li>
 <li>GetWindowWidth()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a2593d793e02613cde2567a79c62ee3bf">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_window.html#ae21d0a983f056e804126099c8ea62360">cqsp::engine::Window</a></li>
 <li>GetYear()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1components_1_1_star_date.html#a42ff970c00df6bb26c190ac83abf8ab9">cqsp::common::components::StarDate</a></li>
+<li>GlInit()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#abe9c009a934813c6cd5d1257569abd1f">cqsp::engine::Application</a></li>
 <li>GoodLoader()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_good_loader.html#a1a087888db668bc2562b5850658d2648">cqsp::common::systems::loading::GoodLoader</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:44 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

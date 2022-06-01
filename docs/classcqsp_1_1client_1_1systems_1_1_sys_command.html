@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +71,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1client_1_1systems_1_1_sys_command-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::client::systems::SysCommand Class Reference</div></div>
 </div><!--header-->
@@ -112,6 +116,20 @@ Public Attributes</h2></td></tr>
 <tr class="inherit_header pub_attribs_classcqsp_1_1client_1_1systems_1_1_sys_user_interface"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classcqsp_1_1client_1_1systems_1_1_sys_user_interface')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html">cqsp::client::systems::SysUserInterface</a></td></tr>
 <tr class="memitem:ae2d98bd53c720e8fbb2423fd311a9958 inherit pub_attribs_classcqsp_1_1client_1_1systems_1_1_sys_user_interface"><td class="memItemLeft" align="right" valign="top">ImGuiWindowFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html#ae2d98bd53c720e8fbb2423fd311a9958">window_flags</a> = 0</td></tr>
 <tr class="separator:ae2d98bd53c720e8fbb2423fd311a9958 inherit pub_attribs_classcqsp_1_1client_1_1systems_1_1_sys_user_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a6ffe29cd06199dc37097d9969dc52de6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_command.html#a6ffe29cd06199dc37097d9969dc52de6">ShipList</a> ()</td></tr>
+<tr class="separator:a6ffe29cd06199dc37097d9969dc52de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a45f65ec57ae1f518662ab7303ced96e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_command.html#a45f65ec57ae1f518662ab7303ced96e6">selected_index</a> = 0</td></tr>
+<tr class="separator:a45f65ec57ae1f518662ab7303ced96e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add68f2d7101b7c777b320e8668bbe5c8"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_command.html#add68f2d7101b7c777b320e8668bbe5c8">selected_planet</a> = entt::null</td></tr>
+<tr class="separator:add68f2d7101b7c777b320e8668bbe5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b5d4318f20a16f5b122bd7b73e9b2f3"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_command.html#a7b5d4318f20a16f5b122bd7b73e9b2f3">selected_ship</a> = entt::null</td></tr>
+<tr class="separator:a7b5d4318f20a16f5b122bd7b73e9b2f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a465f07aff68bc23c5c8f7dfb9f2c1820" name="a465f07aff68bc23c5c8f7dfb9f2c1820"></a>
@@ -224,7 +242,98 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6ffe29cd06199dc37097d9969dc52de6" name="a6ffe29cd06199dc37097d9969dc52de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ffe29cd06199dc37097d9969dc52de6">&#9670;&nbsp;</a></span>ShipList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysCommand::ShipList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a45f65ec57ae1f518662ab7303ced96e6" name="a45f65ec57ae1f518662ab7303ced96e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45f65ec57ae1f518662ab7303ced96e6">&#9670;&nbsp;</a></span>selected_index</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::client::systems::SysCommand::selected_index = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add68f2d7101b7c777b320e8668bbe5c8" name="add68f2d7101b7c777b320e8668bbe5c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add68f2d7101b7c777b320e8668bbe5c8">&#9670;&nbsp;</a></span>selected_planet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">entt::entity cqsp::client::systems::SysCommand::selected_planet = entt::null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b5d4318f20a16f5b122bd7b73e9b2f3" name="a7b5d4318f20a16f5b122bd7b73e9b2f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b5d4318f20a16f5b122bd7b73e9b2f3">&#9670;&nbsp;</a></span>selected_ship</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">entt::entity cqsp::client::systems::SysCommand::selected_ship = entt::null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5f1e5a68ff1e6dd4c74e1b1d22b82676" name="a5f1e5a68ff1e6dd4c74e1b1d22b82676"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f1e5a68ff1e6dd4c74e1b1d22b82676">&#9670;&nbsp;</a></span>to_see</h2>
 
@@ -246,7 +355,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

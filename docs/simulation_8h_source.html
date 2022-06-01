@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -97,44 +99,43 @@ $(function() {
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">namespace </span>common {</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespacecqsp_1_1common_1_1systems.html">   27</a></span><span class="keyword">namespace </span>systems {</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="namespacecqsp_1_1common_1_1systems_1_1simulation.html">   28</a></span><span class="keyword">namespace </span>simulation {</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment"> * Main simulation of game.</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html">   33</a></span><span class="keyword">class </span><a class="code hl_class" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html">Simulation</a> {</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#a7d1d36686cfb75b03b938fd80536fb87">Simulation</a>(<a class="code hl_class" href="classcqsp_1_1common_1_1_game.html">cqsp::common::Game</a> &amp;game);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#ab1f775aa1cae0ebc977610edbafcc723">tick</a>();</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#aee8e787f5c3502cbadc4c21d971b8c77">   40</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#aee8e787f5c3502cbadc4c21d971b8c77">AddSystem</a>() {</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keyword">static_assert</span>(std::is_base_of&lt;cqsp::common::systems::ISimulationSystem, T&gt;::value);</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        system_list.push_back(std::make_unique&lt;T&gt;(m_game));</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_class" href="classcqsp_1_1common_1_1_game.html">cqsp::common::Game</a> &amp;m_game;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    std::vector&lt;std::unique_ptr&lt;cqsp::common::systems::ISimulationSystem&gt;&gt; system_list;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_class" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;m_universe;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>};</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}  <span class="comment">// namespace simulation</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>}  <span class="comment">// namespace systems</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}  <span class="comment">// namespace common</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>}  <span class="comment">// namespace cqsp</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html">   38</a></span><span class="keyword">class </span><a class="code hl_class" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html">Simulation</a> {</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#a7d1d36686cfb75b03b938fd80536fb87">Simulation</a>(<a class="code hl_class" href="classcqsp_1_1common_1_1_game.html">cqsp::common::Game</a> &amp;game);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#ab1f775aa1cae0ebc977610edbafcc723">tick</a>();</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#aee8e787f5c3502cbadc4c21d971b8c77">   48</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#aee8e787f5c3502cbadc4c21d971b8c77">AddSystem</a>() {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keyword">static_assert</span>(std::is_base_of&lt;cqsp::common::systems::ISimulationSystem, T&gt;::value);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <a class="code hl_variable" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#af13c3912c43ee6a78dcda00dcb5cb88d">system_list</a>.push_back(std::make_unique&lt;T&gt;(<a class="code hl_variable" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#adf5df0d3dfd97748ffe4ea74d229d4b1">m_game</a>));</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    }</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#adf5df0d3dfd97748ffe4ea74d229d4b1">   54</a></span>    <a class="code hl_class" href="classcqsp_1_1common_1_1_game.html">cqsp::common::Game</a> &amp;<a class="code hl_variable" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#adf5df0d3dfd97748ffe4ea74d229d4b1">m_game</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#af13c3912c43ee6a78dcda00dcb5cb88d">   58</a></span>    std::vector&lt;std::unique_ptr&lt;cqsp::common::systems::ISimulationSystem&gt;&gt; <a class="code hl_variable" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#af13c3912c43ee6a78dcda00dcb5cb88d">system_list</a>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#a16c7550ad91a1ab5f114c23874ca519c">   59</a></span>    <a class="code hl_class" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;<a class="code hl_variable" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#a16c7550ad91a1ab5f114c23874ca519c">m_universe</a>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>};</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>}  <span class="comment">// namespace simulation</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>}  <span class="comment">// namespace systems</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}  <span class="comment">// namespace common</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>}  <span class="comment">// namespace cqsp</span></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1_game_html"><div class="ttname"><a href="classcqsp_1_1common_1_1_game.html">cqsp::common::Game</a></div><div class="ttdoc">Wrapper class for all the components of the game, so that all the game stuff can be initialized in on...</div><div class="ttdef"><b>Definition:</b> game.h:28</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1_universe_html"><div class="ttname"><a href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a></div><div class="ttdef"><b>Definition:</b> universe.h:31</div></div>
-<div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1simulation_1_1_simulation_html"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html">cqsp::common::systems::simulation::Simulation</a></div><div class="ttdef"><b>Definition:</b> simulation.h:33</div></div>
+<div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1simulation_1_1_simulation_html"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html">cqsp::common::systems::simulation::Simulation</a></div><div class="ttdoc">Main simulation of game. /summary&gt; To add a simulation in the game, add a class extending from cqsp::...</div><div class="ttdef"><b>Definition:</b> simulation.h:38</div></div>
+<div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1simulation_1_1_simulation_html_a16c7550ad91a1ab5f114c23874ca519c"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#a16c7550ad91a1ab5f114c23874ca519c">cqsp::common::systems::simulation::Simulation::m_universe</a></div><div class="ttdeci">cqsp::common::Universe &amp; m_universe</div><div class="ttdef"><b>Definition:</b> simulation.h:59</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1simulation_1_1_simulation_html_a7d1d36686cfb75b03b938fd80536fb87"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#a7d1d36686cfb75b03b938fd80536fb87">cqsp::common::systems::simulation::Simulation::Simulation</a></div><div class="ttdeci">Simulation(cqsp::common::Game &amp;game)</div><div class="ttdef"><b>Definition:</b> simulation.cpp:52</div></div>
-<div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1simulation_1_1_simulation_html_ab1f775aa1cae0ebc977610edbafcc723"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#ab1f775aa1cae0ebc977610edbafcc723">cqsp::common::systems::simulation::Simulation::tick</a></div><div class="ttdeci">void tick()</div><div class="ttdef"><b>Definition:</b> simulation.cpp:70</div></div>
-<div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1simulation_1_1_simulation_html_aee8e787f5c3502cbadc4c21d971b8c77"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#aee8e787f5c3502cbadc4c21d971b8c77">cqsp::common::systems::simulation::Simulation::AddSystem</a></div><div class="ttdeci">void AddSystem()</div><div class="ttdef"><b>Definition:</b> simulation.h:40</div></div>
+<div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1simulation_1_1_simulation_html_ab1f775aa1cae0ebc977610edbafcc723"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#ab1f775aa1cae0ebc977610edbafcc723">cqsp::common::systems::simulation::Simulation::tick</a></div><div class="ttdeci">void tick()</div><div class="ttdoc">1 game tick, runs every single system that is added.</div><div class="ttdef"><b>Definition:</b> simulation.cpp:70</div></div>
+<div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1simulation_1_1_simulation_html_adf5df0d3dfd97748ffe4ea74d229d4b1"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#adf5df0d3dfd97748ffe4ea74d229d4b1">cqsp::common::systems::simulation::Simulation::m_game</a></div><div class="ttdeci">cqsp::common::Game &amp; m_game</div><div class="ttdef"><b>Definition:</b> simulation.h:54</div></div>
+<div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1simulation_1_1_simulation_html_aee8e787f5c3502cbadc4c21d971b8c77"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#aee8e787f5c3502cbadc4c21d971b8c77">cqsp::common::systems::simulation::Simulation::AddSystem</a></div><div class="ttdeci">void AddSystem()</div><div class="ttdef"><b>Definition:</b> simulation.h:48</div></div>
+<div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1simulation_1_1_simulation_html_af13c3912c43ee6a78dcda00dcb5cb88d"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#af13c3912c43ee6a78dcda00dcb5cb88d">cqsp::common::systems::simulation::Simulation::system_list</a></div><div class="ttdeci">std::vector&lt; std::unique_ptr&lt; cqsp::common::systems::ISimulationSystem &gt; &gt; system_list</div><div class="ttdoc">Holds all the systems.</div><div class="ttdef"><b>Definition:</b> simulation.h:58</div></div>
 <div class="ttc" id="agame_8h_html"><div class="ttname"><a href="game_8h.html">game.h</a></div></div>
 <div class="ttc" id="aisimulationsystem_8h_html"><div class="ttname"><a href="isimulationsystem_8h.html">isimulationsystem.h</a></div></div>
-<div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdef"><b>Definition:</b> clientctx.h:19</div></div>
+<div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdoc">When adding assets, it is extremely crucial that you read cqsp::asset::AssetLoader::LoadResources to ...</div><div class="ttdef"><b>Definition:</b> clientctx.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:42 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

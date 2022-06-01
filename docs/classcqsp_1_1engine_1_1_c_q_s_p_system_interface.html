@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::engine::CQSPSystemInterface Class Reference</div></div>
 </div><!--header-->
@@ -91,6 +94,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4a6d7944a62b91bdcb650d79c55aa3c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0d18b14a535120ca41f0e22c6ab666b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#aa0d18b14a535120ca41f0e22c6ab666b">LogMessage</a> (Rml::Log::Type <a class="el" href="assetmanager_8cpp.html#ac765329451135abec74c45e1897abf26">type</a>, const Rml::String &amp;message) override</td></tr>
 <tr class="separator:aa0d18b14a535120ca41f0e22c6ab666b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:af382d1239a7c937323f8088680ba560c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_application.html">Application</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#af382d1239a7c937323f8088680ba560c">m_app</a></td></tr>
+<tr class="separator:af382d1239a7c937323f8088680ba560c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af815a5cdfc3f72c23eac8e90b2bd4231"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; spdlog::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#af815a5cdfc3f72c23eac8e90b2bd4231">logger</a></td></tr>
+<tr class="separator:af815a5cdfc3f72c23eac8e90b2bd4231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8e21e17c333f1b08a92b040747e827ac" name="a8e21e17c333f1b08a92b040747e827ac"></a>
@@ -198,6 +208,51 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af815a5cdfc3f72c23eac8e90b2bd4231" name="af815a5cdfc3f72c23eac8e90b2bd4231"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af815a5cdfc3f72c23eac8e90b2bd4231">&#9670;&nbsp;</a></span>logger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;spdlog::logger&gt; cqsp::engine::CQSPSystemInterface::logger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af382d1239a7c937323f8088680ba560c" name="af382d1239a7c937323f8088680ba560c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af382d1239a7c937323f8088680ba560c">&#9670;&nbsp;</a></span>m_app</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_application.html">Application</a>&amp; cqsp::engine::CQSPSystemInterface::m_app</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/engine/ui/<a class="el" href="rmlsysteminterface_8h_source.html">rmlsysteminterface.h</a></li>
 <li>/github/workspace/src/engine/ui/<a class="el" href="rmlsysteminterface_8cpp.html">rmlsysteminterface.cpp</a></li>
@@ -205,7 +260,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

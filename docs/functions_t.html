@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -72,25 +74,43 @@ $(function() {
 <li>Tell()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file.html#af8c099b1f6d8dfe3979a4a385568b204">cqsp::asset::IVirtualFile</a>, <a class="el" href="classcqsp_1_1asset_1_1_native_file.html#a64527491c94d0816a466824a5eee37b5">cqsp::asset::NativeFile</a></li>
 <li>terrain&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_terrain_image_generator.html#a659c1f2665256595cc9b1260b815c7a8">cqsp::client::systems::TerrainImageGenerator</a></li>
 <li>terrain_data&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1_universe.html#a6b80f11f110c0abdf8d8f64eb3ac1de0">cqsp::common::Universe</a></li>
+<li>terrain_displaying&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a039000b9f88c99140b406eb0201e669c">cqsp::client::systems::SysStarSystemRenderer</a></li>
 <li>terrain_name&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1bodies_1_1_textured_terrain.html#a4c5dd256cbcf5138dd053077bd28609c">cqsp::common::components::bodies::TexturedTerrain</a></li>
 <li>terrain_type&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1bodies_1_1_terrain.html#a254efca842466bad73584f793f741072">cqsp::common::components::bodies::Terrain</a></li>
+<li>text&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_text_test_scene.html#a3d956e9f71cfbc4ae79e95a8fa3c208d">cqsp::scene::TextTestScene</a></li>
 <li>TextTestScene()&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_text_test_scene.html#a3b30eb9cbdc2b425637ddd416a3d4585">cqsp::scene::TextTestScene</a></li>
 <li>texture&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_font.html#a5294e2b0bf398753c0e9c9bf10a9354a">cqsp::asset::Font</a></li>
 <li>Texture()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_texture.html#a6ad69733a5b655018baa3d27596dbb10">cqsp::asset::Texture</a></li>
+<li>texture_frag_shader&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html#a57cd1a45c65d1ea81183ca3bdd5bf32b">cqsp::engine::CQSPRenderInterface</a></li>
+<li>texture_shader&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html#acefe9aa61cc097cf5dc9b54583f7ac53">cqsp::engine::CQSPRenderInterface</a>, <a class="el" href="classcqsp_1_1engine_1_1_renderer2_d.html#a69ade2d1d6d61d9437abb10b9756b714">cqsp::engine::Renderer2D</a></li>
 <li>texture_type&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_texture.html#acf8f1ea6376e4ceb3d2a67d6036e8d64">cqsp::asset::Texture</a></li>
+<li>textured_planet&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ad34f172a12bc8872b9e21612392bcb16">cqsp::client::systems::SysStarSystemRenderer</a></li>
 <li>TextureEnabled()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_renderer2_d.html#a75f5b1df35902f32176003598ceeec7b">cqsp::engine::Renderer2D</a></li>
 <li>TextureID&#160;:&#160;<a class="el" href="structcqsp_1_1asset_1_1_character.html#a6fe84f5b4c442787cbfeedb51d51afa8">cqsp::asset::Character</a></li>
 <li>textures&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_renderable.html#a9cc59af06c32edc46c6e6133e36fdbfe">cqsp::engine::Renderable</a></li>
 <li>theta&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_polar_coordinate__tp.html#a61297d88528deceee6f7c62d275dcd02">cqsp::common::components::types::PolarCoordinate_tp&lt; T &gt;</a></li>
-<li>ThreadsafeQueue()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_threadsafe_queue.html#a38799294d48d912c210d17d298772e28">cqsp::asset::ThreadsafeQueue&lt; T &gt;</a></li>
+<li>thread&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a7325f29483c11f5ae1f49e887142f351">cqsp::scene::LoadingScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_universe_loading_scene.html#a91423213ab8cc5955f5d17e97e9962d8">cqsp::scene::UniverseLoadingScene</a></li>
+<li>ThreadsafeQueue()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_threadsafe_queue.html#a8cf6f538eb0b6974e09088bd4a60abf5">cqsp::asset::ThreadsafeQueue&lt; T &gt;</a></li>
+<li>three_dim_projection&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a53a4990eff007e62c48c24819f01eddf">cqsp::engine::Application</a></li>
 <li>tick()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#ab1f775aa1cae0ebc977610edbafcc723">cqsp::common::systems::simulation::Simulation</a></li>
+<li>tick_speed&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_turn_save_window.html#ad3ebf9ba4f0a920efd8b9a40b84b1e08">cqsp::client::systems::SysTurnSaveWindow</a></li>
+<li>tick_speeds&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_turn_save_window.html#a827593a22284ad3cbd8daf8b5fecd36a">cqsp::client::systems::SysTurnSaveWindow</a></li>
 <li>time_left&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_factory_timer.html#a7f3cba93846baf44eb6af15037c0785a">cqsp::common::components::FactoryTimer</a></li>
 <li>title&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_package.html#ae18f0ee79673919f9b4fe19c152b52dd">cqsp::asset::Package</a>, <a class="el" href="classcqsp_1_1asset_1_1_package_prototype.html#aaa242c2f67b2ddbacad3845e422d8f24">cqsp::asset::PackagePrototype</a>, <a class="el" href="structcqsp_1_1common_1_1event_1_1_event.html#afbcd322292773c07370678223934e450">cqsp::common::event::Event</a></li>
 <li>to_display&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_civilization_info_panel.html#a89c6723e3db7648e451327558d9e0afc">cqsp::client::systems::CivilizationInfoPanel</a></li>
+<li>to_halt&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a10a8fd0d2a247336d37f7fda3153a6a0">cqsp::engine::Application</a></li>
 <li>to_quit&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a8ca99767141457f7f68bbedd766f446a">cqsp::engine::audio::AudioInterface</a></li>
 <li>to_see&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_command.html#a5f1e5a68ff1e6dd4c74e1b1d22b82676">cqsp::client::systems::SysCommand</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#a32fb1d7238927dbbd96affd5f55e9ad1">cqsp::client::systems::SysPlanetInformation</a></li>
-<li>to_show&#160;:&#160;<a class="el" href="structcqsp_1_1client_1_1ctx_1_1_star_system_view_debug.html#a83d37e2bba82dc8f7fdb85785a646c07">cqsp::client::ctx::StarSystemViewDebug</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1gui_1_1_sys_event.html#a2957dda5c002398b9f009c203f91020f">cqsp::client::systems::gui::SysEvent</a></li>
+<li>to_show&#160;:&#160;<a class="el" href="structcqsp_1_1client_1_1ctx_1_1_star_system_view_debug.html#a83d37e2bba82dc8f7fdb85785a646c07">cqsp::client::ctx::StarSystemViewDebug</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1gui_1_1_sys_event.html#a2957dda5c002398b9f009c203f91020f">cqsp::client::systems::gui::SysEvent</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_pause_menu.html#a022aab873d4edb1591569da47a0121cf">cqsp::client::systems::SysPauseMenu</a></li>
+<li>to_show_cqsp_metrics&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#abea8b63f7ceb10c5632d96021a16d9f9">cqsp::client::systems::SysDebugMenu</a></li>
+<li>to_show_imgui_about&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#aa4047bf30faae5d1e3b43514eae6e364">cqsp::client::systems::SysDebugMenu</a></li>
+<li>to_show_implot_metrics&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a3a400834870048d7519fef52a898daa5">cqsp::client::systems::SysDebugMenu</a></li>
+<li>to_show_metrics_window&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a769e09b97b9b5512a0927a8ae1f84064">cqsp::client::systems::SysDebugMenu</a></li>
+<li>to_show_options_window&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_pause_menu.html#ad1b2f5f2178b81127dd2c9b296b5bea9">cqsp::client::systems::SysPauseMenu</a></li>
+<li>to_show_planet_window&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_universe_scene.html#a45b29aa7c3e545cf736643dc7302c498">cqsp::scene::UniverseScene</a></li>
+<li>to_show_window&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a8461faa45add8d593df83e826c0aa9f2">cqsp::client::systems::SysDebugMenu</a></li>
 <li>to_string()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html#ad457552b6ffead188d4f30e523b850fa">cqsp::common::components::ResourceLedger</a></li>
+<li>to_tick&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_turn_save_window.html#a29850eeef230a6bcf69e11bf57d3474a">cqsp::client::systems::SysTurnSaveWindow</a>, <a class="el" href="classcqsp_1_1common_1_1_universe.html#aed544cee31d7ae5844cb23878f8f7dbe">cqsp::common::Universe</a></li>
 <li>ToDay()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1components_1_1_star_date.html#aad7d308bc2ed8b542136fae8738ab427">cqsp::common::components::StarDate</a></li>
 <li>TogglePlayState()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_turn_save_window.html#a7af8a3af5b3a623c22016ce6a46fec80">cqsp::client::systems::SysTurnSaveWindow</a></li>
 <li>tooltip&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1event_1_1_event_result.html#a834843fbe3e54f63edf6f2d50c0d5d81">cqsp::common::event::EventResult</a></li>
@@ -103,11 +123,13 @@ $(function() {
 <li>total_power_prod&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1infrastructure_1_1_city_power.html#aefb4875110c3d0fe506de073518352b3">cqsp::common::components::infrastructure::CityPower</a></li>
 <li>ToTick()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1_universe.html#aa33b6106a40d52b2440db219e162a1d9">cqsp::common::Universe</a></li>
 <li>TransferTo()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html#aa3e08009227197501d62fb13cedf654d">cqsp::common::components::ResourceLedger</a></li>
+<li>TranslateToNormalized()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af1a7d28df06f7a6175edd0b7c4d6c67b">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>two_dim_projection&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a3a4e2ada6e4efd4dba63d1a078cbb5f4">cqsp::engine::Application</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 1 2022 12:06:44 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
