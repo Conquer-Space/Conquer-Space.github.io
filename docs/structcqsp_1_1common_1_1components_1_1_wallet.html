@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="structcqsp_1_1common_1_1components_1_1_wallet-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::common::components::Wallet Struct Reference</div></div>
 </div><!--header-->
@@ -95,6 +98,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7f5200b2c406a206f5251aefb83f0198"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae42d63a7940d61253869e50d8bb80513"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_wallet.html#ae42d63a7940d61253869e50d8bb80513">GetGDPChange</a> ()</td></tr>
 <tr class="separator:ae42d63a7940d61253869e50d8bb80513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a45939b1576027a5491889d8d69f47abe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_wallet.html#a45939b1576027a5491889d8d69f47abe">balance</a> = 0</td></tr>
+<tr class="separator:a45939b1576027a5491889d8d69f47abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9c3a2be25595a5c32964336558079b5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_wallet.html#aa9c3a2be25595a5c32964336558079b5">change</a> = 0</td></tr>
+<tr class="separator:aa9c3a2be25595a5c32964336558079b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a058f0853c710e18d2697e0d962dd676d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_wallet.html#a058f0853c710e18d2697e0d962dd676d">GDP_change</a> = 0</td></tr>
+<tr class="separator:a058f0853c710e18d2697e0d962dd676d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa59570c5f983fc2ad82211251c013f3"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_wallet.html#aaa59570c5f983fc2ad82211251c013f3">currency</a></td></tr>
+<tr class="separator:aaa59570c5f983fc2ad82211251c013f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9e687c9bd90200a5d4bdc7665ac60d62" name="a9e687c9bd90200a5d4bdc7665ac60d62"></a>
@@ -337,13 +351,102 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a45939b1576027a5491889d8d69f47abe" name="a45939b1576027a5491889d8d69f47abe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45939b1576027a5491889d8d69f47abe">&#9670;&nbsp;</a></span>balance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::common::components::Wallet::balance = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9c3a2be25595a5c32964336558079b5" name="aa9c3a2be25595a5c32964336558079b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9c3a2be25595a5c32964336558079b5">&#9670;&nbsp;</a></span>change</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::common::components::Wallet::change = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa59570c5f983fc2ad82211251c013f3" name="aaa59570c5f983fc2ad82211251c013f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa59570c5f983fc2ad82211251c013f3">&#9670;&nbsp;</a></span>currency</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">entt::entity cqsp::common::components::Wallet::currency</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a058f0853c710e18d2697e0d962dd676d" name="a058f0853c710e18d2697e0d962dd676d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a058f0853c710e18d2697e0d962dd676d">&#9670;&nbsp;</a></span>GDP_change</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::common::components::Wallet::GDP_change = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>/github/workspace/src/common/components/<a class="el" href="economy_8h_source.html">economy.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jun 9 2022 14:24:02 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

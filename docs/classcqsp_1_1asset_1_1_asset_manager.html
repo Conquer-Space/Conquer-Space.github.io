@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classcqsp_1_1asset_1_1_asset_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::asset::AssetManager Class Reference</div></div>
@@ -87,6 +90,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a13c32566847481452f052209acacc3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c6f43e7b31efff019ab3cd06bd29beb"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a5c6f43e7b31efff019ab3cd06bd29beb"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html#a5c6f43e7b31efff019ab3cd06bd29beb">GetAsset</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:a5c6f43e7b31efff019ab3cd06bd29beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets an asset.  <a href="classcqsp_1_1asset_1_1_asset_manager.html#a5c6f43e7b31efff019ab3cd06bd29beb">More...</a><br /></td></tr>
 <tr class="separator:a5c6f43e7b31efff019ab3cd06bd29beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6019bfc77a0bb36186e93e9358fe2502"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html#a6019bfc77a0bb36186e93e9358fe2502">LoadDefaultTexture</a> ()</td></tr>
 <tr class="separator:a6019bfc77a0bb36186e93e9358fe2502"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -107,6 +111,13 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a047b87c171d405fb8fe30362f42bfc50"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="classcqsp_1_1asset_1_1_package_prototype.html">PackagePrototype</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html#a047b87c171d405fb8fe30362f42bfc50">m_package_prototype_list</a></td></tr>
 <tr class="separator:a047b87c171d405fb8fe30362f42bfc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a33313d1dfbea8ae78b788af959ae2b9b"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html#a33313d1dfbea8ae78b788af959ae2b9b">packages</a></td></tr>
+<tr class="separator:a33313d1dfbea8ae78b788af959ae2b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ae2f2ae0be8150da2e09fb961f780f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_texture.html">asset::Texture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html#a6ae2f2ae0be8150da2e09fb961f780f7">empty_texture</a></td></tr>
+<tr class="separator:a6ae2f2ae0be8150da2e09fb961f780f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -174,6 +185,21 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets an asset. </p>
+<p >To get an asset, it defaults finding the asset in <code>core</code> if you do not specify a package, or else if the asset is from another asset pack, you can specify <code>mod_name:asset_name</code>, the separator between the two being a colon. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type class</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -398,6 +424,28 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6ae2f2ae0be8150da2e09fb961f780f7" name="a6ae2f2ae0be8150da2e09fb961f780f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ae2f2ae0be8150da2e09fb961f780f7">&#9670;&nbsp;</a></span>empty_texture</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_texture.html">asset::Texture</a> cqsp::asset::AssetManager::empty_texture</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a047b87c171d405fb8fe30362f42bfc50" name="a047b87c171d405fb8fe30362f42bfc50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a047b87c171d405fb8fe30362f42bfc50">&#9670;&nbsp;</a></span>m_package_prototype_list</h2>
 
@@ -412,6 +460,28 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a33313d1dfbea8ae78b788af959ae2b9b" name="a33313d1dfbea8ae78b788af959ae2b9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33313d1dfbea8ae78b788af959ae2b9b">&#9670;&nbsp;</a></span>packages</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, std::unique_ptr&lt;<a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a>&gt; &gt; cqsp::asset::AssetManager::packages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/engine/asset/<a class="el" href="assetmanager_8h_source.html">assetmanager.h</a></li>
 <li>/github/workspace/src/engine/asset/<a class="el" href="assetmanager_8cpp.html">assetmanager.cpp</a></li>
@@ -419,7 +489,7 @@ template&lt;class T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jun 9 2022 14:24:01 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -74,17 +76,20 @@ $(function() {
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#aa1e06d8f3843515fb5d25dc8c1a9a0be">DeleteCurrentScene</a>()</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#aa6655e1e24ffa3b32e9348902611d7ef">GetScene</a>()</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a16533006e9187250bcaa1b7a2be9ee3a">Render</a>(float deltaTime)</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a47dd5e0e87388e91f69baec509f9bebe">SetInitialScene</a>(std::unique_ptr&lt; Scene &gt; scene)</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a572445989cd8fef7c6331156621240ba">SetScene</a>(std::unique_ptr&lt; Scene &gt; scene)</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a01360a9d02bba0dc69ed0aa4cb444ee5">SwitchScene</a>()</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a1f48f382f1dcf78211e7be449c6d40cf">ToSwitchScene</a>()</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#aedb1a995d481e38ce9635e7ccab9994b">Ui</a>(float deltaTime)</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a984a18fbdb4b41ac0fcc5b21df41930c">Update</a>(float deltaTime)</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#ad852605b89188a54e3aa3e9a2f53feda">m_next_scene</a></td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a736108e7df6fb32fe33578b2ffb63a05">m_scene</a></td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a7b8ff55a49fc0c7ac79000e049e9bb74">m_switch</a></td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a16533006e9187250bcaa1b7a2be9ee3a">Render</a>(float deltaTime)</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a47dd5e0e87388e91f69baec509f9bebe">SetInitialScene</a>(std::unique_ptr&lt; Scene &gt; scene)</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a572445989cd8fef7c6331156621240ba">SetScene</a>(std::unique_ptr&lt; Scene &gt; scene)</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a01360a9d02bba0dc69ed0aa4cb444ee5">SwitchScene</a>()</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a1f48f382f1dcf78211e7be449c6d40cf">ToSwitchScene</a>()</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#aedb1a995d481e38ce9635e7ccab9994b">Ui</a>(float deltaTime)</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a984a18fbdb4b41ac0fcc5b21df41930c">Update</a>(float deltaTime)</td><td class="entry"><a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html">cqsp::engine::SceneManager</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jun 9 2022 14:24:02 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

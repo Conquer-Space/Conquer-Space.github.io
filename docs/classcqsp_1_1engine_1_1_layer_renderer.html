@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +70,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1engine_1_1_layer_renderer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::engine::LayerRenderer Class Reference</div></div>
 </div><!--header-->
@@ -97,6 +101,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad68e1e935d168e9c469f9190fdab9f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee23c10f6191bc356cb336de10a00bf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_i_framebuffer.html">IFramebuffer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_layer_renderer.html#aee23c10f6191bc356cb336de10a00bf3">GetFrameBuffer</a> (int layer)</td></tr>
 <tr class="separator:aee23c10f6191bc356cb336de10a00bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a613ee31fb5b20ff1e6d5480b8170b587"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_layer_renderer.html#a613ee31fb5b20ff1e6d5480b8170b587">InitFramebuffer</a> (<a class="el" href="classcqsp_1_1engine_1_1_i_framebuffer.html">IFramebuffer</a> *buffer, <a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">cqsp::asset::ShaderProgram_t</a> shader, const <a class="el" href="classcqsp_1_1engine_1_1_window.html">cqsp::engine::Window</a> &amp;<a class="el" href="application_8cpp.html#a80de27bd7dc4e2b2ad3d5895b97a70f0">window</a>)</td></tr>
+<tr class="separator:a613ee31fb5b20ff1e6d5480b8170b587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad719d1a0e62d7be39528774531b88dda"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classcqsp_1_1engine_1_1_i_framebuffer.html">IFramebuffer</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_layer_renderer.html#ad719d1a0e62d7be39528774531b88dda">framebuffers</a></td></tr>
+<tr class="separator:ad719d1a0e62d7be39528774531b88dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Renders a series of framebuffers onto screen. This is a relatively simple way of allowing organization of multiple framebuffers. But layer management is a bit scuffed and could be made more intuitive. How, that's a different question. <br  />
@@ -128,7 +142,7 @@ Public Member Functions</h2></td></tr>
 <div class="ttc" id="aclasscqsp_1_1engine_1_1_layer_renderer_html_a336ff91d48d6005c6db0f270d04ed77a"><div class="ttname"><a href="classcqsp_1_1engine_1_1_layer_renderer.html#a336ff91d48d6005c6db0f270d04ed77a">cqsp::engine::LayerRenderer::NewFrame</a></div><div class="ttdeci">void NewFrame(const cqsp::engine::Window &amp;window)</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:215</div></div>
 <div class="ttc" id="aclasscqsp_1_1engine_1_1_layer_renderer_html_ac2fb99544dda8bcfbe0352eb35c51264"><div class="ttname"><a href="classcqsp_1_1engine_1_1_layer_renderer.html#ac2fb99544dda8bcfbe0352eb35c51264">cqsp::engine::LayerRenderer::BeginDraw</a></div><div class="ttdeci">void BeginDraw(int layer)</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:200</div></div>
 <div class="ttc" id="aclasscqsp_1_1engine_1_1_layer_renderer_html_adc755e5afe7090d31e6bf0737807ba43"><div class="ttname"><a href="classcqsp_1_1engine_1_1_layer_renderer.html#adc755e5afe7090d31e6bf0737807ba43">cqsp::engine::LayerRenderer::DrawAllLayers</a></div><div class="ttdeci">void DrawAllLayers()</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:204</div></div>
-<div class="ttc" id="anamespacecqsp_1_1asset_html_a74a088f4e1a910af95096bd0f682a2e7"><div class="ttname"><a href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">cqsp::asset::ShaderProgram_t</a></div><div class="ttdeci">std::shared_ptr&lt; ShaderProgram &gt; ShaderProgram_t</div><div class="ttdef"><b>Definition:</b> shader.h:91</div></div>
+<div class="ttc" id="anamespacecqsp_1_1asset_html_a74a088f4e1a910af95096bd0f682a2e7"><div class="ttname"><a href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">cqsp::asset::ShaderProgram_t</a></div><div class="ttdeci">std::shared_ptr&lt; ShaderProgram &gt; ShaderProgram_t</div><div class="ttdoc">The preferred way of using a shader program.</div><div class="ttdef"><b>Definition:</b> shader.h:112</div></div>
 <div class="ttc" id="anamespacecqsp_1_1common_1_1components_1_1types_html_a3d4c4a3f8ef6bc75489047a5652fff94"><div class="ttname"><a href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">cqsp::common::components::types::second</a></div><div class="ttdeci">double second</div><div class="ttdef"><b>Definition:</b> units.h:47</div></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aaec75a245b9eb6f79f4d3a97119759d5" name="aaec75a245b9eb6f79f4d3a97119759d5"></a>
@@ -265,6 +279,48 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a613ee31fb5b20ff1e6d5480b8170b587" name="a613ee31fb5b20ff1e6d5480b8170b587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a613ee31fb5b20ff1e6d5480b8170b587">&#9670;&nbsp;</a></span>InitFramebuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LayerRenderer::InitFramebuffer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1engine_1_1_i_framebuffer.html">IFramebuffer</a> *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">cqsp::asset::ShaderProgram_t</a>&#160;</td>
+          <td class="paramname"><em>shader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1engine_1_1_window.html">cqsp::engine::Window</a> &amp;&#160;</td>
+          <td class="paramname"><em>window</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a336ff91d48d6005c6db0f270d04ed77a" name="a336ff91d48d6005c6db0f270d04ed77a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a336ff91d48d6005c6db0f270d04ed77a">&#9670;&nbsp;</a></span>NewFrame()</h2>
 
@@ -283,6 +339,29 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad719d1a0e62d7be39528774531b88dda" name="ad719d1a0e62d7be39528774531b88dda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad719d1a0e62d7be39528774531b88dda">&#9670;&nbsp;</a></span>framebuffers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="classcqsp_1_1engine_1_1_i_framebuffer.html">IFramebuffer</a>&gt; &gt; cqsp::engine::LayerRenderer::framebuffers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/engine/renderer/<a class="el" href="framebuffer_8h_source.html">framebuffer.h</a></li>
 <li>/github/workspace/src/engine/renderer/<a class="el" href="framebuffer_8cpp.html">framebuffer.cpp</a></li>
@@ -290,7 +369,7 @@ template&lt;class T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jun 9 2022 14:24:02 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

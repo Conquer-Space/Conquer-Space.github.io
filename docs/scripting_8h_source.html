@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -113,8 +115,8 @@ $(function() {
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    std::vector&lt;std::string&gt; <a class="code hl_function" href="classcqsp_1_1scripting_1_1_script_interface.html#ab5e84242541906536dbb5c59c33ef67f">GetLogs</a>();</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    std::shared_ptr&lt;spdlog::logger&gt; logger;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    std::shared_ptr&lt;spdlog::sinks::ringbuffer_sink_mt&gt; ringbuffer_sink;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classcqsp_1_1scripting_1_1_script_interface.html#ac69b66687f72e2be7cec841b1c7a2f2a">   45</a></span>    std::shared_ptr&lt;spdlog::logger&gt; <a class="code hl_variable" href="classcqsp_1_1scripting_1_1_script_interface.html#ac69b66687f72e2be7cec841b1c7a2f2a">logger</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classcqsp_1_1scripting_1_1_script_interface.html#ac991da17c02526ca8789a71045a653e1">   46</a></span>    std::shared_ptr&lt;spdlog::sinks::ringbuffer_sink_mt&gt; <a class="code hl_variable" href="classcqsp_1_1scripting_1_1_script_interface.html#ac991da17c02526ca8789a71045a653e1">ringbuffer_sink</a>;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>};</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}  <span class="comment">// namespace scripting</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>}  <span class="comment">// namespace cqsp</span></div>
@@ -126,12 +128,14 @@ $(function() {
 <div class="ttc" id="aclasscqsp_1_1scripting_1_1_script_interface_html_a88f6463b1dc95051e6f68f95a0154154"><div class="ttname"><a href="classcqsp_1_1scripting_1_1_script_interface.html#a88f6463b1dc95051e6f68f95a0154154">cqsp::scripting::ScriptInterface::ParseResult</a></div><div class="ttdeci">void ParseResult(const sol::protected_function_result &amp;)</div><div class="ttdef"><b>Definition:</b> scripting.cpp:44</div></div>
 <div class="ttc" id="aclasscqsp_1_1scripting_1_1_script_interface_html_a8f7cc0700ba7e56f4f3af41da3181762"><div class="ttname"><a href="classcqsp_1_1scripting_1_1_script_interface.html#a8f7cc0700ba7e56f4f3af41da3181762">cqsp::scripting::ScriptInterface::Init</a></div><div class="ttdeci">void Init()</div><div class="ttdef"><b>Definition:</b> scripting.cpp:69</div></div>
 <div class="ttc" id="aclasscqsp_1_1scripting_1_1_script_interface_html_ab5e84242541906536dbb5c59c33ef67f"><div class="ttname"><a href="classcqsp_1_1scripting_1_1_script_interface.html#ab5e84242541906536dbb5c59c33ef67f">cqsp::scripting::ScriptInterface::GetLogs</a></div><div class="ttdeci">std::vector&lt; std::string &gt; GetLogs()</div><div class="ttdef"><b>Definition:</b> scripting.cpp:87</div></div>
+<div class="ttc" id="aclasscqsp_1_1scripting_1_1_script_interface_html_ac69b66687f72e2be7cec841b1c7a2f2a"><div class="ttname"><a href="classcqsp_1_1scripting_1_1_script_interface.html#ac69b66687f72e2be7cec841b1c7a2f2a">cqsp::scripting::ScriptInterface::logger</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::logger &gt; logger</div><div class="ttdef"><b>Definition:</b> scripting.h:45</div></div>
+<div class="ttc" id="aclasscqsp_1_1scripting_1_1_script_interface_html_ac991da17c02526ca8789a71045a653e1"><div class="ttname"><a href="classcqsp_1_1scripting_1_1_script_interface.html#ac991da17c02526ca8789a71045a653e1">cqsp::scripting::ScriptInterface::ringbuffer_sink</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::sinks::ringbuffer_sink_mt &gt; ringbuffer_sink</div><div class="ttdef"><b>Definition:</b> scripting.h:46</div></div>
 <div class="ttc" id="aclasscqsp_1_1scripting_1_1_script_interface_html_afe92ed779285b517efd74cce4d932eaf"><div class="ttname"><a href="classcqsp_1_1scripting_1_1_script_interface.html#afe92ed779285b517efd74cce4d932eaf">cqsp::scripting::ScriptInterface::RunScript</a></div><div class="ttdeci">void RunScript(std::string_view str)</div><div class="ttdef"><b>Definition:</b> scripting.cpp:53</div></div>
-<div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdef"><b>Definition:</b> clientctx.h:19</div></div>
+<div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdoc">When adding assets, it is extremely crucial that you read cqsp::asset::AssetLoader::LoadResources to ...</div><div class="ttdef"><b>Definition:</b> clientctx.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jun 9 2022 14:24:01 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

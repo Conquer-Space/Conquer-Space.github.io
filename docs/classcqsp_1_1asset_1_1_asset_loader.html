@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -71,6 +73,8 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classcqsp_1_1asset_1_1_asset_loader-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::asset::AssetLoader Class Reference</div></div>
@@ -119,6 +123,87 @@ Static Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:adfe3c957b0400369ed82ec6870c7f26a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html">AssetManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#adfe3c957b0400369ed82ec6870c7f26a">manager</a></td></tr>
 <tr class="separator:adfe3c957b0400369ed82ec6870c7f26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a5881228a9a7fb93797af6d57882fad45"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classcqsp_1_1asset_1_1_package_prototype.html">PackagePrototype</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a5881228a9a7fb93797af6d57882fad45">LoadModPrototype</a> (const std::string &amp;)</td></tr>
+<tr class="separator:a5881228a9a7fb93797af6d57882fad45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36675762cb53855b63f98ec6daeb3723"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a36675762cb53855b63f98ec6daeb3723">LoadText</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *mount, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:a36675762cb53855b63f98ec6daeb3723"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pretty straightforward, loads a text file into a string.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a36675762cb53855b63f98ec6daeb3723">More...</a><br /></td></tr>
+<tr class="separator:a36675762cb53855b63f98ec6daeb3723"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f4d158628b5f321f1103d138f315115"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a0f4d158628b5f321f1103d138f315115">LoadTextDirectory</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *mount, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:a0f4d158628b5f321f1103d138f315115"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a directory of text files into a map of strings keyed by their relative path to the resource.hjson file.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a0f4d158628b5f321f1103d138f315115">More...</a><br /></td></tr>
+<tr class="separator:a0f4d158628b5f321f1103d138f315115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83818df419a788a4197446f5000188f3"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a83818df419a788a4197446f5000188f3">LoadTexture</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *mount, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:a83818df419a788a4197446f5000188f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Textures have one hint, the <code>magfilter</code> hint. If it is present, and set to true, it will enable closest magfilter, which will make the texture look pixellated. If it is not present, then it will be linear mag.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a83818df419a788a4197446f5000188f3">More...</a><br /></td></tr>
+<tr class="separator:a83818df419a788a4197446f5000188f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81b964411ea12e1edbd43c57691536bc"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a81b964411ea12e1edbd43c57691536bc">LoadHjson</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *mount, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:a81b964411ea12e1edbd43c57691536bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hjson is rather flexible, it can load a single file or a directory, with just the same option. If the input path is a file, then it will load the hjson file into a <code>Hjson::Value</code>. If the input path is a directory, then it will load all the hjson files in the directory into a hjson value. This is for large amounts of data that would be better to be split up across files. The data in each file is assumed to be an array of objects, and so will load all the arrays of hjson objects in each of the hjson files into one hjson object.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a81b964411ea12e1edbd43c57691536bc">More...</a><br /></td></tr>
+<tr class="separator:a81b964411ea12e1edbd43c57691536bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf26365913af72346d34b25106071f53"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#aaf26365913af72346d34b25106071f53">LoadShader</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *mount, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:aaf26365913af72346d34b25106071f53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shaders have one option, the <code>type</code> hint, to specify what type of shader it is. We have two so far, the <code>frag</code> option for a fragment shader, and <code>vert</code> for a vertex shader. We do not have support for compute and geometry shaders, but we may add support for that in the future.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#aaf26365913af72346d34b25106071f53">More...</a><br /></td></tr>
+<tr class="separator:aaf26365913af72346d34b25106071f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ca8bcd360c05689e967554d20999fd9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a7ca8bcd360c05689e967554d20999fd9">LoadFont</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *mount, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:a7ca8bcd360c05689e967554d20999fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Just specify a .ttf file, and it will load it into an opengl texture font object.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a7ca8bcd360c05689e967554d20999fd9">More...</a><br /></td></tr>
+<tr class="separator:a7ca8bcd360c05689e967554d20999fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715f7b36b23581abaaaef496cafac2a9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a715f7b36b23581abaaaef496cafac2a9">LoadAudio</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *mount, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:a715f7b36b23581abaaaef496cafac2a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only ogg files are supported for now.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a715f7b36b23581abaaaef496cafac2a9">More...</a><br /></td></tr>
+<tr class="separator:a715f7b36b23581abaaaef496cafac2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b194619b9083c433a1d5f8360a474ce"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a5b194619b9083c433a1d5f8360a474ce">LoadCubemap</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *mount, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:a5b194619b9083c433a1d5f8360a474ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cubemaps are a special type of texture that make up the skybox. Although they are specified differently in the <code>resource.hjson</code>, they become textures when they are loaded.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a5b194619b9083c433a1d5f8360a474ce">More...</a><br /></td></tr>
+<tr class="separator:a5b194619b9083c433a1d5f8360a474ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee1a75260059f2e29235b5f77199f73a"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_shader_definition.html">ShaderDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#aee1a75260059f2e29235b5f77199f73a">LoadShaderDefinition</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *mount, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:aee1a75260059f2e29235b5f77199f73a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A shader definiton file. <br  />
+ A shader defintion is a way to simplify the creation of shader objects. <br  />
+ A shader definiton file is loaded in hjson, and follows this format:  <a href="classcqsp_1_1asset_1_1_asset_loader.html#aee1a75260059f2e29235b5f77199f73a">More...</a><br /></td></tr>
+<tr class="separator:aee1a75260059f2e29235b5f77199f73a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d5ec70d0f28070f7b3fc73201a0da6b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_text_directory_asset.html">TextDirectoryAsset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a7d5ec70d0f28070f7b3fc73201a0da6b">LoadScriptDirectory</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">VirtualMounter</a> *mount, const std::string &amp;path, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:a7d5ec70d0f28070f7b3fc73201a0da6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a script directory.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a7d5ec70d0f28070f7b3fc73201a0da6b">More...</a><br /></td></tr>
+<tr class="separator:a7d5ec70d0f28070f7b3fc73201a0da6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e8e464a7b1a89421170595fc291441f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a4e8e464a7b1a89421170595fc291441f">LoadAsset</a> (const <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a> &amp;<a class="el" href="assetmanager_8cpp.html#ac765329451135abec74c45e1897abf26">type</a>, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:a4e8e464a7b1a89421170595fc291441f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the asset specified in <code>path</code>  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a4e8e464a7b1a89421170595fc291441f">More...</a><br /></td></tr>
+<tr class="separator:a4e8e464a7b1a89421170595fc291441f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a503615e7e0f7b3c4639279c9d72bc12b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">ShaderProgram_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a503615e7e0f7b3c4639279c9d72bc12b">MakeShader</a> (const std::string &amp;key)</td></tr>
+<tr class="separator:a503615e7e0f7b3c4639279c9d72bc12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9549cc04b06220263fb31eef2144c51a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9549cc04b06220263fb31eef2144c51a">PlaceAsset</a> (<a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;package, const <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a> &amp;<a class="el" href="assetmanager_8cpp.html#ac765329451135abec74c45e1897abf26">type</a>, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:a9549cc04b06220263fb31eef2144c51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conducts checks to determine if the asset was loaded correctly. Wraps Load asset, and contains the same parameters  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a9549cc04b06220263fb31eef2144c51a">More...</a><br /></td></tr>
+<tr class="separator:a9549cc04b06220263fb31eef2144c51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc170ccb7d3ac2fefcbc660ff2f1214c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#acc170ccb7d3ac2fefcbc660ff2f1214c">LoadDirectory</a> (std::string path, std::function&lt; void(std::string)&gt; <a class="el" href="engine_2_c_make_lists_8txt.html#aba7f5ab953b60e586c86a2d573f64936">file</a>)</td></tr>
+<tr class="memdesc:acc170ccb7d3ac2fefcbc660ff2f1214c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads any type of directory, and executes the function for every single file. <br  />
+ This is a helper function to add to calculate the number of assets loaded so far.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#acc170ccb7d3ac2fefcbc660ff2f1214c">More...</a><br /></td></tr>
+<tr class="separator:acc170ccb7d3ac2fefcbc660ff2f1214c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9df5f3c899dcd0e3bfa77929a986ce1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9df5f3c899dcd0e3bfa77929a986ce1c">LoadResources</a> (<a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;package, const std::string &amp;path)</td></tr>
+<tr class="memdesc:a9df5f3c899dcd0e3bfa77929a986ce1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the <code>resource.hjson</code> files in the specified directory. It will look recursively and find all the resource.hjson files to load. <br  />
+ <code>resource.hjson</code> files consist of a hjson object. This is the syntax:  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a9df5f3c899dcd0e3bfa77929a986ce1c">More...</a><br /></td></tr>
+<tr class="separator:a9df5f3c899dcd0e3bfa77929a986ce1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c529a3cd6c46507e5cf949be27e1857"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a7c529a3cd6c46507e5cf949be27e1857">LoadResourceHjsonFile</a> (<a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;package, const std::string &amp;resource_mount_path, const std::string &amp;resource_file_path, const Hjson::Value &amp;asset_value)</td></tr>
+<tr class="memdesc:a7c529a3cd6c46507e5cf949be27e1857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the resources defined in the hjson <code>asset_value</code> in the hjson resource loading format.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a7c529a3cd6c46507e5cf949be27e1857">More...</a><br /></td></tr>
+<tr class="separator:a7c529a3cd6c46507e5cf949be27e1857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f9d319542727107c566d5bea6b99ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a93f9d319542727107c566d5bea6b99ce">HjsonPrototypeDirectory</a> (<a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;package, const std::string &amp;path, const std::string &amp;name)</td></tr>
+<tr class="memdesc:a93f9d319542727107c566d5bea6b99ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a directory that contains hjson asset data.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a93f9d319542727107c566d5bea6b99ce">More...</a><br /></td></tr>
+<tr class="separator:a93f9d319542727107c566d5bea6b99ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa88155ae127853add9ce20bd48bb1d41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html">IVirtualFileSystem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#aa88155ae127853add9ce20bd48bb1d41">GetVfs</a> (const std::string &amp;path)</td></tr>
+<tr class="memdesc:aa88155ae127853add9ce20bd48bb1d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a virtual file system starting in path  <a href="classcqsp_1_1asset_1_1_asset_loader.html#aa88155ae127853add9ce20bd48bb1d41">More...</a><br /></td></tr>
+<tr class="separator:aa88155ae127853add9ce20bd48bb1d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a9aa4b62463270f96b1e1ca44baf9de81"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9aa4b62463270f96b1e1ca44baf9de81">missing_assets</a></td></tr>
+<tr class="memdesc:a9aa4b62463270f96b1e1ca44baf9de81"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all assets that are missing  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a9aa4b62463270f96b1e1ca44baf9de81">More...</a><br /></td></tr>
+<tr class="separator:a9aa4b62463270f96b1e1ca44baf9de81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a299aba2b2f0bc9032fed9e520d469762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_threadsafe_queue.html">ThreadsafeQueue</a>&lt; <a class="el" href="classcqsp_1_1asset_1_1_queue_holder.html">QueueHolder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a299aba2b2f0bc9032fed9e520d469762">m_asset_queue</a></td></tr>
+<tr class="memdesc:a299aba2b2f0bc9032fed9e520d469762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue for <a class="el" href="classcqsp_1_1asset_1_1_asset_prototype.html">AssetPrototype</a> when loading in frame.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a299aba2b2f0bc9032fed9e520d469762">More...</a><br /></td></tr>
+<tr class="separator:a299aba2b2f0bc9032fed9e520d469762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbfef2da38202446d5c5b87545c33c92"><td class="memItemLeft" align="right" valign="top">std::atomic_int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#acbfef2da38202446d5c5b87545c33c92">max_loading</a></td></tr>
+<tr class="separator:acbfef2da38202446d5c5b87545c33c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab04e2c4802adc099cbf80ccddc0372d4"><td class="memItemLeft" align="right" valign="top">std::atomic_int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#ab04e2c4802adc099cbf80ccddc0372d4">currentloading</a></td></tr>
+<tr class="memdesc:ab04e2c4802adc099cbf80ccddc0372d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">All the assets that have already been loaded  <a href="classcqsp_1_1asset_1_1_asset_loader.html#ab04e2c4802adc099cbf80ccddc0372d4">More...</a><br /></td></tr>
+<tr class="separator:ab04e2c4802adc099cbf80ccddc0372d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11ea17216529528f9386771019a734b2"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a>, <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a55ad4e4dbfbac40cd4f563a220160f27">LoaderFunction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a11ea17216529528f9386771019a734b2">loading_functions</a></td></tr>
+<tr class="memdesc:a11ea17216529528f9386771019a734b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of functions that are loading.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a11ea17216529528f9386771019a734b2">More...</a><br /></td></tr>
+<tr class="separator:a11ea17216529528f9386771019a734b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a531c1b28ef2e8d7994ab4e5591cb1426"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">VirtualMounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a531c1b28ef2e8d7994ab4e5591cb1426">mounter</a></td></tr>
+<tr class="separator:a531c1b28ef2e8d7994ab4e5591cb1426"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -284,6 +369,440 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="aa88155ae127853add9ce20bd48bb1d41" name="aa88155ae127853add9ce20bd48bb1d41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa88155ae127853add9ce20bd48bb1d41">&#9670;&nbsp;</a></span>GetVfs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html">IVirtualFileSystem</a> * cqsp::asset::AssetLoader::GetVfs </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a virtual file system starting in path </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a93f9d319542727107c566d5bea6b99ce" name="a93f9d319542727107c566d5bea6b99ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93f9d319542727107c566d5bea6b99ce">&#9670;&nbsp;</a></span>HjsonPrototypeDirectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::asset::AssetLoader::HjsonPrototypeDirectory </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;&#160;</td>
+          <td class="paramname"><em>package</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Defines a directory that contains hjson asset data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">package</td><td></td></tr>
+    <tr><td class="paramname">path</td><td></td></tr>
+    <tr><td class="paramname">name</td><td></td></tr>
+    <tr><td class="paramname">mounter</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4e8e464a7b1a89421170595fc291441f" name="a4e8e464a7b1a89421170595fc291441f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e8e464a7b1a89421170595fc291441f">&#9670;&nbsp;</a></span>LoadAsset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">Asset</a> &gt; cqsp::asset::AssetLoader::LoadAsset </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads the asset specified in <code>path</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Type of asset to load</td></tr>
+    <tr><td class="paramname">path</td><td>Full virtual path of the asset</td></tr>
+    <tr><td class="paramname">key</td><td>Key of the asset to be loaded</td></tr>
+    <tr><td class="paramname">hints</td><td>Any hints to give to the loader</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a715f7b36b23581abaaaef496cafac2a9" name="a715f7b36b23581abaaaef496cafac2a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a715f7b36b23581abaaaef496cafac2a9">&#9670;&nbsp;</a></span>LoadAudio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">Asset</a> &gt; cqsp::asset::AssetLoader::LoadAudio </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *&#160;</td>
+          <td class="paramname"><em>mount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Only ogg files are supported for now. </p>
+<p >If you're looking to add a music file, do not add it by the 'normal' way. This is for performance reasons. Go to <code>binaries/data/core/music/readme.txt</code> for further reading. </p>
+
+</div>
+</div>
+<a id="a5b194619b9083c433a1d5f8360a474ce" name="a5b194619b9083c433a1d5f8360a474ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b194619b9083c433a1d5f8360a474ce">&#9670;&nbsp;</a></span>LoadCubemap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">Asset</a> &gt; cqsp::asset::AssetLoader::LoadCubemap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *&#160;</td>
+          <td class="paramname"><em>mount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cubemaps are a special type of texture that make up the skybox. Although they are specified differently in the <code>resource.hjson</code>, they become textures when they are loaded. </p>
+<p >They consist of 6 textures. When loading it, you have to specify a hjson file that links the files of the asset. The syntax of the hjson file will be a simple array of strings, specifing the relative paths relative to that hjson file. You will have 6 images, specifying the left, right, top, bottom, back, and front images respectively in that order.</p>
+<p >Example: </p><div class="fragment"><div class="line">[</div>
+<div class="line"> left.png <span class="comment">// The top left texture</span></div>
+<div class="line"> right.png <span class="comment">// You get the gist</span></div>
+<div class="line"> top.png</div>
+<div class="line"> bottom.png</div>
+<div class="line"> back.png</div>
+<div class="line"> front.png <span class="comment">// In total there will have 6 textures.</span></div>
+<div class="line">]</div>
+</div><!-- fragment --><p> This will not load the texture more or less than 6 textures are defined in the array. </p>
+
+</div>
+</div>
+<a id="acc170ccb7d3ac2fefcbc660ff2f1214c" name="acc170ccb7d3ac2fefcbc660ff2f1214c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc170ccb7d3ac2fefcbc660ff2f1214c">&#9670;&nbsp;</a></span>LoadDirectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::asset::AssetLoader::LoadDirectory </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(std::string)&gt;&#160;</td>
+          <td class="paramname"><em>file</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads any type of directory, and executes the function for every single file. <br  />
+ This is a helper function to add to calculate the number of assets loaded so far. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Path of directory to read</td></tr>
+    <tr><td class="paramname">file</td><td>Function pointer to do something with the path, and it takes the path of the asset as the parameter</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7ca8bcd360c05689e967554d20999fd9" name="a7ca8bcd360c05689e967554d20999fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ca8bcd360c05689e967554d20999fd9">&#9670;&nbsp;</a></span>LoadFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">Asset</a> &gt; cqsp::asset::AssetLoader::LoadFont </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *&#160;</td>
+          <td class="paramname"><em>mount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Just specify a .ttf file, and it will load it into an opengl texture font object. </p>
+<p >This is for opengl rendering.</p>
+<p >Because each UI library has their differing implementation of fonts, to add fonts to the UI, do not use a <code>resource.hjson</code>. You need to go to <code>binaries/data/core/gfx/fonts.hjson</code> to alter and add fonts for the UI. </p>
+
+</div>
+</div>
+<a id="a81b964411ea12e1edbd43c57691536bc" name="a81b964411ea12e1edbd43c57691536bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81b964411ea12e1edbd43c57691536bc">&#9670;&nbsp;</a></span>LoadHjson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">Asset</a> &gt; cqsp::asset::AssetLoader::LoadHjson </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *&#160;</td>
+          <td class="paramname"><em>mount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hjson is rather flexible, it can load a single file or a directory, with just the same option. If the input path is a file, then it will load the hjson file into a <code>Hjson::Value</code>. If the input path is a directory, then it will load all the hjson files in the directory into a hjson value. This is for large amounts of data that would be better to be split up across files. The data in each file is assumed to be an array of objects, and so will load all the arrays of hjson objects in each of the hjson files into one hjson object. </p>
+<p >If it refers to directory, and a file that is loaded is not in a hjson array, it will not load that specific file, but it will not fail. </p>
+
+</div>
+</div>
+<a id="a5881228a9a7fb93797af6d57882fad45" name="a5881228a9a7fb93797af6d57882fad45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5881228a9a7fb93797af6d57882fad45">&#9670;&nbsp;</a></span>LoadModPrototype()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="classcqsp_1_1asset_1_1_package_prototype.html">PackagePrototype</a> &gt; cqsp::asset::AssetLoader::LoadModPrototype </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path_string</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa80982e8e2f275abbf31fcc2d69c6ab8" name="aa80982e8e2f275abbf31fcc2d69c6ab8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa80982e8e2f275abbf31fcc2d69c6ab8">&#9670;&nbsp;</a></span>LoadMods()</h2>
 
@@ -345,6 +864,523 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a7c529a3cd6c46507e5cf949be27e1857" name="a7c529a3cd6c46507e5cf949be27e1857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c529a3cd6c46507e5cf949be27e1857">&#9670;&nbsp;</a></span>LoadResourceHjsonFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::asset::AssetLoader::LoadResourceHjsonFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;&#160;</td>
+          <td class="paramname"><em>package</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>resource_mount_path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>resource_file_path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>asset_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads all the resources defined in the hjson <code>asset_value</code> in the hjson resource loading format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">package</td><td><a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> to load into</td></tr>
+    <tr><td class="paramname">resource_mount_path</td><td>root path of the package</td></tr>
+    <tr><td class="paramname">resource_file_path</td><td>Resource file path</td></tr>
+    <tr><td class="paramname">asset_value</td><td>Hjson value to read from</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9df5f3c899dcd0e3bfa77929a986ce1c" name="a9df5f3c899dcd0e3bfa77929a986ce1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9df5f3c899dcd0e3bfa77929a986ce1c">&#9670;&nbsp;</a></span>LoadResources()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::asset::AssetLoader::LoadResources </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;&#160;</td>
+          <td class="paramname"><em>package</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads all the <code>resource.hjson</code> files in the specified directory. It will look recursively and find all the resource.hjson files to load. <br  />
+ <code>resource.hjson</code> files consist of a hjson object. This is the syntax: </p>
+<div class="fragment"><div class="line">{</div>
+<div class="line">    test_asset: { # Asset key</div>
+<div class="line">        path: # Path relative to the current resource.hjson <a class="code hl_function" href="common_2_c_make_lists_8txt.html#a0ad7dacf34a2ef7d69ebd7aa0b70f3e8">file</a>.</div>
+<div class="line">        <a class="code hl_variable" href="assetmanager_8cpp.html#ac765329451135abec74c45e1897abf26">type</a>: # Type of asset: &amp;lt;none|texture|shader|hjson|text|model|font|cubemap|directory|audio&amp;rt;</div>
+<div class="line">        <a class="code hl_variable" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>: {} # Object of whatever information you want when loading the asset.</div>
+<div class="line">    }</div>
+<div class="line">    <span class="comment">// .. more assets can be specified, as long as they have a different key</span></div>
+<div class="line">}</div>
+<div class="ttc" id="aassetmanager_8cpp_html_a96b582ef07cc3bc8efc907d6ed939585"><div class="ttname"><a href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a></div><div class="ttdeci">Hjson::Value hints</div><div class="ttdef"><b>Definition:</b> assetmanager.cpp:72</div></div>
+<div class="ttc" id="aassetmanager_8cpp_html_ac765329451135abec74c45e1897abf26"><div class="ttname"><a href="assetmanager_8cpp.html#ac765329451135abec74c45e1897abf26">type</a></div><div class="ttdeci">int type</div><div class="ttdef"><b>Definition:</b> assetmanager.cpp:71</div></div>
+<div class="ttc" id="acommon_2_c_make_lists_8txt_html_a0ad7dacf34a2ef7d69ebd7aa0b70f3e8"><div class="ttname"><a href="common_2_c_make_lists_8txt.html#a0ad7dacf34a2ef7d69ebd7aa0b70f3e8">file</a></div><div class="ttdeci">file(GLOB_RECURSE CPP_FILES *.cpp) file(GLOB_RECURSE H_FILES *.h) set(SOURCE_FILES $</div><div class="ttdef"><b>Definition:</b> CMakeLists.txt:22</div></div>
+</div><!-- fragment --><p> <br  />
+ </p>
+
+</div>
+</div>
+<a id="a7d5ec70d0f28070f7b3fc73201a0da6b" name="a7d5ec70d0f28070f7b3fc73201a0da6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d5ec70d0f28070f7b3fc73201a0da6b">&#9670;&nbsp;</a></span>LoadScriptDirectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_text_directory_asset.html">TextDirectoryAsset</a> &gt; cqsp::asset::AssetLoader::LoadScriptDirectory </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">VirtualMounter</a> *&#160;</td>
+          <td class="paramname"><em>mount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads a script directory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td></td></tr>
+    <tr><td class="paramname">hints</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aaf26365913af72346d34b25106071f53" name="aaf26365913af72346d34b25106071f53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf26365913af72346d34b25106071f53">&#9670;&nbsp;</a></span>LoadShader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">Asset</a> &gt; cqsp::asset::AssetLoader::LoadShader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *&#160;</td>
+          <td class="paramname"><em>mount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shaders have one option, the <code>type</code> hint, to specify what type of shader it is. We have two so far, the <code>frag</code> option for a fragment shader, and <code>vert</code> for a vertex shader. We do not have support for compute and geometry shaders, but we may add support for that in the future. </p>
+
+</div>
+</div>
+<a id="aee1a75260059f2e29235b5f77199f73a" name="aee1a75260059f2e29235b5f77199f73a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee1a75260059f2e29235b5f77199f73a">&#9670;&nbsp;</a></span>LoadShaderDefinition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_shader_definition.html">ShaderDefinition</a> &gt; cqsp::asset::AssetLoader::LoadShaderDefinition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *&#160;</td>
+          <td class="paramname"><em>mount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A shader definiton file. <br  />
+ A shader defintion is a way to simplify the creation of shader objects. <br  />
+ A shader definiton file is loaded in hjson, and follows this format: </p>
+<div class="fragment"><div class="line">{</div>
+<div class="line">    vert: (vertex shader name)</div>
+<div class="line">    frag: (fragment shader name)</div>
+<div class="line">    uniforms: {</div>
+<div class="line">        test_vec3: [1, 3, 5]</div>
+<div class="line">        test_float: 19.5</div>
+<div class="line">        test_int: 15</div>
+<div class="line">        test_texture_name: (texture id)</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> For uniforms, the shader will read the types of uniforms in the shader, and use them.</p>
+<p >Matrices are not supported yet </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classcqsp_1_1asset_1_1_shader_definition.html">cqsp::asset::ShaderDefinition</a> for a most up to date version </dd></dl>
+
+</div>
+</div>
+<a id="a36675762cb53855b63f98ec6daeb3723" name="a36675762cb53855b63f98ec6daeb3723"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36675762cb53855b63f98ec6daeb3723">&#9670;&nbsp;</a></span>LoadText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">Asset</a> &gt; cqsp::asset::AssetLoader::LoadText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *&#160;</td>
+          <td class="paramname"><em>mount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pretty straightforward, loads a text file into a string. </p>
+<p >This has no hints </p>
+
+</div>
+</div>
+<a id="a0f4d158628b5f321f1103d138f315115" name="a0f4d158628b5f321f1103d138f315115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f4d158628b5f321f1103d138f315115">&#9670;&nbsp;</a></span>LoadTextDirectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">Asset</a> &gt; cqsp::asset::AssetLoader::LoadTextDirectory </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *&#160;</td>
+          <td class="paramname"><em>mount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads a directory of text files into a map of strings keyed by their relative path to the resource.hjson file. </p>
+
+</div>
+</div>
+<a id="a83818df419a788a4197446f5000188f3" name="a83818df419a788a4197446f5000188f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83818df419a788a4197446f5000188f3">&#9670;&nbsp;</a></span>LoadTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">Asset</a> &gt; cqsp::asset::AssetLoader::LoadTexture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *&#160;</td>
+          <td class="paramname"><em>mount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Textures have one hint, the <code>magfilter</code> hint. If it is present, and set to true, it will enable closest magfilter, which will make the texture look pixellated. If it is not present, then it will be linear mag. </p>
+
+</div>
+</div>
+<a id="a503615e7e0f7b3c4639279c9d72bc12b" name="a503615e7e0f7b3c4639279c9d72bc12b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a503615e7e0f7b3c4639279c9d72bc12b">&#9670;&nbsp;</a></span>MakeShader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">ShaderProgram_t</a> cqsp::asset::AssetLoader::MakeShader </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9549cc04b06220263fb31eef2144c51a" name="a9549cc04b06220263fb31eef2144c51a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9549cc04b06220263fb31eef2144c51a">&#9670;&nbsp;</a></span>PlaceAsset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::asset::AssetLoader::PlaceAsset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;&#160;</td>
+          <td class="paramname"><em>package</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Conducts checks to determine if the asset was loaded correctly. Wraps Load asset, and contains the same parameters </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">package</td><td><a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> to load into</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aed607f5154e345ac6c6043253f07a41b" name="aed607f5154e345ac6c6043253f07a41b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aed607f5154e345ac6c6043253f07a41b">&#9670;&nbsp;</a></span>QueueHasItems()</h2>
 
@@ -397,6 +1433,79 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab04e2c4802adc099cbf80ccddc0372d4" name="ab04e2c4802adc099cbf80ccddc0372d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab04e2c4802adc099cbf80ccddc0372d4">&#9670;&nbsp;</a></span>currentloading</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic_int cqsp::asset::AssetLoader::currentloading</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>All the assets that have already been loaded </p>
+
+</div>
+</div>
+<a id="a11ea17216529528f9386771019a734b2" name="a11ea17216529528f9386771019a734b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11ea17216529528f9386771019a734b2">&#9670;&nbsp;</a></span>loading_functions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;<a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a>, <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a55ad4e4dbfbac40cd4f563a220160f27">LoaderFunction</a>&gt; cqsp::asset::AssetLoader::loading_functions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The list of functions that are loading. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a7d5ec70d0f28070f7b3fc73201a0da6b">LoadScriptDirectory</a> <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a5b194619b9083c433a1d5f8360a474ce" title="Cubemaps are a special type of texture that make up the skybox. Although they are specified different...">LoadCubemap</a> <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a715f7b36b23581abaaaef496cafac2a9" title="Only ogg files are supported for now.">LoadAudio</a> <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a36675762cb53855b63f98ec6daeb3723" title="Pretty straightforward, loads a text file into a string.">LoadText</a> <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a83818df419a788a4197446f5000188f3" title="Textures have one hint, the magfilter hint. If it is present, and set to true, it will enable closest...">LoadTexture</a> <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a81b964411ea12e1edbd43c57691536bc" title="Hjson is rather flexible, it can load a single file or a directory, with just the same option....">LoadHjson</a> <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#aaf26365913af72346d34b25106071f53" title="Shaders have one option, the type hint, to specify what type of shader it is. We have two so far,...">LoadShader</a> <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a7ca8bcd360c05689e967554d20999fd9" title="Just specify a .ttf file, and it will load it into an opengl texture font object.">LoadFont</a> </dd></dl>
+
+</div>
+</div>
+<a id="a299aba2b2f0bc9032fed9e520d469762" name="a299aba2b2f0bc9032fed9e520d469762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a299aba2b2f0bc9032fed9e520d469762">&#9670;&nbsp;</a></span>m_asset_queue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_threadsafe_queue.html">ThreadsafeQueue</a>&lt;<a class="el" href="classcqsp_1_1asset_1_1_queue_holder.html">QueueHolder</a>&gt; cqsp::asset::AssetLoader::m_asset_queue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Queue for <a class="el" href="classcqsp_1_1asset_1_1_asset_prototype.html">AssetPrototype</a> when loading in frame. </p>
+
+</div>
+</div>
 <a id="adfe3c957b0400369ed82ec6870c7f26a" name="adfe3c957b0400369ed82ec6870c7f26a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adfe3c957b0400369ed82ec6870c7f26a">&#9670;&nbsp;</a></span>manager</h2>
 
@@ -411,6 +1520,74 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="acbfef2da38202446d5c5b87545c33c92" name="acbfef2da38202446d5c5b87545c33c92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbfef2da38202446d5c5b87545c33c92">&#9670;&nbsp;</a></span>max_loading</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic_int cqsp::asset::AssetLoader::max_loading</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9aa4b62463270f96b1e1ca44baf9de81" name="a9aa4b62463270f96b1e1ca44baf9de81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aa4b62463270f96b1e1ca44baf9de81">&#9670;&nbsp;</a></span>missing_assets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; cqsp::asset::AssetLoader::missing_assets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of all assets that are missing </p>
+
+</div>
+</div>
+<a id="a531c1b28ef2e8d7994ab4e5591cb1426" name="a531c1b28ef2e8d7994ab4e5591cb1426"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a531c1b28ef2e8d7994ab4e5591cb1426">&#9670;&nbsp;</a></span>mounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">VirtualMounter</a> cqsp::asset::AssetLoader::mounter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/engine/asset/<a class="el" href="assetmanager_8h_source.html">assetmanager.h</a></li>
 <li>/github/workspace/src/engine/asset/<a class="el" href="assetmanager_8cpp.html">assetmanager.cpp</a></li>
@@ -418,7 +1595,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jun 9 2022 14:24:01 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

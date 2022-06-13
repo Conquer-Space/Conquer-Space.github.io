@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +71,8 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1scene_1_1_loading_scene-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::scene::LoadingScene Class Reference</div></div>
 </div><!--header-->
@@ -85,6 +89,11 @@ Inheritance diagram for cqsp::scene::LoadingScene:</div>
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1scene_1_1_loading_scene_1_1_loading_data_model.html">LoadingDataModel</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a199c98c5464420ebde96df81dba77d22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a199c98c5464420ebde96df81dba77d22">LoadingScene</a> (<a class="el" href="classcqsp_1_1engine_1_1_application.html">cqsp::engine::Application</a> &amp;app)</td></tr>
@@ -114,6 +123,34 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a611cb0cd7448993fc5e975f986728129 inherit pub_methods_classcqsp_1_1engine_1_1_scene"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06bf60c9538c83b4cbd0157d2cc1544c inherit pub_methods_classcqsp_1_1engine_1_1_scene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html">cqsp::asset::AssetManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_scene.html#a06bf60c9538c83b4cbd0157d2cc1544c">GetAssetManager</a> ()</td></tr>
 <tr class="separator:a06bf60c9538c83b4cbd0157d2cc1544c inherit pub_methods_classcqsp_1_1engine_1_1_scene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ab38890be000bf197e3f57546a7d7c65c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#ab38890be000bf197e3f57546a7d7c65c">LoadFont</a> ()</td></tr>
+<tr class="separator:ab38890be000bf197e3f57546a7d7c65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a9456751cc99f6092a973ea33647eb7b7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a9456751cc99f6092a973ea33647eb7b7">windowWidth</a></td></tr>
+<tr class="separator:a9456751cc99f6092a973ea33647eb7b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71433a14318999c5788f8734ddb72181"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a71433a14318999c5788f8734ddb72181">windowHeight</a></td></tr>
+<tr class="separator:a71433a14318999c5788f8734ddb72181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64be1595f186c3d43e38360ca9ff604f"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a64be1595f186c3d43e38360ca9ff604f">m_done_loading</a></td></tr>
+<tr class="separator:a64be1595f186c3d43e38360ca9ff604f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7325f29483c11f5ae1f49e887142f351"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; std::thread &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a7325f29483c11f5ae1f49e887142f351">thread</a></td></tr>
+<tr class="separator:a7325f29483c11f5ae1f49e887142f351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fd6337f35c2c870b4131fc33f99b913"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a9fd6337f35c2c870b4131fc33f99b913">percentage</a></td></tr>
+<tr class="separator:a9fd6337f35c2c870b4131fc33f99b913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ec116941bcf84253cf3ceb1acdeb248"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html">cqsp::asset::AssetLoader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a3ec116941bcf84253cf3ceb1acdeb248">assetLoader</a></td></tr>
+<tr class="separator:a3ec116941bcf84253cf3ceb1acdeb248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae844e1a748a8613f22b2b9bbef436096"><td class="memItemLeft" align="right" valign="top">Rml::ElementDocument *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#ae844e1a748a8613f22b2b9bbef436096">document</a></td></tr>
+<tr class="separator:ae844e1a748a8613f22b2b9bbef436096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f6bbd849f0cfa30384614c0e096a1e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a7f6bbd849f0cfa30384614c0e096a1e5">need_halt</a> = false</td></tr>
+<tr class="separator:a7f6bbd849f0cfa30384614c0e096a1e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5d0c3dc405a327effcdd2e677c6d603"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structcqsp_1_1scene_1_1_loading_scene_1_1_loading_data_model.html">cqsp::scene::LoadingScene::LoadingDataModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#af5d0c3dc405a327effcdd2e677c6d603">loading_data</a></td></tr>
+<tr class="separator:af5d0c3dc405a327effcdd2e677c6d603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a481a3d52e6d2d0425cc57c4187d41438"><td class="memItemLeft" align="right" valign="top">Rml::DataModelHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a481a3d52e6d2d0425cc57c4187d41438">model_handle</a></td></tr>
+<tr class="separator:a481a3d52e6d2d0425cc57c4187d41438"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a199c98c5464420ebde96df81dba77d22" name="a199c98c5464420ebde96df81dba77d22"></a>
@@ -184,6 +221,31 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classcqsp_1_1engine_1_1_scene.html#a9dafddde636add51161ce31d0b5a0fa5">cqsp::engine::Scene</a>.</p>
+
+</div>
+</div>
+<a id="ab38890be000bf197e3f57546a7d7c65c" name="ab38890be000bf197e3f57546a7d7c65c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab38890be000bf197e3f57546a7d7c65c">&#9670;&nbsp;</a></span>LoadFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::scene::LoadingScene::LoadFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -288,6 +350,227 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3ec116941bcf84253cf3ceb1acdeb248" name="a3ec116941bcf84253cf3ceb1acdeb248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ec116941bcf84253cf3ceb1acdeb248">&#9670;&nbsp;</a></span>assetLoader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html">cqsp::asset::AssetLoader</a> cqsp::scene::LoadingScene::assetLoader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae844e1a748a8613f22b2b9bbef436096" name="ae844e1a748a8613f22b2b9bbef436096"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae844e1a748a8613f22b2b9bbef436096">&#9670;&nbsp;</a></span>document</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rml::ElementDocument* cqsp::scene::LoadingScene::document</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5d0c3dc405a327effcdd2e677c6d603" name="af5d0c3dc405a327effcdd2e677c6d603"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5d0c3dc405a327effcdd2e677c6d603">&#9670;&nbsp;</a></span>loading_data</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structcqsp_1_1scene_1_1_loading_scene_1_1_loading_data_model.html">cqsp::scene::LoadingScene::LoadingDataModel</a> cqsp::scene::LoadingScene::loading_data</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64be1595f186c3d43e38360ca9ff604f" name="a64be1595f186c3d43e38360ca9ff604f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64be1595f186c3d43e38360ca9ff604f">&#9670;&nbsp;</a></span>m_done_loading</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;bool&gt; cqsp::scene::LoadingScene::m_done_loading</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a481a3d52e6d2d0425cc57c4187d41438" name="a481a3d52e6d2d0425cc57c4187d41438"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a481a3d52e6d2d0425cc57c4187d41438">&#9670;&nbsp;</a></span>model_handle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rml::DataModelHandle cqsp::scene::LoadingScene::model_handle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f6bbd849f0cfa30384614c0e096a1e5" name="a7f6bbd849f0cfa30384614c0e096a1e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f6bbd849f0cfa30384614c0e096a1e5">&#9670;&nbsp;</a></span>need_halt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::scene::LoadingScene::need_halt = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9fd6337f35c2c870b4131fc33f99b913" name="a9fd6337f35c2c870b4131fc33f99b913"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fd6337f35c2c870b4131fc33f99b913">&#9670;&nbsp;</a></span>percentage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;float&gt; cqsp::scene::LoadingScene::percentage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7325f29483c11f5ae1f49e887142f351" name="a7325f29483c11f5ae1f49e887142f351"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7325f29483c11f5ae1f49e887142f351">&#9670;&nbsp;</a></span>thread</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;std::thread&gt; cqsp::scene::LoadingScene::thread</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71433a14318999c5788f8734ddb72181" name="a71433a14318999c5788f8734ddb72181"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71433a14318999c5788f8734ddb72181">&#9670;&nbsp;</a></span>windowHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float cqsp::scene::LoadingScene::windowHeight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9456751cc99f6092a973ea33647eb7b7" name="a9456751cc99f6092a973ea33647eb7b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9456751cc99f6092a973ea33647eb7b7">&#9670;&nbsp;</a></span>windowWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float cqsp::scene::LoadingScene::windowWidth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/client/scenes/<a class="el" href="loadingscene_8h_source.html">loadingscene.h</a></li>
 <li>/github/workspace/src/client/scenes/<a class="el" href="loadingscene_8cpp.html">loadingscene.cpp</a></li>
@@ -295,7 +578,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jun 9 2022 14:24:02 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -66,19 +68,21 @@ $(function() {
 
 <h3><a id="index_u" name="index_u"></a>- u -</h3><ul>
 <li>Ui()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_empty_scene.html#a2684a60cacd275ec91ca28103e356811">cqsp::engine::EmptyScene</a>, <a class="el" href="classcqsp_1_1engine_1_1_scene.html#af37d40701f0ce1e1798a216296fd50a0">cqsp::engine::Scene</a>, <a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#aedb1a995d481e38ce9635e7ccab9994b">cqsp::engine::SceneManager</a>, <a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a3df251ded85cce0a32809e0cfe7f8cfa">cqsp::scene::LoadingScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_main_menu_scene.html#ac11865e1d530bbf0a932a91801e856bc">cqsp::scene::MainMenuScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_object_editor_scene.html#a9e831c3fa59b05e4ef1da51115dca0af">cqsp::scene::ObjectEditorScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_text_test_scene.html#af902814b5af1ca2a0ea82ee7cc9abb30">cqsp::scene::TextTestScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_universe_loading_scene.html#af9212a4c84db41e30c1aa17f2050cb20">cqsp::scene::UniverseLoadingScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_universe_scene.html#a64e17699cd8c4d5b521502ef7661cb98">cqsp::scene::UniverseScene</a></li>
+<li>ui_volume&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1_settings_window.html#ace9c0aeaabae95e5a9a9f2993d106308">cqsp::client::SettingsWindow</a></li>
 <li>uniforms&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_shader_definition.html#a88909dd5969fc62c2e07fe46903ee75a">cqsp::asset::ShaderDefinition</a></li>
 <li>unit_name&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_unit.html#a2666371c9b2c90a28f67b59ab61f9308">cqsp::common::components::Unit</a></li>
-<li>universe&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html#a2e87a3eec01ace390f40eb12755aa6d7">cqsp::common::systems::loading::HjsonLoader</a></li>
+<li>universe&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1_game.html#a8ee33820ea9f4782d74288f0a742a0c3">cqsp::common::Game</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_hjson_loader.html#a2e87a3eec01ace390f40eb12755aa6d7">cqsp::common::systems::loading::HjsonLoader</a></li>
 <li>Universe()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1_universe.html#a98cf7e1290a4750f45fbac9fa667f90d">cqsp::common::Universe</a></li>
 <li>UniverseLoadingScene()&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_universe_loading_scene.html#ac821b505914fd4685b67685d9737cd70">cqsp::scene::UniverseLoadingScene</a></li>
 <li>UniverseScene()&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_universe_scene.html#ae986c8011dc00e5f08afb582e3cfdedc">cqsp::scene::UniverseScene</a></li>
 <li>Update()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1_credits_window.html#adee5ea0d97efaa6f6ff50fabf42d0e4d">cqsp::client::CreditsWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a800bb1ec0f61cf47575345ad5417460f">cqsp::client::systems::SysStarSystemRenderer</a>, <a class="el" href="classcqsp_1_1engine_1_1_empty_scene.html#ad846d97cf5f259b81e176846159af81c">cqsp::engine::EmptyScene</a>, <a class="el" href="classcqsp_1_1engine_1_1_scene.html#a0957cc732ea73f4a54d05e3a8926769a">cqsp::engine::Scene</a>, <a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#a984a18fbdb4b41ac0fcc5b21df41930c">cqsp::engine::SceneManager</a>, <a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html#a4dabcbcb10f01c9723eb8da4a485cdca">cqsp::scene::LoadingScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_main_menu_scene.html#af4d02df2199b36ad1ee48fdcb7044468">cqsp::scene::MainMenuScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_object_editor_scene.html#a4c29363eb56f14e0feb99791d591a134">cqsp::scene::ObjectEditorScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_text_test_scene.html#a5bd47c463a4df2f152de14a39b4236c1">cqsp::scene::TextTestScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_universe_loading_scene.html#a137dc63965204015a6de7ee742815bf6">cqsp::scene::UniverseLoadingScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_universe_scene.html#aac3e0a3fab118c69cec8e1cb6886679a">cqsp::scene::UniverseScene</a></li>
 <li>UseProgram()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_shader_program.html#ab7868b9e2d2e345a02b130fb84d2ca76">cqsp::asset::ShaderProgram</a></li>
+<li>user_interfaces&#160;:&#160;<a class="el" href="classcqsp_1_1scene_1_1_object_editor_scene.html#ac608dcad7956f1f5b45726f31ba46522">cqsp::scene::ObjectEditorScene</a>, <a class="el" href="classcqsp_1_1scene_1_1_universe_scene.html#a5b63de334acff8e5a7e271fafb4f721e">cqsp::scene::UniverseScene</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jun 9 2022 14:24:02 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

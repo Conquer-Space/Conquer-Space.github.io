@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1asset_1_1_native_file_system-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::asset::NativeFileSystem Class Reference</div></div>
 </div><!--header-->
@@ -86,7 +89,7 @@ Inheritance diagram for cqsp::asset::NativeFileSystem:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a05a76f382f725d45fa812b5e2d57d55a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a05a76f382f725d45fa812b5e2d57d55a">NativeFileSystem</a> (const std::string &amp;root)</td></tr>
+<tr class="memitem:a05a76f382f725d45fa812b5e2d57d55a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a05a76f382f725d45fa812b5e2d57d55a">NativeFileSystem</a> (const std::string &amp;<a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a697074fa9e0d0b37fe09de35c2099d46">root</a>)</td></tr>
 <tr class="separator:a05a76f382f725d45fa812b5e2d57d55a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12cceb18dfc2bca1bae410b305ef7800"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a12cceb18dfc2bca1bae410b305ef7800">~NativeFileSystem</a> ()</td></tr>
 <tr class="separator:a12cceb18dfc2bca1bae410b305ef7800"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,6 +122,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad60fdbf195286ba87e7059a1e93ec377 inherit pub_methods_classcqsp_1_1asset_1_1_i_virtual_file_system"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad60fdbf195286ba87e7059a1e93ec377">Close</a> (<a class="el" href="namespacecqsp_1_1asset.html#aad34e921425ce7efb4d34c87e5002f31">IVirtualFilePtr</a> &amp;)=0</td></tr>
 <tr class="memdesc:ad60fdbf195286ba87e7059a1e93ec377 inherit pub_methods_classcqsp_1_1asset_1_1_i_virtual_file_system"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the file.  <a href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad60fdbf195286ba87e7059a1e93ec377">More...</a><br /></td></tr>
 <tr class="separator:ad60fdbf195286ba87e7059a1e93ec377 inherit pub_methods_classcqsp_1_1asset_1_1_i_virtual_file_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a697074fa9e0d0b37fe09de35c2099d46"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a697074fa9e0d0b37fe09de35c2099d46">root</a></td></tr>
+<tr class="separator:a697074fa9e0d0b37fe09de35c2099d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e55904612261b1b31e899d4d7e38811"><td class="memItemLeft" align="right" valign="top">friend&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a1e55904612261b1b31e899d4d7e38811">NativeDirectory</a></td></tr>
+<tr class="separator:a1e55904612261b1b31e899d4d7e38811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a05a76f382f725d45fa812b5e2d57d55a" name="a05a76f382f725d45fa812b5e2d57d55a"></a>
@@ -403,6 +413,51 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1e55904612261b1b31e899d4d7e38811" name="a1e55904612261b1b31e899d4d7e38811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e55904612261b1b31e899d4d7e38811">&#9670;&nbsp;</a></span>NativeDirectory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend cqsp::asset::NativeFileSystem::NativeDirectory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a697074fa9e0d0b37fe09de35c2099d46" name="a697074fa9e0d0b37fe09de35c2099d46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a697074fa9e0d0b37fe09de35c2099d46">&#9670;&nbsp;</a></span>root</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cqsp::asset::NativeFileSystem::root</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/engine/asset/vfs/<a class="el" href="nativevfs_8h_source.html">nativevfs.h</a></li>
 <li>/github/workspace/src/engine/asset/vfs/<a class="el" href="nativevfs_8cpp.html">nativevfs.cpp</a></li>
@@ -410,7 +465,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jun 9 2022 14:24:01 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

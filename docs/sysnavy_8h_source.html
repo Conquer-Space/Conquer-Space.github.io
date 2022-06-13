@@ -20,9 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Conquer Space
+   <div id="projectname">Conquer Space<span id="projectnumber">&#160;0.0.0</span>
    </div>
+   <div id="projectbrief">A space themed grand strategy game set in the near future, with realistic orbital mechanics, and an emphasis on economics and politics.</div>
   </td>
  </tr>
  </tbody>
@@ -94,7 +96,7 @@ $(function() {
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">namespace </span>systems {</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html">   24</a></span><span class="keyword">class </span><a class="code hl_class" href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html">SysNavyControl</a> : <span class="keyword">public</span> <a class="code hl_class" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html">ISimulationSystem</a> {</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html#aae41ec1076b05673d18211cb8d0ccce5">   26</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html#aae41ec1076b05673d18211cb8d0ccce5">SysNavyControl</a>(<a class="code hl_class" href="classcqsp_1_1common_1_1_game.html">Game</a>&amp; game) : <a class="code hl_class" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html">ISimulationSystem</a>(game) {}</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html#aae41ec1076b05673d18211cb8d0ccce5">   26</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html#aae41ec1076b05673d18211cb8d0ccce5">SysNavyControl</a>(<a class="code hl_class" href="classcqsp_1_1common_1_1_game.html">Game</a>&amp; <a class="code hl_variable" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a5f88777255125e6fee6951511f36f3e2">game</a>) : <a class="code hl_class" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html">ISimulationSystem</a>(<a class="code hl_variable" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a5f88777255125e6fee6951511f36f3e2">game</a>) {}</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html#a46f9a8a2c3b4b62b49dbf944f90793c9">DoSystem</a>()<span class="keyword">override</span>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html#a5f65446475ce1ffbef53556a56b90788">   28</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html#a5f65446475ce1ffbef53556a56b90788">Interval</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> 1; }</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
@@ -103,16 +105,17 @@ $(function() {
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}  <span class="comment">// namespace cqsp</span></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1_game_html"><div class="ttname"><a href="classcqsp_1_1common_1_1_game.html">cqsp::common::Game</a></div><div class="ttdoc">Wrapper class for all the components of the game, so that all the game stuff can be initialized in on...</div><div class="ttdef"><b>Definition:</b> game.h:28</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1_i_simulation_system_html"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html">cqsp::common::systems::ISimulationSystem</a></div><div class="ttdef"><b>Definition:</b> isimulationsystem.h:27</div></div>
+<div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1_i_simulation_system_html_a5f88777255125e6fee6951511f36f3e2"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a5f88777255125e6fee6951511f36f3e2">cqsp::common::systems::ISimulationSystem::game</a></div><div class="ttdeci">Game &amp; game</div><div class="ttdef"><b>Definition:</b> isimulationsystem.h:43</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1_sys_navy_control_html"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html">cqsp::common::systems::SysNavyControl</a></div><div class="ttdef"><b>Definition:</b> sysnavy.h:24</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1_sys_navy_control_html_a46f9a8a2c3b4b62b49dbf944f90793c9"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html#a46f9a8a2c3b4b62b49dbf944f90793c9">cqsp::common::systems::SysNavyControl::DoSystem</a></div><div class="ttdeci">void DoSystem() override</div><div class="ttdef"><b>Definition:</b> sysnavy.cpp:27</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1_sys_navy_control_html_a5f65446475ce1ffbef53556a56b90788"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html#a5f65446475ce1ffbef53556a56b90788">cqsp::common::systems::SysNavyControl::Interval</a></div><div class="ttdeci">int Interval() override</div><div class="ttdef"><b>Definition:</b> sysnavy.h:28</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1_sys_navy_control_html_aae41ec1076b05673d18211cb8d0ccce5"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1_sys_navy_control.html#aae41ec1076b05673d18211cb8d0ccce5">cqsp::common::systems::SysNavyControl::SysNavyControl</a></div><div class="ttdeci">SysNavyControl(Game &amp;game)</div><div class="ttdef"><b>Definition:</b> sysnavy.h:26</div></div>
 <div class="ttc" id="aisimulationsystem_8h_html"><div class="ttname"><a href="isimulationsystem_8h.html">isimulationsystem.h</a></div></div>
-<div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdef"><b>Definition:</b> clientctx.h:19</div></div>
+<div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdoc">When adding assets, it is extremely crucial that you read cqsp::asset::AssetLoader::LoadResources to ...</div><div class="ttdef"><b>Definition:</b> clientctx.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jun 9 2022 14:24:01 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
