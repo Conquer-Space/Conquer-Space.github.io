@@ -132,7 +132,7 @@ var searchData=
   ['smalldefaultbutton_129',['SmallDefaultButton',['../namespace_c_q_s_p_gui.html#a7374807a43ee8c4948409492ef924ae8',1,'CQSPGui']]],
   ['soi_130',['SOI',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#a1cc53916fcf2678fa424d1ba3a5eea84',1,'cqsp::common::components::bodies::Body']]],
   ['solar_5fmass_131',['solar_mass',['../namespacecqsp_1_1common_1_1components_1_1types.html#aaa1e6f48f198032ca263118199c7ddd5',1,'cqsp::common::components::types']]],
-  ['solvekepler_132',['SolveKepler',['../namespacecqsp_1_1common_1_1components_1_1types.html#a06546934951dbe9f6781aa04e71fc407',1,'cqsp::common::components::types']]],
+  ['solvekepler_132',['SolveKepler',['../namespacecqsp_1_1common_1_1components_1_1types.html#af6678da505c7bc61988693979094f081',1,'cqsp::common::components::types']]],
   ['sortedorderlist_133',['SortedOrderList',['../classcqsp_1_1common_1_1components_1_1_sorted_order_list.html',1,'cqsp::common::components']]],
   ['spaceport_134',['SpacePort',['../classcqsp_1_1common_1_1components_1_1infrastructure_1_1_space_port.html',1,'cqsp::common::components::infrastructure']]],
   ['spaceporttab_135',['SpacePortTab',['../classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#afc988d40f29bbd8304bd21361d36b803',1,'cqsp::client::systems::SysPlanetInformation']]],

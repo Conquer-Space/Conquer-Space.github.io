@@ -64,7 +64,7 @@ var searchData=
   ['sliderfloat_61',['SliderFloat',['../namespace_c_q_s_p_gui.html#ad7bbf731e5639271fbe0138e28c94922',1,'CQSPGui']]],
   ['sliderint_62',['SliderInt',['../namespace_c_q_s_p_gui.html#abe8b56f0aa7354c3d647c6146e50e818',1,'CQSPGui']]],
   ['smalldefaultbutton_63',['SmallDefaultButton',['../namespace_c_q_s_p_gui.html#a7374807a43ee8c4948409492ef924ae8',1,'CQSPGui']]],
-  ['solvekepler_64',['SolveKepler',['../namespacecqsp_1_1common_1_1components_1_1types.html#a06546934951dbe9f6781aa04e71fc407',1,'cqsp::common::components::types']]],
+  ['solvekepler_64',['SolveKepler',['../namespacecqsp_1_1common_1_1components_1_1types.html#af6678da505c7bc61988693979094f081',1,'cqsp::common::components::types']]],
   ['spaceporttab_65',['SpacePortTab',['../classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#afc988d40f29bbd8304bd21361d36b803',1,'cqsp::client::systems::SysPlanetInformation']]],
   ['startworker_66',['StartWorker',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a102f11ff033aa67adb32f30cfc562dfa',1,'cqsp::engine::audio::AudioInterface::StartWorker()'],['../classcqsp_1_1engine_1_1audio_1_1_i_audio_interface.html#ad0467e5454018e77e7c108626043fa7d',1,'cqsp::engine::audio::IAudioInterface::StartWorker()']]],
   ['stdrandom_67',['StdRandom',['../classcqsp_1_1common_1_1util_1_1_std_random.html#a93784409290fa53e0e2e965c07229fe8',1,'cqsp::common::util::StdRandom']]],

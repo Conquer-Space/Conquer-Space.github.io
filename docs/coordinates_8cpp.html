@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/components/coordinates.h File Reference</title>
+<title>Conquer Space: /github/workspace/src/common/components/coordinates.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,40 +69,14 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">coordinates.h File Reference</div></div>
+  <div class="headertitle"><div class="title">coordinates.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;math.h&gt;</code><br />
-<code>#include &lt;entt/entt.hpp&gt;</code><br />
-<code>#include &lt;glm/glm.hpp&gt;</code><br />
-<code>#include &lt;glm/gtc/quaternion.hpp&gt;</code><br />
-<code>#include &quot;<a class="el" href="bodies_8h_source.html">common/components/bodies.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="coordinates_8h_source.html">common/components/coordinates.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="units_8h_source.html">common/components/units.h</a>&quot;</code><br />
-</div>
-<p><a href="coordinates_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">cqsp::common::components::types::Orbit</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">cqsp::common::components::types::Kinematics</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relative position from the parent orbiting object.  <a href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_galactic_coordinate.html">cqsp::common::components::types::GalacticCoordinate</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Way to position star systems on the universe.  <a href="structcqsp_1_1common_1_1components_1_1types_1_1_galactic_coordinate.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_polar_coordinate__tp.html">cqsp::common::components::types::PolarCoordinate_tp&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_move_target.html">cqsp::common::components::types::MoveTarget</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">cqsp::common::components::types::SurfaceCoordinate</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Longitude and lattitude. Planet coordinates.  <a href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp.html">cqsp</a></td></tr>
@@ -114,14 +88,6 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacecqsp_1_1common_1_1components_1_1types"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html">cqsp::common::components::types</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ad4a09f5cac83f53111957737bf40bb06"><td class="memItemLeft" align="right" valign="top">typedef glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad4a09f5cac83f53111957737bf40bb06">cqsp::common::components::types::Vec3AU</a></td></tr>
-<tr class="memdesc:ad4a09f5cac83f53111957737bf40bb06"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vector3 where the units are astronomical units  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#ad4a09f5cac83f53111957737bf40bb06">More...</a><br /></td></tr>
-<tr class="separator:ad4a09f5cac83f53111957737bf40bb06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec5a546599bc61c0968c1e1b20165bd9"><td class="memItemLeft" align="right" valign="top">typedef PolarCoordinate_tp&lt; types::astronomical_unit &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aec5a546599bc61c0968c1e1b20165bd9">cqsp::common::components::types::PolarCoordinate</a></td></tr>
-<tr class="separator:aec5a546599bc61c0968c1e1b20165bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -158,22 +124,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a47f7357b47b2da936d5f7d174141e7ad"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a47f7357b47b2da936d5f7d174141e7ad">cqsp::common::components::types::toVec3</a> (const SurfaceCoordinate &amp;coord, const float &amp;radius=1)</td></tr>
 <tr class="memdesc:a47f7357b47b2da936d5f7d174141e7ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts surface coordinate to vector3, shown in opengl.  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a47f7357b47b2da936d5f7d174141e7ad">More...</a><br /></td></tr>
 <tr class="separator:a47f7357b47b2da936d5f7d174141e7ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3294c2eb2f78df9bad6d15c3d209a8cd"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3294c2eb2f78df9bad6d15c3d209a8cd">cqsp::common::components::types::toVec3</a> (const PolarCoordinate &amp;coordinate)</td></tr>
-<tr class="memdesc:a3294c2eb2f78df9bad6d15c3d209a8cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D polar coordinate to opengl 3d coordinate  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a3294c2eb2f78df9bad6d15c3d209a8cd">More...</a><br /></td></tr>
-<tr class="separator:a3294c2eb2f78df9bad6d15c3d209a8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae00d7dd62d20509527a3685c579ec8d8"><td class="memItemLeft" align="right" valign="top">Vec3AU&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ae00d7dd62d20509527a3685c579ec8d8">cqsp::common::components::types::toVec3AU</a> (const Orbit &amp;orb, radian theta)</td></tr>
-<tr class="memdesc:ae00d7dd62d20509527a3685c579ec8d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert orbit to AU coordinates  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#ae00d7dd62d20509527a3685c579ec8d8">More...</a><br /></td></tr>
-<tr class="separator:ae00d7dd62d20509527a3685c579ec8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a788965a388bf936a2c141bd332596e04"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a788965a388bf936a2c141bd332596e04">cqsp::common::components::types::toVec3</a> (const Orbit &amp;orb, radian theta)</td></tr>
-<tr class="separator:a788965a388bf936a2c141bd332596e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fec3726e330e096a641c988589fda6e"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6fec3726e330e096a641c988589fda6e">cqsp::common::components::types::toVec3</a> (const Orbit &amp;orb)</td></tr>
-<tr class="separator:a6fec3726e330e096a641c988589fda6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55894242ce56153b494a39e04cb59fbb"><td class="memItemLeft" align="right" valign="top">Vec3AU&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a55894242ce56153b494a39e04cb59fbb">cqsp::common::components::types::toVec3AU</a> (const Orbit &amp;orb)</td></tr>
-<tr class="memdesc:a55894242ce56153b494a39e04cb59fbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts orbit to AU coorrdinates.  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a55894242ce56153b494a39e04cb59fbb">More...</a><br /></td></tr>
-<tr class="separator:a55894242ce56153b494a39e04cb59fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7c36e9c3e12c040b8f58d38f16989db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#af7c36e9c3e12c040b8f58d38f16989db">cqsp::common::components::types::UpdatePos</a> (Kinematics &amp;kin, const Orbit &amp;orb)</td></tr>
-<tr class="memdesc:af7c36e9c3e12c040b8f58d38f16989db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the position of an orbit, in AU.  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#af7c36e9c3e12c040b8f58d38f16989db">More...</a><br /></td></tr>
-<tr class="separator:af7c36e9c3e12c040b8f58d38f16989db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
