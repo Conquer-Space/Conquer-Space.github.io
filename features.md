@@ -1,9 +1,33 @@
 # Features
 A complete list of proposed and completed features can be found here: <https://github.com/EhWhoAmI/cqsp/projects/2>
 
-### General features:
- - Economy with dozens of goods, allowing for large supply chains and prices determined by supply and demand.
-    - Factories and producers will also change their production to adapt to changing market pressures
- - Social simulation where different cities can have a different culture, which will affect their reaction to events that take place in the galaxy.
- - Detailed diplomatic simulation, where various political, economic, and military pressures can be applied on other countries
+Conquer Space is built on 3 core pillars, economic, social, and political.
 
+### Economic
+ - Trade
+  - International and interplanetary trade will play a large role in political and social relations
+ - Logistics
+  - There will have dozens of types of goods
+  - Every different place and planet will have a different comparative advantange in producing a certain type of good.
+ - Finance
+  - Finance plays a huge role in the growth and contraction of the economy
+  - Loans and investment will play a role in incentivizing the growth of the economy
+   - The expansion of cheap space travel will unlock economic growth with no precedence
+   - However, this needs massive investment
+
+### Social
+ - Culture
+  - Becoming an interplanetary civilization will have huge impacts as to how we think about society
+ - Media
+  - Media will play a massive role in societies in the futures, and Conquer Space will have game mechanics to reflect that
+ - Social conflict
+
+
+### Political
+ - Geopolitics
+ - Internal politics
+  - Colonizing a planet is not gonna be easy
+  - Waiting for the launch window going to a planet will hinder sending resources, and asserting control over a colony
+
+### General features
+ - All three of these factors will influence each other

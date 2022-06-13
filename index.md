@@ -11,7 +11,6 @@ Conquer Space is a space themed grand strategy game with emphasis on economy, so
    - Transitions between different types of government will also be simulated
  - Population will have a culture which will affect how history plays out, and history will in turn affect cultures
  - Complex diplomatic system where different international organization for different purposes can be created for expanding your geopolitical needs.
- - More will come soon
 
 ### Help
 We are currently looking for people to help us. Come on over to our [discord server](https://discord.gg/h5r77Sa) to discuss thing with us.
