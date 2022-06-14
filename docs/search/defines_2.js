@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['end_5ftimed_5fblock_0',['END_TIMED_BLOCK',['../profiler_8h.html#ab5268c3d7ff11c07af0fcefc5f103644',1,'profiler.h']]]
+  ['debug_5funiforms_0',['debug_uniforms',['../shader_8cpp.html#a18447955516829a878c732bf2bbba7fa',1,'shader.cpp']]]
 ];
