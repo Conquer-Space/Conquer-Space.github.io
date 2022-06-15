@@ -9,11 +9,13 @@ var searchData=
   ['clientoptions_6',['ClientOptions',['../classcqsp_1_1client_1_1_client_options.html',1,'cqsp::client']]],
   ['command_7',['Command',['../structcqsp_1_1common_1_1components_1_1ships_1_1_command.html',1,'cqsp::common::components::ships']]],
   ['commercial_8',['Commercial',['../structcqsp_1_1common_1_1components_1_1_commercial.html',1,'cqsp::common::components']]],
-  ['costtable_9',['CostTable',['../structcqsp_1_1common_1_1components_1_1_cost_table.html',1,'cqsp::common::components']]],
-  ['cqspeventinstancer_10',['CqspEventInstancer',['../classcqsp_1_1engine_1_1_application_1_1_cqsp_event_instancer.html',1,'cqsp::engine::Application']]],
-  ['cqspeventlistener_11',['CqspEventListener',['../classcqsp_1_1engine_1_1_application_1_1_cqsp_event_listener.html',1,'cqsp::engine::Application']]],
-  ['cqsprenderinterface_12',['CQSPRenderInterface',['../classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html',1,'cqsp::engine']]],
-  ['cqspsysteminterface_13',['CQSPSystemInterface',['../classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html',1,'cqsp::engine']]],
-  ['creditswindow_14',['CreditsWindow',['../classcqsp_1_1client_1_1_credits_window.html',1,'cqsp::client']]],
-  ['currency_15',['Currency',['../structcqsp_1_1common_1_1components_1_1_currency.html',1,'cqsp::common::components']]]
+  ['consumergood_9',['ConsumerGood',['../structcqsp_1_1common_1_1components_1_1_consumer_good.html',1,'cqsp::common::components']]],
+  ['costbreakdown_10',['CostBreakdown',['../structcqsp_1_1common_1_1components_1_1_cost_breakdown.html',1,'cqsp::common::components']]],
+  ['costtable_11',['CostTable',['../structcqsp_1_1common_1_1components_1_1_cost_table.html',1,'cqsp::common::components']]],
+  ['cqspeventinstancer_12',['CqspEventInstancer',['../classcqsp_1_1engine_1_1_application_1_1_cqsp_event_instancer.html',1,'cqsp::engine::Application']]],
+  ['cqspeventlistener_13',['CqspEventListener',['../classcqsp_1_1engine_1_1_application_1_1_cqsp_event_listener.html',1,'cqsp::engine::Application']]],
+  ['cqsprenderinterface_14',['CQSPRenderInterface',['../classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html',1,'cqsp::engine']]],
+  ['cqspsysteminterface_15',['CQSPSystemInterface',['../classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html',1,'cqsp::engine']]],
+  ['creditswindow_16',['CreditsWindow',['../classcqsp_1_1client_1_1_credits_window.html',1,'cqsp::client']]],
+  ['currency_17',['Currency',['../structcqsp_1_1common_1_1components_1_1_currency.html',1,'cqsp::common::components']]]
 ];

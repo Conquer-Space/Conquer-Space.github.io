@@ -12,5 +12,6 @@ var searchData=
   ['dist_9',['dist',['../structcqsp_1_1common_1_1components_1_1_resource_distribution.html#a34532779f21e1501397f8af574576388',1,'cqsp::common::components::ResourceDistribution']]],
   ['divider_10',['divider',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#adaee3ebb532e409d989c825bcfe8aec9',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['document_11',['document',['../classcqsp_1_1scene_1_1_loading_scene.html#ae844e1a748a8613f22b2b9bbef436096',1,'cqsp::scene::LoadingScene::document()'],['../classcqsp_1_1client_1_1_credits_window.html#adc0d4bf2effa6d6bd56a5d4840c7ab15',1,'cqsp::client::CreditsWindow::document()']]],
-  ['document_5fname_12',['document_name',['../classcqsp_1_1client_1_1_settings_window.html#a64bd45f1bcff16947e93169522e34956',1,'cqsp::client::SettingsWindow']]]
+  ['document_5fname_12',['document_name',['../classcqsp_1_1client_1_1_settings_window.html#a64bd45f1bcff16947e93169522e34956',1,'cqsp::client::SettingsWindow']]],
+  ['ds_5fratio_13',['ds_ratio',['../structcqsp_1_1common_1_1components_1_1_market_information.html#aee2688ff458af9a54d80aeb85a626c90',1,'cqsp::common::components::MarketInformation']]]
 ];

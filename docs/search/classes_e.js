@@ -12,5 +12,7 @@ var searchData=
   ['powerconsumption_9',['PowerConsumption',['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_power_consumption.html',1,'cqsp::common::components::infrastructure']]],
   ['powerplant_10',['PowerPlant',['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_power_plant.html',1,'cqsp::common::components::infrastructure']]],
   ['price_11',['Price',['../structcqsp_1_1common_1_1components_1_1_price.html',1,'cqsp::common::components']]],
-  ['productiontraits_12',['ProductionTraits',['../structcqsp_1_1common_1_1components_1_1_production_traits.html',1,'cqsp::common::components']]]
+  ['production_12',['Production',['../structcqsp_1_1common_1_1components_1_1_production.html',1,'cqsp::common::components']]],
+  ['productionratio_13',['ProductionRatio',['../structcqsp_1_1common_1_1components_1_1_production_ratio.html',1,'cqsp::common::components']]],
+  ['productiontraits_14',['ProductionTraits',['../structcqsp_1_1common_1_1components_1_1_production_traits.html',1,'cqsp::common::components']]]
 ];

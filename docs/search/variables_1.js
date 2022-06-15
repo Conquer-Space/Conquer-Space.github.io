@@ -12,5 +12,6 @@ var searchData=
   ['assetloader_9',['assetLoader',['../classcqsp_1_1scene_1_1_loading_scene.html#a3ec116941bcf84253cf3ceb1acdeb248',1,'cqsp::scene::LoadingScene']]],
   ['assets_10',['assets',['../classcqsp_1_1asset_1_1_package.html#aee86f053d8cc5042ac61638d26f63f94',1,'cqsp::asset::Package::assets()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#acf5618dd58b937dec027b7df6c1add12',1,'cqsp::engine::audio::AudioInterface::assets()']]],
   ['author_11',['author',['../classcqsp_1_1asset_1_1_package.html#a59703921786160ef2830a8cc2ff74639',1,'cqsp::asset::Package::author()'],['../classcqsp_1_1asset_1_1_package_prototype.html#a17efe7f4668a30b71125273e3e473cf4',1,'cqsp::asset::PackagePrototype::author()']]],
-  ['axial_12',['axial',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#ac5f5a2042499380829f9660dd5cdc148',1,'cqsp::common::components::bodies::Body']]]
+  ['autonomous_5fconsumption_12',['autonomous_consumption',['../structcqsp_1_1common_1_1components_1_1_consumer_good.html#a885673377c540c9cdd0b16adf56b1d4e',1,'cqsp::common::components::ConsumerGood']]],
+  ['axial_13',['axial',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#ac5f5a2042499380829f9660dd5cdc148',1,'cqsp::common::components::bodies::Body']]]
 ];

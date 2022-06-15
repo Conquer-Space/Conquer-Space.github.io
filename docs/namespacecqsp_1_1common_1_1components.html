@@ -72,6 +72,7 @@ $(function() {
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">cqsp::common::components Namespace Reference</div></div>
 </div><!--header-->
@@ -99,6 +100,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_commercial.html">Commercial</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents commercial areas and other amenities that generate economic activity. They don't export goods but they play an intergral role in tax revenue, and population consumption, and maybe tourism in the future.  <a href="structcqsp_1_1common_1_1components_1_1_commercial.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_consumer_good.html">ConsumerGood</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">See SysPopulationConsumption for an explanation of these values autonomous consumption is independent of disposable income or when income levels are zero if income levels cannot pay for this level of maintaince they are drawn from the population's savings or debt marginal propensity (demand) represents how much of their surplus income they will spend on that consumer good Based on how many consumer goods they consume from this segment, we can find their economic strata.  <a href="structcqsp_1_1common_1_1components_1_1_consumer_good.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_cost_breakdown.html">CostBreakdown</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_cost_table.html">CostTable</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Records the prices of goods and other things  <a href="structcqsp_1_1common_1_1components_1_1_cost_table.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,6 +126,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_factory_productivity.html">FactoryProductivity</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The multiplier of recipes the factory is generating right now. This is the amount of recipes the factory wants to generate, or the production target.  <a href="structcqsp_1_1common_1_1components_1_1_factory_productivity.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_factory_size.html">FactorySize</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_factory_timer.html">FactoryTimer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,6 +188,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_price.html">Price</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structcqsp_1_1common_1_1components_1_1_price.html" title="Price of a good. This is temporary, because this is to determine initial prices for goods....">Price</a> of a good. This is temporary, because this is to determine initial prices for goods. In the future, good prices will be determined by what the market is willing to bear, and we will not need this anymore.  <a href="structcqsp_1_1common_1_1components_1_1_price.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_production.html">Production</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_production_ratio.html">ProductionRatio</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_production_traits.html">ProductionTraits</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_raw_resource_gen.html">RawResourceGen</a></td></tr>
@@ -192,15 +204,17 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_resource_converter.html">ResourceConverter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_resource_demand.html">ResourceDemand</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_resource_distribution.html">ResourceDistribution</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_resource_generator.html">ResourceGenerator</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_resource_i_o.html">ResourceIO</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_resource_production.html">ResourceProduction</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_resource_stockpile.html">ResourceStockpile</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_service.html">Service</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_settlement.html">Settlement</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,12 +242,22 @@ Typedefs</h2></td></tr>
 <tr class="memitem:aa664d96822b0265222e3fd929cad34de"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; entt::entity, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components.html#aa664d96822b0265222e3fd929cad34de">LedgerMap</a></td></tr>
 <tr class="separator:aa664d96822b0265222e3fd929cad34de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a6acd31bf6a2961468c083295d28c77a8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components.html#a6acd31bf6a2961468c083295d28c77a8">ProductionType</a> { <a class="el" href="namespacecqsp_1_1common_1_1components.html#a6acd31bf6a2961468c083295d28c77a8a96dfc6b4d2f0c5a9f54b9169906a1ad8">factory</a>
+, <a class="el" href="namespacecqsp_1_1common_1_1components.html#a6acd31bf6a2961468c083295d28c77a8a13a396f8ca0ea2485ea8a3f6e6207932">mine</a>
+, <a class="el" href="namespacecqsp_1_1common_1_1components.html#a6acd31bf6a2961468c083295d28c77a8aca949aedf330ded19a97806281d2c278">service</a>
+ }</td></tr>
+<tr class="separator:a6acd31bf6a2961468c083295d28c77a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:abc4cdca60832ae04dad36b089ae9c5a3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components.html#abc4cdca60832ae04dad36b089ae9c5a3">operator&lt;</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1_order.html">Order</a> &amp;lhs, const <a class="el" href="structcqsp_1_1common_1_1components_1_1_order.html">Order</a> &amp;rhs)</td></tr>
 <tr class="separator:abc4cdca60832ae04dad36b089ae9c5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85c9a34addca24602efcc91527fb4d51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components.html#a85c9a34addca24602efcc91527fb4d51">operator&gt;</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1_order.html">Order</a> &amp;lhs, const <a class="el" href="structcqsp_1_1common_1_1components_1_1_order.html">Order</a> &amp;rhs)</td></tr>
 <tr class="separator:a85c9a34addca24602efcc91527fb4d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a745589b4219709ca7ebe2d4bb715ac7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components.html#a745589b4219709ca7ebe2d4bb715ac7f">ResourceLedgerZip</a> (const <a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;key, const <a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;value)</td></tr>
+<tr class="separator:a745589b4219709ca7ebe2d4bb715ac7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a70e76785fb7963378e890943d5cc6607" name="a70e76785fb7963378e890943d5cc6607"></a>
@@ -279,6 +303,26 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a6acd31bf6a2961468c083295d28c77a8" name="a6acd31bf6a2961468c083295d28c77a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6acd31bf6a2961468c083295d28c77a8">&#9670;&nbsp;</a></span>ProductionType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacecqsp_1_1common_1_1components.html#a6acd31bf6a2961468c083295d28c77a8">cqsp::common::components::ProductionType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6acd31bf6a2961468c083295d28c77a8a96dfc6b4d2f0c5a9f54b9169906a1ad8" name="a6acd31bf6a2961468c083295d28c77a8a96dfc6b4d2f0c5a9f54b9169906a1ad8"></a>factory&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6acd31bf6a2961468c083295d28c77a8a13a396f8ca0ea2485ea8a3f6e6207932" name="a6acd31bf6a2961468c083295d28c77a8a13a396f8ca0ea2485ea8a3f6e6207932"></a>mine&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6acd31bf6a2961468c083295d28c77a8aca949aedf330ded19a97806281d2c278" name="a6acd31bf6a2961468c083295d28c77a8aca949aedf330ded19a97806281d2c278"></a>service&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -355,10 +399,38 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a745589b4219709ca7ebe2d4bb715ac7f" name="a745589b4219709ca7ebe2d4bb715ac7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a745589b4219709ca7ebe2d4bb715ac7f">&#9670;&nbsp;</a></span>ResourceLedgerZip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a> cqsp::common::components::ResourceLedgerZip </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 14 2022 23:43:02 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 15 2022 00:13:18 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
