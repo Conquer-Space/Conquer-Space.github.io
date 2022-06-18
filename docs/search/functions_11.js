@@ -23,6 +23,6 @@ var searchData=
   ['tovec3au_20',['toVec3AU',['../namespacecqsp_1_1common_1_1components_1_1types.html#ae00d7dd62d20509527a3685c579ec8d8',1,'cqsp::common::components::types::toVec3AU(const Orbit &amp;orb, radian theta)'],['../namespacecqsp_1_1common_1_1components_1_1types.html#a55894242ce56153b494a39e04cb59fbb',1,'cqsp::common::components::types::toVec3AU(const Orbit &amp;orb)']]],
   ['transferresources_21',['TransferResources',['../namespacecqsp_1_1common_1_1systems_1_1resource.html#a7c6105e13849875fcfe3db10a25e73c1',1,'cqsp::common::systems::resource']]],
   ['transferto_22',['TransferTo',['../classcqsp_1_1common_1_1components_1_1_resource_ledger.html#aa3e08009227197501d62fb13cedf654d',1,'cqsp::common::components::ResourceLedger']]],
-  ['translatetonormalized_23',['TranslateToNormalized',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af1a7d28df06f7a6175edd0b7c4d6c67b',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['translatetonormalized_23',['TranslateToNormalized',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a4c4152cc2dc0fa5d6fb71da8b8696f66',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['trueanomaly_24',['TrueAnomaly',['../namespacecqsp_1_1common_1_1components_1_1types.html#a0d0ca19bc52a5713c66c1c83aeccbd32',1,'cqsp::common::components::types']]]
 ];
