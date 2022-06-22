@@ -10,7 +10,7 @@ var searchData=
   ['reference_5fbody_7',['reference_body',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#a864ea8f2989dd5c2e8a61bd0b0a17a2f',1,'cqsp::common::components::types::Orbit']]],
   ['renaming_5fcity_8',['renaming_city',['../classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#ae45740696e3894c75da9eb0446c2598e',1,'cqsp::client::systems::SysPlanetInformation']]],
   ['renderables_9',['renderables',['../classcqsp_1_1engine_1_1_basic_renderer.html#ada102381a0ccfdbf2c97104d4c8aabb5',1,'cqsp::engine::BasicRenderer']]],
-  ['renderer_10',['renderer',['../classcqsp_1_1scene_1_1_text_test_scene.html#a5e8d2baf8bb79efae4a1023612138ef9',1,'cqsp::scene::TextTestScene::renderer()'],['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aad9d97f28187e5f605eb3117bbd2d381',1,'cqsp::client::systems::SysStarSystemRenderer::renderer()']]],
+  ['renderer_10',['renderer',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aad9d97f28187e5f605eb3117bbd2d381',1,'cqsp::client::systems::SysStarSystemRenderer::renderer()'],['../classcqsp_1_1scene_1_1_text_test_scene.html#a5e8d2baf8bb79efae4a1023612138ef9',1,'cqsp::scene::TextTestScene::renderer()']]],
   ['researched_5fmining_11',['researched_mining',['../structcqsp_1_1common_1_1components_1_1science_1_1_technological_progress.html#a1342bdcfee200187df1ebef41c1751a6',1,'cqsp::common::components::science::TechnologicalProgress']]],
   ['researched_5frecipes_12',['researched_recipes',['../structcqsp_1_1common_1_1components_1_1science_1_1_technological_progress.html#a48d68dbbc94341f38cd97ddc57af53ce',1,'cqsp::common::components::science::TechnologicalProgress']]],
   ['researched_5ftechs_13',['researched_techs',['../structcqsp_1_1common_1_1components_1_1science_1_1_technological_progress.html#a820074487ecf9b21d55f412af2d5ac23',1,'cqsp::common::components::science::TechnologicalProgress']]],
@@ -20,5 +20,6 @@ var searchData=
   ['rmlui_5fprojection_17',['rmlui_projection',['../classcqsp_1_1engine_1_1_application.html#a5f8321bbf11cce54f065353376449cc5',1,'cqsp::engine::Application']]],
   ['root_18',['root',['../classcqsp_1_1asset_1_1_native_file_system.html#a697074fa9e0d0b37fe09de35c2099d46',1,'cqsp::asset::NativeFileSystem::root()'],['../classcqsp_1_1asset_1_1_native_directory.html#a9963196685576c92a3003106409e3918',1,'cqsp::asset::NativeDirectory::root()']]],
   ['rotation_19',['rotation',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#aa632118fb043488f69006ff3970d57a7',1,'cqsp::common::components::bodies::Body']]],
-  ['rule_5flist_20',['rule_list',['../classcqsp_1_1common_1_1systems_1_1names_1_1_name_generator.html#a325bcfbf5c8d60b37c38a0a45a303b8e',1,'cqsp::common::systems::names::NameGenerator']]]
+  ['rotation_5foffset_20',['rotation_offset',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#a0b0d1dadfe68793d045ea25620aac847',1,'cqsp::common::components::bodies::Body']]],
+  ['rule_5flist_21',['rule_list',['../classcqsp_1_1common_1_1systems_1_1names_1_1_name_generator.html#a325bcfbf5c8d60b37c38a0a45a303b8e',1,'cqsp::common::systems::names::NameGenerator']]]
 ];

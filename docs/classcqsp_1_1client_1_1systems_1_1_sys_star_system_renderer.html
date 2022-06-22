@@ -172,9 +172,9 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a3e185ef750d756324455c66ffd4b95ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac54a8b098e07810151782a7ad9443a2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ac54a8b098e07810151782a7ad9443a2e">CalculateScroll</a> ()</td></tr>
 <tr class="separator:ac54a8b098e07810151782a7ad9443a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6abcc103cd65ac5b104672a26effb941"><td class="memItemLeft" align="right" valign="top">glm::quat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a6abcc103cd65ac5b104672a26effb941">GetBodyRotation</a> (double axial, double rotation)</td></tr>
-<tr class="memdesc:a6abcc103cd65ac5b104672a26effb941"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the quaternion to calculate the planet's rotation from the axial rotation and the rotation period  <a href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a6abcc103cd65ac5b104672a26effb941">More...</a><br /></td></tr>
-<tr class="separator:a6abcc103cd65ac5b104672a26effb941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63cdfa7007d39d2676f16aadfec19005"><td class="memItemLeft" align="right" valign="top">glm::quat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a63cdfa7007d39d2676f16aadfec19005">GetBodyRotation</a> (double axial, double rotation, double day_offset)</td></tr>
+<tr class="memdesc:a63cdfa7007d39d2676f16aadfec19005"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the quaternion to calculate the planet's rotation from the axial rotation and the rotation period  <a href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a63cdfa7007d39d2676f16aadfec19005">More...</a><br /></td></tr>
+<tr class="separator:a63cdfa7007d39d2676f16aadfec19005"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a830739b8ac3ed7f984c738fc794bcce8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a830739b8ac3ed7f984c738fc794bcce8">FocusCityView</a> ()</td></tr>
 <tr class="separator:a830739b8ac3ed7f984c738fc794bcce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f814e79e1732d4826312e1b3d0f3059"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a9f814e79e1732d4826312e1b3d0f3059">CalculateObjectPos</a> (const entt::entity &amp;)</td></tr>
@@ -185,6 +185,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a843f5d274bf3e7ca08687ea60f353bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c4152cc2dc0fa5d6fb71da8b8696f66"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a4c4152cc2dc0fa5d6fb71da8b8696f66">TranslateToNormalized</a> (const glm::vec3 &amp;)</td></tr>
 <tr class="separator:a4c4152cc2dc0fa5d6fb71da8b8696f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a6339f1648f77a76c6edd6ed598f83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af1a6339f1648f77a76c6edd6ed598f83">CenterCameraOnCity</a> ()</td></tr>
+<tr class="separator:af1a6339f1648f77a76c6edd6ed598f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac450a8cbe31005949a7c3eab1cb975a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ac450a8cbe31005949a7c3eab1cb975a3">CalculateCamera</a> ()</td></tr>
 <tr class="separator:ac450a8cbe31005949a7c3eab1cb975a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8de01ba565f030c5911e0e59b885d57a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a8de01ba565f030c5911e0e59b885d57a">MoveCamera</a> (double deltaTime)</td></tr>
@@ -272,6 +274,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a05dbd52ab45da5f6e93bcab929c52d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c75d85fa0203a5e63f55b7db818127e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a9c75d85fa0203a5e63f55b7db818127e">view_scale</a> = 10.f</td></tr>
 <tr class="separator:a9c75d85fa0203a5e63f55b7db818127e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62a5900fd5e36cb5d9bfca0a7a35c8aa"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a62a5900fd5e36cb5d9bfca0a7a35c8aa">selected_city</a> = entt::null</td></tr>
+<tr class="separator:a62a5900fd5e36cb5d9bfca0a7a35c8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a839184533102030385e4bd43eae4f98e" name="a839184533102030385e4bd43eae4f98e"></a>
@@ -485,6 +489,31 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::CalculateScroll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1a6339f1648f77a76c6edd6ed598f83" name="af1a6339f1648f77a76c6edd6ed598f83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a6339f1648f77a76c6edd6ed598f83">&#9670;&nbsp;</a></span>CenterCameraOnCity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::CenterCameraOnCity </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1052,8 +1081,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6abcc103cd65ac5b104672a26effb941" name="a6abcc103cd65ac5b104672a26effb941"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6abcc103cd65ac5b104672a26effb941">&#9670;&nbsp;</a></span>GetBodyRotation()</h2>
+<a id="a63cdfa7007d39d2676f16aadfec19005" name="a63cdfa7007d39d2676f16aadfec19005"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63cdfa7007d39d2676f16aadfec19005">&#9670;&nbsp;</a></span>GetBodyRotation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1071,7 +1100,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>rotation</em>&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>day_offset</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2038,6 +2073,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a62a5900fd5e36cb5d9bfca0a7a35c8aa" name="a62a5900fd5e36cb5d9bfca0a7a35c8aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62a5900fd5e36cb5d9bfca0a7a35c8aa">&#9670;&nbsp;</a></span>selected_city</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">entt::entity cqsp::client::systems::SysStarSystemRenderer::selected_city = entt::null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0d89dc3261f1ea6273c918532b936f9d" name="a0d89dc3261f1ea6273c918532b936f9d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d89dc3261f1ea6273c918532b936f9d">&#9670;&nbsp;</a></span>ship_icon_layer</h2>
 
@@ -2351,7 +2408,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jun 22 2022 10:50:47 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 22 2022 23:34:55 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
