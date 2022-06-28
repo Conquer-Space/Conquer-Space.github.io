@@ -25,12 +25,13 @@ var searchData=
   ['content_22',['content',['../structcqsp_1_1common_1_1event_1_1_event.html#aaa06a3c7e2579b78d5c6252b10ef4d99',1,'cqsp::common::event::Event']]],
   ['context_23',['context',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a95a0ab61405231648d68a6d888e8ae49',1,'cqsp::engine::audio::AudioInterface']]],
   ['counter_24',['counter',['../classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html#a9608b9d546180550b5ea66d64fe0a185',1,'cqsp::engine::CQSPRenderInterface']]],
-  ['credits_5ftext_25',['credits_text',['../classcqsp_1_1client_1_1_credits_window.html#af84288e21083de3a2a0b171263b51057',1,'cqsp::client::CreditsWindow']]],
-  ['credits_5ftext_5felement_26',['credits_text_element',['../classcqsp_1_1client_1_1_credits_window.html#afabc93371f7c672a002c94b54940d65a',1,'cqsp::client::CreditsWindow']]],
-  ['credits_5fwindow_27',['credits_window',['../classcqsp_1_1scene_1_1_main_menu_scene.html#a07ba61bb8c108472267cedfc00632da6',1,'cqsp::scene::MainMenuScene']]],
-  ['currency_28',['currency',['../structcqsp_1_1common_1_1components_1_1_wallet.html#aaa59570c5f983fc2ad82211251c013f3',1,'cqsp::common::components::Wallet']]],
-  ['current_29',['current',['../structcqsp_1_1scene_1_1_loading_scene_1_1_loading_data_model.html#a7582fc9eff518efec450f6605a33074e',1,'cqsp::scene::LoadingScene::LoadingDataModel::current()'],['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_power_consumption.html#a645879b76dcc1ed6b2b0b1fca2752272',1,'cqsp::common::components::infrastructure::PowerConsumption::current()']]],
-  ['current_5fproduction_30',['current_production',['../structcqsp_1_1common_1_1components_1_1_production_traits.html#a72d6a65814a536139a6c6e33dce6e7a5',1,'cqsp::common::components::ProductionTraits::current_production()'],['../structcqsp_1_1common_1_1components_1_1_factory_productivity.html#aca04b57610cf87e5d705134e6ace7e96',1,'cqsp::common::components::FactoryProductivity::current_production()']]],
-  ['current_5fresearch_31',['current_research',['../structcqsp_1_1common_1_1components_1_1science_1_1_scientific_research.html#a88675c5acfda7b3f786ce771890cd0a9',1,'cqsp::common::components::science::ScientificResearch']]],
-  ['currentloading_32',['currentloading',['../classcqsp_1_1asset_1_1_asset_loader.html#ab04e2c4802adc099cbf80ccddc0372d4',1,'cqsp::asset::AssetLoader']]]
+  ['countries_25',['countries',['../classcqsp_1_1common_1_1_universe.html#a91873c17c1da32d223b3b0b2a49faffa',1,'cqsp::common::Universe']]],
+  ['credits_5ftext_26',['credits_text',['../classcqsp_1_1client_1_1_credits_window.html#af84288e21083de3a2a0b171263b51057',1,'cqsp::client::CreditsWindow']]],
+  ['credits_5ftext_5felement_27',['credits_text_element',['../classcqsp_1_1client_1_1_credits_window.html#afabc93371f7c672a002c94b54940d65a',1,'cqsp::client::CreditsWindow']]],
+  ['credits_5fwindow_28',['credits_window',['../classcqsp_1_1scene_1_1_main_menu_scene.html#a07ba61bb8c108472267cedfc00632da6',1,'cqsp::scene::MainMenuScene']]],
+  ['currency_29',['currency',['../structcqsp_1_1common_1_1components_1_1_wallet.html#aaa59570c5f983fc2ad82211251c013f3',1,'cqsp::common::components::Wallet']]],
+  ['current_30',['current',['../structcqsp_1_1scene_1_1_loading_scene_1_1_loading_data_model.html#a7582fc9eff518efec450f6605a33074e',1,'cqsp::scene::LoadingScene::LoadingDataModel::current()'],['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_power_consumption.html#a645879b76dcc1ed6b2b0b1fca2752272',1,'cqsp::common::components::infrastructure::PowerConsumption::current()']]],
+  ['current_5fproduction_31',['current_production',['../structcqsp_1_1common_1_1components_1_1_production_traits.html#a72d6a65814a536139a6c6e33dce6e7a5',1,'cqsp::common::components::ProductionTraits::current_production()'],['../structcqsp_1_1common_1_1components_1_1_factory_productivity.html#aca04b57610cf87e5d705134e6ace7e96',1,'cqsp::common::components::FactoryProductivity::current_production()']]],
+  ['current_5fresearch_32',['current_research',['../structcqsp_1_1common_1_1components_1_1science_1_1_scientific_research.html#a88675c5acfda7b3f786ce771890cd0a9',1,'cqsp::common::components::science::ScientificResearch']]],
+  ['currentloading_33',['currentloading',['../classcqsp_1_1asset_1_1_asset_loader.html#ab04e2c4802adc099cbf80ccddc0372d4',1,'cqsp::asset::AssetLoader']]]
 ];
