@@ -5,5 +5,6 @@ var searchData=
   ['nativefilesystem_2',['NativeFileSystem',['../classcqsp_1_1asset_1_1_native_file_system.html#a05a76f382f725d45fa812b5e2d57d55a',1,'cqsp::asset::NativeFileSystem']]],
   ['newframe_3',['NewFrame',['../classcqsp_1_1engine_1_1_i_framebuffer.html#af9c9da6231a95568dc944e2fbb5977b2',1,'cqsp::engine::IFramebuffer::NewFrame()'],['../classcqsp_1_1engine_1_1_framebuffer_renderer.html#ac22f6564e3fb9d77e43c9f41c7b5d018',1,'cqsp::engine::FramebufferRenderer::NewFrame()'],['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#abcf369adf862f0f7600b521a4326c6cd',1,'cqsp::engine::AAFrameBufferRenderer::NewFrame()'],['../classcqsp_1_1engine_1_1_layer_renderer.html#a336ff91d48d6005c6db0f270d04ed77a',1,'cqsp::engine::LayerRenderer::NewFrame()']]],
   ['normalize_5fdegree_4',['normalize_degree',['../namespacecqsp_1_1common_1_1components_1_1types.html#aeab98436b692c8fd745ae6f09d053681',1,'cqsp::common::components::types']]],
-  ['normalize_5fradian_5',['normalize_radian',['../namespacecqsp_1_1common_1_1components_1_1types.html#aa8a5374820afccc5b17d6bd3bf6e2946',1,'cqsp::common::components::types']]]
+  ['normalize_5fradian_5',['normalize_radian',['../namespacecqsp_1_1common_1_1components_1_1types.html#aa8a5374820afccc5b17d6bd3bf6e2946',1,'cqsp::common::components::types']]],
+  ['normalize_5fradian_5fcoord_6',['normalize_radian_coord',['../namespacecqsp_1_1common_1_1components_1_1types.html#ac0bee5a20d76d5d86e5ced6cf5b98f8a',1,'cqsp::common::components::types']]]
 ];

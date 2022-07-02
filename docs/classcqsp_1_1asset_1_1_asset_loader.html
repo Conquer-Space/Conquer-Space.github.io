@@ -137,6 +137,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a83818df419a788a4197446f5000188f3"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a83818df419a788a4197446f5000188f3">LoadTexture</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *mount, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
 <tr class="memdesc:a83818df419a788a4197446f5000188f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Textures have one hint, the <code>magfilter</code> hint. If it is present, and set to true, it will enable closest magfilter, which will make the texture look pixellated. If it is not present, then it will be linear mag.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a83818df419a788a4197446f5000188f3">More...</a><br /></td></tr>
 <tr class="separator:a83818df419a788a4197446f5000188f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a467e9a4e2be32ed37f8ac421b5f1ebe6"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a467e9a4e2be32ed37f8ac421b5f1ebe6">LoadBinaryAsset</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *mount, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
+<tr class="memdesc:a467e9a4e2be32ed37f8ac421b5f1ebe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads binary data straight from the file.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a467e9a4e2be32ed37f8ac421b5f1ebe6">More...</a><br /></td></tr>
+<tr class="separator:a467e9a4e2be32ed37f8ac421b5f1ebe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81b964411ea12e1edbd43c57691536bc"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a81b964411ea12e1edbd43c57691536bc">LoadHjson</a> (<a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *mount, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
 <tr class="memdesc:a81b964411ea12e1edbd43c57691536bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hjson is rather flexible, it can load a single file or a directory, with just the same option. If the input path is a file, then it will load the hjson file into a <code>Hjson::Value</code>. If the input path is a directory, then it will load all the hjson files in the directory into a hjson value. This is for large amounts of data that would be better to be split up across files. The data in each file is assumed to be an array of objects, and so will load all the arrays of hjson objects in each of the hjson files into one hjson object.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a81b964411ea12e1edbd43c57691536bc">More...</a><br /></td></tr>
 <tr class="separator:a81b964411ea12e1edbd43c57691536bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -565,6 +568,56 @@ Friends</h2></td></tr>
 
 <p>Only ogg files are supported for now. </p>
 <p >If you're looking to add a music file, do not add it by the 'normal' way. This is for performance reasons. Go to <code>binaries/data/core/music/readme.txt</code> for further reading. </p>
+
+</div>
+</div>
+<a id="a467e9a4e2be32ed37f8ac421b5f1ebe6" name="a467e9a4e2be32ed37f8ac421b5f1ebe6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a467e9a4e2be32ed37f8ac421b5f1ebe6">&#9670;&nbsp;</a></span>LoadBinaryAsset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt; cqsp::asset::AssetLoader::LoadBinaryAsset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a> *&#160;</td>
+          <td class="paramname"><em>mount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>hints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads binary data straight from the file. </p>
 
 </div>
 </div>
@@ -1595,7 +1648,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 28 2022 00:42:32 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Jul 2 2022 14:53:00 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
