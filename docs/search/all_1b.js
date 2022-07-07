@@ -28,12 +28,14 @@ var searchData=
   ['_7escene_25',['~Scene',['../classcqsp_1_1engine_1_1_scene.html#ab7b7538bc8b8c71ca6e2226c59ec740b',1,'cqsp::engine::Scene']]],
   ['_7eshader_26',['~Shader',['../classcqsp_1_1asset_1_1_shader.html#a9194ee66db5aca012ebb1c9fd4da4ace',1,'cqsp::asset::Shader']]],
   ['_7eshaderprogram_27',['~ShaderProgram',['../classcqsp_1_1asset_1_1_shader_program.html#a05969f2a9dd3981e5f811f81b974432a',1,'cqsp::asset::ShaderProgram']]],
-  ['_7esysscript_28',['~SysScript',['../classcqsp_1_1common_1_1systems_1_1_sys_script.html#ad30e4e0756cb2b4a0f3b09820311f5ff',1,'cqsp::common::systems::SysScript']]],
-  ['_7esysstarsystemrenderer_29',['~SysStarSystemRenderer',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a110be2c6060cb0f05413fb94c75e3897',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['_7etexttestscene_30',['~TextTestScene',['../classcqsp_1_1scene_1_1_text_test_scene.html#adb0a820726faffdd9fb89ff80d12cd7b',1,'cqsp::scene::TextTestScene']]],
-  ['_7etexture_31',['~Texture',['../classcqsp_1_1asset_1_1_texture.html#a29df9d766eefe0518265cee78f528310',1,'cqsp::asset::Texture']]],
-  ['_7ethreadsafequeue_32',['~ThreadsafeQueue',['../classcqsp_1_1asset_1_1_threadsafe_queue.html#ae57328110b35f7582f7b3a15977289c3',1,'cqsp::asset::ThreadsafeQueue']]],
-  ['_7euniverseloadingscene_33',['~UniverseLoadingScene',['../classcqsp_1_1scene_1_1_universe_loading_scene.html#a77f680aed534f8f49cd99f3dbb219924',1,'cqsp::scene::UniverseLoadingScene']]],
-  ['_7euniversescene_34',['~UniverseScene',['../classcqsp_1_1scene_1_1_universe_scene.html#ad4c2331024a6a3f58ad9bacf87fe5e2c',1,'cqsp::scene::UniverseScene']]],
-  ['_7evirtualmounter_35',['~VirtualMounter',['../classcqsp_1_1asset_1_1_virtual_mounter.html#a660cd260640f3e937eb730fc1a6664ae',1,'cqsp::asset::VirtualMounter']]]
+  ['_7esysrmluiinterface_28',['~SysRmlUiInterface',['../classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.html#a9859b0800c6aaf8f990f7103d6fb9a4a',1,'cqsp::client::systems::SysRmlUiInterface']]],
+  ['_7esysscript_29',['~SysScript',['../classcqsp_1_1common_1_1systems_1_1_sys_script.html#ad30e4e0756cb2b4a0f3b09820311f5ff',1,'cqsp::common::systems::SysScript']]],
+  ['_7esysstarsystemrenderer_30',['~SysStarSystemRenderer',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a110be2c6060cb0f05413fb94c75e3897',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['_7etexttestscene_31',['~TextTestScene',['../classcqsp_1_1scene_1_1_text_test_scene.html#adb0a820726faffdd9fb89ff80d12cd7b',1,'cqsp::scene::TextTestScene']]],
+  ['_7etexture_32',['~Texture',['../classcqsp_1_1asset_1_1_texture.html#a29df9d766eefe0518265cee78f528310',1,'cqsp::asset::Texture']]],
+  ['_7ethreadsafequeue_33',['~ThreadsafeQueue',['../classcqsp_1_1asset_1_1_threadsafe_queue.html#ae57328110b35f7582f7b3a15977289c3',1,'cqsp::asset::ThreadsafeQueue']]],
+  ['_7eturnsavewindow_34',['~TurnSaveWindow',['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a6e287dee4fed246b21a0cfc761e8d045',1,'cqsp::client::systems::rmlui::TurnSaveWindow']]],
+  ['_7euniverseloadingscene_35',['~UniverseLoadingScene',['../classcqsp_1_1scene_1_1_universe_loading_scene.html#a77f680aed534f8f49cd99f3dbb219924',1,'cqsp::scene::UniverseLoadingScene']]],
+  ['_7euniversescene_36',['~UniverseScene',['../classcqsp_1_1scene_1_1_universe_scene.html#ad4c2331024a6a3f58ad9bacf87fe5e2c',1,'cqsp::scene::UniverseScene']]],
+  ['_7evirtualmounter_37',['~VirtualMounter',['../classcqsp_1_1asset_1_1_virtual_mounter.html#a660cd260640f3e937eb730fc1a6664ae',1,'cqsp::asset::VirtualMounter']]]
 ];
