@@ -130,6 +130,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a6f1d6043452a9bc20000f94e810f0fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6c06847800f461e1def6ca6d986bfa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_country_information.html#ac6c06847800f461e1def6ca6d986bfa0">SpacePortTab</a> ()</td></tr>
 <tr class="separator:ac6c06847800f461e1def6ca6d986bfa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a080f2d49a890549e4ada9cb18f48c67d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_country_information.html#a080f2d49a890549e4ada9cb18f48c67d">MarketInformationTooltipContent</a> (const entt::entity marketentity)</td></tr>
+<tr class="separator:a080f2d49a890549e4ada9cb18f48c67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89252fe3fc0d4e71dd8771e95f24b7b1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a89252fe3fc0d4e71dd8771e95f24b7b1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_country_information.html#a89252fe3fc0d4e71dd8771e95f24b7b1">IndustryTabGenericChild</a> (const std::string &amp;tabname, const std::string &amp;industryname, const ImVec2 &amp;<a class="el" href="assetmanager_8cpp.html#a439227feff9d7f55384e8780cfc2eb82">size</a>)</td></tr>
 <tr class="separator:a89252fe3fc0d4e71dd8771e95f24b7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,8 +142,12 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a07eba0af6acf85c6e244523fbb0666b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8e5a49ff8ac0e1cb0fa5b4d52040c78"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_country_information.html#ac8e5a49ff8ac0e1cb0fa5b4d52040c78">current_country</a></td></tr>
 <tr class="separator:ac8e5a49ff8ac0e1cb0fa5b4d52040c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcf3f398cd20e8505d06ed664e114491"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_country_information.html#afcf3f398cd20e8505d06ed664e114491">market_information_panel</a> = false</td></tr>
+<tr class="separator:afcf3f398cd20e8505d06ed664e114491"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c4fb45d92dfc3803a100895634a803e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_country_information.html#a9c4fb45d92dfc3803a100895634a803e">visible</a> = false</td></tr>
 <tr class="separator:a9c4fb45d92dfc3803a100895634a803e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8df0fe677a7388c84dcb736a8e99483c"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_country_information.html#a8df0fe677a7388c84dcb736a8e99483c">current_market</a></td></tr>
+<tr class="separator:a8df0fe677a7388c84dcb736a8e99483c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcba51a321c452abeb65f5875844888b"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_country_information.html#a05c89fdd1132e3f17c7b4ca14bea65c6">cqsp::client::systems::SysCountryInformation::ViewMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_country_information.html#adcba51a321c452abeb65f5875844888b">view_mode</a> = ViewMode::COUNTRY_VIEW</td></tr>
 <tr class="separator:adcba51a321c452abeb65f5875844888b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -458,6 +464,32 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a080f2d49a890549e4ada9cb18f48c67d" name="a080f2d49a890549e4ada9cb18f48c67d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a080f2d49a890549e4ada9cb18f48c67d">&#9670;&nbsp;</a></span>MarketInformationTooltipContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysCountryInformation::MarketInformationTooltipContent </td>
+          <td>(</td>
+          <td class="paramtype">const entt::entity&#160;</td>
+          <td class="paramname"><em>marketentity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac6c06847800f461e1def6ca6d986bfa0" name="ac6c06847800f461e1def6ca6d986bfa0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6c06847800f461e1def6ca6d986bfa0">&#9670;&nbsp;</a></span>SpacePortTab()</h2>
 
@@ -528,6 +560,50 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a8df0fe677a7388c84dcb736a8e99483c" name="a8df0fe677a7388c84dcb736a8e99483c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8df0fe677a7388c84dcb736a8e99483c">&#9670;&nbsp;</a></span>current_market</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">entt::entity cqsp::client::systems::SysCountryInformation::current_market</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afcf3f398cd20e8505d06ed664e114491" name="afcf3f398cd20e8505d06ed664e114491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcf3f398cd20e8505d06ed664e114491">&#9670;&nbsp;</a></span>market_information_panel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::client::systems::SysCountryInformation::market_information_panel = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adcba51a321c452abeb65f5875844888b" name="adcba51a321c452abeb65f5875844888b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adcba51a321c452abeb65f5875844888b">&#9670;&nbsp;</a></span>view_mode</h2>
 
@@ -579,7 +655,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 19 2022 14:07:02 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Jul 22 2022 00:27:18 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
