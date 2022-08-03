@@ -22,5 +22,6 @@ var searchData=
   ['hjsonloader_2eh_19',['hjsonloader.h',['../hjsonloader_8h.html',1,'']]],
   ['hjsonprototypedirectory_20',['HjsonPrototypeDirectory',['../classcqsp_1_1asset_1_1_asset_loader.html#a93f9d319542727107c566d5bea6b99ce',1,'cqsp::asset::AssetLoader']]],
   ['hjsontoledger_21',['HjsonToLedger',['../namespacecqsp_1_1common_1_1systems_1_1loading.html#a189dd17e9c3cc87c610ba9b3dd7f9af2',1,'cqsp::common::systems::loading']]],
-  ['hunger_22',['Hunger',['../structcqsp_1_1common_1_1components_1_1_hunger.html',1,'cqsp::common::components']]]
+  ['hovering_5fprovince_22',['hovering_province',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aba349bf4c45a4d17592ff0b388d496ae',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['hunger_23',['Hunger',['../structcqsp_1_1common_1_1components_1_1_hunger.html',1,'cqsp::common::components']]]
 ];

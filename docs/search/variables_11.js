@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../structcqsp_1_1common_1_1components_1_1types_1_1_polar_coordinate__tp.html#ae6d67d9e4d286d67e7171d6faf744625',1,'cqsp::common::components::types::PolarCoordinate_tp']]],
+  ['r_0',['r',['../structcqsp_1_1common_1_1components_1_1_province_color.html#a768294eabf1613734762c46c300006de',1,'cqsp::common::components::ProvinceColor::r()'],['../structcqsp_1_1common_1_1components_1_1types_1_1_polar_coordinate__tp.html#ae6d67d9e4d286d67e7171d6faf744625',1,'cqsp::common::components::types::PolarCoordinate_tp::r()']]],
   ['radius_1',['radius',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#a7dfb6ff5730e3c30a85bc45f2dd08877',1,'cqsp::common::components::bodies::Body']]],
   ['random_2',['random',['../classcqsp_1_1common_1_1systems_1_1names_1_1_name_generator.html#a3046d1f186808b8611dca2e9700596dc',1,'cqsp::common::systems::names::NameGenerator::random()'],['../classcqsp_1_1common_1_1_universe.html#a1ab4817dd90849ed8ef71c88948be54e',1,'cqsp::common::Universe::random()']]],
   ['random_5fgen_3',['random_gen',['../classcqsp_1_1common_1_1util_1_1_std_random.html#a1280c75315271831b61150230c6cb4ae',1,'cqsp::common::util::StdRandom']]],
@@ -10,7 +10,7 @@ var searchData=
   ['reference_5fbody_7',['reference_body',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#a864ea8f2989dd5c2e8a61bd0b0a17a2f',1,'cqsp::common::components::types::Orbit']]],
   ['renaming_5fcity_8',['renaming_city',['../classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#ae45740696e3894c75da9eb0446c2598e',1,'cqsp::client::systems::SysPlanetInformation']]],
   ['renderables_9',['renderables',['../classcqsp_1_1engine_1_1_basic_renderer.html#ada102381a0ccfdbf2c97104d4c8aabb5',1,'cqsp::engine::BasicRenderer']]],
-  ['renderer_10',['renderer',['../classcqsp_1_1scene_1_1_text_test_scene.html#a5e8d2baf8bb79efae4a1023612138ef9',1,'cqsp::scene::TextTestScene::renderer()'],['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aad9d97f28187e5f605eb3117bbd2d381',1,'cqsp::client::systems::SysStarSystemRenderer::renderer()']]],
+  ['renderer_10',['renderer',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aad9d97f28187e5f605eb3117bbd2d381',1,'cqsp::client::systems::SysStarSystemRenderer::renderer()'],['../classcqsp_1_1scene_1_1_text_test_scene.html#a5e8d2baf8bb79efae4a1023612138ef9',1,'cqsp::scene::TextTestScene::renderer()']]],
   ['researched_5fmining_11',['researched_mining',['../structcqsp_1_1common_1_1components_1_1science_1_1_technological_progress.html#a1342bdcfee200187df1ebef41c1751a6',1,'cqsp::common::components::science::TechnologicalProgress']]],
   ['researched_5frecipes_12',['researched_recipes',['../structcqsp_1_1common_1_1components_1_1science_1_1_technological_progress.html#a48d68dbbc94341f38cd97ddc57af53ce',1,'cqsp::common::components::science::TechnologicalProgress']]],
   ['researched_5ftechs_13',['researched_techs',['../structcqsp_1_1common_1_1components_1_1science_1_1_technological_progress.html#a820074487ecf9b21d55f412af2d5ac23',1,'cqsp::common::components::science::TechnologicalProgress']]],
