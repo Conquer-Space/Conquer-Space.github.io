@@ -41,7 +41,8 @@ var searchData=
   ['projection_38',['projection',['../classcqsp_1_1engine_1_1_basic_renderer.html#a4320ac3c83fcb49631a1bdeb856742d1',1,'cqsp::engine::BasicRenderer::projection()'],['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ab4109f732237709aa363478cd3d7bab8',1,'cqsp::client::systems::SysStarSystemRenderer::projection()']]],
   ['properties_39',['properties',['../classcqsp_1_1engine_1_1_application.html#a3ab97788bc622f17fc37242f2a729a11',1,'cqsp::engine::Application']]],
   ['prototype_40',['prototype',['../classcqsp_1_1asset_1_1_queue_holder.html#a4474128d2e8f27973758559371baa0ef',1,'cqsp::asset::QueueHolder']]],
-  ['province_5fheight_41',['province_height',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af2733fcf79ab964f13b6339510b52793',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['province_5fwidth_42',['province_width',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a85e2d8ff956225ea7961776e99375560',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['provinces_43',['provinces',['../classcqsp_1_1common_1_1_universe.html#aca4ff10ff274f4baf86e9926c90586bc',1,'cqsp::common::Universe']]]
+  ['province_5fcolors_41',['province_colors',['../classcqsp_1_1common_1_1_universe.html#a7355623aae1c817226cf3a66a04a0958',1,'cqsp::common::Universe']]],
+  ['province_5fheight_42',['province_height',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af2733fcf79ab964f13b6339510b52793',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['province_5fwidth_43',['province_width',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a85e2d8ff956225ea7961776e99375560',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['provinces_44',['provinces',['../classcqsp_1_1common_1_1_universe.html#aca4ff10ff274f4baf86e9926c90586bc',1,'cqsp::common::Universe']]]
 ];
