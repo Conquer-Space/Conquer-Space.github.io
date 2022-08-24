@@ -42,7 +42,7 @@ var searchData=
   ['m_5fwindow_5fwidth_39',['m_window_width',['../application_8cpp.html#a13c2b0eda41ad82b78016686d9b32a28',1,'application.cpp']]],
   ['mag_5ffilter_40',['mag_filter',['../structcqsp_1_1asset_1_1_texture_loading_options.html#ab1ff95de47b8366f66b0799bb8632938',1,'cqsp::asset::TextureLoadingOptions']]],
   ['main_5fmenu_41',['main_menu',['../classcqsp_1_1scene_1_1_main_menu_scene.html#ae71e8e533e82adf99f04626dfb42d596',1,'cqsp::scene::MainMenuScene']]],
-  ['maintaince_42',['maintaince',['../structcqsp_1_1common_1_1components_1_1_cost_breakdown.html#a8492e451687bec481a4ab854cdfcce64',1,'cqsp::common::components::CostBreakdown']]],
+  ['maintenance_42',['maintenance',['../structcqsp_1_1common_1_1components_1_1_cost_breakdown.html#a098c952bbbc43e8fc9402248c26d4cde',1,'cqsp::common::components::CostBreakdown']]],
   ['manager_43',['manager',['../classcqsp_1_1engine_1_1_application.html#aeecf66ecd3cb73dc0f290673d256f11a',1,'cqsp::engine::Application::manager()'],['../classcqsp_1_1asset_1_1_asset_loader.html#adfe3c957b0400369ed82ec6870c7f26a',1,'cqsp::asset::AssetLoader::manager()']]],
   ['marginal_5fpropensity_44',['marginal_propensity',['../structcqsp_1_1common_1_1components_1_1_consumer_good.html#aec21403e8e820ec30ac7e145b7c68df6',1,'cqsp::common::components::ConsumerGood']]],
   ['market_45',['market',['../structcqsp_1_1common_1_1components_1_1_market_agent.html#ac18f63ce9406c265d75d7d6153447408',1,'cqsp::common::components::MarketAgent::market()'],['../structcqsp_1_1common_1_1components_1_1_market_center.html#ac1179c869abbbfc9105cee322f8104c4',1,'cqsp::common::components::MarketCenter::market()']]],
