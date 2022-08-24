@@ -3,7 +3,7 @@ layout: post
 title: "Economy Work as of October 2021"
 date: 2021-10-20
 categories: ["dev-diary"]
-tags: ["dev-diary"]
+tags: ["dev-diary", "economy"]
 author: EhWhoAmI
 ---
 These few weeks have been more productive than expected, so here's a summary of what we did in the economy over this time.
