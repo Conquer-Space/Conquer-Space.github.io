@@ -6,6 +6,6 @@ var searchData=
   ['options_5fmenu_3',['options_menu',['../classcqsp_1_1client_1_1_settings_window.html#a72db588073adc3cdf1b86f6e1d748ebd',1,'cqsp::client::SettingsWindow']]],
   ['orbit_5fmesh_4',['orbit_mesh',['../starsystemview_8cpp.html#a0567845507ba45fc51b912d73c1a2eb8',1,'starsystemview.cpp']]],
   ['orbit_5fshader_5',['orbit_shader',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a5a6af76cb91e509261e61a453910cdc0',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['output_6',['output',['../structcqsp_1_1common_1_1components_1_1_recipe.html#a47eb555b698154bc946a5a3b8ed53403',1,'cqsp::common::components::Recipe::output()'],['../structcqsp_1_1common_1_1components_1_1_production_ratio.html#a01868bfa3cd698160d82013092b61a4e',1,'cqsp::common::components::ProductionRatio::output()'],['../structcqsp_1_1common_1_1components_1_1_resource_i_o.html#ac730898c7ed7db1a0a762c4183516c92',1,'cqsp::common::components::ResourceIO::output()']]],
+  ['output_6',['output',['../structcqsp_1_1common_1_1components_1_1_recipe.html#a1c6a97fe2ccb92718b2976ef7e3bedfa',1,'cqsp::common::components::Recipe::output()'],['../structcqsp_1_1common_1_1components_1_1_resource_i_o.html#ac730898c7ed7db1a0a762c4183516c92',1,'cqsp::common::components::ResourceIO::output()']]],
   ['owner_7',['owner',['../structcqsp_1_1common_1_1components_1_1ships_1_1_fleet.html#a41e4787dbbc437046282b594f99dfd57',1,'cqsp::common::components::ships::Fleet']]]
 ];
