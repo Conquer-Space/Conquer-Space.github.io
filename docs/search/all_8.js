@@ -23,6 +23,7 @@ var searchData=
   ['hjsonloader_2eh_20',['hjsonloader.h',['../hjsonloader_8h.html',1,'']]],
   ['hjsonprototypedirectory_21',['HjsonPrototypeDirectory',['../classcqsp_1_1asset_1_1_asset_loader.html#a93f9d319542727107c566d5bea6b99ce',1,'cqsp::asset::AssetLoader']]],
   ['hjsontoledger_22',['HjsonToLedger',['../namespacecqsp_1_1common_1_1systems_1_1loading.html#a189dd17e9c3cc87c610ba9b3dd7f9af2',1,'cqsp::common::systems::loading']]],
-  ['hovering_5fprovince_23',['hovering_province',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aba349bf4c45a4d17592ff0b388d496ae',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['hunger_24',['Hunger',['../structcqsp_1_1common_1_1components_1_1_hunger.html',1,'cqsp::common::components']]]
+  ['hour_23',['HOUR',['../classcqsp_1_1common_1_1components_1_1_star_date.html#a23d81fb7f57f91d62fb6f9de377c35ca',1,'cqsp::common::components::StarDate']]],
+  ['hovering_5fprovince_24',['hovering_province',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aba349bf4c45a4d17592ff0b388d496ae',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['hunger_25',['Hunger',['../structcqsp_1_1common_1_1components_1_1_hunger.html',1,'cqsp::common::components']]]
 ];

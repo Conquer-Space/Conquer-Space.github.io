@@ -15,7 +15,7 @@ var searchData=
   ['calculatesoi_12',['CalculateSOI',['../namespacecqsp_1_1common_1_1components_1_1bodies.html#af8a395fd0d169f2326e92482ef039dfa',1,'cqsp::common::components::bodies']]],
   ['calculatetrueanomaly_13',['CalculateTrueAnomaly',['../namespacecqsp_1_1common_1_1components_1_1types.html#a39df877f9070fd792757f2a4cb00b229',1,'cqsp::common::components::types']]],
   ['calculatevariables_14',['CalculateVariables',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#afb3ee8f3d5e2e16a1d1197b201b022a3',1,'cqsp::common::components::types::Orbit']]],
-  ['calculatevelocity_15',['CalculateVelocity',['../namespacecqsp_1_1common_1_1components_1_1types.html#a4721033deac6f02931947ff4b043aa85',1,'cqsp::common::components::types']]],
+  ['calculatevelocity_15',['CalculateVelocity',['../namespacecqsp_1_1common_1_1components_1_1types.html#adbcea11ea7e82974aed27199822a47ee',1,'cqsp::common::components::types']]],
   ['cam_5fpos_16',['cam_pos',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a94a5ca1342ed545d2b57dd2d55e3f862',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['cam_5fup_17',['cam_up',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ab57bc4e979a33646286edd7199754863',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['camera_5fmatrix_18',['camera_matrix',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a9eabbb1c725c46d668c21758a0b794f7',1,'cqsp::client::systems::SysStarSystemRenderer']]],

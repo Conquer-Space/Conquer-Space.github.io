@@ -11,7 +11,7 @@ var searchData=
   ['calculatesoi_8',['CalculateSOI',['../namespacecqsp_1_1common_1_1components_1_1bodies.html#af8a395fd0d169f2326e92482ef039dfa',1,'cqsp::common::components::bodies']]],
   ['calculatetrueanomaly_9',['CalculateTrueAnomaly',['../namespacecqsp_1_1common_1_1components_1_1types.html#a39df877f9070fd792757f2a4cb00b229',1,'cqsp::common::components::types']]],
   ['calculatevariables_10',['CalculateVariables',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#afb3ee8f3d5e2e16a1d1197b201b022a3',1,'cqsp::common::components::types::Orbit']]],
-  ['calculatevelocity_11',['CalculateVelocity',['../namespacecqsp_1_1common_1_1components_1_1types.html#a4721033deac6f02931947ff4b043aa85',1,'cqsp::common::components::types']]],
+  ['calculatevelocity_11',['CalculateVelocity',['../namespacecqsp_1_1common_1_1components_1_1types.html#adbcea11ea7e82974aed27199822a47ee',1,'cqsp::common::components::types']]],
   ['centercameraoncity_12',['CenterCameraOnCity',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af1a6339f1648f77a76c6edd6ed598f83',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['checkresourcedistrender_13',['CheckResourceDistRender',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a96cfd8b9658a526dc3b457cb32b6c102',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['citydetection_14',['CityDetection',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af320a598b9cafb53bed698d29570c68e',1,'cqsp::client::systems::SysStarSystemRenderer']]],

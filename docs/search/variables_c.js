@@ -65,8 +65,7 @@ var searchData=
   ['mount_5fpoints_62',['mount_points',['../classcqsp_1_1asset_1_1_virtual_mounter.html#ae6e198367dca1708671de98069fc5728',1,'cqsp::asset::VirtualMounter']]],
   ['mounter_63',['mounter',['../classcqsp_1_1asset_1_1_asset_loader.html#a531c1b28ef2e8d7994ab4e5591cb1426',1,'cqsp::asset::AssetLoader']]],
   ['mscat_64',['mscat',['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#adfeae9b209b0bdfc988d691ec10fe0fd',1,'cqsp::engine::AAFrameBufferRenderer']]],
-  ['mu_65',['Mu',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#af21715ce7b88625b7056db253a6fa3a8',1,'cqsp::common::components::types::Orbit']]],
-  ['music_66',['music',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#abc19a0330e7c65fdbe41236daaf641ed',1,'cqsp::engine::audio::AudioInterface']]],
-  ['music_5fvolume_67',['music_volume',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a7632f117eeaacae97de4d52626fa6e5b',1,'cqsp::engine::audio::AudioInterface::music_volume()'],['../classcqsp_1_1client_1_1_settings_window.html#adfbb98d45d4e63c24248e804fe2210be',1,'cqsp::client::SettingsWindow::music_volume()']]],
-  ['mutex_5f_68',['mutex_',['../classcqsp_1_1asset_1_1_threadsafe_queue.html#ae5eb131b1cabee78e3daf64801f3f289',1,'cqsp::asset::ThreadsafeQueue']]]
+  ['music_65',['music',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#abc19a0330e7c65fdbe41236daaf641ed',1,'cqsp::engine::audio::AudioInterface']]],
+  ['music_5fvolume_66',['music_volume',['../classcqsp_1_1client_1_1_settings_window.html#adfbb98d45d4e63c24248e804fe2210be',1,'cqsp::client::SettingsWindow::music_volume()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a7632f117eeaacae97de4d52626fa6e5b',1,'cqsp::engine::audio::AudioInterface::music_volume()']]],
+  ['mutex_5f_67',['mutex_',['../classcqsp_1_1asset_1_1_threadsafe_queue.html#ae5eb131b1cabee78e3daf64801f3f289',1,'cqsp::asset::ThreadsafeQueue']]]
 ];
