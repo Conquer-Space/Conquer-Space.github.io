@@ -1,8 +1,8 @@
 var searchData=
 [
   ['objecteditorscene_0',['ObjectEditorScene',['../classcqsp_1_1scene_1_1_object_editor_scene.html',1,'cqsp::scene::ObjectEditorScene'],['../classcqsp_1_1scene_1_1_object_editor_scene.html#a7493b6d99efc33c251829631eda3e79b',1,'cqsp::scene::ObjectEditorScene::ObjectEditorScene()']]],
-  ['offset_1',['Offset',['../namespacecqsp_1_1asset.html#ad4cff22c753ea2d1abd041e10517f7ff',1,'cqsp::asset']]],
-  ['offset_2',['offset',['../starsystemview_8cpp.html#ad2780a05a8ff760371aab0e0e109f0f1',1,'starsystemview.cpp']]],
+  ['offset_1',['offset',['../starsystemview_8cpp.html#ad2780a05a8ff760371aab0e0e109f0f1',1,'starsystemview.cpp']]],
+  ['offset_2',['Offset',['../namespacecqsp_1_1asset.html#ad4cff22c753ea2d1abd041e10517f7ff',1,'cqsp::asset']]],
   ['on_5fplanet_3',['on_planet',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a05dbd52ab45da5f6e93bcab929c52d0a',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['onframe_4',['OnFrame',['../classcqsp_1_1engine_1_1_window.html#a87d9881ad6afe1a03db619dc92db26e5',1,'cqsp::engine::Window']]],
   ['ontick_5',['OnTick',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a4c1ab539aef49d353b723b017edeb030',1,'cqsp::client::systems::SysStarSystemRenderer']]],

@@ -105,6 +105,14 @@ Functions</h2></td></tr>
 <tr class="separator:ad8d423dc97d1cca466a823431ae89f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cadd21a274e2b031de9ca1df9b9a1f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a6cadd21a274e2b031de9ca1df9b9a1f8">LoadProvinces</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">common::Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const std::string &amp;text)</td></tr>
 <tr class="separator:a6cadd21a274e2b031de9ca1df9b9a1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a611371655504127459e01b6f019e62fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a611371655504127459e01b6f019e62fa">GetOrbit</a> (const std::string &amp;line_one, const std::string &amp;line_two, const double &amp;GM)</td></tr>
+<tr class="separator:a611371655504127459e01b6f019e62fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf39e106e5c3628d22d1811ae264a2dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#acf39e106e5c3628d22d1811ae264a2dd">GetEpochYear</a> (int year)</td></tr>
+<tr class="separator:acf39e106e5c3628d22d1811ae264a2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeda71a6b623d51edfdb777663ecf57fe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#aeda71a6b623d51edfdb777663ecf57fe">GetEpoch</a> (double year, double time)</td></tr>
+<tr class="separator:aeda71a6b623d51edfdb777663ecf57fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e16751439352651f9225180263e949d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a5e16751439352651f9225180263e949d">LoadSatellites</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, std::string &amp;string)</td></tr>
+<tr class="separator:a5e16751439352651f9225180263e949d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23b31f31054a468d7dbb24b8c5a08e54"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a23b31f31054a468d7dbb24b8c5a08e54">LoadName</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const Hjson::Value &amp;value)</td></tr>
 <tr class="memdesc:a23b31f31054a468d7dbb24b8c5a08e54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if name exists  <a href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a23b31f31054a468d7dbb24b8c5a08e54">More...</a><br /></td></tr>
 <tr class="separator:a23b31f31054a468d7dbb24b8c5a08e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,6 +135,86 @@ Functions</h2></td></tr>
 <tr class="separator:a6a797ace811a7f950c73ddcedc8db65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aeda71a6b623d51edfdb777663ecf57fe" name="aeda71a6b623d51edfdb777663ecf57fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeda71a6b623d51edfdb777663ecf57fe">&#9670;&nbsp;</a></span>GetEpoch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::common::systems::loading::GetEpoch </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>year</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf39e106e5c3628d22d1811ae264a2dd" name="acf39e106e5c3628d22d1811ae264a2dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf39e106e5c3628d22d1811ae264a2dd">&#9670;&nbsp;</a></span>GetEpochYear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::common::systems::loading::GetEpochYear </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>year</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a611371655504127459e01b6f019e62fa" name="a611371655504127459e01b6f019e62fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a611371655504127459e01b6f019e62fa">&#9670;&nbsp;</a></span>GetOrbit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> cqsp::common::systems::loading::GetOrbit </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>line_one</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>line_two</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double &amp;&#160;</td>
+          <td class="paramname"><em>GM</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a189dd17e9c3cc87c610ba9b3dd7f9af2" name="a189dd17e9c3cc87c610ba9b3dd7f9af2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a189dd17e9c3cc87c610ba9b3dd7f9af2">&#9670;&nbsp;</a></span>HjsonToLedger()</h2>
 
@@ -408,6 +496,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5e16751439352651f9225180263e949d" name="a5e16751439352651f9225180263e949d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e16751439352651f9225180263e949d">&#9670;&nbsp;</a></span>LoadSatellites()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::common::systems::loading::LoadSatellites </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
+          <td class="paramname"><em>universe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>string</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6409d02dda9d3a89517b7d3d7d606ac9" name="a6409d02dda9d3a89517b7d3d7d606ac9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6409d02dda9d3a89517b7d3d7d606ac9">&#9670;&nbsp;</a></span>LoadTerrainData()</h2>
 
@@ -549,7 +665,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 4 2022 10:41:25 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Oct 4 2022 14:06:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
