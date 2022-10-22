@@ -139,6 +139,8 @@ Functions</h2></td></tr>
 <tr class="memitem:abaf4b02bdb27dd3f151714d75d36615c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#abaf4b02bdb27dd3f151714d75d36615c">SellGood</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1_auction_house.html">components::AuctionHouse</a> &amp;auction_house, entt::entity good, entt::entity agent, double price, double quantity)</td></tr>
 <tr class="memdesc:abaf4b02bdb27dd3f151714d75d36615c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sells a good to the market  <a href="namespacecqsp_1_1common_1_1systems.html#abaf4b02bdb27dd3f151714d75d36615c">More...</a><br /></td></tr>
 <tr class="separator:abaf4b02bdb27dd3f151714d75d36615c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6b429673fcfbb3b287559e4efd1b393"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#ad6b429673fcfbb3b287559e4efd1b393">LeaveSOI</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;body, entt::entity &amp;<a class="el" href="loadplanets_8cpp.html#a36dbe2aa2c05a792070d7b44d5c06e87">parent</a>, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">cqspt::Orbit</a> &amp;orb, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">cqspt::Kinematics</a> &amp;pos, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">cqspt::Kinematics</a> &amp;p_pos)</td></tr>
+<tr class="separator:ad6b429673fcfbb3b287559e4efd1b393"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ec672ec55563c3fdeff6b216936da8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#a99ec672ec55563c3fdeff6b216936da8">LeaveSOI</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;body)</td></tr>
 <tr class="memdesc:a99ec672ec55563c3fdeff6b216936da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set's the SOI of the entity to the parent  <a href="namespacecqsp_1_1common_1_1systems.html#a99ec672ec55563c3fdeff6b216936da8">More...</a><br /></td></tr>
 <tr class="separator:a99ec672ec55563c3fdeff6b216936da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,7 +235,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a99ec672ec55563c3fdeff6b216936da8" name="a99ec672ec55563c3fdeff6b216936da8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99ec672ec55563c3fdeff6b216936da8">&#9670;&nbsp;</a></span>LeaveSOI()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a99ec672ec55563c3fdeff6b216936da8">&#9670;&nbsp;</a></span>LeaveSOI() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,6 +268,58 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ad6b429673fcfbb3b287559e4efd1b393" name="ad6b429673fcfbb3b287559e4efd1b393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6b429673fcfbb3b287559e4efd1b393">&#9670;&nbsp;</a></span>LeaveSOI() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::common::systems::LeaveSOI </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
+          <td class="paramname"><em>universe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">cqspt::Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">cqspt::Kinematics</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">cqspt::Kinematics</a> &amp;&#160;</td>
+          <td class="paramname"><em>p_pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -330,7 +384,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 4 2022 14:06:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Oct 22 2022 12:50:18 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
