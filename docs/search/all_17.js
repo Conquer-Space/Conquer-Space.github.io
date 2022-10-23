@@ -6,7 +6,7 @@ var searchData=
   ['week_3',['WEEK',['../classcqsp_1_1common_1_1components_1_1_star_date.html#afd113631dd4adaea1e4aa7f3d9f0be28',1,'cqsp::common::components::StarDate']]],
   ['width_4',['width',['../classcqsp_1_1asset_1_1_texture.html#a8a3491dd29fb9166c3c46aaef90723b8',1,'cqsp::asset::Texture::width()'],['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a5488fd380aa633a457d321201bdb3516',1,'cqsp::engine::AAFrameBufferRenderer::width()'],['../assetmanager_8cpp.html#a2474a5474cbff19523a51eb1de01cda4',1,'width():&#160;assetmanager.cpp']]],
   ['window_5',['Window',['../classcqsp_1_1engine_1_1_window.html',1,'cqsp::engine']]],
-  ['window_6',['window',['../application_8cpp.html#a80de27bd7dc4e2b2ad3d5895b97a70f0',1,'application.cpp']]],
+  ['window_6',['window',['../struct_backend_data.html#ae2b39f40b894974480a7df02cb1d156b',1,'BackendData::window()'],['../class_system_interface___g_l_f_w.html#a7217fd7ac52a3efc85a89a91a626ab9f',1,'SystemInterface_GLFW::window()'],['../application_8cpp.html#a80de27bd7dc4e2b2ad3d5895b97a70f0',1,'window():&#160;application.cpp']]],
   ['window_2eh_7',['window.h',['../window_8h.html',1,'']]],
   ['window_5fflags_8',['window_flags',['../classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html#ae2d98bd53c720e8fbb2423fd311a9958',1,'cqsp::client::systems::SysUserInterface']]],
   ['window_5fratio_9',['window_ratio',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a56c40afb05a2b9ab64631848d356dc70',1,'cqsp::client::systems::SysStarSystemRenderer']]],

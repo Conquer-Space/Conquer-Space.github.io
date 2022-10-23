@@ -241,10 +241,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a7f97b3a924eb2fdcc63d70bec958e2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cf25f53f91ef81b6b738d436c6ae649"><td class="memItemLeft" align="right" valign="top">Rml::Context *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a8cf25f53f91ef81b6b738d436c6ae649">rml_context</a></td></tr>
 <tr class="separator:a8cf25f53f91ef81b6b738d436c6ae649"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6391397e521132664e88ac2a9d5378cc"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; Rml::SystemInterface &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a6391397e521132664e88ac2a9d5378cc">m_system_interface</a></td></tr>
-<tr class="separator:a6391397e521132664e88ac2a9d5378cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a741fb66aca6b660a72a99526b9fcbc02"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html">cqsp::engine::CQSPRenderInterface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a741fb66aca6b660a72a99526b9fcbc02">m_render_interface</a></td></tr>
-<tr class="separator:a741fb66aca6b660a72a99526b9fcbc02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c7bb9e07bb398ed049b70a0c7a1cdd"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_system_interface___g_l_f_w.html">SystemInterface_GLFW</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a65c7bb9e07bb398ed049b70a0c7a1cdd">m_system_interface</a></td></tr>
+<tr class="separator:a65c7bb9e07bb398ed049b70a0c7a1cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abac37bf9c2c5f3a61d5d82fd5796dcf9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; Rml::RenderInterface &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#abac37bf9c2c5f3a61d5d82fd5796dcf9">m_render_interface</a></td></tr>
+<tr class="separator:abac37bf9c2c5f3a61d5d82fd5796dcf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5629fbd77d57300526a2d42463e70c30"><td class="memItemLeft" align="right" valign="top">ax::NodeEditor::EditorContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a5629fbd77d57300526a2d42463e70c30">m_ne_context</a> = nullptr</td></tr>
 <tr class="separator:a5629fbd77d57300526a2d42463e70c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bca2af6e43f07f8c3ace54e29ab9a1c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1engine_1_1_application_1_1_cqsp_event_instancer.html">CqspEventInstancer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_application.html#a6bca2af6e43f07f8c3ace54e29ab9a1c">m_event_instancer</a></td></tr>
@@ -2277,8 +2277,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a741fb66aca6b660a72a99526b9fcbc02" name="a741fb66aca6b660a72a99526b9fcbc02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a741fb66aca6b660a72a99526b9fcbc02">&#9670;&nbsp;</a></span>m_render_interface</h2>
+<a id="abac37bf9c2c5f3a61d5d82fd5796dcf9" name="abac37bf9c2c5f3a61d5d82fd5796dcf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abac37bf9c2c5f3a61d5d82fd5796dcf9">&#9670;&nbsp;</a></span>m_render_interface</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2287,7 +2287,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html">cqsp::engine::CQSPRenderInterface</a>&gt; cqsp::engine::Application::m_render_interface</td>
+          <td class="memname">std::unique_ptr&lt;Rml::RenderInterface&gt; cqsp::engine::Application::m_render_interface</td>
         </tr>
       </table>
   </td>
@@ -2321,8 +2321,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a6391397e521132664e88ac2a9d5378cc" name="a6391397e521132664e88ac2a9d5378cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6391397e521132664e88ac2a9d5378cc">&#9670;&nbsp;</a></span>m_system_interface</h2>
+<a id="a65c7bb9e07bb398ed049b70a0c7a1cdd" name="a65c7bb9e07bb398ed049b70a0c7a1cdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65c7bb9e07bb398ed049b70a0c7a1cdd">&#9670;&nbsp;</a></span>m_system_interface</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2331,7 +2331,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;Rml::SystemInterface&gt; cqsp::engine::Application::m_system_interface</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_system_interface___g_l_f_w.html">SystemInterface_GLFW</a>&gt; cqsp::engine::Application::m_system_interface</td>
         </tr>
       </table>
   </td>
@@ -2526,7 +2526,7 @@ template&lt;class T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Oct 22 2022 12:54:20 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Oct 23 2022 08:38:14 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

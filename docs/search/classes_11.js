@@ -53,7 +53,8 @@ var searchData=
   ['systechnologyprojectviewer_50',['SysTechnologyProjectViewer',['../classcqsp_1_1client_1_1systems_1_1_sys_technology_project_viewer.html',1,'cqsp::client::systems']]],
   ['systechnologyviewer_51',['SysTechnologyViewer',['../classcqsp_1_1client_1_1systems_1_1_sys_technology_viewer.html',1,'cqsp::client::systems']]],
   ['systechprogress_52',['SysTechProgress',['../classcqsp_1_1common_1_1systems_1_1_sys_tech_progress.html',1,'cqsp::common::systems']]],
-  ['systurnsavewindow_53',['SysTurnSaveWindow',['../classcqsp_1_1client_1_1systems_1_1_sys_turn_save_window.html',1,'cqsp::client::systems']]],
-  ['sysuserinterface_54',['SysUserInterface',['../classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html',1,'cqsp::client::systems']]],
-  ['syswalletreset_55',['SysWalletReset',['../classcqsp_1_1common_1_1systems_1_1_sys_wallet_reset.html',1,'cqsp::common::systems']]]
+  ['systeminterface_5fglfw_53',['SystemInterface_GLFW',['../class_system_interface___g_l_f_w.html',1,'']]],
+  ['systurnsavewindow_54',['SysTurnSaveWindow',['../classcqsp_1_1client_1_1systems_1_1_sys_turn_save_window.html',1,'cqsp::client::systems']]],
+  ['sysuserinterface_55',['SysUserInterface',['../classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html',1,'cqsp::client::systems']]],
+  ['syswalletreset_56',['SysWalletReset',['../classcqsp_1_1common_1_1systems_1_1_sys_wallet_reset.html',1,'cqsp::common::systems']]]
 ];
