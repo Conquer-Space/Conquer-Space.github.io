@@ -26,5 +26,6 @@ var searchData=
   ['hjsontoledger_23',['HjsonToLedger',['../namespacecqsp_1_1common_1_1systems_1_1loading.html#a189dd17e9c3cc87c610ba9b3dd7f9af2',1,'cqsp::common::systems::loading']]],
   ['hour_24',['HOUR',['../classcqsp_1_1common_1_1components_1_1_star_date.html#a23d81fb7f57f91d62fb6f9de377c35ca',1,'cqsp::common::components::StarDate']]],
   ['hovering_5fprovince_25',['hovering_province',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aba349bf4c45a4d17592ff0b388d496ae',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['hunger_26',['Hunger',['../structcqsp_1_1common_1_1components_1_1_hunger.html',1,'cqsp::common::components']]]
+  ['hunger_26',['Hunger',['../structcqsp_1_1common_1_1components_1_1_hunger.html',1,'cqsp::common::components']]],
+  ['hyperbolicanomalytotrueanomaly_27',['HyperbolicAnomalyToTrueAnomaly',['../namespacecqsp_1_1common_1_1components_1_1types.html#ab245ee8420d224a992c49acab02f1855',1,'cqsp::common::components::types']]]
 ];
