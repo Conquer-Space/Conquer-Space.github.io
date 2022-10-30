@@ -14,8 +14,6 @@ var searchData=
   ['powerplant_11',['PowerPlant',['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_power_plant.html',1,'cqsp::common::components::infrastructure']]],
   ['price_12',['Price',['../structcqsp_1_1common_1_1components_1_1_price.html',1,'cqsp::common::components']]],
   ['production_13',['Production',['../structcqsp_1_1common_1_1components_1_1_production.html',1,'cqsp::common::components']]],
-  ['productionratio_14',['ProductionRatio',['../structcqsp_1_1common_1_1components_1_1_production_ratio.html',1,'cqsp::common::components']]],
-  ['productiontraits_15',['ProductionTraits',['../structcqsp_1_1common_1_1components_1_1_production_traits.html',1,'cqsp::common::components']]],
-  ['province_16',['Province',['../structcqsp_1_1common_1_1components_1_1_province.html',1,'cqsp::common::components']]],
-  ['provincecolor_17',['ProvinceColor',['../structcqsp_1_1common_1_1components_1_1_province_color.html',1,'cqsp::common::components']]]
+  ['province_14',['Province',['../structcqsp_1_1common_1_1components_1_1_province.html',1,'cqsp::common::components']]],
+  ['provincecolor_15',['ProvinceColor',['../structcqsp_1_1common_1_1components_1_1_province_color.html',1,'cqsp::common::components']]]
 ];

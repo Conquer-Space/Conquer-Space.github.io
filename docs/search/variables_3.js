@@ -40,10 +40,9 @@ var searchData=
   ['current_5fcity_37',['current_city',['../classcqsp_1_1client_1_1systems_1_1_sys_country_information.html#a07eba0af6acf85c6e244523fbb0666b7',1,'cqsp::client::systems::SysCountryInformation']]],
   ['current_5fcountry_38',['current_country',['../classcqsp_1_1client_1_1systems_1_1_sys_country_information.html#ac8e5a49ff8ac0e1cb0fa5b4d52040c78',1,'cqsp::client::systems::SysCountryInformation']]],
   ['current_5fmarket_39',['current_market',['../classcqsp_1_1client_1_1systems_1_1_sys_country_information.html#a8df0fe677a7388c84dcb736a8e99483c',1,'cqsp::client::systems::SysCountryInformation']]],
-  ['current_5fproduction_40',['current_production',['../structcqsp_1_1common_1_1components_1_1_production_traits.html#a72d6a65814a536139a6c6e33dce6e7a5',1,'cqsp::common::components::ProductionTraits::current_production()'],['../structcqsp_1_1common_1_1components_1_1_factory_productivity.html#aca04b57610cf87e5d705134e6ace7e96',1,'cqsp::common::components::FactoryProductivity::current_production()']]],
-  ['current_5fresearch_41',['current_research',['../structcqsp_1_1common_1_1components_1_1science_1_1_scientific_research.html#a88675c5acfda7b3f786ce771890cd0a9',1,'cqsp::common::components::science::ScientificResearch']]],
-  ['currentloading_42',['currentloading',['../classcqsp_1_1asset_1_1_asset_loader.html#ab04e2c4802adc099cbf80ccddc0372d4',1,'cqsp::asset::AssetLoader']]],
-  ['cursor_5fcross_43',['cursor_cross',['../class_system_interface___g_l_f_w.html#aa71e731bbe0701fe84658902d6e89d45',1,'SystemInterface_GLFW']]],
-  ['cursor_5fpointer_44',['cursor_pointer',['../class_system_interface___g_l_f_w.html#a0ec43a97f0bb2e68d6c0eaa97e4033ed',1,'SystemInterface_GLFW']]],
-  ['cursor_5ftext_45',['cursor_text',['../class_system_interface___g_l_f_w.html#a6ed6e80c8c20497267f38fca780c768f',1,'SystemInterface_GLFW']]]
+  ['current_5fresearch_40',['current_research',['../structcqsp_1_1common_1_1components_1_1science_1_1_scientific_research.html#a88675c5acfda7b3f786ce771890cd0a9',1,'cqsp::common::components::science::ScientificResearch']]],
+  ['currentloading_41',['currentloading',['../classcqsp_1_1asset_1_1_asset_loader.html#ab04e2c4802adc099cbf80ccddc0372d4',1,'cqsp::asset::AssetLoader']]],
+  ['cursor_5fcross_42',['cursor_cross',['../class_system_interface___g_l_f_w.html#aa71e731bbe0701fe84658902d6e89d45',1,'SystemInterface_GLFW']]],
+  ['cursor_5fpointer_43',['cursor_pointer',['../class_system_interface___g_l_f_w.html#a0ec43a97f0bb2e68d6c0eaa97e4033ed',1,'SystemInterface_GLFW']]],
+  ['cursor_5ftext_44',['cursor_text',['../class_system_interface___g_l_f_w.html#a6ed6e80c8c20497267f38fca780c768f',1,'SystemInterface_GLFW']]]
 ];
