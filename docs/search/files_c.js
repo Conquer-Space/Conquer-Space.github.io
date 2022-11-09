@@ -11,5 +11,7 @@ var searchData=
   ['population_2eh_8',['population.h',['../population_8h.html',1,'']]],
   ['ports_2eh_9',['ports.h',['../ports_8h.html',1,'']]],
   ['profiler_2ecpp_10',['profiler.cpp',['../profiler_8cpp.html',1,'']]],
-  ['profiler_2eh_11',['profiler.h',['../profiler_8h.html',1,'']]]
+  ['profiler_2eh_11',['profiler.h',['../profiler_8h.html',1,'']]],
+  ['provincewindow_2ecpp_12',['provincewindow.cpp',['../provincewindow_8cpp.html',1,'']]],
+  ['provincewindow_2eh_13',['provincewindow.h',['../provincewindow_8h.html',1,'']]]
 ];

@@ -78,8 +78,143 @@ Functions</h2></td></tr>
 <tr class="memitem:a696a8857d4171fd64a07f3cdaeafa1b4"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
 <tr class="memitem:a696a8857d4171fd64a07f3cdaeafa1b4"><td class="memTemplItemLeft" align="right" valign="top">IMGUI_API void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_im_gui.html#a696a8857d4171fd64a07f3cdaeafa1b4">TextFmtColored</a> (const ImVec4 &amp;color, fmt::format_string&lt; Args... &gt; fmt, Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a696a8857d4171fd64a07f3cdaeafa1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7406d68bd305b8b87529dfbe21b7c64"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:aa7406d68bd305b8b87529dfbe21b7c64"><td class="memTemplItemLeft" align="right" valign="top">IMGUI_API bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_im_gui.html#aa7406d68bd305b8b87529dfbe21b7c64">SelectableFmt</a> (fmt::format_string&lt; Args... &gt; fmt, bool *p_selected, ImGuiSelectableFlags flags, const ImVec2 &amp;<a class="el" href="assetmanager_8cpp.html#a439227feff9d7f55384e8780cfc2eb82">size</a>, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:aa7406d68bd305b8b87529dfbe21b7c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a983812448072210f9b216ec33583f424"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a983812448072210f9b216ec33583f424"><td class="memTemplItemLeft" align="right" valign="top">IMGUI_API bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_im_gui.html#a983812448072210f9b216ec33583f424">SelectableFmt</a> (fmt::format_string&lt; Args... &gt; fmt, bool *p_selected, ImGuiSelectableFlags flags, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a983812448072210f9b216ec33583f424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5180029bcebbb33e1e58a7f71ec0123"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:af5180029bcebbb33e1e58a7f71ec0123"><td class="memTemplItemLeft" align="right" valign="top">IMGUI_API bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_im_gui.html#af5180029bcebbb33e1e58a7f71ec0123">SelectableFmt</a> (fmt::format_string&lt; Args... &gt; fmt, bool *p_selected, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:af5180029bcebbb33e1e58a7f71ec0123"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="af5180029bcebbb33e1e58a7f71ec0123" name="af5180029bcebbb33e1e58a7f71ec0123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5180029bcebbb33e1e58a7f71ec0123">&#9670;&nbsp;</a></span>SelectableFmt() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">IMGUI_API bool ImGui::SelectableFmt </td>
+          <td>(</td>
+          <td class="paramtype">fmt::format_string&lt; Args... &gt;&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>p_selected</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a983812448072210f9b216ec33583f424" name="a983812448072210f9b216ec33583f424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a983812448072210f9b216ec33583f424">&#9670;&nbsp;</a></span>SelectableFmt() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">IMGUI_API bool ImGui::SelectableFmt </td>
+          <td>(</td>
+          <td class="paramtype">fmt::format_string&lt; Args... &gt;&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>p_selected</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiSelectableFlags&#160;</td>
+          <td class="paramname"><em>flags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7406d68bd305b8b87529dfbe21b7c64" name="aa7406d68bd305b8b87529dfbe21b7c64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7406d68bd305b8b87529dfbe21b7c64">&#9670;&nbsp;</a></span>SelectableFmt() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">IMGUI_API bool ImGui::SelectableFmt </td>
+          <td>(</td>
+          <td class="paramtype">fmt::format_string&lt; Args... &gt;&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>p_selected</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiSelectableFlags&#160;</td>
+          <td class="paramname"><em>flags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImVec2 &amp;&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a25e78583708a54e8e613cb2054bd25c8" name="a25e78583708a54e8e613cb2054bd25c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25e78583708a54e8e613cb2054bd25c8">&#9670;&nbsp;</a></span>TextFmt()</h2>
 
@@ -149,7 +284,7 @@ template&lt;typename... Args&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 30 2022 13:59:38 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Nov 9 2022 13:01:13 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
