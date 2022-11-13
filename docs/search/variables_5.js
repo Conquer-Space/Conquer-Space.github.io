@@ -5,7 +5,7 @@ var searchData=
   ['ebo_2',['EBO',['../classcqsp_1_1engine_1_1_mesh.html#ad2462528e1117f9c203d444bde00c175',1,'cqsp::engine::Mesh']]],
   ['eccentricity_3',['eccentricity',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#a0e28823b065de984e5d4748f39e507ba',1,'cqsp::common::components::types::Orbit']]],
   ['echelon_4',['echelon',['../structcqsp_1_1common_1_1components_1_1ships_1_1_fleet.html#abc8934b10cdd5c4c5d4d3fda98d27bff',1,'cqsp::common::components::ships::Fleet']]],
-  ['employed_5fpopulation_5',['employed_population',['../structcqsp_1_1common_1_1components_1_1_employee.html#a990471a20fb8fcc58bbd8bef32fb6636',1,'cqsp::common::components::Employee']]],
+  ['employed_5fpopulation_5',['employed_population',['../structcqsp_1_1common_1_1components_1_1_labor_information.html#ae314cbdc06871ed032b7198d8537402f',1,'cqsp::common::components::LaborInformation']]],
   ['empty_5ftexture_6',['empty_texture',['../classcqsp_1_1asset_1_1_asset_manager.html#a6ae2f2ae0be8150da2e09fb961f780f7',1,'cqsp::asset::AssetManager']]],
   ['enable_5fconstruction_5fconfirmation_5fpanel_7',['enable_construction_confirmation_panel',['../classcqsp_1_1client_1_1systems_1_1_sys_planet_information.html#a0d8d61007a56224c765686ac1681e837',1,'cqsp::client::systems::SysPlanetInformation']]],
   ['enabled_8',['enabled',['../classcqsp_1_1asset_1_1_package_prototype.html#ab5476e764945ee604a232a6ab0f69243',1,'cqsp::asset::PackagePrototype']]],
