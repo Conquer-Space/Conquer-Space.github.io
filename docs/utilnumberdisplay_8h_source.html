@@ -100,30 +100,27 @@ $(function() {
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordflow">if</span> (abs(l) &lt; 1000) {</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordflow">return</span> fmt::format(<span class="stringliteral">&quot;{}&quot;</span>, l);</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    }</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::string numbers[] = {</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="stringliteral">&quot;k&quot;</span>,    <span class="stringliteral">&quot;M&quot;</span>,    <span class="stringliteral">&quot;B&quot;</span>,    <span class="stringliteral">&quot;T&quot;</span>, <span class="stringliteral">&quot;Qa&quot;</span>,</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="stringliteral">&quot;Qn&quot;</span>, <span class="stringliteral">&quot;Sx&quot;</span>, <span class="stringliteral">&quot;Sp&quot;</span>, <span class="stringliteral">&quot;O&quot;</span>, <span class="stringliteral">&quot;N&quot;</span>, <span class="stringliteral">&quot;De&quot;</span>,</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="stringliteral">&quot;Ud&quot;</span>, <span class="stringliteral">&quot;Dd&quot;</span>, <span class="stringliteral">&quot;Td&quot;</span>, <span class="stringliteral">&quot;Qd&quot;</span>, <span class="stringliteral">&quot;Qi&quot;</span>, <span class="stringliteral">&quot;Sd&quot;</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    };</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">int</span> exponent = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(log10(abs(l)) / 3);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::string numbers[] = {<span class="stringliteral">&quot;k&quot;</span>, <span class="stringliteral">&quot;M&quot;</span>,  <span class="stringliteral">&quot;B&quot;</span>,  <span class="stringliteral">&quot;T&quot;</span>,  <span class="stringliteral">&quot;Qa&quot;</span>, <span class="stringliteral">&quot;Qn&quot;</span>, <span class="stringliteral">&quot;Sx&quot;</span>, <span class="stringliteral">&quot;Sp&quot;</span>, <span class="stringliteral">&quot;O&quot;</span>,</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>                                          <span class="stringliteral">&quot;N&quot;</span>, <span class="stringliteral">&quot;De&quot;</span>, <span class="stringliteral">&quot;Ud&quot;</span>, <span class="stringliteral">&quot;Dd&quot;</span>, <span class="stringliteral">&quot;Td&quot;</span>, <span class="stringliteral">&quot;Qd&quot;</span>, <span class="stringliteral">&quot;Qi&quot;</span>, <span class="stringliteral">&quot;Sd&quot;</span>};</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">int</span> exponent = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(log10(abs(l)) / 3);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="comment">// Now get the number</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">double</span> d = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(l) / pow(10, exponent * 3);</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="comment">// Now get the number</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">double</span> d = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(l) / pow(10, exponent * 3);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="comment">// Round this to two decimal points</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> precision = 100;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    d = round(d * precision) / precision;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordflow">return</span> fmt::format(<span class="stringliteral">&quot;{} {}&quot;</span>, d, numbers[exponent - 1]);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>}</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}  <span class="comment">// namespace util</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}  <span class="comment">// namespace cqsp</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="comment">// Round this to two decimal points</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> precision = 100;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    d = round(d * precision) / precision;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordflow">return</span> fmt::format(<span class="stringliteral">&quot;{} {}&quot;</span>, d, numbers[exponent - 1]);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>}  <span class="comment">// namespace util</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}  <span class="comment">// namespace cqsp</span></div>
 <div class="ttc" id="anamespacecqsp_1_1util_html_af0f07b35efcec8d3db69117902a7db8d"><div class="ttname"><a href="namespacecqsp_1_1util.html#af0f07b35efcec8d3db69117902a7db8d">cqsp::util::LongToHumanString</a></div><div class="ttdeci">std::string LongToHumanString(int64_t l)</div><div class="ttdef"><b>Definition:</b> utilnumberdisplay.h:26</div></div>
 <div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdoc">When adding assets, it is extremely crucial that you read cqsp::asset::AssetLoader::LoadResources to ...</div><div class="ttdef"><b>Definition:</b> clientctx.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 14 2022 00:53:51 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Nov 14 2022 11:27:32 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

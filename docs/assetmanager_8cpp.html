@@ -76,19 +76,19 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="assetmanager_8h_source.html">engine/asset/assetmanager.h</a>&quot;</code><br />
+<code>#include &lt;glad/glad.h&gt;</code><br />
 <code>#include &lt;spdlog/spdlog.h&gt;</code><br />
 <code>#include &lt;stb_image.h&gt;</code><br />
-<code>#include &lt;glad/glad.h&gt;</code><br />
-<code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;regex&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;regex&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;tracy/Tracy.hpp&gt;</code><br />
-<code>#include &quot;<a class="el" href="alaudioasset_8h_source.html">engine/audio/alaudioasset.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="nativevfs_8h_source.html">engine/asset/vfs/nativevfs.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="paths_8h_source.html">common/util/paths.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="nativevfs_8h_source.html">engine/asset/vfs/nativevfs.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="alaudioasset_8h_source.html">engine/audio/alaudioasset.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="enginelogger_8h_source.html">engine/enginelogger.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -127,12 +127,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">                                              [<span class="keyword">this</span>] (VirtualMounter* mount,                   \</div>
-<div class="line">                                              const std::string&amp; path, <span class="keyword">const</span> std::string&amp; key,      \</div>
-<div class="line">                                              const Hjson::Value&amp; <a class="code hl_variable" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>) {                          \</div>
-<div class="line">                                        return this-&gt;FuncName(mount, path, key, <a class="code hl_variable" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>);                 \</div>
-<div class="line">                                      };</div>
-<div class="ttc" id="aassetmanager_8cpp_html_a96b582ef07cc3bc8efc907d6ed939585"><div class="ttname"><a href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a></div><div class="ttdeci">Hjson::Value hints</div><div class="ttdef"><b>Definition:</b> assetmanager.cpp:74</div></div>
+<b>Value:</b><div class="fragment"><div class="line">    [<span class="keyword">this</span>](VirtualMounter* mount, <span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> std::string&amp; key, <span class="keyword">const</span> Hjson::Value&amp; <a class="code hl_variable" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>) { \</div>
+<div class="line">        return this-&gt;FuncName(mount, path, key, <a class="code hl_variable" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>);                                                         \</div>
+<div class="line">    };</div>
+<div class="ttc" id="aassetmanager_8cpp_html_a96b582ef07cc3bc8efc907d6ed939585"><div class="ttname"><a href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a></div><div class="ttdeci">Hjson::Value hints</div><div class="ttdef"><b>Definition:</b> assetmanager.cpp:73</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -266,7 +264,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 14 2022 00:53:52 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Nov 14 2022 11:27:33 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

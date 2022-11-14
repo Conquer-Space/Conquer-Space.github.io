@@ -97,24 +97,18 @@ $(function() {
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">extern</span> std::shared_ptr&lt;spdlog::logger&gt; <a class="code hl_variable" href="namespacecqsp_1_1engine.html#a8c3cd23d89a7fba3596ecde34cafde2f">engine_logger</a>;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>}  <span class="comment">// namespace cqsp::engine</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="enginelogger_8h.html#ae10310437bda3eff6fb9992168938e97">   27</a></span><span class="preprocessor">#define ENGINE_LOG_TRACE(...) \</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">    SPDLOG_LOGGER_TRACE(cqsp::engine::engine_logger, __VA_ARGS__)</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="enginelogger_8h.html#a852c15b23e6e61e61a4f98b3bf7605d4">   29</a></span><span class="preprocessor">#define ENGINE_LOG_DEBUG(...) \</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">    SPDLOG_LOGGER_DEBUG(cqsp::engine::engine_logger, __VA_ARGS__)</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="enginelogger_8h.html#a5e3b5816596fdef85aa3d6b16661cba2">   31</a></span><span class="preprocessor">#define ENGINE_LOG_INFO(...) \</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">    SPDLOG_LOGGER_INFO(cqsp::engine::engine_logger, __VA_ARGS__)</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="enginelogger_8h.html#af9fddf818ed970da21fd9894acf8b00a">   33</a></span><span class="preprocessor">#define ENGINE_LOG_WARN(...) \</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">    SPDLOG_LOGGER_TRACE(cqsp::engine::engine_logger, __VA_ARGS__)</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="enginelogger_8h.html#ad652c4e348ca69928e40ac773bb33c47">   35</a></span><span class="preprocessor">#define ENGINE_LOG_ERROR(...) \</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">    SPDLOG_LOGGER_TRACE(cqsp::engine::engine_logger, __VA_ARGS__)</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="enginelogger_8h.html#aa3454bbd305cb9dd9b5f3f2c72254059">   37</a></span><span class="preprocessor">#define ENGINE_LOG_CRITICAL(...) \</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">    SPDLOG_LOGGER_TRACE(cqsp::engine::engine_logger, __VA_ARGS__)</span></div>
-<div class="ttc" id="anamespacecqsp_1_1engine_html"><div class="ttname"><a href="namespacecqsp_1_1engine.html">cqsp::engine</a></div><div class="ttdef"><b>Definition:</b> application.cpp:57</div></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="enginelogger_8h.html#ae10310437bda3eff6fb9992168938e97">   27</a></span><span class="preprocessor">#define ENGINE_LOG_TRACE(...) SPDLOG_LOGGER_TRACE(cqsp::engine::engine_logger, __VA_ARGS__)</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="enginelogger_8h.html#a852c15b23e6e61e61a4f98b3bf7605d4">   28</a></span><span class="preprocessor">#define ENGINE_LOG_DEBUG(...) SPDLOG_LOGGER_DEBUG(cqsp::engine::engine_logger, __VA_ARGS__)</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="enginelogger_8h.html#a5e3b5816596fdef85aa3d6b16661cba2">   29</a></span><span class="preprocessor">#define ENGINE_LOG_INFO(...) SPDLOG_LOGGER_INFO(cqsp::engine::engine_logger, __VA_ARGS__)</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="enginelogger_8h.html#af9fddf818ed970da21fd9894acf8b00a">   30</a></span><span class="preprocessor">#define ENGINE_LOG_WARN(...) SPDLOG_LOGGER_TRACE(cqsp::engine::engine_logger, __VA_ARGS__)</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="enginelogger_8h.html#ad652c4e348ca69928e40ac773bb33c47">   31</a></span><span class="preprocessor">#define ENGINE_LOG_ERROR(...) SPDLOG_LOGGER_TRACE(cqsp::engine::engine_logger, __VA_ARGS__)</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="enginelogger_8h.html#aa3454bbd305cb9dd9b5f3f2c72254059">   32</a></span><span class="preprocessor">#define ENGINE_LOG_CRITICAL(...) SPDLOG_LOGGER_TRACE(cqsp::engine::engine_logger, __VA_ARGS__)</span></div>
+<div class="ttc" id="anamespacecqsp_1_1engine_html"><div class="ttname"><a href="namespacecqsp_1_1engine.html">cqsp::engine</a></div><div class="ttdef"><b>Definition:</b> application.cpp:54</div></div>
 <div class="ttc" id="anamespacecqsp_1_1engine_html_a8c3cd23d89a7fba3596ecde34cafde2f"><div class="ttname"><a href="namespacecqsp_1_1engine.html#a8c3cd23d89a7fba3596ecde34cafde2f">cqsp::engine::engine_logger</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::logger &gt; engine_logger</div><div class="ttdef"><b>Definition:</b> enginelogger.cpp:21</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 14 2022 00:53:51 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Nov 14 2022 11:27:32 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

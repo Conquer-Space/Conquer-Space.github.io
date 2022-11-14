@@ -89,25 +89,23 @@ $(function() {
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">*/</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;map&gt;</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &lt;chrono&gt;</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">extern</span> std::map&lt;std::string, int&gt; <a class="code hl_variable" href="profiler_8h.html#a0476ecfb87a32cdc83f2666c64db1783">profiler_information_map</a>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="profiler_8h.html#a88877f668ebfc9993b6ec3eb7175a0e5">   25</a></span><span class="preprocessor">#define BEGIN_TIMED_BLOCK(NAME) std::chrono::high_resolution_clock::time_point \</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">                                block_start_##NAME = std::chrono::high_resolution_clock::now();</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="profiler_8h.html#ab5268c3d7ff11c07af0fcefc5f103644">   28</a></span><span class="preprocessor">#define END_TIMED_BLOCK(NAME) std::chrono::high_resolution_clock::time_point block_end_##NAME = \</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">                                                std::chrono::high_resolution_clock::now(); \</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">                                profiler_information_map[#NAME] =\</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">                                std::chrono::duration_cast&lt;std::chrono::microseconds&gt; \</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">                                        (block_end_##NAME - block_start_##NAME).count();</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;chrono&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">extern</span> std::map&lt;std::string, int&gt; <a class="code hl_variable" href="profiler_8h.html#a0476ecfb87a32cdc83f2666c64db1783">profiler_information_map</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="profiler_8h.html#a88877f668ebfc9993b6ec3eb7175a0e5">   24</a></span><span class="preprocessor">#define BEGIN_TIMED_BLOCK(NAME) \</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">    std::chrono::high_resolution_clock::time_point block_start_##NAME = std::chrono::high_resolution_clock::now();</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="profiler_8h.html#ab5268c3d7ff11c07af0fcefc5f103644">   27</a></span><span class="preprocessor">#define END_TIMED_BLOCK(NAME)                                                                                    \</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">    std::chrono::high_resolution_clock::time_point block_end_##NAME = std::chrono::high_resolution_clock::now(); \</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">    profiler_information_map[#NAME] =                                                                            \</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">        std::chrono::duration_cast&lt;std::chrono::microseconds&gt;(block_end_##NAME - block_start_##NAME).count();</span></div>
 <div class="ttc" id="aprofiler_8h_html_a0476ecfb87a32cdc83f2666c64db1783"><div class="ttname"><a href="profiler_8h.html#a0476ecfb87a32cdc83f2666c64db1783">profiler_information_map</a></div><div class="ttdeci">std::map&lt; std::string, int &gt; profiler_information_map</div><div class="ttdef"><b>Definition:</b> profiler.cpp:22</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 14 2022 00:53:51 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Nov 14 2022 11:27:32 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
