@@ -113,5 +113,6 @@ var searchData=
   ['getyear_110',['GetYear',['../classcqsp_1_1common_1_1components_1_1_star_date.html#a42ff970c00df6bb26c190ac83abf8ab9',1,'cqsp::common::components::StarDate']]],
   ['glinit_111',['GlInit',['../classcqsp_1_1engine_1_1_application.html#abe9c009a934813c6cd5d1257569abd1f',1,'cqsp::engine::Application']]],
   ['glpositionnotinbounds_112',['GLPositionNotInBounds',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aeffeaf03e47dbd8f096ca33402c611d5',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['goodloader_113',['GoodLoader',['../classcqsp_1_1common_1_1systems_1_1loading_1_1_good_loader.html#a1a087888db668bc2562b5850658d2648',1,'cqsp::common::systems::loading::GoodLoader']]]
+  ['goodloader_113',['GoodLoader',['../classcqsp_1_1common_1_1systems_1_1loading_1_1_good_loader.html#a1a087888db668bc2562b5850658d2648',1,'cqsp::common::systems::loading::GoodLoader']]],
+  ['goodviewerright_114',['GoodViewerRight',['../classcqsp_1_1client_1_1systems_1_1_sys_good_viewer.html#a7164190f88aa72a3335aadeb999e5bd2',1,'cqsp::client::systems::SysGoodViewer']]]
 ];
