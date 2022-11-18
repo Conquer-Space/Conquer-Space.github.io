@@ -16,13 +16,14 @@ var searchData=
   ['researched_5frecipes_13',['researched_recipes',['../structcqsp_1_1common_1_1components_1_1science_1_1_technological_progress.html#a48d68dbbc94341f38cd97ddc57af53ce',1,'cqsp::common::components::science::TechnologicalProgress']]],
   ['researched_5ftechs_14',['researched_techs',['../structcqsp_1_1common_1_1components_1_1science_1_1_technological_progress.html#a820074487ecf9b21d55f412af2d5ac23',1,'cqsp::common::components::science::TechnologicalProgress']]],
   ['resource_15',['resource',['../structcqsp_1_1client_1_1components_1_1_planet_terrain_render.html#abc1578a95338f5f37be0da9551c1083e',1,'cqsp::client::components::PlanetTerrainRender']]],
-  ['ringbuffer_5fsink_16',['ringbuffer_sink',['../classcqsp_1_1scripting_1_1_script_interface.html#ac991da17c02526ca8789a71045a653e1',1,'cqsp::scripting::ScriptInterface']]],
-  ['rml_5fcontext_17',['rml_context',['../classcqsp_1_1engine_1_1_application.html#a8cf25f53f91ef81b6b738d436c6ae649',1,'cqsp::engine::Application']]],
-  ['rmlui_5fprojection_18',['rmlui_projection',['../classcqsp_1_1engine_1_1_application.html#a5f8321bbf11cce54f065353376449cc5',1,'cqsp::engine::Application']]],
-  ['root_19',['root',['../classcqsp_1_1asset_1_1_native_file_system.html#a697074fa9e0d0b37fe09de35c2099d46',1,'cqsp::asset::NativeFileSystem::root()'],['../classcqsp_1_1asset_1_1_native_directory.html#a9963196685576c92a3003106409e3918',1,'cqsp::asset::NativeDirectory::root()']]],
-  ['rotation_20',['rotation',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#aa632118fb043488f69006ff3970d57a7',1,'cqsp::common::components::bodies::Body']]],
-  ['rotation_5foffset_21',['rotation_offset',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#a0b0d1dadfe68793d045ea25620aac847',1,'cqsp::common::components::bodies::Body']]],
-  ['roughness_22',['roughness',['../starsystemview_8cpp.html#a7a31daa35e17ba4100aaf9e24f2652a4',1,'starsystemview.cpp']]],
-  ['roughness_5fname_23',['roughness_name',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_textured_terrain.html#a763be6eb798a1f810ace15b548b47038',1,'cqsp::common::components::bodies::TexturedTerrain']]],
-  ['rule_5flist_24',['rule_list',['../classcqsp_1_1common_1_1systems_1_1names_1_1_name_generator.html#a325bcfbf5c8d60b37c38a0a45a303b8e',1,'cqsp::common::systems::names::NameGenerator']]]
+  ['revenue_16',['revenue',['../structcqsp_1_1common_1_1components_1_1_cost_breakdown.html#a5674389f18f62403eb79b6abe27ddf2c',1,'cqsp::common::components::CostBreakdown']]],
+  ['ringbuffer_5fsink_17',['ringbuffer_sink',['../classcqsp_1_1scripting_1_1_script_interface.html#ac991da17c02526ca8789a71045a653e1',1,'cqsp::scripting::ScriptInterface']]],
+  ['rml_5fcontext_18',['rml_context',['../classcqsp_1_1engine_1_1_application.html#a8cf25f53f91ef81b6b738d436c6ae649',1,'cqsp::engine::Application']]],
+  ['rmlui_5fprojection_19',['rmlui_projection',['../classcqsp_1_1engine_1_1_application.html#a5f8321bbf11cce54f065353376449cc5',1,'cqsp::engine::Application']]],
+  ['root_20',['root',['../classcqsp_1_1asset_1_1_native_file_system.html#a697074fa9e0d0b37fe09de35c2099d46',1,'cqsp::asset::NativeFileSystem::root()'],['../classcqsp_1_1asset_1_1_native_directory.html#a9963196685576c92a3003106409e3918',1,'cqsp::asset::NativeDirectory::root()']]],
+  ['rotation_21',['rotation',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#aa632118fb043488f69006ff3970d57a7',1,'cqsp::common::components::bodies::Body']]],
+  ['rotation_5foffset_22',['rotation_offset',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#a0b0d1dadfe68793d045ea25620aac847',1,'cqsp::common::components::bodies::Body']]],
+  ['roughness_23',['roughness',['../starsystemview_8cpp.html#a7a31daa35e17ba4100aaf9e24f2652a4',1,'starsystemview.cpp']]],
+  ['roughness_5fname_24',['roughness_name',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_textured_terrain.html#a763be6eb798a1f810ace15b548b47038',1,'cqsp::common::components::bodies::TexturedTerrain']]],
+  ['rule_5flist_25',['rule_list',['../classcqsp_1_1common_1_1systems_1_1names_1_1_name_generator.html#a325bcfbf5c8d60b37c38a0a45a303b8e',1,'cqsp::common::systems::names::NameGenerator']]]
 ];

@@ -1,10 +1,10 @@
 var searchData=
 [
   ['w_0',['w',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#adc45fc7f6a863d0fed7e6d3af6e291eb',1,'cqsp::common::components::types::Orbit']]],
-  ['wages_1',['wages',['../structcqsp_1_1common_1_1components_1_1_cost_breakdown.html#af00b9895c630cd1a88e1671936703942',1,'cqsp::common::components::CostBreakdown']]],
+  ['wages_1',['wages',['../structcqsp_1_1common_1_1components_1_1_industry_size.html#a83436b31cc6d09c278d5b667d4307d9f',1,'cqsp::common::components::IndustrySize::wages()'],['../structcqsp_1_1common_1_1components_1_1_cost_breakdown.html#af00b9895c630cd1a88e1671936703942',1,'cqsp::common::components::CostBreakdown::wages()']]],
   ['wallet_2',['Wallet',['../structcqsp_1_1common_1_1components_1_1_wallet.html',1,'cqsp::common::components::Wallet'],['../structcqsp_1_1common_1_1components_1_1_wallet.html#a9e687c9bd90200a5d4bdc7665ac60d62',1,'cqsp::common::components::Wallet::Wallet()=default'],['../structcqsp_1_1common_1_1components_1_1_wallet.html#ae85f7b479f668de3d19ca483b6cc7cb0',1,'cqsp::common::components::Wallet::Wallet(entt::entity _currency, double _balance)']]],
   ['week_3',['WEEK',['../classcqsp_1_1common_1_1components_1_1_star_date.html#afd113631dd4adaea1e4aa7f3d9f0be28',1,'cqsp::common::components::StarDate']]],
-  ['width_4',['width',['../classcqsp_1_1asset_1_1_texture.html#a8a3491dd29fb9166c3c46aaef90723b8',1,'cqsp::asset::Texture::width()'],['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a5488fd380aa633a457d321201bdb3516',1,'cqsp::engine::AAFrameBufferRenderer::width()'],['../assetmanager_8cpp.html#a2474a5474cbff19523a51eb1de01cda4',1,'width():&#160;assetmanager.cpp']]],
+  ['width_4',['width',['../assetmanager_8cpp.html#a2474a5474cbff19523a51eb1de01cda4',1,'width():&#160;assetmanager.cpp'],['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a5488fd380aa633a457d321201bdb3516',1,'cqsp::engine::AAFrameBufferRenderer::width()'],['../classcqsp_1_1asset_1_1_texture.html#a8a3491dd29fb9166c3c46aaef90723b8',1,'cqsp::asset::Texture::width()']]],
   ['window_5',['Window',['../classcqsp_1_1engine_1_1_window.html',1,'cqsp::engine']]],
   ['window_6',['window',['../struct_backend_data.html#ae2b39f40b894974480a7df02cb1d156b',1,'BackendData::window()'],['../class_system_interface___g_l_f_w.html#a7217fd7ac52a3efc85a89a91a626ab9f',1,'SystemInterface_GLFW::window()'],['../application_8cpp.html#a80de27bd7dc4e2b2ad3d5895b97a70f0',1,'window():&#160;application.cpp']]],
   ['window_2eh_7',['window.h',['../window_8h.html',1,'']]],
