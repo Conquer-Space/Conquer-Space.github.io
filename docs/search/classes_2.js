@@ -21,6 +21,7 @@ var searchData=
   ['cqspeventlistener_18',['CqspEventListener',['../classcqsp_1_1engine_1_1_application_1_1_cqsp_event_listener.html',1,'cqsp::engine::Application']]],
   ['cqsprenderinterface_19',['CQSPRenderInterface',['../classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html',1,'cqsp::engine']]],
   ['cqspsysteminterface_20',['CQSPSystemInterface',['../classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html',1,'cqsp::engine']]],
-  ['creditswindow_21',['CreditsWindow',['../classcqsp_1_1client_1_1_credits_window.html',1,'cqsp::client']]],
-  ['currency_22',['Currency',['../structcqsp_1_1common_1_1components_1_1_currency.html',1,'cqsp::common::components']]]
+  ['crash_21',['Crash',['../structcqsp_1_1common_1_1components_1_1ships_1_1_crash.html',1,'cqsp::common::components::ships']]],
+  ['creditswindow_22',['CreditsWindow',['../classcqsp_1_1client_1_1_credits_window.html',1,'cqsp::client']]],
+  ['currency_23',['Currency',['../structcqsp_1_1common_1_1components_1_1_currency.html',1,'cqsp::common::components']]]
 ];

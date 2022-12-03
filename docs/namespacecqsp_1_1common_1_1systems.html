@@ -141,8 +141,11 @@ Functions</h2></td></tr>
 <tr class="separator:abaf4b02bdb27dd3f151714d75d36615c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6b429673fcfbb3b287559e4efd1b393"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#ad6b429673fcfbb3b287559e4efd1b393">LeaveSOI</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;body, entt::entity &amp;<a class="el" href="loadplanets_8cpp.html#a36dbe2aa2c05a792070d7b44d5c06e87">parent</a>, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">cqspt::Orbit</a> &amp;orb, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">cqspt::Kinematics</a> &amp;pos, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">cqspt::Kinematics</a> &amp;p_pos)</td></tr>
 <tr class="separator:ad6b429673fcfbb3b287559e4efd1b393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7e521a6abf8d6c36d3c1fe2aedb2c16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#aa7e521a6abf8d6c36d3c1fe2aedb2c16">EnterSOI</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;<a class="el" href="loadplanets_8cpp.html#a36dbe2aa2c05a792070d7b44d5c06e87">parent</a>, const entt::entity &amp;body)</td></tr>
+<tr class="memdesc:aa7e521a6abf8d6c36d3c1fe2aedb2c16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the SOI into something in the same SOI, like changing orbits from earth to the moon  <a href="namespacecqsp_1_1common_1_1systems.html#aa7e521a6abf8d6c36d3c1fe2aedb2c16">More...</a><br /></td></tr>
+<tr class="separator:aa7e521a6abf8d6c36d3c1fe2aedb2c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ec672ec55563c3fdeff6b216936da8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#a99ec672ec55563c3fdeff6b216936da8">LeaveSOI</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;body)</td></tr>
-<tr class="memdesc:a99ec672ec55563c3fdeff6b216936da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set's the SOI of the entity to the parent  <a href="namespacecqsp_1_1common_1_1systems.html#a99ec672ec55563c3fdeff6b216936da8">More...</a><br /></td></tr>
+<tr class="memdesc:a99ec672ec55563c3fdeff6b216936da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the SOI of the entity to the parent  <a href="namespacecqsp_1_1common_1_1systems.html#a99ec672ec55563c3fdeff6b216936da8">More...</a><br /></td></tr>
 <tr class="separator:a99ec672ec55563c3fdeff6b216936da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af359f34a6493884a4f91ab75c3506aeb"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#af359f34a6493884a4f91ab75c3506aeb">GetCityPopulation</a> (const <a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity city)</td></tr>
 <tr class="separator:af359f34a6493884a4f91ab75c3506aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,6 +209,50 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa7e521a6abf8d6c36d3c1fe2aedb2c16" name="aa7e521a6abf8d6c36d3c1fe2aedb2c16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7e521a6abf8d6c36d3c1fe2aedb2c16">&#9670;&nbsp;</a></span>EnterSOI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::common::systems::EnterSOI </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
+          <td class="paramname"><em>universe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>body</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Change the SOI into something in the same SOI, like changing orbits from earth to the moon </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">universe</td><td></td></tr>
+    <tr><td class="paramname">parent</td><td></td></tr>
+    <tr><td class="paramname">body</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="af359f34a6493884a4f91ab75c3506aeb" name="af359f34a6493884a4f91ab75c3506aeb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af359f34a6493884a4f91ab75c3506aeb">&#9670;&nbsp;</a></span>GetCityPopulation()</h2>
 
@@ -260,7 +307,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set's the SOI of the entity to the parent </p>
+<p>Sets the SOI of the entity to the parent </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">universe</td><td></td></tr>
@@ -384,7 +431,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 18 2022 13:38:31 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Dec 3 2022 11:43:40 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
