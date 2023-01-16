@@ -30,7 +30,7 @@ var searchData=
   ['context_5fdimensions_5fdirty_27',['context_dimensions_dirty',['../struct_backend_data.html#a18e90983932b433789f9a290221ad9d5',1,'BackendData']]],
   ['counter_28',['counter',['../classcqsp_1_1engine_1_1_c_q_s_p_render_interface.html#a9608b9d546180550b5ea66d64fe0a185',1,'cqsp::engine::CQSPRenderInterface']]],
   ['countries_29',['countries',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a94126d1393bebd7dcfc238f6a516693f',1,'cqsp::client::systems::SysStarSystemRenderer::countries()'],['../classcqsp_1_1common_1_1_universe.html#a91873c17c1da32d223b3b0b2a49faffa',1,'cqsp::common::Universe::countries()']]],
-  ['country_30',['country',['../structcqsp_1_1common_1_1components_1_1_province.html#aeb3c505b8c080067dfc1e08530c2acaa',1,'cqsp::common::components::Province']]],
+  ['country_30',['country',['../structcqsp_1_1common_1_1components_1_1_province.html#aeb3c505b8c080067dfc1e08530c2acaa',1,'cqsp::common::components::Province::country()'],['../structcqsp_1_1client_1_1_load_game_window_1_1_save_game.html#a619d82a541c220827ed8b8fd001a2d6d',1,'cqsp::client::LoadGameWindow::SaveGame::country()']]],
   ['country_5fmap_31',['country_map',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af4bb0517651e4c459e34353b0bde602f',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['credits_5ftext_32',['credits_text',['../classcqsp_1_1client_1_1_credits_window.html#af84288e21083de3a2a0b171263b51057',1,'cqsp::client::CreditsWindow']]],
   ['credits_5ftext_5felement_33',['credits_text_element',['../classcqsp_1_1client_1_1_credits_window.html#afabc93371f7c672a002c94b54940d65a',1,'cqsp::client::CreditsWindow']]],
