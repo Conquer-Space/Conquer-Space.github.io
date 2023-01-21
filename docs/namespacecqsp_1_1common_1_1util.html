@@ -91,6 +91,11 @@ Functions</h2></td></tr>
 <tr class="separator:aca38cf3b1a35c9ea798bf9cf8d69cfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a15b60db847f11f67db4ee736114d1e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; spdlog::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1util.html#a9a15b60db847f11f67db4ee736114d1e">make_registered_logger</a> (const std::string &amp;name, bool error)</td></tr>
 <tr class="separator:a9a15b60db847f11f67db4ee736114d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af25497eaf021f1469b29dc36d8858b0a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1util.html#af25497eaf021f1469b29dc36d8858b0a">GetName</a> (const <a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity entity)</td></tr>
+<tr class="memdesc:af25497eaf021f1469b29dc36d8858b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of the entity. If that isn't there, then the identifier. If you somehow mess even that up, it returns the identifier in string form.  <a href="namespacecqsp_1_1common_1_1util.html#af25497eaf021f1469b29dc36d8858b0a">More...</a><br /></td></tr>
+<tr class="separator:af25497eaf021f1469b29dc36d8858b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ae67d8d8b1429002ab70b635f18cda"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1util.html#a47ae67d8d8b1429002ab70b635f18cda">GetEntityType</a> (const <a class="el" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity entity)</td></tr>
+<tr class="separator:a47ae67d8d8b1429002ab70b635f18cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af891c3f75f34b0efdf6f67cfc6bc741a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1util.html#af891c3f75f34b0efdf6f67cfc6bc741a">GetCqspAppDataPath</a> ()</td></tr>
 <tr class="memdesc:af891c3f75f34b0efdf6f67cfc6bc741a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The path for where all the data of the game is stored, including logs, and other things  <a href="namespacecqsp_1_1common_1_1util.html#af891c3f75f34b0efdf6f67cfc6bc741a">More...</a><br /></td></tr>
 <tr class="separator:af891c3f75f34b0efdf6f67cfc6bc741a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,6 +177,72 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47ae67d8d8b1429002ab70b635f18cda" name="a47ae67d8d8b1429002ab70b635f18cda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ae67d8d8b1429002ab70b635f18cda">&#9670;&nbsp;</a></span>GetEntityType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cqsp::common::util::GetEntityType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;&#160;</td>
+          <td class="paramname"><em>universe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af25497eaf021f1469b29dc36d8858b0a" name="af25497eaf021f1469b29dc36d8858b0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af25497eaf021f1469b29dc36d8858b0a">&#9670;&nbsp;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cqsp::common::util::GetName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
+          <td class="paramname"><em>universe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the name of the entity. If that isn't there, then the identifier. If you somehow mess even that up, it returns the identifier in string form. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">universe</td><td></td></tr>
+    <tr><td class="paramname">entity</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -269,7 +340,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 16 2023 13:34:21 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Jan 21 2023 02:39:54 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

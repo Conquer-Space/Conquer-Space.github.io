@@ -256,9 +256,15 @@ $(function() {
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>};</div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_factory_producing.html">  231</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structcqsp_1_1common_1_1components_1_1_factory_producing.html">FactoryProducing</a> {};</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>}  <span class="comment">// namespace components</span></div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>}  <span class="comment">// namespace common</span></div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>}  <span class="comment">// namespace cqsp</span></div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span><span class="comment">// This facility is bankrolled by something else, so if they run out of money</span></div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span><span class="comment">// they can go to this wallet to ask for cash?</span></div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_owned.html">  235</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structcqsp_1_1common_1_1components_1_1_owned.html">Owned</a> {</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_owned.html#ac17c20e72be125275824ff3da94edc72">  236</a></span>    entt::entity <a class="code hl_variable" href="structcqsp_1_1common_1_1components_1_1_owned.html#ac17c20e72be125275824ff3da94edc72">owner</a>;</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>};</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>}  <span class="comment">// namespace components</span></div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>}  <span class="comment">// namespace common</span></div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>}  <span class="comment">// namespace cqsp</span></div>
 <div class="ttc" id="aassetmanager_8cpp_html_a1160cc04b78d80349de5b16cae302725"><div class="ttname"><a href="assetmanager_8cpp.html#a1160cc04b78d80349de5b16cae302725">components</a></div><div class="ttdeci">int components</div><div class="ttdef"><b>Definition:</b> assetmanager.cpp:50</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1components_1_1_resource_ledger_html"><div class="ttname"><a href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">cqsp::common::components::ResourceLedger</a></div><div class="ttdef"><b>Definition:</b> resource.h:76</div></div>
 <div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdoc">When adding assets, it is extremely crucial that you read cqsp::asset::AssetLoader::LoadResources to ...</div><div class="ttdef"><b>Definition:</b> clientctx.h:21</div></div>
@@ -315,6 +321,8 @@ $(function() {
 <div class="ttc" id="astructcqsp_1_1common_1_1components_1_1_market_information_html_ac830e4a1c38adf9c5201ee9747f59534"><div class="ttname"><a href="structcqsp_1_1common_1_1components_1_1_market_information.html#ac830e4a1c38adf9c5201ee9747f59534">cqsp::common::components::MarketInformation::volume</a></div><div class="ttdeci">ResourceLedger volume</div><div class="ttdoc">The amount of goods that changed hands. We can use this to calculate the GDP</div><div class="ttdef"><b>Definition:</b> economy.h:47</div></div>
 <div class="ttc" id="astructcqsp_1_1common_1_1components_1_1_market_information_html_aed846d7067db105c190da76c4361a8ad"><div class="ttname"><a href="structcqsp_1_1common_1_1components_1_1_market_information.html#aed846d7067db105c190da76c4361a8ad">cqsp::common::components::MarketInformation::sd_ratio</a></div><div class="ttdeci">ResourceLedger sd_ratio</div><div class="ttdef"><b>Definition:</b> economy.h:37</div></div>
 <div class="ttc" id="astructcqsp_1_1common_1_1components_1_1_market_information_html_aee2688ff458af9a54d80aeb85a626c90"><div class="ttname"><a href="structcqsp_1_1common_1_1components_1_1_market_information.html#aee2688ff458af9a54d80aeb85a626c90">cqsp::common::components::MarketInformation::ds_ratio</a></div><div class="ttdeci">ResourceLedger ds_ratio</div><div class="ttdef"><b>Definition:</b> economy.h:40</div></div>
+<div class="ttc" id="astructcqsp_1_1common_1_1components_1_1_owned_html"><div class="ttname"><a href="structcqsp_1_1common_1_1components_1_1_owned.html">cqsp::common::components::Owned</a></div><div class="ttdef"><b>Definition:</b> economy.h:235</div></div>
+<div class="ttc" id="astructcqsp_1_1common_1_1components_1_1_owned_html_ac17c20e72be125275824ff3da94edc72"><div class="ttname"><a href="structcqsp_1_1common_1_1components_1_1_owned.html#ac17c20e72be125275824ff3da94edc72">cqsp::common::components::Owned::owner</a></div><div class="ttdeci">entt::entity owner</div><div class="ttdef"><b>Definition:</b> economy.h:236</div></div>
 <div class="ttc" id="astructcqsp_1_1common_1_1components_1_1_price_html"><div class="ttname"><a href="structcqsp_1_1common_1_1components_1_1_price.html">cqsp::common::components::Price</a></div><div class="ttdoc">Price of a good. This is temporary, because this is to determine initial prices for goods....</div><div class="ttdef"><b>Definition:</b> economy.h:105</div></div>
 <div class="ttc" id="astructcqsp_1_1common_1_1components_1_1_price_html_a70337b39d947f22d931769d71e96adad"><div class="ttname"><a href="structcqsp_1_1common_1_1components_1_1_price.html#a70337b39d947f22d931769d71e96adad">cqsp::common::components::Price::price</a></div><div class="ttdeci">double price</div><div class="ttdef"><b>Definition:</b> economy.h:106</div></div>
 <div class="ttc" id="astructcqsp_1_1common_1_1components_1_1_wallet_html"><div class="ttname"><a href="structcqsp_1_1common_1_1components_1_1_wallet.html">cqsp::common::components::Wallet</a></div><div class="ttdef"><b>Definition:</b> economy.h:129</div></div>
@@ -334,7 +342,7 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 16 2023 13:34:20 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Jan 21 2023 02:39:53 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

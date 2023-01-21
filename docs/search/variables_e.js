@@ -9,5 +9,5 @@ var searchData=
   ['orbit_5fshader_6',['orbit_shader',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a5a6af76cb91e509261e61a453910cdc0',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['orbits_5fgenerated_7',['orbits_generated',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#abfb84e7e0fb66c2dd0f1af42e80d1d72',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['output_8',['output',['../structcqsp_1_1common_1_1components_1_1_recipe.html#a1c6a97fe2ccb92718b2976ef7e3bedfa',1,'cqsp::common::components::Recipe::output()'],['../structcqsp_1_1common_1_1components_1_1_resource_i_o.html#ac730898c7ed7db1a0a762c4183516c92',1,'cqsp::common::components::ResourceIO::output()']]],
-  ['owner_9',['owner',['../structcqsp_1_1common_1_1components_1_1ships_1_1_fleet.html#a41e4787dbbc437046282b594f99dfd57',1,'cqsp::common::components::ships::Fleet']]]
+  ['owner_9',['owner',['../structcqsp_1_1common_1_1components_1_1_owned.html#ac17c20e72be125275824ff3da94edc72',1,'cqsp::common::components::Owned::owner()'],['../structcqsp_1_1common_1_1components_1_1ships_1_1_fleet.html#a41e4787dbbc437046282b594f99dfd57',1,'cqsp::common::components::ships::Fleet::owner()']]]
 ];
