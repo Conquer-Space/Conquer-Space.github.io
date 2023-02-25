@@ -117,6 +117,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a25ef1abe4d0fdd27009081e28d434fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad1d60133fb612e17b21589c4582b517"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#aad1d60133fb612e17b21589c4582b517">SetChannelVolume</a> (int channel, float gain)</td></tr>
 <tr class="separator:aad1d60133fb612e17b21589c4582b517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03759c4074626bfe2ba4e222e18f4331"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a03759c4074626bfe2ba4e222e18f4331">OnFrame</a> () override</td></tr>
+<tr class="separator:a03759c4074626bfe2ba4e222e18f4331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dbc7ec519e76be97ef12bae05dcc43b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a2dbc7ec519e76be97ef12bae05dcc43b">~AudioInterface</a> ()</td></tr>
 <tr class="separator:a2dbc7ec519e76be97ef12bae05dcc43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ecce42f27b070544fef6d756f55f6b3"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_audio_asset.html">cqsp::asset::AudioAsset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a4ecce42f27b070544fef6d756f55f6b3">LoadWav</a> (std::ifstream &amp;input)</td></tr>
@@ -130,10 +132,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a95a0ab61405231648d68a6d888e8ae49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e5b42eaf9808b4ca3a45f3e608eec1a"><td class="memItemLeft" align="right" valign="top">ALboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a4e5b42eaf9808b4ca3a45f3e608eec1a">enumeration</a></td></tr>
 <tr class="separator:a4e5b42eaf9808b4ca3a45f3e608eec1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade980f96262a064b72aedade0f2631f7"><td class="memItemLeft" align="right" valign="top">std::thread&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#ade980f96262a064b72aedade0f2631f7">worker_thread</a></td></tr>
-<tr class="separator:ade980f96262a064b72aedade0f2631f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc19a0330e7c65fdbe41236daaf641ed"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_audio_asset.html">cqsp::asset::AudioAsset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#abc19a0330e7c65fdbe41236daaf641ed">music</a> = nullptr</td></tr>
-<tr class="separator:abc19a0330e7c65fdbe41236daaf641ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af659186abdcb4fb0d8b28dd9b3ebd922"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_audio_asset.html">cqsp::asset::AudioAsset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#af659186abdcb4fb0d8b28dd9b3ebd922">music_asset</a> = nullptr</td></tr>
+<tr class="separator:af659186abdcb4fb0d8b28dd9b3ebd922"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11124fe89a6e34b5d9a6c00f61db9d68"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; spdlog::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a11124fe89a6e34b5d9a6c00f61db9d68">logger</a></td></tr>
 <tr class="separator:a11124fe89a6e34b5d9a6c00f61db9d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ca99767141457f7f68bbedd766f446a"><td class="memItemLeft" align="right" valign="top">std::atomic_bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a8ca99767141457f7f68bbedd766f446a">to_quit</a></td></tr>
@@ -379,6 +379,33 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03759c4074626bfe2ba4e222e18f4331" name="a03759c4074626bfe2ba4e222e18f4331"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03759c4074626bfe2ba4e222e18f4331">&#9670;&nbsp;</a></span>OnFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::engine::audio::AudioInterface::OnFrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classcqsp_1_1engine_1_1audio_1_1_i_audio_interface.html#ac2b36abdbe95db9b479ce26af4160cc2">cqsp::engine::audio::IAudioInterface</a>.</p>
 
 </div>
 </div>
@@ -750,14 +777,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abc19a0330e7c65fdbe41236daaf641ed" name="abc19a0330e7c65fdbe41236daaf641ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc19a0330e7c65fdbe41236daaf641ed">&#9670;&nbsp;</a></span>music</h2>
+<a id="af659186abdcb4fb0d8b28dd9b3ebd922" name="af659186abdcb4fb0d8b28dd9b3ebd922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af659186abdcb4fb0d8b28dd9b3ebd922">&#9670;&nbsp;</a></span>music_asset</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classcqsp_1_1asset_1_1_audio_asset.html">cqsp::asset::AudioAsset</a>&gt; cqsp::engine::audio::AudioInterface::music = nullptr</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classcqsp_1_1asset_1_1_audio_asset.html">cqsp::asset::AudioAsset</a>&gt; cqsp::engine::audio::AudioInterface::music_asset = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -814,20 +841,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ade980f96262a064b72aedade0f2631f7" name="ade980f96262a064b72aedade0f2631f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade980f96262a064b72aedade0f2631f7">&#9670;&nbsp;</a></span>worker_thread</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::thread cqsp::engine::audio::AudioInterface::worker_thread</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/engine/audio/<a class="el" href="audiointerface_8h_source.html">audiointerface.h</a></li>
 <li>/github/workspace/src/engine/audio/<a class="el" href="audiointerface_8cpp.html">audiointerface.cpp</a></li>
@@ -835,7 +848,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jan 21 2023 02:39:54 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Feb 25 2023 14:09:23 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
