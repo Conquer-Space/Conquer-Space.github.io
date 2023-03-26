@@ -203,8 +203,11 @@ Functions</h2></td></tr>
 <tr class="separator:a425390deec529e0e6b9801b6676b49ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec5bd748fc5117ef7e55c88c87d8ddf2"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aec5bd748fc5117ef7e55c88c87d8ddf2">CalculateVelocityElliptic</a> (const double &amp;E, const double &amp;r, const double &amp;GM, const double &amp;a, const double &amp;e)</td></tr>
 <tr class="separator:aec5bd748fc5117ef7e55c88c87d8ddf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bcad017bc3b3cd8de6d2d893bf39315"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a8bcad017bc3b3cd8de6d2d893bf39315">GreatCircleDistance</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a> &amp;coord1, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a> &amp;coord2)</td></tr>
+<tr class="memdesc:a8bcad017bc3b3cd8de6d2d893bf39315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the angle between the two coordinates. Just multiply by the planet's diameter for fun and engagement.  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a8bcad017bc3b3cd8de6d2d893bf39315">More...</a><br /></td></tr>
+<tr class="separator:a8bcad017bc3b3cd8de6d2d893bf39315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47f7357b47b2da936d5f7d174141e7ad"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a47f7357b47b2da936d5f7d174141e7ad">toVec3</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a> &amp;coord, const float &amp;radius=1)</td></tr>
-<tr class="memdesc:a47f7357b47b2da936d5f7d174141e7ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts surface coordinate to vector3, shown in opengl.  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a47f7357b47b2da936d5f7d174141e7ad">More...</a><br /></td></tr>
+<tr class="memdesc:a47f7357b47b2da936d5f7d174141e7ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts surface coordinate to vector3 in space so that we can get the surface coordinate to render in space  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a47f7357b47b2da936d5f7d174141e7ad">More...</a><br /></td></tr>
 <tr class="separator:a47f7357b47b2da936d5f7d174141e7ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2df81fd3060a58bae0a4c04fb8994cbe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a2df81fd3060a58bae0a4c04fb8994cbe">GetLaunchAzimuth</a> (double latitude, double inclination)</td></tr>
 <tr class="memdesc:a2df81fd3060a58bae0a4c04fb8994cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the azimuth of the orbit based on the latitude and inclination  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a2df81fd3060a58bae0a4c04fb8994cbe">More...</a><br /></td></tr>
@@ -958,6 +961,44 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a8bcad017bc3b3cd8de6d2d893bf39315" name="a8bcad017bc3b3cd8de6d2d893bf39315"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bcad017bc3b3cd8de6d2d893bf39315">&#9670;&nbsp;</a></span>GreatCircleDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::common::components::types::GreatCircleDistance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a> &amp;&#160;</td>
+          <td class="paramname"><em>coord1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a> &amp;&#160;</td>
+          <td class="paramname"><em>coord2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the angle between the two coordinates. Just multiply by the planet's diameter for fun and engagement. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">coord1</td><td></td></tr>
+    <tr><td class="paramname">coord2</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a id="ab245ee8420d224a992c49acab02f1855" name="ab245ee8420d224a992c49acab02f1855"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab245ee8420d224a992c49acab02f1855">&#9670;&nbsp;</a></span>HyperbolicAnomalyToTrueAnomaly()</h2>
 
@@ -1553,7 +1594,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Converts surface coordinate to vector3, shown in opengl. </p>
+<p>Converts surface coordinate to vector3 in space so that we can get the surface coordinate to render in space </p>
 
 </div>
 </div>
@@ -1995,7 +2036,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Mar 9 2023 14:01:44 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Mar 26 2023 23:07:36 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

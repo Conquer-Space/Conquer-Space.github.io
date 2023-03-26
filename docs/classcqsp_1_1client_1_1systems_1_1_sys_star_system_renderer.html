@@ -166,8 +166,6 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:af2fc2c39b31d3eebb729fed1b5dff04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2adf334249dee975369811ff9333c87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aa2adf334249dee975369811ff9333c87">DrawAllPlanetBillboards</a> (auto &amp;bodies)</td></tr>
 <tr class="separator:aa2adf334249dee975369811ff9333c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cb8df46e8c5cdb07209ea9d8be68300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a0cb8df46e8c5cdb07209ea9d8be68300">DrawPlanet</a> (glm::vec3 &amp;object_pos, entt::entity entity)</td></tr>
-<tr class="separator:a0cb8df46e8c5cdb07209ea9d8be68300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b40d746de6b7311446f681ed031f1a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a5b40d746de6b7311446f681ed031f1a4">DrawTexturedPlanet</a> (glm::vec3 &amp;object_pos, entt::entity entity)</td></tr>
 <tr class="separator:a5b40d746de6b7311446f681ed031f1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74d35fa6badbdd0110a1ef99a381e467"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a74d35fa6badbdd0110a1ef99a381e467">GetPlanetTexture</a> (entt::entity entity, bool &amp;have_normal, bool &amp;have_roughness)</td></tr>
@@ -190,6 +188,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a9464e534e0bf0cb9a8dd6dcc7c6d2284"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6adfea7097edc80a1f8a88a1c7e022a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a6adfea7097edc80a1f8a88a1c7e022a4">LoadProvinceMap</a> ()</td></tr>
 <tr class="separator:a6adfea7097edc80a1f8a88a1c7e022a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aae8377b8eea926affb503d828046d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a3aae8377b8eea926affb503d828046d2">InitializeMeshes</a> ()</td></tr>
+<tr class="separator:a3aae8377b8eea926affb503d828046d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3733020fe2183e373814afe504d49e69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a3733020fe2183e373814afe504d49e69">GenerateOrbit</a> (entt::entity entity)</td></tr>
 <tr class="separator:a3733020fe2183e373814afe504d49e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63cdfa7007d39d2676f16aadfec19005"><td class="memItemLeft" align="right" valign="top">glm::quat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a63cdfa7007d39d2676f16aadfec19005">GetBodyRotation</a> (double axial, double rotation, double day_offset)</td></tr>
@@ -1019,42 +1019,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0cb8df46e8c5cdb07209ea9d8be68300" name="a0cb8df46e8c5cdb07209ea9d8be68300"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cb8df46e8c5cdb07209ea9d8be68300">&#9670;&nbsp;</a></span>DrawPlanet()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::DrawPlanet </td>
-          <td>(</td>
-          <td class="paramtype">glm::vec3 &amp;&#160;</td>
-          <td class="paramname"><em>object_pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
-          <td class="paramname"><em>entity</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a91908c77a4e602b7a9291cd27ab82d86" name="a91908c77a4e602b7a9291cd27ab82d86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91908c77a4e602b7a9291cd27ab82d86">&#9670;&nbsp;</a></span>DrawPlanetBillboards()</h2>
 
@@ -1795,6 +1759,31 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::InitializeFramebuffers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3aae8377b8eea926affb503d828046d2" name="a3aae8377b8eea926affb503d828046d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aae8377b8eea926affb503d828046d2">&#9670;&nbsp;</a></span>InitializeMeshes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::InitializeMeshes </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -3499,7 +3488,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Mar 9 2023 14:01:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Mar 26 2023 23:07:35 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
