@@ -3,7 +3,7 @@ var searchData=
   ['v_0',['v',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#aef48ead74007d0df756e8f5b955b1612',1,'cqsp::common::components::types::Orbit']]],
   ['values_1',['values',['../classcqsp_1_1scripting_1_1_script_interface.html#a7c672b035fb356e7c0149cbe40991854',1,'cqsp::scripting::ScriptInterface']]],
   ['vao_2',['VAO',['../classcqsp_1_1engine_1_1_mesh.html#a4cf144a44e3dc061dec757299000d982',1,'cqsp::engine::Mesh::VAO()'],['../classcqsp_1_1asset_1_1_font.html#a0cdd081bad490d75fda166666f0b3b76',1,'cqsp::asset::Font::VAO()']]],
-  ['vbo_3',['VBO',['../classcqsp_1_1engine_1_1_mesh.html#a9e581c6a9d87b0713c6335ca382465f3',1,'cqsp::engine::Mesh::VBO()'],['../classcqsp_1_1asset_1_1_font.html#aa918eafb0be58bce0a73bcf94f2ecc7c',1,'cqsp::asset::Font::VBO()']]],
+  ['vbo_3',['VBO',['../classcqsp_1_1asset_1_1_font.html#aa918eafb0be58bce0a73bcf94f2ecc7c',1,'cqsp::asset::Font::VBO()'],['../classcqsp_1_1engine_1_1_mesh.html#a9e581c6a9d87b0713c6335ca382465f3',1,'cqsp::engine::Mesh::VBO()']]],
   ['vec3au_4',['Vec3AU',['../namespacecqsp_1_1common_1_1components_1_1types.html#ad4a09f5cac83f53111957737bf40bb06',1,'cqsp::common::components::types']]],
   ['vec3toorbit_5',['Vec3ToOrbit',['../namespacecqsp_1_1common_1_1components_1_1types.html#abf095e129f33c2f3c1f80af47b679eff',1,'cqsp::common::components::types']]],
   ['velocity_6',['velocity',['../structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html#a577fc7b368063e8af02dcbf272385b8e',1,'cqsp::common::components::types::Kinematics']]],
@@ -26,7 +26,8 @@ var searchData=
   ['viewport_5fheight_23',['viewport_height',['../class_render_interface___g_l3.html#a917b8758f79ac12643b963fc30d68221',1,'RenderInterface_GL3']]],
   ['viewport_5fwidth_24',['viewport_width',['../class_render_interface___g_l3.html#a4d4452a61c9a153f6ecfeae461e274b9',1,'RenderInterface_GL3']]],
   ['virtualmounter_25',['VirtualMounter',['../classcqsp_1_1asset_1_1_virtual_mounter.html',1,'cqsp::asset']]],
-  ['visible_26',['visible',['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html#a1013b8ece88379e91bd7d2008e3d7422',1,'cqsp::client::systems::SysProvinceInformation']]],
-  ['volume_27',['volume',['../structcqsp_1_1common_1_1components_1_1_market_information.html#ac830e4a1c38adf9c5201ee9747f59534',1,'cqsp::common::components::MarketInformation::volume()'],['../classcqsp_1_1common_1_1components_1_1_market_history.html#acd742bc968d7f4cab28fb6dfbb2d859b',1,'cqsp::common::components::MarketHistory::volume()'],['../structcqsp_1_1common_1_1components_1_1_matter.html#aaa25a7f903a09760341d7e80204a4f64',1,'cqsp::common::components::Matter::volume()']]],
-  ['volume_28',['Volume',['../namespacecqsp_1_1common_1_1components_1_1types.html#a4e52001649816aae4bbc7057833fd587ace3bdc415ee25067cb950b82db207da2',1,'cqsp::common::components::types']]]
+  ['visible_26',['visible',['../classcqsp_1_1client_1_1systems_1_1_sys_orbit_filter.html#a1b7bee07164c528683af2782529a2943',1,'cqsp::client::systems::SysOrbitFilter::visible()'],['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html#a1013b8ece88379e91bd7d2008e3d7422',1,'cqsp::client::systems::SysProvinceInformation::visible()']]],
+  ['visibleorbit_27',['VisibleOrbit',['../structcqsp_1_1client_1_1ctx_1_1_visible_orbit.html',1,'cqsp::client::ctx']]],
+  ['volume_28',['volume',['../structcqsp_1_1common_1_1components_1_1_matter.html#aaa25a7f903a09760341d7e80204a4f64',1,'cqsp::common::components::Matter::volume()'],['../classcqsp_1_1common_1_1components_1_1_market_history.html#acd742bc968d7f4cab28fb6dfbb2d859b',1,'cqsp::common::components::MarketHistory::volume()'],['../structcqsp_1_1common_1_1components_1_1_market_information.html#ac830e4a1c38adf9c5201ee9747f59534',1,'cqsp::common::components::MarketInformation::volume()']]],
+  ['volume_29',['Volume',['../namespacecqsp_1_1common_1_1components_1_1types.html#a4e52001649816aae4bbc7057833fd587ace3bdc415ee25067cb950b82db207da2',1,'cqsp::common::components::types']]]
 ];

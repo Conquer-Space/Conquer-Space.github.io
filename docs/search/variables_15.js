@@ -17,6 +17,6 @@ var searchData=
   ['viewport_14',['viewport',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a09134c766b3649644efb1f6c90367442',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['viewport_5fheight_15',['viewport_height',['../class_render_interface___g_l3.html#a917b8758f79ac12643b963fc30d68221',1,'RenderInterface_GL3']]],
   ['viewport_5fwidth_16',['viewport_width',['../class_render_interface___g_l3.html#a4d4452a61c9a153f6ecfeae461e274b9',1,'RenderInterface_GL3']]],
-  ['visible_17',['visible',['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html#a1013b8ece88379e91bd7d2008e3d7422',1,'cqsp::client::systems::SysProvinceInformation']]],
+  ['visible_17',['visible',['../classcqsp_1_1client_1_1systems_1_1_sys_orbit_filter.html#a1b7bee07164c528683af2782529a2943',1,'cqsp::client::systems::SysOrbitFilter::visible()'],['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html#a1013b8ece88379e91bd7d2008e3d7422',1,'cqsp::client::systems::SysProvinceInformation::visible()']]],
   ['volume_18',['volume',['../structcqsp_1_1common_1_1components_1_1_market_information.html#ac830e4a1c38adf9c5201ee9747f59534',1,'cqsp::common::components::MarketInformation::volume()'],['../classcqsp_1_1common_1_1components_1_1_market_history.html#acd742bc968d7f4cab28fb6dfbb2d859b',1,'cqsp::common::components::MarketHistory::volume()'],['../structcqsp_1_1common_1_1components_1_1_matter.html#aaa25a7f903a09760341d7e80204a4f64',1,'cqsp::common::components::Matter::volume()']]]
 ];
