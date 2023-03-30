@@ -32,7 +32,7 @@ var searchData=
   ['draworbit_29',['DrawOrbit',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a2971b9daf58b43e13225daeff7d55552',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['drawplanetbillboards_30',['DrawPlanetBillboards',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a91908c77a4e602b7a9291cd27ab82d86',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['drawplaneticon_31',['DrawPlanetIcon',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ad0d3063f56cd8a77ca69b44611cdb63a',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['drawshipicon_32',['DrawShipIcon',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ad7925791070ab5384fee64b175bd0161',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['drawshipicon_32',['DrawShipIcon',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a2cfd33878b58613045e96f0811ecd778',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['drawships_33',['DrawShips',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a845b5019554ae66e436af7f8868aed51',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['drawskybox_34',['DrawSkybox',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aae5a4e455ef06cd11487afddcf7e1338',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['drawstar_35',['DrawStar',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ad14f26272188db58078e4f3bca0c90fb',1,'cqsp::client::systems::SysStarSystemRenderer']]],
@@ -40,6 +40,6 @@ var searchData=
   ['drawterrainlessplanet_37',['DrawTerrainlessPlanet',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#afb8feefbf2207d50dcfefed655feaa7d',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['drawtext_38',['DrawText',['../classcqsp_1_1engine_1_1_application.html#ab93050042f6a2ceea24c1fafc627efc3',1,'cqsp::engine::Application::DrawText(const std::string &amp;text, float x, float y, float size)'],['../classcqsp_1_1engine_1_1_application.html#a1fa1aa94ff0ee6469f3e7fab626f438e',1,'cqsp::engine::Application::DrawText(const std::string &amp;text, const glm::vec3 &amp;color, float x, float y, float size)'],['../classcqsp_1_1engine_1_1_application.html#a8d03a4df4f8109a3ba7b10508c1ee966',1,'cqsp::engine::Application::DrawText(const std::string &amp;text, const glm::vec3 &amp;color, float x, float y)'],['../classcqsp_1_1engine_1_1_application.html#a8ae7c70eda207c6bf9ee171437afd926',1,'cqsp::engine::Application::DrawText(const std::string &amp;text, float x, float y)']]],
   ['drawtextnormalized_39',['DrawTextNormalized',['../classcqsp_1_1engine_1_1_application.html#ae21496828669d02a72aef359149fec83',1,'cqsp::engine::Application']]],
-  ['drawtexturedplanet_40',['DrawTexturedPlanet',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a5b40d746de6b7311446f681ed031f1a4',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['drawtexturedplanet_40',['DrawTexturedPlanet',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a07ddf9feef6c62716b217addcaad4300',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['drawtexturedsprite_41',['DrawTexturedSprite',['../classcqsp_1_1engine_1_1_renderer2_d.html#a386f1d25ebdde0a74c252d6df5369640',1,'cqsp::engine::Renderer2D']]]
 ];

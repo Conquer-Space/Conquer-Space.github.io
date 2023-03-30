@@ -5,7 +5,7 @@ var searchData=
   ['camera_5fmatrix_2',['camera_matrix',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a9eabbb1c725c46d668c21758a0b794f7',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['capital_5fcity_3',['capital_city',['../structcqsp_1_1common_1_1components_1_1_country.html#a11f8573ee9f563fba1f82c390710b5d3',1,'cqsp::common::components::Country']]],
   ['capitalcost_4',['capitalcost',['../structcqsp_1_1common_1_1components_1_1_recipe.html#a65d5dfd9b171ac3b9ba37c53551ee4ba',1,'cqsp::common::components::Recipe']]],
-  ['center_5',['center',['../structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html#ac826bae84eecd79a5507e15592d48e95',1,'cqsp::common::components::types::Kinematics']]],
+  ['center_5',['center',['../structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html#ac826bae84eecd79a5507e15592d48e95',1,'cqsp::common::components::types::Kinematics::center()'],['../structcqsp_1_1common_1_1components_1_1types_1_1_future_position.html#ac61d2808bdc9dd55dd46c7778b0d391a',1,'cqsp::common::components::types::FuturePosition::center()']]],
   ['change_6',['change',['../structcqsp_1_1common_1_1components_1_1_wallet.html#aa9c3a2be25595a5c32964336558079b5',1,'cqsp::common::components::Wallet']]],
   ['channel_7',['channel',['../structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#a6567e55bcf379dd15d6fb78fb66e2f56',1,'cqsp::engine::audio::AudioChannel']]],
   ['channels_8',['channels',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#ae6b26ffe7eb0d507da180b561ec6c403',1,'cqsp::engine::audio::AudioInterface']]],
