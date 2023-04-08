@@ -34,7 +34,8 @@ var searchData=
   ['isgamehalted_31',['IsGameHalted',['../namespacecqsp_1_1scene.html#af1b03dd82bc4cbcc33f5b94801ce2f10',1,'cqsp::scene']]],
   ['isimulationsystem_32',['ISimulationSystem',['../classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a5c0163458b4975f070a6f45e12f61cdf',1,'cqsp::common::systems::ISimulationSystem']]],
   ['isplaying_33',['IsPlaying',['../structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#aaf2956c3ec606149d42332760d180f6b',1,'cqsp::engine::audio::AudioChannel']]],
-  ['ivirtualdirectory_34',['IVirtualDirectory',['../classcqsp_1_1asset_1_1_i_virtual_directory.html#a3d10b4595ae05289e3e33b650db722ff',1,'cqsp::asset::IVirtualDirectory']]],
-  ['ivirtualfile_35',['IVirtualFile',['../classcqsp_1_1asset_1_1_i_virtual_file.html#a9c900ccfc947c9f6f5d03bf725ac77d1',1,'cqsp::asset::IVirtualFile']]],
-  ['ivirtualfilesystem_36',['IVirtualFileSystem',['../classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad4ac6555fff82b524ed39cc32e745fd2',1,'cqsp::asset::IVirtualFileSystem']]]
+  ['isstopped_34',['IsStopped',['../structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#a66c5efdbc175ac03ef01801bac31c72d',1,'cqsp::engine::audio::AudioChannel']]],
+  ['ivirtualdirectory_35',['IVirtualDirectory',['../classcqsp_1_1asset_1_1_i_virtual_directory.html#a3d10b4595ae05289e3e33b650db722ff',1,'cqsp::asset::IVirtualDirectory']]],
+  ['ivirtualfile_36',['IVirtualFile',['../classcqsp_1_1asset_1_1_i_virtual_file.html#a9c900ccfc947c9f6f5d03bf725ac77d1',1,'cqsp::asset::IVirtualFile']]],
+  ['ivirtualfilesystem_37',['IVirtualFileSystem',['../classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad4ac6555fff82b524ed39cc32e745fd2',1,'cqsp::asset::IVirtualFileSystem']]]
 ];

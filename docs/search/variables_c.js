@@ -65,6 +65,7 @@ var searchData=
   ['mounter_62',['mounter',['../classcqsp_1_1asset_1_1_asset_loader.html#a531c1b28ef2e8d7994ab4e5591cb1426',1,'cqsp::asset::AssetLoader']]],
   ['mscat_63',['mscat',['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#adfeae9b209b0bdfc988d691ec10fe0fd',1,'cqsp::engine::AAFrameBufferRenderer']]],
   ['music_5fasset_64',['music_asset',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#af659186abdcb4fb0d8b28dd9b3ebd922',1,'cqsp::engine::audio::AudioInterface']]],
-  ['music_5fvolume_65',['music_volume',['../classcqsp_1_1client_1_1_settings_window.html#adfbb98d45d4e63c24248e804fe2210be',1,'cqsp::client::SettingsWindow::music_volume()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a7632f117eeaacae97de4d52626fa6e5b',1,'cqsp::engine::audio::AudioInterface::music_volume()']]],
-  ['mutex_5f_66',['mutex_',['../classcqsp_1_1asset_1_1_threadsafe_queue.html#ae5eb131b1cabee78e3daf64801f3f289',1,'cqsp::asset::ThreadsafeQueue']]]
+  ['music_5fchannel_65',['MUSIC_CHANNEL',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a3483eb1ec775702e4a64322d663929ee',1,'cqsp::engine::audio::AudioInterface']]],
+  ['music_5fvolume_66',['music_volume',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a7632f117eeaacae97de4d52626fa6e5b',1,'cqsp::engine::audio::AudioInterface::music_volume()'],['../classcqsp_1_1client_1_1_settings_window.html#adfbb98d45d4e63c24248e804fe2210be',1,'cqsp::client::SettingsWindow::music_volume()']]],
+  ['mutex_5f_67',['mutex_',['../classcqsp_1_1asset_1_1_threadsafe_queue.html#ae5eb131b1cabee78e3daf64801f3f289',1,'cqsp::asset::ThreadsafeQueue']]]
 ];

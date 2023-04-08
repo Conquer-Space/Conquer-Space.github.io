@@ -72,11 +72,12 @@ var searchData=
   ['isimulationsystem_69',['ISimulationSystem',['../classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html',1,'cqsp::common::systems::ISimulationSystem'],['../classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a5c0163458b4975f070a6f45e12f61cdf',1,'cqsp::common::systems::ISimulationSystem::ISimulationSystem()']]],
   ['isimulationsystem_2eh_70',['isimulationsystem.h',['../isimulationsystem_8h.html',1,'']]],
   ['isplaying_71',['IsPlaying',['../structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#aaf2956c3ec606149d42332760d180f6b',1,'cqsp::engine::audio::AudioChannel']]],
-  ['isysuniversegenerator_72',['ISysUniverseGenerator',['../classcqsp_1_1common_1_1systems_1_1universegenerator_1_1_i_sys_universe_generator.html',1,'cqsp::common::systems::universegenerator']]],
-  ['items_73',['items',['../classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#ac12f5edb9ea395a4b4f80481682d84fe',1,'cqsp::client::systems::SysDebugMenu']]],
-  ['ivirtualdirectory_74',['IVirtualDirectory',['../classcqsp_1_1asset_1_1_i_virtual_directory.html',1,'cqsp::asset::IVirtualDirectory'],['../classcqsp_1_1asset_1_1_i_virtual_directory.html#a3d10b4595ae05289e3e33b650db722ff',1,'cqsp::asset::IVirtualDirectory::IVirtualDirectory()']]],
-  ['ivirtualdirectoryptr_75',['IVirtualDirectoryPtr',['../namespacecqsp_1_1asset.html#afc57671f834b100155e4e56af3b80577',1,'cqsp::asset']]],
-  ['ivirtualfile_76',['IVirtualFile',['../classcqsp_1_1asset_1_1_i_virtual_file.html',1,'cqsp::asset::IVirtualFile'],['../classcqsp_1_1asset_1_1_i_virtual_file.html#a9c900ccfc947c9f6f5d03bf725ac77d1',1,'cqsp::asset::IVirtualFile::IVirtualFile()']]],
-  ['ivirtualfileptr_77',['IVirtualFilePtr',['../namespacecqsp_1_1asset.html#aad34e921425ce7efb4d34c87e5002f31',1,'cqsp::asset']]],
-  ['ivirtualfilesystem_78',['IVirtualFileSystem',['../classcqsp_1_1asset_1_1_i_virtual_file_system.html',1,'cqsp::asset::IVirtualFileSystem'],['../classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad4ac6555fff82b524ed39cc32e745fd2',1,'cqsp::asset::IVirtualFileSystem::IVirtualFileSystem()']]]
+  ['isstopped_72',['IsStopped',['../structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#a66c5efdbc175ac03ef01801bac31c72d',1,'cqsp::engine::audio::AudioChannel']]],
+  ['isysuniversegenerator_73',['ISysUniverseGenerator',['../classcqsp_1_1common_1_1systems_1_1universegenerator_1_1_i_sys_universe_generator.html',1,'cqsp::common::systems::universegenerator']]],
+  ['items_74',['items',['../classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#ac12f5edb9ea395a4b4f80481682d84fe',1,'cqsp::client::systems::SysDebugMenu']]],
+  ['ivirtualdirectory_75',['IVirtualDirectory',['../classcqsp_1_1asset_1_1_i_virtual_directory.html',1,'cqsp::asset::IVirtualDirectory'],['../classcqsp_1_1asset_1_1_i_virtual_directory.html#a3d10b4595ae05289e3e33b650db722ff',1,'cqsp::asset::IVirtualDirectory::IVirtualDirectory()']]],
+  ['ivirtualdirectoryptr_76',['IVirtualDirectoryPtr',['../namespacecqsp_1_1asset.html#afc57671f834b100155e4e56af3b80577',1,'cqsp::asset']]],
+  ['ivirtualfile_77',['IVirtualFile',['../classcqsp_1_1asset_1_1_i_virtual_file.html',1,'cqsp::asset::IVirtualFile'],['../classcqsp_1_1asset_1_1_i_virtual_file.html#a9c900ccfc947c9f6f5d03bf725ac77d1',1,'cqsp::asset::IVirtualFile::IVirtualFile()']]],
+  ['ivirtualfileptr_78',['IVirtualFilePtr',['../namespacecqsp_1_1asset.html#aad34e921425ce7efb4d34c87e5002f31',1,'cqsp::asset']]],
+  ['ivirtualfilesystem_79',['IVirtualFileSystem',['../classcqsp_1_1asset_1_1_i_virtual_file_system.html',1,'cqsp::asset::IVirtualFileSystem'],['../classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad4ac6555fff82b524ed39cc32e745fd2',1,'cqsp::asset::IVirtualFileSystem::IVirtualFileSystem()']]]
 ];
