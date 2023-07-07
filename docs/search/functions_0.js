@@ -1,7 +1,7 @@
 var searchData=
 [
   ['aaframebufferrenderer_0',['AAFrameBufferRenderer',['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a1701ca27f32ef9c24edbc9b349ddabbc',1,'cqsp::engine::AAFrameBufferRenderer']]],
-  ['addaudioclip_1',['AddAudioClip',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a952e23cc19b4729532088076115ea523',1,'cqsp::engine::audio::AudioInterface::AddAudioClip()'],['../classcqsp_1_1engine_1_1audio_1_1_i_audio_interface.html#aba9f37798d69d4bbe809bbf4b86eb36f',1,'cqsp::engine::audio::IAudioInterface::AddAudioClip()']]],
+  ['addaudioclip_1',['AddAudioClip',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#aeb0a43786842054a219f6cdb66de4f7a',1,'cqsp::engine::audio::AudioInterface::AddAudioClip()'],['../classcqsp_1_1engine_1_1audio_1_1_i_audio_interface.html#aba9f37798d69d4bbe809bbf4b86eb36f',1,'cqsp::engine::audio::IAudioInterface::AddAudioClip()']]],
   ['addbuyorder_2',['AddBuyOrder',['../structcqsp_1_1common_1_1components_1_1_auction_house.html#a8a5cdf3cf04a98c81acb2237e2a2477c',1,'cqsp::common::components::AuctionHouse']]],
   ['adddemand_3',['AddDemand',['../structcqsp_1_1common_1_1components_1_1_market.html#ae9ce61ff6aab39eb6c9e7c9e3f1aa301',1,'cqsp::common::components::Market::AddDemand(const ResourceLedger &amp;stockpile)'],['../structcqsp_1_1common_1_1components_1_1_market.html#a3a0e0d3970ae5fd2578a35cc2fdba193',1,'cqsp::common::components::Market::AddDemand(const ResourceLedger &amp;stockpile, double multiplier)']]],
   ['addeventlisteners_4',['AddEventListeners',['../classcqsp_1_1client_1_1_load_game_window.html#a15d72adbabeb0ee0ac0a16231d979575',1,'cqsp::client::LoadGameWindow::AddEventListeners()'],['../classcqsp_1_1client_1_1_settings_window.html#a110fdb5dd63d4a66fb73231f20d53d48',1,'cqsp::client::SettingsWindow::AddEventListeners()']]],
@@ -18,7 +18,7 @@ var searchData=
   ['application_15',['Application',['../classcqsp_1_1engine_1_1_application.html#a4a370ac5b96dec5547274b61180d88f6',1,'cqsp::engine::Application']]],
   ['arrowbutton_16',['ArrowButton',['../namespace_c_q_s_p_gui.html#a805fe25e37dad7ace96554c97cdfa807',1,'CQSPGui']]],
   ['assetloader_17',['AssetLoader',['../classcqsp_1_1asset_1_1_asset_loader.html#acb764011ed93cb2ebe45f000a0ade861',1,'cqsp::asset::AssetLoader']]],
-  ['assetmanager_18',['AssetManager',['../classcqsp_1_1asset_1_1_asset_manager.html#a16fcc21a198ca3d22f972a340d8f0d6e',1,'cqsp::asset::AssetManager']]],
+  ['assetmanager_18',['AssetManager',['../classcqsp_1_1asset_1_1_asset_manager.html#a033ffc98306fcbaeccd2ec6597671582',1,'cqsp::asset::AssetManager']]],
   ['assignfrom_19',['AssignFrom',['../classcqsp_1_1common_1_1components_1_1_resource_ledger.html#a9d2abbb22093e0d528d8503472ce11eb',1,'cqsp::common::components::ResourceLedger']]],
   ['audiochannel_20',['AudioChannel',['../structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#ae6e19829a9ddafe2f0c2d473d1309f8f',1,'cqsp::engine::audio::AudioChannel']]],
   ['audiointerface_21',['AudioInterface',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a418ed4ffe27220b2851f56eef17dbd42',1,'cqsp::engine::audio::AudioInterface']]],

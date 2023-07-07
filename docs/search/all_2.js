@@ -27,5 +27,5 @@ var searchData=
   ['buttonispressed_24',['ButtonIsPressed',['../classcqsp_1_1engine_1_1_application.html#a51a40131baf6d3d34cc0d75b7f832fd2',1,'cqsp::engine::Application::ButtonIsPressed(int btn)'],['../classcqsp_1_1engine_1_1_application.html#a132d47bc0fe4d202534ebbeac279bfe6',1,'cqsp::engine::Application::ButtonIsPressed(KeyInput btn)'],['../classcqsp_1_1engine_1_1_window.html#a4a90f8a1b01386f3b7729da38dd085ab',1,'cqsp::engine::Window::ButtonIsPressed()']]],
   ['buttonisreleased_25',['ButtonIsReleased',['../classcqsp_1_1engine_1_1_application.html#a393c1e9847d09930c087e670abf1015c',1,'cqsp::engine::Application::ButtonIsReleased(int btn)'],['../classcqsp_1_1engine_1_1_application.html#a5ee3fdc1756546e8404bd82532f89ba3',1,'cqsp::engine::Application::ButtonIsReleased(KeyInput btn)'],['../classcqsp_1_1engine_1_1_window.html#a9fe36f83bb4b559bc27c0adc35e52c79',1,'cqsp::engine::Window::ButtonIsReleased()']]],
   ['buy_5forders_26',['buy_orders',['../structcqsp_1_1common_1_1components_1_1_auction_house.html#ac879983abc951ab1ae63b9c78a8c3b49',1,'cqsp::common::components::AuctionHouse']]],
-  ['buygood_27',['BuyGood',['../namespacecqsp_1_1common_1_1systems.html#af560620417346d071f127db8baa1641c',1,'cqsp::common::systems']]]
+  ['buygood_27',['BuyGood',['../namespacecqsp_1_1common_1_1systems.html#aa39b0e0f0da92345396c44ea4757eede',1,'cqsp::common::systems']]]
 ];

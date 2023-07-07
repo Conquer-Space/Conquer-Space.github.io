@@ -113,13 +113,13 @@ $(function() {
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span>... Args&gt;</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="namespace_im_gui.html#a25e78583708a54e8e613cb2054bd25c8">   41</a></span>IMGUI_API <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_im_gui.html#a25e78583708a54e8e613cb2054bd25c8">TextFmt</a>(fmt::format_string&lt;Args...&gt; fmt, Args&amp;&amp;... args) {</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">auto</span> s = fmt::format(fmt, std::forward&lt;Args&gt;(args)...);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    Text(s.c_str());</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    Text(<span class="stringliteral">&quot;%s&quot;</span>, s.c_str());</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span>... Args&gt;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="namespace_im_gui.html#a696a8857d4171fd64a07f3cdaeafa1b4">   47</a></span>IMGUI_API <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_im_gui.html#a696a8857d4171fd64a07f3cdaeafa1b4">TextFmtColored</a>(<span class="keyword">const</span> ImVec4&amp; color, fmt::format_string&lt;Args...&gt; fmt, Args&amp;&amp;... args) {</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">auto</span> s = fmt::format(fmt, std::forward&lt;Args&gt;(args)...);</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    TextColored(color, s.c_str());</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    TextColored(color, <span class="stringliteral">&quot;%s&quot;</span>, s.c_str());</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span>... Args&gt;</div>
@@ -168,12 +168,12 @@ $(function() {
 <div class="ttc" id="anamespaceax_1_1_drawing_html_ab1df3a7263c0f5d36c706d066c90fe0aa8f7671185d590914ac21c7511767b699"><div class="ttname"><a href="namespaceax_1_1_drawing.html#ab1df3a7263c0f5d36c706d066c90fe0aa8f7671185d590914ac21c7511767b699">ax::Drawing::IconType::Diamond</a></div><div class="ttdeci">@ Diamond</div></div>
 <div class="ttc" id="anamespaceax_1_1_drawing_html_ab1df3a7263c0f5d36c706d066c90fe0aaceb46ca115d05c51aa5a16a8867c3304"><div class="ttname"><a href="namespaceax_1_1_drawing.html#ab1df3a7263c0f5d36c706d066c90fe0aaceb46ca115d05c51aa5a16a8867c3304">ax::Drawing::IconType::Square</a></div><div class="ttdeci">@ Square</div></div>
 <div class="ttc" id="anamespaceax_1_1_drawing_html_ab1df3a7263c0f5d36c706d066c90fe0aaf1a76f66cca677c6e628d9ca58a6c8fc"><div class="ttname"><a href="namespaceax_1_1_drawing.html#ab1df3a7263c0f5d36c706d066c90fe0aaf1a76f66cca677c6e628d9ca58a6c8fc">ax::Drawing::IconType::Flow</a></div><div class="ttdeci">@ Flow</div></div>
-<div class="ttc" id="anamespaceax_1_1_drawing_html_ad29f9ad924ebb0d8823a97dfd9affc8a"><div class="ttname"><a href="namespaceax_1_1_drawing.html#ad29f9ad924ebb0d8823a97dfd9affc8a">ax::Drawing::DrawIcon</a></div><div class="ttdeci">void DrawIcon(ImDrawList *drawList, const ImVec2 &amp;a, const ImVec2 &amp;b, IconType type, bool filled, ImU32 color, ImU32 innerColor)</div><div class="ttdef"><b>Definition:</b> gui.cpp:156</div></div>
+<div class="ttc" id="anamespaceax_1_1_drawing_html_ad29f9ad924ebb0d8823a97dfd9affc8a"><div class="ttname"><a href="namespaceax_1_1_drawing.html#ad29f9ad924ebb0d8823a97dfd9affc8a">ax::Drawing::DrawIcon</a></div><div class="ttdeci">void DrawIcon(ImDrawList *drawList, const ImVec2 &amp;a, const ImVec2 &amp;b, IconType type, bool filled, ImU32 color, ImU32 innerColor)</div><div class="ttdef"><b>Definition:</b> gui.cpp:155</div></div>
 <div class="ttc" id="anamespaceax_1_1_drawing_html_ae862bc29890d179f024a69530ab0f913"><div class="ttname"><a href="namespaceax_1_1_drawing.html#ae862bc29890d179f024a69530ab0f913">ax::Drawing::Icon</a></div><div class="ttdeci">void Icon(const ImVec2 &amp;size, IconType type, bool filled, const ImVec4 &amp;color=ImVec4(1, 1, 1, 1), const ImVec4 &amp;innerColor=ImVec4(0, 0, 0, 0))</div><div class="ttdef"><b>Definition:</b> gui.cpp:294</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jul 2 2023 15:29:17 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Jul 7 2023 14:31:48 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

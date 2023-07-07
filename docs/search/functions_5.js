@@ -12,5 +12,6 @@ var searchData=
   ['foundcity_9',['FoundCity',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a4e28c12b644d74a52c2117cbdc494dc1',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['framebufferrenderer_10',['FramebufferRenderer',['../classcqsp_1_1engine_1_1_framebuffer_renderer.html#a216c041c8afe09bce22b9e65b73d3287',1,'cqsp::engine::FramebufferRenderer']]],
   ['free_11',['Free',['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#acfd8512e7f7088f2a4280c0d91e458e8',1,'cqsp::engine::AAFrameBufferRenderer::Free()'],['../classcqsp_1_1engine_1_1_framebuffer_renderer.html#a780ea01679289e965aa4c4c2b2783d97',1,'cqsp::engine::FramebufferRenderer::Free()'],['../classcqsp_1_1engine_1_1_i_framebuffer.html#aaf70d308d25b9261868b72720f9cf26c',1,'cqsp::engine::IFramebuffer::Free()']]],
-  ['fromstring_12',['FromString',['../namespacecqsp_1_1asset.html#a96722b29f513aeeb1c2716a9f2995af8',1,'cqsp::asset']]]
+  ['freebuffer_12',['FreeBuffer',['../classcqsp_1_1engine_1_1_framebuffer_renderer.html#a6e19ecaf92436918f8bd7411293f8231',1,'cqsp::engine::FramebufferRenderer::FreeBuffer()'],['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a2393499f78fd4aa6044a68ec36f6c3a8',1,'cqsp::engine::AAFrameBufferRenderer::FreeBuffer()']]],
+  ['fromstring_13',['FromString',['../namespacecqsp_1_1asset.html#a96722b29f513aeeb1c2716a9f2995af8',1,'cqsp::asset']]]
 ];

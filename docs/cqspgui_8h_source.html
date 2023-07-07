@@ -116,7 +116,7 @@ $(function() {
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="namespace_c_q_s_p_gui.html#a22e1cd3b528575e3c3b68379b8d2a739">   46</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespace_c_q_s_p_gui.html#a22e1cd3b528575e3c3b68379b8d2a739">SimpleTextTooltip</a>(fmt::format_string&lt;Args...&gt; fmt, Args&amp;&amp;... args) {</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">if</span> (ImGui::IsItemHovered()) {</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        ImGui::BeginTooltip();</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        ImGui::Text(fmt::format(fmt, std::forward&lt;Args&gt;(args)...).c_str());</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        ImGui::Text(<span class="stringliteral">&quot;%s&quot;</span>, fmt::format(fmt, std::forward&lt;Args&gt;(args)...).c_str());</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        ImGui::EndTooltip();</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    }</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
@@ -140,7 +140,7 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jul 2 2023 15:29:17 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Jul 7 2023 14:31:48 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

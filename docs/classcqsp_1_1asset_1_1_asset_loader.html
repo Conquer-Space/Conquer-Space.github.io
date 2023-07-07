@@ -95,10 +95,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa80982e8e2f275abbf31fcc2d69c6ab8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#aa80982e8e2f275abbf31fcc2d69c6ab8">LoadMods</a> ()</td></tr>
 <tr class="memdesc:aa80982e8e2f275abbf31fcc2d69c6ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for all the loaded mods, and loads the assets that the mod loads.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#aa80982e8e2f275abbf31fcc2d69c6ab8">More...</a><br /></td></tr>
 <tr class="separator:aa80982e8e2f275abbf31fcc2d69c6ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2baf7fbd6edf0f6655539111dfeb9e7"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#aa2baf7fbd6edf0f6655539111dfeb9e7">LoadPackage</a> (std::string package)</td></tr>
-<tr class="memdesc:aa2baf7fbd6edf0f6655539111dfeb9e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a package. <br  />
- A package contains a few things that it loads by default. First it loads the info.hjson file to check for all the metadata about the package. The metadata of the package looks like this:  <a href="classcqsp_1_1asset_1_1_asset_loader.html#aa2baf7fbd6edf0f6655539111dfeb9e7">More...</a><br /></td></tr>
-<tr class="separator:aa2baf7fbd6edf0f6655539111dfeb9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec1ba1d9519c755fa3d5f6d8e7af91a9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#aec1ba1d9519c755fa3d5f6d8e7af91a9">LoadPackage</a> (const std::string &amp;path)</td></tr>
+<tr class="memdesc:aec1ba1d9519c755fa3d5f6d8e7af91a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a package. <br  />
+ A package contains a few things that it loads by default. First it loads the info.hjson file to check for all the metadata about the package. The metadata of the package looks like this:  <a href="classcqsp_1_1asset_1_1_asset_loader.html#aec1ba1d9519c755fa3d5f6d8e7af91a9">More...</a><br /></td></tr>
+<tr class="separator:aec1ba1d9519c755fa3d5f6d8e7af91a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4736d6f3d855a8f505b42d38b36b3b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#aa4736d6f3d855a8f505b42d38b36b3b0">BuildNextAsset</a> ()</td></tr>
 <tr class="memdesc:aa4736d6f3d855a8f505b42d38b36b3b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The assets that need to be on the main thread. Takes one asset from the queue and processes it  <a href="classcqsp_1_1asset_1_1_asset_loader.html#aa4736d6f3d855a8f505b42d38b36b3b0">More...</a><br /></td></tr>
 <tr class="separator:aa4736d6f3d855a8f505b42d38b36b3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,17 +171,17 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a9549cc04b06220263fb31eef2144c51a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9549cc04b06220263fb31eef2144c51a">PlaceAsset</a> (<a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;package, const <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a> &amp;<a class="el" href="assetmanager_8cpp.html#ac765329451135abec74c45e1897abf26">type</a>, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;<a class="el" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>)</td></tr>
 <tr class="memdesc:a9549cc04b06220263fb31eef2144c51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conducts checks to determine if the asset was loaded correctly. Wraps Load asset, and contains the same parameters  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a9549cc04b06220263fb31eef2144c51a">More...</a><br /></td></tr>
 <tr class="separator:a9549cc04b06220263fb31eef2144c51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc170ccb7d3ac2fefcbc660ff2f1214c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#acc170ccb7d3ac2fefcbc660ff2f1214c">LoadDirectory</a> (std::string path, std::function&lt; void(std::string)&gt; <a class="el" href="engine_2_c_make_lists_8txt.html#aba7f5ab953b60e586c86a2d573f64936">file</a>)</td></tr>
-<tr class="memdesc:acc170ccb7d3ac2fefcbc660ff2f1214c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads any type of directory, and executes the function for every single file. <br  />
- This is a helper function to add to calculate the number of assets loaded so far.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#acc170ccb7d3ac2fefcbc660ff2f1214c">More...</a><br /></td></tr>
-<tr class="separator:acc170ccb7d3ac2fefcbc660ff2f1214c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39dfc31769f416d238fc901a770113f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a39dfc31769f416d238fc901a770113f1">LoadDirectory</a> (const std::string &amp;path, const std::function&lt; void(std::string)&gt; &amp;<a class="el" href="engine_2_c_make_lists_8txt.html#aba7f5ab953b60e586c86a2d573f64936">file</a>)</td></tr>
+<tr class="memdesc:a39dfc31769f416d238fc901a770113f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads any type of directory, and executes the function for every single file. <br  />
+ This is a helper function to add to calculate the number of assets loaded so far.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a39dfc31769f416d238fc901a770113f1">More...</a><br /></td></tr>
+<tr class="separator:a39dfc31769f416d238fc901a770113f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9df5f3c899dcd0e3bfa77929a986ce1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9df5f3c899dcd0e3bfa77929a986ce1c">LoadResources</a> (<a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;package, const std::string &amp;path)</td></tr>
 <tr class="memdesc:a9df5f3c899dcd0e3bfa77929a986ce1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the <code>resource.hjson</code> files in the specified directory. It will look recursively and find all the resource.hjson files to load. <br  />
  <code>resource.hjson</code> files consist of a hjson object. This is the syntax:  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a9df5f3c899dcd0e3bfa77929a986ce1c">More...</a><br /></td></tr>
 <tr class="separator:a9df5f3c899dcd0e3bfa77929a986ce1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c529a3cd6c46507e5cf949be27e1857"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a7c529a3cd6c46507e5cf949be27e1857">LoadResourceHjsonFile</a> (<a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;package, const std::string &amp;resource_mount_path, const std::string &amp;resource_file_path, const Hjson::Value &amp;asset_value)</td></tr>
-<tr class="memdesc:a7c529a3cd6c46507e5cf949be27e1857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the resources defined in the hjson <code>asset_value</code> in the hjson resource loading format.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a7c529a3cd6c46507e5cf949be27e1857">More...</a><br /></td></tr>
-<tr class="separator:a7c529a3cd6c46507e5cf949be27e1857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88f7226f6368697728b4d6dfdf37dc9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a88f7226f6368697728b4d6dfdf37dc9a">LoadResourceHjsonFile</a> (<a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;package, const std::string &amp;package_mount_path, const std::string &amp;resource_file_path, const Hjson::Value &amp;asset_value)</td></tr>
+<tr class="memdesc:a88f7226f6368697728b4d6dfdf37dc9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the resources defined in the hjson <code>asset_value</code> in the hjson resource loading format.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a88f7226f6368697728b4d6dfdf37dc9a">More...</a><br /></td></tr>
+<tr class="separator:a88f7226f6368697728b4d6dfdf37dc9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93f9d319542727107c566d5bea6b99ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a93f9d319542727107c566d5bea6b99ce">HjsonPrototypeDirectory</a> (<a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;package, const std::string &amp;path, const std::string &amp;name)</td></tr>
 <tr class="memdesc:a93f9d319542727107c566d5bea6b99ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a directory that contains hjson asset data.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a93f9d319542727107c566d5bea6b99ce">More...</a><br /></td></tr>
 <tr class="separator:a93f9d319542727107c566d5bea6b99ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -681,8 +681,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="acc170ccb7d3ac2fefcbc660ff2f1214c" name="acc170ccb7d3ac2fefcbc660ff2f1214c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc170ccb7d3ac2fefcbc660ff2f1214c">&#9670;&nbsp;</a></span>LoadDirectory()</h2>
+<a id="a39dfc31769f416d238fc901a770113f1" name="a39dfc31769f416d238fc901a770113f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39dfc31769f416d238fc901a770113f1">&#9670;&nbsp;</a></span>LoadDirectory()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -693,13 +693,13 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">void cqsp::asset::AssetLoader::LoadDirectory </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>path</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; void(std::string)&gt;&#160;</td>
+          <td class="paramtype">const std::function&lt; void(std::string)&gt; &amp;&#160;</td>
           <td class="paramname"><em>file</em>&#160;</td>
         </tr>
         <tr>
@@ -876,8 +876,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="aa2baf7fbd6edf0f6655539111dfeb9e7" name="aa2baf7fbd6edf0f6655539111dfeb9e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2baf7fbd6edf0f6655539111dfeb9e7">&#9670;&nbsp;</a></span>LoadPackage()</h2>
+<a id="aec1ba1d9519c755fa3d5f6d8e7af91a9" name="aec1ba1d9519c755fa3d5f6d8e7af91a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec1ba1d9519c755fa3d5f6d8e7af91a9">&#9670;&nbsp;</a></span>LoadPackage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -885,8 +885,8 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &gt; cqsp::asset::AssetLoader::LoadPackage </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>package</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -917,8 +917,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a7c529a3cd6c46507e5cf949be27e1857" name="a7c529a3cd6c46507e5cf949be27e1857"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c529a3cd6c46507e5cf949be27e1857">&#9670;&nbsp;</a></span>LoadResourceHjsonFile()</h2>
+<a id="a88f7226f6368697728b4d6dfdf37dc9a" name="a88f7226f6368697728b4d6dfdf37dc9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88f7226f6368697728b4d6dfdf37dc9a">&#9670;&nbsp;</a></span>LoadResourceHjsonFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -936,7 +936,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>resource_mount_path</em>, </td>
+          <td class="paramname"><em>package_mount_path</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1648,7 +1648,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jul 2 2023 15:29:17 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Jul 7 2023 14:31:49 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
