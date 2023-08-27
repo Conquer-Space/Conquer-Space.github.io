@@ -72,7 +72,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classcqsp_1_1asset_1_1_asset-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">cqsp::asset::Asset Class Reference</div></div>
+  <div class="headertitle"><div class="title">cqsp::asset::Asset Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -100,19 +100,23 @@ Inheritance diagram for cqsp::asset::Asset:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa7e6208f9dd30de9264399645c670b66"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset.html#aa7e6208f9dd30de9264399645c670b66">~Asset</a> ()</td></tr>
-<tr class="separator:aa7e6208f9dd30de9264399645c670b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbec0c45138c9dfc5b8a30df53a5a899"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset.html#acbec0c45138c9dfc5b8a30df53a5a899">~Asset</a> ()=default</td></tr>
+<tr class="separator:acbec0c45138c9dfc5b8a30df53a5a899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42553fb653655bc2d98cf8f0aedaf719"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset.html#a42553fb653655bc2d98cf8f0aedaf719">GetAssetType</a> ()=0</td></tr>
+<tr class="separator:a42553fb653655bc2d98cf8f0aedaf719"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a88cae102135cad8fd03e0cdbb2e30b79"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset.html#a88cae102135cad8fd03e0cdbb2e30b79">path</a></td></tr>
 <tr class="separator:a88cae102135cad8fd03e0cdbb2e30b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af46c635473d57be1b6fa036e5f8bee7e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset.html#af46c635473d57be1b6fa036e5f8bee7e">accessed</a> = 0</td></tr>
+<tr class="separator:af46c635473d57be1b6fa036e5f8bee7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The base class for assets. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa7e6208f9dd30de9264399645c670b66" name="aa7e6208f9dd30de9264399645c670b66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7e6208f9dd30de9264399645c670b66">&#9670;&nbsp;</a></span>~Asset()</h2>
+<a id="acbec0c45138c9dfc5b8a30df53a5a899" name="acbec0c45138c9dfc5b8a30df53a5a899"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbec0c45138c9dfc5b8a30df53a5a899">&#9670;&nbsp;</a></span>~Asset()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -129,14 +133,56 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a42553fb653655bc2d98cf8f0aedaf719" name="a42553fb653655bc2d98cf8f0aedaf719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42553fb653655bc2d98cf8f0aedaf719">&#9670;&nbsp;</a></span>GetAssetType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a> cqsp::asset::Asset::GetAssetType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classcqsp_1_1asset_1_1_text_asset.html#ac4c61c4952bf484a59035f791e22542f">cqsp::asset::TextAsset</a>, <a class="el" href="classcqsp_1_1asset_1_1_text_directory_asset.html#a064bae93c1b5aa531e8414180ff03cb0">cqsp::asset::TextDirectoryAsset</a>, <a class="el" href="classcqsp_1_1asset_1_1_hjson_asset.html#ab9772482457870ec60118b7a0d0a207a">cqsp::asset::HjsonAsset</a>, <a class="el" href="classcqsp_1_1asset_1_1_binary_asset.html#aead008405a181ec2ed38a1f8809e37b0">cqsp::asset::BinaryAsset</a>, <a class="el" href="classcqsp_1_1asset_1_1_audio_asset.html#a01929b36da7cd0eb7988eb25455fcb08">cqsp::asset::AudioAsset</a>, <a class="el" href="classcqsp_1_1asset_1_1_shader.html#ad08c1c928c8477c41d1c084915acdc3f">cqsp::asset::Shader</a>, <a class="el" href="classcqsp_1_1asset_1_1_shader_definition.html#acbb6db5424259714f025b2ef0dab6a29">cqsp::asset::ShaderDefinition</a>, <a class="el" href="classcqsp_1_1asset_1_1_font.html#a8baee4d0c25adbe188d1742fc4270dbc">cqsp::asset::Font</a>, and <a class="el" href="classcqsp_1_1asset_1_1_texture.html#ac40d37ec7a4cfeed8d22d040f935a5c9">cqsp::asset::Texture</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="af46c635473d57be1b6fa036e5f8bee7e" name="af46c635473d57be1b6fa036e5f8bee7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af46c635473d57be1b6fa036e5f8bee7e">&#9670;&nbsp;</a></span>accessed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::asset::Asset::accessed = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a88cae102135cad8fd03e0cdbb2e30b79" name="a88cae102135cad8fd03e0cdbb2e30b79"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88cae102135cad8fd03e0cdbb2e30b79">&#9670;&nbsp;</a></span>path</h2>
 
@@ -157,7 +203,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 7 2023 14:31:49 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Aug 27 2023 05:22:32 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
