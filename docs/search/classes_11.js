@@ -2,7 +2,7 @@ var searchData=
 [
   ['save_0',['Save',['../classcqsp_1_1common_1_1save_1_1_save.html',1,'cqsp::common::save']]],
   ['savegame_1',['SaveGame',['../structcqsp_1_1client_1_1_load_game_window_1_1_save_game.html',1,'cqsp::client::LoadGameWindow']]],
-  ['scene_2',['Scene',['../classcqsp_1_1engine_1_1_scene.html',1,'cqsp::engine']]],
+  ['scene_2',['Scene',['../classcqsp_1_1client_1_1_scene.html',1,'cqsp::client::Scene'],['../classcqsp_1_1engine_1_1_scene.html',1,'cqsp::engine::Scene']]],
   ['scenemanager_3',['SceneManager',['../classcqsp_1_1engine_1_1_scene_manager.html',1,'cqsp::engine']]],
   ['science_4',['Science',['../structcqsp_1_1common_1_1components_1_1science_1_1_science.html',1,'cqsp::common::components::science']]],
   ['scienceproject_5',['ScienceProject',['../structcqsp_1_1common_1_1components_1_1science_1_1_science_project.html',1,'cqsp::common::components::science']]],

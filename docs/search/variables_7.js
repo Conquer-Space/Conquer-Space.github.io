@@ -1,9 +1,9 @@
 var searchData=
 [
   ['g_0',['g',['../structcqsp_1_1common_1_1components_1_1_province_color.html#ab00829bd4374f1ed14cfe924456bde41',1,'cqsp::common::components::ProvinceColor']]],
-  ['g_1',['G',['../namespacecqsp_1_1common_1_1components_1_1types.html#a1a723ee5f31f2120970f674e298ca1d9',1,'cqsp::common::components::types']]],
-  ['g_5fkm_2',['G_km',['../namespacecqsp_1_1common_1_1components_1_1types.html#a73ad06b0ec3a254573096d17ddafd695',1,'cqsp::common::components::types']]],
-  ['game_3',['game',['../classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a5f88777255125e6fee6951511f36f3e2',1,'cqsp::common::systems::ISimulationSystem']]],
+  ['g_1',['G',['../namespacecqsp_1_1common_1_1components_1_1types.html#a539df0754a0db51fac820ada80a3d0d3',1,'cqsp::common::components::types']]],
+  ['g_5fkm_2',['G_km',['../namespacecqsp_1_1common_1_1components_1_1types.html#ac7dc30ef01f3940502750ce23dbe208e',1,'cqsp::common::components::types']]],
+  ['game_3',['game',['../classcqsp_1_1client_1_1_conquer_space.html#ab68af177e3ad663ca0e803c25e30dd5b',1,'cqsp::client::ConquerSpace::game()'],['../classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a5f88777255125e6fee6951511f36f3e2',1,'cqsp::common::systems::ISimulationSystem::game()']]],
   ['game_5fhalted_4',['game_halted',['../universescene_8cpp.html#a131bb7e924af5f4e354ee10ad8b303ed',1,'universescene.cpp']]],
   ['gdp_5',['gdp',['../classcqsp_1_1common_1_1components_1_1_market_history.html#a1e90d91bf7d553e56a8bfc399eff66f3',1,'cqsp::common::components::MarketHistory']]],
   ['gdp_6',['GDP',['../structcqsp_1_1common_1_1components_1_1_market.html#a2973e9de5ae9b5d6a8306b4323686f8b',1,'cqsp::common::components::Market']]],

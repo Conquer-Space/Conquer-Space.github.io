@@ -104,11 +104,11 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:aec5a546599bc61c0968c1e1b20165bd9"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_polar_coordinate__tp.html">PolarCoordinate_tp</a>&lt; <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">types::astronomical_unit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aec5a546599bc61c0968c1e1b20165bd9">PolarCoordinate</a></td></tr>
+<tr class="separator:aec5a546599bc61c0968c1e1b20165bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4a09f5cac83f53111957737bf40bb06"><td class="memItemLeft" align="right" valign="top">typedef glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad4a09f5cac83f53111957737bf40bb06">Vec3AU</a></td></tr>
 <tr class="memdesc:ad4a09f5cac83f53111957737bf40bb06"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vector3 where the units are astronomical units  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#ad4a09f5cac83f53111957737bf40bb06">More...</a><br /></td></tr>
 <tr class="separator:ad4a09f5cac83f53111957737bf40bb06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec5a546599bc61c0968c1e1b20165bd9"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_polar_coordinate__tp.html">PolarCoordinate_tp</a>&lt; <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">types::astronomical_unit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aec5a546599bc61c0968c1e1b20165bd9">PolarCoordinate</a></td></tr>
-<tr class="separator:aec5a546599bc61c0968c1e1b20165bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad27bce2c5d3ecf1c47a38c5f573654e6"><td class="memItemLeft" align="right" valign="top">typedef double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a></td></tr>
 <tr class="separator:ad27bce2c5d3ecf1c47a38c5f573654e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b6b865c659a9073534b912b15d78a60"><td class="memItemLeft" align="right" valign="top">typedef double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9b6b865c659a9073534b912b15d78a60">light_year</a></td></tr>
@@ -158,11 +158,28 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a8bcad017bc3b3cd8de6d2d893bf39315"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a8bcad017bc3b3cd8de6d2d893bf39315">GreatCircleDistance</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a> &amp;coord1, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a> &amp;coord2)</td></tr>
+<tr class="memdesc:a8bcad017bc3b3cd8de6d2d893bf39315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the angle between the two coordinates. Just multiply by the planet's diameter for fun and engagement.  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a8bcad017bc3b3cd8de6d2d893bf39315">More...</a><br /></td></tr>
+<tr class="separator:a8bcad017bc3b3cd8de6d2d893bf39315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47f7357b47b2da936d5f7d174141e7ad"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a47f7357b47b2da936d5f7d174141e7ad">toVec3</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a> &amp;coord, const float &amp;radius=1)</td></tr>
+<tr class="memdesc:a47f7357b47b2da936d5f7d174141e7ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts surface coordinate to vector3 in space so that we can get the surface coordinate to render in space  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a47f7357b47b2da936d5f7d174141e7ad">More...</a><br /></td></tr>
+<tr class="separator:a47f7357b47b2da936d5f7d174141e7ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2df81fd3060a58bae0a4c04fb8994cbe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a2df81fd3060a58bae0a4c04fb8994cbe">GetLaunchAzimuth</a> (double latitude, double inclination)</td></tr>
+<tr class="memdesc:a2df81fd3060a58bae0a4c04fb8994cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the azimuth of the orbit based on the latitude and inclination  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a2df81fd3060a58bae0a4c04fb8994cbe">More...</a><br /></td></tr>
+<tr class="separator:a2df81fd3060a58bae0a4c04fb8994cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f5faa4edf9e02cc48aae8c6e77b577"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa7f5faa4edf9e02cc48aae8c6e77b577">GetLaunchInclination</a> (double latitude, double azimuth)</td></tr>
+<tr class="memdesc:aa7f5faa4edf9e02cc48aae8c6e77b577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the inclination of the orbit based on the latitude and azimuth  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#aa7f5faa4edf9e02cc48aae8c6e77b577">More...</a><br /></td></tr>
+<tr class="separator:aa7f5faa4edf9e02cc48aae8c6e77b577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a7cc5b5ec7ac6ca73e856fcc6a518b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a10a7cc5b5ec7ac6ca73e856fcc6a518b">ToSurfaceCoordinate</a> (const glm::vec3 &amp;vec)</td></tr>
+<tr class="separator:a10a7cc5b5ec7ac6ca73e856fcc6a518b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3294c2eb2f78df9bad6d15c3d209a8cd"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3294c2eb2f78df9bad6d15c3d209a8cd">toVec3</a> (const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aec5a546599bc61c0968c1e1b20165bd9">PolarCoordinate</a> &amp;coordinate)</td></tr>
+<tr class="memdesc:a3294c2eb2f78df9bad6d15c3d209a8cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D polar coordinate to opengl 3d coordinate  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a3294c2eb2f78df9bad6d15c3d209a8cd">More...</a><br /></td></tr>
+<tr class="separator:a3294c2eb2f78df9bad6d15c3d209a8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1cd6561270cca69a2ae7577c9f43c0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a2c1cd6561270cca69a2ae7577c9f43c0">GetOrbitingRadius</a> (const double &amp;e, const double &amp;a, const double &amp;v)</td></tr>
+<tr class="separator:a2c1cd6561270cca69a2ae7577c9f43c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a295c90db9d8393eb83c655900b9ce7f0"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a295c90db9d8393eb83c655900b9ce7f0">ConvertOrbParams</a> (const double LAN, const double i, const double w, const glm::dvec3 &amp;vec)</td></tr>
 <tr class="memdesc:a295c90db9d8393eb83c655900b9ce7f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the orbital params with the inclination, longitude of ascending node, and argument or periapsis  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a295c90db9d8393eb83c655900b9ce7f0">More...</a><br /></td></tr>
 <tr class="separator:a295c90db9d8393eb83c655900b9ce7f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c1cd6561270cca69a2ae7577c9f43c0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a2c1cd6561270cca69a2ae7577c9f43c0">GetOrbitingRadius</a> (const double &amp;e, const double &amp;a, const double &amp;v)</td></tr>
-<tr class="separator:a2c1cd6561270cca69a2ae7577c9f43c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf095e129f33c2f3c1f80af47b679eff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#abf095e129f33c2f3c1f80af47b679eff">Vec3ToOrbit</a> (const glm::dvec3 &amp;position, const glm::dvec3 &amp;velocity, const double &amp;GM, const double &amp;time)</td></tr>
 <tr class="memdesc:abf095e129f33c2f3c1f80af47b679eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts position and velocity to orbit.  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#abf095e129f33c2f3c1f80af47b679eff">More...</a><br /></td></tr>
 <tr class="separator:abf095e129f33c2f3c1f80af47b679eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,25 +222,12 @@ Functions</h2></td></tr>
 <tr class="separator:a425390deec529e0e6b9801b6676b49ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec5bd748fc5117ef7e55c88c87d8ddf2"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aec5bd748fc5117ef7e55c88c87d8ddf2">CalculateVelocityElliptic</a> (const double &amp;E, const double &amp;r, const double &amp;GM, const double &amp;a, const double &amp;e)</td></tr>
 <tr class="separator:aec5bd748fc5117ef7e55c88c87d8ddf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bcad017bc3b3cd8de6d2d893bf39315"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a8bcad017bc3b3cd8de6d2d893bf39315">GreatCircleDistance</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a> &amp;coord1, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a> &amp;coord2)</td></tr>
-<tr class="memdesc:a8bcad017bc3b3cd8de6d2d893bf39315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the angle between the two coordinates. Just multiply by the planet's diameter for fun and engagement.  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a8bcad017bc3b3cd8de6d2d893bf39315">More...</a><br /></td></tr>
-<tr class="separator:a8bcad017bc3b3cd8de6d2d893bf39315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47f7357b47b2da936d5f7d174141e7ad"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a47f7357b47b2da936d5f7d174141e7ad">toVec3</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a> &amp;coord, const float &amp;radius=1)</td></tr>
-<tr class="memdesc:a47f7357b47b2da936d5f7d174141e7ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts surface coordinate to vector3 in space so that we can get the surface coordinate to render in space  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a47f7357b47b2da936d5f7d174141e7ad">More...</a><br /></td></tr>
-<tr class="separator:a47f7357b47b2da936d5f7d174141e7ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b33f027945f206dfd72efafc2f107e9"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a1b33f027945f206dfd72efafc2f107e9">OrbitTimeToVec3</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">second</a> &amp;time)</td></tr>
 <tr class="separator:a1b33f027945f206dfd72efafc2f107e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2df81fd3060a58bae0a4c04fb8994cbe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a2df81fd3060a58bae0a4c04fb8994cbe">GetLaunchAzimuth</a> (double latitude, double inclination)</td></tr>
-<tr class="memdesc:a2df81fd3060a58bae0a4c04fb8994cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the azimuth of the orbit based on the latitude and inclination  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a2df81fd3060a58bae0a4c04fb8994cbe">More...</a><br /></td></tr>
-<tr class="separator:a2df81fd3060a58bae0a4c04fb8994cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7f5faa4edf9e02cc48aae8c6e77b577"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa7f5faa4edf9e02cc48aae8c6e77b577">GetLaunchInclination</a> (double latitude, double azimuth)</td></tr>
-<tr class="memdesc:aa7f5faa4edf9e02cc48aae8c6e77b577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the inclination of the orbit based on the latitude and azimuth  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#aa7f5faa4edf9e02cc48aae8c6e77b577">More...</a><br /></td></tr>
-<tr class="separator:aa7f5faa4edf9e02cc48aae8c6e77b577"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10a7cc5b5ec7ac6ca73e856fcc6a518b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a10a7cc5b5ec7ac6ca73e856fcc6a518b">ToSurfaceCoordinate</a> (const glm::vec3 &amp;vec)</td></tr>
-<tr class="separator:a10a7cc5b5ec7ac6ca73e856fcc6a518b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3294c2eb2f78df9bad6d15c3d209a8cd"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3294c2eb2f78df9bad6d15c3d209a8cd">toVec3</a> (const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aec5a546599bc61c0968c1e1b20165bd9">PolarCoordinate</a> &amp;coordinate)</td></tr>
-<tr class="memdesc:a3294c2eb2f78df9bad6d15c3d209a8cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D polar coordinate to opengl 3d coordinate  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a3294c2eb2f78df9bad6d15c3d209a8cd">More...</a><br /></td></tr>
-<tr class="separator:a3294c2eb2f78df9bad6d15c3d209a8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e6525edf0e7fa9ce3c10a68c70951b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa0e6525edf0e7fa9ce3c10a68c70951b">CalculateTransferTime</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb1, const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb2)</td></tr>
+<tr class="separator:aa0e6525edf0e7fa9ce3c10a68c70951b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a723ae97626403afac5b3a8a97cafa033"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a723ae97626403afac5b3a8a97cafa033">CalculateTransferAngle</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb1, const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb2)</td></tr>
+<tr class="separator:a723ae97626403afac5b3a8a97cafa033"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae00d7dd62d20509527a3685c579ec8d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad4a09f5cac83f53111957737bf40bb06">Vec3AU</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ae00d7dd62d20509527a3685c579ec8d8">toVec3AU</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb, <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> theta)</td></tr>
 <tr class="memdesc:ae00d7dd62d20509527a3685c579ec8d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert orbit to AU coordinates  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#ae00d7dd62d20509527a3685c579ec8d8">More...</a><br /></td></tr>
 <tr class="separator:ae00d7dd62d20509527a3685c579ec8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,42 +242,48 @@ Functions</h2></td></tr>
 <tr class="memitem:af7c36e9c3e12c040b8f58d38f16989db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#af7c36e9c3e12c040b8f58d38f16989db">UpdatePos</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">Kinematics</a> &amp;kin, const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb)</td></tr>
 <tr class="memdesc:af7c36e9c3e12c040b8f58d38f16989db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the position of an orbit, in AU.  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#af7c36e9c3e12c040b8f58d38f16989db">More...</a><br /></td></tr>
 <tr class="separator:af7c36e9c3e12c040b8f58d38f16989db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8a5374820afccc5b17d6bd3bf6e2946"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa8a5374820afccc5b17d6bd3bf6e2946">normalize_radian</a> (const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> &amp;<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>)</td></tr>
-<tr class="memdesc:aa8a5374820afccc5b17d6bd3bf6e2946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes a radian to [0, PI*2)  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#aa8a5374820afccc5b17d6bd3bf6e2946">More...</a><br /></td></tr>
-<tr class="separator:aa8a5374820afccc5b17d6bd3bf6e2946"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0bee5a20d76d5d86e5ced6cf5b98f8a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ac0bee5a20d76d5d86e5ced6cf5b98f8a">normalize_radian_coord</a> (const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> &amp;<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>)</td></tr>
-<tr class="separator:ac0bee5a20d76d5d86e5ced6cf5b98f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeab98436b692c8fd745ae6f09d053681"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aeab98436b692c8fd745ae6f09d053681">normalize_degree</a> (const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a> &amp;<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>)</td></tr>
-<tr class="separator:aeab98436b692c8fd745ae6f09d053681"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1fd1122cb87f648a45af98c04fd29a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#af1fd1122cb87f648a45af98c04fd29a9">toAU</a> (<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a> km)</td></tr>
-<tr class="separator:af1fd1122cb87f648a45af98c04fd29a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90ec0b8481bed3df4c392dfdcd000856"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9b6b865c659a9073534b912b15d78a60">light_year</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a90ec0b8481bed3df4c392dfdcd000856">toLightYear</a> (<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a> au)</td></tr>
-<tr class="separator:a90ec0b8481bed3df4c392dfdcd000856"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3581d15e700a159eca4c3b4638bbb1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ab3581d15e700a159eca4c3b4638bbb1b">LtyrtoAU</a> (<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9b6b865c659a9073534b912b15d78a60">light_year</a> ltyr)</td></tr>
-<tr class="separator:ab3581d15e700a159eca4c3b4638bbb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d4b206ac7fb8d6250abcb8c4191f2f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7d4b206ac7fb8d6250abcb8c4191f2f4">toKm</a> (<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a> au)</td></tr>
-<tr class="separator:a7d4b206ac7fb8d6250abcb8c4191f2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4c42be4fb045bda05dbfd96ad218522"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ab4c42be4fb045bda05dbfd96ad218522">toRadian</a> (<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a> theta)</td></tr>
-<tr class="separator:ab4c42be4fb045bda05dbfd96ad218522"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0223240f7655ebf87f03d736bf6de82e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a0223240f7655ebf87f03d736bf6de82e">toDegree</a> (<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> theta)</td></tr>
-<tr class="separator:a0223240f7655ebf87f03d736bf6de82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716558e5d2f1f84a548b70d5a859cfbe"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a716558e5d2f1f84a548b70d5a859cfbe">floatmod</a> (double x, double y)</td></tr>
+<tr class="separator:a716558e5d2f1f84a548b70d5a859cfbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a12f16f00996f87c93e64e87ca38db"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a83a12f16f00996f87c93e64e87ca38db">normalize_radian</a> (const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> &amp;<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>)</td></tr>
+<tr class="memdesc:a83a12f16f00996f87c93e64e87ca38db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes a radian to [0, PI*2)  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a83a12f16f00996f87c93e64e87ca38db">More...</a><br /></td></tr>
+<tr class="separator:a83a12f16f00996f87c93e64e87ca38db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf11a741d2567b381ab7d8045392c150"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#acf11a741d2567b381ab7d8045392c150">normalize_radian_coord</a> (const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> &amp;<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>)</td></tr>
+<tr class="separator:acf11a741d2567b381ab7d8045392c150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf780b98a84e1633f1142786ad2ef716"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#abf780b98a84e1633f1142786ad2ef716">normalize_degree</a> (const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a> &amp;<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>)</td></tr>
+<tr class="separator:abf780b98a84e1633f1142786ad2ef716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4585f5fec94ec7cecea4b21263b6afa"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ab4585f5fec94ec7cecea4b21263b6afa">toAU</a> (<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a> km)</td></tr>
+<tr class="separator:ab4585f5fec94ec7cecea4b21263b6afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5b649cc7c5eb01907b2e598c4cce946"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9b6b865c659a9073534b912b15d78a60">light_year</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ab5b649cc7c5eb01907b2e598c4cce946">toLightYear</a> (<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a> au)</td></tr>
+<tr class="separator:ab5b649cc7c5eb01907b2e598c4cce946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a5ca362cc9c0cfc732e2d1da4bdde76"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a2a5ca362cc9c0cfc732e2d1da4bdde76">LtyrtoAU</a> (<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9b6b865c659a9073534b912b15d78a60">light_year</a> ltyr)</td></tr>
+<tr class="separator:a2a5ca362cc9c0cfc732e2d1da4bdde76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7be8cc0e075c4ed9988344ff8cc986"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9c7be8cc0e075c4ed9988344ff8cc986">toKm</a> (<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a> au)</td></tr>
+<tr class="separator:a9c7be8cc0e075c4ed9988344ff8cc986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f3e3907d41d08ef414a6e0213029ab4"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7f3e3907d41d08ef414a6e0213029ab4">toRadian</a> (<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a> theta)</td></tr>
+<tr class="separator:a7f3e3907d41d08ef414a6e0213029ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a203475acf99978bcc754487803d7fa26"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a203475acf99978bcc754487803d7fa26">toDegree</a> (<a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> theta)</td></tr>
+<tr class="separator:a203475acf99978bcc754487803d7fa26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a719f60258eaa2c3d3a26f8b287773907"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a719f60258eaa2c3d3a26f8b287773907">operator&quot;&quot;_deg</a> (const long double deg)</td></tr>
+<tr class="separator:a719f60258eaa2c3d3a26f8b287773907"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a290583df3d2e390188addc32b3abf64c"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a290583df3d2e390188addc32b3abf64c">operator&quot;&quot;_au</a> (const long double au)</td></tr>
+<tr class="separator:a290583df3d2e390188addc32b3abf64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ac4b23298484e321f42367ca0cabcce6a"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ac4b23298484e321f42367ca0cabcce6a">PI</a> = 3.14159265358979323846</td></tr>
-<tr class="separator:ac4b23298484e321f42367ca0cabcce6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fbb9a00fb0a7a6827a37d98bb4d944c"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6fbb9a00fb0a7a6827a37d98bb4d944c">TWOPI</a> = <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ac4b23298484e321f42367ca0cabcce6a">PI</a> * 2</td></tr>
-<tr class="separator:a6fbb9a00fb0a7a6827a37d98bb4d944c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accdd0feaff0cb97750e448549f45f428"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#accdd0feaff0cb97750e448549f45f428">HALFPI</a> = <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ac4b23298484e321f42367ca0cabcce6a">PI</a> / 2</td></tr>
-<tr class="separator:accdd0feaff0cb97750e448549f45f428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a3e6b130d20c429cd1f94b4c1100da0"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a5a3e6b130d20c429cd1f94b4c1100da0">KmInAu</a> = 149597870.700</td></tr>
-<tr class="separator:a5a3e6b130d20c429cd1f94b4c1100da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a723ee5f31f2120970f674e298ca1d9"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a1a723ee5f31f2120970f674e298ca1d9">G</a> = 6.6743015e-11</td></tr>
-<tr class="separator:a1a723ee5f31f2120970f674e298ca1d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73ad06b0ec3a254573096d17ddafd695"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a73ad06b0ec3a254573096d17ddafd695">G_km</a> = 6.6743015e-20</td></tr>
-<tr class="separator:a73ad06b0ec3a254573096d17ddafd695"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add3afd0aeb9f076a10fd4922efb1eda9"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#add3afd0aeb9f076a10fd4922efb1eda9">SunMu</a> = 1.32712400188e11</td></tr>
-<tr class="separator:add3afd0aeb9f076a10fd4922efb1eda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f3dad71ea29683baef6c9d306a40945"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9f3dad71ea29683baef6c9d306a40945">PI</a> = 3.14159265358979323846</td></tr>
+<tr class="separator:a9f3dad71ea29683baef6c9d306a40945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a925e4745f6de13a352c59375761e3ff2"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a925e4745f6de13a352c59375761e3ff2">TWOPI</a> = <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9f3dad71ea29683baef6c9d306a40945">PI</a> * 2</td></tr>
+<tr class="separator:a925e4745f6de13a352c59375761e3ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44952f7cc9bb2700b51cb3113e39694"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#af44952f7cc9bb2700b51cb3113e39694">HALFPI</a> = <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9f3dad71ea29683baef6c9d306a40945">PI</a> / 2</td></tr>
+<tr class="separator:af44952f7cc9bb2700b51cb3113e39694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a555f47de01ff732b65878f5bd3adbcc9"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a555f47de01ff732b65878f5bd3adbcc9">KmInAu</a> = 149597870.700</td></tr>
+<tr class="separator:a555f47de01ff732b65878f5bd3adbcc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a539df0754a0db51fac820ada80a3d0d3"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a539df0754a0db51fac820ada80a3d0d3">G</a> = 6.6743015e-11</td></tr>
+<tr class="separator:a539df0754a0db51fac820ada80a3d0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7dc30ef01f3940502750ce23dbe208e"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ac7dc30ef01f3940502750ce23dbe208e">G_km</a> = 6.6743015e-20</td></tr>
+<tr class="separator:ac7dc30ef01f3940502750ce23dbe208e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c2339a8d93165e7be56b4d5864e2f2"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a57c2339a8d93165e7be56b4d5864e2f2">SunMu</a> = 1.32712400188e11</td></tr>
+<tr class="separator:a57c2339a8d93165e7be56b4d5864e2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ad27bce2c5d3ecf1c47a38c5f573654e6" name="ad27bce2c5d3ecf1c47a38c5f573654e6"></a>
@@ -523,6 +533,62 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a723ae97626403afac5b3a8a97cafa033" name="a723ae97626403afac5b3a8a97cafa033"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a723ae97626403afac5b3a8a97cafa033">&#9670;&nbsp;</a></span>CalculateTransferAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::common::components::types::CalculateTransferAngle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orb1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orb2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0e6525edf0e7fa9ce3c10a68c70951b" name="aa0e6525edf0e7fa9ce3c10a68c70951b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0e6525edf0e7fa9ce3c10a68c70951b">&#9670;&nbsp;</a></span>CalculateTransferTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::common::components::types::CalculateTransferTime </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orb1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orb2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adbcea11ea7e82974aed27199822a47ee" name="adbcea11ea7e82974aed27199822a47ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adbcea11ea7e82974aed27199822a47ee">&#9670;&nbsp;</a></span>CalculateVelocity()</h2>
 
@@ -757,6 +823,42 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a716558e5d2f1f84a548b70d5a859cfbe" name="a716558e5d2f1f84a548b70d5a859cfbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a716558e5d2f1f84a548b70d5a859cfbe">&#9670;&nbsp;</a></span>floatmod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double cqsp::common::components::types::floatmod </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1032,8 +1134,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab3581d15e700a159eca4c3b4638bbb1b" name="ab3581d15e700a159eca4c3b4638bbb1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3581d15e700a159eca4c3b4638bbb1b">&#9670;&nbsp;</a></span>LtyrtoAU()</h2>
+<a id="a2a5ca362cc9c0cfc732e2d1da4bdde76" name="a2a5ca362cc9c0cfc732e2d1da4bdde76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a5ca362cc9c0cfc732e2d1da4bdde76">&#9670;&nbsp;</a></span>LtyrtoAU()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1042,7 +1144,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a> cqsp::common::components::types::LtyrtoAU </td>
+          <td class="memname">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a> cqsp::common::components::types::LtyrtoAU </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9b6b865c659a9073534b912b15d78a60">light_year</a>&#160;</td>
           <td class="paramname"><em>ltyr</em></td><td>)</td>
@@ -1051,15 +1153,15 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aeab98436b692c8fd745ae6f09d053681" name="aeab98436b692c8fd745ae6f09d053681"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeab98436b692c8fd745ae6f09d053681">&#9670;&nbsp;</a></span>normalize_degree()</h2>
+<a id="abf780b98a84e1633f1142786ad2ef716" name="abf780b98a84e1633f1142786ad2ef716"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf780b98a84e1633f1142786ad2ef716">&#9670;&nbsp;</a></span>normalize_degree()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1068,7 +1170,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a> cqsp::common::components::types::normalize_degree </td>
+          <td class="memname">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a> cqsp::common::components::types::normalize_degree </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a> &amp;&#160;</td>
           <td class="paramname"><em>radian</em></td><td>)</td>
@@ -1077,15 +1179,15 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aa8a5374820afccc5b17d6bd3bf6e2946" name="aa8a5374820afccc5b17d6bd3bf6e2946"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8a5374820afccc5b17d6bd3bf6e2946">&#9670;&nbsp;</a></span>normalize_radian()</h2>
+<a id="a83a12f16f00996f87c93e64e87ca38db" name="a83a12f16f00996f87c93e64e87ca38db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83a12f16f00996f87c93e64e87ca38db">&#9670;&nbsp;</a></span>normalize_radian()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1094,7 +1196,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> cqsp::common::components::types::normalize_radian </td>
+          <td class="memname">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> cqsp::common::components::types::normalize_radian </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> &amp;&#160;</td>
           <td class="paramname"><em>radian</em></td><td>)</td>
@@ -1103,7 +1205,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1118,8 +1220,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac0bee5a20d76d5d86e5ced6cf5b98f8a" name="ac0bee5a20d76d5d86e5ced6cf5b98f8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0bee5a20d76d5d86e5ced6cf5b98f8a">&#9670;&nbsp;</a></span>normalize_radian_coord()</h2>
+<a id="acf11a741d2567b381ab7d8045392c150" name="acf11a741d2567b381ab7d8045392c150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf11a741d2567b381ab7d8045392c150">&#9670;&nbsp;</a></span>normalize_radian_coord()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1128,7 +1230,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double cqsp::common::components::types::normalize_radian_coord </td>
+          <td class="memname">constexpr double cqsp::common::components::types::normalize_radian_coord </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> &amp;&#160;</td>
           <td class="paramname"><em>radian</em></td><td>)</td>
@@ -1137,7 +1239,59 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a290583df3d2e390188addc32b3abf64c" name="a290583df3d2e390188addc32b3abf64c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a290583df3d2e390188addc32b3abf64c">&#9670;&nbsp;</a></span>operator&quot;&quot;_au()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double cqsp::common::components::types::operator&quot;&quot;_au </td>
+          <td>(</td>
+          <td class="paramtype">const long double&#160;</td>
+          <td class="paramname"><em>au</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a719f60258eaa2c3d3a26f8b287773907" name="a719f60258eaa2c3d3a26f8b287773907"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a719f60258eaa2c3d3a26f8b287773907">&#9670;&nbsp;</a></span>operator&quot;&quot;_deg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double cqsp::common::components::types::operator&quot;&quot;_deg </td>
+          <td>(</td>
+          <td class="paramtype">const long double&#160;</td>
+          <td class="paramname"><em>deg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1356,8 +1510,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af1fd1122cb87f648a45af98c04fd29a9" name="af1fd1122cb87f648a45af98c04fd29a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1fd1122cb87f648a45af98c04fd29a9">&#9670;&nbsp;</a></span>toAU()</h2>
+<a id="ab4585f5fec94ec7cecea4b21263b6afa" name="ab4585f5fec94ec7cecea4b21263b6afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4585f5fec94ec7cecea4b21263b6afa">&#9670;&nbsp;</a></span>toAU()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1366,7 +1520,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a> cqsp::common::components::types::toAU </td>
+          <td class="memname">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a> cqsp::common::components::types::toAU </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a>&#160;</td>
           <td class="paramname"><em>km</em></td><td>)</td>
@@ -1375,15 +1529,15 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a0223240f7655ebf87f03d736bf6de82e" name="a0223240f7655ebf87f03d736bf6de82e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0223240f7655ebf87f03d736bf6de82e">&#9670;&nbsp;</a></span>toDegree()</h2>
+<a id="a203475acf99978bcc754487803d7fa26" name="a203475acf99978bcc754487803d7fa26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a203475acf99978bcc754487803d7fa26">&#9670;&nbsp;</a></span>toDegree()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1392,7 +1546,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a> cqsp::common::components::types::toDegree </td>
+          <td class="memname">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a> cqsp::common::components::types::toDegree </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>&#160;</td>
           <td class="paramname"><em>theta</em></td><td>)</td>
@@ -1401,15 +1555,15 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7d4b206ac7fb8d6250abcb8c4191f2f4" name="a7d4b206ac7fb8d6250abcb8c4191f2f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d4b206ac7fb8d6250abcb8c4191f2f4">&#9670;&nbsp;</a></span>toKm()</h2>
+<a id="a9c7be8cc0e075c4ed9988344ff8cc986" name="a9c7be8cc0e075c4ed9988344ff8cc986"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c7be8cc0e075c4ed9988344ff8cc986">&#9670;&nbsp;</a></span>toKm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1418,7 +1572,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a> cqsp::common::components::types::toKm </td>
+          <td class="memname">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a> cqsp::common::components::types::toKm </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a>&#160;</td>
           <td class="paramname"><em>au</em></td><td>)</td>
@@ -1427,15 +1581,15 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a90ec0b8481bed3df4c392dfdcd000856" name="a90ec0b8481bed3df4c392dfdcd000856"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90ec0b8481bed3df4c392dfdcd000856">&#9670;&nbsp;</a></span>toLightYear()</h2>
+<a id="ab5b649cc7c5eb01907b2e598c4cce946" name="ab5b649cc7c5eb01907b2e598c4cce946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5b649cc7c5eb01907b2e598c4cce946">&#9670;&nbsp;</a></span>toLightYear()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1444,7 +1598,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9b6b865c659a9073534b912b15d78a60">light_year</a> cqsp::common::components::types::toLightYear </td>
+          <td class="memname">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9b6b865c659a9073534b912b15d78a60">light_year</a> cqsp::common::components::types::toLightYear </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad27bce2c5d3ecf1c47a38c5f573654e6">astronomical_unit</a>&#160;</td>
           <td class="paramname"><em>au</em></td><td>)</td>
@@ -1453,15 +1607,15 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab4c42be4fb045bda05dbfd96ad218522" name="ab4c42be4fb045bda05dbfd96ad218522"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4c42be4fb045bda05dbfd96ad218522">&#9670;&nbsp;</a></span>toRadian()</h2>
+<a id="a7f3e3907d41d08ef414a6e0213029ab4" name="a7f3e3907d41d08ef414a6e0213029ab4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f3e3907d41d08ef414a6e0213029ab4">&#9670;&nbsp;</a></span>toRadian()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1470,7 +1624,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> cqsp::common::components::types::toRadian </td>
+          <td class="memname">constexpr <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> cqsp::common::components::types::toRadian </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa12a2b31f6a259cf387d57f84d6b44c5">degree</a>&#160;</td>
           <td class="paramname"><em>theta</em></td><td>)</td>
@@ -1479,7 +1633,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1954,8 +2108,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a1a723ee5f31f2120970f674e298ca1d9" name="a1a723ee5f31f2120970f674e298ca1d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a723ee5f31f2120970f674e298ca1d9">&#9670;&nbsp;</a></span>G</h2>
+<a id="a539df0754a0db51fac820ada80a3d0d3" name="a539df0754a0db51fac820ada80a3d0d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a539df0754a0db51fac820ada80a3d0d3">&#9670;&nbsp;</a></span>G</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1964,20 +2118,20 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const double cqsp::common::components::types::G = 6.6743015e-11</td>
+          <td class="memname">constexpr double cqsp::common::components::types::G = 6.6743015e-11</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a73ad06b0ec3a254573096d17ddafd695" name="a73ad06b0ec3a254573096d17ddafd695"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73ad06b0ec3a254573096d17ddafd695">&#9670;&nbsp;</a></span>G_km</h2>
+<a id="ac7dc30ef01f3940502750ce23dbe208e" name="ac7dc30ef01f3940502750ce23dbe208e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7dc30ef01f3940502750ce23dbe208e">&#9670;&nbsp;</a></span>G_km</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1986,62 +2140,20 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const double cqsp::common::components::types::G_km = 6.6743015e-20</td>
+          <td class="memname">constexpr double cqsp::common::components::types::G_km = 6.6743015e-20</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="accdd0feaff0cb97750e448549f45f428" name="accdd0feaff0cb97750e448549f45f428"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accdd0feaff0cb97750e448549f45f428">&#9670;&nbsp;</a></span>HALFPI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double cqsp::common::components::types::HALFPI = <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ac4b23298484e321f42367ca0cabcce6a">PI</a> / 2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5a3e6b130d20c429cd1f94b4c1100da0" name="a5a3e6b130d20c429cd1f94b4c1100da0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a3e6b130d20c429cd1f94b4c1100da0">&#9670;&nbsp;</a></span>KmInAu</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double cqsp::common::components::types::KmInAu = 149597870.700</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac4b23298484e321f42367ca0cabcce6a" name="ac4b23298484e321f42367ca0cabcce6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4b23298484e321f42367ca0cabcce6a">&#9670;&nbsp;</a></span>PI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double cqsp::common::components::types::PI = 3.14159265358979323846</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="add3afd0aeb9f076a10fd4922efb1eda9" name="add3afd0aeb9f076a10fd4922efb1eda9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add3afd0aeb9f076a10fd4922efb1eda9">&#9670;&nbsp;</a></span>SunMu</h2>
+<a id="af44952f7cc9bb2700b51cb3113e39694" name="af44952f7cc9bb2700b51cb3113e39694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af44952f7cc9bb2700b51cb3113e39694">&#9670;&nbsp;</a></span>HALFPI</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2050,28 +2162,102 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const double cqsp::common::components::types::SunMu = 1.32712400188e11</td>
+          <td class="memname">constexpr double cqsp::common::components::types::HALFPI = <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9f3dad71ea29683baef6c9d306a40945">PI</a> / 2</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6fbb9a00fb0a7a6827a37d98bb4d944c" name="a6fbb9a00fb0a7a6827a37d98bb4d944c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fbb9a00fb0a7a6827a37d98bb4d944c">&#9670;&nbsp;</a></span>TWOPI</h2>
+<a id="a555f47de01ff732b65878f5bd3adbcc9" name="a555f47de01ff732b65878f5bd3adbcc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a555f47de01ff732b65878f5bd3adbcc9">&#9670;&nbsp;</a></span>KmInAu</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const double cqsp::common::components::types::TWOPI = <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ac4b23298484e321f42367ca0cabcce6a">PI</a> * 2</td>
+          <td class="memname">constexpr double cqsp::common::components::types::KmInAu = 149597870.700</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f3dad71ea29683baef6c9d306a40945" name="a9f3dad71ea29683baef6c9d306a40945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f3dad71ea29683baef6c9d306a40945">&#9670;&nbsp;</a></span>PI</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double cqsp::common::components::types::PI = 3.14159265358979323846</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57c2339a8d93165e7be56b4d5864e2f2" name="a57c2339a8d93165e7be56b4d5864e2f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57c2339a8d93165e7be56b4d5864e2f2">&#9670;&nbsp;</a></span>SunMu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double cqsp::common::components::types::SunMu = 1.32712400188e11</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a925e4745f6de13a352c59375761e3ff2" name="a925e4745f6de13a352c59375761e3ff2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a925e4745f6de13a352c59375761e3ff2">&#9670;&nbsp;</a></span>TWOPI</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double cqsp::common::components::types::TWOPI = <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9f3dad71ea29683baef6c9d306a40945">PI</a> * 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -2079,7 +2265,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 4 2023 15:23:56 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Sep 29 2023 04:47:01 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

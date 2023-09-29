@@ -91,7 +91,7 @@ Inheritance diagram for cqsp::client::systems::SysDebugMenu:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab3d98015da76135d3993ca691e0908ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#ab3d98015da76135d3993ca691e0908ce">SysDebugMenu</a> (<a class="el" href="classcqsp_1_1engine_1_1_application.html">cqsp::engine::Application</a> &amp;<a class="el" href="application_8cpp.html#a08c031f46c2bc800cdd9286852d26504">app</a>)</td></tr>
+<tr class="memitem:ab3d98015da76135d3993ca691e0908ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#ab3d98015da76135d3993ca691e0908ce">SysDebugMenu</a> (<a class="el" href="classcqsp_1_1engine_1_1_application.html">cqsp::engine::Application</a> &amp;app)</td></tr>
 <tr class="separator:ab3d98015da76135d3993ca691e0908ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a200611160684d64da630a309199e7f61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a200611160684d64da630a309199e7f61">Init</a> ()</td></tr>
 <tr class="separator:a200611160684d64da630a309199e7f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -108,6 +108,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6b305ce63a36a1ad2d4ea8596ba0f8da inherit pub_methods_classcqsp_1_1client_1_1systems_1_1_sys_user_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10e13989f3dfffed5540871ead533fa7 inherit pub_methods_classcqsp_1_1client_1_1systems_1_1_sys_user_interface"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html#a10e13989f3dfffed5540871ead533fa7">GetUniverse</a> ()</td></tr>
 <tr class="separator:a10e13989f3dfffed5540871ead533fa7 inherit pub_methods_classcqsp_1_1client_1_1systems_1_1_sys_user_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dfe6fc975ce1453f2d3ec97dbfd5a8e inherit pub_methods_classcqsp_1_1client_1_1systems_1_1_sys_user_interface"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1scripting_1_1_script_interface.html">scripting::ScriptInterface</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html#a4dfe6fc975ce1453f2d3ec97dbfd5a8e">GetScriptInterface</a> ()</td></tr>
+<tr class="separator:a4dfe6fc975ce1453f2d3ec97dbfd5a8e inherit pub_methods_classcqsp_1_1client_1_1systems_1_1_sys_user_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f04ebc687dc504715766e4bc333d498 inherit pub_methods_classcqsp_1_1client_1_1systems_1_1_sys_user_interface"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html">cqsp::asset::AssetManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html#a9f04ebc687dc504715766e4bc333d498">GetAssetManager</a> ()</td></tr>
 <tr class="separator:a9f04ebc687dc504715766e4bc333d498 inherit pub_methods_classcqsp_1_1client_1_1systems_1_1_sys_user_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -115,8 +117,8 @@ Public Member Functions</h2></td></tr>
 Private Types</h2></td></tr>
 <tr class="memitem:a5cdf873c7f1ccce49f5ad4500391b10e"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a5cdf873c7f1ccce49f5ad4500391b10e">CommandOutput</a></td></tr>
 <tr class="separator:a5cdf873c7f1ccce49f5ad4500391b10e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbf980fb0e838a68691fa89f19c5c799"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; void(<a class="el" href="classcqsp_1_1engine_1_1_application.html">cqsp::engine::Application</a> &amp;<a class="el" href="application_8cpp.html#a08c031f46c2bc800cdd9286852d26504">app</a>, const std::string_view &amp;args, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a5cdf873c7f1ccce49f5ad4500391b10e">CommandOutput</a> &amp;input)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#acbf980fb0e838a68691fa89f19c5c799">DebugCommand_t</a></td></tr>
-<tr class="separator:acbf980fb0e838a68691fa89f19c5c799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19edd86749d0007ac86f3293212241f0"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; void(<a class="el" href="sysdebuggui_8h.html#a7526b7a16d62655173ca8da9530a1095">sysdebuggui_parameters</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a19edd86749d0007ac86f3293212241f0">DebugCommand_t</a></td></tr>
+<tr class="separator:a19edd86749d0007ac86f3293212241f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -157,7 +159,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ab4435216769972c3963978c35ea97e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac12f5edb9ea395a4b4f80481682d84fe"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#ac12f5edb9ea395a4b4f80481682d84fe">items</a></td></tr>
 <tr class="separator:ac12f5edb9ea395a4b4f80481682d84fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a375e2ab3c81cbfdbff13da33bee63058"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::pair&lt; std::string, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#acbf980fb0e838a68691fa89f19c5c799">DebugCommand_t</a> &gt;, std::less&lt;&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a375e2ab3c81cbfdbff13da33bee63058">commands</a></td></tr>
+<tr class="memitem:a375e2ab3c81cbfdbff13da33bee63058"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::pair&lt; std::string, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a19edd86749d0007ac86f3293212241f0">DebugCommand_t</a> &gt;, std::less&lt;&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a375e2ab3c81cbfdbff13da33bee63058">commands</a></td></tr>
 <tr class="separator:a375e2ab3c81cbfdbff13da33bee63058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc61c16e77cd0f7c84b0f40f481111ef"><td class="memItemLeft" align="right" valign="top">std::vector&lt; ImVec2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#acc61c16e77cd0f7c84b0f40f481111ef">fps_history</a></td></tr>
 <tr class="separator:acc61c16e77cd0f7c84b0f40f481111ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,8 +197,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="acbf980fb0e838a68691fa89f19c5c799" name="acbf980fb0e838a68691fa89f19c5c799"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbf980fb0e838a68691fa89f19c5c799">&#9670;&nbsp;</a></span>DebugCommand_t</h2>
+<a id="a19edd86749d0007ac86f3293212241f0" name="a19edd86749d0007ac86f3293212241f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19edd86749d0007ac86f3293212241f0">&#9670;&nbsp;</a></span>DebugCommand_t</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,7 +207,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::function&lt;void(<a class="el" href="classcqsp_1_1engine_1_1_application.html">cqsp::engine::Application</a>&amp; <a class="el" href="application_8cpp.html#a08c031f46c2bc800cdd9286852d26504">app</a>, const std::string_view&amp; args, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a5cdf873c7f1ccce49f5ad4500391b10e">CommandOutput</a>&amp; input)&gt; <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#acbf980fb0e838a68691fa89f19c5c799">cqsp::client::systems::SysDebugMenu::DebugCommand_t</a></td>
+          <td class="memname">typedef std::function&lt;void(<a class="el" href="sysdebuggui_8h.html#a7526b7a16d62655173ca8da9530a1095">sysdebuggui_parameters</a>)&gt; <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a19edd86749d0007ac86f3293212241f0">cqsp::client::systems::SysDebugMenu::DebugCommand_t</a></td>
         </tr>
       </table>
   </td>
@@ -533,7 +535,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;std::string, std::pair&lt;std::string, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#acbf980fb0e838a68691fa89f19c5c799">DebugCommand_t</a>&gt;, std::less&lt;&gt; &gt; cqsp::client::systems::SysDebugMenu::commands</td>
+          <td class="memname">std::map&lt;std::string, std::pair&lt;std::string, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a19edd86749d0007ac86f3293212241f0">DebugCommand_t</a>&gt;, std::less&lt;&gt; &gt; cqsp::client::systems::SysDebugMenu::commands</td>
         </tr>
       </table>
   </td>
@@ -816,7 +818,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 4 2023 15:23:55 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Sep 29 2023 04:47:01 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

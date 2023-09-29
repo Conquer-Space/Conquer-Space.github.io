@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/engine/scene.h File Reference</title>
+<title>Conquer Space: /github/workspace/src/engine/glfwdebug.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,24 +69,16 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
-  <div class="headertitle"><div class="title">scene.h File Reference</div></div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">glfwdebug.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="application_8h_source.html">engine/application.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="engine_8h_source.html">engine/engine.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="universe_8h_source.html">common/universe.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;glad/glad.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="enginelogger_8h_source.html">engine/enginelogger.h</a>&quot;</code><br />
 </div>
-<p><a href="scene_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="glfwdebug_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_scene.html">cqsp::engine::Scene</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_empty_scene.html">cqsp::engine::EmptyScene</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp.html">cqsp</a></td></tr>
@@ -94,11 +86,22 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacecqsp_1_1engine"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1engine.html">cqsp::engine</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a40c1dd9c5bd467faeee307586a77dfeb"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1engine.html#a40c1dd9c5bd467faeee307586a77dfeb">cqsp::engine::ParseType</a> (GLenum <a class="el" href="assetmanager_8cpp.html#ac765329451135abec74c45e1897abf26">type</a>)</td></tr>
+<tr class="separator:a40c1dd9c5bd467faeee307586a77dfeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7701f9e74379c1d053fabfbedbc8969b"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1engine.html#a7701f9e74379c1d053fabfbedbc8969b">cqsp::engine::ParseSeverity</a> (GLenum severity)</td></tr>
+<tr class="separator:a7701f9e74379c1d053fabfbedbc8969b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae944bb405a063aeb344a5d63827ab306"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1engine.html#ae944bb405a063aeb344a5d63827ab306">cqsp::engine::ParseSource</a> (GLenum source)</td></tr>
+<tr class="separator:ae944bb405a063aeb344a5d63827ab306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a07b9035f2f1f8354d2188b4aba4c6a"><td class="memItemLeft" align="right" valign="top">void APIENTRY&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1engine.html#a0a07b9035f2f1f8354d2188b4aba4c6a">cqsp::engine::glDebugOutput</a> (GLenum source, GLenum <a class="el" href="assetmanager_8cpp.html#ac765329451135abec74c45e1897abf26">type</a>, unsigned int id, GLenum severity, GLsizei length, const char *message, const void *userParam)</td></tr>
+<tr class="separator:a0a07b9035f2f1f8354d2188b4aba4c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 4 2023 15:23:55 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Sep 29 2023 04:47:00 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

@@ -99,7 +99,7 @@ $(function() {
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1engine.html">cqsp::engine</a> {</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html">   27</a></span><span class="keyword">class </span><a class="code hl_class" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html">CQSPSystemInterface</a> : <span class="keyword">public</span> Rml::SystemInterface {</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#a8e21e17c333f1b08a92b040747e827ac">CQSPSystemInterface</a>(<a class="code hl_class" href="classcqsp_1_1engine_1_1_application.html">Application</a>&amp; <a class="code hl_variable" href="application_8cpp.html#a08c031f46c2bc800cdd9286852d26504">app</a>);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#a8e21e17c333f1b08a92b040747e827ac">CQSPSystemInterface</a>(<a class="code hl_class" href="classcqsp_1_1engine_1_1_application.html">Application</a>&amp; app);</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#ad65b7521b6da4010296c9db20badab37">   30</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#ad65b7521b6da4010296c9db20badab37">~CQSPSystemInterface</a>();</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">double</span> <a class="code hl_function" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#a1e0683141fcb5bb0dc8f03a5645cbf4a">GetElapsedTime</a>() <span class="keyword">override</span>;</div>
@@ -110,10 +110,9 @@ $(function() {
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#af815a5cdfc3f72c23eac8e90b2bd4231">   37</a></span>    std::shared_ptr&lt;spdlog::logger&gt; <a class="code hl_variable" href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#af815a5cdfc3f72c23eac8e90b2bd4231">logger</a>;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}  <span class="comment">// namespace cqsp::engine</span></div>
-<div class="ttc" id="aapplication_8cpp_html_a08c031f46c2bc800cdd9286852d26504"><div class="ttname"><a href="application_8cpp.html#a08c031f46c2bc800cdd9286852d26504">app</a></div><div class="ttdeci">Application * app</div><div class="ttdef"><b>Definition:</b> application.cpp:333</div></div>
 <div class="ttc" id="aapplication_8h_html"><div class="ttname"><a href="application_8h.html">application.h</a></div></div>
 <div class="ttc" id="aassetmanager_8cpp_html_ac765329451135abec74c45e1897abf26"><div class="ttname"><a href="assetmanager_8cpp.html#ac765329451135abec74c45e1897abf26">type</a></div><div class="ttdeci">int type</div><div class="ttdef"><b>Definition:</b> assetmanager.cpp:72</div></div>
-<div class="ttc" id="aclasscqsp_1_1engine_1_1_application_html"><div class="ttname"><a href="classcqsp_1_1engine_1_1_application.html">cqsp::engine::Application</a></div><div class="ttdef"><b>Definition:</b> application.h:96</div></div>
+<div class="ttc" id="aclasscqsp_1_1engine_1_1_application_html"><div class="ttname"><a href="classcqsp_1_1engine_1_1_application.html">cqsp::engine::Application</a></div><div class="ttdef"><b>Definition:</b> application.h:47</div></div>
 <div class="ttc" id="aclasscqsp_1_1engine_1_1_c_q_s_p_system_interface_html"><div class="ttname"><a href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html">cqsp::engine::CQSPSystemInterface</a></div><div class="ttdef"><b>Definition:</b> rmlsysteminterface.h:27</div></div>
 <div class="ttc" id="aclasscqsp_1_1engine_1_1_c_q_s_p_system_interface_html_a1e0683141fcb5bb0dc8f03a5645cbf4a"><div class="ttname"><a href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#a1e0683141fcb5bb0dc8f03a5645cbf4a">cqsp::engine::CQSPSystemInterface::GetElapsedTime</a></div><div class="ttdeci">double GetElapsedTime() override</div><div class="ttdef"><b>Definition:</b> rmlsysteminterface.cpp:27</div></div>
 <div class="ttc" id="aclasscqsp_1_1engine_1_1_c_q_s_p_system_interface_html_a8e21e17c333f1b08a92b040747e827ac"><div class="ttname"><a href="classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html#a8e21e17c333f1b08a92b040747e827ac">cqsp::engine::CQSPSystemInterface::CQSPSystemInterface</a></div><div class="ttdeci">CQSPSystemInterface(Application &amp;app)</div><div class="ttdef"><b>Definition:</b> rmlsysteminterface.cpp:21</div></div>
@@ -125,7 +124,7 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 4 2023 15:23:55 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Sep 29 2023 04:47:00 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
