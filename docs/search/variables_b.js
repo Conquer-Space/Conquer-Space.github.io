@@ -6,7 +6,7 @@ var searchData=
   ['last_5fmarket_5finformation_3',['last_market_information',['../structcqsp_1_1common_1_1components_1_1_market.html#a879a04f790d8157274df26acf83a91e7',1,'cqsp::common::components::Market']]],
   ['last_5foptions_5fvisible_4',['last_options_visible',['../classcqsp_1_1scene_1_1_main_menu_scene.html#a7d86030e3edd1e324e4777f116e314cf',1,'cqsp::scene::MainMenuScene']]],
   ['last_5fswitch_5',['last_switch',['../classcqsp_1_1scene_1_1_main_menu_scene.html#ab6ba51fb57fb45bb7cd487ebfe7742fc',1,'cqsp::scene::MainMenuScene']]],
-  ['last_5ftick_6',['last_tick',['../classcqsp_1_1scene_1_1_universe_scene.html#a956102fd96be25e8b4bffaa4615bee71',1,'cqsp::scene::UniverseScene::last_tick()'],['../classcqsp_1_1client_1_1systems_1_1_sys_turn_save_window.html#a6bfb86a9a06dd2aad490107292a862f4',1,'cqsp::client::systems::SysTurnSaveWindow::last_tick()']]],
+  ['last_5ftick_6',['last_tick',['../classcqsp_1_1client_1_1systems_1_1_sys_turn_save_window.html#a6bfb86a9a06dd2aad490107292a862f4',1,'cqsp::client::systems::SysTurnSaveWindow::last_tick()'],['../classcqsp_1_1scene_1_1_universe_scene.html#a956102fd96be25e8b4bffaa4615bee71',1,'cqsp::scene::UniverseScene::last_tick()']]],
   ['lastframe_7',['lastFrame',['../classcqsp_1_1engine_1_1_application.html#a99bdcebadc0d886285ab9084b5e7b5eb',1,'cqsp::engine::Application']]],
   ['latent_5fdemand_8',['latent_demand',['../structcqsp_1_1common_1_1components_1_1_market_information.html#a94a0c1245ec9e640dfbc08881233e4b8',1,'cqsp::common::components::MarketInformation']]],
   ['latent_5fsupply_9',['latent_supply',['../structcqsp_1_1common_1_1components_1_1_market_information.html#a253b03166c1cad69d1d71ea929eb7b8f',1,'cqsp::common::components::MarketInformation']]],

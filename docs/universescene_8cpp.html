@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/client/scenes/universescene.cpp File Reference</title>
+<title>Conquer Space: /github/workspace/src/client/scenes/universe/universescene.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6908ff505388a07996d238c763adbdab.html">client</a></li><li class="navelem"><a class="el" href="dir_c020948014cb98bd7ffd2816f25372f7.html">scenes</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6908ff505388a07996d238c763adbdab.html">client</a></li><li class="navelem"><a class="el" href="dir_c020948014cb98bd7ffd2816f25372f7.html">scenes</a></li><li class="navelem"><a class="el" href="dir_4f08bf60bbce0bced93f369a0db9033a.html">universe</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -73,28 +73,23 @@ $(function() {
   <div class="headertitle"><div class="title">universescene.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="universescene_8h_source.html">client/scenes/universescene.h</a>&quot;</code><br />
-<code>#include &lt;fmt/format.h&gt;</code><br />
-<code>#include &lt;glad/glad.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="universescene_8h_source.html">universescene.h</a>&quot;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
-<code>#include &lt;glm/gtc/matrix_transform.hpp&gt;</code><br />
-<code>#include &lt;glm/gtx/polar_coordinates.hpp&gt;</code><br />
-<code>#include &lt;tracy/Tracy.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="clientctx_8h_source.html">client/components/clientctx.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="civilizationinfopanel_8h_source.html">client/systems/civilizationinfopanel.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="sysevent_8h_source.html">client/systems/gui/sysevent.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="marketwindow_8h_source.html">client/systems/marketwindow.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="orbitfilter_8h_source.html">client/systems/orbitfilter.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="provincewindow_8h_source.html">client/systems/provincewindow.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="turnsavewindow_8h_source.html">client/systems/rmlui/turnsavewindow.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sysfieldviewer_8h_source.html">client/scenes/objecteditor/sysfieldviewer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="civilizationinfopanel_8h_source.html">client/scenes/universe/interface/civilizationinfopanel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sysdebuggui_8h_source.html">client/scenes/universe/interface/debug/sysdebuggui.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="marketwindow_8h_source.html">client/scenes/universe/interface/marketwindow.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="orbitfilter_8h_source.html">client/scenes/universe/interface/orbitfilter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="provincewindow_8h_source.html">client/scenes/universe/interface/provincewindow.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sysevent_8h_source.html">client/scenes/universe/interface/sysevent.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="syspausemenu_8h_source.html">client/scenes/universe/interface/syspausemenu.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sysstarsystemtree_8h_source.html">client/scenes/universe/interface/sysstarsystemtree.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="systechviewer_8h_source.html">client/scenes/universe/interface/systechviewer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="systurnsavewindow_8h_source.html">client/scenes/universe/interface/systurnsavewindow.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="turnsavewindow_8h_source.html">client/scenes/universe/interface/turnsavewindow.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="syscommand_8h_source.html">client/systems/syscommand.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="sysdebuggui_8h_source.html">client/systems/sysdebuggui.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="sysfieldviewer_8h_source.html">client/systems/sysfieldviewer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="syspausemenu_8h_source.html">client/systems/syspausemenu.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="sysstarsystemtree_8h_source.html">client/systems/sysstarsystemtree.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="systechviewer_8h_source.html">client/systems/systechviewer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="systurnsavewindow_8h_source.html">client/systems/systurnsavewindow.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="area_8h_source.html">common/components/area.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="bodies_8h_source.html">common/components/bodies.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="coordinates_8h_source.html">common/components/coordinates.h</a>&quot;</code><br />
@@ -109,6 +104,11 @@ $(function() {
 <code>#include &quot;<a class="el" href="uvsphere_8h_source.html">engine/graphics/primitives/uvsphere.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gui_8h_source.html">engine/gui.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="renderer_8h_source.html">engine/renderer/renderer.h</a>&quot;</code><br />
+<code>#include &quot;fmt/format.h&quot;</code><br />
+<code>#include &quot;glad/glad.h&quot;</code><br />
+<code>#include &quot;glm/gtc/matrix_transform.hpp&quot;</code><br />
+<code>#include &quot;glm/gtx/polar_coordinates.hpp&quot;</code><br />
+<code>#include &quot;tracy/Tracy.hpp&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -133,7 +133,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 30 2023 04:25:23 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Oct 3 2023 01:56:44 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

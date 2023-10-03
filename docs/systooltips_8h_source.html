@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/client/systems/gui/systooltips.h Source File</title>
+<title>Conquer Space: /github/workspace/src/client/scenes/universe/interface/systooltips.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6908ff505388a07996d238c763adbdab.html">client</a></li><li class="navelem"><a class="el" href="dir_803042ff8f64c8f5568f7e6f135513c7.html">systems</a></li><li class="navelem"><a class="el" href="dir_92ca642521da2d28bc52cf78233107b6.html">gui</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6908ff505388a07996d238c763adbdab.html">client</a></li><li class="navelem"><a class="el" href="dir_c020948014cb98bd7ffd2816f25372f7.html">scenes</a></li><li class="navelem"><a class="el" href="dir_4f08bf60bbce0bced93f369a0db9033a.html">universe</a></li><li class="navelem"><a class="el" href="dir_c22297920e7459210242872d5e413bd2.html">interface</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -91,23 +91,22 @@ $(function() {
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;entt/entt.hpp&gt;</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &quot;<a class="code" href="universe_8h.html">common/universe.h</a>&quot;</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1client_1_1systems_1_1gui.html">cqsp::client::systems::gui</a> {</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacecqsp_1_1client_1_1systems_1_1gui.html#a695b206fdc92b419cf9333f017141507">EntityTooltip</a>(<span class="keyword">const</span> <a class="code hl_class" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;, entt::entity);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacecqsp_1_1client_1_1systems_1_1gui.html#aacdccc6d5af5f8f3ffef3b2430421aef">EntityTooltipContent</a>(<span class="keyword">const</span> <a class="code hl_class" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;, entt::entity);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>}  <span class="comment">// namespace cqsp::client::systems::gui</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="universe_8h.html">common/universe.h</a>&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;entt/entt.hpp&quot;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1client_1_1systems_1_1gui.html">cqsp::client::systems::gui</a> {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacecqsp_1_1client_1_1systems_1_1gui.html#a695b206fdc92b419cf9333f017141507">EntityTooltip</a>(<span class="keyword">const</span> <a class="code hl_class" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;, entt::entity);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacecqsp_1_1client_1_1systems_1_1gui.html#aacdccc6d5af5f8f3ffef3b2430421aef">EntityTooltipContent</a>(<span class="keyword">const</span> <a class="code hl_class" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;, entt::entity);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>}  <span class="comment">// namespace cqsp::client::systems::gui</span></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1_universe_html"><div class="ttname"><a href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a></div><div class="ttdef"><b>Definition:</b> universe.h:32</div></div>
 <div class="ttc" id="anamespacecqsp_1_1client_1_1systems_1_1gui_html"><div class="ttname"><a href="namespacecqsp_1_1client_1_1systems_1_1gui.html">cqsp::client::systems::gui</a></div><div class="ttdef"><b>Definition:</b> sysevent.h:25</div></div>
-<div class="ttc" id="anamespacecqsp_1_1client_1_1systems_1_1gui_html_a695b206fdc92b419cf9333f017141507"><div class="ttname"><a href="namespacecqsp_1_1client_1_1systems_1_1gui.html#a695b206fdc92b419cf9333f017141507">cqsp::client::systems::gui::EntityTooltip</a></div><div class="ttdeci">void EntityTooltip(const Universe &amp;universe, entt::entity entity)</div><div class="ttdoc">This actually creates the tooltip for the entity</div><div class="ttdef"><b>Definition:</b> systooltips.cpp:199</div></div>
-<div class="ttc" id="anamespacecqsp_1_1client_1_1systems_1_1gui_html_aacdccc6d5af5f8f3ffef3b2430421aef"><div class="ttname"><a href="namespacecqsp_1_1client_1_1systems_1_1gui.html#aacdccc6d5af5f8f3ffef3b2430421aef">cqsp::client::systems::gui::EntityTooltipContent</a></div><div class="ttdeci">void EntityTooltipContent(const Universe &amp;universe, entt::entity entity)</div><div class="ttdoc">In case you want the tooltip content for debug displaying the information of an entity.</div><div class="ttdef"><b>Definition:</b> systooltips.cpp:103</div></div>
+<div class="ttc" id="anamespacecqsp_1_1client_1_1systems_1_1gui_html_a695b206fdc92b419cf9333f017141507"><div class="ttname"><a href="namespacecqsp_1_1client_1_1systems_1_1gui.html#a695b206fdc92b419cf9333f017141507">cqsp::client::systems::gui::EntityTooltip</a></div><div class="ttdeci">void EntityTooltip(const Universe &amp;universe, entt::entity entity)</div><div class="ttdoc">This actually creates the tooltip for the entity</div><div class="ttdef"><b>Definition:</b> systooltips.cpp:198</div></div>
+<div class="ttc" id="anamespacecqsp_1_1client_1_1systems_1_1gui_html_aacdccc6d5af5f8f3ffef3b2430421aef"><div class="ttname"><a href="namespacecqsp_1_1client_1_1systems_1_1gui.html#aacdccc6d5af5f8f3ffef3b2430421aef">cqsp::client::systems::gui::EntityTooltipContent</a></div><div class="ttdeci">void EntityTooltipContent(const Universe &amp;universe, entt::entity entity)</div><div class="ttdoc">In case you want the tooltip content for debug displaying the information of an entity.</div><div class="ttdef"><b>Definition:</b> systooltips.cpp:102</div></div>
 <div class="ttc" id="auniverse_8h_html"><div class="ttname"><a href="universe_8h.html">universe.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 30 2023 04:25:23 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Oct 3 2023 01:56:44 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
