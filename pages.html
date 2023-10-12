@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1>Pages</h1>
+<div style="overflow: auto">
+  {% for post in site.posts %}
+    <div class="post-content" onclick="location.href='{{ post.url }}'" style="cursor: pointer;">
+      <h3 class="uilink" style="display:inline-block;margin-right:10px;">{{ post.title }}</h3> <p style="display:inline-block;" class="uilink">{{ post.date | date: '%B %d, %Y' }}</p>
+      <div>
+        {% if post.excerpt and post.excerpt != "" %}
+          <small>{{ post.excerpt }}</small>
+        {% endif %}
+        </div>
+    </div>
+  {% endfor %}
+</div>

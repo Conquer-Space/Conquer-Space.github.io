@@ -18,6 +18,10 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
+.nav_items:ul {
+  margin:0 0 6px;
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
@@ -206,12 +210,17 @@ hr {
   margin:0 0 20px;
 }
 
+.nav_pane {
+  margin: 0 0 5px;
+}
+
 footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:5px;
   -webkit-font-smoothing:subpixel-antialiased;
+  height: auto;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -287,4 +296,26 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+.post-content {
+  margin:0 0 20px;
+  
+}
+
+// Make background a little gray when hovering over the div
+
+.post-content:hover {
+  background-color: #f2f2f2;
+}
+
+// Animate the background change when hovered
+.post-content {
+  margin:0 0 20px;
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.post-content:hover {
+  background-color: #f2f2f2;
 }

@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Features
 A complete list of proposed and completed features can be found here: <https://github.com/EhWhoAmI/cqsp/projects/2>
 

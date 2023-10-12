@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Game media
 
 ![Planet](/assets/media/screenshots/screenshot2.png)

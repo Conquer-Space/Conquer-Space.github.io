@@ -1,5 +1,8 @@
+---
+layout: default
+---
 # Community
-Most of our ongoings take place on the [discord server](https://discord.gg/h5r77Sa), so come on over and say hi if you're interested.
+Most of our conversations take place on the [discord server](https://discord.gg/h5r77Sa), so come on over and say hi if you're interested.
 
 Our source code is on [GitHub](https://github.com/EhWhoAmI/cqsp). Instructions on how to compile are in the README of the file.
 

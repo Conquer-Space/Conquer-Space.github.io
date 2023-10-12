@@ -38,24 +38,28 @@
         </ul>
         {% endif %}
         <div>
-        <h3>Navigation</h3>
-          <ul>
-            {% for item in site.data.navigation.items %}
-            <li>
-            <a href="{{ site.baseurl }}{{ item.link }}" class="uilink">
-              {{ item.name }}
-            </a>
-            </li>
-          {% endfor %}
-        </ul>
-        <h3>News</h3>
-        <ul>
-          {% for post in site.posts limit:10 %}
-            <li>
-              <a href="{{ post.url }}" class="uilink">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
+          <div class="nav_pane">
+          <h3 class="nav_pane">Navigation</h3>
+            <ul class="nav_items">
+              {% for item in site.data.navigation.items %}
+              <li>
+              <a href="{{ site.baseurl }}{{ item.link }}" class="uilink">
+                {{ item.name }}
+              </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+          <div class="nav_pane">
+          <h3 class="nav_pane">News</h3>
+          <ul class="nav_items">
+            {% for post in site.posts limit:5 %}
+              <li>
+                <a href="{{ post.url }}" class="uilink">{{ post.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+          </div>
         </div>
       </header>
     <section>
@@ -65,7 +69,7 @@
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

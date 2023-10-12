@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Conquer Space
 
 Conquer Space is a space themed grand strategy game with emphasis on economy, society, and politics.
