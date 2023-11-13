@@ -4,11 +4,14 @@ var searchData=
   ['name_5fgenerators_1',['name_generators',['../classcqsp_1_1common_1_1_universe.html#ac16f3e3b2183f3bb3d8930714dc3c958',1,'cqsp::common::Universe']]],
   ['names_2',['names',['../classcqsp_1_1scene_1_1_text_test_scene.html#a4c93730ea6e070b8e6b15b9a1b1c0b15',1,'cqsp::scene::TextTestScene']]],
   ['nativedirectory_3',['NativeDirectory',['../classcqsp_1_1asset_1_1_native_file_system.html#a1e55904612261b1b31e899d4d7e38811',1,'cqsp::asset::NativeFileSystem']]],
-  ['nativefilesystem_4',['NativeFileSystem',['../classcqsp_1_1asset_1_1_native_file.html#a995dcdc12c28bfbeeebc28290fe37b1d',1,'cqsp::asset::NativeFile::NativeFileSystem()'],['../classcqsp_1_1asset_1_1_native_directory.html#a4f449474e85b0df1023a37e67fc9a92f',1,'cqsp::asset::NativeDirectory::NativeFileSystem()']]],
+  ['nativefilesystem_4',['NativeFileSystem',['../classcqsp_1_1asset_1_1_native_directory.html#a4f449474e85b0df1023a37e67fc9a92f',1,'cqsp::asset::NativeDirectory::NativeFileSystem()'],['../classcqsp_1_1asset_1_1_native_file.html#a995dcdc12c28bfbeeebc28290fe37b1d',1,'cqsp::asset::NativeFile::NativeFileSystem()']]],
   ['near_5fshader_5',['near_shader',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a0ba94acb65c84740509a4ff48983774f',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['need_5fhalt_6',['need_halt',['../classcqsp_1_1scene_1_1_loading_scene.html#a7f6bbd849f0cfa30384614c0e096a1e5',1,'cqsp::scene::LoadingScene']]],
-  ['nfs_7',['nfs',['../classcqsp_1_1asset_1_1_native_file.html#abf72486fd77187d42a0cacb054cec57b',1,'cqsp::asset::NativeFile::nfs()'],['../classcqsp_1_1asset_1_1_native_directory.html#a7cca36bc9d6ce9e1ec7ef4a30c1b7285',1,'cqsp::asset::NativeDirectory::nfs()']]],
-  ['normal_8',['normal',['../starsystemview_8cpp.html#a21227e7cf06769a458c48d79ff18e6fe',1,'starsystemview.cpp']]],
-  ['normal_5fname_9',['normal_name',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_textured_terrain.html#a6e40d8522e90b4dd67fcc5232d8e7561',1,'cqsp::common::components::bodies::TexturedTerrain']]],
-  ['nu_10',['nu',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#ac1d298bd53e223aa00f84e84e4a13df3',1,'cqsp::common::components::types::Orbit']]]
+  ['new_5fapogee_7',['new_apogee',['../classcqsp_1_1client_1_1systems_1_1_spaceship_window.html#a5d3c313e1c488caa52e01f68a5f06ced',1,'cqsp::client::systems::SpaceshipWindow']]],
+  ['new_5fhohmann_8',['new_hohmann',['../classcqsp_1_1client_1_1systems_1_1_spaceship_window.html#a1a64bdfd33e6b97d149bb285353dd76b',1,'cqsp::client::systems::SpaceshipWindow']]],
+  ['new_5fperigee_9',['new_perigee',['../classcqsp_1_1client_1_1systems_1_1_spaceship_window.html#a6473e119c1a16395dfa9c52823eb9678',1,'cqsp::client::systems::SpaceshipWindow']]],
+  ['nfs_10',['nfs',['../classcqsp_1_1asset_1_1_native_file.html#abf72486fd77187d42a0cacb054cec57b',1,'cqsp::asset::NativeFile::nfs()'],['../classcqsp_1_1asset_1_1_native_directory.html#a7cca36bc9d6ce9e1ec7ef4a30c1b7285',1,'cqsp::asset::NativeDirectory::nfs()']]],
+  ['normal_11',['normal',['../starsystemview_8cpp.html#a21227e7cf06769a458c48d79ff18e6fe',1,'starsystemview.cpp']]],
+  ['normal_5fname_12',['normal_name',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_textured_terrain.html#a6e40d8522e90b4dd67fcc5232d8e7561',1,'cqsp::common::components::bodies::TexturedTerrain']]],
+  ['nu_13',['nu',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#ac1d298bd53e223aa00f84e84e4a13df3',1,'cqsp::common::components::types::Orbit']]]
 ];

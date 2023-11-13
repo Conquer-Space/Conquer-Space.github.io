@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['radian_0',['radian',['../namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3',1,'cqsp::common::components::types']]]
+  ['polarcoordinate_0',['PolarCoordinate',['../namespacecqsp_1_1common_1_1components_1_1types.html#aec5a546599bc61c0968c1e1b20165bd9',1,'cqsp::common::components::types']]]
 ];
