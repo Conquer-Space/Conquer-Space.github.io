@@ -10,7 +10,7 @@ var searchData=
   ['citytimezone_7',['CityTimeZone',['../structcqsp_1_1common_1_1components_1_1_city_time_zone.html',1,'cqsp::common::components']]],
   ['civilizationinfopanel_8',['CivilizationInfoPanel',['../classcqsp_1_1client_1_1systems_1_1_civilization_info_panel.html',1,'cqsp::client::systems']]],
   ['clientoptions_9',['ClientOptions',['../classcqsp_1_1client_1_1_client_options.html',1,'cqsp::client']]],
-  ['command_10',['Command',['../structcqsp_1_1common_1_1components_1_1ships_1_1_command.html',1,'cqsp::common::components::ships']]],
+  ['commandqueue_10',['CommandQueue',['../structcqsp_1_1common_1_1components_1_1_command_queue.html',1,'cqsp::common::components']]],
   ['commercial_11',['Commercial',['../structcqsp_1_1common_1_1components_1_1_commercial.html',1,'cqsp::common::components']]],
   ['conquerspace_12',['ConquerSpace',['../classcqsp_1_1client_1_1_conquer_space.html',1,'cqsp::client']]],
   ['consumergood_13',['ConsumerGood',['../structcqsp_1_1common_1_1components_1_1_consumer_good.html',1,'cqsp::common::components']]],

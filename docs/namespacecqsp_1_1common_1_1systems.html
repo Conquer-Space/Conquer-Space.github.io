@@ -71,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">cqsp::common::systems Namespace Reference</div></div>
 </div><!--header-->
@@ -133,6 +134,13 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_wallet_reset.html">SysWalletReset</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ab5958ca9900bebfba6167c91f8c14932"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; glm::dvec3, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#ab5958ca9900bebfba6167c91f8c14932">Maneuver_t</a></td></tr>
+<tr class="separator:ab5958ca9900bebfba6167c91f8c14932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad62ab89303872ef440e44831ea375d4d"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; <a class="el" href="namespacecqsp_1_1common_1_1systems.html#ab5958ca9900bebfba6167c91f8c14932">Maneuver_t</a>, <a class="el" href="namespacecqsp_1_1common_1_1systems.html#ab5958ca9900bebfba6167c91f8c14932">Maneuver_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#ad62ab89303872ef440e44831ea375d4d">HohmannPair_t</a></td></tr>
+<tr class="separator:ad62ab89303872ef440e44831ea375d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aa39b0e0f0da92345396c44ea4757eede"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#aa39b0e0f0da92345396c44ea4757eede">BuyGood</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1_auction_house.html">components::AuctionHouse</a> &amp;auction_house, entt::entity agent, entt::entity good, double price, double quantity)</td></tr>
@@ -141,6 +149,16 @@ Functions</h2></td></tr>
 <tr class="memitem:a8687974583dad19263832660c0b523b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#a8687974583dad19263832660c0b523b7">SellGood</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1_auction_house.html">components::AuctionHouse</a> &amp;auction_house, entt::entity agent, entt::entity good, double price, double quantity)</td></tr>
 <tr class="memdesc:a8687974583dad19263832660c0b523b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sells a good to the market  <a href="namespacecqsp_1_1common_1_1systems.html#a8687974583dad19263832660c0b523b7">More...</a><br /></td></tr>
 <tr class="separator:a8687974583dad19263832660c0b523b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63e974b687d154c0b922e2bb90872d06"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespacecqsp_1_1common_1_1systems.html#ad62ab89303872ef440e44831ea375d4d">HohmannPair_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#a63e974b687d154c0b922e2bb90872d06">HohmannTransfer</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;orbit, double altitude)</td></tr>
+<tr class="separator:a63e974b687d154c0b922e2bb90872d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35ca8d667bcadb31c5dbbb1de977d268"><td class="memItemLeft" align="right" valign="top">std::pair&lt; glm::dvec3, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#a35ca8d667bcadb31c5dbbb1de977d268">CircularizeAtApoapsis</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;orbit)</td></tr>
+<tr class="separator:a35ca8d667bcadb31c5dbbb1de977d268"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9bf207a5f031da58aff9167aa5f78c"><td class="memItemLeft" align="right" valign="top">std::pair&lt; glm::dvec3, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#a9a9bf207a5f031da58aff9167aa5f78c">CircularizeAtPeriapsis</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;orbit)</td></tr>
+<tr class="separator:a9a9bf207a5f031da58aff9167aa5f78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3b2b40c45ce11b0b8257cd4136bc9e0"><td class="memItemLeft" align="right" valign="top">std::pair&lt; glm::dvec3, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#ae3b2b40c45ce11b0b8257cd4136bc9e0">SetApoapsis</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;orbit, double altitude)</td></tr>
+<tr class="separator:ae3b2b40c45ce11b0b8257cd4136bc9e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad95e26fe71a5992feeb9dc1d6eba14a7"><td class="memItemLeft" align="right" valign="top">std::pair&lt; glm::dvec3, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#ad95e26fe71a5992feeb9dc1d6eba14a7">SetPeriapsis</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;orbit, double altitude)</td></tr>
+<tr class="separator:ad95e26fe71a5992feeb9dc1d6eba14a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6b429673fcfbb3b287559e4efd1b393"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#ad6b429673fcfbb3b287559e4efd1b393">LeaveSOI</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;body, entt::entity &amp;<a class="el" href="loadplanets_8cpp.html#a36dbe2aa2c05a792070d7b44d5c06e87">parent</a>, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">cqspt::Orbit</a> &amp;orb, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">cqspt::Kinematics</a> &amp;pos, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">cqspt::Kinematics</a> &amp;p_pos)</td></tr>
 <tr class="separator:ad6b429673fcfbb3b287559e4efd1b393"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7e521a6abf8d6c36d3c1fe2aedb2c16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#aa7e521a6abf8d6c36d3c1fe2aedb2c16">EnterSOI</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;<a class="el" href="loadplanets_8cpp.html#a36dbe2aa2c05a792070d7b44d5c06e87">parent</a>, const entt::entity &amp;body)</td></tr>
@@ -152,6 +170,35 @@ Functions</h2></td></tr>
 <tr class="memitem:af359f34a6493884a4f91ab75c3506aeb"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#af359f34a6493884a4f91ab75c3506aeb">GetCityPopulation</a> (const <a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity city)</td></tr>
 <tr class="separator:af359f34a6493884a4f91ab75c3506aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ad62ab89303872ef440e44831ea375d4d" name="ad62ab89303872ef440e44831ea375d4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad62ab89303872ef440e44831ea375d4d">&#9670;&nbsp;</a></span>HohmannPair_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::pair&lt;<a class="el" href="namespacecqsp_1_1common_1_1systems.html#ab5958ca9900bebfba6167c91f8c14932">Maneuver_t</a>, <a class="el" href="namespacecqsp_1_1common_1_1systems.html#ab5958ca9900bebfba6167c91f8c14932">Maneuver_t</a>&gt; <a class="el" href="namespacecqsp_1_1common_1_1systems.html#ad62ab89303872ef440e44831ea375d4d">cqsp::common::systems::HohmannPair_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5958ca9900bebfba6167c91f8c14932" name="ab5958ca9900bebfba6167c91f8c14932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5958ca9900bebfba6167c91f8c14932">&#9670;&nbsp;</a></span>Maneuver_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::pair&lt;glm::dvec3, double&gt; <a class="el" href="namespacecqsp_1_1common_1_1systems.html#ab5958ca9900bebfba6167c91f8c14932">cqsp::common::systems::Maneuver_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aa39b0e0f0da92345396c44ea4757eede" name="aa39b0e0f0da92345396c44ea4757eede"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa39b0e0f0da92345396c44ea4757eede">&#9670;&nbsp;</a></span>BuyGood()</h2>
@@ -208,6 +255,42 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the order is fufilled immediately, false if a buy order is placed.</dd></dl>
+
+</div>
+</div>
+<a id="a35ca8d667bcadb31c5dbbb1de977d268" name="a35ca8d667bcadb31c5dbbb1de977d268"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35ca8d667bcadb31c5dbbb1de977d268">&#9670;&nbsp;</a></span>CircularizeAtApoapsis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; glm::dvec3, double &gt; cqsp::common::systems::CircularizeAtApoapsis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orbit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a9bf207a5f031da58aff9167aa5f78c" name="a9a9bf207a5f031da58aff9167aa5f78c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a9bf207a5f031da58aff9167aa5f78c">&#9670;&nbsp;</a></span>CircularizeAtPeriapsis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; glm::dvec3, double &gt; cqsp::common::systems::CircularizeAtPeriapsis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orbit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -272,6 +355,34 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype">entt::entity&#160;</td>
           <td class="paramname"><em>city</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63e974b687d154c0b922e2bb90872d06" name="a63e974b687d154c0b922e2bb90872d06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63e974b687d154c0b922e2bb90872d06">&#9670;&nbsp;</a></span>HohmannTransfer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="namespacecqsp_1_1common_1_1systems.html#ad62ab89303872ef440e44831ea375d4d">HohmannPair_t</a> &gt; cqsp::common::systems::HohmannTransfer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orbit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>altitude</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -430,10 +541,66 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae3b2b40c45ce11b0b8257cd4136bc9e0" name="ae3b2b40c45ce11b0b8257cd4136bc9e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3b2b40c45ce11b0b8257cd4136bc9e0">&#9670;&nbsp;</a></span>SetApoapsis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; glm::dvec3, double &gt; cqsp::common::systems::SetApoapsis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orbit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>altitude</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad95e26fe71a5992feeb9dc1d6eba14a7" name="ad95e26fe71a5992feeb9dc1d6eba14a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad95e26fe71a5992feeb9dc1d6eba14a7">&#9670;&nbsp;</a></span>SetPeriapsis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; glm::dvec3, double &gt; cqsp::common::systems::SetPeriapsis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orbit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>altitude</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 3 2023 01:56:45 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Nov 13 2023 23:53:27 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
