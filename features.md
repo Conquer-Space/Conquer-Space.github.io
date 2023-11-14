@@ -18,6 +18,10 @@ Conquer Space is built on 3 core pillars, economic, social, and political.
      - The expansion of cheap space travel will unlock economic growth with no precedence
      - However, this needs massive investment
 
+### Orbital Mechanics
+ - Realistic orbital mechanics will play a large role in determining interplanetary logistics
+ - We will have full pathfinding between planets so that interplanetary logistics can be automatically handled.
+
 ### Social
  - Culture
     - Becoming an interplanetary civilization will have huge impacts as to how we think about society
