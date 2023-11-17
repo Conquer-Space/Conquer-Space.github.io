@@ -9,6 +9,8 @@ layout: default
 ![Planet](/assets/media/screenshots/screenshot3.png)
 The earth and moon in all its glory.
 
+![Satellite](/assets/media/screenshots/satellite.png)
+The ISS passes over New Zealand
 
 <video width="320" height="240" controls>
   <source src="/assets/media/screenshots/orbit_interp.mp4" type="video/mp4">
