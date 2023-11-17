@@ -25,5 +25,6 @@ var searchData=
   ['cqspsysteminterface_22',['CQSPSystemInterface',['../classcqsp_1_1engine_1_1_c_q_s_p_system_interface.html',1,'cqsp::engine']]],
   ['crash_23',['Crash',['../structcqsp_1_1common_1_1components_1_1ships_1_1_crash.html',1,'cqsp::common::components::ships']]],
   ['creditswindow_24',['CreditsWindow',['../classcqsp_1_1client_1_1_credits_window.html',1,'cqsp::client']]],
-  ['currency_25',['Currency',['../structcqsp_1_1common_1_1components_1_1_currency.html',1,'cqsp::common::components']]]
+  ['cubemapprototype_25',['CubemapPrototype',['../classcqsp_1_1asset_1_1_cubemap_prototype.html',1,'cqsp::asset']]],
+  ['currency_26',['Currency',['../structcqsp_1_1common_1_1components_1_1_currency.html',1,'cqsp::common::components']]]
 ];

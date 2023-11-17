@@ -89,7 +89,7 @@ $(function() {
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment"> */</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp.html">cqsp</a> {</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">namespace </span>engine {</div>
@@ -114,8 +114,10 @@ $(function() {
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classcqsp_1_1engine_1_1_mesh.html#a95d9c18611a1ddd8f544e5c87f4e5da9">Destroy</a>(<a class="code hl_class" href="classcqsp_1_1engine_1_1_mesh.html">Mesh</a>&amp; mesh);</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>};</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}  <span class="comment">// namespace engine</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>}  <span class="comment">// namespace cqsp</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="namespacecqsp_1_1engine.html#aa13aeaaec2a13d95d478f2140fdaa7e0">   44</a></span><span class="keyword">typedef</span> std::shared_ptr&lt;Mesh&gt; <a class="code hl_typedef" href="namespacecqsp_1_1engine.html#aa13aeaaec2a13d95d478f2140fdaa7e0">Mesh_t</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="namespacecqsp_1_1engine.html#abc4751fbf0461b9debb44fd1974db025">   45</a></span><span class="keyword">inline</span> <a class="code hl_typedef" href="namespacecqsp_1_1engine.html#aa13aeaaec2a13d95d478f2140fdaa7e0">Mesh_t</a> <a class="code hl_function" href="namespacecqsp_1_1engine.html#abc4751fbf0461b9debb44fd1974db025">MakeMesh</a>() { <span class="keywordflow">return</span> std::make_shared&lt;Mesh&gt;(); }</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}  <span class="comment">// namespace engine</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}  <span class="comment">// namespace cqsp</span></div>
 <div class="ttc" id="aclasscqsp_1_1engine_1_1_mesh_html"><div class="ttname"><a href="classcqsp_1_1engine_1_1_mesh.html">cqsp::engine::Mesh</a></div><div class="ttdef"><b>Definition:</b> mesh.h:25</div></div>
 <div class="ttc" id="aclasscqsp_1_1engine_1_1_mesh_html_a293f54d7642467ed035675ee159bd339"><div class="ttname"><a href="classcqsp_1_1engine_1_1_mesh.html#a293f54d7642467ed035675ee159bd339">cqsp::engine::Mesh::Mesh</a></div><div class="ttdeci">Mesh()</div><div class="ttdef"><b>Definition:</b> mesh.cpp:21</div></div>
 <div class="ttc" id="aclasscqsp_1_1engine_1_1_mesh_html_a3fc3ac41468a91bf82d231e23032a752"><div class="ttname"><a href="classcqsp_1_1engine_1_1_mesh.html#a3fc3ac41468a91bf82d231e23032a752">cqsp::engine::Mesh::Draw</a></div><div class="ttdeci">void Draw()</div><div class="ttdef"><b>Definition:</b> mesh.cpp:29</div></div>
@@ -130,11 +132,13 @@ $(function() {
 <div class="ttc" id="anamespacecqsp_1_1engine_html_a88612d0f75bae0b49d5638eb4ecb8933"><div class="ttname"><a href="namespacecqsp_1_1engine.html#a88612d0f75bae0b49d5638eb4ecb8933">cqsp::engine::DrawType</a></div><div class="ttdeci">DrawType</div><div class="ttdef"><b>Definition:</b> mesh.h:23</div></div>
 <div class="ttc" id="anamespacecqsp_1_1engine_html_a88612d0f75bae0b49d5638eb4ecb8933a9990fa062d83fd2d5e96a46df4882b37"><div class="ttname"><a href="namespacecqsp_1_1engine.html#a88612d0f75bae0b49d5638eb4ecb8933a9990fa062d83fd2d5e96a46df4882b37">cqsp::engine::ARRAYS</a></div><div class="ttdeci">@ ARRAYS</div><div class="ttdef"><b>Definition:</b> mesh.h:23</div></div>
 <div class="ttc" id="anamespacecqsp_1_1engine_html_a88612d0f75bae0b49d5638eb4ecb8933ab7a5052a5d6edfecacb21767a1fc125d"><div class="ttname"><a href="namespacecqsp_1_1engine.html#a88612d0f75bae0b49d5638eb4ecb8933ab7a5052a5d6edfecacb21767a1fc125d">cqsp::engine::ELEMENTS</a></div><div class="ttdeci">@ ELEMENTS</div><div class="ttdef"><b>Definition:</b> mesh.h:23</div></div>
+<div class="ttc" id="anamespacecqsp_1_1engine_html_aa13aeaaec2a13d95d478f2140fdaa7e0"><div class="ttname"><a href="namespacecqsp_1_1engine.html#aa13aeaaec2a13d95d478f2140fdaa7e0">cqsp::engine::Mesh_t</a></div><div class="ttdeci">std::shared_ptr&lt; Mesh &gt; Mesh_t</div><div class="ttdef"><b>Definition:</b> mesh.h:44</div></div>
+<div class="ttc" id="anamespacecqsp_1_1engine_html_abc4751fbf0461b9debb44fd1974db025"><div class="ttname"><a href="namespacecqsp_1_1engine.html#abc4751fbf0461b9debb44fd1974db025">cqsp::engine::MakeMesh</a></div><div class="ttdeci">Mesh_t MakeMesh()</div><div class="ttdef"><b>Definition:</b> mesh.h:45</div></div>
 <div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdoc">When adding assets, it is extremely crucial that you read cqsp::asset::AssetLoader::LoadResources to ...</div><div class="ttdef"><b>Definition:</b> clientctx.h:21</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 17 2023 05:50:57 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 17 2023 20:27:59 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

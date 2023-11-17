@@ -101,7 +101,7 @@ $(function() {
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp.html">cqsp</a> {</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">namespace </span>common {</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">namespace </span><a class="code hl_variable" href="assetmanager_8cpp.html#a1160cc04b78d80349de5b16cae302725">components</a> {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">namespace </span>components {</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_matter.html">   35</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structcqsp_1_1common_1_1components_1_1_matter.html">Matter</a> {</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_matter.html#aaa25a7f903a09760341d7e80204a4f64">   36</a></span>    <a class="code hl_typedef" href="namespacecqsp_1_1common_1_1components_1_1types.html#ac169ed0eb728e238e2eeebae6a5c748c">cqsp::common::components::types::meter_cube</a> <a class="code hl_variable" href="structcqsp_1_1common_1_1components_1_1_matter.html#aaa25a7f903a09760341d7e80204a4f64">volume</a>;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_matter.html#ad6e4384f5d15e741f027e081e59f1248">   37</a></span>    <a class="code hl_typedef" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6244f1c685604ae3f45b7729d5ca7e85">cqsp::common::components::types::kilogram</a> <a class="code hl_variable" href="structcqsp_1_1common_1_1components_1_1_matter.html#ad6e4384f5d15e741f027e081e59f1248">mass</a>;</div>
@@ -220,7 +220,7 @@ $(function() {
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    <span class="keyword">using</span> LedgerMap::mapped_type;</div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <span class="keyword">using</span> LedgerMap::rbegin;</div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    <span class="keyword">using</span> LedgerMap::rend;</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <span class="keyword">using</span> <a class="code hl_variable" href="assetmanager_8cpp.html#a439227feff9d7f55384e8780cfc2eb82">LedgerMap::size</a>;</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <span class="keyword">using</span> LedgerMap::size;</div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    <span class="keyword">using</span> LedgerMap::value_comp;</div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>};</div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
@@ -317,8 +317,6 @@ $(function() {
 <div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>}  <span class="comment">// namespace common</span></div>
 <div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>}  <span class="comment">// namespace cqsp</span></div>
 <div class="ttc" id="aarea_8h_html"><div class="ttname"><a href="area_8h.html">area.h</a></div></div>
-<div class="ttc" id="aassetmanager_8cpp_html_a1160cc04b78d80349de5b16cae302725"><div class="ttname"><a href="assetmanager_8cpp.html#a1160cc04b78d80349de5b16cae302725">components</a></div><div class="ttdeci">int components</div><div class="ttdef"><b>Definition:</b> assetmanager.cpp:50</div></div>
-<div class="ttc" id="aassetmanager_8cpp_html_a439227feff9d7f55384e8780cfc2eb82"><div class="ttname"><a href="assetmanager_8cpp.html#a439227feff9d7f55384e8780cfc2eb82">size</a></div><div class="ttdeci">int size</div><div class="ttdef"><b>Definition:</b> assetmanager.cpp:81</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1components_1_1_resource_ledger_html"><div class="ttname"><a href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">cqsp::common::components::ResourceLedger</a></div><div class="ttdef"><b>Definition:</b> resource.h:76</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1components_1_1_resource_ledger_html_a039fcaf2bc8139d01a028234e55b1763"><div class="ttname"><a href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html#a039fcaf2bc8139d01a028234e55b1763">cqsp::common::components::ResourceLedger::HasAllResources</a></div><div class="ttdeci">bool HasAllResources(const ResourceLedger &amp;)</div><div class="ttdoc">Checks if this current resource ledger has any resources in this list</div><div class="ttdef"><b>Definition:</b> resource.cpp:315</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1components_1_1_resource_ledger_html_a102d602c78e9e29cd7d0028cfc42908f"><div class="ttname"><a href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html#a102d602c78e9e29cd7d0028cfc42908f">cqsp::common::components::ResourceLedger::Clamp</a></div><div class="ttdeci">ResourceLedger Clamp(const double, const double)</div><div class="ttdoc">Returns a copy of the vector with the values clamped between the min and max indicated</div><div class="ttdef"><b>Definition:</b> resource.cpp:301</div></div>
@@ -421,7 +419,7 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 17 2023 05:50:57 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 17 2023 20:27:59 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

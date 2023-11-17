@@ -70,8 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle"><div class="title">assetmanager.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -86,6 +85,7 @@ $(function() {
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &quot;<a class="el" href="asset_8h_source.html">engine/asset/asset.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="assetprototype_8h_source.html">engine/asset/assetprototype.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="textasset_8h_source.html">engine/asset/textasset.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vfs_8h_source.html">engine/asset/vfs/vfs.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="engine_8h_source.html">engine/engine.h</a>&quot;</code><br />
@@ -99,8 +99,6 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_prototype.html">cqsp::asset::AssetPrototype</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_queue_holder.html">cqsp::asset::QueueHolder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_threadsafe_queue.html">cqsp::asset::ThreadsafeQueue&lt; T &gt;</a></td></tr>
@@ -121,30 +119,11 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacecqsp_1_1asset"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1asset.html">cqsp::asset</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a9ff0db1e6cd51c9b51b7e87c54cc0baf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0baf">cqsp::asset::PrototypeType</a> { <br />
-&#160;&#160;<a class="el" href="namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafa4cf2a0fbeb0c68988dbbba316b7a5dc9">cqsp::asset::NONE</a> = 0
-, <a class="el" href="namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafab50339a10e1de285ac99d4c3990b8693">cqsp::asset::NONE</a>
-, <a class="el" href="namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafaa961368bfc5348f08132559ea708cba5">cqsp::asset::TEXTURE</a>
-, <a class="el" href="namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafa3f92f542bd9ec48f912b9350e22736ac">cqsp::asset::TEXTURE</a>
-, <br />
-&#160;&#160;<a class="el" href="namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafa6749f9cc611e01a069b9e40492e85d8f">cqsp::asset::SHADER</a>
-, <a class="el" href="namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafaa05d35337eb28027e70aef2ea40ff1df">cqsp::asset::SHADER</a>
-, <a class="el" href="namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafa23ef4fd9a50e43b2ae3cc344faf5cc8d">cqsp::asset::FONT</a>
-, <a class="el" href="namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafa4aaf23261cd3bd2064183cf1b53f1023">cqsp::asset::FONT</a>
-, <br />
-&#160;&#160;<a class="el" href="namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafabd1afe88ca8c2de64507111e238546fd">cqsp::asset::CUBEMAP</a>
-, <a class="el" href="namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafaf28b30e806ea29c1d6011d1feeea8913">cqsp::asset::CUBEMAP</a>
-<br />
- }</td></tr>
-<tr class="separator:a9ff0db1e6cd51c9b51b7e87c54cc0baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 17 2023 05:50:57 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 17 2023 20:27:59 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
