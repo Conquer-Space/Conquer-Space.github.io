@@ -172,7 +172,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a9549cc04b06220263fb31eef2144c51a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9549cc04b06220263fb31eef2144c51a">PlaceAsset</a> (<a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;package, const <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a> &amp;type, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;hints)</td></tr>
 <tr class="memdesc:a9549cc04b06220263fb31eef2144c51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conducts checks to determine if the asset was loaded correctly. Wraps Load asset, and contains the same parameters  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a9549cc04b06220263fb31eef2144c51a">More...</a><br /></td></tr>
 <tr class="separator:a9549cc04b06220263fb31eef2144c51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39dfc31769f416d238fc901a770113f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a39dfc31769f416d238fc901a770113f1">LoadDirectory</a> (const std::string &amp;path, const std::function&lt; void(std::string)&gt; &amp;<a class="el" href="engine_2_c_make_lists_8txt.html#aba7f5ab953b60e586c86a2d573f64936">file</a>)</td></tr>
+<tr class="memitem:a39dfc31769f416d238fc901a770113f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a39dfc31769f416d238fc901a770113f1">LoadDirectory</a> (const std::string &amp;path, const std::function&lt; void(std::string)&gt; &amp;<a class="el" href="client_2_c_make_lists_8txt.html#aec4694c4532f0fedb547a380e8eff255">file</a>)</td></tr>
 <tr class="memdesc:a39dfc31769f416d238fc901a770113f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads any type of directory, and executes the function for every single file. <br  />
  This is a helper function to add to calculate the number of assets loaded so far.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a39dfc31769f416d238fc901a770113f1">More...</a><br /></td></tr>
 <tr class="separator:a39dfc31769f416d238fc901a770113f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1063,13 +1063,13 @@ Friends</h2></td></tr>
  <code>resource.hjson</code> files consist of a hjson object. This is the syntax: </p>
 <div class="fragment"><div class="line">{</div>
 <div class="line">    test_asset: { # Asset key</div>
-<div class="line">        path: # Path relative to the current resource.hjson <a class="code hl_function" href="common_2_c_make_lists_8txt.html#a0ad7dacf34a2ef7d69ebd7aa0b70f3e8">file</a>.</div>
+<div class="line">        path: # Path relative to the current resource.hjson <a class="code hl_function" href="client_2_c_make_lists_8txt.html#aec4694c4532f0fedb547a380e8eff255">file</a>.</div>
 <div class="line">        type: # Type of asset: &amp;lt;none|texture|shader|hjson|text|model|font|cubemap|directory|audio&amp;rt;</div>
 <div class="line">        hints: {} # Object of whatever information you want when loading the asset.</div>
 <div class="line">    }</div>
 <div class="line">    <span class="comment">// .. more assets can be specified, as long as they have a different key</span></div>
 <div class="line">}</div>
-<div class="ttc" id="acommon_2_c_make_lists_8txt_html_a0ad7dacf34a2ef7d69ebd7aa0b70f3e8"><div class="ttname"><a href="common_2_c_make_lists_8txt.html#a0ad7dacf34a2ef7d69ebd7aa0b70f3e8">file</a></div><div class="ttdeci">file(GLOB_RECURSE CPP_FILES *.cpp) file(GLOB_RECURSE H_FILES *.h) set(SOURCE_FILES $</div><div class="ttdef"><b>Definition:</b> CMakeLists.txt:22</div></div>
+<div class="ttc" id="aclient_2_c_make_lists_8txt_html_aec4694c4532f0fedb547a380e8eff255"><div class="ttname"><a href="client_2_c_make_lists_8txt.html#aec4694c4532f0fedb547a380e8eff255">file</a></div><div class="ttdeci">lib tracy file(GLOB_RECURSE CPP_FILES *.cpp) list(FILTER CPP_FILES EXCLUDE REGEX &quot;.*main.cpp$&quot;) file(GLOB_RECURSE H_FILES *.h) set(SOURCE_FILES $</div><div class="ttdef"><b>Definition:</b> CMakeLists.txt:24</div></div>
 </div><!-- fragment --><p> <br  />
  </p>
 
@@ -1694,7 +1694,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 18 2023 01:26:55 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 23 2023 18:22:38 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

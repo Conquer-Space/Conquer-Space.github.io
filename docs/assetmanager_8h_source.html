@@ -344,7 +344,7 @@ $(function() {
 <div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span>    <span class="keywordtype">void</span> PlaceAsset(<a class="code hl_class" href="classcqsp_1_1asset_1_1_package.html">Package</a>&amp; package, <span class="keyword">const</span> <a class="code hl_enumeration" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a>&amp; type, <span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> std::string&amp; key,</div>
 <div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>                    <span class="keyword">const</span> Hjson::Value&amp; hints);</div>
 <div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span> </div>
-<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span>    <span class="keywordtype">void</span> LoadDirectory(<span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(std::string)&gt;&amp; <a class="code hl_function" href="common_2_c_make_lists_8txt.html#a0ad7dacf34a2ef7d69ebd7aa0b70f3e8">file</a>);</div>
+<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span>    <span class="keywordtype">void</span> LoadDirectory(<span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(std::string)&gt;&amp; <a class="code hl_function" href="client_2_c_make_lists_8txt.html#aec4694c4532f0fedb547a380e8eff255">file</a>);</div>
 <div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span> </div>
 <div class="line"><a id="l00478" name="l00478"></a><span class="lineno">  478</span>    <span class="keywordtype">void</span> LoadResources(<a class="code hl_class" href="classcqsp_1_1asset_1_1_package.html">Package</a>&amp; package, <span class="keyword">const</span> std::string&amp; path);</div>
 <div class="line"><a id="l00479" name="l00479"></a><span class="lineno">  479</span> </div>
@@ -435,7 +435,7 @@ $(function() {
 <div class="ttc" id="aclasscqsp_1_1asset_1_1_threadsafe_queue_html_ae5eb131b1cabee78e3daf64801f3f289"><div class="ttname"><a href="classcqsp_1_1asset_1_1_threadsafe_queue.html#ae5eb131b1cabee78e3daf64801f3f289">cqsp::asset::ThreadsafeQueue::mutex_</a></div><div class="ttdeci">std::mutex mutex_</div><div class="ttdef"><b>Definition:</b> assetmanager.h:61</div></div>
 <div class="ttc" id="aclasscqsp_1_1asset_1_1_threadsafe_queue_html_aeebe052cbe3de2c9242928266304e5e6"><div class="ttname"><a href="classcqsp_1_1asset_1_1_threadsafe_queue.html#aeebe052cbe3de2c9242928266304e5e6">cqsp::asset::ThreadsafeQueue::queue_</a></div><div class="ttdeci">std::queue&lt; T &gt; queue_</div><div class="ttdef"><b>Definition:</b> assetmanager.h:60</div></div>
 <div class="ttc" id="aclasscqsp_1_1asset_1_1_virtual_mounter_html"><div class="ttname"><a href="classcqsp_1_1asset_1_1_virtual_mounter.html">cqsp::asset::VirtualMounter</a></div><div class="ttdef"><b>Definition:</b> vfs.h:155</div></div>
-<div class="ttc" id="acommon_2_c_make_lists_8txt_html_a0ad7dacf34a2ef7d69ebd7aa0b70f3e8"><div class="ttname"><a href="common_2_c_make_lists_8txt.html#a0ad7dacf34a2ef7d69ebd7aa0b70f3e8">file</a></div><div class="ttdeci">file(GLOB_RECURSE CPP_FILES *.cpp) file(GLOB_RECURSE H_FILES *.h) set(SOURCE_FILES $</div><div class="ttdef"><b>Definition:</b> CMakeLists.txt:22</div></div>
+<div class="ttc" id="aclient_2_c_make_lists_8txt_html_aec4694c4532f0fedb547a380e8eff255"><div class="ttname"><a href="client_2_c_make_lists_8txt.html#aec4694c4532f0fedb547a380e8eff255">file</a></div><div class="ttdeci">lib tracy file(GLOB_RECURSE CPP_FILES *.cpp) list(FILTER CPP_FILES EXCLUDE REGEX &quot;.*main.cpp$&quot;) file(GLOB_RECURSE H_FILES *.h) set(SOURCE_FILES $</div><div class="ttdef"><b>Definition:</b> CMakeLists.txt:24</div></div>
 <div class="ttc" id="aengine_8h_html"><div class="ttname"><a href="engine_8h.html">engine.h</a></div></div>
 <div class="ttc" id="aenginelogger_8h_html"><div class="ttname"><a href="enginelogger_8h.html">enginelogger.h</a></div></div>
 <div class="ttc" id="aenginelogger_8h_html_ad652c4e348ca69928e40ac773bb33c47"><div class="ttname"><a href="enginelogger_8h.html#ad652c4e348ca69928e40ac773bb33c47">ENGINE_LOG_ERROR</a></div><div class="ttdeci">#define ENGINE_LOG_ERROR(...)</div><div class="ttdef"><b>Definition:</b> enginelogger.h:31</div></div>
@@ -451,7 +451,7 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 18 2023 01:26:55 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 23 2023 18:22:37 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
