@@ -76,6 +76,8 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="assetmanager_8h_source.html">engine/asset/assetmanager.h</a>&quot;</code><br />
+<code>#include &lt;assimp/postprocess.h&gt;</code><br />
+<code>#include &lt;assimp/scene.h&gt;</code><br />
 <code>#include &lt;glad/glad.h&gt;</code><br />
 <code>#include &lt;spdlog/spdlog.h&gt;</code><br />
 <code>#include &lt;stb_image.h&gt;</code><br />
@@ -85,11 +87,15 @@ $(function() {
 <code>#include &lt;regex&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;assimp/Importer.hpp&gt;</code><br />
 <code>#include &lt;tracy/Tracy.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="paths_8h_source.html">common/util/paths.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="assetprototypedefs_8h_source.html">engine/asset/assetprototypedefs.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="modelloader_8h_source.html">engine/asset/modelloader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="nativevfs_8h_source.html">engine/asset/vfs/nativevfs.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="alaudioasset_8h_source.html">engine/audio/alaudioasset.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="enginelogger_8h_source.html">engine/enginelogger.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="model_8h_source.html">engine/graphics/model.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -127,144 +133,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    [<span class="keyword">this</span>](VirtualMounter* mount, <span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> std::string&amp; key, <span class="keyword">const</span> Hjson::Value&amp; <a class="code hl_variable" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>) { \</div>
-<div class="line">        return this-&gt;FuncName(mount, path, key, <a class="code hl_variable" href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a>);                                                         \</div>
+<b>Value:</b><div class="fragment"><div class="line">    [<span class="keyword">this</span>](VirtualMounter* mount, <span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> std::string&amp; key, <span class="keyword">const</span> Hjson::Value&amp; hints) { \</div>
+<div class="line">        return this-&gt;FuncName(mount, path, key, hints);                                                         \</div>
 <div class="line">    };</div>
-<div class="ttc" id="aassetmanager_8cpp_html_a96b582ef07cc3bc8efc907d6ed939585"><div class="ttname"><a href="assetmanager_8cpp.html#a96b582ef07cc3bc8efc907d6ed939585">hints</a></div><div class="ttdeci">Hjson::Value hints</div><div class="ttdef"><b>Definition:</b> assetmanager.cpp:73</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a1160cc04b78d80349de5b16cae302725" name="a1160cc04b78d80349de5b16cae302725"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1160cc04b78d80349de5b16cae302725">&#9670;&nbsp;</a></span>components</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int components</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8a036d3167ef9d3099cafcac54e25c72" name="a8a036d3167ef9d3099cafcac54e25c72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a036d3167ef9d3099cafcac54e25c72">&#9670;&nbsp;</a></span>data</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string data</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aea8157e63642b71ac6676e73980342c1" name="aea8157e63642b71ac6676e73980342c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea8157e63642b71ac6676e73980342c1">&#9670;&nbsp;</a></span>fontBuffer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;uint8_t&gt; fontBuffer</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad12fc34ce789bce6c8a05d8a17138534" name="ad12fc34ce789bce6c8a05d8a17138534"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad12fc34ce789bce6c8a05d8a17138534">&#9670;&nbsp;</a></span>height</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int height</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a96b582ef07cc3bc8efc907d6ed939585" name="a96b582ef07cc3bc8efc907d6ed939585"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96b582ef07cc3bc8efc907d6ed939585">&#9670;&nbsp;</a></span>hints</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Hjson::Value hints</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae4f79bd73b67daf30bde20e4d712c054" name="ae4f79bd73b67daf30bde20e4d712c054"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4f79bd73b67daf30bde20e4d712c054">&#9670;&nbsp;</a></span>options</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asset::TextureLoadingOptions options</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a439227feff9d7f55384e8780cfc2eb82" name="a439227feff9d7f55384e8780cfc2eb82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a439227feff9d7f55384e8780cfc2eb82">&#9670;&nbsp;</a></span>size</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int size</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac765329451135abec74c45e1897abf26" name="ac765329451135abec74c45e1897abf26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac765329451135abec74c45e1897abf26">&#9670;&nbsp;</a></span>type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2474a5474cbff19523a51eb1de01cda4" name="a2474a5474cbff19523a51eb1de01cda4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2474a5474cbff19523a51eb1de01cda4">&#9670;&nbsp;</a></span>width</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int width</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 17 2023 05:50:57 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 23 2023 18:22:38 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

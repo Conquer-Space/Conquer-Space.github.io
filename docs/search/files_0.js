@@ -11,10 +11,12 @@ var searchData=
   ['assetloading_2eh_8',['assetloading.h',['../assetloading_8h.html',1,'']]],
   ['assetmanager_2ecpp_9',['assetmanager.cpp',['../assetmanager_8cpp.html',1,'']]],
   ['assetmanager_2eh_10',['assetmanager.h',['../assetmanager_8h.html',1,'']]],
-  ['auction_2eh_11',['auction.h',['../auction_8h.html',1,'']]],
-  ['auctionhandler_2ecpp_12',['auctionhandler.cpp',['../auctionhandler_8cpp.html',1,'']]],
-  ['auctionhandler_2eh_13',['auctionhandler.h',['../auctionhandler_8h.html',1,'']]],
-  ['audioasset_2eh_14',['audioasset.h',['../audioasset_8h.html',1,'']]],
-  ['audiointerface_2ecpp_15',['audiointerface.cpp',['../audiointerface_8cpp.html',1,'']]],
-  ['audiointerface_2eh_16',['audiointerface.h',['../audiointerface_8h.html',1,'']]]
+  ['assetprototype_2eh_11',['assetprototype.h',['../assetprototype_8h.html',1,'']]],
+  ['assetprototypedefs_2eh_12',['assetprototypedefs.h',['../assetprototypedefs_8h.html',1,'']]],
+  ['auction_2eh_13',['auction.h',['../auction_8h.html',1,'']]],
+  ['auctionhandler_2ecpp_14',['auctionhandler.cpp',['../auctionhandler_8cpp.html',1,'']]],
+  ['auctionhandler_2eh_15',['auctionhandler.h',['../auctionhandler_8h.html',1,'']]],
+  ['audioasset_2eh_16',['audioasset.h',['../audioasset_8h.html',1,'']]],
+  ['audiointerface_2ecpp_17',['audiointerface.cpp',['../audiointerface_8cpp.html',1,'']]],
+  ['audiointerface_2eh_18',['audiointerface.h',['../audiointerface_8h.html',1,'']]]
 ];

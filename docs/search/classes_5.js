@@ -12,6 +12,7 @@ var searchData=
   ['focusedcity_9',['FocusedCity',['../structcqsp_1_1client_1_1systems_1_1_focused_city.html',1,'cqsp::client::systems']]],
   ['focusedplanet_10',['FocusedPlanet',['../structcqsp_1_1client_1_1systems_1_1_focused_planet.html',1,'cqsp::client::systems']]],
   ['font_11',['Font',['../classcqsp_1_1asset_1_1_font.html',1,'cqsp::asset']]],
-  ['framebufferrenderer_12',['FramebufferRenderer',['../classcqsp_1_1engine_1_1_framebuffer_renderer.html',1,'cqsp::engine']]],
-  ['futureposition_13',['FuturePosition',['../structcqsp_1_1common_1_1components_1_1types_1_1_future_position.html',1,'cqsp::common::components::types']]]
+  ['fontprototype_12',['FontPrototype',['../classcqsp_1_1asset_1_1_font_prototype.html',1,'cqsp::asset']]],
+  ['framebufferrenderer_13',['FramebufferRenderer',['../classcqsp_1_1engine_1_1_framebuffer_renderer.html',1,'cqsp::engine']]],
+  ['futureposition_14',['FuturePosition',['../structcqsp_1_1common_1_1components_1_1types_1_1_future_position.html',1,'cqsp::common::components::types']]]
 ];

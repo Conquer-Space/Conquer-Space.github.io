@@ -101,9 +101,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8641e2530f896e33b2005fe3a72aebe4"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_directory.html#a8641e2530f896e33b2005fe3a72aebe4">GetRoot</a> ()=0</td></tr>
 <tr class="memdesc:a8641e2530f896e33b2005fe3a72aebe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The root directory, relative to the filesystem.  <a href="classcqsp_1_1asset_1_1_i_virtual_directory.html#a8641e2530f896e33b2005fe3a72aebe4">More...</a><br /></td></tr>
 <tr class="separator:a8641e2530f896e33b2005fe3a72aebe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a302e09f7f8382ce3991e03cc079f5676"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file.html">IVirtualFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_directory.html#a302e09f7f8382ce3991e03cc079f5676">GetFile</a> (int index, <a class="el" href="namespacecqsp_1_1asset.html#aed22fbadec167de1f146f108ba1f550a">FileModes</a> modes=<a class="el" href="namespacecqsp_1_1asset.html#aed22fbadec167de1f146f108ba1f550aaad2d77c6e9b0deef8d5cbb3caab0dd02">None</a>)=0</td></tr>
-<tr class="memdesc:a302e09f7f8382ce3991e03cc079f5676"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens file of index.  <a href="classcqsp_1_1asset_1_1_i_virtual_directory.html#a302e09f7f8382ce3991e03cc079f5676">More...</a><br /></td></tr>
-<tr class="separator:a302e09f7f8382ce3991e03cc079f5676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad98ddcf2ec1b8600bfe3b99b9c41415f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacecqsp_1_1asset.html#aad34e921425ce7efb4d34c87e5002f31">IVirtualFilePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_directory.html#ad98ddcf2ec1b8600bfe3b99b9c41415f">GetFile</a> (int index, <a class="el" href="namespacecqsp_1_1asset.html#aed22fbadec167de1f146f108ba1f550a">FileModes</a> modes=<a class="el" href="namespacecqsp_1_1asset.html#aed22fbadec167de1f146f108ba1f550aa605952d017e302db1e155eb457015a9e">Text</a>)=0</td></tr>
+<tr class="memdesc:ad98ddcf2ec1b8600bfe3b99b9c41415f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens file of index.  <a href="classcqsp_1_1asset_1_1_i_virtual_directory.html#ad98ddcf2ec1b8600bfe3b99b9c41415f">More...</a><br /></td></tr>
+<tr class="separator:ad98ddcf2ec1b8600bfe3b99b9c41415f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf96a738f15c6470c1ad5675f4638f0b"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_directory.html#abf96a738f15c6470c1ad5675f4638f0b">GetFilename</a> (int index)=0</td></tr>
 <tr class="memdesc:abf96a738f15c6470c1ad5675f4638f0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get file name relative to this directory  <a href="classcqsp_1_1asset_1_1_i_virtual_directory.html#abf96a738f15c6470c1ad5675f4638f0b">More...</a><br /></td></tr>
 <tr class="separator:abf96a738f15c6470c1ad5675f4638f0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,8 +165,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a302e09f7f8382ce3991e03cc079f5676" name="a302e09f7f8382ce3991e03cc079f5676"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a302e09f7f8382ce3991e03cc079f5676">&#9670;&nbsp;</a></span>GetFile()</h2>
+<a id="ad98ddcf2ec1b8600bfe3b99b9c41415f" name="ad98ddcf2ec1b8600bfe3b99b9c41415f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad98ddcf2ec1b8600bfe3b99b9c41415f">&#9670;&nbsp;</a></span>GetFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,7 +175,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file.html">IVirtualFile</a> &gt; cqsp::asset::IVirtualDirectory::GetFile </td>
+          <td class="memname">virtual <a class="el" href="namespacecqsp_1_1asset.html#aad34e921425ce7efb4d34c87e5002f31">IVirtualFilePtr</a> cqsp::asset::IVirtualDirectory::GetFile </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>index</em>, </td>
@@ -184,7 +184,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacecqsp_1_1asset.html#aed22fbadec167de1f146f108ba1f550a">FileModes</a>&#160;</td>
-          <td class="paramname"><em>modes</em> = <code><a class="el" href="namespacecqsp_1_1asset.html#aed22fbadec167de1f146f108ba1f550aaad2d77c6e9b0deef8d5cbb3caab0dd02">None</a></code>&#160;</td>
+          <td class="paramname"><em>modes</em> = <code><a class="el" href="namespacecqsp_1_1asset.html#aed22fbadec167de1f146f108ba1f550aa605952d017e302db1e155eb457015a9e">Text</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -329,7 +329,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 17 2023 05:50:58 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 23 2023 18:22:38 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
