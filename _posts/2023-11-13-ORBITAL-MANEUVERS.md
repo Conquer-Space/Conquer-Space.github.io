@@ -12,7 +12,7 @@ I managed to get basic orbital maneuvers working, including [Hohmann Transfers](
 
 So now, you can increase and decrease orbital altitude, and circularize your orbits with maneuvers.
 
-For Hohmann transfers to work, your orbit needs to be circular, where the orbital eccentricity is below 1e-4.
+For Hohmann transfers to work, your orbit needs to be circular, where the orbital eccentricity is below 1e-4 km (or less than a meter).
 
 <video width="320" height="240" controls>
   <source src="/assets/media/screenshots/hohmann_transfer.mp4" type="video/mp4">
