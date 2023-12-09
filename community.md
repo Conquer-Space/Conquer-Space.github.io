@@ -8,5 +8,5 @@ Our source code is on [GitHub](https://github.com/EhWhoAmI/cqsp). Instructions o
 
 Our game also exists on itch.io, [here](https://ehwhoami.itch.io/conquer-space), where releases and screenshots of the game will put there periodically.
 
-### Contributing
+### [Contributing](/contributing.html)
 If you are interested in contributing, you can start by forking the repo, and opening a pull request. If you have any questions, you can always come over to the discord server for answers, we will be happy to help you.

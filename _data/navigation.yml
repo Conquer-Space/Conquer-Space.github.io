@@ -12,3 +12,5 @@ items:
     link: /about.html
   - name: Past Pages
     link: /pages.html
+  - name: Contributing
+    link: /contributing.html
