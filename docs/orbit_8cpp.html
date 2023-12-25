@@ -75,6 +75,10 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="orbit_8h_source.html">common/components/orbit.h</a>&quot;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;glm/gtc/quaternion.hpp&gt;</code><br />
+<code>#include &lt;glm/gtx/projection.hpp&gt;</code><br />
+<code>#include &lt;glm/gtx/vector_angle.hpp&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -161,15 +165,25 @@ Functions</h2></td></tr>
 <tr class="separator:a1b33f027945f206dfd72efafc2f107e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0e6525edf0e7fa9ce3c10a68c70951b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa0e6525edf0e7fa9ce3c10a68c70951b">cqsp::common::components::types::CalculateTransferTime</a> (const Orbit &amp;orb1, const Orbit &amp;orb2)</td></tr>
 <tr class="separator:aa0e6525edf0e7fa9ce3c10a68c70951b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a723ae97626403afac5b3a8a97cafa033"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a723ae97626403afac5b3a8a97cafa033">cqsp::common::components::types::CalculateTransferAngle</a> (const Orbit &amp;orb1, const Orbit &amp;orb2)</td></tr>
-<tr class="separator:a723ae97626403afac5b3a8a97cafa033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c696a53002b6e56240c49e9b5498ae1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a0c696a53002b6e56240c49e9b5498ae1">cqsp::common::components::types::CalculateTransferAngle</a> (const Orbit &amp;start_orbit, const Orbit &amp;end_orbit)</td></tr>
+<tr class="separator:a0c696a53002b6e56240c49e9b5498ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada2f10c084da91a6854f38dfe8affa40"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ada2f10c084da91a6854f38dfe8affa40">cqsp::common::components::types::CalculatePhaseAngle</a> (const Orbit &amp;start_orbit, const Orbit &amp;end_orbit, double epoch)</td></tr>
+<tr class="separator:ada2f10c084da91a6854f38dfe8affa40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a359db6fe9453278d19b6641f93887451"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a359db6fe9453278d19b6641f93887451">cqsp::common::components::types::GetHyperbolicAsymptopeAnomaly</a> (double eccentricity)</td></tr>
 <tr class="separator:a359db6fe9453278d19b6641f93887451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb037fc7c63fd445ff578ddc77e233b5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#acb037fc7c63fd445ff578ddc77e233b5">cqsp::common::components::types::FlightPathAngle</a> (double eccentricity, double v)</td></tr>
+<tr class="separator:acb037fc7c63fd445ff578ddc77e233b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd6ac52e26c41a5667d4916f0fa2f4b"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a2dd6ac52e26c41a5667d4916f0fa2f4b">cqsp::common::components::types::GetOrbitNormal</a> (const Orbit &amp;orbit)</td></tr>
+<tr class="separator:a2dd6ac52e26c41a5667d4916f0fa2f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a026d3df45b104e4dd72cd38f00588927"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a026d3df45b104e4dd72cd38f00588927">cqsp::common::components::types::TrueAnomalyFromVector</a> (const Orbit &amp;orbit, const glm::dvec3 &amp;vec)</td></tr>
+<tr class="separator:a026d3df45b104e4dd72cd38f00588927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a557214f27d759892827ebcd5d6ccd2a1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a557214f27d759892827ebcd5d6ccd2a1">cqsp::common::components::types::AscendingTrueAnomaly</a> (const Orbit &amp;start, const Orbit &amp;dest)</td></tr>
+<tr class="separator:a557214f27d759892827ebcd5d6ccd2a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 23 2023 18:22:37 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Dec 25 2023 19:39:22 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
