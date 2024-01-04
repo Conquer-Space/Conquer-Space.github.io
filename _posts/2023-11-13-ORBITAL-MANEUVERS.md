@@ -21,8 +21,7 @@ For Hohmann transfers to work, your orbit needs to be circular, where the orbita
 Special thanks to [svapre](https://github.com/svapre) for implementing the colors you see in the orbit.
 
 I'm still looking at [bi-elliptic transfers](https://en.wikipedia.org/wiki/Bi-elliptic_transfer), which can give slightly
-reduced delta-v requirements for some types of tranfers at the cost of additional time. However, the circumstances that this
-occurs is rare, and it is likely that it will be outside the sphere of influence of whatever body we are modelling.
+reduced delta-v expenditure for some types of tranfers at the cost of additional time. However, it doesn't occur very often, and it might be likely that the trajectory will fall outside the sphere of influence of whatever body we are modelling.
 
 Getting all the equations to work took a lot of time, because I didn't really understand how the math all fit together. However,
 this is all fixed now, and hopefully, iterating upon orbital maneuvers will be a lot faster. 
