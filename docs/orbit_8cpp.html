@@ -118,6 +118,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac70dffb1ca4d288544464969a988aa57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5170b21d6624139b59f2cc083181af4"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#af5170b21d6624139b59f2cc083181af4">cqsp::common::components::types::OrbitVelocityToVec3</a> (const Orbit &amp;orb, double v)</td></tr>
 <tr class="separator:af5170b21d6624139b59f2cc083181af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bca28c4789ddd0f9a2acdcd0e9373d0"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9bca28c4789ddd0f9a2acdcd0e9373d0">cqsp::common::components::types::OrbitVelocityToVec3</a> (const Orbit &amp;orb)</td></tr>
+<tr class="separator:a9bca28c4789ddd0f9a2acdcd0e9373d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86452381d326c876b397a7cb2cd22eea"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a86452381d326c876b397a7cb2cd22eea">cqsp::common::components::types::SolveKeplerElliptic</a> (const double &amp;mean_anomaly, const double &amp;ecc, const int steps=200)</td></tr>
 <tr class="memdesc:a86452381d326c876b397a7cb2cd22eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes eccentric anomaly for a elliptic or circular orbit (e &lt; 1) in radians given mean anomaly and eccentricity  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a86452381d326c876b397a7cb2cd22eea">More...</a><br /></td></tr>
 <tr class="separator:a86452381d326c876b397a7cb2cd22eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,6 +146,11 @@ Functions</h2></td></tr>
 <tr class="separator:aaf79fdc7b2c7e0bfc33c41d8a49373cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa68ff0265a4874f690906668683e4ac5"><td class="memItemLeft" align="right" valign="top">radian&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa68ff0265a4874f690906668683e4ac5">cqsp::common::components::types::TrueAnomalyHyperbolic</a> (const Orbit &amp;orbit, const second &amp;time)</td></tr>
 <tr class="separator:aa68ff0265a4874f690906668683e4ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82371b5e87dcc4c1f60f7f2583ad9015"><td class="memItemLeft" align="right" valign="top">radian&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a82371b5e87dcc4c1f60f7f2583ad9015">cqsp::common::components::types::EccentricAnomaly</a> (double v, double e)</td></tr>
+<tr class="memdesc:a82371b5e87dcc4c1f60f7f2583ad9015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Eccentric anomaly  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a82371b5e87dcc4c1f60f7f2583ad9015">More...</a><br /></td></tr>
+<tr class="separator:a82371b5e87dcc4c1f60f7f2583ad9015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f59e40d5a5c1396ae08945291d63483"><td class="memItemLeft" align="right" valign="top">radian&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a1f59e40d5a5c1396ae08945291d63483">cqsp::common::components::types::HyperbolicAnomaly</a> (double v, double e)</td></tr>
+<tr class="separator:a1f59e40d5a5c1396ae08945291d63483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae826910cdcf08254d9532a71d13ee68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aae826910cdcf08254d9532a71d13ee68">cqsp::common::components::types::UpdateOrbit</a> (Orbit &amp;orb, const second &amp;time)</td></tr>
 <tr class="memdesc:aae826910cdcf08254d9532a71d13ee68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the orbit's true anomaly.  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#aae826910cdcf08254d9532a71d13ee68">More...</a><br /></td></tr>
 <tr class="separator:aae826910cdcf08254d9532a71d13ee68"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,7 +190,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 25 2023 19:39:22 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Feb 15 2024 21:42:48 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
