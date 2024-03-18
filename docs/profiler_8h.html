@@ -70,6 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">profiler.h File Reference</div></div>
 </div><!--header-->
@@ -86,6 +87,11 @@ Macros</h2></td></tr>
 <tr class="separator:a88877f668ebfc9993b6ec3eb7175a0e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5268c3d7ff11c07af0fcefc5f103644"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="profiler_8h.html#ab5268c3d7ff11c07af0fcefc5f103644">END_TIMED_BLOCK</a>(NAME)</td></tr>
 <tr class="separator:ab5268c3d7ff11c07af0fcefc5f103644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:af658eb4304df2ac87982e4b72931ce8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="profiler_8h.html#af658eb4304df2ac87982e4b72931ce8f">set_time_block</a> (const std::string &amp;str, std::chrono::high_resolution_clock::time_point start, std::chrono::high_resolution_clock::time_point end)</td></tr>
+<tr class="separator:af658eb4304df2ac87982e4b72931ce8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -127,9 +133,43 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    std::chrono::high_resolution_clock::time_point block_end_##NAME = std::chrono::high_resolution_clock::now(); \</div>
-<div class="line">    profiler_information_map[#NAME] =                                                                            \</div>
-<div class="line">        std::chrono::duration_cast&lt;std::chrono::microseconds&gt;(block_end_##NAME - block_start_##NAME).count();</div>
+<div class="line">    set_time_block(#NAME, block_start_##NAME, block_end_##NAME);</div>
 </div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="af658eb4304df2ac87982e4b72931ce8f" name="af658eb4304df2ac87982e4b72931ce8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af658eb4304df2ac87982e4b72931ce8f">&#9670;&nbsp;</a></span>set_time_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_time_block </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::chrono::high_resolution_clock::time_point&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::chrono::high_resolution_clock::time_point&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -158,7 +198,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Mar 17 2024 23:18:25 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Mar 18 2024 05:19:03 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

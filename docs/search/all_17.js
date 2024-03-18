@@ -19,5 +19,6 @@ var searchData=
   ['working_5fpopulation_16',['working_population',['../structcqsp_1_1common_1_1components_1_1_labor_information.html#ad821e499032cba72866b80c8cd3bedbf',1,'cqsp::common::components::LaborInformation']]],
   ['write_17',['Write',['../classcqsp_1_1asset_1_1_i_o_stream.html#a84c1616d1cf4777ba391446ebf14ec1c',1,'cqsp::asset::IOStream']]],
   ['writefields_18',['WriteFields',['../namespacecqsp_1_1common_1_1systems_1_1science.html#ab637bccc81e353553f36f9899b776993',1,'cqsp::common::systems::science']]],
-  ['writeoptions_19',['WriteOptions',['../classcqsp_1_1client_1_1_client_options.html#a69e22a003c2d59e64c328fb6c82b65c9',1,'cqsp::client::ClientOptions::WriteOptions(std::ostream &amp;stream)'],['../classcqsp_1_1client_1_1_client_options.html#a03b43b0330150df16d0de92dbfd98004',1,'cqsp::client::ClientOptions::WriteOptions()']]]
+  ['writeoptions_19',['WriteOptions',['../classcqsp_1_1client_1_1_client_options.html#a69e22a003c2d59e64c328fb6c82b65c9',1,'cqsp::client::ClientOptions::WriteOptions(std::ostream &amp;stream)'],['../classcqsp_1_1client_1_1_client_options.html#a03b43b0330150df16d0de92dbfd98004',1,'cqsp::client::ClientOptions::WriteOptions()']]],
+  ['wsl_2emd_20',['WSL.md',['../_w_s_l_8md.html',1,'']]]
 ];
