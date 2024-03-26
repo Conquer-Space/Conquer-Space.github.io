@@ -2,7 +2,7 @@
 layout: default
 ---
 # Features
-A complete list of proposed and completed features can be found here: <https://github.com/EhWhoAmI/cqsp/projects/2>
+A complete list of proposed and completed features can be found here: <https://github.com/Conquer-Space/Conquer-Space/projects/2>
 
 Conquer Space is built on 3 core pillars, economic, social, and political.
 
