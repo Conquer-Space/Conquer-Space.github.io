@@ -76,6 +76,8 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="orbit_8h_source.html">common/components/orbit.h</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;cassert&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;glm/gtc/quaternion.hpp&gt;</code><br />
 <code>#include &lt;glm/gtx/projection.hpp&gt;</code><br />
 <code>#include &lt;glm/gtx/vector_angle.hpp&gt;</code><br />
@@ -134,9 +136,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a5eb137cfc1efd1015a28e052d6762db7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a5eb137cfc1efd1015a28e052d6762db7">cqsp::common::components::types::GetMtElliptic</a> (const double &amp;M0, const double &amp;nu, const double &amp;time, const double &amp;epoch)</td></tr>
 <tr class="memdesc:a5eb137cfc1efd1015a28e052d6762db7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Mean anomaly from the time  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a5eb137cfc1efd1015a28e052d6762db7">More...</a><br /></td></tr>
 <tr class="separator:a5eb137cfc1efd1015a28e052d6762db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf918d32934d6cc7940b4956ed6d362e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#acf918d32934d6cc7940b4956ed6d362e">cqsp::common::components::types::GetMtHyperbolic</a> (const double &amp;Mu, const double &amp;a, const double &amp;d_t)</td></tr>
-<tr class="memdesc:acf918d32934d6cc7940b4956ed6d362e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate mean anomaly from time for a hyperbolic object  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#acf918d32934d6cc7940b4956ed6d362e">More...</a><br /></td></tr>
-<tr class="separator:acf918d32934d6cc7940b4956ed6d362e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ddbed317877c537fc5dfd098a84584f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3ddbed317877c537fc5dfd098a84584f">cqsp::common::components::types::GetMtHyperbolic</a> (const double &amp;M0, const double &amp;nu, const double &amp;time, const double &amp;epoch)</td></tr>
+<tr class="memdesc:a3ddbed317877c537fc5dfd098a84584f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate mean anomaly from time for a hyperbolic object  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a3ddbed317877c537fc5dfd098a84584f">More...</a><br /></td></tr>
+<tr class="separator:a3ddbed317877c537fc5dfd098a84584f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6d413d4658d151020698a741dbc08eb"><td class="memItemLeft" align="right" valign="top">radian&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ae6d413d4658d151020698a741dbc08eb">cqsp::common::components::types::TrueAnomalyElliptic</a> (const Orbit &amp;orbit, const second &amp;time)</td></tr>
 <tr class="separator:ae6d413d4658d151020698a741dbc08eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8304148ffc73ecc71b33f508d25c1077"><td class="memItemLeft" align="right" valign="top">radian&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a8304148ffc73ecc71b33f508d25c1077">cqsp::common::components::types::TrueAnomalyElliptic</a> (const Orbit &amp;orbit, const second &amp;time, double &amp;E_out)</td></tr>
@@ -190,7 +192,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 26 2024 01:31:44 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Jun 10 2024 05:00:04 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
