@@ -72,7 +72,7 @@ var searchData=
   ['time_5fleft_69',['time_left',['../structcqsp_1_1common_1_1components_1_1_factory_timer.html#a7f3cba93846baf44eb6af15037c0785a',1,'cqsp::common::components::FactoryTimer']]],
   ['time_5fzone_70',['time_zone',['../structcqsp_1_1common_1_1components_1_1_city_time_zone.html#a1a1bedd338d7c56846bf9b8821491ea8',1,'cqsp::common::components::CityTimeZone']]],
   ['time_5fzones_71',['time_zones',['../classcqsp_1_1common_1_1_universe.html#ace772a7b4286d10a1a5e96329992a9a2',1,'cqsp::common::Universe']]],
-  ['timetomeananomaly_72',['TimeToMeanAnomaly',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#a178bb5985f10315508bf411c93ffe5d3',1,'cqsp::common::components::types::Orbit']]],
+  ['timetotrueanomaly_72',['TimeToTrueAnomaly',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#ae31c8e80c8a4165b518eb6272ea963fc',1,'cqsp::common::components::types::Orbit']]],
   ['timezone_73',['TimeZone',['../structcqsp_1_1common_1_1components_1_1_time_zone.html',1,'cqsp::common::components']]],
   ['timezoneloader_74',['TimezoneLoader',['../classcqsp_1_1common_1_1systems_1_1loading_1_1_timezone_loader.html',1,'cqsp::common::systems::loading::TimezoneLoader'],['../classcqsp_1_1common_1_1systems_1_1loading_1_1_timezone_loader.html#a2c6750f9f53172e298a3498442098b70',1,'cqsp::common::systems::loading::TimezoneLoader::TimezoneLoader()']]],
   ['timezoneloader_2ecpp_75',['timezoneloader.cpp',['../timezoneloader_8cpp.html',1,'']]],
