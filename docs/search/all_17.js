@@ -6,7 +6,7 @@ var searchData=
   ['week_3',['WEEK',['../classcqsp_1_1common_1_1components_1_1_star_date.html#afd113631dd4adaea1e4aa7f3d9f0be28',1,'cqsp::common::components::StarDate']]],
   ['width_4',['width',['../classcqsp_1_1asset_1_1_image_prototype.html#a2240463a4d94f7e0e4e174060c048916',1,'cqsp::asset::ImagePrototype::width()'],['../classcqsp_1_1asset_1_1_cubemap_prototype.html#a61cac90f2ee4b0150a7129fb9ac9107a',1,'cqsp::asset::CubemapPrototype::width()'],['../structcqsp_1_1asset_1_1_model_texture_prototype.html#a7c59b76f0daf18d7c343bc43a9bcf989',1,'cqsp::asset::ModelTexturePrototype::width()'],['../classcqsp_1_1asset_1_1_texture.html#a8a3491dd29fb9166c3c46aaef90723b8',1,'cqsp::asset::Texture::width()'],['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a5488fd380aa633a457d321201bdb3516',1,'cqsp::engine::AAFrameBufferRenderer::width()']]],
   ['window_5',['Window',['../classcqsp_1_1engine_1_1_window.html',1,'cqsp::engine']]],
-  ['window_6',['window',['../struct_backend_data.html#ae2b39f40b894974480a7df02cb1d156b',1,'BackendData::window()'],['../class_system_interface___g_l_f_w.html#a7217fd7ac52a3efc85a89a91a626ab9f',1,'SystemInterface_GLFW::window()'],['../classcqsp_1_1engine_1_1_g_l_window.html#a14288689eeb4b3cab2ba7aa2a82a3546',1,'cqsp::engine::GLWindow::window()']]],
+  ['window_6',['window',['../classcqsp_1_1engine_1_1_g_l_window.html#a14288689eeb4b3cab2ba7aa2a82a3546',1,'cqsp::engine::GLWindow::window()'],['../class_system_interface___g_l_f_w.html#a7217fd7ac52a3efc85a89a91a626ab9f',1,'SystemInterface_GLFW::window()'],['../struct_backend_data.html#ae2b39f40b894974480a7df02cb1d156b',1,'BackendData::window()']]],
   ['window_2eh_7',['window.h',['../window_8h.html',1,'']]],
   ['window_5fflags_8',['window_flags',['../classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html#ae2d98bd53c720e8fbb2423fd311a9958',1,'cqsp::client::systems::SysUserInterface']]],
   ['window_5fratio_9',['window_ratio',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a56c40afb05a2b9ab64631848d356dc70',1,'cqsp::client::systems::SysStarSystemRenderer']]],
@@ -17,8 +17,9 @@ var searchData=
   ['windowwidth_14',['windowWidth',['../classcqsp_1_1scene_1_1_loading_scene.html#a9456751cc99f6092a973ea33647eb7b7',1,'cqsp::scene::LoadingScene']]],
   ['workers_15',['workers',['../structcqsp_1_1common_1_1components_1_1_recipe.html#ab4f992b356735a9ffce70474d6fd5738',1,'cqsp::common::components::Recipe']]],
   ['working_5fpopulation_16',['working_population',['../structcqsp_1_1common_1_1components_1_1_labor_information.html#ad821e499032cba72866b80c8cd3bedbf',1,'cqsp::common::components::LaborInformation']]],
-  ['write_17',['Write',['../classcqsp_1_1asset_1_1_i_o_stream.html#a84c1616d1cf4777ba391446ebf14ec1c',1,'cqsp::asset::IOStream']]],
-  ['writefields_18',['WriteFields',['../namespacecqsp_1_1common_1_1systems_1_1science.html#ab637bccc81e353553f36f9899b776993',1,'cqsp::common::systems::science']]],
-  ['writeoptions_19',['WriteOptions',['../classcqsp_1_1client_1_1_client_options.html#a69e22a003c2d59e64c328fb6c82b65c9',1,'cqsp::client::ClientOptions::WriteOptions(std::ostream &amp;stream)'],['../classcqsp_1_1client_1_1_client_options.html#a03b43b0330150df16d0de92dbfd98004',1,'cqsp::client::ClientOptions::WriteOptions()']]],
-  ['wsl_2emd_20',['WSL.md',['../_w_s_l_8md.html',1,'']]]
+  ['worldmodel_17',['WorldModel',['../structcqsp_1_1common_1_1components_1_1_world_model.html',1,'cqsp::common::components']]],
+  ['write_18',['Write',['../classcqsp_1_1asset_1_1_i_o_stream.html#a84c1616d1cf4777ba391446ebf14ec1c',1,'cqsp::asset::IOStream']]],
+  ['writefields_19',['WriteFields',['../namespacecqsp_1_1common_1_1systems_1_1science.html#ab637bccc81e353553f36f9899b776993',1,'cqsp::common::systems::science']]],
+  ['writeoptions_20',['WriteOptions',['../classcqsp_1_1client_1_1_client_options.html#a69e22a003c2d59e64c328fb6c82b65c9',1,'cqsp::client::ClientOptions::WriteOptions(std::ostream &amp;stream)'],['../classcqsp_1_1client_1_1_client_options.html#a03b43b0330150df16d0de92dbfd98004',1,'cqsp::client::ClientOptions::WriteOptions()']]],
+  ['wsl_2emd_21',['WSL.md',['../_w_s_l_8md.html',1,'']]]
 ];
