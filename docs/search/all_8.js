@@ -30,7 +30,8 @@ var searchData=
   ['hohmanntransfer_27',['HohmannTransfer',['../namespacecqsp_1_1common_1_1systems.html#a63e974b687d154c0b922e2bb90872d06',1,'cqsp::common::systems']]],
   ['hour_28',['HOUR',['../classcqsp_1_1common_1_1components_1_1_star_date.html#a23d81fb7f57f91d62fb6f9de377c35ca',1,'cqsp::common::components::StarDate']]],
   ['hovering_5fprovince_29',['hovering_province',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aba349bf4c45a4d17592ff0b388d496ae',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['hunger_30',['Hunger',['../structcqsp_1_1common_1_1components_1_1_hunger.html',1,'cqsp::common::components']]],
-  ['hyperbolicanomaly_31',['HyperbolicAnomaly',['../namespacecqsp_1_1common_1_1components_1_1types.html#a1f59e40d5a5c1396ae08945291d63483',1,'cqsp::common::components::types']]],
-  ['hyperbolicanomalytotrueanomaly_32',['HyperbolicAnomalyToTrueAnomaly',['../namespacecqsp_1_1common_1_1components_1_1types.html#ab245ee8420d224a992c49acab02f1855',1,'cqsp::common::components::types']]]
+  ['hovering_5fprovince_5fcolor_30',['hovering_province_color',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a36a889d44883f2415a8fcbf2d5993361',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['hunger_31',['Hunger',['../structcqsp_1_1common_1_1components_1_1_hunger.html',1,'cqsp::common::components']]],
+  ['hyperbolicanomaly_32',['HyperbolicAnomaly',['../namespacecqsp_1_1common_1_1components_1_1types.html#a1f59e40d5a5c1396ae08945291d63483',1,'cqsp::common::components::types']]],
+  ['hyperbolicanomalytotrueanomaly_33',['HyperbolicAnomalyToTrueAnomaly',['../namespacecqsp_1_1common_1_1components_1_1types.html#ab245ee8420d224a992c49acab02f1855',1,'cqsp::common::components::types']]]
 ];
