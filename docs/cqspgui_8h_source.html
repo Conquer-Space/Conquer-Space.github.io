@@ -114,10 +114,10 @@ $(function() {
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span>... Args&gt;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="namespace_c_q_s_p_gui.html#a22e1cd3b528575e3c3b68379b8d2a739">   46</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespace_c_q_s_p_gui.html#a22e1cd3b528575e3c3b68379b8d2a739">SimpleTextTooltip</a>(fmt::format_string&lt;Args...&gt; fmt, Args&amp;&amp;... args) {</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">if</span> (ImGui::IsItemHovered()) {</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        ImGui::BeginTooltip();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="namespacecqsp_1_1client_1_1scripting.html#a7e14625eebc4061eb8e3f895b4749dc0">ImGui::IsItemHovered</a>()) {</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <a class="code hl_function" href="namespacecqsp_1_1client_1_1scripting.html#a2fe954ae102980568acc36ba5abd5dfc">ImGui::BeginTooltip</a>();</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_enumvalue" href="namespacecqsp_1_1asset.html#aed22fbadec167de1f146f108ba1f550aa605952d017e302db1e155eb457015a9e">ImGui::Text</a>(<span class="stringliteral">&quot;%s&quot;</span>, fmt::format(fmt, std::forward&lt;Args&gt;(args)...).c_str());</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        ImGui::EndTooltip();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <a class="code hl_function" href="namespacecqsp_1_1client_1_1scripting.html#a6846ad26fe8a3f5c4c0ce8a0d8d38258">ImGui::EndTooltip</a>();</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    }</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>}  <span class="comment">// namespace CQSPGui</span></div>
@@ -137,10 +137,13 @@ $(function() {
 <div class="ttc" id="anamespace_c_q_s_p_gui_html_acf359949febedf19540aa4d2989314d0"><div class="ttname"><a href="namespace_c_q_s_p_gui.html#acf359949febedf19540aa4d2989314d0">CQSPGui::DefaultCheckbox</a></div><div class="ttdeci">bool DefaultCheckbox(const char *label, bool *v)</div><div class="ttdef"><b>Definition:</b> cqspgui.cpp:55</div></div>
 <div class="ttc" id="anamespace_c_q_s_p_gui_html_ad7bbf731e5639271fbe0138e28c94922"><div class="ttname"><a href="namespace_c_q_s_p_gui.html#ad7bbf731e5639271fbe0138e28c94922">CQSPGui::SliderFloat</a></div><div class="ttdeci">bool SliderFloat(const char *label, float *v, float v_min, float v_max, const char *format, ImGuiSliderFlags flags)</div><div class="ttdef"><b>Definition:</b> cqspgui.cpp:71</div></div>
 <div class="ttc" id="anamespacecqsp_1_1asset_html_aed22fbadec167de1f146f108ba1f550aa605952d017e302db1e155eb457015a9e"><div class="ttname"><a href="namespacecqsp_1_1asset.html#aed22fbadec167de1f146f108ba1f550aa605952d017e302db1e155eb457015a9e">cqsp::asset::Text</a></div><div class="ttdeci">@ Text</div><div class="ttdef"><b>Definition:</b> vfs.h:27</div></div>
+<div class="ttc" id="anamespacecqsp_1_1client_1_1scripting_html_a2fe954ae102980568acc36ba5abd5dfc"><div class="ttname"><a href="namespacecqsp_1_1client_1_1scripting.html#a2fe954ae102980568acc36ba5abd5dfc">cqsp::client::scripting::BeginTooltip</a></div><div class="ttdeci">void BeginTooltip()</div><div class="ttdef"><b>Definition:</b> imguifunctiondefs.cpp:1599</div></div>
+<div class="ttc" id="anamespacecqsp_1_1client_1_1scripting_html_a6846ad26fe8a3f5c4c0ce8a0d8d38258"><div class="ttname"><a href="namespacecqsp_1_1client_1_1scripting.html#a6846ad26fe8a3f5c4c0ce8a0d8d38258">cqsp::client::scripting::EndTooltip</a></div><div class="ttdeci">void EndTooltip()</div><div class="ttdef"><b>Definition:</b> imguifunctiondefs.cpp:1600</div></div>
+<div class="ttc" id="anamespacecqsp_1_1client_1_1scripting_html_a7e14625eebc4061eb8e3f895b4749dc0"><div class="ttname"><a href="namespacecqsp_1_1client_1_1scripting.html#a7e14625eebc4061eb8e3f895b4749dc0">cqsp::client::scripting::IsItemHovered</a></div><div class="ttdeci">bool IsItemHovered()</div><div class="ttdef"><b>Definition:</b> imguifunctiondefs.cpp:1724</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 9 2025 06:18:54 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Feb 14 2025 21:06:31 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
