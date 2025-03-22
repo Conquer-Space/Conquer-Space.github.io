@@ -64,7 +64,6 @@ var searchData=
   ['systechprogress_61',['SysTechProgress',['../classcqsp_1_1common_1_1systems_1_1_sys_tech_progress.html',1,'cqsp::common::systems']]],
   ['systeminterface_5fglfw_62',['SystemInterface_GLFW',['../class_system_interface___g_l_f_w.html',1,'']]],
   ['systrade_63',['SysTrade',['../classcqsp_1_1common_1_1systems_1_1_sys_trade.html',1,'cqsp::common::systems']]],
-  ['systurnsavewindow_64',['SysTurnSaveWindow',['../classcqsp_1_1client_1_1systems_1_1_sys_turn_save_window.html',1,'cqsp::client::systems']]],
-  ['sysuserinterface_65',['SysUserInterface',['../classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html',1,'cqsp::client::systems']]],
-  ['syswalletreset_66',['SysWalletReset',['../classcqsp_1_1common_1_1systems_1_1_sys_wallet_reset.html',1,'cqsp::common::systems']]]
+  ['sysuserinterface_64',['SysUserInterface',['../classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html',1,'cqsp::client::systems']]],
+  ['syswalletreset_65',['SysWalletReset',['../classcqsp_1_1common_1_1systems_1_1_sys_wallet_reset.html',1,'cqsp::common::systems']]]
 ];

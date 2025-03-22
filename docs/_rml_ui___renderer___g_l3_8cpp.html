@@ -79,7 +79,7 @@ $(function() {
   <div class="headertitle"><div class="title">RmlUi_Renderer_GL3.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="_rml_ui___renderer___g_l3_8h_source.html">RmlUi_Renderer_GL3.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="_rml_ui___renderer___g_l3_8h_source.html">engine/ui/RmlUi_Renderer_GL3.h</a>&quot;</code><br />
 <code>#include &lt;RmlUi/Core/Core.h&gt;</code><br />
 <code>#include &lt;RmlUi/Core/DecorationTypes.h&gt;</code><br />
 <code>#include &lt;RmlUi/Core/FileInterface.h&gt;</code><br />
@@ -89,7 +89,7 @@ $(function() {
 <code>#include &lt;RmlUi/Core/Platform.h&gt;</code><br />
 <code>#include &lt;RmlUi/Core/SystemInterface.h&gt;</code><br />
 <code>#include &lt;stb_image.h&gt;</code><br />
-<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
 <code>#include &lt;glad/glad.h&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -397,10 +397,10 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a49bb28b36c995d984c4403390c998e61">RMLUI_SHADER_HEADER</a> <span class="stringliteral">&quot;\n#define BLUR_SIZE &quot;</span> <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a8c8c320fa437008df42810d2091c593b">RMLUI_STRINGIFY</a>( \</div>
 <div class="line">        <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#ab28061d09f719155d5323a371c59190c">BLUR_SIZE</a>) <span class="stringliteral">&quot;\n#define BLUR_NUM_WEIGHTS &quot;</span> <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a8c8c320fa437008df42810d2091c593b">RMLUI_STRINGIFY</a>(<a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a32605bf3f0e64919f6a66a44af97268d">BLUR_NUM_WEIGHTS</a>)</div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a32605bf3f0e64919f6a66a44af97268d"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a32605bf3f0e64919f6a66a44af97268d">BLUR_NUM_WEIGHTS</a></div><div class="ttdeci">#define BLUR_NUM_WEIGHTS</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:66</div></div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a49bb28b36c995d984c4403390c998e61"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a49bb28b36c995d984c4403390c998e61">RMLUI_SHADER_HEADER</a></div><div class="ttdeci">#define RMLUI_SHADER_HEADER</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:71</div></div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a8c8c320fa437008df42810d2091c593b"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a8c8c320fa437008df42810d2091c593b">RMLUI_STRINGIFY</a></div><div class="ttdeci">#define RMLUI_STRINGIFY(x)</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:69</div></div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_ab28061d09f719155d5323a371c59190c"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#ab28061d09f719155d5323a371c59190c">BLUR_SIZE</a></div><div class="ttdeci">#define BLUR_SIZE</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:65</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a32605bf3f0e64919f6a66a44af97268d"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a32605bf3f0e64919f6a66a44af97268d">BLUR_NUM_WEIGHTS</a></div><div class="ttdeci">#define BLUR_NUM_WEIGHTS</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:67</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a49bb28b36c995d984c4403390c998e61"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a49bb28b36c995d984c4403390c998e61">RMLUI_SHADER_HEADER</a></div><div class="ttdeci">#define RMLUI_SHADER_HEADER</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:72</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a8c8c320fa437008df42810d2091c593b"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a8c8c320fa437008df42810d2091c593b">RMLUI_STRINGIFY</a></div><div class="ttdeci">#define RMLUI_STRINGIFY(x)</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:70</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_ab28061d09f719155d5323a371c59190c"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#ab28061d09f719155d5323a371c59190c">BLUR_SIZE</a></div><div class="ttdeci">#define BLUR_SIZE</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:66</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -417,8 +417,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a53818a00780c5bf3cac60b829757903e">RMLUI_SHADER_HEADER_VERSION</a> \</div>
 <div class="line">    <span class="stringliteral">&quot;#define MAX_NUM_STOPS &quot;</span> <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a8c8c320fa437008df42810d2091c593b">RMLUI_STRINGIFY</a>(<a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#ac6a981349cf9115ef9889672213edcf9">MAX_NUM_STOPS</a>) <span class="stringliteral">&quot;\n#line &quot;</span> <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a8c8c320fa437008df42810d2091c593b">RMLUI_STRINGIFY</a>(__LINE__) <span class="stringliteral">&quot;\n&quot;</span></div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a53818a00780c5bf3cac60b829757903e"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a53818a00780c5bf3cac60b829757903e">RMLUI_SHADER_HEADER_VERSION</a></div><div class="ttdeci">#define RMLUI_SHADER_HEADER_VERSION</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:56</div></div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_ac6a981349cf9115ef9889672213edcf9"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#ac6a981349cf9115ef9889672213edcf9">MAX_NUM_STOPS</a></div><div class="ttdeci">#define MAX_NUM_STOPS</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:64</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a53818a00780c5bf3cac60b829757903e"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a53818a00780c5bf3cac60b829757903e">RMLUI_SHADER_HEADER_VERSION</a></div><div class="ttdeci">#define RMLUI_SHADER_HEADER_VERSION</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:57</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_ac6a981349cf9115ef9889672213edcf9"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#ac6a981349cf9115ef9889672213edcf9">MAX_NUM_STOPS</a></div><div class="ttdeci">#define MAX_NUM_STOPS</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:65</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -988,7 +988,7 @@ The Rectangle::Top and Rectangle::Bottom members will have reverse meaning in th
 <div class="line"><span class="stringliteral">    finalColor = color;</span></div>
 <div class="line"><span class="stringliteral">}</span></div>
 <div class="line"><span class="stringliteral">)&quot;</span></div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_ada858bba43faa0488673e27513a0fc05"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#ada858bba43faa0488673e27513a0fc05">RMLUI_SHADER_BLUR_HEADER</a></div><div class="ttdeci">#define RMLUI_SHADER_BLUR_HEADER</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:274</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_ada858bba43faa0488673e27513a0fc05"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#ada858bba43faa0488673e27513a0fc05">RMLUI_SHADER_BLUR_HEADER</a></div><div class="ttdeci">#define RMLUI_SHADER_BLUR_HEADER</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:275</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1355,7 +1355,7 @@ The Rectangle::Top and Rectangle::Bottom members will have reverse meaning in th
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 28 2025 16:11:01 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Mar 22 2025 00:27:48 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

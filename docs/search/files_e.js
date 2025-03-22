@@ -78,8 +78,6 @@ var searchData=
   ['systooltips_2eh_75',['systooltips.h',['../systooltips_8h.html',1,'']]],
   ['systrade_2ecpp_76',['systrade.cpp',['../systrade_8cpp.html',1,'']]],
   ['systrade_2eh_77',['systrade.h',['../systrade_8h.html',1,'']]],
-  ['systurnsavewindow_2ecpp_78',['systurnsavewindow.cpp',['../systurnsavewindow_8cpp.html',1,'']]],
-  ['systurnsavewindow_2eh_79',['systurnsavewindow.h',['../systurnsavewindow_8h.html',1,'']]],
-  ['sysuniversegenerator_2ecpp_80',['sysuniversegenerator.cpp',['../sysuniversegenerator_8cpp.html',1,'']]],
-  ['sysuniversegenerator_2eh_81',['sysuniversegenerator.h',['../sysuniversegenerator_8h.html',1,'']]]
+  ['sysuniversegenerator_2ecpp_78',['sysuniversegenerator.cpp',['../sysuniversegenerator_8cpp.html',1,'']]],
+  ['sysuniversegenerator_2eh_79',['sysuniversegenerator.h',['../sysuniversegenerator_8h.html',1,'']]]
 ];
