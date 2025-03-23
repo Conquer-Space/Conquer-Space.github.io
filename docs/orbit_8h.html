@@ -77,8 +77,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;math.h&gt;</code><br />
+<code>#include &lt;ostream&gt;</code><br />
 <code>#include &lt;entt/entt.hpp&gt;</code><br />
-<code>#include &lt;glm/glm.hpp&gt;</code><br />
+<code>#include &lt;glm/vec3.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="bodies_8h_source.html">common/components/bodies.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="coordinates_8h_source.html">common/components/coordinates.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="units_8h_source.html">common/components/units.h</a>&quot;</code><br />
@@ -112,8 +113,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2c1cd6561270cca69a2ae7577c9f43c0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a2c1cd6561270cca69a2ae7577c9f43c0">cqsp::common::components::types::GetOrbitingRadius</a> (const double &amp;e, const double &amp;a, const double &amp;v)</td></tr>
-<tr class="separator:a2c1cd6561270cca69a2ae7577c9f43c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d77d26a296d969d3d806679ae3e6bf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad3d77d26a296d969d3d806679ae3e6bf">cqsp::common::components::types::GetOrbitingRadius</a> (const double &amp;e, const radian &amp;a, const radian &amp;v)</td></tr>
+<tr class="separator:ad3d77d26a296d969d3d806679ae3e6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d31dee9ee6ad5a2e422e220462ee60"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a51d31dee9ee6ad5a2e422e220462ee60">cqsp::common::components::types::operator&lt;&lt;</a> (std::ostream &amp;outs, const Orbit &amp;orb)</td></tr>
+<tr class="separator:a51d31dee9ee6ad5a2e422e220462ee60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a295c90db9d8393eb83c655900b9ce7f0"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a295c90db9d8393eb83c655900b9ce7f0">cqsp::common::components::types::ConvertOrbParams</a> (const double LAN, const double i, const double w, const glm::dvec3 &amp;vec)</td></tr>
 <tr class="memdesc:a295c90db9d8393eb83c655900b9ce7f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms a vector to the orbital plane vector  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a295c90db9d8393eb83c655900b9ce7f0">More...</a><br /></td></tr>
 <tr class="separator:a295c90db9d8393eb83c655900b9ce7f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,10 +130,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a9463e998fc09aeb2d6d54f17b01151b6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9463e998fc09aeb2d6d54f17b01151b6">cqsp::common::components::types::GetTrueAnomaly</a> (const Orbit &amp;orb, const second &amp;epoch)</td></tr>
 <tr class="memdesc:a9463e998fc09aeb2d6d54f17b01151b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get anomaly at epoch  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a9463e998fc09aeb2d6d54f17b01151b6">More...</a><br /></td></tr>
 <tr class="separator:a9463e998fc09aeb2d6d54f17b01151b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d3ef5415fc59403ee0972243c709317"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a8d3ef5415fc59403ee0972243c709317">cqsp::common::components::types::CalculateVelocity</a> (const double &amp;E, const double &amp;r, const double &amp;GM, const double &amp;a, const double &amp;e)</td></tr>
-<tr class="separator:a8d3ef5415fc59403ee0972243c709317"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38edb15a9a8a020ee5fa66946577c0a0"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a38edb15a9a8a020ee5fa66946577c0a0">cqsp::common::components::types::CalculateVelocityElliptic</a> (const double &amp;E, const double &amp;r, const double &amp;GM, const double &amp;a, const double &amp;e)</td></tr>
-<tr class="separator:a38edb15a9a8a020ee5fa66946577c0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd73276c26889c7eee23e970a8de3e8f"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#abd73276c26889c7eee23e970a8de3e8f">cqsp::common::components::types::CalculateVelocity</a> (const double &amp;E, const kilometer &amp;r, const double &amp;GM, const kilometer &amp;a, const double &amp;e)</td></tr>
+<tr class="separator:abd73276c26889c7eee23e970a8de3e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae33fa03dd93caec7c4af1494f6cd43d7"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ae33fa03dd93caec7c4af1494f6cd43d7">cqsp::common::components::types::CalculateVelocityElliptic</a> (const double &amp;E, const kilometer &amp;r, const double &amp;GM, const kilometer &amp;a, const double &amp;e)</td></tr>
+<tr class="separator:ae33fa03dd93caec7c4af1494f6cd43d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af42e3e6c12b778fae65d44d439781b"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a1af42e3e6c12b778fae65d44d439781b">cqsp::common::components::types::CalculateVelocityHyperbolic</a> (const double &amp;E, const double &amp;r, const double &amp;GM, const double &amp;a, const double &amp;e)</td></tr>
 <tr class="separator:a1af42e3e6c12b778fae65d44d439781b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf79fdc7b2c7e0bfc33c41d8a49373cc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aaf79fdc7b2c7e0bfc33c41d8a49373cc">cqsp::common::components::types::GetCircularOrbitingVelocity</a> (const double &amp;GM, const double &amp;radius)</td></tr>
@@ -192,8 +195,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a788965a388bf936a2c141bd332596e04"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a788965a388bf936a2c141bd332596e04">cqsp::common::components::types::toVec3</a> (const Orbit &amp;orb, radian theta)</td></tr>
 <tr class="memdesc:a788965a388bf936a2c141bd332596e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts orbit to theta  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a788965a388bf936a2c141bd332596e04">More...</a><br /></td></tr>
 <tr class="separator:a788965a388bf936a2c141bd332596e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b33f027945f206dfd72efafc2f107e9"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a1b33f027945f206dfd72efafc2f107e9">cqsp::common::components::types::OrbitTimeToVec3</a> (const Orbit &amp;orb, const second &amp;time)</td></tr>
-<tr class="separator:a1b33f027945f206dfd72efafc2f107e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57441e77ea07d144570ae48e33a0c6e1"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a57441e77ea07d144570ae48e33a0c6e1">cqsp::common::components::types::OrbitTimeToVec3</a> (const Orbit &amp;orb, const second time)</td></tr>
+<tr class="separator:a57441e77ea07d144570ae48e33a0c6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76532a1690af1109a1b01c37f56a7483"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a76532a1690af1109a1b01c37f56a7483">cqsp::common::components::types::OrbitTimeToVelocityVec3</a> (const Orbit &amp;orb, const second time)</td></tr>
+<tr class="separator:a76532a1690af1109a1b01c37f56a7483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fec3726e330e096a641c988589fda6e"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6fec3726e330e096a641c988589fda6e">cqsp::common::components::types::toVec3</a> (const Orbit &amp;orb)</td></tr>
 <tr class="separator:a6fec3726e330e096a641c988589fda6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55894242ce56153b494a39e04cb59fbb"><td class="memItemLeft" align="right" valign="top">Vec3AU&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a55894242ce56153b494a39e04cb59fbb">cqsp::common::components::types::toVec3AU</a> (const Orbit &amp;orb)</td></tr>
@@ -222,7 +227,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 22 2025 08:15:58 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Mar 23 2025 03:54:11 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

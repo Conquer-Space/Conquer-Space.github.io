@@ -56,5 +56,6 @@ var searchData=
   ['cursor_5fpointer_53',['cursor_pointer',['../class_system_interface___g_l_f_w.html#a0ec43a97f0bb2e68d6c0eaa97e4033ed',1,'SystemInterface_GLFW']]],
   ['cursor_5fresize_54',['cursor_resize',['../class_system_interface___g_l_f_w.html#aae58032ea24248cac2af478ad6a20897',1,'SystemInterface_GLFW']]],
   ['cursor_5ftext_55',['cursor_text',['../class_system_interface___g_l_f_w.html#a6ed6e80c8c20497267f38fca780c768f',1,'SystemInterface_GLFW']]],
-  ['cursor_5funavailable_56',['cursor_unavailable',['../class_system_interface___g_l_f_w.html#a7aa330ab6d0ae54b166a4f363a90fdf2',1,'SystemInterface_GLFW']]]
+  ['cursor_5funavailable_56',['cursor_unavailable',['../class_system_interface___g_l_f_w.html#a7aa330ab6d0ae54b166a4f363a90fdf2',1,'SystemInterface_GLFW']]],
+  ['cw_57',['cw',['../classcqsp_1_1common_1_1systems_1_1lambert_1_1_izzo.html#aceb251b539817a549950e4d46b47d0d3',1,'cqsp::common::systems::lambert::Izzo']]]
 ];

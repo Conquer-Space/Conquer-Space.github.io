@@ -93,23 +93,25 @@ $(function() {
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">extern</span> std::map&lt;std::string, int&gt; <a class="code hl_variable" href="profiler_8h.html#a0476ecfb87a32cdc83f2666c64db1783">profiler_information_map</a>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="profiler_8h.html#a88877f668ebfc9993b6ec3eb7175a0e5">   25</a></span><span class="preprocessor">#define BEGIN_TIMED_BLOCK(NAME) \</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">    std::chrono::high_resolution_clock::time_point block_start_##NAME = std::chrono::high_resolution_clock::now();</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keywordtype">void</span> <a class="code hl_function" href="profiler_8h.html#af658eb4304df2ac87982e4b72931ce8f">set_time_block</a>(<span class="keyword">const</span> std::string&amp; str, std::chrono::high_resolution_clock::time_point start,</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>                    std::chrono::high_resolution_clock::time_point end);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="profiler_8h.html#ab5268c3d7ff11c07af0fcefc5f103644">   31</a></span><span class="preprocessor">#define END_TIMED_BLOCK(NAME)                                                                                    \</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">    std::chrono::high_resolution_clock::time_point block_end_##NAME = std::chrono::high_resolution_clock::now(); \</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">    set_time_block(#NAME, block_start_##NAME, block_end_##NAME);</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>std::map&lt;std::string, int&gt;&amp; <a class="code hl_function" href="profiler_8h.html#a55331861d3a25fd316e6359c4749e12a">get_profile_information</a>();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">extern</span> std::map&lt;std::string, int&gt; <a class="code hl_variable" href="profiler_8h.html#a0476ecfb87a32cdc83f2666c64db1783">profiler_information_map</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="profiler_8h.html#a88877f668ebfc9993b6ec3eb7175a0e5">   26</a></span><span class="preprocessor">#define BEGIN_TIMED_BLOCK(NAME) \</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">    std::chrono::high_resolution_clock::time_point block_start_##NAME = std::chrono::high_resolution_clock::now();</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">void</span> <a class="code hl_function" href="profiler_8h.html#af658eb4304df2ac87982e4b72931ce8f">set_time_block</a>(<span class="keyword">const</span> std::string&amp; str, std::chrono::high_resolution_clock::time_point start,</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                    std::chrono::high_resolution_clock::time_point end);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="profiler_8h.html#ab5268c3d7ff11c07af0fcefc5f103644">   32</a></span><span class="preprocessor">#define END_TIMED_BLOCK(NAME)                                                                                    \</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">    std::chrono::high_resolution_clock::time_point block_end_##NAME = std::chrono::high_resolution_clock::now(); \</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">    set_time_block(#NAME, block_start_##NAME, block_end_##NAME);</span></div>
 <div class="ttc" id="aprofiler_8h_html_a0476ecfb87a32cdc83f2666c64db1783"><div class="ttname"><a href="profiler_8h.html#a0476ecfb87a32cdc83f2666c64db1783">profiler_information_map</a></div><div class="ttdeci">std::map&lt; std::string, int &gt; profiler_information_map</div><div class="ttdef"><b>Definition:</b> profiler.cpp:22</div></div>
+<div class="ttc" id="aprofiler_8h_html_a55331861d3a25fd316e6359c4749e12a"><div class="ttname"><a href="profiler_8h.html#a55331861d3a25fd316e6359c4749e12a">get_profile_information</a></div><div class="ttdeci">std::map&lt; std::string, int &gt; &amp; get_profile_information()</div><div class="ttdef"><b>Definition:</b> profiler.cpp:29</div></div>
 <div class="ttc" id="aprofiler_8h_html_af658eb4304df2ac87982e4b72931ce8f"><div class="ttname"><a href="profiler_8h.html#af658eb4304df2ac87982e4b72931ce8f">set_time_block</a></div><div class="ttdeci">void set_time_block(const std::string &amp;str, std::chrono::high_resolution_clock::time_point start, std::chrono::high_resolution_clock::time_point end)</div><div class="ttdef"><b>Definition:</b> profiler.cpp:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 22 2025 08:15:57 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Mar 23 2025 03:54:11 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

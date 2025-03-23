@@ -29,9 +29,11 @@ var searchData=
   ['hohmannpair_5ft_26',['HohmannPair_t',['../namespacecqsp_1_1common_1_1components.html#ad6e9c65e6b09f4ef56e35a247d5a87ff',1,'cqsp::common::components']]],
   ['hohmanntransfer_27',['HohmannTransfer',['../namespacecqsp_1_1common_1_1systems.html#afc2f5cce0e1f10e1110d16f57dee0565',1,'cqsp::common::systems']]],
   ['hour_28',['HOUR',['../classcqsp_1_1common_1_1components_1_1_star_date.html#a23d81fb7f57f91d62fb6f9de377c35ca',1,'cqsp::common::components::StarDate']]],
-  ['hovering_5fprovince_29',['hovering_province',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aba349bf4c45a4d17592ff0b388d496ae',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['hovering_5fprovince_5fcolor_30',['hovering_province_color',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a36a889d44883f2415a8fcbf2d5993361',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['hunger_31',['Hunger',['../structcqsp_1_1common_1_1components_1_1_hunger.html',1,'cqsp::common::components']]],
-  ['hyperbolicanomaly_32',['HyperbolicAnomaly',['../namespacecqsp_1_1common_1_1components_1_1types.html#a1f59e40d5a5c1396ae08945291d63483',1,'cqsp::common::components::types']]],
-  ['hyperbolicanomalytotrueanomaly_33',['HyperbolicAnomalyToTrueAnomaly',['../namespacecqsp_1_1common_1_1components_1_1types.html#ab245ee8420d224a992c49acab02f1855',1,'cqsp::common::components::types']]]
+  ['householder_29',['householder',['../classcqsp_1_1common_1_1systems_1_1lambert_1_1_izzo.html#a28af61360ea50295d6a3224cfebe5be5',1,'cqsp::common::systems::lambert::Izzo']]],
+  ['hovering_5fprovince_30',['hovering_province',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aba349bf4c45a4d17592ff0b388d496ae',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['hovering_5fprovince_5fcolor_31',['hovering_province_color',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a36a889d44883f2415a8fcbf2d5993361',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['hunger_32',['Hunger',['../structcqsp_1_1common_1_1components_1_1_hunger.html',1,'cqsp::common::components']]],
+  ['hyperbolicanomaly_33',['HyperbolicAnomaly',['../namespacecqsp_1_1common_1_1components_1_1types.html#a1f59e40d5a5c1396ae08945291d63483',1,'cqsp::common::components::types']]],
+  ['hyperbolicanomalytotrueanomaly_34',['HyperbolicAnomalyToTrueAnomaly',['../namespacecqsp_1_1common_1_1components_1_1types.html#ab245ee8420d224a992c49acab02f1855',1,'cqsp::common::components::types']]],
+  ['hypergeometricf_35',['hypergeometricF',['../classcqsp_1_1common_1_1systems_1_1lambert_1_1_izzo.html#ab08a42df9fbad0774eee661a64480d83',1,'cqsp::common::systems::lambert::Izzo']]]
 ];
