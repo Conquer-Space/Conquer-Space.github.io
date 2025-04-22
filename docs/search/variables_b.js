@@ -21,6 +21,7 @@ var searchData=
   ['loaded_5fdocuments_18',['loaded_documents',['../classcqsp_1_1engine_1_1_application.html#a72690707a68b9c50454a81117f521926',1,'cqsp::engine::Application']]],
   ['loading_5fdata_19',['loading_data',['../classcqsp_1_1scene_1_1_loading_scene.html#af5d0c3dc405a327effcdd2e677c6d603',1,'cqsp::scene::LoadingScene']]],
   ['loading_5ffunctions_20',['loading_functions',['../classcqsp_1_1asset_1_1_asset_loader.html#a11ea17216529528f9386771019a734b2',1,'cqsp::asset::AssetLoader']]],
-  ['locale_21',['locale',['../classcqsp_1_1engine_1_1_application.html#a9b8fce19710ecb815282c0e892ea4774',1,'cqsp::engine::Application']]],
-  ['logger_22',['logger',['../classcqsp_1_1scripting_1_1_script_interface.html#ac69b66687f72e2be7cec841b1c7a2f2a',1,'cqsp::scripting::ScriptInterface::logger()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a11124fe89a6e34b5d9a6c00f61db9d68',1,'cqsp::engine::audio::AudioInterface::logger()']]]
+  ['loading_5ftimes_21',['loading_times',['../classcqsp_1_1asset_1_1_asset_loader.html#a01480d9f2fb818c58d6ea687d9d756c7',1,'cqsp::asset::AssetLoader']]],
+  ['locale_22',['locale',['../classcqsp_1_1engine_1_1_application.html#a9b8fce19710ecb815282c0e892ea4774',1,'cqsp::engine::Application']]],
+  ['logger_23',['logger',['../classcqsp_1_1scripting_1_1_script_interface.html#ac69b66687f72e2be7cec841b1c7a2f2a',1,'cqsp::scripting::ScriptInterface::logger()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a11124fe89a6e34b5d9a6c00f61db9d68',1,'cqsp::engine::audio::AudioInterface::logger()']]]
 ];
