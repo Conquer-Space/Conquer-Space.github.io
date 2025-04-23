@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['ivirtualdirectoryptr_0',['IVirtualDirectoryPtr',['../namespacecqsp_1_1asset.html#afc57671f834b100155e4e56af3b80577',1,'cqsp::asset']]],
-  ['ivirtualfileptr_1',['IVirtualFilePtr',['../namespacecqsp_1_1asset.html#aad34e921425ce7efb4d34c87e5002f31',1,'cqsp::asset']]]
+  ['hohmannpair_5ft_0',['HohmannPair_t',['../namespacecqsp_1_1common_1_1components.html#ad6e9c65e6b09f4ef56e35a247d5a87ff',1,'cqsp::common::components']]]
 ];

@@ -94,11 +94,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit2.html">Orbit2</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit_dirty.html">OrbitDirty</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_polar_coordinate__tp.html">PolarCoordinate_tp</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_set_true_anomaly.html">SetTrueAnomaly</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html">SurfaceCoordinate</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Longitude and lattitude. Planet coordinates.  <a href="structcqsp_1_1common_1_1components_1_1types_1_1_surface_coordinate.html#details">More...</a><br /></td></tr>
@@ -177,8 +177,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a3294c2eb2f78df9bad6d15c3d209a8cd"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3294c2eb2f78df9bad6d15c3d209a8cd">toVec3</a> (const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aec5a546599bc61c0968c1e1b20165bd9">PolarCoordinate</a> &amp;coordinate)</td></tr>
 <tr class="memdesc:a3294c2eb2f78df9bad6d15c3d209a8cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D polar coordinate to opengl 3d coordinate  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a3294c2eb2f78df9bad6d15c3d209a8cd">More...</a><br /></td></tr>
 <tr class="separator:a3294c2eb2f78df9bad6d15c3d209a8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c1cd6561270cca69a2ae7577c9f43c0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a2c1cd6561270cca69a2ae7577c9f43c0">GetOrbitingRadius</a> (const double &amp;e, const double &amp;a, const double &amp;v)</td></tr>
-<tr class="separator:a2c1cd6561270cca69a2ae7577c9f43c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d77d26a296d969d3d806679ae3e6bf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad3d77d26a296d969d3d806679ae3e6bf">GetOrbitingRadius</a> (const double &amp;e, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> &amp;a, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> &amp;v)</td></tr>
+<tr class="separator:ad3d77d26a296d969d3d806679ae3e6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a715d0f014c8d6420cf304fad2e921671"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a715d0f014c8d6420cf304fad2e921671">MatrixConvertOrbParams</a> (const double LAN, const double i, const double w, const glm::dvec3 &amp;vec)</td></tr>
 <tr class="separator:a715d0f014c8d6420cf304fad2e921671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a295c90db9d8393eb83c655900b9ce7f0"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a295c90db9d8393eb83c655900b9ce7f0">ConvertOrbParams</a> (const double LAN, const double i, const double w, const glm::dvec3 &amp;vec)</td></tr>
@@ -201,6 +201,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac70dffb1ca4d288544464969a988aa57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5170b21d6624139b59f2cc083181af4"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#af5170b21d6624139b59f2cc083181af4">OrbitVelocityToVec3</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb, double v)</td></tr>
 <tr class="separator:af5170b21d6624139b59f2cc083181af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bca28c4789ddd0f9a2acdcd0e9373d0"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9bca28c4789ddd0f9a2acdcd0e9373d0">OrbitVelocityToVec3</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb)</td></tr>
+<tr class="separator:a9bca28c4789ddd0f9a2acdcd0e9373d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86452381d326c876b397a7cb2cd22eea"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a86452381d326c876b397a7cb2cd22eea">SolveKeplerElliptic</a> (const double &amp;mean_anomaly, const double &amp;ecc, const int steps=200)</td></tr>
 <tr class="memdesc:a86452381d326c876b397a7cb2cd22eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes eccentric anomaly for a elliptic or circular orbit (e &lt; 1) in radians given mean anomaly and eccentricity  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a86452381d326c876b397a7cb2cd22eea">More...</a><br /></td></tr>
 <tr class="separator:a86452381d326c876b397a7cb2cd22eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,9 +217,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a5eb137cfc1efd1015a28e052d6762db7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a5eb137cfc1efd1015a28e052d6762db7">GetMtElliptic</a> (const double &amp;M0, const double &amp;nu, const double &amp;time, const double &amp;epoch)</td></tr>
 <tr class="memdesc:a5eb137cfc1efd1015a28e052d6762db7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Mean anomaly from the time  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a5eb137cfc1efd1015a28e052d6762db7">More...</a><br /></td></tr>
 <tr class="separator:a5eb137cfc1efd1015a28e052d6762db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf918d32934d6cc7940b4956ed6d362e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#acf918d32934d6cc7940b4956ed6d362e">GetMtHyperbolic</a> (const double &amp;Mu, const double &amp;a, const double &amp;d_t)</td></tr>
-<tr class="memdesc:acf918d32934d6cc7940b4956ed6d362e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate mean anomaly from time for a hyperbolic object  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#acf918d32934d6cc7940b4956ed6d362e">More...</a><br /></td></tr>
-<tr class="separator:acf918d32934d6cc7940b4956ed6d362e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ddbed317877c537fc5dfd098a84584f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3ddbed317877c537fc5dfd098a84584f">GetMtHyperbolic</a> (const double &amp;M0, const double &amp;nu, const double &amp;time, const double &amp;epoch)</td></tr>
+<tr class="memdesc:a3ddbed317877c537fc5dfd098a84584f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate mean anomaly from time for a hyperbolic object  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a3ddbed317877c537fc5dfd098a84584f">More...</a><br /></td></tr>
+<tr class="separator:a3ddbed317877c537fc5dfd098a84584f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6d413d4658d151020698a741dbc08eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ae6d413d4658d151020698a741dbc08eb">TrueAnomalyElliptic</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orbit, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">second</a> &amp;time)</td></tr>
 <tr class="separator:ae6d413d4658d151020698a741dbc08eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8304148ffc73ecc71b33f508d25c1077"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a8304148ffc73ecc71b33f508d25c1077">TrueAnomalyElliptic</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orbit, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">second</a> &amp;time, double &amp;E_out)</td></tr>
@@ -227,25 +229,32 @@ Functions</h2></td></tr>
 <tr class="separator:aaf79fdc7b2c7e0bfc33c41d8a49373cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa68ff0265a4874f690906668683e4ac5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa68ff0265a4874f690906668683e4ac5">TrueAnomalyHyperbolic</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orbit, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">second</a> &amp;time)</td></tr>
 <tr class="separator:aa68ff0265a4874f690906668683e4ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82371b5e87dcc4c1f60f7f2583ad9015"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a82371b5e87dcc4c1f60f7f2583ad9015">EccentricAnomaly</a> (double v, double e)</td></tr>
+<tr class="memdesc:a82371b5e87dcc4c1f60f7f2583ad9015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Eccentric anomaly  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a82371b5e87dcc4c1f60f7f2583ad9015">More...</a><br /></td></tr>
+<tr class="separator:a82371b5e87dcc4c1f60f7f2583ad9015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f59e40d5a5c1396ae08945291d63483"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a1f59e40d5a5c1396ae08945291d63483">HyperbolicAnomaly</a> (double v, double e)</td></tr>
+<tr class="separator:a1f59e40d5a5c1396ae08945291d63483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae826910cdcf08254d9532a71d13ee68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aae826910cdcf08254d9532a71d13ee68">UpdateOrbit</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">second</a> &amp;time)</td></tr>
 <tr class="memdesc:aae826910cdcf08254d9532a71d13ee68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the orbit's true anomaly.  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#aae826910cdcf08254d9532a71d13ee68">More...</a><br /></td></tr>
 <tr class="separator:aae826910cdcf08254d9532a71d13ee68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9463e998fc09aeb2d6d54f17b01151b6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a9463e998fc09aeb2d6d54f17b01151b6">GetTrueAnomaly</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">second</a> &amp;epoch)</td></tr>
 <tr class="memdesc:a9463e998fc09aeb2d6d54f17b01151b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get anomaly at epoch  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a9463e998fc09aeb2d6d54f17b01151b6">More...</a><br /></td></tr>
 <tr class="separator:a9463e998fc09aeb2d6d54f17b01151b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d3ef5415fc59403ee0972243c709317"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a8d3ef5415fc59403ee0972243c709317">CalculateVelocity</a> (const double &amp;E, const double &amp;r, const double &amp;GM, const double &amp;a, const double &amp;e)</td></tr>
-<tr class="separator:a8d3ef5415fc59403ee0972243c709317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd73276c26889c7eee23e970a8de3e8f"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#abd73276c26889c7eee23e970a8de3e8f">CalculateVelocity</a> (const double &amp;E, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a> &amp;r, const double &amp;GM, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a> &amp;a, const double &amp;e)</td></tr>
+<tr class="separator:abd73276c26889c7eee23e970a8de3e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af42e3e6c12b778fae65d44d439781b"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a1af42e3e6c12b778fae65d44d439781b">CalculateVelocityHyperbolic</a> (const double &amp;E, const double &amp;r, const double &amp;GM, const double &amp;a, const double &amp;e)</td></tr>
 <tr class="separator:a1af42e3e6c12b778fae65d44d439781b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38edb15a9a8a020ee5fa66946577c0a0"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a38edb15a9a8a020ee5fa66946577c0a0">CalculateVelocityElliptic</a> (const double &amp;E, const double &amp;r, const double &amp;GM, const double &amp;a, const double &amp;e)</td></tr>
-<tr class="separator:a38edb15a9a8a020ee5fa66946577c0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae33fa03dd93caec7c4af1494f6cd43d7"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ae33fa03dd93caec7c4af1494f6cd43d7">CalculateVelocityElliptic</a> (const double &amp;E, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a> &amp;r, const double &amp;GM, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a> &amp;a, const double &amp;e)</td></tr>
+<tr class="separator:ae33fa03dd93caec7c4af1494f6cd43d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41844d38e47628b43dd1903e2e412478"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a41844d38e47628b43dd1903e2e412478">ApplyImpulse</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orbit, const glm::dvec3 &amp;impulse, double time)</td></tr>
 <tr class="memdesc:a41844d38e47628b43dd1903e2e412478"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies impulse based on the vector impulse For some reason y is prograde, I'm not sure what the others are. TODO(EhWhoAmI): Determine the axis of thrust for each vector I think x is radial, and z is normal.  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#a41844d38e47628b43dd1903e2e412478">More...</a><br /></td></tr>
 <tr class="separator:a41844d38e47628b43dd1903e2e412478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8184ac2d1fb32c05da6a38ed8ef7d0b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#af8184ac2d1fb32c05da6a38ed8ef7d0b">OrbitVelocityAtR</a> (const double GM, const double a, const double r)</td></tr>
 <tr class="separator:af8184ac2d1fb32c05da6a38ed8ef7d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b33f027945f206dfd72efafc2f107e9"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a1b33f027945f206dfd72efafc2f107e9">OrbitTimeToVec3</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">second</a> &amp;time)</td></tr>
-<tr class="separator:a1b33f027945f206dfd72efafc2f107e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57441e77ea07d144570ae48e33a0c6e1"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a57441e77ea07d144570ae48e33a0c6e1">OrbitTimeToVec3</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">second</a> time)</td></tr>
+<tr class="separator:a57441e77ea07d144570ae48e33a0c6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76532a1690af1109a1b01c37f56a7483"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a76532a1690af1109a1b01c37f56a7483">OrbitTimeToVelocityVec3</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb, const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">second</a> time)</td></tr>
+<tr class="separator:a76532a1690af1109a1b01c37f56a7483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0e6525edf0e7fa9ce3c10a68c70951b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aa0e6525edf0e7fa9ce3c10a68c70951b">CalculateTransferTime</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb1, const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb2)</td></tr>
 <tr class="separator:aa0e6525edf0e7fa9ce3c10a68c70951b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c696a53002b6e56240c49e9b5498ae1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a0c696a53002b6e56240c49e9b5498ae1">CalculateTransferAngle</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;start_orbit, const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;end_orbit)</td></tr>
@@ -262,6 +271,8 @@ Functions</h2></td></tr>
 <tr class="separator:a026d3df45b104e4dd72cd38f00588927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a557214f27d759892827ebcd5d6ccd2a1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a557214f27d759892827ebcd5d6ccd2a1">AscendingTrueAnomaly</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;start, const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;dest)</td></tr>
 <tr class="separator:a557214f27d759892827ebcd5d6ccd2a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d31dee9ee6ad5a2e422e220462ee60"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a51d31dee9ee6ad5a2e422e220462ee60">operator&lt;&lt;</a> (std::ostream &amp;outs, const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb)</td></tr>
+<tr class="separator:a51d31dee9ee6ad5a2e422e220462ee60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae00d7dd62d20509527a3685c579ec8d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad4a09f5cac83f53111957737bf40bb06">Vec3AU</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ae00d7dd62d20509527a3685c579ec8d8">toVec3AU</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orb, <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> theta)</td></tr>
 <tr class="memdesc:ae00d7dd62d20509527a3685c579ec8d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert orbit to AU coordinates  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#ae00d7dd62d20509527a3685c579ec8d8">More...</a><br /></td></tr>
 <tr class="separator:ae00d7dd62d20509527a3685c579ec8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -730,8 +741,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8d3ef5415fc59403ee0972243c709317" name="a8d3ef5415fc59403ee0972243c709317"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d3ef5415fc59403ee0972243c709317">&#9670;&nbsp;</a></span>CalculateVelocity()</h2>
+<a id="abd73276c26889c7eee23e970a8de3e8f" name="abd73276c26889c7eee23e970a8de3e8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd73276c26889c7eee23e970a8de3e8f">&#9670;&nbsp;</a></span>CalculateVelocity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -787,8 +798,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a38edb15a9a8a020ee5fa66946577c0a0" name="a38edb15a9a8a020ee5fa66946577c0a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38edb15a9a8a020ee5fa66946577c0a0">&#9670;&nbsp;</a></span>CalculateVelocityElliptic()</h2>
+<a id="ae33fa03dd93caec7c4af1494f6cd43d7" name="ae33fa03dd93caec7c4af1494f6cd43d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae33fa03dd93caec7c4af1494f6cd43d7">&#9670;&nbsp;</a></span>CalculateVelocityElliptic()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -802,7 +813,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a> &amp;&#160;</td>
           <td class="paramname"><em>r</em>, </td>
         </tr>
         <tr>
@@ -814,7 +825,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a6852a3c2d27570d0970b946e49e7468c">kilometer</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
@@ -973,6 +984,44 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82371b5e87dcc4c1f60f7f2583ad9015" name="a82371b5e87dcc4c1f60f7f2583ad9015"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82371b5e87dcc4c1f60f7f2583ad9015">&#9670;&nbsp;</a></span>EccentricAnomaly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> cqsp::common::components::types::EccentricAnomaly </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates Eccentric anomaly </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>True anomaly</td></tr>
+    <tr><td class="paramname">e</td><td>Eccentricicy</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -1252,8 +1301,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acf918d32934d6cc7940b4956ed6d362e" name="acf918d32934d6cc7940b4956ed6d362e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf918d32934d6cc7940b4956ed6d362e">&#9670;&nbsp;</a></span>GetMtHyperbolic()</h2>
+<a id="a3ddbed317877c537fc5dfd098a84584f" name="a3ddbed317877c537fc5dfd098a84584f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ddbed317877c537fc5dfd098a84584f">&#9670;&nbsp;</a></span>GetMtHyperbolic()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1262,19 +1311,25 @@ Variables</h2></td></tr>
           <td class="memname">double cqsp::common::components::types::GetMtHyperbolic </td>
           <td>(</td>
           <td class="paramtype">const double &amp;&#160;</td>
-          <td class="paramname"><em>Mu</em>, </td>
+          <td class="paramname"><em>M0</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const double &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramname"><em>nu</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const double &amp;&#160;</td>
-          <td class="paramname"><em>d_t</em>&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double &amp;&#160;</td>
+          <td class="paramname"><em>epoch</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1297,8 +1352,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2c1cd6561270cca69a2ae7577c9f43c0" name="a2c1cd6561270cca69a2ae7577c9f43c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c1cd6561270cca69a2ae7577c9f43c0">&#9670;&nbsp;</a></span>GetOrbitingRadius()</h2>
+<a id="ad3d77d26a296d969d3d806679ae3e6bf" name="ad3d77d26a296d969d3d806679ae3e6bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3d77d26a296d969d3d806679ae3e6bf">&#9670;&nbsp;</a></span>GetOrbitingRadius()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1312,13 +1367,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> &amp;&#160;</td>
           <td class="paramname"><em>v</em>&#160;</td>
         </tr>
         <tr>
@@ -1448,6 +1503,34 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a1f59e40d5a5c1396ae08945291d63483" name="a1f59e40d5a5c1396ae08945291d63483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f59e40d5a5c1396ae08945291d63483">&#9670;&nbsp;</a></span>HyperbolicAnomaly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7824982b5139235dacf1a200bc78f5a3">radian</a> cqsp::common::components::types::HyperbolicAnomaly </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1683,8 +1766,44 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1b33f027945f206dfd72efafc2f107e9" name="a1b33f027945f206dfd72efafc2f107e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b33f027945f206dfd72efafc2f107e9">&#9670;&nbsp;</a></span>OrbitTimeToVec3()</h2>
+<a id="a51d31dee9ee6ad5a2e422e220462ee60" name="a51d31dee9ee6ad5a2e422e220462ee60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d31dee9ee6ad5a2e422e220462ee60">&#9670;&nbsp;</a></span>operator&lt;&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; cqsp::common::components::types::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>outs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57441e77ea07d144570ae48e33a0c6e1" name="a57441e77ea07d144570ae48e33a0c6e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57441e77ea07d144570ae48e33a0c6e1">&#9670;&nbsp;</a></span>OrbitTimeToVec3()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1698,7 +1817,35 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">second</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">second</a>&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76532a1690af1109a1b01c37f56a7483" name="a76532a1690af1109a1b01c37f56a7483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76532a1690af1109a1b01c37f56a7483">&#9670;&nbsp;</a></span>OrbitTimeToVelocityVec3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::dvec3 cqsp::common::components::types::OrbitTimeToVelocityVec3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">second</a>&#160;</td>
           <td class="paramname"><em>time</em>&#160;</td>
         </tr>
         <tr>
@@ -1851,8 +1998,26 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a9bca28c4789ddd0f9a2acdcd0e9373d0" name="a9bca28c4789ddd0f9a2acdcd0e9373d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bca28c4789ddd0f9a2acdcd0e9373d0">&#9670;&nbsp;</a></span>OrbitVelocityToVec3() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::dvec3 cqsp::common::components::types::OrbitVelocityToVec3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orb</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af5170b21d6624139b59f2cc083181af4" name="af5170b21d6624139b59f2cc083181af4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5170b21d6624139b59f2cc083181af4">&#9670;&nbsp;</a></span>OrbitVelocityToVec3()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af5170b21d6624139b59f2cc083181af4">&#9670;&nbsp;</a></span>OrbitVelocityToVec3() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2752,7 +2917,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 25 2023 19:39:23 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Apr 22 2025 22:26:15 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

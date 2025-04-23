@@ -65,11 +65,12 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_render_interface___g_l3-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">RenderInterface_GL3 Class Reference</div></div>
 </div><!--header-->
@@ -83,6 +84,13 @@ Inheritance diagram for RenderInterface_GL3:</div>
   <img src="class_render_interface___g_l3.png" alt=""/>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_render_interface___g_l3_1_1_g_l_state_backup.html">GLStateBackup</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3_1_1_render_layer_stack.html">RenderLayerStack</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1f84ef0ec991af2edd7bd558ad22bbc2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a1f84ef0ec991af2edd7bd558ad22bbc2">RenderInterface_GL3</a> ()</td></tr>
@@ -99,126 +107,107 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a72c18f929c935eb01031e911aac937f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac98b438b6fb7842486a6467628bb23cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ac98b438b6fb7842486a6467628bb23cc">Clear</a> ()</td></tr>
 <tr class="separator:ac98b438b6fb7842486a6467628bb23cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06e5fdd4856fbcad12ceb63e26347115"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a06e5fdd4856fbcad12ceb63e26347115">RenderGeometry</a> (Rml::Vertex *vertices, int num_vertices, int *indices, int num_indices, Rml::TextureHandle texture, const Rml::Vector2f &amp;translation) override</td></tr>
-<tr class="separator:a06e5fdd4856fbcad12ceb63e26347115"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69a6d3a1a0f4da101bc58416dd18b977"><td class="memItemLeft" align="right" valign="top">Rml::CompiledGeometryHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a69a6d3a1a0f4da101bc58416dd18b977">CompileGeometry</a> (Rml::Vertex *vertices, int num_vertices, int *indices, int num_indices, Rml::TextureHandle texture) override</td></tr>
-<tr class="separator:a69a6d3a1a0f4da101bc58416dd18b977"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab873661a94abc51a2f32e6cd199605e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ab873661a94abc51a2f32e6cd199605e1">RenderCompiledGeometry</a> (Rml::CompiledGeometryHandle geometry, const Rml::Vector2f &amp;translation) override</td></tr>
-<tr class="separator:ab873661a94abc51a2f32e6cd199605e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1db44cf01ccd4b431a7fe5316a6a555"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ad1db44cf01ccd4b431a7fe5316a6a555">ReleaseCompiledGeometry</a> (Rml::CompiledGeometryHandle geometry) override</td></tr>
-<tr class="separator:ad1db44cf01ccd4b431a7fe5316a6a555"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c9417bd5e22a0b03cd901eee110495d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a2c9417bd5e22a0b03cd901eee110495d">EnableScissorRegion</a> (bool enable) override</td></tr>
-<tr class="separator:a2c9417bd5e22a0b03cd901eee110495d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa850bf0f73e2ef192d642ca19cad245"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#aaa850bf0f73e2ef192d642ca19cad245">SetScissorRegion</a> (int x, int y, int width, int height) override</td></tr>
-<tr class="separator:aaa850bf0f73e2ef192d642ca19cad245"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafa55f9e3f55db11bd8d41f4d6ae655f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#aafa55f9e3f55db11bd8d41f4d6ae655f">LoadTexture</a> (Rml::TextureHandle &amp;texture_handle, Rml::Vector2i &amp;texture_dimensions, const Rml::String &amp;source) override</td></tr>
-<tr class="separator:aafa55f9e3f55db11bd8d41f4d6ae655f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8469063c5e770cfbdf4b724f15ee300"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ad8469063c5e770cfbdf4b724f15ee300">GenerateTexture</a> (Rml::TextureHandle &amp;texture_handle, const Rml::byte *source, const Rml::Vector2i &amp;source_dimensions) override</td></tr>
-<tr class="separator:ad8469063c5e770cfbdf4b724f15ee300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b2bc71f2109f7fabf10f24ce021e7b1"><td class="memItemLeft" align="right" valign="top">Rml::CompiledGeometryHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a1b2bc71f2109f7fabf10f24ce021e7b1">CompileGeometry</a> (Rml::Span&lt; const Rml::Vertex &gt; vertices, Rml::Span&lt; const int &gt; indices) override</td></tr>
+<tr class="separator:a1b2bc71f2109f7fabf10f24ce021e7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7a7949f04ac8c6be5c32012f9d58f09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ab7a7949f04ac8c6be5c32012f9d58f09">RenderGeometry</a> (Rml::CompiledGeometryHandle handle, Rml::Vector2f translation, Rml::TextureHandle texture) override</td></tr>
+<tr class="separator:ab7a7949f04ac8c6be5c32012f9d58f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a1f98a7bef5b0b13546eb1f5980b672"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a0a1f98a7bef5b0b13546eb1f5980b672">ReleaseGeometry</a> (Rml::CompiledGeometryHandle handle) override</td></tr>
+<tr class="separator:a0a1f98a7bef5b0b13546eb1f5980b672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1990673d84e9ea1462abe6520e84e959"><td class="memItemLeft" align="right" valign="top">Rml::TextureHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a1990673d84e9ea1462abe6520e84e959">LoadTexture</a> (Rml::Vector2i &amp;texture_dimensions, const Rml::String &amp;source) override</td></tr>
+<tr class="separator:a1990673d84e9ea1462abe6520e84e959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d0269baacab4bbd6d1395409027e57"><td class="memItemLeft" align="right" valign="top">Rml::TextureHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a77d0269baacab4bbd6d1395409027e57">GenerateTexture</a> (Rml::Span&lt; const Rml::byte &gt; source_data, Rml::Vector2i source_dimensions) override</td></tr>
+<tr class="separator:a77d0269baacab4bbd6d1395409027e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa60544e5ff95b1a87124055b976943f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#aa60544e5ff95b1a87124055b976943f5">ReleaseTexture</a> (Rml::TextureHandle texture_handle) override</td></tr>
 <tr class="separator:aa60544e5ff95b1a87124055b976943f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c9417bd5e22a0b03cd901eee110495d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a2c9417bd5e22a0b03cd901eee110495d">EnableScissorRegion</a> (bool enable) override</td></tr>
+<tr class="separator:a2c9417bd5e22a0b03cd901eee110495d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f54b6511ce381b9462ca51d93341e2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a2f54b6511ce381b9462ca51d93341e2c">SetScissorRegion</a> (Rml::Rectanglei region) override</td></tr>
+<tr class="separator:a2f54b6511ce381b9462ca51d93341e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13437f9e6739d4d6528c5696416f3c4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a13437f9e6739d4d6528c5696416f3c4e">EnableClipMask</a> (bool enable) override</td></tr>
+<tr class="separator:a13437f9e6739d4d6528c5696416f3c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac95abfbb62b266d07771a4e0fd07738e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ac95abfbb62b266d07771a4e0fd07738e">RenderToClipMask</a> (Rml::ClipMaskOperation mask_operation, Rml::CompiledGeometryHandle geometry, Rml::Vector2f translation) override</td></tr>
+<tr class="separator:ac95abfbb62b266d07771a4e0fd07738e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67e0d4e7fec4a6dc04a0dc1e53219862"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a67e0d4e7fec4a6dc04a0dc1e53219862">SetTransform</a> (const Rml::Matrix4f *<a class="el" href="class_render_interface___g_l3.html#a85d8bee4141d9ccd169ae74d5c9286fc">transform</a>) override</td></tr>
 <tr class="separator:a67e0d4e7fec4a6dc04a0dc1e53219862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2685fd366fd79ccb6900d6bee93d34e0"><td class="memItemLeft" align="right" valign="top">Rml::LayerHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a2685fd366fd79ccb6900d6bee93d34e0">PushLayer</a> () override</td></tr>
+<tr class="separator:a2685fd366fd79ccb6900d6bee93d34e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab14887c22b6075949c6e7883fecd8184"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ab14887c22b6075949c6e7883fecd8184">CompositeLayers</a> (Rml::LayerHandle source, Rml::LayerHandle destination, Rml::BlendMode blend_mode, Rml::Span&lt; const Rml::CompiledFilterHandle &gt; filters) override</td></tr>
+<tr class="separator:ab14887c22b6075949c6e7883fecd8184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af247dfa41694d1585db94cb93a533170"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#af247dfa41694d1585db94cb93a533170">PopLayer</a> () override</td></tr>
+<tr class="separator:af247dfa41694d1585db94cb93a533170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb884374218c65041d1146091ade703b"><td class="memItemLeft" align="right" valign="top">Rml::TextureHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#abb884374218c65041d1146091ade703b">SaveLayerAsTexture</a> () override</td></tr>
+<tr class="separator:abb884374218c65041d1146091ade703b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc43e9b90a320c1e076ea977d59daca5"><td class="memItemLeft" align="right" valign="top">Rml::CompiledFilterHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#afc43e9b90a320c1e076ea977d59daca5">SaveLayerAsMaskImage</a> () override</td></tr>
+<tr class="separator:afc43e9b90a320c1e076ea977d59daca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ba7adbfdcb336d35dfc7f4d5e437aa"><td class="memItemLeft" align="right" valign="top">Rml::CompiledFilterHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a59ba7adbfdcb336d35dfc7f4d5e437aa">CompileFilter</a> (const Rml::String &amp;name, const Rml::Dictionary &amp;parameters) override</td></tr>
+<tr class="separator:a59ba7adbfdcb336d35dfc7f4d5e437aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac629e99938376b712147154eb04df5be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ac629e99938376b712147154eb04df5be">ReleaseFilter</a> (Rml::CompiledFilterHandle filter) override</td></tr>
+<tr class="separator:ac629e99938376b712147154eb04df5be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4220a08942b64c098d4e9f258bfcef86"><td class="memItemLeft" align="right" valign="top">Rml::CompiledShaderHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a4220a08942b64c098d4e9f258bfcef86">CompileShader</a> (const Rml::String &amp;name, const Rml::Dictionary &amp;parameters) override</td></tr>
+<tr class="separator:a4220a08942b64c098d4e9f258bfcef86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9cfc9599280e112344606605dbb6f1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#af9cfc9599280e112344606605dbb6f1f">RenderShader</a> (Rml::CompiledShaderHandle shader_handle, Rml::CompiledGeometryHandle geometry_handle, Rml::Vector2f translation, Rml::TextureHandle texture) override</td></tr>
+<tr class="separator:af9cfc9599280e112344606605dbb6f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fa01ad48f2e8fba5cddcb94193ae479"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a6fa01ad48f2e8fba5cddcb94193ae479">ReleaseShader</a> (Rml::CompiledShaderHandle effect_handle) override</td></tr>
+<tr class="separator:a6fa01ad48f2e8fba5cddcb94193ae479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aad28429e3195633f9c450196a9bf60da"><td class="memItemLeft" align="right" valign="top">static const Rml::TextureHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#aad28429e3195633f9c450196a9bf60da">TextureEnableWithoutBinding</a> = Rml::TextureHandle(-1)</td></tr>
-<tr class="separator:aad28429e3195633f9c450196a9bf60da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
-Private Types</h2></td></tr>
-<tr class="memitem:abfda190e8b3e188be4b7adf7110280db"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#abfda190e8b3e188be4b7adf7110280db">ProgramId</a> { <a class="el" href="class_render_interface___g_l3.html#abfda190e8b3e188be4b7adf7110280dba6adf97f83acf6453d4a6a4b1070f3754">None</a>
-, <a class="el" href="class_render_interface___g_l3.html#abfda190e8b3e188be4b7adf7110280dbaa3e8ae43188ae76d38f414b2bdb0077b">Texture</a> = 1
-, <a class="el" href="class_render_interface___g_l3.html#abfda190e8b3e188be4b7adf7110280dbacb5feb1b7314637725a2e73bdc9f7295">Color</a> = 2
-, <a class="el" href="class_render_interface___g_l3.html#abfda190e8b3e188be4b7adf7110280dbab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = (Texture | Color)
- }</td></tr>
-<tr class="separator:abfda190e8b3e188be4b7adf7110280db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaa4ea4b35b065034e9925af54f6becf"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#adaa4ea4b35b065034e9925af54f6becf">ScissoringState</a> { <a class="el" href="class_render_interface___g_l3.html#adaa4ea4b35b065034e9925af54f6becfabcfaccebf745acfd5e75351095a5394a">Disable</a>
-, <a class="el" href="class_render_interface___g_l3.html#adaa4ea4b35b065034e9925af54f6becfa5a173331e5b2368b8e9179cbf32c429b">Scissor</a>
-, <a class="el" href="class_render_interface___g_l3.html#adaa4ea4b35b065034e9925af54f6becfad821e7ccd4d4c25a491ba1a9ea248895">Stencil</a>
- }</td></tr>
-<tr class="separator:adaa4ea4b35b065034e9925af54f6becf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f946d9923d4e50bcd7cdf2b4afd2fbd"><td class="memItemLeft" align="right" valign="top">static constexpr Rml::TextureHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a4f946d9923d4e50bcd7cdf2b4afd2fbd">TextureEnableWithoutBinding</a> = Rml::TextureHandle(-1)</td></tr>
+<tr class="separator:a4f946d9923d4e50bcd7cdf2b4afd2fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae232a2ab0c0e115acd459caa149dde90"><td class="memItemLeft" align="right" valign="top">static constexpr Rml::TextureHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ae232a2ab0c0e115acd459caa149dde90">TexturePostprocess</a> = Rml::TextureHandle(-2)</td></tr>
+<tr class="separator:ae232a2ab0c0e115acd459caa149dde90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a53749d9af5932669e960863d15cfa67f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a53749d9af5932669e960863d15cfa67f">SubmitTransformUniform</a> (<a class="el" href="class_render_interface___g_l3.html#abfda190e8b3e188be4b7adf7110280db">ProgramId</a> program_id, int uniform_location)</td></tr>
-<tr class="separator:a53749d9af5932669e960863d15cfa67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2ebb95939b340d07a1111f84019a1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a7a2ebb95939b340d07a1111f84019a1f">UseProgram</a> (<a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#aef39ea06ec027f46e65b8280775df70a">ProgramId</a> program_id)</td></tr>
+<tr class="separator:a7a2ebb95939b340d07a1111f84019a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b37aaddf0a29f1c1ef956fe3cbaa011"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a6b37aaddf0a29f1c1ef956fe3cbaa011">GetUniformLocation</a> (<a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5">UniformId</a> uniform_id) const</td></tr>
+<tr class="separator:a6b37aaddf0a29f1c1ef956fe3cbaa011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe70ade5b65fb6f0e8bca4ece90ea83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a3fe70ade5b65fb6f0e8bca4ece90ea83">SubmitTransformUniform</a> (Rml::Vector2f translation)</td></tr>
+<tr class="separator:a3fe70ade5b65fb6f0e8bca4ece90ea83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0654291675695caacd87c093c11f1ca8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a0654291675695caacd87c093c11f1ca8">BlitLayerToPostprocessPrimary</a> (Rml::LayerHandle layer_handle)</td></tr>
+<tr class="separator:a0654291675695caacd87c093c11f1ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80faf1945c430c9923d078ca49e7996"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#aa80faf1945c430c9923d078ca49e7996">RenderFilters</a> (Rml::Span&lt; const Rml::CompiledFilterHandle &gt; filter_handles)</td></tr>
+<tr class="separator:aa80faf1945c430c9923d078ca49e7996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5780ea73efcc2289766df37b213d80a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a5780ea73efcc2289766df37b213d80a8">SetScissor</a> (Rml::Rectanglei region, bool vertically_flip=false)</td></tr>
+<tr class="separator:a5780ea73efcc2289766df37b213d80a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a456e7324b05451b0100179e5c0ca87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a3a456e7324b05451b0100179e5c0ca87">DrawFullscreenQuad</a> ()</td></tr>
+<tr class="separator:a3a456e7324b05451b0100179e5c0ca87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49dbc45554fe986ecf60ebe5724c8af1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a49dbc45554fe986ecf60ebe5724c8af1">DrawFullscreenQuad</a> (Rml::Vector2f uv_offset, Rml::Vector2f uv_scaling=Rml::Vector2f(1.f))</td></tr>
+<tr class="separator:a49dbc45554fe986ecf60ebe5724c8af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3191017d085fc71c0a7ac037720aa6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#aa3191017d085fc71c0a7ac037720aa6b">RenderBlur</a> (float sigma, const <a class="el" href="struct_gfx_1_1_framebuffer_data.html">Gfx::FramebufferData</a> &amp;source_destination, const <a class="el" href="struct_gfx_1_1_framebuffer_data.html">Gfx::FramebufferData</a> &amp;temp, Rml::Rectanglei window_flipped)</td></tr>
+<tr class="separator:aa3191017d085fc71c0a7ac037720aa6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a4375af73b4f148668b9d5f162197d38e"><td class="memItemLeft" align="right" valign="top">std::bitset&lt; <a class="el" href="class_render_interface___g_l3.html#a841c7c084f92faa5125464efbffd660d">MaxNumPrograms</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a4375af73b4f148668b9d5f162197d38e">program_transform_dirty</a></td></tr>
+<tr class="separator:a4375af73b4f148668b9d5f162197d38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85d8bee4141d9ccd169ae74d5c9286fc"><td class="memItemLeft" align="right" valign="top">Rml::Matrix4f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a85d8bee4141d9ccd169ae74d5c9286fc">transform</a></td></tr>
 <tr class="separator:a85d8bee4141d9ccd169ae74d5c9286fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2335a2541e90524b759a5b950b0c0e67"><td class="memItemLeft" align="right" valign="top">Rml::Matrix4f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a2335a2541e90524b759a5b950b0c0e67">projection</a></td></tr>
 <tr class="separator:a2335a2541e90524b759a5b950b0c0e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5880edddf4d291782acb7264a2c52efe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_render_interface___g_l3.html#abfda190e8b3e188be4b7adf7110280db">ProgramId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a5880edddf4d291782acb7264a2c52efe">transform_dirty_state</a> = <a class="el" href="class_render_interface___g_l3.html#abfda190e8b3e188be4b7adf7110280dbab1c94ca2fbc3e78fc30069c8d0f01680">ProgramId::All</a></td></tr>
-<tr class="separator:a5880edddf4d291782acb7264a2c52efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a710918e390eb3b1d6b55f9515ae661fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a710918e390eb3b1d6b55f9515ae661fe">transform_active</a> = false</td></tr>
-<tr class="separator:a710918e390eb3b1d6b55f9515ae661fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2a9a19453ad78d973d0902ffe080f78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_render_interface___g_l3.html#adaa4ea4b35b065034e9925af54f6becf">ScissoringState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ae2a9a19453ad78d973d0902ffe080f78">scissoring_state</a> = <a class="el" href="class_render_interface___g_l3.html#adaa4ea4b35b065034e9925af54f6becfabcfaccebf745acfd5e75351095a5394a">ScissoringState::Disable</a></td></tr>
-<tr class="separator:ae2a9a19453ad78d973d0902ffe080f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fac7ddecc59ceaa9f82ad05b2eeca5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#aef39ea06ec027f46e65b8280775df70a">ProgramId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a0fac7ddecc59ceaa9f82ad05b2eeca5e">active_program</a> = {}</td></tr>
+<tr class="separator:a0fac7ddecc59ceaa9f82ad05b2eeca5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2bb45ed972396e0842b4243798b0282"><td class="memItemLeft" align="right" valign="top">Rml::Rectanglei&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#aa2bb45ed972396e0842b4243798b0282">scissor_state</a></td></tr>
+<tr class="separator:aa2bb45ed972396e0842b4243798b0282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d4452a61c9a153f6ecfeae461e274b9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a4d4452a61c9a153f6ecfeae461e274b9">viewport_width</a> = 0</td></tr>
 <tr class="separator:a4d4452a61c9a153f6ecfeae461e274b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a917b8758f79ac12643b963fc30d68221"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a917b8758f79ac12643b963fc30d68221">viewport_height</a> = 0</td></tr>
 <tr class="separator:a917b8758f79ac12643b963fc30d68221"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc61a855946b5327d9e6cafe4cc8469b"><td class="memItemLeft" align="right" valign="top">Rml::UniquePtr&lt; Gfx::ShadersData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#adc61a855946b5327d9e6cafe4cc8469b">shaders</a></td></tr>
-<tr class="separator:adc61a855946b5327d9e6cafe4cc8469b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad86413ec3d9f6c033aabd3f004094483"><td class="memItemLeft" align="right" valign="top">Rml::CompiledGeometryHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ad86413ec3d9f6c033aabd3f004094483">fullscreen_quad_geometry</a> = {}</td></tr>
+<tr class="separator:ad86413ec3d9f6c033aabd3f004094483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55714774b174464e079b6a729772b15b"><td class="memItemLeft" align="right" valign="top">Rml::UniquePtr&lt; const <a class="el" href="struct_gfx_1_1_program_data.html">Gfx::ProgramData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a55714774b174464e079b6a729772b15b">program_data</a></td></tr>
+<tr class="separator:a55714774b174464e079b6a729772b15b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52cba3f7dec6e0dbe585759b8febd01a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_render_interface___g_l3_1_1_render_layer_stack.html">RenderLayerStack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a52cba3f7dec6e0dbe585759b8febd01a">render_layers</a></td></tr>
+<tr class="separator:a52cba3f7dec6e0dbe585759b8febd01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af19c34af45965cb31e148ed51d3e58eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_render_interface___g_l3_1_1_g_l_state_backup.html">GLStateBackup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#af19c34af45965cb31e148ed51d3e58eb">glstate_backup</a> = {}</td></tr>
+<tr class="separator:af19c34af45965cb31e148ed51d3e58eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a841c7c084f92faa5125464efbffd660d"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a841c7c084f92faa5125464efbffd660d">MaxNumPrograms</a> = 32</td></tr>
+<tr class="separator:a841c7c084f92faa5125464efbffd660d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="abfda190e8b3e188be4b7adf7110280db" name="abfda190e8b3e188be4b7adf7110280db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfda190e8b3e188be4b7adf7110280db">&#9670;&nbsp;</a></span>ProgramId</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="class_render_interface___g_l3.html#abfda190e8b3e188be4b7adf7110280db">RenderInterface_GL3::ProgramId</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abfda190e8b3e188be4b7adf7110280dba6adf97f83acf6453d4a6a4b1070f3754" name="abfda190e8b3e188be4b7adf7110280dba6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfda190e8b3e188be4b7adf7110280dbaa3e8ae43188ae76d38f414b2bdb0077b" name="abfda190e8b3e188be4b7adf7110280dbaa3e8ae43188ae76d38f414b2bdb0077b"></a>Texture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfda190e8b3e188be4b7adf7110280dbacb5feb1b7314637725a2e73bdc9f7295" name="abfda190e8b3e188be4b7adf7110280dbacb5feb1b7314637725a2e73bdc9f7295"></a>Color&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abfda190e8b3e188be4b7adf7110280dbab1c94ca2fbc3e78fc30069c8d0f01680" name="abfda190e8b3e188be4b7adf7110280dbab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="adaa4ea4b35b065034e9925af54f6becf" name="adaa4ea4b35b065034e9925af54f6becf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adaa4ea4b35b065034e9925af54f6becf">&#9670;&nbsp;</a></span>ScissoringState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="class_render_interface___g_l3.html#adaa4ea4b35b065034e9925af54f6becf">RenderInterface_GL3::ScissoringState</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adaa4ea4b35b065034e9925af54f6becfabcfaccebf745acfd5e75351095a5394a" name="adaa4ea4b35b065034e9925af54f6becfabcfaccebf745acfd5e75351095a5394a"></a>Disable&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adaa4ea4b35b065034e9925af54f6becfa5a173331e5b2368b8e9179cbf32c429b" name="adaa4ea4b35b065034e9925af54f6becfa5a173331e5b2368b8e9179cbf32c429b"></a>Scissor&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adaa4ea4b35b065034e9925af54f6becfad821e7ccd4d4c25a491ba1a9ea248895" name="adaa4ea4b35b065034e9925af54f6becfad821e7ccd4d4c25a491ba1a9ea248895"></a>Stencil&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1f84ef0ec991af2edd7bd558ad22bbc2" name="a1f84ef0ec991af2edd7bd558ad22bbc2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1f84ef0ec991af2edd7bd558ad22bbc2">&#9670;&nbsp;</a></span>RenderInterface_GL3()</h2>
@@ -272,6 +261,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0654291675695caacd87c093c11f1ca8" name="a0654291675695caacd87c093c11f1ca8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0654291675695caacd87c093c11f1ca8">&#9670;&nbsp;</a></span>BlitLayerToPostprocessPrimary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::BlitLayerToPostprocessPrimary </td>
+          <td>(</td>
+          <td class="paramtype">Rml::LayerHandle&#160;</td>
+          <td class="paramname"><em>layer_handle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac98b438b6fb7842486a6467628bb23cc" name="ac98b438b6fb7842486a6467628bb23cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac98b438b6fb7842486a6467628bb23cc">&#9670;&nbsp;</a></span>Clear()</h2>
 
@@ -289,8 +304,44 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a69a6d3a1a0f4da101bc58416dd18b977" name="a69a6d3a1a0f4da101bc58416dd18b977"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69a6d3a1a0f4da101bc58416dd18b977">&#9670;&nbsp;</a></span>CompileGeometry()</h2>
+<a id="a59ba7adbfdcb336d35dfc7f4d5e437aa" name="a59ba7adbfdcb336d35dfc7f4d5e437aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59ba7adbfdcb336d35dfc7f4d5e437aa">&#9670;&nbsp;</a></span>CompileFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rml::CompiledFilterHandle RenderInterface_GL3::CompileFilter </td>
+          <td>(</td>
+          <td class="paramtype">const Rml::String &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Rml::Dictionary &amp;&#160;</td>
+          <td class="paramname"><em>parameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b2bc71f2109f7fabf10f24ce021e7b1" name="a1b2bc71f2109f7fabf10f24ce021e7b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b2bc71f2109f7fabf10f24ce021e7b1">&#9670;&nbsp;</a></span>CompileGeometry()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,37 +352,190 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">Rml::CompiledGeometryHandle RenderInterface_GL3::CompileGeometry </td>
           <td>(</td>
-          <td class="paramtype">Rml::Vertex *&#160;</td>
+          <td class="paramtype">Rml::Span&lt; const Rml::Vertex &gt;&#160;</td>
           <td class="paramname"><em>vertices</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_vertices</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>indices</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_indices</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Rml::TextureHandle&#160;</td>
-          <td class="paramname"><em>texture</em>&#160;</td>
+          <td class="paramtype">Rml::Span&lt; const int &gt;&#160;</td>
+          <td class="paramname"><em>indices</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4220a08942b64c098d4e9f258bfcef86" name="a4220a08942b64c098d4e9f258bfcef86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4220a08942b64c098d4e9f258bfcef86">&#9670;&nbsp;</a></span>CompileShader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rml::CompiledShaderHandle RenderInterface_GL3::CompileShader </td>
+          <td>(</td>
+          <td class="paramtype">const Rml::String &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Rml::Dictionary &amp;&#160;</td>
+          <td class="paramname"><em>parameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab14887c22b6075949c6e7883fecd8184" name="ab14887c22b6075949c6e7883fecd8184"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab14887c22b6075949c6e7883fecd8184">&#9670;&nbsp;</a></span>CompositeLayers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::CompositeLayers </td>
+          <td>(</td>
+          <td class="paramtype">Rml::LayerHandle&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rml::LayerHandle&#160;</td>
+          <td class="paramname"><em>destination</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rml::BlendMode&#160;</td>
+          <td class="paramname"><em>blend_mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rml::Span&lt; const Rml::CompiledFilterHandle &gt;&#160;</td>
+          <td class="paramname"><em>filters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a456e7324b05451b0100179e5c0ca87" name="a3a456e7324b05451b0100179e5c0ca87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a456e7324b05451b0100179e5c0ca87">&#9670;&nbsp;</a></span>DrawFullscreenQuad() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::DrawFullscreenQuad </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49dbc45554fe986ecf60ebe5724c8af1" name="a49dbc45554fe986ecf60ebe5724c8af1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49dbc45554fe986ecf60ebe5724c8af1">&#9670;&nbsp;</a></span>DrawFullscreenQuad() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::DrawFullscreenQuad </td>
+          <td>(</td>
+          <td class="paramtype">Rml::Vector2f&#160;</td>
+          <td class="paramname"><em>uv_offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rml::Vector2f&#160;</td>
+          <td class="paramname"><em>uv_scaling</em> = <code>Rml::Vector2f(1.f)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13437f9e6739d4d6528c5696416f3c4e" name="a13437f9e6739d4d6528c5696416f3c4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13437f9e6739d4d6528c5696416f3c4e">&#9670;&nbsp;</a></span>EnableClipMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::EnableClipMask </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -386,8 +590,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad8469063c5e770cfbdf4b724f15ee300" name="ad8469063c5e770cfbdf4b724f15ee300"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8469063c5e770cfbdf4b724f15ee300">&#9670;&nbsp;</a></span>GenerateTexture()</h2>
+<a id="a77d0269baacab4bbd6d1395409027e57" name="a77d0269baacab4bbd6d1395409027e57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77d0269baacab4bbd6d1395409027e57">&#9670;&nbsp;</a></span>GenerateTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -396,21 +600,15 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool RenderInterface_GL3::GenerateTexture </td>
+          <td class="memname">Rml::TextureHandle RenderInterface_GL3::GenerateTexture </td>
           <td>(</td>
-          <td class="paramtype">Rml::TextureHandle &amp;&#160;</td>
-          <td class="paramname"><em>texture_handle</em>, </td>
+          <td class="paramtype">Rml::Span&lt; const Rml::byte &gt;&#160;</td>
+          <td class="paramname"><em>source_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Rml::byte *&#160;</td>
-          <td class="paramname"><em>source</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Rml::Vector2i &amp;&#160;</td>
+          <td class="paramtype">Rml::Vector2i&#160;</td>
           <td class="paramname"><em>source_dimensions</em>&#160;</td>
         </tr>
         <tr>
@@ -428,8 +626,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aafa55f9e3f55db11bd8d41f4d6ae655f" name="aafa55f9e3f55db11bd8d41f4d6ae655f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafa55f9e3f55db11bd8d41f4d6ae655f">&#9670;&nbsp;</a></span>LoadTexture()</h2>
+<a id="a6b37aaddf0a29f1c1ef956fe3cbaa011" name="a6b37aaddf0a29f1c1ef956fe3cbaa011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b37aaddf0a29f1c1ef956fe3cbaa011">&#9670;&nbsp;</a></span>GetUniformLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -438,14 +636,34 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool RenderInterface_GL3::LoadTexture </td>
+          <td class="memname">int RenderInterface_GL3::GetUniformLocation </td>
           <td>(</td>
-          <td class="paramtype">Rml::TextureHandle &amp;&#160;</td>
-          <td class="paramname"><em>texture_handle</em>, </td>
+          <td class="paramtype"><a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5">UniformId</a>&#160;</td>
+          <td class="paramname"><em>uniform_id</em></td><td>)</td>
+          <td> const</td>
         </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1990673d84e9ea1462abe6520e84e959" name="a1990673d84e9ea1462abe6520e84e959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1990673d84e9ea1462abe6520e84e959">&#9670;&nbsp;</a></span>LoadTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
         <tr>
-          <td class="paramkey"></td>
-          <td></td>
+          <td class="memname">Rml::TextureHandle RenderInterface_GL3::LoadTexture </td>
+          <td>(</td>
           <td class="paramtype">Rml::Vector2i &amp;&#160;</td>
           <td class="paramname"><em>texture_dimensions</em>, </td>
         </tr>
@@ -495,8 +713,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad1db44cf01ccd4b431a7fe5316a6a555" name="ad1db44cf01ccd4b431a7fe5316a6a555"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1db44cf01ccd4b431a7fe5316a6a555">&#9670;&nbsp;</a></span>ReleaseCompiledGeometry()</h2>
+<a id="af247dfa41694d1585db94cb93a533170" name="af247dfa41694d1585db94cb93a533170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af247dfa41694d1585db94cb93a533170">&#9670;&nbsp;</a></span>PopLayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,10 +723,112 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void RenderInterface_GL3::ReleaseCompiledGeometry </td>
+          <td class="memname">void RenderInterface_GL3::PopLayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2685fd366fd79ccb6900d6bee93d34e0" name="a2685fd366fd79ccb6900d6bee93d34e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2685fd366fd79ccb6900d6bee93d34e0">&#9670;&nbsp;</a></span>PushLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rml::LayerHandle RenderInterface_GL3::PushLayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac629e99938376b712147154eb04df5be" name="ac629e99938376b712147154eb04df5be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac629e99938376b712147154eb04df5be">&#9670;&nbsp;</a></span>ReleaseFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::ReleaseFilter </td>
+          <td>(</td>
+          <td class="paramtype">Rml::CompiledFilterHandle&#160;</td>
+          <td class="paramname"><em>filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a1f98a7bef5b0b13546eb1f5980b672" name="a0a1f98a7bef5b0b13546eb1f5980b672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a1f98a7bef5b0b13546eb1f5980b672">&#9670;&nbsp;</a></span>ReleaseGeometry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::ReleaseGeometry </td>
           <td>(</td>
           <td class="paramtype">Rml::CompiledGeometryHandle&#160;</td>
-          <td class="paramname"><em>geometry</em></td><td>)</td>
+          <td class="paramname"><em>handle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fa01ad48f2e8fba5cddcb94193ae479" name="a6fa01ad48f2e8fba5cddcb94193ae479"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fa01ad48f2e8fba5cddcb94193ae479">&#9670;&nbsp;</a></span>ReleaseShader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::ReleaseShader </td>
+          <td>(</td>
+          <td class="paramtype">Rml::CompiledShaderHandle&#160;</td>
+          <td class="paramname"><em>effect_handle</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -547,8 +867,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab873661a94abc51a2f32e6cd199605e1" name="ab873661a94abc51a2f32e6cd199605e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab873661a94abc51a2f32e6cd199605e1">&#9670;&nbsp;</a></span>RenderCompiledGeometry()</h2>
+<a id="aa3191017d085fc71c0a7ac037720aa6b" name="aa3191017d085fc71c0a7ac037720aa6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3191017d085fc71c0a7ac037720aa6b">&#9670;&nbsp;</a></span>RenderBlur()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -557,16 +877,28 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void RenderInterface_GL3::RenderCompiledGeometry </td>
+          <td class="memname">void RenderInterface_GL3::RenderBlur </td>
           <td>(</td>
-          <td class="paramtype">Rml::CompiledGeometryHandle&#160;</td>
-          <td class="paramname"><em>geometry</em>, </td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>sigma</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Rml::Vector2f &amp;&#160;</td>
-          <td class="paramname"><em>translation</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_gfx_1_1_framebuffer_data.html">Gfx::FramebufferData</a> &amp;&#160;</td>
+          <td class="paramname"><em>source_destination</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_gfx_1_1_framebuffer_data.html">Gfx::FramebufferData</a> &amp;&#160;</td>
+          <td class="paramname"><em>temp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rml::Rectanglei&#160;</td>
+          <td class="paramname"><em>window_flipped</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -576,15 +908,41 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a06e5fdd4856fbcad12ceb63e26347115" name="a06e5fdd4856fbcad12ceb63e26347115"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06e5fdd4856fbcad12ceb63e26347115">&#9670;&nbsp;</a></span>RenderGeometry()</h2>
+<a id="aa80faf1945c430c9923d078ca49e7996" name="aa80faf1945c430c9923d078ca49e7996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa80faf1945c430c9923d078ca49e7996">&#9670;&nbsp;</a></span>RenderFilters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::RenderFilters </td>
+          <td>(</td>
+          <td class="paramtype">Rml::Span&lt; const Rml::CompiledFilterHandle &gt;&#160;</td>
+          <td class="paramname"><em>filter_handles</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7a7949f04ac8c6be5c32012f9d58f09" name="ab7a7949f04ac8c6be5c32012f9d58f09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7a7949f04ac8c6be5c32012f9d58f09">&#9670;&nbsp;</a></span>RenderGeometry()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -595,37 +953,109 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void RenderInterface_GL3::RenderGeometry </td>
           <td>(</td>
-          <td class="paramtype">Rml::Vertex *&#160;</td>
-          <td class="paramname"><em>vertices</em>, </td>
+          <td class="paramtype">Rml::CompiledGeometryHandle&#160;</td>
+          <td class="paramname"><em>handle</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_vertices</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>indices</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_indices</em>, </td>
+          <td class="paramtype">Rml::Vector2f&#160;</td>
+          <td class="paramname"><em>translation</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Rml::TextureHandle&#160;</td>
-          <td class="paramname"><em>texture</em>, </td>
+          <td class="paramname"><em>texture</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9cfc9599280e112344606605dbb6f1f" name="af9cfc9599280e112344606605dbb6f1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9cfc9599280e112344606605dbb6f1f">&#9670;&nbsp;</a></span>RenderShader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::RenderShader </td>
+          <td>(</td>
+          <td class="paramtype">Rml::CompiledShaderHandle&#160;</td>
+          <td class="paramname"><em>shader_handle</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Rml::Vector2f &amp;&#160;</td>
+          <td class="paramtype">Rml::CompiledGeometryHandle&#160;</td>
+          <td class="paramname"><em>geometry_handle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rml::Vector2f&#160;</td>
+          <td class="paramname"><em>translation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rml::TextureHandle&#160;</td>
+          <td class="paramname"><em>texture</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac95abfbb62b266d07771a4e0fd07738e" name="ac95abfbb62b266d07771a4e0fd07738e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac95abfbb62b266d07771a4e0fd07738e">&#9670;&nbsp;</a></span>RenderToClipMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::RenderToClipMask </td>
+          <td>(</td>
+          <td class="paramtype">Rml::ClipMaskOperation&#160;</td>
+          <td class="paramname"><em>mask_operation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rml::CompiledGeometryHandle&#160;</td>
+          <td class="paramname"><em>geometry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rml::Vector2f&#160;</td>
           <td class="paramname"><em>translation</em>&#160;</td>
         </tr>
         <tr>
@@ -643,8 +1073,94 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aaa850bf0f73e2ef192d642ca19cad245" name="aaa850bf0f73e2ef192d642ca19cad245"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa850bf0f73e2ef192d642ca19cad245">&#9670;&nbsp;</a></span>SetScissorRegion()</h2>
+<a id="afc43e9b90a320c1e076ea977d59daca5" name="afc43e9b90a320c1e076ea977d59daca5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc43e9b90a320c1e076ea977d59daca5">&#9670;&nbsp;</a></span>SaveLayerAsMaskImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rml::CompiledFilterHandle RenderInterface_GL3::SaveLayerAsMaskImage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb884374218c65041d1146091ade703b" name="abb884374218c65041d1146091ade703b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb884374218c65041d1146091ade703b">&#9670;&nbsp;</a></span>SaveLayerAsTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rml::TextureHandle RenderInterface_GL3::SaveLayerAsTexture </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5780ea73efcc2289766df37b213d80a8" name="a5780ea73efcc2289766df37b213d80a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5780ea73efcc2289766df37b213d80a8">&#9670;&nbsp;</a></span>SetScissor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::SetScissor </td>
+          <td>(</td>
+          <td class="paramtype">Rml::Rectanglei&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>vertically_flip</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f54b6511ce381b9462ca51d93341e2c" name="a2f54b6511ce381b9462ca51d93341e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f54b6511ce381b9462ca51d93341e2c">&#9670;&nbsp;</a></span>SetScissorRegion()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -655,31 +1171,9 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void RenderInterface_GL3::SetScissorRegion </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">Rml::Rectanglei&#160;</td>
+          <td class="paramname"><em>region</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -745,8 +1239,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a53749d9af5932669e960863d15cfa67f" name="a53749d9af5932669e960863d15cfa67f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53749d9af5932669e960863d15cfa67f">&#9670;&nbsp;</a></span>SubmitTransformUniform()</h2>
+<a id="a3fe70ade5b65fb6f0e8bca4ece90ea83" name="a3fe70ade5b65fb6f0e8bca4ece90ea83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fe70ade5b65fb6f0e8bca4ece90ea83">&#9670;&nbsp;</a></span>SubmitTransformUniform()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -757,19 +1251,35 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void RenderInterface_GL3::SubmitTransformUniform </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_render_interface___g_l3.html#abfda190e8b3e188be4b7adf7110280db">ProgramId</a>&#160;</td>
-          <td class="paramname"><em>program_id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">Rml::Vector2f&#160;</td>
+          <td class="paramname"><em>translation</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>uniform_location</em>&#160;</td>
         </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a2ebb95939b340d07a1111f84019a1f" name="a7a2ebb95939b340d07a1111f84019a1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a2ebb95939b340d07a1111f84019a1f">&#9670;&nbsp;</a></span>UseProgram()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
         <tr>
+          <td class="memname">void RenderInterface_GL3::UseProgram </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#aef39ea06ec027f46e65b8280775df70a">ProgramId</a>&#160;</td>
+          <td class="paramname"><em>program_id</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -782,6 +1292,138 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0fac7ddecc59ceaa9f82ad05b2eeca5e" name="a0fac7ddecc59ceaa9f82ad05b2eeca5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fac7ddecc59ceaa9f82ad05b2eeca5e">&#9670;&nbsp;</a></span>active_program</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#aef39ea06ec027f46e65b8280775df70a">ProgramId</a> RenderInterface_GL3::active_program = {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad86413ec3d9f6c033aabd3f004094483" name="ad86413ec3d9f6c033aabd3f004094483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad86413ec3d9f6c033aabd3f004094483">&#9670;&nbsp;</a></span>fullscreen_quad_geometry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rml::CompiledGeometryHandle RenderInterface_GL3::fullscreen_quad_geometry = {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af19c34af45965cb31e148ed51d3e58eb" name="af19c34af45965cb31e148ed51d3e58eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af19c34af45965cb31e148ed51d3e58eb">&#9670;&nbsp;</a></span>glstate_backup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_render_interface___g_l3_1_1_g_l_state_backup.html">GLStateBackup</a> RenderInterface_GL3::glstate_backup = {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a841c7c084f92faa5125464efbffd660d" name="a841c7c084f92faa5125464efbffd660d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a841c7c084f92faa5125464efbffd660d">&#9670;&nbsp;</a></span>MaxNumPrograms</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t RenderInterface_GL3::MaxNumPrograms = 32</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55714774b174464e079b6a729772b15b" name="a55714774b174464e079b6a729772b15b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55714774b174464e079b6a729772b15b">&#9670;&nbsp;</a></span>program_data</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rml::UniquePtr&lt;const <a class="el" href="struct_gfx_1_1_program_data.html">Gfx::ProgramData</a>&gt; RenderInterface_GL3::program_data</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4375af73b4f148668b9d5f162197d38e" name="a4375af73b4f148668b9d5f162197d38e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4375af73b4f148668b9d5f162197d38e">&#9670;&nbsp;</a></span>program_transform_dirty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::bitset&lt;<a class="el" href="class_render_interface___g_l3.html#a841c7c084f92faa5125464efbffd660d">MaxNumPrograms</a>&gt; RenderInterface_GL3::program_transform_dirty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2335a2541e90524b759a5b950b0c0e67" name="a2335a2541e90524b759a5b950b0c0e67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2335a2541e90524b759a5b950b0c0e67">&#9670;&nbsp;</a></span>projection</h2>
 
@@ -804,8 +1446,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae2a9a19453ad78d973d0902ffe080f78" name="ae2a9a19453ad78d973d0902ffe080f78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2a9a19453ad78d973d0902ffe080f78">&#9670;&nbsp;</a></span>scissoring_state</h2>
+<a id="a52cba3f7dec6e0dbe585759b8febd01a" name="a52cba3f7dec6e0dbe585759b8febd01a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52cba3f7dec6e0dbe585759b8febd01a">&#9670;&nbsp;</a></span>render_layers</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -814,7 +1456,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_render_interface___g_l3.html#adaa4ea4b35b065034e9925af54f6becf">ScissoringState</a> RenderInterface_GL3::scissoring_state = <a class="el" href="class_render_interface___g_l3.html#adaa4ea4b35b065034e9925af54f6becfabcfaccebf745acfd5e75351095a5394a">ScissoringState::Disable</a></td>
+          <td class="memname"><a class="el" href="class_render_interface___g_l3_1_1_render_layer_stack.html">RenderLayerStack</a> RenderInterface_GL3::render_layers</td>
         </tr>
       </table>
   </td>
@@ -826,8 +1468,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adc61a855946b5327d9e6cafe4cc8469b" name="adc61a855946b5327d9e6cafe4cc8469b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc61a855946b5327d9e6cafe4cc8469b">&#9670;&nbsp;</a></span>shaders</h2>
+<a id="aa2bb45ed972396e0842b4243798b0282" name="aa2bb45ed972396e0842b4243798b0282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2bb45ed972396e0842b4243798b0282">&#9670;&nbsp;</a></span>scissor_state</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -836,7 +1478,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Rml::UniquePtr&lt;Gfx::ShadersData&gt; RenderInterface_GL3::shaders</td>
+          <td class="memname">Rml::Rectanglei RenderInterface_GL3::scissor_state</td>
         </tr>
       </table>
   </td>
@@ -848,8 +1490,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aad28429e3195633f9c450196a9bf60da" name="aad28429e3195633f9c450196a9bf60da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad28429e3195633f9c450196a9bf60da">&#9670;&nbsp;</a></span>TextureEnableWithoutBinding</h2>
+<a id="a4f946d9923d4e50bcd7cdf2b4afd2fbd" name="a4f946d9923d4e50bcd7cdf2b4afd2fbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f946d9923d4e50bcd7cdf2b4afd2fbd">&#9670;&nbsp;</a></span>TextureEnableWithoutBinding</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -858,12 +1500,34 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Rml::TextureHandle RenderInterface_GL3::TextureEnableWithoutBinding = Rml::TextureHandle(-1)</td>
+          <td class="memname">constexpr Rml::TextureHandle RenderInterface_GL3::TextureEnableWithoutBinding = Rml::TextureHandle(-1)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae232a2ab0c0e115acd459caa149dde90" name="ae232a2ab0c0e115acd459caa149dde90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae232a2ab0c0e115acd459caa149dde90">&#9670;&nbsp;</a></span>TexturePostprocess</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr Rml::TextureHandle RenderInterface_GL3::TexturePostprocess = Rml::TextureHandle(-2)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -881,50 +1545,6 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">Rml::Matrix4f RenderInterface_GL3::transform</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a710918e390eb3b1d6b55f9515ae661fe" name="a710918e390eb3b1d6b55f9515ae661fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a710918e390eb3b1d6b55f9515ae661fe">&#9670;&nbsp;</a></span>transform_active</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool RenderInterface_GL3::transform_active = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5880edddf4d291782acb7264a2c52efe" name="a5880edddf4d291782acb7264a2c52efe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5880edddf4d291782acb7264a2c52efe">&#9670;&nbsp;</a></span>transform_dirty_state</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_render_interface___g_l3.html#abfda190e8b3e188be4b7adf7110280db">ProgramId</a> RenderInterface_GL3::transform_dirty_state = <a class="el" href="class_render_interface___g_l3.html#abfda190e8b3e188be4b7adf7110280dbab1c94ca2fbc3e78fc30069c8d0f01680">ProgramId::All</a></td>
         </tr>
       </table>
   </td>
@@ -980,13 +1600,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/engine/ui/<a class="el" href="_rml_ui___renderer___g_l3_8h_source.html">RmlUi_Renderer_GL3.h</a></li>
+<li>/github/workspace/src/engine/ui/<a class="el" href="_rml_ui___renderer___g_l3_8cpp.html">RmlUi_Renderer_GL3.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 25 2023 19:39:23 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Apr 22 2025 22:26:15 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

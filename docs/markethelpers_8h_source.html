@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <a href="markethelpers_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Conquer Space</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> * Copyright (C) 2021-2023 Conquer Space</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> * Copyright (C) 2021-2025 Conquer Space</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
@@ -110,21 +110,21 @@ $(function() {
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}  <span class="comment">// namespace systems</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>}  <span class="comment">// namespace common</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}  <span class="comment">// namespace cqsp</span></div>
-<div class="ttc" id="aclasscqsp_1_1common_1_1_universe_html"><div class="ttname"><a href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a></div><div class="ttdef"><b>Definition:</b> universe.h:32</div></div>
+<div class="ttc" id="aclasscqsp_1_1common_1_1_universe_html"><div class="ttname"><a href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a></div><div class="ttdef"><b>Definition:</b> universe.h:34</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1components_1_1_resource_ledger_html"><div class="ttname"><a href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">cqsp::common::components::ResourceLedger</a></div><div class="ttdef"><b>Definition:</b> resource.h:76</div></div>
 <div class="ttc" id="anamespacecqsp_1_1common_1_1systems_1_1economy_html_a17edc289c1afb96c1de535c10ef08862"><div class="ttname"><a href="namespacecqsp_1_1common_1_1systems_1_1economy.html#a17edc289c1afb96c1de535c10ef08862">cqsp::common::systems::economy::SellGood</a></div><div class="ttdeci">bool SellGood(Universe &amp;universe, entt::entity agent, const components::ResourceLedger &amp;selling)</div><div class="ttdef"><b>Definition:</b> markethelpers.cpp:81</div></div>
 <div class="ttc" id="anamespacecqsp_1_1common_1_1systems_1_1economy_html_a388b114c0cf887b13686041dfd0289f6"><div class="ttname"><a href="namespacecqsp_1_1common_1_1systems_1_1economy.html#a388b114c0cf887b13686041dfd0289f6">cqsp::common::systems::economy::AddParticipant</a></div><div class="ttdeci">void AddParticipant(cqsp::common::Universe &amp;universe, entt::entity market, entt::entity entity)</div><div class="ttdef"><b>Definition:</b> markethelpers.cpp:22</div></div>
 <div class="ttc" id="anamespacecqsp_1_1common_1_1systems_1_1economy_html_a653b41beeb7c6e42fb16acb5bab069fe"><div class="ttname"><a href="namespacecqsp_1_1common_1_1systems_1_1economy.html#a653b41beeb7c6e42fb16acb5bab069fe">cqsp::common::systems::economy::PurchaseGood</a></div><div class="ttdeci">bool PurchaseGood(Universe &amp;universe, entt::entity agent, const components::ResourceLedger &amp;purchase)</div><div class="ttdoc">Note: This will only buy the maximum resources that are in the market. If there aren't enough resourc...</div><div class="ttdef"><b>Definition:</b> markethelpers.cpp:50</div></div>
 <div class="ttc" id="anamespacecqsp_1_1common_1_1systems_1_1economy_html_ad7d237281c41dc46c78e34a3f01e34bb"><div class="ttname"><a href="namespacecqsp_1_1common_1_1systems_1_1economy.html#ad7d237281c41dc46c78e34a3f01e34bb">cqsp::common::systems::economy::GetCost</a></div><div class="ttdeci">double GetCost(cqsp::common::Universe &amp;universe, entt::entity market, const components::ResourceLedger &amp;ledger)</div><div class="ttdef"><b>Definition:</b> markethelpers.cpp:31</div></div>
 <div class="ttc" id="anamespacecqsp_1_1common_1_1systems_1_1economy_html_aef1b604fec7e96a47db5d33139799d73"><div class="ttname"><a href="namespacecqsp_1_1common_1_1systems_1_1economy.html#aef1b604fec7e96a47db5d33139799d73">cqsp::common::systems::economy::CreateMarket</a></div><div class="ttdeci">entt::entity CreateMarket(Universe &amp;universe)</div><div class="ttdoc">Creates a market two instance.</div><div class="ttdef"><b>Definition:</b> markethelpers.cpp:39</div></div>
-<div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdoc">When adding assets, it is extremely crucial that you read cqsp::asset::AssetLoader::LoadResources to ...</div><div class="ttdef"><b>Definition:</b> clientctx.h:21</div></div>
+<div class="ttc" id="anamespacecqsp_html"><div class="ttname"><a href="namespacecqsp.html">cqsp</a></div><div class="ttdoc">When adding assets, it is extremely crucial that you read cqsp::asset::AssetLoader::LoadResources to ...</div><div class="ttdef"><b>Definition:</b> clientctx.h:22</div></div>
 <div class="ttc" id="aresource_8h_html"><div class="ttname"><a href="resource_8h.html">resource.h</a></div></div>
 <div class="ttc" id="aturnsavewindow_8h_html_adfd4fe8b82e62f73d8931ecb95c24d4e"><div class="ttname"><a href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a></div><div class="ttdeci">common::Universe * universe</div><div class="ttdef"><b>Definition:</b> turnsavewindow.h:3</div></div>
 <div class="ttc" id="auniverse_8h_html"><div class="ttname"><a href="universe_8h.html">universe.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 25 2023 19:39:22 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Apr 22 2025 22:26:14 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

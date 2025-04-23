@@ -206,6 +206,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a11ea17216529528f9386771019a734b2"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a>, <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a55ad4e4dbfbac40cd4f563a220160f27">LoaderFunction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a11ea17216529528f9386771019a734b2">loading_functions</a></td></tr>
 <tr class="memdesc:a11ea17216529528f9386771019a734b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of functions that are loading.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a11ea17216529528f9386771019a734b2">More...</a><br /></td></tr>
 <tr class="separator:a11ea17216529528f9386771019a734b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01480d9f2fb818c58d6ea687d9d756c7"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a>, uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a01480d9f2fb818c58d6ea687d9d756c7">loading_times</a></td></tr>
+<tr class="separator:a01480d9f2fb818c58d6ea687d9d756c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a531c1b28ef2e8d7994ab4e5591cb1426"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">VirtualMounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a531c1b28ef2e8d7994ab4e5591cb1426">mounter</a></td></tr>
 <tr class="separator:a531c1b28ef2e8d7994ab4e5591cb1426"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -1069,7 +1071,7 @@ Friends</h2></td></tr>
 <div class="line">    }</div>
 <div class="line">    <span class="comment">// .. more assets can be specified, as long as they have a different key</span></div>
 <div class="line">}</div>
-<div class="ttc" id="aclient_2_c_make_lists_8txt_html_aec4694c4532f0fedb547a380e8eff255"><div class="ttname"><a href="client_2_c_make_lists_8txt.html#aec4694c4532f0fedb547a380e8eff255">file</a></div><div class="ttdeci">lib tracy file(GLOB_RECURSE CPP_FILES *.cpp) list(FILTER CPP_FILES EXCLUDE REGEX &quot;.*main.cpp$&quot;) file(GLOB_RECURSE H_FILES *.h) set(SOURCE_FILES $</div><div class="ttdef"><b>Definition:</b> CMakeLists.txt:24</div></div>
+<div class="ttc" id="aclient_2_c_make_lists_8txt_html_aec4694c4532f0fedb547a380e8eff255"><div class="ttname"><a href="client_2_c_make_lists_8txt.html#aec4694c4532f0fedb547a380e8eff255">file</a></div><div class="ttdeci">lib tracy file(GLOB_RECURSE CPP_FILES *.cpp) list(FILTER CPP_FILES EXCLUDE REGEX &quot;.*main.cpp$&quot;) file(GLOB_RECURSE H_FILES *.h) set(SOURCE_FILES $</div><div class="ttdef"><b>Definition:</b> CMakeLists.txt:22</div></div>
 </div><!-- fragment --><p> <br  />
  </p>
 
@@ -1581,6 +1583,28 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a01480d9f2fb818c58d6ea687d9d756c7" name="a01480d9f2fb818c58d6ea687d9d756c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01480d9f2fb818c58d6ea687d9d756c7">&#9670;&nbsp;</a></span>loading_times</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;<a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a>, uint64_t&gt; cqsp::asset::AssetLoader::loading_times</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a299aba2b2f0bc9032fed9e520d469762" name="a299aba2b2f0bc9032fed9e520d469762"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a299aba2b2f0bc9032fed9e520d469762">&#9670;&nbsp;</a></span>m_asset_queue</h2>
 
@@ -1694,7 +1718,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 25 2023 19:39:23 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Apr 22 2025 22:26:15 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

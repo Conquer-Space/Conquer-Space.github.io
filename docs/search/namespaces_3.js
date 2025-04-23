@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['gfx_0',['Gfx',['../namespace_gfx.html',1,'']]]
+  ['imgui_0',['ImGui',['../namespace_im_gui.html',1,'']]],
+  ['implot_1',['ImPlot',['../namespace_im_plot.html',1,'']]]
 ];

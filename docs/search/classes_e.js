@@ -15,7 +15,9 @@ var searchData=
   ['powerplant_12',['PowerPlant',['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_power_plant.html',1,'cqsp::common::components::infrastructure']]],
   ['price_13',['Price',['../structcqsp_1_1common_1_1components_1_1_price.html',1,'cqsp::common::components']]],
   ['production_14',['Production',['../structcqsp_1_1common_1_1components_1_1_production.html',1,'cqsp::common::components']]],
-  ['province_15',['Province',['../structcqsp_1_1common_1_1components_1_1_province.html',1,'cqsp::common::components']]],
-  ['provincecolor_16',['ProvinceColor',['../structcqsp_1_1common_1_1components_1_1_province_color.html',1,'cqsp::common::components']]],
-  ['provincedplanet_17',['ProvincedPlanet',['../structcqsp_1_1common_1_1components_1_1_provinced_planet.html',1,'cqsp::common::components']]]
+  ['programdata_15',['ProgramData',['../struct_gfx_1_1_program_data.html',1,'Gfx']]],
+  ['programdefinition_16',['ProgramDefinition',['../struct_gfx_1_1_program_definition.html',1,'Gfx']]],
+  ['province_17',['Province',['../structcqsp_1_1common_1_1components_1_1_province.html',1,'cqsp::common::components']]],
+  ['provincecolor_18',['ProvinceColor',['../structcqsp_1_1common_1_1components_1_1_province_color.html',1,'cqsp::common::components']]],
+  ['provincedplanet_19',['ProvincedPlanet',['../structcqsp_1_1common_1_1components_1_1_provinced_planet.html',1,'cqsp::common::components']]]
 ];

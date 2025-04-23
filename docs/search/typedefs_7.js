@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['joule_0',['joule',['../namespacecqsp_1_1common_1_1components_1_1types.html#a76816da88fd05b8ae6ffc817782322c0',1,'cqsp::common::components::types']]]
+  ['ivirtualdirectoryptr_0',['IVirtualDirectoryPtr',['../namespacecqsp_1_1asset.html#afc57671f834b100155e4e56af3b80577',1,'cqsp::asset']]],
+  ['ivirtualfileptr_1',['IVirtualFilePtr',['../namespacecqsp_1_1asset.html#aad34e921425ce7efb4d34c87e5002f31',1,'cqsp::asset']]]
 ];

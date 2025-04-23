@@ -90,6 +90,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_recipe_loader.html">RecipeLoader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_satellite_loader.html">SatelliteLoader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1loading_1_1_timezone_loader.html">TimezoneLoader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -103,6 +105,9 @@ Functions</h2></td></tr>
 <tr class="separator:a7c7b2642d7c794ca2447fb5cc402f375"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8d423dc97d1cca466a823431ae89f1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#ad8d423dc97d1cca466a823431ae89f1e">LoadNameLists</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;, Hjson::Value &amp;)</td></tr>
 <tr class="separator:ad8d423dc97d1cca466a823431ae89f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66e7e1ff8bf96e85ced3b3e2df4afc3"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#ab66e7e1ff8bf96e85ced3b3e2df4afc3">LoadOrbit</a> (const Hjson::Value &amp;values)</td></tr>
+<tr class="memdesc:ab66e7e1ff8bf96e85ced3b3e2df4afc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads an orbit from a hjson object Note: The caller will have to set the center entity.  <a href="namespacecqsp_1_1common_1_1systems_1_1loading.html#ab66e7e1ff8bf96e85ced3b3e2df4afc3">More...</a><br /></td></tr>
+<tr class="separator:ab66e7e1ff8bf96e85ced3b3e2df4afc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cadd21a274e2b031de9ca1df9b9a1f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a6cadd21a274e2b031de9ca1df9b9a1f8">LoadProvinces</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">common::Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const std::string &amp;text)</td></tr>
 <tr class="separator:a6cadd21a274e2b031de9ca1df9b9a1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a611371655504127459e01b6f019e62fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a611371655504127459e01b6f019e62fa">GetOrbit</a> (const std::string &amp;line_one, const std::string &amp;line_two, const double &amp;GM)</td></tr>
@@ -440,6 +445,33 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab66e7e1ff8bf96e85ced3b3e2df4afc3" name="ab66e7e1ff8bf96e85ced3b3e2df4afc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab66e7e1ff8bf96e85ced3b3e2df4afc3">&#9670;&nbsp;</a></span>LoadOrbit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &gt; cqsp::common::systems::loading::LoadOrbit </td>
+          <td>(</td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>values</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads an orbit from a hjson object Note: The caller will have to set the center entity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values</td><td>The hjson input values </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Will return a nullopt if the struct is invalid </dd></dl>
+
+</div>
+</div>
 <a id="a6cadd21a274e2b031de9ca1df9b9a1f8" name="a6cadd21a274e2b031de9ca1df9b9a1f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6cadd21a274e2b031de9ca1df9b9a1f8">&#9670;&nbsp;</a></span>LoadProvinces()</h2>
 
@@ -665,7 +697,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 25 2023 19:39:23 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Apr 22 2025 22:26:15 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

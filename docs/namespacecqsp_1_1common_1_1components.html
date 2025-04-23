@@ -123,6 +123,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_description.html">Description</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_docked_ships.html">DockedShips</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_employer.html">Employer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_energy.html">Energy</a></td></tr>
@@ -255,6 +257,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_wallet.html">Wallet</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_world_model.html">WorldModel</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -264,6 +268,10 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a70e76785fb7963378e890943d5cc6607"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classcqsp_1_1common_1_1components_1_1_sorted_order_list.html">SortedOrderList</a>&lt; std::less&lt; <a class="el" href="structcqsp_1_1common_1_1components_1_1_order.html">Order</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components.html#a70e76785fb7963378e890943d5cc6607">AscendingSortedOrderList</a></td></tr>
 <tr class="memdesc:a70e76785fb7963378e890943d5cc6607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smallest to greatest  <a href="namespacecqsp_1_1common_1_1components.html#a70e76785fb7963378e890943d5cc6607">More...</a><br /></td></tr>
 <tr class="separator:a70e76785fb7963378e890943d5cc6607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52ee3e163507ddcb1a2c2a20ac7a8a83"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; glm::dvec3, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components.html#a52ee3e163507ddcb1a2c2a20ac7a8a83">Maneuver_t</a></td></tr>
+<tr class="separator:a52ee3e163507ddcb1a2c2a20ac7a8a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e9c65e6b09f4ef56e35a247d5a87ff"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; <a class="el" href="namespacecqsp_1_1common_1_1components.html#a52ee3e163507ddcb1a2c2a20ac7a8a83">Maneuver_t</a>, <a class="el" href="namespacecqsp_1_1common_1_1components.html#a52ee3e163507ddcb1a2c2a20ac7a8a83">Maneuver_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components.html#ad6e9c65e6b09f4ef56e35a247d5a87ff">HohmannPair_t</a></td></tr>
+<tr class="separator:ad6e9c65e6b09f4ef56e35a247d5a87ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa664d96822b0265222e3fd929cad34de"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; entt::entity, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components.html#aa664d96822b0265222e3fd929cad34de">LedgerMap</a></td></tr>
 <tr class="separator:aa664d96822b0265222e3fd929cad34de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -320,6 +328,20 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad6e9c65e6b09f4ef56e35a247d5a87ff" name="ad6e9c65e6b09f4ef56e35a247d5a87ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6e9c65e6b09f4ef56e35a247d5a87ff">&#9670;&nbsp;</a></span>HohmannPair_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::pair&lt;<a class="el" href="namespacecqsp_1_1common_1_1components.html#a52ee3e163507ddcb1a2c2a20ac7a8a83">Maneuver_t</a>, <a class="el" href="namespacecqsp_1_1common_1_1components.html#a52ee3e163507ddcb1a2c2a20ac7a8a83">Maneuver_t</a>&gt; <a class="el" href="namespacecqsp_1_1common_1_1components.html#ad6e9c65e6b09f4ef56e35a247d5a87ff">cqsp::common::components::HohmannPair_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa664d96822b0265222e3fd929cad34de" name="aa664d96822b0265222e3fd929cad34de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa664d96822b0265222e3fd929cad34de">&#9670;&nbsp;</a></span>LedgerMap</h2>
 
@@ -328,6 +350,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef std::map&lt;entt::entity, double&gt; <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa664d96822b0265222e3fd929cad34de">cqsp::common::components::LedgerMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52ee3e163507ddcb1a2c2a20ac7a8a83" name="a52ee3e163507ddcb1a2c2a20ac7a8a83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52ee3e163507ddcb1a2c2a20ac7a8a83">&#9670;&nbsp;</a></span>Maneuver_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::pair&lt;glm::dvec3, double&gt; <a class="el" href="namespacecqsp_1_1common_1_1components.html#a52ee3e163507ddcb1a2c2a20ac7a8a83">cqsp::common::components::Maneuver_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -488,7 +524,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 25 2023 19:39:23 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Apr 22 2025 22:26:15 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

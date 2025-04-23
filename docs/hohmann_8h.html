@@ -70,7 +70,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">hohmann.h File Reference</div></div>
 </div><!--header-->
@@ -78,6 +77,7 @@ $(function() {
 <div class="textblock"><code>#include &lt;optional&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;glm/vec3.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="movement_8h_source.html">common/components/movement.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="orbit_8h_source.html">common/components/orbit.h</a>&quot;</code><br />
 </div>
 <p><a href="hohmann_8h_source.html">Go to the source code of this file.</a></p>
@@ -92,24 +92,17 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp_1_1common_1_1systems"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html">cqsp::common::systems</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ab5958ca9900bebfba6167c91f8c14932"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; glm::dvec3, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#ab5958ca9900bebfba6167c91f8c14932">cqsp::common::systems::Maneuver_t</a></td></tr>
-<tr class="separator:ab5958ca9900bebfba6167c91f8c14932"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad62ab89303872ef440e44831ea375d4d"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; Maneuver_t, Maneuver_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#ad62ab89303872ef440e44831ea375d4d">cqsp::common::systems::HohmannPair_t</a></td></tr>
-<tr class="separator:ad62ab89303872ef440e44831ea375d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a447ac196c091414d1f41b970287463df"><td class="memItemLeft" align="right" valign="top">HohmannPair_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#a447ac196c091414d1f41b970287463df">cqsp::common::systems::UnsafeHohmannTransfer</a> (const components::types::Orbit &amp;orbit, double altitude)</td></tr>
-<tr class="separator:a447ac196c091414d1f41b970287463df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63e974b687d154c0b922e2bb90872d06"><td class="memItemLeft" align="right" valign="top">std::optional&lt; HohmannPair_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#a63e974b687d154c0b922e2bb90872d06">cqsp::common::systems::HohmannTransfer</a> (const components::types::Orbit &amp;orbit, double altitude)</td></tr>
-<tr class="separator:a63e974b687d154c0b922e2bb90872d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af21b4a73a621e97288dd60399253acd4"><td class="memItemLeft" align="right" valign="top">components::HohmannPair_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#af21b4a73a621e97288dd60399253acd4">cqsp::common::systems::UnsafeHohmannTransfer</a> (const components::types::Orbit &amp;orbit, double altitude)</td></tr>
+<tr class="separator:af21b4a73a621e97288dd60399253acd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc2f5cce0e1f10e1110d16f57dee0565"><td class="memItemLeft" align="right" valign="top">std::optional&lt; components::HohmannPair_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#afc2f5cce0e1f10e1110d16f57dee0565">cqsp::common::systems::HohmannTransfer</a> (const components::types::Orbit &amp;orbit, double altitude)</td></tr>
+<tr class="separator:afc2f5cce0e1f10e1110d16f57dee0565"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 25 2023 19:39:22 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Apr 22 2025 22:26:14 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

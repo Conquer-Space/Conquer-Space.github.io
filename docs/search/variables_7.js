@@ -9,8 +9,9 @@ var searchData=
   ['gdp_6',['gdp',['../classcqsp_1_1common_1_1components_1_1_market_history.html#a1e90d91bf7d553e56a8bfc399eff66f3',1,'cqsp::common::components::MarketHistory']]],
   ['gdp_5fchange_7',['GDP_change',['../structcqsp_1_1common_1_1components_1_1_wallet.html#a058f0853c710e18d2697e0d962dd676d',1,'cqsp::common::components::Wallet']]],
   ['geometry_8',['geometry',['../classcqsp_1_1asset_1_1_shader_definition.html#a5a22113415710a19f177b989ec92800a',1,'cqsp::asset::ShaderDefinition']]],
-  ['glfw_5factive_5fmodifiers_9',['glfw_active_modifiers',['../struct_backend_data.html#a029082396af99d9cf23e8ab5fa46f8c0',1,'BackendData']]],
+  ['glstate_5fbackup_9',['glstate_backup',['../class_render_interface___g_l3.html#af19c34af45965cb31e148ed51d3e58eb',1,'RenderInterface_GL3']]],
   ['gm_10',['GM',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#ae74b49547503cb1a1193ea8bea5f80b3',1,'cqsp::common::components::bodies::Body::GM()'],['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#a224ad7f68acbbc801c6df966c0ead467',1,'cqsp::common::components::types::Orbit::GM()']]],
   ['goods_11',['goods',['../classcqsp_1_1common_1_1_universe.html#a7f41203c9506d5b689e0c3c46c052942',1,'cqsp::common::Universe']]],
-  ['governor_12',['governor',['../structcqsp_1_1common_1_1components_1_1_governed.html#a078b3bc7cebfb23adf713e16d6b9af9a',1,'cqsp::common::components::Governed']]]
+  ['governor_12',['governor',['../structcqsp_1_1common_1_1components_1_1_governed.html#a078b3bc7cebfb23adf713e16d6b9af9a',1,'cqsp::common::components::Governed']]],
+  ['gradient_5ffunction_13',['gradient_function',['../struct_compiled_shader.html#a5de39b49c0006daa13fcd47b6c49d850',1,'CompiledShader']]]
 ];
