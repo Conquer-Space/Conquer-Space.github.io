@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orbital Maneuvers III"
+title: "Orbital Maneuvers II"
 date: 2025-04-15
 categories: ["dev-diary"]
 tags: ["dev-diary", "orbital-mechanics"]
@@ -14,7 +14,7 @@ Satellites can now execute basic orbital maneuvers, including plane matching, re
 We are able to land on the moon, and those ships show up on colonies. Returning back from the moon is also possible but I haven't implmenented that yet. But for now, most of the systems that we have are fairly robust, and extending the capabilities should be straightforward.
 
 <video width="320" height="240" controls>
-  <source src="assets\media\2025\4\25\moonrendezvous.mp4" type="video/mp4">
+  <source src="/assets\media\2025\4\25\moonrendezvous.mp4" type="video/mp4">
 </video>
 
 I have written a Lambert solver as well, and the unit tests for the lambert solver all work. The code was referenced from [pykep](https://github.com/esa/pykep/blob/master/src/lambert_problem.cpp).
