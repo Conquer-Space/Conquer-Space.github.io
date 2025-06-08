@@ -71,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classcqsp_1_1common_1_1systems_1_1_sys_market-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::common::systems::SysMarket Class Reference</div></div>
 </div><!--header-->
@@ -100,12 +101,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5c0163458b4975f070a6f45e12f61cdf inherit pub_methods_classcqsp_1_1common_1_1systems_1_1_i_simulation_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc30269396af9a8de86bace676754c45 inherit pub_methods_classcqsp_1_1common_1_1systems_1_1_i_simulation_system"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#adc30269396af9a8de86bace676754c45">~ISimulationSystem</a> ()=default</td></tr>
 <tr class="separator:adc30269396af9a8de86bace676754c45 inherit pub_methods_classcqsp_1_1common_1_1systems_1_1_i_simulation_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fa44ad70db5bcf4bd65a4baa14ac206 inherit pub_methods_classcqsp_1_1common_1_1systems_1_1_i_simulation_system"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a4fa44ad70db5bcf4bd65a4baa14ac206">Init</a> ()</td></tr>
+<tr class="separator:a4fa44ad70db5bcf4bd65a4baa14ac206 inherit pub_methods_classcqsp_1_1common_1_1systems_1_1_i_simulation_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0982c8c35b87538eb4795507f48b8aa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_market.html#ac0982c8c35b87538eb4795507f48b8aa">InitializeMarket</a> (<a class="el" href="classcqsp_1_1common_1_1_game.html">Game</a> &amp;<a class="el" href="classcqsp_1_1common_1_1systems_1_1_i_simulation_system.html#a5f88777255125e6fee6951511f36f3e2">game</a>)</td></tr>
 <tr class="memdesc:ac0982c8c35b87538eb4795507f48b8aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be called before the game starts  <a href="classcqsp_1_1common_1_1systems_1_1_sys_market.html#ac0982c8c35b87538eb4795507f48b8aa">More...</a><br /></td></tr>
 <tr class="separator:ac0982c8c35b87538eb4795507f48b8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a0d584c7086123f33fcc228bc377bcc62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_market.html#a0d584c7086123f33fcc228bc377bcc62">DeterminePrice</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1_market.html">components::Market</a> &amp;market, entt::entity good_entity)</td></tr>
+<tr class="separator:a0d584c7086123f33fcc228bc377bcc62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -143,6 +151,42 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0d584c7086123f33fcc228bc377bcc62" name="a0d584c7086123f33fcc228bc377bcc62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d584c7086123f33fcc228bc377bcc62">&#9670;&nbsp;</a></span>DeterminePrice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::common::systems::SysMarket::DeterminePrice </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market.html">components::Market</a> &amp;&#160;</td>
+          <td class="paramname"><em>market</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>good_entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3694895af341b2e6d75acdb57fbd8b75" name="a3694895af341b2e6d75acdb57fbd8b75"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3694895af341b2e6d75acdb57fbd8b75">&#9670;&nbsp;</a></span>DoSystem()</h2>
 
@@ -239,7 +283,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 22 2025 22:26:15 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Jun 8 2025 02:28:04 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

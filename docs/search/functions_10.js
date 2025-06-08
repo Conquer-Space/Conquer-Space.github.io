@@ -37,11 +37,12 @@ var searchData=
   ['researchtech_34',['ResearchTech',['../namespacecqsp_1_1common_1_1systems_1_1science.html#a79d3ff08409423025f57fed20525ab1c',1,'cqsp::common::systems::science']]],
   ['reset_35',['Reset',['../structcqsp_1_1common_1_1components_1_1_cost_breakdown.html#adc7b3bd4cbecc6919611beb79720d973',1,'cqsp::common::components::CostBreakdown::Reset()'],['../structcqsp_1_1common_1_1components_1_1_wallet.html#a7f5200b2c406a206f5251aefb83f0198',1,'cqsp::common::components::Wallet::Reset()']]],
   ['resetgame_36',['ResetGame',['../classcqsp_1_1engine_1_1_application.html#a7a807acdd01e6afb07d97e7d3e76d79e',1,'cqsp::engine::Application']]],
-  ['resetmousedragdelta_37',['ResetMouseDragDelta',['../namespacecqsp_1_1client_1_1scripting.html#a18ab280daf1e40eca4f16bbb01034efd',1,'cqsp::client::scripting::ResetMouseDragDelta(int button)'],['../namespacecqsp_1_1client_1_1scripting.html#aa21a94522b48f6ab22b21a95b1411759',1,'cqsp::client::scripting::ResetMouseDragDelta()']]],
-  ['resourceledger_38',['ResourceLedger',['../classcqsp_1_1common_1_1components_1_1_resource_ledger.html#ac1c0e6d97372d464b20f183f9a3b9e11',1,'cqsp::common::components::ResourceLedger']]],
-  ['resourceledgerzip_39',['ResourceLedgerZip',['../namespacecqsp_1_1common_1_1components.html#a745589b4219709ca7ebe2d4bb715ac7f',1,'cqsp::common::components']]],
-  ['resume_40',['Resume',['../structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#a1dbe6696b4dcf5b6242dbad8bdb1f74f',1,'cqsp::engine::audio::AudioChannel']]],
-  ['rewind_41',['Rewind',['../structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#ab73b706ad099bc64ff81d68ce80bb38a',1,'cqsp::engine::audio::AudioChannel']]],
-  ['run_42',['run',['../classcqsp_1_1engine_1_1_application.html#a3f5053e9f930d016e909c184cf910094',1,'cqsp::engine::Application']]],
-  ['runscript_43',['RunScript',['../classcqsp_1_1scripting_1_1_script_interface.html#afe92ed779285b517efd74cce4d932eaf',1,'cqsp::scripting::ScriptInterface']]]
+  ['resetledgers_37',['ResetLedgers',['../structcqsp_1_1common_1_1components_1_1_market_information.html#a8cc2e8cd6195ae1c8bc36a87b9a17362',1,'cqsp::common::components::MarketInformation']]],
+  ['resetmousedragdelta_38',['ResetMouseDragDelta',['../namespacecqsp_1_1client_1_1scripting.html#a18ab280daf1e40eca4f16bbb01034efd',1,'cqsp::client::scripting::ResetMouseDragDelta(int button)'],['../namespacecqsp_1_1client_1_1scripting.html#aa21a94522b48f6ab22b21a95b1411759',1,'cqsp::client::scripting::ResetMouseDragDelta()']]],
+  ['resourceledger_39',['ResourceLedger',['../classcqsp_1_1common_1_1components_1_1_resource_ledger.html#ac1c0e6d97372d464b20f183f9a3b9e11',1,'cqsp::common::components::ResourceLedger']]],
+  ['resourceledgerzip_40',['ResourceLedgerZip',['../namespacecqsp_1_1common_1_1components.html#a745589b4219709ca7ebe2d4bb715ac7f',1,'cqsp::common::components']]],
+  ['resume_41',['Resume',['../structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#a1dbe6696b4dcf5b6242dbad8bdb1f74f',1,'cqsp::engine::audio::AudioChannel']]],
+  ['rewind_42',['Rewind',['../structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#ab73b706ad099bc64ff81d68ce80bb38a',1,'cqsp::engine::audio::AudioChannel']]],
+  ['run_43',['run',['../classcqsp_1_1engine_1_1_application.html#a3f5053e9f930d016e909c184cf910094',1,'cqsp::engine::Application']]],
+  ['runscript_44',['RunScript',['../classcqsp_1_1scripting_1_1_script_interface.html#afe92ed779285b517efd74cce4d932eaf',1,'cqsp::scripting::ScriptInterface']]]
 ];

@@ -9,7 +9,7 @@ var searchData=
   ['unindent_6',['Unindent',['../namespacecqsp_1_1client_1_1scripting.html#a258474a232fe1c608619dfcf88a59cb4',1,'cqsp::client::scripting::Unindent()'],['../namespacecqsp_1_1client_1_1scripting.html#a6b7fc98877bd20bbff4ec2c2b937bac7',1,'cqsp::client::scripting::Unindent(float indentW)']]],
   ['unit_7',['Unit',['../structcqsp_1_1common_1_1components_1_1_unit.html',1,'cqsp::common::components']]],
   ['unit_5fname_8',['unit_name',['../structcqsp_1_1common_1_1components_1_1_unit.html#a2666371c9b2c90a28f67b59ab61f9308',1,'cqsp::common::components::Unit']]],
-  ['unitleger_9',['UnitLeger',['../classcqsp_1_1common_1_1components_1_1_resource_ledger.html#a1c6491920eac89a549cdbabe06786249',1,'cqsp::common::components::ResourceLedger']]],
+  ['unitledger_9',['UnitLedger',['../classcqsp_1_1common_1_1components_1_1_resource_ledger.html#a6964b09d9e42947baccbd975b50a30f7',1,'cqsp::common::components::ResourceLedger']]],
   ['units_2eh_10',['units.h',['../units_8h.html',1,'']]],
   ['unittype_11',['UnitType',['../namespacecqsp_1_1common_1_1components_1_1types.html#a4e52001649816aae4bbc7057833fd587',1,'cqsp::common::components::types']]],
   ['universe_12',['Universe',['../classcqsp_1_1common_1_1_universe.html',1,'cqsp::common']]],
