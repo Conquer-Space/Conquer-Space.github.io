@@ -70,7 +70,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">assetmanager.cpp File Reference</div></div>
 </div><!--header-->
@@ -95,6 +94,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="paths_8h_source.html">common/util/paths.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="assetprototypedefs_8h_source.html">engine/asset/assetprototypedefs.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="modelloader_8h_source.html">engine/asset/modelloader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="package_8h_source.html">engine/asset/package.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="nativevfs_8h_source.html">engine/asset/vfs/nativevfs.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="alaudioasset_8h_source.html">engine/audio/alaudioasset.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="enginelogger_8h_source.html">engine/enginelogger.h</a>&quot;</code><br />
@@ -103,15 +103,10 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp.html">cqsp</a></td></tr>
-<tr class="memdesc:namespacecqsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">When adding assets, it is extremely crucial that you read <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9df5f3c899dcd0e3bfa77929a986ce1c">cqsp::asset::AssetLoader::LoadResources</a> to find out how to add a resource to the game. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacecqsp_1_1asset"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1asset.html">cqsp::asset</a></td></tr>
+<tr class="memdesc:namespacecqsp_1_1asset"><td class="mdescLeft">&#160;</td><td class="mdescRight">When adding assets, it is extremely crucial that you read <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9df5f3c899dcd0e3bfa77929a986ce1c">cqsp::asset::AssetLoader::LoadResources</a> to find out how to add a resource to the game. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a8e77e03d058540642ba027adb5e2be49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="assetmanager_8cpp.html#a8e77e03d058540642ba027adb5e2be49">CREATE_ASSET_LAMBDA</a>(FuncName)</td></tr>
-<tr class="separator:a8e77e03d058540642ba027adb5e2be49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -120,32 +115,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ab3269b42e1b111066fd8d7bfd61e7414"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1asset.html#ab3269b42e1b111066fd8d7bfd61e7414">cqsp::asset::MakeShader</a> (const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;hjson)</td></tr>
 <tr class="separator:ab3269b42e1b111066fd8d7bfd61e7414"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a8e77e03d058540642ba027adb5e2be49" name="a8e77e03d058540642ba027adb5e2be49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e77e03d058540642ba027adb5e2be49">&#9670;&nbsp;</a></span>CREATE_ASSET_LAMBDA</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CREATE_ASSET_LAMBDA</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">FuncName</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    [<span class="keyword">this</span>](VirtualMounter* mount, <span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> std::string&amp; key, <span class="keyword">const</span> Hjson::Value&amp; hints) { \</div>
-<div class="line">        return this-&gt;FuncName(mount, path, key, hints);                                                         \</div>
-<div class="line">    };</div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 8 2025 02:28:03 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Jul 11 2025 16:37:29 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

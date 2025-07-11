@@ -20,10 +20,11 @@ var searchData=
   ['load_5fdir_17',['load_dir',['../structcqsp_1_1client_1_1ctx_1_1_game_load.html#a0dd322d6b3cf8a5bfe3e82d384e2fcd8',1,'cqsp::client::ctx::GameLoad']]],
   ['load_5fgame_5fwindow_18',['load_game_window',['../classcqsp_1_1scene_1_1_main_menu_scene.html#adb2797f083f26204afd75419d7c68b2f',1,'cqsp::scene::MainMenuScene']]],
   ['load_5fpath_19',['load_path',['../classcqsp_1_1client_1_1_load_game_window.html#a024a53694633fcc51f8cd5cfe208324b',1,'cqsp::client::LoadGameWindow']]],
-  ['loaded_5fdocuments_20',['loaded_documents',['../classcqsp_1_1engine_1_1_application.html#a72690707a68b9c50454a81117f521926',1,'cqsp::engine::Application']]],
-  ['loading_5fdata_21',['loading_data',['../classcqsp_1_1scene_1_1_loading_scene.html#af5d0c3dc405a327effcdd2e677c6d603',1,'cqsp::scene::LoadingScene']]],
-  ['loading_5ffunctions_22',['loading_functions',['../classcqsp_1_1asset_1_1_asset_loader.html#a11ea17216529528f9386771019a734b2',1,'cqsp::asset::AssetLoader']]],
-  ['loading_5ftimes_23',['loading_times',['../classcqsp_1_1asset_1_1_asset_loader.html#a01480d9f2fb818c58d6ea687d9d756c7',1,'cqsp::asset::AssetLoader']]],
-  ['locale_24',['locale',['../classcqsp_1_1engine_1_1_application.html#a9b8fce19710ecb815282c0e892ea4774',1,'cqsp::engine::Application']]],
-  ['logger_25',['logger',['../classcqsp_1_1scripting_1_1_script_interface.html#ac69b66687f72e2be7cec841b1c7a2f2a',1,'cqsp::scripting::ScriptInterface::logger()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a11124fe89a6e34b5d9a6c00f61db9d68',1,'cqsp::engine::audio::AudioInterface::logger()']]]
+  ['load_5fvisual_20',['load_visual',['../classcqsp_1_1asset_1_1_asset_options.html#a7406f22526fd141dfe15de4c9ce5b2b9',1,'cqsp::asset::AssetOptions']]],
+  ['loaded_5fdocuments_21',['loaded_documents',['../classcqsp_1_1engine_1_1_application.html#a72690707a68b9c50454a81117f521926',1,'cqsp::engine::Application']]],
+  ['loading_5fdata_22',['loading_data',['../classcqsp_1_1scene_1_1_loading_scene.html#af5d0c3dc405a327effcdd2e677c6d603',1,'cqsp::scene::LoadingScene']]],
+  ['loading_5ffunctions_23',['loading_functions',['../classcqsp_1_1asset_1_1_asset_loader.html#a11ea17216529528f9386771019a734b2',1,'cqsp::asset::AssetLoader']]],
+  ['loading_5ftimes_24',['loading_times',['../classcqsp_1_1asset_1_1_asset_loader.html#a01480d9f2fb818c58d6ea687d9d756c7',1,'cqsp::asset::AssetLoader']]],
+  ['locale_25',['locale',['../classcqsp_1_1engine_1_1_application.html#a9b8fce19710ecb815282c0e892ea4774',1,'cqsp::engine::Application']]],
+  ['logger_26',['logger',['../classcqsp_1_1scripting_1_1_script_interface.html#ac69b66687f72e2be7cec841b1c7a2f2a',1,'cqsp::scripting::ScriptInterface::logger()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a11124fe89a6e34b5d9a6c00f61db9d68',1,'cqsp::engine::audio::AudioInterface::logger()']]]
 ];

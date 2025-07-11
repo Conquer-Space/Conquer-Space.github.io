@@ -76,6 +76,9 @@ $(function() {
   <div class="headertitle"><div class="title">cqsp::asset Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>When adding assets, it is extremely crucial that you read <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9df5f3c899dcd0e3bfa77929a986ce1c">cqsp::asset::AssetLoader::LoadResources</a> to find out how to add a resource to the game.  
+<a href="namespacecqsp_1_1asset.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -87,6 +90,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html">AssetLoader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html">AssetManager</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_options.html">AssetOptions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_prototype.html">AssetPrototype</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,8 +171,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_texture.html">Texture</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1asset_1_1_texture_loading_options.html">TextureLoadingOptions</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_threadsafe_queue.html">ThreadsafeQueue</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1asset_1_1_vertex.html">Vertex</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,6 +253,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a39eed517cb034bfbff042568d5eefd6b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1asset.html#a39eed517cb034bfbff042568d5eefd6b">ToString</a> (<a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a> type)</td></tr>
 <tr class="memdesc:a39eed517cb034bfbff042568d5eefd6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts asset type to asset type names for display  <a href="namespacecqsp_1_1asset.html#a39eed517cb034bfbff042568d5eefd6b">More...</a><br /></td></tr>
 <tr class="separator:a39eed517cb034bfbff042568d5eefd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5315720a68a3acdb6cd2df194a811cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1asset.html#aa5315720a68a3acdb6cd2df194a811cb">AssetIsVisual</a> (<a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a> type)</td></tr>
+<tr class="memdesc:aa5315720a68a3acdb6cd2df194a811cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the asset is needed for windowed mode or not.  <a href="namespacecqsp_1_1asset.html#aa5315720a68a3acdb6cd2df194a811cb">More...</a><br /></td></tr>
+<tr class="separator:aa5315720a68a3acdb6cd2df194a811cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a8fbf9987ecc02f1cb304538d0fcda6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1asset.html#a9a8fbf9987ecc02f1cb304538d0fcda6">GetShaderCode</a> (const std::string &amp;identifier)</td></tr>
 <tr class="separator:a9a8fbf9987ecc02f1cb304538d0fcda6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3269b42e1b111066fd8d7bfd61e7414"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1asset.html#ab3269b42e1b111066fd8d7bfd61e7414">MakeShader</a> (const Hjson::Value &amp;hjson)</td></tr>
@@ -301,7 +307,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a141af764ca7d27fc2800ccd738ac0bcc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1asset.html#a141af764ca7d27fc2800ccd738ac0bcc">SaveImage</a> (const char *path, int width, int height, int components, const unsigned char *data, bool flip=true)</td></tr>
 <tr class="separator:a141af764ca7d27fc2800ccd738ac0bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >When adding assets, it is extremely crucial that you read <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9df5f3c899dcd0e3bfa77929a986ce1c">cqsp::asset::AssetLoader::LoadResources</a> to find out how to add a resource to the game. </p>
+<p >When loading an asset from the game, read cqsp::asset::AssetLoader::GetAsset </p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
 <a id="afc57671f834b100155e4e56af3b80577" name="afc57671f834b100155e4e56af3b80577"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc57671f834b100155e4e56af3b80577">&#9670;&nbsp;</a></span>IVirtualDirectoryPtr</h2>
 
@@ -536,6 +545,34 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aa5315720a68a3acdb6cd2df194a811cb" name="aa5315720a68a3acdb6cd2df194a811cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5315720a68a3acdb6cd2df194a811cb">&#9670;&nbsp;</a></span>AssetIsVisual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::asset::AssetIsVisual </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks whether the asset is needed for windowed mode or not. </p>
+
+</div>
+</div>
 <a id="a0d307897a50098b9354e82426519c767" name="a0d307897a50098b9354e82426519c767"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d307897a50098b9354e82426519c767">&#9670;&nbsp;</a></span>CreateTexture() <span class="overload">[1/2]</span></h2>
 
@@ -1354,7 +1391,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 8 2025 02:28:03 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Jul 11 2025 16:37:29 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

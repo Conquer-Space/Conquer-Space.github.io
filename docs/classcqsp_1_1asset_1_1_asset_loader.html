@@ -81,7 +81,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="assetmanager_8h_source.html">assetmanager.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="assetloader_8h_source.html">assetloader.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -90,8 +90,8 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acb764011ed93cb2ebe45f000a0ade861"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#acb764011ed93cb2ebe45f000a0ade861">AssetLoader</a> ()</td></tr>
-<tr class="separator:acb764011ed93cb2ebe45f000a0ade861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cbaedb9ec77412eebf8836f2cb9609d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a2cbaedb9ec77412eebf8836f2cb9609d">AssetLoader</a> (<a class="el" href="classcqsp_1_1asset_1_1_asset_options.html">AssetOptions</a> options=<a class="el" href="classcqsp_1_1asset_1_1_asset_options.html">AssetOptions</a>())</td></tr>
+<tr class="separator:a2cbaedb9ec77412eebf8836f2cb9609d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa80982e8e2f275abbf31fcc2d69c6ab8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#aa80982e8e2f275abbf31fcc2d69c6ab8">LoadMods</a> ()</td></tr>
 <tr class="memdesc:aa80982e8e2f275abbf31fcc2d69c6ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for all the loaded mods, and loads the assets that the mod loads.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#aa80982e8e2f275abbf31fcc2d69c6ab8">More...</a><br /></td></tr>
 <tr class="separator:aa80982e8e2f275abbf31fcc2d69c6ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,8 +167,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a4e8e464a7b1a89421170595fc291441f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_asset.html">cqsp::asset::Asset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a4e8e464a7b1a89421170595fc291441f">LoadAsset</a> (const <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a> &amp;type, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;hints)</td></tr>
 <tr class="memdesc:a4e8e464a7b1a89421170595fc291441f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the asset specified in <code>path</code>  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a4e8e464a7b1a89421170595fc291441f">More...</a><br /></td></tr>
 <tr class="separator:a4e8e464a7b1a89421170595fc291441f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a503615e7e0f7b3c4639279c9d72bc12b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">ShaderProgram_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a503615e7e0f7b3c4639279c9d72bc12b">MakeShader</a> (const std::string &amp;key)</td></tr>
-<tr class="separator:a503615e7e0f7b3c4639279c9d72bc12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9549cc04b06220263fb31eef2144c51a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9549cc04b06220263fb31eef2144c51a">PlaceAsset</a> (<a class="el" href="classcqsp_1_1asset_1_1_package.html">Package</a> &amp;package, const <a class="el" href="namespacecqsp_1_1asset.html#a40668c171aff7c82e2b73ce8c1f4e037">AssetType</a> &amp;type, const std::string &amp;path, const std::string &amp;key, const Hjson::Value &amp;hints)</td></tr>
 <tr class="memdesc:a9549cc04b06220263fb31eef2144c51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conducts checks to determine if the asset was loaded correctly. Wraps Load asset, and contains the same parameters  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a9549cc04b06220263fb31eef2144c51a">More...</a><br /></td></tr>
 <tr class="separator:a9549cc04b06220263fb31eef2144c51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,9 +193,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a9aa4b62463270f96b1e1ca44baf9de81"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9aa4b62463270f96b1e1ca44baf9de81">missing_assets</a></td></tr>
 <tr class="memdesc:a9aa4b62463270f96b1e1ca44baf9de81"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all assets that are missing  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a9aa4b62463270f96b1e1ca44baf9de81">More...</a><br /></td></tr>
 <tr class="separator:a9aa4b62463270f96b1e1ca44baf9de81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a299aba2b2f0bc9032fed9e520d469762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_threadsafe_queue.html">ThreadsafeQueue</a>&lt; <a class="el" href="classcqsp_1_1asset_1_1_queue_holder.html">QueueHolder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a299aba2b2f0bc9032fed9e520d469762">m_asset_queue</a></td></tr>
-<tr class="memdesc:a299aba2b2f0bc9032fed9e520d469762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue for <a class="el" href="classcqsp_1_1asset_1_1_asset_prototype.html">AssetPrototype</a> when loading in frame.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#a299aba2b2f0bc9032fed9e520d469762">More...</a><br /></td></tr>
-<tr class="separator:a299aba2b2f0bc9032fed9e520d469762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeefac853cee6bd33a1ebbcdee6cfeadc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_threadsafe_queue.html">engine::ThreadsafeQueue</a>&lt; <a class="el" href="classcqsp_1_1asset_1_1_queue_holder.html">QueueHolder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#aeefac853cee6bd33a1ebbcdee6cfeadc">m_asset_queue</a></td></tr>
+<tr class="memdesc:aeefac853cee6bd33a1ebbcdee6cfeadc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue for <a class="el" href="classcqsp_1_1asset_1_1_asset_prototype.html">AssetPrototype</a> when loading in frame.  <a href="classcqsp_1_1asset_1_1_asset_loader.html#aeefac853cee6bd33a1ebbcdee6cfeadc">More...</a><br /></td></tr>
+<tr class="separator:aeefac853cee6bd33a1ebbcdee6cfeadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbfef2da38202446d5c5b87545c33c92"><td class="memItemLeft" align="right" valign="top">std::atomic_int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#acbfef2da38202446d5c5b87545c33c92">max_loading</a></td></tr>
 <tr class="separator:acbfef2da38202446d5c5b87545c33c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab04e2c4802adc099cbf80ccddc0372d4"><td class="memItemLeft" align="right" valign="top">std::atomic_int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#ab04e2c4802adc099cbf80ccddc0372d4">currentloading</a></td></tr>
@@ -210,6 +208,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a01480d9f2fb818c58d6ea687d9d756c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a531c1b28ef2e8d7994ab4e5591cb1426"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_virtual_mounter.html">VirtualMounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a531c1b28ef2e8d7994ab4e5591cb1426">mounter</a></td></tr>
 <tr class="separator:a531c1b28ef2e8d7994ab4e5591cb1426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeea12c8dcc9dc73262c497a8610ebb68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_asset_options.html">AssetOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#aeea12c8dcc9dc73262c497a8610ebb68">asset_options</a></td></tr>
+<tr class="separator:aeea12c8dcc9dc73262c497a8610ebb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -232,8 +232,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acb764011ed93cb2ebe45f000a0ade861" name="acb764011ed93cb2ebe45f000a0ade861"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb764011ed93cb2ebe45f000a0ade861">&#9670;&nbsp;</a></span>AssetLoader()</h2>
+<a id="a2cbaedb9ec77412eebf8836f2cb9609d" name="a2cbaedb9ec77412eebf8836f2cb9609d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cbaedb9ec77412eebf8836f2cb9609d">&#9670;&nbsp;</a></span>AssetLoader()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +241,8 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">cqsp::asset::AssetLoader::AssetLoader </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1asset_1_1_asset_options.html">AssetOptions</a>&#160;</td>
+          <td class="paramname"><em>options</em> = <code><a class="el" href="classcqsp_1_1asset_1_1_asset_options.html">AssetOptions</a>()</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1394,32 +1395,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a503615e7e0f7b3c4639279c9d72bc12b" name="a503615e7e0f7b3c4639279c9d72bc12b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a503615e7e0f7b3c4639279c9d72bc12b">&#9670;&nbsp;</a></span>MakeShader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">ShaderProgram_t</a> cqsp::asset::AssetLoader::MakeShader </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a9549cc04b06220263fb31eef2144c51a" name="a9549cc04b06220263fb31eef2144c51a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9549cc04b06220263fb31eef2144c51a">&#9670;&nbsp;</a></span>PlaceAsset()</h2>
 
@@ -1534,6 +1509,28 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aeea12c8dcc9dc73262c497a8610ebb68" name="aeea12c8dcc9dc73262c497a8610ebb68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeea12c8dcc9dc73262c497a8610ebb68">&#9670;&nbsp;</a></span>asset_options</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_asset_options.html">AssetOptions</a> cqsp::asset::AssetLoader::asset_options</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab04e2c4802adc099cbf80ccddc0372d4" name="ab04e2c4802adc099cbf80ccddc0372d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab04e2c4802adc099cbf80ccddc0372d4">&#9670;&nbsp;</a></span>currentloading</h2>
 
@@ -1605,8 +1602,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a299aba2b2f0bc9032fed9e520d469762" name="a299aba2b2f0bc9032fed9e520d469762"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a299aba2b2f0bc9032fed9e520d469762">&#9670;&nbsp;</a></span>m_asset_queue</h2>
+<a id="aeefac853cee6bd33a1ebbcdee6cfeadc" name="aeefac853cee6bd33a1ebbcdee6cfeadc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeefac853cee6bd33a1ebbcdee6cfeadc">&#9670;&nbsp;</a></span>m_asset_queue</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1615,7 +1612,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_threadsafe_queue.html">ThreadsafeQueue</a>&lt;<a class="el" href="classcqsp_1_1asset_1_1_queue_holder.html">QueueHolder</a>&gt; cqsp::asset::AssetLoader::m_asset_queue</td>
+          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_threadsafe_queue.html">engine::ThreadsafeQueue</a>&lt;<a class="el" href="classcqsp_1_1asset_1_1_queue_holder.html">QueueHolder</a>&gt; cqsp::asset::AssetLoader::m_asset_queue</td>
         </tr>
       </table>
   </td>
@@ -1712,13 +1709,13 @@ Friends</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/github/workspace/src/engine/asset/<a class="el" href="assetmanager_8h_source.html">assetmanager.h</a></li>
-<li>/github/workspace/src/engine/asset/<a class="el" href="assetmanager_8cpp.html">assetmanager.cpp</a></li>
+<li>/github/workspace/src/engine/asset/<a class="el" href="assetloader_8h_source.html">assetloader.h</a></li>
+<li>/github/workspace/src/engine/asset/<a class="el" href="assetloader_8cpp.html">assetloader.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 8 2025 02:28:03 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Jul 11 2025 16:37:29 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
