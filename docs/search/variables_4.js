@@ -23,6 +23,5 @@ var searchData=
   ['document_5fname_20',['document_name',['../classcqsp_1_1client_1_1_load_game_window.html#afebaf8340626377930e4f31eedf82bbe',1,'cqsp::client::LoadGameWindow::document_name()'],['../classcqsp_1_1client_1_1_settings_window.html#a64bd45f1bcff16947e93169522e34956',1,'cqsp::client::SettingsWindow::document_name()']]],
   ['documents_21',['documents',['../classcqsp_1_1scene_1_1_universe_scene.html#ab95b0bf06093c289fc39eb2b8d0bcb73',1,'cqsp::scene::UniverseScene']]],
   ['draw_5fcount_22',['draw_count',['../struct_gfx_1_1_compiled_geometry_data.html#a8764ad3fe27e949a22f76eaafca6b5cb',1,'Gfx::CompiledGeometryData']]],
-  ['draw_5ffps_23',['draw_fps',['../classcqsp_1_1engine_1_1_application.html#a2a28d5cafde1b8bcf75cd3970c6cd3a6',1,'cqsp::engine::Application']]],
-  ['ds_5fratio_24',['ds_ratio',['../structcqsp_1_1common_1_1components_1_1_market_information.html#aee2688ff458af9a54d80aeb85a626c90',1,'cqsp::common::components::MarketInformation']]]
+  ['draw_5ffps_23',['draw_fps',['../classcqsp_1_1engine_1_1_application.html#a2a28d5cafde1b8bcf75cd3970c6cd3a6',1,'cqsp::engine::Application']]]
 ];
