@@ -7,7 +7,7 @@ var searchData=
   ['newframe_4',['NewFrame',['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#abcf369adf862f0f7600b521a4326c6cd',1,'cqsp::engine::AAFrameBufferRenderer::NewFrame()'],['../classcqsp_1_1engine_1_1_layer_renderer.html#a336ff91d48d6005c6db0f270d04ed77a',1,'cqsp::engine::LayerRenderer::NewFrame()'],['../classcqsp_1_1engine_1_1_framebuffer_renderer.html#ac22f6564e3fb9d77e43c9f41c7b5d018',1,'cqsp::engine::FramebufferRenderer::NewFrame()'],['../classcqsp_1_1engine_1_1_i_framebuffer.html#af9c9da6231a95568dc944e2fbb5977b2',1,'cqsp::engine::IFramebuffer::NewFrame()']]],
   ['newline_5',['NewLine',['../namespacecqsp_1_1client_1_1scripting.html#a139fa46a89fae01aa98a4e0d0318358e',1,'cqsp::client::scripting']]],
   ['nextcolumn_6',['NextColumn',['../namespacecqsp_1_1client_1_1scripting.html#a562411514d834904a9031798d1bd4118',1,'cqsp::client::scripting']]],
-  ['nextimage_7',['NextImage',['../classcqsp_1_1scene_1_1_main_menu_scene.html#a8cded9596bfd3b3208acdb30f09dedc0',1,'cqsp::scene::MainMenuScene']]],
+  ['nextimage_7',['NextImage',['../classcqsp_1_1client_1_1scene_1_1_main_menu_scene.html#a79e7767bf7b710cbfb4d6f915276bf5e',1,'cqsp::client::scene::MainMenuScene']]],
   ['normalize_5fdegree_8',['normalize_degree',['../namespacecqsp_1_1common_1_1components_1_1types.html#abf780b98a84e1633f1142786ad2ef716',1,'cqsp::common::components::types']]],
   ['normalize_5fradian_9',['normalize_radian',['../namespacecqsp_1_1common_1_1components_1_1types.html#a83a12f16f00996f87c93e64e87ca38db',1,'cqsp::common::components::types']]],
   ['normalize_5fradian_5fcoord_10',['normalize_radian_coord',['../namespacecqsp_1_1common_1_1components_1_1types.html#acf11a741d2567b381ab7d8045392c150',1,'cqsp::common::components::types']]],

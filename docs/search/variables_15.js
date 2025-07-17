@@ -18,7 +18,7 @@ var searchData=
   ['vertices_15',['vertices',['../structcqsp_1_1asset_1_1_mesh_prototype.html#a4cb360525267f4f63237dd0dbdd3c5e1',1,'cqsp::asset::MeshPrototype']]],
   ['view_16',['view',['../classcqsp_1_1engine_1_1_basic_renderer.html#a88fb795663ac6183d25d5dcec2d5e61b',1,'cqsp::engine::BasicRenderer']]],
   ['view_5fcenter_17',['view_center',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a853393e8621ac6bd6708d36984106ada',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['view_5fmode_18',['view_mode',['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html#aee0eea128f9780dca930338297106478',1,'cqsp::client::systems::SysProvinceInformation::view_mode()'],['../classcqsp_1_1scene_1_1_universe_scene.html#aff2016dfd853e4fbb94b03049b628d92',1,'cqsp::scene::UniverseScene::view_mode()']]],
+  ['view_5fmode_18',['view_mode',['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html#aee0eea128f9780dca930338297106478',1,'cqsp::client::systems::SysProvinceInformation::view_mode()'],['../classcqsp_1_1client_1_1scene_1_1_universe_scene.html#ae319095e4ae5c17b2a0147aad9d67677',1,'cqsp::client::scene::UniverseScene::view_mode()']]],
   ['view_5fscale_19',['view_scale',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a9c75d85fa0203a5e63f55b7db818127e',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['view_5fx_20',['view_x',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ad32e3144e19fb016479dbaa540b6b3a3',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['view_5fy_21',['view_y',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aaa68acc350c77eb13fc1188037e878c2',1,'cqsp::client::systems::SysStarSystemRenderer']]],

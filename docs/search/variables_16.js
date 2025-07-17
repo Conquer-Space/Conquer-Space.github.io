@@ -9,8 +9,8 @@ var searchData=
   ['window_5fratio_6',['window_ratio',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a56c40afb05a2b9ab64631848d356dc70',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['window_5fsize_5fchanged_7',['window_size_changed',['../classcqsp_1_1engine_1_1_g_l_window.html#a810f0b96964c117ca3c34152f4da039d',1,'cqsp::engine::GLWindow']]],
   ['window_5fsizes_8',['window_sizes',['../classcqsp_1_1client_1_1_settings_window.html#a175d32e868a45ee935f0a023d01f0c44',1,'cqsp::client::SettingsWindow']]],
-  ['windowheight_9',['windowHeight',['../classcqsp_1_1scene_1_1_loading_scene.html#a71433a14318999c5788f8734ddb72181',1,'cqsp::scene::LoadingScene']]],
-  ['windowwidth_10',['windowWidth',['../classcqsp_1_1scene_1_1_loading_scene.html#a9456751cc99f6092a973ea33647eb7b7',1,'cqsp::scene::LoadingScene']]],
+  ['windowheight_9',['windowHeight',['../classcqsp_1_1client_1_1scene_1_1_loading_scene.html#a6aaaf97ab021bda659ca65627f5da853',1,'cqsp::client::scene::LoadingScene']]],
+  ['windowwidth_10',['windowWidth',['../classcqsp_1_1client_1_1scene_1_1_loading_scene.html#a11920f34a2247ff34ae7a636edefec4a',1,'cqsp::client::scene::LoadingScene']]],
   ['workers_11',['workers',['../structcqsp_1_1common_1_1components_1_1_recipe.html#ab4f992b356735a9ffce70474d6fd5738',1,'cqsp::common::components::Recipe']]],
   ['working_5fpopulation_12',['working_population',['../structcqsp_1_1common_1_1components_1_1_labor_information.html#ad821e499032cba72866b80c8cd3bedbf',1,'cqsp::common::components::LaborInformation']]],
   ['writemask_13',['writemask',['../struct_render_interface___g_l3_1_1_g_l_state_backup_1_1_stencil.html#a29daa7e7c1497e0693328754bd567383',1,'RenderInterface_GL3::GLStateBackup::Stencil']]]
