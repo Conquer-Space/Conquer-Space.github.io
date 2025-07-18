@@ -6,14 +6,14 @@ var searchData=
   ['names_3',['names',['../classcqsp_1_1client_1_1scene_1_1_text_test_scene.html#a17fec459f20dc97fdb9be7fba07bf8d0',1,'cqsp::client::scene::TextTestScene']]],
   ['nativedirectory_4',['NativeDirectory',['../classcqsp_1_1asset_1_1_native_file_system.html#a1e55904612261b1b31e899d4d7e38811',1,'cqsp::asset::NativeFileSystem']]],
   ['nativefilesystem_5',['NativeFileSystem',['../classcqsp_1_1asset_1_1_native_file.html#a995dcdc12c28bfbeeebc28290fe37b1d',1,'cqsp::asset::NativeFile::NativeFileSystem()'],['../classcqsp_1_1asset_1_1_native_directory.html#a4f449474e85b0df1023a37e67fc9a92f',1,'cqsp::asset::NativeDirectory::NativeFileSystem()']]],
-  ['near_5fshader_6',['near_shader',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a0ba94acb65c84740509a4ff48983774f',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['near_5fshader_6',['near_shader',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a3fa0ac0166ab9c4e7081976d2b8e4639',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['need_5fhalt_7',['need_halt',['../classcqsp_1_1client_1_1scene_1_1_loading_scene.html#a7ac8a39b47148bbc2909dd6153494aa4',1,'cqsp::client::scene::LoadingScene']]],
   ['neighbors_8',['neighbors',['../structcqsp_1_1common_1_1components_1_1_province.html#ad47f7d4ddf348431f1073bc9df6b629c',1,'cqsp::common::components::Province']]],
   ['new_5fapogee_9',['new_apogee',['../classcqsp_1_1client_1_1systems_1_1_spaceship_window.html#a5d3c313e1c488caa52e01f68a5f06ced',1,'cqsp::client::systems::SpaceshipWindow']]],
   ['new_5fhohmann_10',['new_hohmann',['../classcqsp_1_1client_1_1systems_1_1_spaceship_window.html#a1a64bdfd33e6b97d149bb285353dd76b',1,'cqsp::client::systems::SpaceshipWindow']]],
   ['new_5fperigee_11',['new_perigee',['../classcqsp_1_1client_1_1systems_1_1_spaceship_window.html#a6473e119c1a16395dfa9c52823eb9678',1,'cqsp::client::systems::SpaceshipWindow']]],
   ['nfs_12',['nfs',['../classcqsp_1_1asset_1_1_native_file.html#abf72486fd77187d42a0cacb054cec57b',1,'cqsp::asset::NativeFile::nfs()'],['../classcqsp_1_1asset_1_1_native_directory.html#a7cca36bc9d6ce9e1ec7ef4a30c1b7285',1,'cqsp::asset::NativeDirectory::nfs()']]],
-  ['normal_13',['normal',['../structcqsp_1_1asset_1_1_vertex.html#a33c1f8fb55ccafadce08728882ad38f5',1,'cqsp::asset::Vertex::normal()'],['../starsystemview_8cpp.html#a21227e7cf06769a458c48d79ff18e6fe',1,'normal():&#160;starsystemview.cpp']]],
+  ['normal_13',['normal',['../structcqsp_1_1asset_1_1_vertex.html#a33c1f8fb55ccafadce08728882ad38f5',1,'cqsp::asset::Vertex::normal()'],['../starsystemview_8cpp.html#a7fc298ed6f70a0822720769c13216978',1,'normal():&#160;starsystemview.cpp']]],
   ['normal_5fname_14',['normal_name',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_textured_terrain.html#a6e40d8522e90b4dd67fcc5232d8e7561',1,'cqsp::common::components::bodies::TexturedTerrain']]],
   ['num_5fmsaa_5fsamples_15',['NUM_MSAA_SAMPLES',['../_rml_ui___renderer___g_l3_8cpp.html#a2fcc3801dba1a1e549508b42e979616b',1,'RmlUi_Renderer_GL3.cpp']]]
 ];
