@@ -95,8 +95,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab77418e00e3083d02e7422f320af70d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a439d1931762c877d8e3163c8a8db5a66"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1util_1_1_i_random.html#a439d1931762c877d8e3163c8a8db5a66">GetRandomInt</a> (int, int)=0</td></tr>
 <tr class="separator:a439d1931762c877d8e3163c8a8db5a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0d88c814a9214f7c82b6dd45c8a055f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1util_1_1_i_random.html#aa0d88c814a9214f7c82b6dd45c8a055f">GetRandomNormal</a> (double, double)=0</td></tr>
-<tr class="separator:aa0d88c814a9214f7c82b6dd45c8a055f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1f8c450ec17aa5d832a95f18567e256"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1util_1_1_i_random.html#aa1f8c450ec17aa5d832a95f18567e256">GetRandomNormalInt</a> (double mean, double sd)=0</td></tr>
+<tr class="separator:aa1f8c450ec17aa5d832a95f18567e256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7465bc77023492762ad3844897043855"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1util_1_1_i_random.html#a7465bc77023492762ad3844897043855">GetRandomNormal</a> (double mean, double sd)=0</td></tr>
+<tr class="separator:a7465bc77023492762ad3844897043855"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -194,8 +196,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa0d88c814a9214f7c82b6dd45c8a055f" name="aa0d88c814a9214f7c82b6dd45c8a055f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0d88c814a9214f7c82b6dd45c8a055f">&#9670;&nbsp;</a></span>GetRandomNormal()</h2>
+<a id="a7465bc77023492762ad3844897043855" name="a7465bc77023492762ad3844897043855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7465bc77023492762ad3844897043855">&#9670;&nbsp;</a></span>GetRandomNormal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,16 +206,16 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int cqsp::common::util::IRandom::GetRandomNormal </td>
+          <td class="memname">virtual double cqsp::common::util::IRandom::GetRandomNormal </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>mean</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>sd</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -228,7 +230,45 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcqsp_1_1common_1_1util_1_1_std_random.html#a0b6045025c0bdcd0fed764d2a6b47a65">cqsp::common::util::StdRandom</a>.</p>
+<p>Implemented in <a class="el" href="classcqsp_1_1common_1_1util_1_1_std_random.html#a273540af811c91b7b2af844c8f2f83e6">cqsp::common::util::StdRandom</a>.</p>
+
+</div>
+</div>
+<a id="aa1f8c450ec17aa5d832a95f18567e256" name="aa1f8c450ec17aa5d832a95f18567e256"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1f8c450ec17aa5d832a95f18567e256">&#9670;&nbsp;</a></span>GetRandomNormalInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int cqsp::common::util::IRandom::GetRandomNormalInt </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mean</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classcqsp_1_1common_1_1util_1_1_std_random.html#af6b5cb151d5a890a500396f7d91c2c4f">cqsp::common::util::StdRandom</a>.</p>
 
 </div>
 </div>
@@ -261,7 +301,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 18 2025 03:54:18 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Jul 19 2025 18:00:18 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
