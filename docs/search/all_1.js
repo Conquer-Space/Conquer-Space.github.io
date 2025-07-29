@@ -82,7 +82,7 @@ var searchData=
   ['audioasset_79',['AudioAsset',['../classcqsp_1_1asset_1_1_audio_asset.html',1,'cqsp::asset']]],
   ['audioasset_2eh_80',['audioasset.h',['../audioasset_8h.html',1,'']]],
   ['audiochannel_81',['AudioChannel',['../structcqsp_1_1engine_1_1audio_1_1_audio_channel.html#ae6e19829a9ddafe2f0c2d473d1309f8f',1,'cqsp::engine::audio::AudioChannel::AudioChannel()'],['../structcqsp_1_1engine_1_1audio_1_1_audio_channel.html',1,'cqsp::engine::audio::AudioChannel']]],
-  ['audiointerface_82',['AudioInterface',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a418ed4ffe27220b2851f56eef17dbd42',1,'cqsp::engine::audio::AudioInterface::AudioInterface()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html',1,'cqsp::engine::audio::AudioInterface']]],
+  ['audiointerface_82',['AudioInterface',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a44dc0e2b853234b70f51b6e86e429175',1,'cqsp::engine::audio::AudioInterface::AudioInterface()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html',1,'cqsp::engine::audio::AudioInterface']]],
   ['audiointerface_2ecpp_83',['audiointerface.cpp',['../audiointerface_8cpp.html',1,'']]],
   ['audiointerface_2eh_84',['audiointerface.h',['../audiointerface_8h.html',1,'']]],
   ['author_85',['author',['../classcqsp_1_1asset_1_1_package_prototype.html#a17efe7f4668a30b71125273e3e473cf4',1,'cqsp::asset::PackagePrototype::author()'],['../classcqsp_1_1asset_1_1_package.html#a59703921786160ef2830a8cc2ff74639',1,'cqsp::asset::Package::author()']]],
