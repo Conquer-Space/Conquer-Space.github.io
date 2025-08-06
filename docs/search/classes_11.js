@@ -9,7 +9,7 @@ var searchData=
   ['scienceproject_6',['ScienceProject',['../structcqsp_1_1common_1_1components_1_1science_1_1_science_project.html',1,'cqsp::common::components::science']]],
   ['scientificprogress_7',['ScientificProgress',['../structcqsp_1_1common_1_1components_1_1science_1_1_scientific_progress.html',1,'cqsp::common::components::science']]],
   ['scientificresearch_8',['ScientificResearch',['../structcqsp_1_1common_1_1components_1_1science_1_1_scientific_research.html',1,'cqsp::common::components::science']]],
-  ['scriptinterface_9',['ScriptInterface',['../classcqsp_1_1scripting_1_1_script_interface.html',1,'cqsp::scripting']]],
+  ['scriptinterface_9',['ScriptInterface',['../classcqsp_1_1common_1_1scripting_1_1_script_interface.html',1,'cqsp::common::scripting']]],
   ['scriptuniversegenerator_10',['ScriptUniverseGenerator',['../classcqsp_1_1common_1_1systems_1_1universegenerator_1_1_script_universe_generator.html',1,'cqsp::common::systems::universegenerator']]],
   ['selectedcountry_11',['SelectedCountry',['../structcqsp_1_1client_1_1ctx_1_1_selected_country.html',1,'cqsp::client::ctx']]],
   ['selectedprovince_12',['SelectedProvince',['../structcqsp_1_1client_1_1ctx_1_1_selected_province.html',1,'cqsp::client::ctx']]],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['actions_0',['actions',['../namespacecqsp_1_1common_1_1actions.html',1,'cqsp::common::actions'],['../namespacecqsp_1_1common_1_1systems_1_1actions.html',1,'cqsp::common::systems::actions']]],
+  ['actions_0',['actions',['../namespacecqsp_1_1common_1_1systems_1_1actions.html',1,'cqsp::common::systems']]],
   ['asset_1',['asset',['../namespacecqsp_1_1asset.html',1,'cqsp']]],
   ['audio_2',['audio',['../namespacecqsp_1_1engine_1_1audio.html',1,'cqsp::engine']]],
   ['bodies_3',['bodies',['../namespacecqsp_1_1common_1_1components_1_1bodies.html',1,'cqsp::common::components']]],
@@ -27,7 +27,7 @@ var searchData=
   ['save_24',['save',['../namespacecqsp_1_1client_1_1save.html',1,'cqsp::client::save'],['../namespacecqsp_1_1common_1_1save.html',1,'cqsp::common::save']]],
   ['scene_25',['scene',['../namespacecqsp_1_1client_1_1scene.html',1,'cqsp::client']]],
   ['science_26',['science',['../namespacecqsp_1_1common_1_1components_1_1science.html',1,'cqsp::common::components::science'],['../namespacecqsp_1_1common_1_1systems_1_1science.html',1,'cqsp::common::systems::science']]],
-  ['scripting_27',['scripting',['../namespacecqsp_1_1client_1_1scripting.html',1,'cqsp::client::scripting'],['../namespacecqsp_1_1scripting.html',1,'cqsp::scripting']]],
+  ['scripting_27',['scripting',['../namespacecqsp_1_1client_1_1scripting.html',1,'cqsp::client::scripting'],['../namespacecqsp_1_1common_1_1scripting.html',1,'cqsp::common::scripting']]],
   ['ships_28',['ships',['../namespacecqsp_1_1common_1_1components_1_1ships.html',1,'cqsp::common::components']]],
   ['simulation_29',['simulation',['../namespacecqsp_1_1common_1_1systems_1_1simulation.html',1,'cqsp::common::systems']]],
   ['systems_30',['systems',['../namespacecqsp_1_1client_1_1systems.html',1,'cqsp::client::systems'],['../namespacecqsp_1_1common_1_1systems.html',1,'cqsp::common::systems']]],
