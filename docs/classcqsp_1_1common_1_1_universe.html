@@ -101,6 +101,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9610b0514095e18eb020149b3ae8f4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a405353ee0f31a9212182ef2d69aae789"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1_universe.html#a405353ee0f31a9212182ef2d69aae789">GetDate</a> ()</td></tr>
 <tr class="separator:a405353ee0f31a9212182ef2d69aae789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c84e505c9cadb4945b06ea96da2eda4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1_universe.html#a8c84e505c9cadb4945b06ea96da2eda4">nodeTransform</a> ()</td></tr>
+<tr class="separator:a8c84e505c9cadb4945b06ea96da2eda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade3d0cf48e751aeb5f244457cd7293f0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1_universe.html#ade3d0cf48e751aeb5f244457cd7293f0">Convert</a> (const std::vector&lt; entt::entity &gt; &amp;<a class="el" href="loadcities_8cpp.html#abaccc4ea845319cc5281ac60dbeb08f2">entities</a>)</td></tr>
+<tr class="separator:ade3d0cf48e751aeb5f244457cd7293f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf549fdf8be3b248348ed5057cfadf75"><td class="memTemplParams" colspan="2">template&lt;typename... Components&gt; </td></tr>
+<tr class="memitem:acf549fdf8be3b248348ed5057cfadf75"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1_universe.html#acf549fdf8be3b248348ed5057cfadf75">nodes</a> ()</td></tr>
+<tr class="separator:acf549fdf8be3b248348ed5057cfadf75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -143,6 +150,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab7ca832d95d6c6406eb10bb07d04195d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1_universe.html#ab7ca832d95d6c6406eb10bb07d04195d">tick_fraction</a> = 0</td></tr>
 <tr class="memdesc:ab7ca832d95d6c6406eb10bb07d04195d"><td class="mdescLeft">&#160;</td><td class="mdescRight">What is the current fraction of the wait of the tick we are processing  <a href="classcqsp_1_1common_1_1_universe.html#ab7ca832d95d6c6406eb10bb07d04195d">More...</a><br /></td></tr>
 <tr class="separator:ab7ca832d95d6c6406eb10bb07d04195d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92cd6d0ce046e9eef77f0072de2fc0e2"><td class="memItemLeft" align="right" valign="top">std::function&lt; <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a>(entt::entity)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1_universe.html#a92cd6d0ce046e9eef77f0072de2fc0e2">nodeFactory</a></td></tr>
+<tr class="separator:a92cd6d0ce046e9eef77f0072de2fc0e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -194,6 +203,24 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ade3d0cf48e751aeb5f244457cd7293f0" name="ade3d0cf48e751aeb5f244457cd7293f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade3d0cf48e751aeb5f244457cd7293f0">&#9670;&nbsp;</a></span>Convert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &gt; cqsp::common::Universe::Convert </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; entt::entity &gt; &amp;&#160;</td>
+          <td class="paramname"><em>entities</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0dfb7f0e1054488230eb7d2dcd7c6cbd" name="a0dfb7f0e1054488230eb7d2dcd7c6cbd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0dfb7f0e1054488230eb7d2dcd7c6cbd">&#9670;&nbsp;</a></span>DisableTick()</h2>
 
@@ -255,6 +282,58 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int cqsp::common::Universe::GetDate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf549fdf8be3b248348ed5057cfadf75" name="acf549fdf8be3b248348ed5057cfadf75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf549fdf8be3b248348ed5057cfadf75">&#9670;&nbsp;</a></span>nodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Components&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto cqsp::common::Universe::nodes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c84e505c9cadb4945b06ea96da2eda4" name="a8c84e505c9cadb4945b06ea96da2eda4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c84e505c9cadb4945b06ea96da2eda4">&#9670;&nbsp;</a></span>nodeTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto cqsp::common::Universe::nodeTransform </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -426,6 +505,20 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">std::map&lt;std::string, <a class="el" href="classcqsp_1_1common_1_1systems_1_1names_1_1_name_generator.html">systems::names::NameGenerator</a>&gt; cqsp::common::Universe::name_generators</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92cd6d0ce046e9eef77f0072de2fc0e2" name="a92cd6d0ce046e9eef77f0072de2fc0e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92cd6d0ce046e9eef77f0072de2fc0e2">&#9670;&nbsp;</a></span>nodeFactory</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a>(entt::entity)&gt; cqsp::common::Universe::nodeFactory</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -617,7 +710,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 6 2025 06:42:09 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Aug 22 2025 16:05:16 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

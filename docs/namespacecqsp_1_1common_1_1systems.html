@@ -149,9 +149,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a8687974583dad19263832660c0b523b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#a8687974583dad19263832660c0b523b7">SellGood</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1_auction_house.html">components::AuctionHouse</a> &amp;auction_house, entt::entity agent, entt::entity good, double price, double quantity)</td></tr>
 <tr class="memdesc:a8687974583dad19263832660c0b523b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sells a good to the market  <a href="namespacecqsp_1_1common_1_1systems.html#a8687974583dad19263832660c0b523b7">More...</a><br /></td></tr>
 <tr class="separator:a8687974583dad19263832660c0b523b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcc2ce1e3b944edd3fee2ed8789305b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#adcc2ce1e3b944edd3fee2ed8789305b1">ProcessIndustries</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity entity)</td></tr>
-<tr class="memdesc:adcc2ce1e3b944edd3fee2ed8789305b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the production cycle Consumes material from the market based on supply and then sells the manufactured goods on the market.  <a href="namespacecqsp_1_1common_1_1systems.html#adcc2ce1e3b944edd3fee2ed8789305b1">More...</a><br /></td></tr>
-<tr class="separator:adcc2ce1e3b944edd3fee2ed8789305b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2374e6259235a49d44a8f4983c3dcdeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#a2374e6259235a49d44a8f4983c3dcdeb">ProcessIndustries</a> (<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;node)</td></tr>
+<tr class="memdesc:a2374e6259235a49d44a8f4983c3dcdeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the production cycle Consumes material from the market based on supply and then sells the manufactured goods on the market.  <a href="namespacecqsp_1_1common_1_1systems.html#a2374e6259235a49d44a8f4983c3dcdeb">More...</a><br /></td></tr>
+<tr class="separator:a2374e6259235a49d44a8f4983c3dcdeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad46e68ec9a1570029cc24dd9a1081dc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1common_1_1components.html#ad6e9c65e6b09f4ef56e35a247d5a87ff">components::HohmannPair_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#ad46e68ec9a1570029cc24dd9a1081dc1">UnsafeHohmannTransfer</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orbit, double altitude)</td></tr>
 <tr class="separator:ad46e68ec9a1570029cc24dd9a1081dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadf7a1d38e9abdcda34ad4d8c81634b2"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespacecqsp_1_1common_1_1components.html#ad6e9c65e6b09f4ef56e35a247d5a87ff">components::HohmannPair_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html#aadf7a1d38e9abdcda34ad4d8c81634b2">HohmannTransfer</a> (const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &amp;orbit, double altitude)</td></tr>
@@ -388,8 +388,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adcc2ce1e3b944edd3fee2ed8789305b1" name="adcc2ce1e3b944edd3fee2ed8789305b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcc2ce1e3b944edd3fee2ed8789305b1">&#9670;&nbsp;</a></span>ProcessIndustries()</h2>
+<a id="a2374e6259235a49d44a8f4983c3dcdeb" name="a2374e6259235a49d44a8f4983c3dcdeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2374e6259235a49d44a8f4983c3dcdeb">&#9670;&nbsp;</a></span>ProcessIndustries()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -397,19 +397,9 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void cqsp::common::systems::ProcessIndustries </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
-          <td class="paramname"><em>entity</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -627,7 +617,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 6 2025 06:42:09 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Aug 22 2025 16:05:17 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
