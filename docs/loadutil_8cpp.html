@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/systems/loading/loadutil.cpp File Reference</title>
+<title>Conquer Space: /github/workspace/src/common/loading/loadutil.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_ed16aa4d92549c1d71767d16186572e4.html">systems</a></li><li class="navelem"><a class="el" href="dir_26e4b7b7abf737d39ae914e1b55b26e2.html">loading</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_42207e80102a6555a76f2fa09c11e3e0.html">loading</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -74,7 +74,7 @@ $(function() {
   <div class="headertitle"><div class="title">loadutil.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="loadutil_8h_source.html">common/systems/loading/loadutil.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="loadutil_8h_source.html">common/loading/loadutil.h</a>&quot;</code><br />
 <code>#include &lt;spdlog/spdlog.h&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
@@ -86,37 +86,35 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacecqsp_1_1common"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common.html">cqsp::common</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common_1_1systems"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html">cqsp::common::systems</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common_1_1systems_1_1loading"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html">cqsp::common::systems::loading</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1common_1_1loading"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html">cqsp::common::loading</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a23b31f31054a468d7dbb24b8c5a08e54"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a23b31f31054a468d7dbb24b8c5a08e54">cqsp::common::systems::loading::LoadName</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;value)</td></tr>
-<tr class="memdesc:a23b31f31054a468d7dbb24b8c5a08e54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if name exists  <a href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a23b31f31054a468d7dbb24b8c5a08e54">More...</a><br /></td></tr>
-<tr class="separator:a23b31f31054a468d7dbb24b8c5a08e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a614b4e66cf7a2737b25bbcaa303a0c28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a614b4e66cf7a2737b25bbcaa303a0c28">cqsp::common::systems::loading::LoadIdentifier</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;value)</td></tr>
-<tr class="separator:a614b4e66cf7a2737b25bbcaa303a0c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b5922d169e18a360acda3adb42e8dce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a6b5922d169e18a360acda3adb42e8dce">cqsp::common::systems::loading::LoadDescription</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;value)</td></tr>
-<tr class="separator:a6b5922d169e18a360acda3adb42e8dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4f156a52873de69629c2fb1d408eb80"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#ad4f156a52873de69629c2fb1d408eb80">cqsp::common::systems::loading::LoadInitialValues</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;value)</td></tr>
-<tr class="memdesc:ad4f156a52873de69629c2fb1d408eb80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the values that should be on every single data type Returns true if an identifier exists  <a href="namespacecqsp_1_1common_1_1systems_1_1loading.html#ad4f156a52873de69629c2fb1d408eb80">More...</a><br /></td></tr>
-<tr class="separator:ad4f156a52873de69629c2fb1d408eb80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a12a53b4434972547a979961cd569ee"><td class="memItemLeft" align="right" valign="top">components::ResourceLedger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a9a12a53b4434972547a979961cd569ee">cqsp::common::systems::loading::HjsonToLedger</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;hjson)</td></tr>
-<tr class="separator:a9a12a53b4434972547a979961cd569ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3d826ff4e3a9044e62cf0cd39f11d7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#ac3d826ff4e3a9044e62cf0cd39f11d7d">cqsp::common::systems::loading::VerifyHjsonValueExists</a> (const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;value, const std::string &amp;name, Hjson::Type type)</td></tr>
-<tr class="separator:ac3d826ff4e3a9044e62cf0cd39f11d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7d137d50bba5064b6dd9be548a6c681"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#aa7d137d50bba5064b6dd9be548a6c681">cqsp::common::systems::loading::VerifyInitialValues</a> (const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;value, const std::map&lt; std::string, Hjson::Type &gt; &amp;map)</td></tr>
-<tr class="memdesc:aa7d137d50bba5064b6dd9be548a6c681"><td class="mdescLeft">&#160;</td><td class="mdescRight">For the values that <em>need</em> to exist  <a href="namespacecqsp_1_1common_1_1systems_1_1loading.html#aa7d137d50bba5064b6dd9be548a6c681">More...</a><br /></td></tr>
-<tr class="separator:aa7d137d50bba5064b6dd9be548a6c681"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac87e2434985728f2c75066ad0c68154"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#aac87e2434985728f2c75066ad0c68154">cqsp::common::systems::loading::ReadUnit</a> (std::string_view value, UnitType unit_type, bool *correct)</td></tr>
-<tr class="separator:aac87e2434985728f2c75066ad0c68154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0859f99d56e4fe5d23f2e15199d772"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#aea0859f99d56e4fe5d23f2e15199d772">cqsp::common::loading::LoadName</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;value)</td></tr>
+<tr class="memdesc:aea0859f99d56e4fe5d23f2e15199d772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if name exists  <a href="namespacecqsp_1_1common_1_1loading.html#aea0859f99d56e4fe5d23f2e15199d772">More...</a><br /></td></tr>
+<tr class="separator:aea0859f99d56e4fe5d23f2e15199d772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3c5285e52beed793aeb96eb7457f257"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#aa3c5285e52beed793aeb96eb7457f257">cqsp::common::loading::LoadIdentifier</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;value)</td></tr>
+<tr class="separator:aa3c5285e52beed793aeb96eb7457f257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2e37f6935fdb15f646c2e0ae77019b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#aa2e37f6935fdb15f646c2e0ae77019b5">cqsp::common::loading::LoadDescription</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;value)</td></tr>
+<tr class="separator:aa2e37f6935fdb15f646c2e0ae77019b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae03296f0a1ed06e9443a54611986fd81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#ae03296f0a1ed06e9443a54611986fd81">cqsp::common::loading::LoadInitialValues</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;value)</td></tr>
+<tr class="memdesc:ae03296f0a1ed06e9443a54611986fd81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the values that should be on every single data type Returns true if an identifier exists  <a href="namespacecqsp_1_1common_1_1loading.html#ae03296f0a1ed06e9443a54611986fd81">More...</a><br /></td></tr>
+<tr class="separator:ae03296f0a1ed06e9443a54611986fd81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0dcaa9b4e88446474579b8ac321709"><td class="memItemLeft" align="right" valign="top">components::ResourceLedger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#aea0dcaa9b4e88446474579b8ac321709">cqsp::common::loading::HjsonToLedger</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;hjson)</td></tr>
+<tr class="separator:aea0dcaa9b4e88446474579b8ac321709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae46773c7b08d6db9c87a38f5cb763bf4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#ae46773c7b08d6db9c87a38f5cb763bf4">cqsp::common::loading::VerifyHjsonValueExists</a> (const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;value, const std::string &amp;name, Hjson::Type type)</td></tr>
+<tr class="separator:ae46773c7b08d6db9c87a38f5cb763bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0c918393be7440c5625643f182a87eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#aa0c918393be7440c5625643f182a87eb">cqsp::common::loading::VerifyInitialValues</a> (const <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;value, const std::map&lt; std::string, Hjson::Type &gt; &amp;map)</td></tr>
+<tr class="memdesc:aa0c918393be7440c5625643f182a87eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">For the values that <em>need</em> to exist  <a href="namespacecqsp_1_1common_1_1loading.html#aa0c918393be7440c5625643f182a87eb">More...</a><br /></td></tr>
+<tr class="separator:aa0c918393be7440c5625643f182a87eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac57577a9bb518e0238ce9273a1d7d844"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#ac57577a9bb518e0238ce9273a1d7d844">cqsp::common::loading::ReadUnit</a> (std::string_view value, UnitType unit_type, bool *correct)</td></tr>
+<tr class="separator:ac57577a9bb518e0238ce9273a1d7d844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 22 2025 16:05:16 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Aug 30 2025 06:22:49 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

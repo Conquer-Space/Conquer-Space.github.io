@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/systems/actions/shiplaunchaction.cpp File Reference</title>
+<title>Conquer Space: /github/workspace/src/common/actions/shiplaunchaction.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_ed16aa4d92549c1d71767d16186572e4.html">systems</a></li><li class="navelem"><a class="el" href="dir_2cd239d5e8bbeb2c30da99aa331f7c54.html">actions</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_53739f8383ee811a514a5725a11b20ee.html">actions</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -74,7 +74,7 @@ $(function() {
   <div class="headertitle"><div class="title">shiplaunchaction.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="shiplaunchaction_8h_source.html">common/systems/actions/shiplaunchaction.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="shiplaunchaction_8h_source.html">common/actions/shiplaunchaction.h</a>&quot;</code><br />
 <code>#include &lt;fmt/format.h&gt;</code><br />
 <code>#include &lt;spdlog/spdlog.h&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
@@ -91,29 +91,27 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacecqsp_1_1common"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common.html">cqsp::common</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common_1_1systems"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html">cqsp::common::systems</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common_1_1systems_1_1actions"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1actions.html">cqsp::common::systems::actions</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1common_1_1actions"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html">cqsp::common::actions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2b03f354553be21229402b55297b584c"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1actions.html#a2b03f354553be21229402b55297b584c">cqsp::common::systems::actions::CreateShip</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity civEnt, const glm::vec3 &amp;orbit, entt::entity starsystem)</td></tr>
-<tr class="separator:a2b03f354553be21229402b55297b584c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60640d023ad0db79202be51e204eb210"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1actions.html#a60640d023ad0db79202be51e204eb210">cqsp::common::systems::actions::CreateShip</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity civ, entt::entity orbit, entt::entity starsystem)</td></tr>
-<tr class="separator:a60640d023ad0db79202be51e204eb210"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e59dde35aaab731e8c31ae9e175e26a"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1actions.html#a4e59dde35aaab731e8c31ae9e175e26a">cqsp::common::systems::actions::CreateShip</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity fleetEnt, entt::entity starsystemEnt, const glm::vec3 &amp;orbit, const std::string &amp;shipName)</td></tr>
-<tr class="memdesc:a4e59dde35aaab731e8c31ae9e175e26a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a ship with a name and assigns it to a fleet and solar system  <a href="namespacecqsp_1_1common_1_1systems_1_1actions.html#a4e59dde35aaab731e8c31ae9e175e26a">More...</a><br /></td></tr>
-<tr class="separator:a4e59dde35aaab731e8c31ae9e175e26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7ae37b3c00a4ca7a1efc845c53a52c4"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1actions.html#ae7ae37b3c00a4ca7a1efc845c53a52c4">cqsp::common::systems::actions::CreateShip</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity fleetEnt, entt::entity starsystemEnt, entt::entity orbitEnt, const std::string &amp;shipName)</td></tr>
-<tr class="separator:ae7ae37b3c00a4ca7a1efc845c53a52c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5953b0c7ae92d90387ad2fb524180080"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1actions.html#a5953b0c7ae92d90387ad2fb524180080">cqsp::common::systems::actions::LaunchShip</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, components::types::Orbit &amp;orbit)</td></tr>
-<tr class="separator:a5953b0c7ae92d90387ad2fb524180080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c1f836ab0b17faf59332eecf1536ab"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a26c1f836ab0b17faf59332eecf1536ab">cqsp::common::actions::CreateShip</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity civEnt, const glm::vec3 &amp;orbit, entt::entity starsystem)</td></tr>
+<tr class="separator:a26c1f836ab0b17faf59332eecf1536ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad608c5b30b8263c77cba301f98b951b"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#aad608c5b30b8263c77cba301f98b951b">cqsp::common::actions::CreateShip</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity civ, entt::entity orbit, entt::entity starsystem)</td></tr>
+<tr class="separator:aad608c5b30b8263c77cba301f98b951b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9474afd9f15350581758d5f8b6cdea0a"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a9474afd9f15350581758d5f8b6cdea0a">cqsp::common::actions::CreateShip</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity fleetEnt, entt::entity starsystemEnt, const glm::vec3 &amp;orbit, const std::string &amp;shipName)</td></tr>
+<tr class="memdesc:a9474afd9f15350581758d5f8b6cdea0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a ship with a name and assigns it to a fleet and solar system  <a href="namespacecqsp_1_1common_1_1actions.html#a9474afd9f15350581758d5f8b6cdea0a">More...</a><br /></td></tr>
+<tr class="separator:a9474afd9f15350581758d5f8b6cdea0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fa09e8f6a8b6528e262ba17a1e90f61"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a5fa09e8f6a8b6528e262ba17a1e90f61">cqsp::common::actions::CreateShip</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity fleetEnt, entt::entity starsystemEnt, entt::entity orbitEnt, const std::string &amp;shipName)</td></tr>
+<tr class="separator:a5fa09e8f6a8b6528e262ba17a1e90f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f3e01233bdeaf37c10dc13503a95a4"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a40f3e01233bdeaf37c10dc13503a95a4">cqsp::common::actions::LaunchShip</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, components::types::Orbit &amp;orbit)</td></tr>
+<tr class="separator:a40f3e01233bdeaf37c10dc13503a95a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 22 2025 16:05:16 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Aug 30 2025 06:22:49 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

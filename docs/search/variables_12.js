@@ -81,7 +81,7 @@ var searchData=
   ['supply_78',['supply',['../classcqsp_1_1common_1_1components_1_1_market_history.html#aec42dc75fcd25dc5db3f43ccf1915b52',1,'cqsp::common::components::MarketHistory::supply()'],['../structcqsp_1_1common_1_1components_1_1_market_element_information.html#ac44a0a62c20e5ed41be0fb33179a4abc',1,'cqsp::common::components::MarketElementInformation::supply()']]],
   ['supply_5fdifference_79',['supply_difference',['../structcqsp_1_1common_1_1components_1_1_market_information.html#a6eec1aeaf611c0cc303e1b4c5926f0a4',1,'cqsp::common::components::MarketInformation']]],
   ['switch_5ftime_80',['switch_time',['../classcqsp_1_1client_1_1scene_1_1_main_menu_scene.html#aa7cb2681ee0619f419c6cf849472c4e6',1,'cqsp::client::scene::MainMenuScene']]],
-  ['syllables_5flist_81',['syllables_list',['../classcqsp_1_1common_1_1systems_1_1names_1_1_name_generator.html#aa6d9cdad3a47d36a8df4d8f806a5dde2',1,'cqsp::common::systems::names::NameGenerator']]],
+  ['syllables_5flist_81',['syllables_list',['../classcqsp_1_1common_1_1actions_1_1_name_generator.html#a5c073955dadf2c3df00b5af51aec9e3d',1,'cqsp::common::actions::NameGenerator']]],
   ['system_5flist_82',['system_list',['../classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html#a60b29334848e4a1d52d9e1a1569f978e',1,'cqsp::common::systems::simulation::Simulation']]],
   ['system_5frenderer_83',['system_renderer',['../classcqsp_1_1client_1_1scene_1_1_universe_scene.html#afd61a767c949a34cd59a2321b0e9157e',1,'cqsp::client::scene::UniverseScene']]]
 ];

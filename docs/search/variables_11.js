@@ -4,7 +4,7 @@ var searchData=
   ['r1_1',['r1',['../classcqsp_1_1common_1_1systems_1_1lambert_1_1_izzo.html#af66971c7b3ad1802677500a49bb45c78',1,'cqsp::common::systems::lambert::Izzo']]],
   ['r2_2',['r2',['../classcqsp_1_1common_1_1systems_1_1lambert_1_1_izzo.html#ac89d744ea53ab0da73abda04917b7bbd',1,'cqsp::common::systems::lambert::Izzo']]],
   ['radius_3',['radius',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#a7dfb6ff5730e3c30a85bc45f2dd08877',1,'cqsp::common::components::bodies::Body']]],
-  ['random_4',['random',['../classcqsp_1_1common_1_1systems_1_1names_1_1_name_generator.html#a3046d1f186808b8611dca2e9700596dc',1,'cqsp::common::systems::names::NameGenerator::random()'],['../classcqsp_1_1common_1_1_universe.html#a1ab4817dd90849ed8ef71c88948be54e',1,'cqsp::common::Universe::random()']]],
+  ['random_4',['random',['../classcqsp_1_1common_1_1actions_1_1_name_generator.html#adca9d2b68ae3c07431bc72a57566b20a',1,'cqsp::common::actions::NameGenerator::random()'],['../classcqsp_1_1common_1_1_universe.html#a1ab4817dd90849ed8ef71c88948be54e',1,'cqsp::common::Universe::random()']]],
   ['random_5fgen_5',['random_gen',['../classcqsp_1_1common_1_1util_1_1_std_random.html#a1280c75315271831b61150230c6cb4ae',1,'cqsp::common::util::StdRandom']]],
   ['recipe_6',['recipe',['../structcqsp_1_1common_1_1components_1_1_production.html#a8e2ad0ceecef8ca708a7b40bf92fdd78',1,'cqsp::common::components::Production::recipe()'],['../structcqsp_1_1common_1_1components_1_1_resource_converter.html#adc0dcc7daba91b81b45cb1da434bfd53',1,'cqsp::common::components::ResourceConverter::recipe()']]],
   ['recipes_7',['recipes',['../classcqsp_1_1common_1_1_universe.html#a35c673ea24884b63b4679ebfa8ece984',1,'cqsp::common::Universe']]],
@@ -28,5 +28,5 @@ var searchData=
   ['rotation_5foffset_25',['rotation_offset',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#a0b0d1dadfe68793d045ea25620aac847',1,'cqsp::common::components::bodies::Body']]],
   ['roughness_26',['roughness',['../starsystemview_8cpp.html#a7078d5307a2078be97266375173dd002',1,'starsystemview.cpp']]],
   ['roughness_5fname_27',['roughness_name',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_textured_terrain.html#a763be6eb798a1f810ace15b548b47038',1,'cqsp::common::components::bodies::TexturedTerrain']]],
-  ['rule_5flist_28',['rule_list',['../classcqsp_1_1common_1_1systems_1_1names_1_1_name_generator.html#a325bcfbf5c8d60b37c38a0a45a303b8e',1,'cqsp::common::systems::names::NameGenerator']]]
+  ['rule_5flist_28',['rule_list',['../classcqsp_1_1common_1_1actions_1_1_name_generator.html#a95a693a0ee1006f9b072c7e6319da4d6',1,'cqsp::common::actions::NameGenerator']]]
 ];

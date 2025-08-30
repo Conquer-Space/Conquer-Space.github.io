@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['satelliteloader_0',['SatelliteLoader',['../classcqsp_1_1common_1_1systems_1_1loading_1_1_satellite_loader.html',1,'cqsp::common::systems::loading']]],
+  ['satelliteloader_0',['SatelliteLoader',['../classcqsp_1_1common_1_1loading_1_1_satellite_loader.html',1,'cqsp::common::loading']]],
   ['save_1',['Save',['../classcqsp_1_1common_1_1save_1_1_save.html',1,'cqsp::common::save']]],
   ['savegame_2',['SaveGame',['../structcqsp_1_1client_1_1_load_game_window_1_1_save_game.html',1,'cqsp::client::LoadGameWindow']]],
   ['scene_3',['Scene',['../classcqsp_1_1engine_1_1_scene.html',1,'cqsp::engine']]],

@@ -193,6 +193,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_name.html">Name</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_orbit_entity_target.html">OrbitEntityTarget</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_orbit_scalar.html">OrbitScalar</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_orbit_target.html">OrbitTarget</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_order.html">Order</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_organization.html">Organization</a></td></tr>
@@ -284,6 +290,28 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacecqsp_1_1common_1_1components.html#a6acd31bf6a2961468c083295d28c77a8aca949aedf330ded19a97806281d2c278">service</a>
  }</td></tr>
 <tr class="separator:a6acd31bf6a2961468c083295d28c77a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d0a80656311a5830aadd1269bf6a25"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components.html#aa6d0a80656311a5830aadd1269bf6a25">Command</a> { <br />
+&#160;&#160;<a class="el" href="namespacecqsp_1_1common_1_1components.html#aa6d0a80656311a5830aadd1269bf6a25a453d28c70b71787e92cc825f5278333c">CircularizeAtApoapsis</a>
+, <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa6d0a80656311a5830aadd1269bf6a25a4cf83239f3451dca22d77228b752e021">CircularizeAtPeriapsis</a>
+, <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa6d0a80656311a5830aadd1269bf6a25ac57d43e17fa1a1046f11b3ee31253ccf">SetApoapsis</a>
+, <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa6d0a80656311a5830aadd1269bf6a25abc28f9032f405c12bf1031d9804b1bcf">SetPeriapsis</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacecqsp_1_1common_1_1components.html#aa6d0a80656311a5830aadd1269bf6a25a18575e2e325156313d72cc3cf5a6d169">SetInclination</a>
+, <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa6d0a80656311a5830aadd1269bf6a25a44f5c13f78f3019b33fe79503890150c">MatchPlanes</a>
+, <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa6d0a80656311a5830aadd1269bf6a25abe3b21069b0a0b298d3e748d6bb2219c">CoplanarIntercept</a>
+, <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa6d0a80656311a5830aadd1269bf6a25afa37f875516a572e7b7d2a65c319f4ac">CoplanarInterceptAndTransfer</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacecqsp_1_1common_1_1components.html#aa6d0a80656311a5830aadd1269bf6a25a6b0a227bd9315bcde12dbcf6c217a9d7">Impulse</a>
+, <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa6d0a80656311a5830aadd1269bf6a25a10c39fd270b9723ef6cee36ef531201c">LandOnBody</a>
+<br />
+ }</td></tr>
+<tr class="separator:aa6d0a80656311a5830aadd1269bf6a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e937bfab166ccd71718eb9a7e762b7"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components.html#aa0e937bfab166ccd71718eb9a7e762b7">Trigger</a> { <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa0e937bfab166ccd71718eb9a7e762b7adfd38b6afd6f85bac7381e5267c7e251">OnEnterSOI</a>
+, <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa0e937bfab166ccd71718eb9a7e762b7aa12b3c64e2c136ceb15a31b38ad31fff">OnExitSOI</a>
+, <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa0e937bfab166ccd71718eb9a7e762b7a0eb3b6e737187ecdfc9b803680e7aba6">OnManeuver</a>
+, <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa0e937bfab166ccd71718eb9a7e762b7ab90d8d12213e2f63f5fe260cd791d34a">OnCrash</a>
+ }</td></tr>
+<tr class="separator:aa0e937bfab166ccd71718eb9a7e762b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -371,6 +399,40 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="aa6d0a80656311a5830aadd1269bf6a25" name="aa6d0a80656311a5830aadd1269bf6a25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6d0a80656311a5830aadd1269bf6a25">&#9670;&nbsp;</a></span>Command</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa6d0a80656311a5830aadd1269bf6a25">cqsp::common::components::Command</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa6d0a80656311a5830aadd1269bf6a25a453d28c70b71787e92cc825f5278333c" name="aa6d0a80656311a5830aadd1269bf6a25a453d28c70b71787e92cc825f5278333c"></a>CircularizeAtApoapsis&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6d0a80656311a5830aadd1269bf6a25a4cf83239f3451dca22d77228b752e021" name="aa6d0a80656311a5830aadd1269bf6a25a4cf83239f3451dca22d77228b752e021"></a>CircularizeAtPeriapsis&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6d0a80656311a5830aadd1269bf6a25ac57d43e17fa1a1046f11b3ee31253ccf" name="aa6d0a80656311a5830aadd1269bf6a25ac57d43e17fa1a1046f11b3ee31253ccf"></a>SetApoapsis&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6d0a80656311a5830aadd1269bf6a25abc28f9032f405c12bf1031d9804b1bcf" name="aa6d0a80656311a5830aadd1269bf6a25abc28f9032f405c12bf1031d9804b1bcf"></a>SetPeriapsis&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6d0a80656311a5830aadd1269bf6a25a18575e2e325156313d72cc3cf5a6d169" name="aa6d0a80656311a5830aadd1269bf6a25a18575e2e325156313d72cc3cf5a6d169"></a>SetInclination&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6d0a80656311a5830aadd1269bf6a25a44f5c13f78f3019b33fe79503890150c" name="aa6d0a80656311a5830aadd1269bf6a25a44f5c13f78f3019b33fe79503890150c"></a>MatchPlanes&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6d0a80656311a5830aadd1269bf6a25abe3b21069b0a0b298d3e748d6bb2219c" name="aa6d0a80656311a5830aadd1269bf6a25abe3b21069b0a0b298d3e748d6bb2219c"></a>CoplanarIntercept&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6d0a80656311a5830aadd1269bf6a25afa37f875516a572e7b7d2a65c319f4ac" name="aa6d0a80656311a5830aadd1269bf6a25afa37f875516a572e7b7d2a65c319f4ac"></a>CoplanarInterceptAndTransfer&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6d0a80656311a5830aadd1269bf6a25a6b0a227bd9315bcde12dbcf6c217a9d7" name="aa6d0a80656311a5830aadd1269bf6a25a6b0a227bd9315bcde12dbcf6c217a9d7"></a>Impulse&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6d0a80656311a5830aadd1269bf6a25a10c39fd270b9723ef6cee36ef531201c" name="aa6d0a80656311a5830aadd1269bf6a25a10c39fd270b9723ef6cee36ef531201c"></a>LandOnBody&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a6acd31bf6a2961468c083295d28c77a8" name="a6acd31bf6a2961468c083295d28c77a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6acd31bf6a2961468c083295d28c77a8">&#9670;&nbsp;</a></span>ProductionType</h2>
 
@@ -386,6 +448,34 @@ Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6acd31bf6a2961468c083295d28c77a8a96dfc6b4d2f0c5a9f54b9169906a1ad8" name="a6acd31bf6a2961468c083295d28c77a8a96dfc6b4d2f0c5a9f54b9169906a1ad8"></a>factory&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6acd31bf6a2961468c083295d28c77a8a13a396f8ca0ea2485ea8a3f6e6207932" name="a6acd31bf6a2961468c083295d28c77a8a13a396f8ca0ea2485ea8a3f6e6207932"></a>mine&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6acd31bf6a2961468c083295d28c77a8aca949aedf330ded19a97806281d2c278" name="a6acd31bf6a2961468c083295d28c77a8aca949aedf330ded19a97806281d2c278"></a>service&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="aa0e937bfab166ccd71718eb9a7e762b7" name="aa0e937bfab166ccd71718eb9a7e762b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0e937bfab166ccd71718eb9a7e762b7">&#9670;&nbsp;</a></span>Trigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="namespacecqsp_1_1common_1_1components.html#aa0e937bfab166ccd71718eb9a7e762b7">cqsp::common::components::Trigger</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa0e937bfab166ccd71718eb9a7e762b7adfd38b6afd6f85bac7381e5267c7e251" name="aa0e937bfab166ccd71718eb9a7e762b7adfd38b6afd6f85bac7381e5267c7e251"></a>OnEnterSOI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa0e937bfab166ccd71718eb9a7e762b7aa12b3c64e2c136ceb15a31b38ad31fff" name="aa0e937bfab166ccd71718eb9a7e762b7aa12b3c64e2c136ceb15a31b38ad31fff"></a>OnExitSOI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa0e937bfab166ccd71718eb9a7e762b7a0eb3b6e737187ecdfc9b803680e7aba6" name="aa0e937bfab166ccd71718eb9a7e762b7a0eb3b6e737187ecdfc9b803680e7aba6"></a>OnManeuver&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa0e937bfab166ccd71718eb9a7e762b7ab90d8d12213e2f63f5fe260cd791d34a" name="aa0e937bfab166ccd71718eb9a7e762b7ab90d8d12213e2f63f5fe260cd791d34a"></a>OnCrash&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -496,7 +586,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 22 2025 16:05:16 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Aug 30 2025 06:22:49 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
