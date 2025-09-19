@@ -70,10 +70,11 @@ var searchData=
   ['orders_2eh_67',['orders.h',['../orders_8h.html',1,'']]],
   ['organization_68',['Organization',['../structcqsp_1_1common_1_1components_1_1_organization.html',1,'cqsp::common::components']]],
   ['organizations_2eh_69',['organizations.h',['../organizations_8h.html',1,'']]],
-  ['output_70',['output',['../structcqsp_1_1common_1_1components_1_1_recipe.html#a1c6a97fe2ccb92718b2976ef7e3bedfa',1,'cqsp::common::components::Recipe::output()'],['../structcqsp_1_1common_1_1components_1_1_resource_i_o.html#ac730898c7ed7db1a0a762c4183516c92',1,'cqsp::common::components::ResourceIO::output()']]],
-  ['owned_71',['Owned',['../structcqsp_1_1common_1_1components_1_1_owned.html',1,'cqsp::common::components']]],
-  ['owner_72',['owner',['../structcqsp_1_1common_1_1components_1_1_owned.html#ac17c20e72be125275824ff3da94edc72',1,'cqsp::common::components::Owned::owner()'],['../structcqsp_1_1common_1_1components_1_1ships_1_1_fleet.html#a41e4787dbbc437046282b594f99dfd57',1,'cqsp::common::components::ships::Fleet::owner()']]],
-  ['owns_5fdepth_5fstencil_5fbuffer_73',['owns_depth_stencil_buffer',['../struct_gfx_1_1_framebuffer_data.html#a888df663964e0c7b13583679ff4e0902',1,'Gfx::FramebufferData']]],
-  ['string_74',['string',['../classcqsp_1_1asset_1_1_pathed_text_asset.html#a21d1bfcc15eadccd138817625b9718f5',1,'cqsp::asset::PathedTextAsset']]],
-  ['string_20_26_75',['string &amp;',['../structcqsp_1_1common_1_1components_1_1_name.html#a976df68b0dd77441a7cd4269537788bb',1,'cqsp::common::components::Name::string &amp;()'],['../structcqsp_1_1common_1_1components_1_1_identifier.html#ab9dbc871bb3ba8c56af89fdc778e5c5b',1,'cqsp::common::components::Identifier::string &amp;()']]]
+  ['output_70',['output',['../structcqsp_1_1common_1_1components_1_1_recipe.html#a1c6a97fe2ccb92718b2976ef7e3bedfa',1,'cqsp::common::components::Recipe']]],
+  ['outputrecipetable_71',['OutputRecipeTable',['../classcqsp_1_1client_1_1systems_1_1_sys_good_viewer.html#a4e5063e5af9a6a8b0fc8bbd3e155036e',1,'cqsp::client::systems::SysGoodViewer']]],
+  ['owned_72',['Owned',['../structcqsp_1_1common_1_1components_1_1_owned.html',1,'cqsp::common::components']]],
+  ['owner_73',['owner',['../structcqsp_1_1common_1_1components_1_1_owned.html#ac17c20e72be125275824ff3da94edc72',1,'cqsp::common::components::Owned::owner()'],['../structcqsp_1_1common_1_1components_1_1ships_1_1_fleet.html#a41e4787dbbc437046282b594f99dfd57',1,'cqsp::common::components::ships::Fleet::owner()']]],
+  ['owns_5fdepth_5fstencil_5fbuffer_74',['owns_depth_stencil_buffer',['../struct_gfx_1_1_framebuffer_data.html#a888df663964e0c7b13583679ff4e0902',1,'Gfx::FramebufferData']]],
+  ['string_75',['string',['../classcqsp_1_1asset_1_1_pathed_text_asset.html#a21d1bfcc15eadccd138817625b9718f5',1,'cqsp::asset::PathedTextAsset']]],
+  ['string_20_26_76',['string &amp;',['../structcqsp_1_1common_1_1components_1_1_name.html#a976df68b0dd77441a7cd4269537788bb',1,'cqsp::common::components::Name::string &amp;()'],['../structcqsp_1_1common_1_1components_1_1_identifier.html#ab9dbc871bb3ba8c56af89fdc778e5c5b',1,'cqsp::common::components::Identifier::string &amp;()']]]
 ];

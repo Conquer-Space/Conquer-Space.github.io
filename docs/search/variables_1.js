@@ -17,12 +17,13 @@ var searchData=
   ['asset_5fmanager_14',['asset_manager',['../classcqsp_1_1client_1_1headless_1_1_headless_application.html#a31cda2027bbae98d72ac616d66a24334',1,'cqsp::client::headless::HeadlessApplication']]],
   ['asset_5foptions_15',['asset_options',['../classcqsp_1_1asset_1_1_asset_loader.html#aeea12c8dcc9dc73262c497a8610ebb68',1,'cqsp::asset::AssetLoader']]],
   ['asset_5fpath_16',['asset_path',['../structcqsp_1_1asset_1_1_model_loader.html#a6cd1bdbaddad9603a9bbf04c7432f50e',1,'cqsp::asset::ModelLoader']]],
-  ['asset_5fsearch_17',['asset_search',['../classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#ab4435216769972c3963978c35ea97e80',1,'cqsp::client::systems::SysDebugMenu']]],
-  ['assetloader_18',['assetLoader',['../classcqsp_1_1client_1_1scene_1_1_loading_scene.html#a84e114ccec85099e959cdd6dbe05d480',1,'cqsp::client::scene::LoadingScene']]],
-  ['assets_19',['assets',['../classcqsp_1_1asset_1_1_package.html#aee86f053d8cc5042ac61638d26f63f94',1,'cqsp::asset::Package::assets()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#acf5618dd58b937dec027b7df6c1add12',1,'cqsp::engine::audio::AudioInterface::assets()']]],
-  ['attributes_20',['attributes',['../structcqsp_1_1asset_1_1_material.html#aaa1106cdc1db07069236f862b15606f7',1,'cqsp::asset::Material']]],
-  ['audio_5ffuture_21',['audio_future',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a689e29f042a384c840bae4796275cce7',1,'cqsp::engine::audio::AudioInterface']]],
-  ['author_22',['author',['../classcqsp_1_1asset_1_1_package.html#a59703921786160ef2830a8cc2ff74639',1,'cqsp::asset::Package::author()'],['../classcqsp_1_1asset_1_1_package_prototype.html#a17efe7f4668a30b71125273e3e473cf4',1,'cqsp::asset::PackagePrototype::author()']]],
-  ['autonomous_5fconsumption_23',['autonomous_consumption',['../structcqsp_1_1common_1_1components_1_1_consumer_good.html#a885673377c540c9cdd0b16adf56b1d4e',1,'cqsp::common::components::ConsumerGood']]],
-  ['axial_24',['axial',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#ac5f5a2042499380829f9660dd5cdc148',1,'cqsp::common::components::bodies::Body']]]
+  ['asset_5fsearch_17',['asset_search',['../classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#ab4435216769972c3963978c35ea97e80',1,'cqsp::client::systems::SysDebugMenu::asset_search()'],['../classcqsp_1_1client_1_1systems_1_1_asset_window.html#ad7741554b73c3489151f90f2587d0974',1,'cqsp::client::systems::AssetWindow::asset_search()']]],
+  ['asset_5fwindow_18',['asset_window',['../classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#aa46650343c864b6699410a1439757e52',1,'cqsp::client::systems::SysDebugMenu']]],
+  ['assetloader_19',['assetLoader',['../classcqsp_1_1client_1_1scene_1_1_loading_scene.html#a84e114ccec85099e959cdd6dbe05d480',1,'cqsp::client::scene::LoadingScene']]],
+  ['assets_20',['assets',['../classcqsp_1_1asset_1_1_package.html#aee86f053d8cc5042ac61638d26f63f94',1,'cqsp::asset::Package::assets()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#acf5618dd58b937dec027b7df6c1add12',1,'cqsp::engine::audio::AudioInterface::assets()']]],
+  ['attributes_21',['attributes',['../structcqsp_1_1asset_1_1_material.html#aaa1106cdc1db07069236f862b15606f7',1,'cqsp::asset::Material']]],
+  ['audio_5ffuture_22',['audio_future',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a689e29f042a384c840bae4796275cce7',1,'cqsp::engine::audio::AudioInterface']]],
+  ['author_23',['author',['../classcqsp_1_1asset_1_1_package.html#a59703921786160ef2830a8cc2ff74639',1,'cqsp::asset::Package::author()'],['../classcqsp_1_1asset_1_1_package_prototype.html#a17efe7f4668a30b71125273e3e473cf4',1,'cqsp::asset::PackagePrototype::author()']]],
+  ['autonomous_5fconsumption_24',['autonomous_consumption',['../structcqsp_1_1common_1_1components_1_1_consumer_good.html#a885673377c540c9cdd0b16adf56b1d4e',1,'cqsp::common::components::ConsumerGood']]],
+  ['axial_25',['axial',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html#ac5f5a2042499380829f9660dd5cdc148',1,'cqsp::common::components::bodies::Body']]]
 ];

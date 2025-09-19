@@ -77,7 +77,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="goodviewer_8h_source.html">goodviewer.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="sysgoodviewer_8h_source.html">sysgoodviewer.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for cqsp::client::systems::SysGoodViewer:</div>
 <div class="dyncontent">
@@ -116,9 +116,19 @@ Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a7164190f88aa72a3335aadeb999e5bd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_good_viewer.html#a7164190f88aa72a3335aadeb999e5bd2">GoodViewerRight</a> ()</td></tr>
 <tr class="separator:a7164190f88aa72a3335aadeb999e5bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71784216ae1bca9de2a4cd2c8771e3ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_good_viewer.html#a71784216ae1bca9de2a4cd2c8771e3ff">RecipeTable</a> ()</td></tr>
+<tr class="separator:a71784216ae1bca9de2a4cd2c8771e3ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff0e293577b4eda998df62d2933c5876"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_good_viewer.html#aff0e293577b4eda998df62d2933c5876">InputRecipeTable</a> ()</td></tr>
+<tr class="separator:aff0e293577b4eda998df62d2933c5876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e5063e5af9a6a8b0fc8bbd3e155036e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_good_viewer.html#a4e5063e5af9a6a8b0fc8bbd3e155036e">OutputRecipeTable</a> ()</td></tr>
+<tr class="separator:a4e5063e5af9a6a8b0fc8bbd3e155036e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cb0e2ffc4607719dd455a1c82e1a14f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_good_viewer.html#a1cb0e2ffc4607719dd455a1c82e1a14f">RecipeTooltip</a> (entt::entity recipe)</td></tr>
+<tr class="separator:a1cb0e2ffc4607719dd455a1c82e1a14f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a7bba98c76377a5a49766ba2ec93f80a5"><td class="memItemLeft" align="right" valign="top">std::array&lt; char, 255 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_good_viewer.html#a7bba98c76377a5a49766ba2ec93f80a5">search_text</a></td></tr>
+<tr class="separator:a7bba98c76377a5a49766ba2ec93f80a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc67b47c387c6b7b3c4249ba5ee5d1c8"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_good_viewer.html#abc67b47c387c6b7b3c4249ba5ee5d1c8">selected_good</a> = entt::null</td></tr>
 <tr class="separator:abc67b47c387c6b7b3c4249ba5ee5d1c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -264,7 +274,130 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aff0e293577b4eda998df62d2933c5876" name="aff0e293577b4eda998df62d2933c5876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff0e293577b4eda998df62d2933c5876">&#9670;&nbsp;</a></span>InputRecipeTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysGoodViewer::InputRecipeTable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e5063e5af9a6a8b0fc8bbd3e155036e" name="a4e5063e5af9a6a8b0fc8bbd3e155036e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e5063e5af9a6a8b0fc8bbd3e155036e">&#9670;&nbsp;</a></span>OutputRecipeTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysGoodViewer::OutputRecipeTable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71784216ae1bca9de2a4cd2c8771e3ff" name="a71784216ae1bca9de2a4cd2c8771e3ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71784216ae1bca9de2a4cd2c8771e3ff">&#9670;&nbsp;</a></span>RecipeTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysGoodViewer::RecipeTable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1cb0e2ffc4607719dd455a1c82e1a14f" name="a1cb0e2ffc4607719dd455a1c82e1a14f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cb0e2ffc4607719dd455a1c82e1a14f">&#9670;&nbsp;</a></span>RecipeTooltip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysGoodViewer::RecipeTooltip </td>
+          <td>(</td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>recipe</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7bba98c76377a5a49766ba2ec93f80a5" name="a7bba98c76377a5a49766ba2ec93f80a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bba98c76377a5a49766ba2ec93f80a5">&#9670;&nbsp;</a></span>search_text</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;char, 255&gt; cqsp::client::systems::SysGoodViewer::search_text</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abc67b47c387c6b7b3c4249ba5ee5d1c8" name="abc67b47c387c6b7b3c4249ba5ee5d1c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc67b47c387c6b7b3c4249ba5ee5d1c8">&#9670;&nbsp;</a></span>selected_good</h2>
 
@@ -288,13 +421,13 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/github/workspace/src/client/scenes/objecteditor/<a class="el" href="goodviewer_8h_source.html">goodviewer.h</a></li>
-<li>/github/workspace/src/client/scenes/objecteditor/<a class="el" href="goodviewer_8cpp.html">goodviewer.cpp</a></li>
+<li>/github/workspace/src/client/scenes/objecteditor/<a class="el" href="sysgoodviewer_8h_source.html">sysgoodviewer.h</a></li>
+<li>/github/workspace/src/client/scenes/objecteditor/<a class="el" href="sysgoodviewer_8cpp.html">sysgoodviewer.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 15 2025 18:39:54 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Sep 19 2025 06:33:09 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

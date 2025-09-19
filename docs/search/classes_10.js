@@ -12,8 +12,7 @@ var searchData=
   ['resourceconsumption_9',['ResourceConsumption',['../structcqsp_1_1common_1_1components_1_1_resource_consumption.html',1,'cqsp::common::components']]],
   ['resourceconverter_10',['ResourceConverter',['../structcqsp_1_1common_1_1components_1_1_resource_converter.html',1,'cqsp::common::components']]],
   ['resourcedistribution_11',['ResourceDistribution',['../structcqsp_1_1common_1_1components_1_1_resource_distribution.html',1,'cqsp::common::components']]],
-  ['resourceio_12',['ResourceIO',['../structcqsp_1_1common_1_1components_1_1_resource_i_o.html',1,'cqsp::common::components']]],
-  ['resourceledger_13',['ResourceLedger',['../classcqsp_1_1common_1_1components_1_1_resource_ledger.html',1,'cqsp::common::components']]],
-  ['resourceproduction_14',['ResourceProduction',['../structcqsp_1_1common_1_1components_1_1_resource_production.html',1,'cqsp::common::components']]],
-  ['resourcestockpile_15',['ResourceStockpile',['../structcqsp_1_1common_1_1components_1_1_resource_stockpile.html',1,'cqsp::common::components']]]
+  ['resourceledger_12',['ResourceLedger',['../classcqsp_1_1common_1_1components_1_1_resource_ledger.html',1,'cqsp::common::components']]],
+  ['resourceproduction_13',['ResourceProduction',['../structcqsp_1_1common_1_1components_1_1_resource_production.html',1,'cqsp::common::components']]],
+  ['resourcestockpile_14',['ResourceStockpile',['../structcqsp_1_1common_1_1components_1_1_resource_stockpile.html',1,'cqsp::common::components']]]
 ];
