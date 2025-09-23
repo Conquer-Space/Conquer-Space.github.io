@@ -17,7 +17,7 @@ var searchData=
   ['windowheight_14',['windowHeight',['../classcqsp_1_1client_1_1scene_1_1_loading_scene.html#a6aaaf97ab021bda659ca65627f5da853',1,'cqsp::client::scene::LoadingScene']]],
   ['windowsizechanged_15',['WindowSizeChanged',['../classcqsp_1_1engine_1_1_g_l_window.html#a8e20f30eb24f891e79c655843a505569',1,'cqsp::engine::GLWindow::WindowSizeChanged()'],['../classcqsp_1_1engine_1_1_window.html#a4c9b671250dd3b4c3e332507ee6ca57b',1,'cqsp::engine::Window::WindowSizeChanged()']]],
   ['windowwidth_16',['windowWidth',['../classcqsp_1_1client_1_1scene_1_1_loading_scene.html#a11920f34a2247ff34ae7a636edefec4a',1,'cqsp::client::scene::LoadingScene']]],
-  ['workers_17',['workers',['../structcqsp_1_1common_1_1components_1_1_recipe.html#ab4f992b356735a9ffce70474d6fd5738',1,'cqsp::common::components::Recipe::workers()'],['../structcqsp_1_1common_1_1components_1_1_industry_size.html#af44832edd223d7abb884995bcb6c5f33',1,'cqsp::common::components::IndustrySize::workers()']]],
+  ['workers_17',['workers',['../structcqsp_1_1common_1_1components_1_1_recipe.html#ab4f992b356735a9ffce70474d6fd5738',1,'cqsp::common::components::Recipe::workers()'],['../structcqsp_1_1common_1_1components_1_1_industry_size.html#a121b2746f7807947b27f3bf36168ad54',1,'cqsp::common::components::IndustrySize::workers()']]],
   ['working_5fpopulation_18',['working_population',['../structcqsp_1_1common_1_1components_1_1_labor_information.html#ad821e499032cba72866b80c8cd3bedbf',1,'cqsp::common::components::LaborInformation']]],
   ['worldmodel_19',['WorldModel',['../structcqsp_1_1common_1_1components_1_1_world_model.html',1,'cqsp::common::components']]],
   ['write_20',['Write',['../classcqsp_1_1asset_1_1_i_o_stream.html#a84c1616d1cf4777ba391446ebf14ec1c',1,'cqsp::asset::IOStream']]],
