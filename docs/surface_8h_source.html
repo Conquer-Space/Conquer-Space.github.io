@@ -117,15 +117,15 @@ $(function() {
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>};</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_time_zone.html">   52</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structcqsp_1_1common_1_1components_1_1_time_zone.html">TimeZone</a> {</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_time_zone.html#a4a6a9ae386b253f1ff8a8c7e6ef44f79">   53</a></span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="structcqsp_1_1common_1_1components_1_1_time_zone.html#a4a6a9ae386b253f1ff8a8c7e6ef44f79">time_diff</a>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_time_zone.html#a4a6a9ae386b253f1ff8a8c7e6ef44f79">   53</a></span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="structcqsp_1_1common_1_1components_1_1_time_zone.html#a4a6a9ae386b253f1ff8a8c7e6ef44f79">time_diff</a> = 0;</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>};</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_city_time_zone.html">   56</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structcqsp_1_1common_1_1components_1_1_city_time_zone.html">CityTimeZone</a> {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_city_time_zone.html#a1a1bedd338d7c56846bf9b8821491ea8">   57</a></span>    entt::entity <a class="code hl_variable" href="structcqsp_1_1common_1_1components_1_1_city_time_zone.html#a1a1bedd338d7c56846bf9b8821491ea8">time_zone</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_city_time_zone.html#a1a1bedd338d7c56846bf9b8821491ea8">   57</a></span>    entt::entity <a class="code hl_variable" href="structcqsp_1_1common_1_1components_1_1_city_time_zone.html#a1a1bedd338d7c56846bf9b8821491ea8">time_zone</a> = entt::null;</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>};</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_province.html">   60</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structcqsp_1_1common_1_1components_1_1_province.html">Province</a> {</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_province.html#aeb3c505b8c080067dfc1e08530c2acaa">   61</a></span>    entt::entity <a class="code hl_variable" href="structcqsp_1_1common_1_1components_1_1_province.html#aeb3c505b8c080067dfc1e08530c2acaa">country</a>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_province.html#aeb3c505b8c080067dfc1e08530c2acaa">   61</a></span>    entt::entity <a class="code hl_variable" href="structcqsp_1_1common_1_1components_1_1_province.html#aeb3c505b8c080067dfc1e08530c2acaa">country</a> = entt::null;</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_province.html#a8019cb78223e8aeac41caa665d3a10aa">   62</a></span>    std::vector&lt;entt::entity&gt; <a class="code hl_variable" href="structcqsp_1_1common_1_1components_1_1_province.html#a8019cb78223e8aeac41caa665d3a10aa">cities</a>;</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="structcqsp_1_1common_1_1components_1_1_province.html#ad47f7d4ddf348431f1073bc9df6b629c">   63</a></span>    std::vector&lt;entt::entity&gt; <a class="code hl_variable" href="structcqsp_1_1common_1_1components_1_1_province.html#ad47f7d4ddf348431f1073bc9df6b629c">neighbors</a>;</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};</div>
@@ -199,7 +199,7 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 23 2025 06:14:15 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Oct 12 2025 06:18:40 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

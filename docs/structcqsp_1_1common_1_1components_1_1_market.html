@@ -76,7 +76,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="economy_8h_source.html">economy.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="market_8h_source.html">market.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for cqsp::common::components::Market:</div>
 <div class="dyncontent">
@@ -139,6 +139,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:acaf70a4f4a5d84cb422023b3c0382bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c002d58872c2d88e6fd8d688b34b524"><td class="memItemLeft" align="right" valign="top">entt::basic_sparse_set&lt; entt::entity &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market.html#a8c002d58872c2d88e6fd8d688b34b524">connected_markets</a></td></tr>
 <tr class="separator:a8c002d58872c2d88e6fd8d688b34b524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68908f155420b241751e07c9907e2f77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market.html#a68908f155420b241751e07c9907e2f77">market_access</a></td></tr>
+<tr class="separator:a68908f155420b241751e07c9907e2f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33eefbc31109d4a0088e3dd67388f4fe"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market.html#a33eefbc31109d4a0088e3dd67388f4fe">parent_market</a> = entt::null</td></tr>
+<tr class="separator:a33eefbc31109d4a0088e3dd67388f4fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2973e9de5ae9b5d6a8306b4323686f8b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market.html#a2973e9de5ae9b5d6a8306b4323686f8b">GDP</a> = 0</td></tr>
 <tr class="separator:a2973e9de5ae9b5d6a8306b4323686f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html">cqsp::common::components::MarketInformation</a></td></tr>
@@ -149,28 +153,16 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac830e4a1c38adf9c5201ee9747f59534 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a576217aaa8e485abba61665acc7592e3 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#a576217aaa8e485abba61665acc7592e3">price</a></td></tr>
 <tr class="separator:a576217aaa8e485abba61665acc7592e3 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a253b03166c1cad69d1d71ea929eb7b8f inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#a253b03166c1cad69d1d71ea929eb7b8f">latent_supply</a></td></tr>
-<tr class="separator:a253b03166c1cad69d1d71ea929eb7b8f inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a063bdaa81c42f8b36b2610f3498a231a inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#a063bdaa81c42f8b36b2610f3498a231a">last_latent_demand</a></td></tr>
-<tr class="separator:a063bdaa81c42f8b36b2610f3498a231a inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94a0c1245ec9e640dfbc08881233e4b8 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#a94a0c1245ec9e640dfbc08881233e4b8">latent_demand</a></td></tr>
-<tr class="separator:a94a0c1245ec9e640dfbc08881233e4b8 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eec1aeaf611c0cc303e1b4c5926f0a4 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#a6eec1aeaf611c0cc303e1b4c5926f0a4">supply_difference</a></td></tr>
-<tr class="separator:a6eec1aeaf611c0cc303e1b4c5926f0a4 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba5657d627683d751dee5b1a2f599f3b inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#aba5657d627683d751dee5b1a2f599f3b">chronic_shortages</a></td></tr>
 <tr class="separator:aba5657d627683d751dee5b1a2f599f3b inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ebff21c1564ef28e07e6f59005e9c1e inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#a6ebff21c1564ef28e07e6f59005e9c1e">trade</a></td></tr>
 <tr class="separator:a6ebff21c1564ef28e07e6f59005e9c1e inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e6386dc6b13d4a1e3387b645971be81 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#a7e6386dc6b13d4a1e3387b645971be81">delta</a></td></tr>
-<tr class="separator:a7e6386dc6b13d4a1e3387b645971be81 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1916fe1d6229eff11dc72c33f537a26 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#ab1916fe1d6229eff11dc72c33f537a26">resource_fulfilled</a></td></tr>
+<tr class="separator:ab1916fe1d6229eff11dc72c33f537a26 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a854e4b4d3606ea19de9fa99ccad4ddd5 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#a854e4b4d3606ea19de9fa99ccad4ddd5">production</a></td></tr>
 <tr class="separator:a854e4b4d3606ea19de9fa99ccad4ddd5 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9c1e26ba1058888e05c467ae7b93720 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#aa9c1e26ba1058888e05c467ae7b93720">consumption</a></td></tr>
 <tr class="separator:aa9c1e26ba1058888e05c467ae7b93720 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b820861140a0e97d2df49cd2ecc99e0 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#a5b820861140a0e97d2df49cd2ecc99e0">parent_market</a> = entt::null</td></tr>
-<tr class="separator:a5b820861140a0e97d2df49cd2ecc99e0 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67df67a4aaad9802bc4bde0c471f6a51 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_market_information.html#a67df67a4aaad9802bc4bde0c471f6a51">market_access</a> = 0.2</td></tr>
-<tr class="separator:a67df67a4aaad9802bc4bde0c471f6a51 inherit pub_attribs_structcqsp_1_1common_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a709989e1ea97593b021c493ee567f8c6" name="a709989e1ea97593b021c493ee567f8c6"></a>
@@ -514,6 +506,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a68908f155420b241751e07c9907e2f77" name="a68908f155420b241751e07c9907e2f77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68908f155420b241751e07c9907e2f77">&#9670;&nbsp;</a></span>market_access</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a> cqsp::common::components::Market::market_access</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a616fd64364fd05eceeb38bee7b88e773" name="a616fd64364fd05eceeb38bee7b88e773"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a616fd64364fd05eceeb38bee7b88e773">&#9670;&nbsp;</a></span>market_information</h2>
 
@@ -522,6 +528,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">std::map&lt;entt::entity, <a class="el" href="structcqsp_1_1common_1_1components_1_1_market_element_information.html">MarketElementInformation</a>&gt; cqsp::common::components::Market::market_information</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33eefbc31109d4a0088e3dd67388f4fe" name="a33eefbc31109d4a0088e3dd67388f4fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33eefbc31109d4a0088e3dd67388f4fe">&#9670;&nbsp;</a></span>parent_market</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">entt::entity cqsp::common::components::Market::parent_market = entt::null</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -543,13 +563,13 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>/github/workspace/src/common/components/<a class="el" href="economy_8h_source.html">economy.h</a></li>
-<li>/github/workspace/src/common/components/<a class="el" href="economy_8cpp.html">economy.cpp</a></li>
+<li>/github/workspace/src/common/components/<a class="el" href="market_8h_source.html">market.h</a></li>
+<li>/github/workspace/src/common/components/<a class="el" href="market_8cpp.html">market.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 23 2025 06:14:16 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Oct 12 2025 06:18:41 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

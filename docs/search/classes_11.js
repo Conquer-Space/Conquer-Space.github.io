@@ -24,7 +24,7 @@ var searchData=
   ['ship_21',['Ship',['../structcqsp_1_1common_1_1components_1_1ships_1_1_ship.html',1,'cqsp::common::components::ships']]],
   ['simulation_22',['Simulation',['../classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html',1,'cqsp::common::systems::simulation']]],
   ['sortedorderlist_23',['SortedOrderList',['../classcqsp_1_1common_1_1components_1_1_sorted_order_list.html',1,'cqsp::common::components']]],
-  ['spaceport_24',['SpacePort',['../classcqsp_1_1common_1_1components_1_1infrastructure_1_1_space_port.html',1,'cqsp::common::components::infrastructure']]],
+  ['spaceport_24',['SpacePort',['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_space_port.html',1,'cqsp::common::components::infrastructure']]],
   ['spaceshipwindow_25',['SpaceshipWindow',['../classcqsp_1_1client_1_1systems_1_1_spaceship_window.html',1,'cqsp::client::systems']]],
   ['star_26',['Star',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_star.html',1,'cqsp::common::components::bodies']]],
   ['stardate_27',['StarDate',['../classcqsp_1_1common_1_1components_1_1_star_date.html',1,'cqsp::common::components']]],

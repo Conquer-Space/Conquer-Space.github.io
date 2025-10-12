@@ -59,7 +59,7 @@ var searchData=
   ['map_56',['map',['../class_gfx_1_1_uniforms.html#abc534fbf094e1a0a4e5c6967806b1c82',1,'Gfx::Uniforms']]],
   ['marginal_5fpropensity_57',['marginal_propensity',['../structcqsp_1_1common_1_1components_1_1_consumer_good.html#aec21403e8e820ec30ac7e145b7c68df6',1,'cqsp::common::components::ConsumerGood']]],
   ['market_58',['market',['../structcqsp_1_1common_1_1components_1_1_market_agent.html#ac18f63ce9406c265d75d7d6153447408',1,'cqsp::common::components::MarketAgent::market()'],['../structcqsp_1_1common_1_1components_1_1_market_center.html#ac1179c869abbbfc9105cee322f8104c4',1,'cqsp::common::components::MarketCenter::market()']]],
-  ['market_5faccess_59',['market_access',['../structcqsp_1_1common_1_1components_1_1_market_information.html#a67df67a4aaad9802bc4bde0c471f6a51',1,'cqsp::common::components::MarketInformation']]],
+  ['market_5faccess_59',['market_access',['../structcqsp_1_1common_1_1components_1_1_market.html#a68908f155420b241751e07c9907e2f77',1,'cqsp::common::components::Market']]],
   ['market_5fconfig_60',['market_config',['../structcqsp_1_1common_1_1systems_1_1_economy_config.html#a6ac947030f7e96cff247ba7bac241a0e',1,'cqsp::common::systems::EconomyConfig']]],
   ['market_5finformation_61',['market_information',['../structcqsp_1_1common_1_1components_1_1_market.html#a616fd64364fd05eceeb38bee7b88e773',1,'cqsp::common::components::Market']]],
   ['market_5finformation_5fpanel_62',['market_information_panel',['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html#a05c468feaa6d7999e8e38f3dcb8f69e0',1,'cqsp::client::systems::SysProvinceInformation']]],

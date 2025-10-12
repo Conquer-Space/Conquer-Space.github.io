@@ -75,22 +75,70 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="economy_8h_source.html">economy.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="market_8h_source.html">market.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a1e96e2c6f93fb1fd293bf6deb8ed5134"><td class="memItemLeft" align="right" valign="top">std::vector&lt; entt::entity &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_planetary_market.html#a1e96e2c6f93fb1fd293bf6deb8ed5134">participants</a></td></tr>
-<tr class="separator:a1e96e2c6f93fb1fd293bf6deb8ed5134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb8306062143d1f785db5520278051a2"><td class="memItemLeft" align="right" valign="top">std::map&lt; entt::entity, std::vector&lt; <a class="el" href="structcqsp_1_1common_1_1components_1_1_market_order.html">MarketOrder</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_planetary_market.html#aeb8306062143d1f785db5520278051a2">demands</a></td></tr>
+<tr class="separator:aeb8306062143d1f785db5520278051a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89a02b0e19963b522a3b28848d6dfede"><td class="memItemLeft" align="right" valign="top">std::map&lt; entt::entity, std::vector&lt; <a class="el" href="structcqsp_1_1common_1_1components_1_1_market_order.html">MarketOrder</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_planetary_market.html#a89a02b0e19963b522a3b28848d6dfede">requests</a></td></tr>
+<tr class="separator:a89a02b0e19963b522a3b28848d6dfede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae393a8983a873ec4fa8e142bbaf26f66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_planetary_market.html#ae393a8983a873ec4fa8e142bbaf26f66">supplied_resources</a></td></tr>
+<tr class="separator:ae393a8983a873ec4fa8e142bbaf26f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988b1b7c8016552e5cd636df172b6ec6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1common_1_1components_1_1_planetary_market.html#a988b1b7c8016552e5cd636df172b6ec6">supply_difference</a></td></tr>
+<tr class="separator:a988b1b7c8016552e5cd636df172b6ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1e96e2c6f93fb1fd293bf6deb8ed5134" name="a1e96e2c6f93fb1fd293bf6deb8ed5134"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e96e2c6f93fb1fd293bf6deb8ed5134">&#9670;&nbsp;</a></span>participants</h2>
+<a id="aeb8306062143d1f785db5520278051a2" name="aeb8306062143d1f785db5520278051a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb8306062143d1f785db5520278051a2">&#9670;&nbsp;</a></span>demands</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;entt::entity&gt; cqsp::common::components::PlanetaryMarket::participants</td>
+          <td class="memname">std::map&lt;entt::entity, std::vector&lt;<a class="el" href="structcqsp_1_1common_1_1components_1_1_market_order.html">MarketOrder</a>&gt; &gt; cqsp::common::components::PlanetaryMarket::demands</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89a02b0e19963b522a3b28848d6dfede" name="a89a02b0e19963b522a3b28848d6dfede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89a02b0e19963b522a3b28848d6dfede">&#9670;&nbsp;</a></span>requests</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;entt::entity, std::vector&lt;<a class="el" href="structcqsp_1_1common_1_1components_1_1_market_order.html">MarketOrder</a>&gt; &gt; cqsp::common::components::PlanetaryMarket::requests</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae393a8983a873ec4fa8e142bbaf26f66" name="ae393a8983a873ec4fa8e142bbaf26f66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae393a8983a873ec4fa8e142bbaf26f66">&#9670;&nbsp;</a></span>supplied_resources</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a> cqsp::common::components::PlanetaryMarket::supplied_resources</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a988b1b7c8016552e5cd636df172b6ec6" name="a988b1b7c8016552e5cd636df172b6ec6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a988b1b7c8016552e5cd636df172b6ec6">&#9670;&nbsp;</a></span>supply_difference</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">ResourceLedger</a> cqsp::common::components::PlanetaryMarket::supply_difference</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -98,12 +146,12 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/github/workspace/src/common/components/<a class="el" href="economy_8h_source.html">economy.h</a></li>
+<li>/github/workspace/src/common/components/<a class="el" href="market_8h_source.html">market.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 23 2025 06:14:16 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Oct 12 2025 06:18:41 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
