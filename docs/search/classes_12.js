@@ -17,6 +17,6 @@ var searchData=
   ['timezone_14',['TimeZone',['../structcqsp_1_1common_1_1components_1_1_time_zone.html',1,'cqsp::common::components']]],
   ['timezoneloader_15',['TimezoneLoader',['../classcqsp_1_1common_1_1loading_1_1_timezone_loader.html',1,'cqsp::common::loading']]],
   ['tradepartners_16',['TradePartners',['../structcqsp_1_1common_1_1components_1_1_trade_partners.html',1,'cqsp::common::components']]],
-  ['transportedgood_17',['TransportedGood',['../classcqsp_1_1common_1_1components_1_1infrastructure_1_1_transported_good.html',1,'cqsp::common::components::infrastructure']]],
+  ['transportedgood_17',['TransportedGood',['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_transported_good.html',1,'cqsp::common::components::infrastructure']]],
   ['turnsavewindow_18',['TurnSaveWindow',['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html',1,'cqsp::client::systems::rmlui']]]
 ];
