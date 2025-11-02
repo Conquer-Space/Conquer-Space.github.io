@@ -14,7 +14,7 @@ var searchData=
   ['new_5fperigee_11',['new_perigee',['../classcqsp_1_1client_1_1systems_1_1_spaceship_window.html#a6473e119c1a16395dfa9c52823eb9678',1,'cqsp::client::systems::SpaceshipWindow']]],
   ['nfs_12',['nfs',['../classcqsp_1_1asset_1_1_native_file.html#abf72486fd77187d42a0cacb054cec57b',1,'cqsp::asset::NativeFile::nfs()'],['../classcqsp_1_1asset_1_1_native_directory.html#a7cca36bc9d6ce9e1ec7ef4a30c1b7285',1,'cqsp::asset::NativeDirectory::nfs()']]],
   ['nodefactory_13',['nodeFactory',['../classcqsp_1_1common_1_1_universe.html#a92cd6d0ce046e9eef77f0072de2fc0e2',1,'cqsp::common::Universe']]],
-  ['normal_14',['normal',['../structcqsp_1_1asset_1_1_vertex.html#a33c1f8fb55ccafadce08728882ad38f5',1,'cqsp::asset::Vertex::normal()'],['../starsystemview_8cpp.html#a7fc298ed6f70a0822720769c13216978',1,'normal():&#160;starsystemview.cpp']]],
+  ['normal_14',['normal',['../structcqsp_1_1client_1_1components_1_1_planet_texture.html#a56bd14b293856834f040bcb31be9f8d3',1,'cqsp::client::components::PlanetTexture::normal()'],['../structcqsp_1_1asset_1_1_vertex.html#a33c1f8fb55ccafadce08728882ad38f5',1,'cqsp::asset::Vertex::normal()']]],
   ['normal_5fname_15',['normal_name',['../structcqsp_1_1common_1_1components_1_1bodies_1_1_textured_terrain.html#a6e40d8522e90b4dd67fcc5232d8e7561',1,'cqsp::common::components::bodies::TexturedTerrain']]],
   ['num_5fmsaa_5fsamples_16',['NUM_MSAA_SAMPLES',['../_rml_ui___renderer___g_l3_8cpp.html#a2fcc3801dba1a1e549508b42e979616b',1,'RmlUi_Renderer_GL3.cpp']]]
 ];

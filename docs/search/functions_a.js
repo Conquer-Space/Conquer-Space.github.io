@@ -13,7 +13,7 @@ var searchData=
   ['listboxfooter_10',['ListBoxFooter',['../namespacecqsp_1_1client_1_1scripting.html#ab60ed7d2d7a9c1cd7f75d812007f3021',1,'cqsp::client::scripting']]],
   ['listboxheader_11',['ListBoxHeader',['../namespacecqsp_1_1client_1_1scripting.html#abc9c41f0ad9b0e4a7a7fb64ceb3f55de',1,'cqsp::client::scripting::ListBoxHeader(const std::string &amp;label, float sizeX, float sizeY)'],['../namespacecqsp_1_1client_1_1scripting.html#a0bd0fa2908db2fd4580dc2933f64db49',1,'cqsp::client::scripting::ListBoxHeader(const std::string &amp;label, int items_count)'],['../namespacecqsp_1_1client_1_1scripting.html#aea8b13a5e688b3d4c0bd5ea482710678',1,'cqsp::client::scripting::ListBoxHeader(const std::string &amp;label, int items_count, int height_in_items)']]],
   ['load_12',['Load',['../classcqsp_1_1common_1_1save_1_1_load.html#aca70697daf9556288adebec6a4918321',1,'cqsp::common::save::Load']]],
-  ['load_5fgame_13',['load_game',['../namespacecqsp_1_1client_1_1save.html#a5238980645efe5355e4d53a703b2d5f6',1,'cqsp::client::save']]],
+  ['load_5fgame_13',['load_game',['../namespacecqsp_1_1common_1_1save.html#a25019befdb5c249c87286fbd9069f24a',1,'cqsp::common::save']]],
   ['loadadjprovinces_14',['LoadAdjProvinces',['../namespacecqsp_1_1common_1_1loading.html#ad7880880c42b75b7ebcd4d38f28acabd',1,'cqsp::common::loading']]],
   ['loadallprovinces_15',['LoadAllProvinces',['../namespacecqsp_1_1common_1_1loading.html#af899fd537ff2125122931b4b2ee6e332',1,'cqsp::common::loading']]],
   ['loadallresources_16',['LoadAllResources',['../namespacecqsp_1_1client_1_1systems.html#aa26c897191473f6e981c70a2346f447e',1,'cqsp::client::systems']]],

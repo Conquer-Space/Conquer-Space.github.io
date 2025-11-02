@@ -21,7 +21,7 @@ var searchData=
   ['loading_18',['loading',['../namespacecqsp_1_1common_1_1loading.html',1,'cqsp::common']]],
   ['primitive_19',['primitive',['../namespacecqsp_1_1engine_1_1primitive.html',1,'cqsp::engine']]],
   ['rmlui_20',['rmlui',['../namespacecqsp_1_1client_1_1systems_1_1rmlui.html',1,'cqsp::client::systems']]],
-  ['save_21',['save',['../namespacecqsp_1_1client_1_1save.html',1,'cqsp::client::save'],['../namespacecqsp_1_1common_1_1save.html',1,'cqsp::common::save']]],
+  ['save_21',['save',['../namespacecqsp_1_1common_1_1save.html',1,'cqsp::common']]],
   ['scene_22',['scene',['../namespacecqsp_1_1client_1_1scene.html',1,'cqsp::client']]],
   ['science_23',['science',['../namespacecqsp_1_1common_1_1components_1_1science.html',1,'cqsp::common::components']]],
   ['scripting_24',['scripting',['../namespacecqsp_1_1client_1_1scripting.html',1,'cqsp::client::scripting'],['../namespacecqsp_1_1common_1_1scripting.html',1,'cqsp::common::scripting']]],
