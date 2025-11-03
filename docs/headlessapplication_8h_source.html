@@ -123,8 +123,11 @@ $(function() {
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classcqsp_1_1client_1_1headless_1_1_headless_application.html#a0a1e4cb5fc12e82221f4a1f37c195c75">   50</a></span>    std::unique_ptr&lt;common::systems::simulation::Simulation&gt; <a class="code hl_variable" href="classcqsp_1_1client_1_1headless_1_1_headless_application.html#a0a1e4cb5fc12e82221f4a1f37c195c75">simulation</a>;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classcqsp_1_1client_1_1headless_1_1_headless_application.html#a9207f28fe6230d7bfce89e570a1ca3a6">   52</a></span>    std::map&lt;std::string, HeadlessCommand&gt; <a class="code hl_variable" href="classcqsp_1_1client_1_1headless_1_1_headless_application.html#a9207f28fe6230d7bfce89e570a1ca3a6">command_map</a>;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>};</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>};  <span class="comment">// namespace cqsp::client::headless</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classcqsp_1_1client_1_1headless_1_1_headless_application.html#aca0b68191a433e2248c9f051c4c7c8f2">IsCommandComment</a>(<span class="keyword">const</span> std::string&amp; line, <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; arguments,</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                          <span class="keyword">const</span> std::string&amp; command);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>};  <span class="comment">// namespace cqsp::client::headless</span></div>
 <div class="ttc" id="aassetloader_8h_html"><div class="ttname"><a href="assetloader_8h.html">assetloader.h</a></div></div>
 <div class="ttc" id="aassetmanager_8h_html"><div class="ttname"><a href="assetmanager_8h.html">assetmanager.h</a></div></div>
 <div class="ttc" id="aclasscqsp_1_1asset_1_1_asset_loader_html"><div class="ttname"><a href="classcqsp_1_1asset_1_1_asset_loader.html">cqsp::asset::AssetLoader</a></div><div class="ttdef"><b>Definition:</b> assetloader.h:44</div></div>
@@ -141,6 +144,7 @@ $(function() {
 <div class="ttc" id="aclasscqsp_1_1client_1_1headless_1_1_headless_application_html_a9207f28fe6230d7bfce89e570a1ca3a6"><div class="ttname"><a href="classcqsp_1_1client_1_1headless_1_1_headless_application.html#a9207f28fe6230d7bfce89e570a1ca3a6">cqsp::client::headless::HeadlessApplication::command_map</a></div><div class="ttdeci">std::map&lt; std::string, HeadlessCommand &gt; command_map</div><div class="ttdef"><b>Definition:</b> headlessapplication.h:52</div></div>
 <div class="ttc" id="aclasscqsp_1_1client_1_1headless_1_1_headless_application_html_abdc2c0e909dc31496ce06199821ee786"><div class="ttname"><a href="classcqsp_1_1client_1_1headless_1_1_headless_application.html#abdc2c0e909dc31496ce06199821ee786">cqsp::client::headless::HeadlessApplication::run</a></div><div class="ttdeci">int run()</div><div class="ttdef"><b>Definition:</b> headlessapplication.cpp:40</div></div>
 <div class="ttc" id="aclasscqsp_1_1client_1_1headless_1_1_headless_application_html_ac13d9c9c944ff8976bc8538dcc78adc9"><div class="ttname"><a href="classcqsp_1_1client_1_1headless_1_1_headless_application.html#ac13d9c9c944ff8976bc8538dcc78adc9">cqsp::client::headless::HeadlessApplication::HeadlessApplication</a></div><div class="ttdeci">HeadlessApplication()</div><div class="ttdef"><b>Definition:</b> headlessapplication.cpp:38</div></div>
+<div class="ttc" id="aclasscqsp_1_1client_1_1headless_1_1_headless_application_html_aca0b68191a433e2248c9f051c4c7c8f2"><div class="ttname"><a href="classcqsp_1_1client_1_1headless_1_1_headless_application.html#aca0b68191a433e2248c9f051c4c7c8f2">cqsp::client::headless::HeadlessApplication::IsCommandComment</a></div><div class="ttdeci">bool IsCommandComment(const std::string &amp;line, const std::vector&lt; std::string &gt; &amp;arguments, const std::string &amp;command)</div><div class="ttdef"><b>Definition:</b> headlessapplication.cpp:104</div></div>
 <div class="ttc" id="aclasscqsp_1_1client_1_1headless_1_1_headless_application_html_ade0c8f2bf396b57d23cc8cd5e307bfdc"><div class="ttname"><a href="classcqsp_1_1client_1_1headless_1_1_headless_application.html#ade0c8f2bf396b57d23cc8cd5e307bfdc">cqsp::client::headless::HeadlessApplication::asset_loader</a></div><div class="ttdeci">asset::AssetLoader asset_loader</div><div class="ttdef"><b>Definition:</b> headlessapplication.h:47</div></div>
 <div class="ttc" id="aclasscqsp_1_1common_1_1systems_1_1simulation_1_1_simulation_html"><div class="ttname"><a href="classcqsp_1_1common_1_1systems_1_1simulation_1_1_simulation.html">cqsp::common::systems::simulation::Simulation</a></div><div class="ttdoc">Main simulation of game. /summary&gt; To add a simulation in the game, add a class extending from cqsp::...</div><div class="ttdef"><b>Definition:</b> simulation.h:35</div></div>
 <div class="ttc" id="aconquerspace_8h_html"><div class="ttname"><a href="conquerspace_8h.html">conquerspace.h</a></div></div>
@@ -151,7 +155,7 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 2 2025 20:16:07 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Nov 3 2025 08:52:50 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
