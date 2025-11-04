@@ -71,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1common_1_1systems_1_1_sys_orbit-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::common::systems::SysOrbit Class Reference</div></div>
 </div><!--header-->
@@ -110,9 +111,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a855f7cada35b58e9ce4661a39875d926"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#a855f7cada35b58e9ce4661a39875d926">LeaveSOI</a> (const entt::entity &amp;body, entt::entity &amp;<a class="el" href="planetloader_8cpp.html#a36dbe2aa2c05a792070d7b44d5c06e87">parent</a>, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;orb, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">components::types::Kinematics</a> &amp;pos, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">components::types::Kinematics</a> &amp;p_pos)</td></tr>
 <tr class="memdesc:a855f7cada35b58e9ce4661a39875d926"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the SOI of the entity to the parent  <a href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#a855f7cada35b58e9ce4661a39875d926">More...</a><br /></td></tr>
 <tr class="separator:a855f7cada35b58e9ce4661a39875d926"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4409ddffdc65ba245cdcd9abb8df6206"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#a4409ddffdc65ba245cdcd9abb8df6206">EnterSOI</a> (const entt::entity &amp;<a class="el" href="planetloader_8cpp.html#a36dbe2aa2c05a792070d7b44d5c06e87">parent</a>, const entt::entity &amp;body)</td></tr>
-<tr class="memdesc:a4409ddffdc65ba245cdcd9abb8df6206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the current body's SOI into a child SOI  <a href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#a4409ddffdc65ba245cdcd9abb8df6206">More...</a><br /></td></tr>
-<tr class="separator:a4409ddffdc65ba245cdcd9abb8df6206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58865a73a96e839a5aa181bcac1d6c06"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#a58865a73a96e839a5aa181bcac1d6c06">CheckEnterSOI</a> (const entt::entity &amp;<a class="el" href="planetloader_8cpp.html#a36dbe2aa2c05a792070d7b44d5c06e87">parent</a>, const entt::entity &amp;body)</td></tr>
+<tr class="memdesc:a58865a73a96e839a5aa181bcac1d6c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the current body's SOI into a child SOI  <a href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#a58865a73a96e839a5aa181bcac1d6c06">More...</a><br /></td></tr>
+<tr class="separator:a58865a73a96e839a5aa181bcac1d6c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfedd525ce35bb53f6b5d1e098283d64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#abfedd525ce35bb53f6b5d1e098283d64">CrashObject</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;orb, entt::entity body, entt::entity <a class="el" href="planetloader_8cpp.html#a36dbe2aa2c05a792070d7b44d5c06e87">parent</a>)</td></tr>
 <tr class="memdesc:abfedd525ce35bb53f6b5d1e098283d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the entity has crashed into its parent object  <a href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#abfedd525ce35bb53f6b5d1e098283d64">More...</a><br /></td></tr>
 <tr class="separator:abfedd525ce35bb53f6b5d1e098283d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,6 +121,15 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a91e597e8be107f3c8400515fbf5c00d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf724faa77107d3c2266d467e530fe79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#aaf724faa77107d3c2266d467e530fe79">CalculateImpulse</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;orb, entt::entity body, entt::entity <a class="el" href="planetloader_8cpp.html#a36dbe2aa2c05a792070d7b44d5c06e87">parent</a>)</td></tr>
 <tr class="separator:aaf724faa77107d3c2266d467e530fe79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af014ed58c05d68361fd3ed93d4da9850"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#af014ed58c05d68361fd3ed93d4da9850">ParseChildren</a> (entt::entity body)</td></tr>
+<tr class="separator:af014ed58c05d68361fd3ed93d4da9850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49015e776c93feaf34b78b9ec4ab9a8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#a49015e776c93feaf34b78b9ec4ab9a8c">EnterSOI</a> (entt::entity entity, entt::entity body, entt::entity <a class="el" href="planetloader_8cpp.html#a36dbe2aa2c05a792070d7b44d5c06e87">parent</a>, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;orb, <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">components::types::Kinematics</a> &amp;vehicle_position, const <a class="el" href="structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html">components::bodies::Body</a> &amp;body_comp, const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">components::types::Kinematics</a> &amp;target_position)</td></tr>
+<tr class="separator:a49015e776c93feaf34b78b9ec4ab9a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ab686e704e4e64aedd41cdb963996f790"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1systems_1_1_sys_orbit.html#ab686e704e4e64aedd41cdb963996f790">debug_prints</a> = false</td></tr>
+<tr class="separator:ab686e704e4e64aedd41cdb963996f790"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -197,6 +207,52 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p >Adds an impulse in the body centered inertial frame </p>
+
+</div>
+</div>
+<a id="a58865a73a96e839a5aa181bcac1d6c06" name="a58865a73a96e839a5aa181bcac1d6c06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58865a73a96e839a5aa181bcac1d6c06">&#9670;&nbsp;</a></span>CheckEnterSOI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::common::systems::SysOrbit::CheckEnterSOI </td>
+          <td>(</td>
+          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>body</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change the current body's SOI into a child SOI </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">universe</td><td></td></tr>
+    <tr><td class="paramname">parent</td><td></td></tr>
+    <tr><td class="paramname">body</td><td>Body that we want to check if it's entering a SOI</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -281,8 +337,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a4409ddffdc65ba245cdcd9abb8df6206" name="a4409ddffdc65ba245cdcd9abb8df6206"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4409ddffdc65ba245cdcd9abb8df6206">&#9670;&nbsp;</a></span>EnterSOI()</h2>
+<a id="a49015e776c93feaf34b78b9ec4ab9a8c" name="a49015e776c93feaf34b78b9ec4ab9a8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49015e776c93feaf34b78b9ec4ab9a8c">&#9670;&nbsp;</a></span>EnterSOI()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,16 +347,46 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool cqsp::common::systems::SysOrbit::EnterSOI </td>
+          <td class="memname">void cqsp::common::systems::SysOrbit::EnterSOI </td>
           <td>(</td>
-          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">entt::entity&#160;</td>
           <td class="paramname"><em>parent</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const entt::entity &amp;&#160;</td>
-          <td class="paramname"><em>body</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">components::types::Orbit</a> &amp;&#160;</td>
+          <td class="paramname"><em>orb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">components::types::Kinematics</a> &amp;&#160;</td>
+          <td class="paramname"><em>vehicle_position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1bodies_1_1_body.html">components::bodies::Body</a> &amp;&#160;</td>
+          <td class="paramname"><em>body_comp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html">components::types::Kinematics</a> &amp;&#160;</td>
+          <td class="paramname"><em>target_position</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -314,16 +400,6 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Change the current body's SOI into a child SOI </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">universe</td><td></td></tr>
-    <tr><td class="paramname">parent</td><td></td></tr>
-    <tr><td class="paramname">body</td><td>Body that we want to check if it's entering a SOI</td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -419,6 +495,32 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="af014ed58c05d68361fd3ed93d4da9850" name="af014ed58c05d68361fd3ed93d4da9850"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af014ed58c05d68361fd3ed93d4da9850">&#9670;&nbsp;</a></span>ParseChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::common::systems::SysOrbit::ParseChildren </td>
+          <td>(</td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>body</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a221069d9d1733faf15777c2b72c20878" name="a221069d9d1733faf15777c2b72c20878"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a221069d9d1733faf15777c2b72c20878">&#9670;&nbsp;</a></span>ParseOrbitTree()</h2>
 
@@ -497,6 +599,29 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab686e704e4e64aedd41cdb963996f790" name="ab686e704e4e64aedd41cdb963996f790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab686e704e4e64aedd41cdb963996f790">&#9670;&nbsp;</a></span>debug_prints</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool cqsp::common::systems::SysOrbit::debug_prints = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/common/systems/movement/<a class="el" href="sysorbit_8h_source.html">sysorbit.h</a></li>
 <li>/github/workspace/src/common/systems/movement/<a class="el" href="sysorbit_8cpp.html">sysorbit.cpp</a></li>
@@ -504,7 +629,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 3 2025 08:52:52 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Nov 4 2025 02:02:28 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
