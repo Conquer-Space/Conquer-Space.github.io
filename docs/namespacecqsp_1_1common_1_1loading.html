@@ -106,8 +106,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a0397a939a2158cc71d4ef527e9af1419"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html">Orbit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#a0397a939a2158cc71d4ef527e9af1419">LoadOrbit</a> (const Hjson::Value &amp;values)</td></tr>
 <tr class="memdesc:a0397a939a2158cc71d4ef527e9af1419"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads an orbit from a hjson object Note: The caller will have to set the center entity.  <a href="namespacecqsp_1_1common_1_1loading.html#a0397a939a2158cc71d4ef527e9af1419">More...</a><br /></td></tr>
 <tr class="separator:a0397a939a2158cc71d4ef527e9af1419"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ee6a05ad8f6ea3afd1ab28779207f4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#a4ee6a05ad8f6ea3afd1ab28779207f4e">LoadProvinces</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity planet, const std::string &amp;text)</td></tr>
-<tr class="separator:a4ee6a05ad8f6ea3afd1ab28779207f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78613cb296b0f7938d090c00d7a4b8e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#a78613cb296b0f7938d090c00d7a4b8e8">LoadProvinces</a> (<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;planet, const std::string &amp;text)</td></tr>
+<tr class="separator:a78613cb296b0f7938d090c00d7a4b8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7880880c42b75b7ebcd4d38f28acabd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#ad7880880c42b75b7ebcd4d38f28acabd">LoadAdjProvinces</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, Hjson::Value &amp;adjacency_map)</td></tr>
 <tr class="separator:ad7880880c42b75b7ebcd4d38f28acabd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af899fd537ff2125122931b4b2ee6e332"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#af899fd537ff2125122931b4b2ee6e332">LoadAllProvinces</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>)</td></tr>
@@ -122,18 +122,18 @@ Functions</h2></td></tr>
 <tr class="separator:a7c591d81a9b0c05cb974255d01e2cad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9b2b48f4b877eb7c3ce415ee5b94c69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#aa9b2b48f4b877eb7c3ce415ee5b94c69">LoadTerrainData</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, Hjson::Value &amp;value)</td></tr>
 <tr class="separator:aa9b2b48f4b877eb7c3ce415ee5b94c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea0859f99d56e4fe5d23f2e15199d772"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#aea0859f99d56e4fe5d23f2e15199d772">LoadName</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const Hjson::Value &amp;value)</td></tr>
-<tr class="memdesc:aea0859f99d56e4fe5d23f2e15199d772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if name exists  <a href="namespacecqsp_1_1common_1_1loading.html#aea0859f99d56e4fe5d23f2e15199d772">More...</a><br /></td></tr>
-<tr class="separator:aea0859f99d56e4fe5d23f2e15199d772"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3c5285e52beed793aeb96eb7457f257"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#aa3c5285e52beed793aeb96eb7457f257">LoadIdentifier</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const Hjson::Value &amp;value)</td></tr>
-<tr class="separator:aa3c5285e52beed793aeb96eb7457f257"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2e37f6935fdb15f646c2e0ae77019b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#aa2e37f6935fdb15f646c2e0ae77019b5">LoadDescription</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const Hjson::Value &amp;value)</td></tr>
-<tr class="separator:aa2e37f6935fdb15f646c2e0ae77019b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ea83bd0b7007424be53c638f18590ee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#a7ea83bd0b7007424be53c638f18590ee">LoadTags</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const Hjson::Value &amp;value)</td></tr>
-<tr class="separator:a7ea83bd0b7007424be53c638f18590ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae03296f0a1ed06e9443a54611986fd81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#ae03296f0a1ed06e9443a54611986fd81">LoadInitialValues</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const entt::entity &amp;entity, const Hjson::Value &amp;value)</td></tr>
-<tr class="memdesc:ae03296f0a1ed06e9443a54611986fd81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the values that should be on every single data type Returns true if an identifier exists  <a href="namespacecqsp_1_1common_1_1loading.html#ae03296f0a1ed06e9443a54611986fd81">More...</a><br /></td></tr>
-<tr class="separator:ae03296f0a1ed06e9443a54611986fd81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fea0797245c9d0730f20a97a202a892"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#a4fea0797245c9d0730f20a97a202a892">LoadName</a> (const <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;node, const Hjson::Value &amp;value)</td></tr>
+<tr class="memdesc:a4fea0797245c9d0730f20a97a202a892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if name exists  <a href="namespacecqsp_1_1common_1_1loading.html#a4fea0797245c9d0730f20a97a202a892">More...</a><br /></td></tr>
+<tr class="separator:a4fea0797245c9d0730f20a97a202a892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae568e03934a953701e506d73e2b225fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#ae568e03934a953701e506d73e2b225fb">LoadIdentifier</a> (const <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;node, const Hjson::Value &amp;value)</td></tr>
+<tr class="separator:ae568e03934a953701e506d73e2b225fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfb4635db2df4858526a03f4293021df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#abfb4635db2df4858526a03f4293021df">LoadDescription</a> (const <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;node, const Hjson::Value &amp;value)</td></tr>
+<tr class="separator:abfb4635db2df4858526a03f4293021df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adde8c17f96d6a370cd849a0be8ff9744"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#adde8c17f96d6a370cd849a0be8ff9744">LoadTags</a> (const <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;node, const Hjson::Value &amp;value)</td></tr>
+<tr class="separator:adde8c17f96d6a370cd849a0be8ff9744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e31a16d83b8e0e53b3ec742ae78b5dd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#a7e31a16d83b8e0e53b3ec742ae78b5dd">LoadInitialValues</a> (const <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;node, const Hjson::Value &amp;value)</td></tr>
+<tr class="memdesc:a7e31a16d83b8e0e53b3ec742ae78b5dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the values that should be on every single data type Returns true if an identifier exists  <a href="namespacecqsp_1_1common_1_1loading.html#a7e31a16d83b8e0e53b3ec742ae78b5dd">More...</a><br /></td></tr>
+<tr class="separator:a7e31a16d83b8e0e53b3ec742ae78b5dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea0dcaa9b4e88446474579b8ac321709"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">components::ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#aea0dcaa9b4e88446474579b8ac321709">HjsonToLedger</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, Hjson::Value &amp;hjson)</td></tr>
 <tr class="separator:aea0dcaa9b4e88446474579b8ac321709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae46773c7b08d6db9c87a38f5cb763bf4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#ae46773c7b08d6db9c87a38f5cb763bf4">VerifyHjsonValueExists</a> (const Hjson::Value &amp;value, const std::string &amp;name, Hjson::Type type)</td></tr>
@@ -304,8 +304,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa2e37f6935fdb15f646c2e0ae77019b5" name="aa2e37f6935fdb15f646c2e0ae77019b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2e37f6935fdb15f646c2e0ae77019b5">&#9670;&nbsp;</a></span>LoadDescription()</h2>
+<a id="abfb4635db2df4858526a03f4293021df" name="abfb4635db2df4858526a03f4293021df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfb4635db2df4858526a03f4293021df">&#9670;&nbsp;</a></span>LoadDescription()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,14 +313,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">bool cqsp::common::loading::LoadDescription </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const entt::entity &amp;&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -366,8 +360,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa3c5285e52beed793aeb96eb7457f257" name="aa3c5285e52beed793aeb96eb7457f257"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3c5285e52beed793aeb96eb7457f257">&#9670;&nbsp;</a></span>LoadIdentifier()</h2>
+<a id="ae568e03934a953701e506d73e2b225fb" name="ae568e03934a953701e506d73e2b225fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae568e03934a953701e506d73e2b225fb">&#9670;&nbsp;</a></span>LoadIdentifier()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -375,14 +369,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">bool cqsp::common::loading::LoadIdentifier </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const entt::entity &amp;&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -400,8 +388,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae03296f0a1ed06e9443a54611986fd81" name="ae03296f0a1ed06e9443a54611986fd81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae03296f0a1ed06e9443a54611986fd81">&#9670;&nbsp;</a></span>LoadInitialValues()</h2>
+<a id="a7e31a16d83b8e0e53b3ec742ae78b5dd" name="a7e31a16d83b8e0e53b3ec742ae78b5dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e31a16d83b8e0e53b3ec742ae78b5dd">&#9670;&nbsp;</a></span>LoadInitialValues()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -409,14 +397,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">bool cqsp::common::loading::LoadInitialValues </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const entt::entity &amp;&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -436,8 +418,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aea0859f99d56e4fe5d23f2e15199d772" name="aea0859f99d56e4fe5d23f2e15199d772"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea0859f99d56e4fe5d23f2e15199d772">&#9670;&nbsp;</a></span>LoadName()</h2>
+<a id="a4fea0797245c9d0730f20a97a202a892" name="a4fea0797245c9d0730f20a97a202a892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fea0797245c9d0730f20a97a202a892">&#9670;&nbsp;</a></span>LoadName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,14 +427,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">bool cqsp::common::loading::LoadName </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const entt::entity &amp;&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -528,8 +504,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ee6a05ad8f6ea3afd1ab28779207f4e" name="a4ee6a05ad8f6ea3afd1ab28779207f4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ee6a05ad8f6ea3afd1ab28779207f4e">&#9670;&nbsp;</a></span>LoadProvinces()</h2>
+<a id="a78613cb296b0f7938d090c00d7a4b8e8" name="a78613cb296b0f7938d090c00d7a4b8e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78613cb296b0f7938d090c00d7a4b8e8">&#9670;&nbsp;</a></span>LoadProvinces()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -537,13 +513,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void cqsp::common::loading::LoadProvinces </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>planet</em>, </td>
         </tr>
         <tr>
@@ -590,8 +560,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7ea83bd0b7007424be53c638f18590ee" name="a7ea83bd0b7007424be53c638f18590ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ea83bd0b7007424be53c638f18590ee">&#9670;&nbsp;</a></span>LoadTags()</h2>
+<a id="adde8c17f96d6a370cd849a0be8ff9744" name="adde8c17f96d6a370cd849a0be8ff9744"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adde8c17f96d6a370cd849a0be8ff9744">&#9670;&nbsp;</a></span>LoadTags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -599,14 +569,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">bool cqsp::common::loading::LoadTags </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const entt::entity &amp;&#160;</td>
-          <td class="paramname"><em>entity</em>, </td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -845,7 +809,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 4 2025 02:02:27 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 7 2025 02:59:38 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

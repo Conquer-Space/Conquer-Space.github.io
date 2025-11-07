@@ -91,40 +91,38 @@ Functions</h2></td></tr>
 <tr class="memitem:ade19c5c83ac54afbc6ae2f0f8eeb8e49"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#ade19c5c83ac54afbc6ae2f0f8eeb8e49">SellGood</a> (<a class="el" href="structcqsp_1_1common_1_1components_1_1_auction_house.html">components::AuctionHouse</a> &amp;auction_house, entt::entity agent, entt::entity good, double price, double quantity)</td></tr>
 <tr class="memdesc:ade19c5c83ac54afbc6ae2f0f8eeb8e49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sells a good to the market  <a href="namespacecqsp_1_1common_1_1actions.html#ade19c5c83ac54afbc6ae2f0f8eeb8e49">More...</a><br /></td></tr>
 <tr class="separator:ade19c5c83ac54afbc6ae2f0f8eeb8e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c5ec8b5f3d292695819d547c86b24ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a4c5ec8b5f3d292695819d547c86b24ae">AddParticipant</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity market_entity, entt::entity entity)</td></tr>
-<tr class="separator:a4c5ec8b5f3d292695819d547c86b24ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac324c6984ca4c875311ae8400e857243"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#ac324c6984ca4c875311ae8400e857243">GetCost</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity market, const <a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">components::ResourceLedger</a> &amp;ledger)</td></tr>
-<tr class="separator:ac324c6984ca4c875311ae8400e857243"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0708ed47baeb1886cdcb481367c3cf98"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a0708ed47baeb1886cdcb481367c3cf98">CreateMarket</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>)</td></tr>
-<tr class="memdesc:a0708ed47baeb1886cdcb481367c3cf98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a market two instance.  <a href="namespacecqsp_1_1common_1_1actions.html#a0708ed47baeb1886cdcb481367c3cf98">More...</a><br /></td></tr>
-<tr class="separator:a0708ed47baeb1886cdcb481367c3cf98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab779069054b4667fa7a3d81d271849c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#aab779069054b4667fa7a3d81d271849c">CreateMarket</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity market)</td></tr>
-<tr class="separator:aab779069054b4667fa7a3d81d271849c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4957171e4473db41206ce16b602872c3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a4957171e4473db41206ce16b602872c3">PurchaseGood</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity agent, const <a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">components::ResourceLedger</a> &amp;purchase)</td></tr>
-<tr class="memdesc:a4957171e4473db41206ce16b602872c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Note: This will only buy the maximum resources that are in the market. If there aren't enough resources on the market, then we buy all the remaining resources on the market. You'll have to calculate how much you want later on  <a href="namespacecqsp_1_1common_1_1actions.html#a4957171e4473db41206ce16b602872c3">More...</a><br /></td></tr>
-<tr class="separator:a4957171e4473db41206ce16b602872c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9da5bb884098e998c55da391d1cfb38f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a9da5bb884098e998c55da391d1cfb38f">SellGood</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity agent, const <a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">components::ResourceLedger</a> &amp;selling)</td></tr>
-<tr class="separator:a9da5bb884098e998c55da391d1cfb38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8201951be2eb7454d59ed8fc704e4ba"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#aa8201951be2eb7454d59ed8fc704e4ba">OrderConstructionFactory</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity city, entt::entity market, entt::entity recipe, int productivity, entt::entity builder)</td></tr>
-<tr class="memdesc:aa8201951be2eb7454d59ed8fc704e4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will charge the entity builder the amount needed to construct the factory/building. You'll have to find a organization that can construct it though.  <a href="namespacecqsp_1_1common_1_1actions.html#aa8201951be2eb7454d59ed8fc704e4ba">More...</a><br /></td></tr>
-<tr class="separator:aa8201951be2eb7454d59ed8fc704e4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a477566ad7878b84142fea517c158f2c4"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a477566ad7878b84142fea517c158f2c4">CreateFactory</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity city, entt::entity recipe, int productivity, double wages=10)</td></tr>
-<tr class="memdesc:a477566ad7878b84142fea517c158f2c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a factory from thin air  <a href="namespacecqsp_1_1common_1_1actions.html#a477566ad7878b84142fea517c158f2c4">More...</a><br /></td></tr>
-<tr class="separator:a477566ad7878b84142fea517c158f2c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58bd7e2e77c83f139464ca671f088acc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">components::ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a58bd7e2e77c83f139464ca671f088acc">GetFactoryCost</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity city, entt::entity recipe, int productivity)</td></tr>
-<tr class="separator:a58bd7e2e77c83f139464ca671f088acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacb425d6e06997100d66a9d87599b014"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#aacb425d6e06997100d66a9d87599b014">CreateCommercialArea</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity city)</td></tr>
-<tr class="separator:aacb425d6e06997100d66a9d87599b014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dd981ed0e74eeac43bd3c42cd88955c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a5dd981ed0e74eeac43bd3c42cd88955c">AddParticipant</a> (<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;market_node, <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;participant)</td></tr>
+<tr class="separator:a5dd981ed0e74eeac43bd3c42cd88955c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe297da6b77fc1579bab775a37dd107b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#afe297da6b77fc1579bab775a37dd107b">GetCost</a> (<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;market, const <a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">components::ResourceLedger</a> &amp;ledger)</td></tr>
+<tr class="separator:afe297da6b77fc1579bab775a37dd107b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bf793639890dfde95ae67126f2af93d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a8bf793639890dfde95ae67126f2af93d">CreateMarket</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>)</td></tr>
+<tr class="memdesc:a8bf793639890dfde95ae67126f2af93d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a market two instance.  <a href="namespacecqsp_1_1common_1_1actions.html#a8bf793639890dfde95ae67126f2af93d">More...</a><br /></td></tr>
+<tr class="separator:a8bf793639890dfde95ae67126f2af93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a051e259327951ff9400724da3271e5d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a051e259327951ff9400724da3271e5d4">PurchaseGood</a> (<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;agent, const <a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">components::ResourceLedger</a> &amp;purchase)</td></tr>
+<tr class="memdesc:a051e259327951ff9400724da3271e5d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Note: This will only buy the maximum resources that are in the market. If there aren't enough resources on the market, then we buy all the remaining resources on the market. You'll have to calculate how much you want later on  <a href="namespacecqsp_1_1common_1_1actions.html#a051e259327951ff9400724da3271e5d4">More...</a><br /></td></tr>
+<tr class="separator:a051e259327951ff9400724da3271e5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47aabc2ae02b0a335b330dac7e3a317c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a47aabc2ae02b0a335b330dac7e3a317c">SellGood</a> (<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;agent, const <a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">components::ResourceLedger</a> &amp;selling)</td></tr>
+<tr class="separator:a47aabc2ae02b0a335b330dac7e3a317c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54954ec5ac09c54ef942c5642528747d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a54954ec5ac09c54ef942c5642528747d">OrderConstructionFactory</a> (<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;city, <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;market, <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;recipe, <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;builder, int productivity=1)</td></tr>
+<tr class="memdesc:a54954ec5ac09c54ef942c5642528747d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will charge the entity builder the amount needed to construct the factory/building. You'll have to find a organization that can construct it though.  <a href="namespacecqsp_1_1common_1_1actions.html#a54954ec5ac09c54ef942c5642528747d">More...</a><br /></td></tr>
+<tr class="separator:a54954ec5ac09c54ef942c5642528747d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a730e0f754b387dfab92b8f33474bebbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a730e0f754b387dfab92b8f33474bebbe">CreateFactory</a> (<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;city, <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;recipe, int productivity=1, double wages=10)</td></tr>
+<tr class="memdesc:a730e0f754b387dfab92b8f33474bebbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a factory from thin air  <a href="namespacecqsp_1_1common_1_1actions.html#a730e0f754b387dfab92b8f33474bebbe">More...</a><br /></td></tr>
+<tr class="separator:a730e0f754b387dfab92b8f33474bebbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a406ff8e4310629d251a1bc79d83f279a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">components::ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a406ff8e4310629d251a1bc79d83f279a">GetFactoryCost</a> (<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;city, <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;recipe, int productivity)</td></tr>
+<tr class="separator:a406ff8e4310629d251a1bc79d83f279a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed06178c9a43408f3ab2e807ec41b4e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#aed06178c9a43408f3ab2e807ec41b4e0">CreateCommercialArea</a> (<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;city)</td></tr>
+<tr class="separator:aed06178c9a43408f3ab2e807ec41b4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83fb26a3a2975107bc787a9c420ef225"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a83fb26a3a2975107bc787a9c420ef225">GetCityPopulation</a> (const <a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity city)</td></tr>
 <tr class="separator:a83fb26a3a2975107bc787a9c420ef225"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a531512c1b430d3ffc9331864d3e9956d"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a531512c1b430d3ffc9331864d3e9956d">CreateLab</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>)</td></tr>
 <tr class="separator:a531512c1b430d3ffc9331864d3e9956d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcc3a5dcea95c426f2b71270c69ebdd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#adcc3a5dcea95c426f2b71270c69ebdd4">AddScienceResearch</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity lab, entt::entity research, double progress)</td></tr>
 <tr class="separator:adcc3a5dcea95c426f2b71270c69ebdd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bb37e92c7a236eec1bb1c6e488fd09f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a4bb37e92c7a236eec1bb1c6e488fd09f">ResearchTech</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity civilization, entt::entity tech)</td></tr>
-<tr class="separator:a4bb37e92c7a236eec1bb1c6e488fd09f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae887348fb63369914c12fbb43c540d48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#ae887348fb63369914c12fbb43c540d48">ProcessAction</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity civilization, const std::string &amp;action)</td></tr>
-<tr class="separator:ae887348fb63369914c12fbb43c540d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a053946f80833a53b576acdadd11fb725"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a053946f80833a53b576acdadd11fb725">ResearchTech</a> (<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;civilization, <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;tech)</td></tr>
+<tr class="separator:a053946f80833a53b576acdadd11fb725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab11bd8a2998fe9aff89da6ff5e9a73f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#ab11bd8a2998fe9aff89da6ff5e9a73f7">ProcessAction</a> (<a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;civilization, const std::string &amp;action)</td></tr>
+<tr class="separator:ab11bd8a2998fe9aff89da6ff5e9a73f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26c1f836ab0b17faf59332eecf1536ab"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a26c1f836ab0b17faf59332eecf1536ab">CreateShip</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity civEnt, const glm::vec3 &amp;orbit, entt::entity starsystem)</td></tr>
 <tr class="separator:a26c1f836ab0b17faf59332eecf1536ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad608c5b30b8263c77cba301f98b951b"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#aad608c5b30b8263c77cba301f98b951b">CreateShip</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity civ, entt::entity orbit, entt::entity starsystem)</td></tr>
@@ -141,8 +139,8 @@ Functions</h2></td></tr>
 <tr class="separator:a1aaa661453ccdb4dcea4ad82dbbd6324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a4c5ec8b5f3d292695819d547c86b24ae" name="a4c5ec8b5f3d292695819d547c86b24ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c5ec8b5f3d292695819d547c86b24ae">&#9670;&nbsp;</a></span>AddParticipant()</h2>
+<a id="a5dd981ed0e74eeac43bd3c42cd88955c" name="a5dd981ed0e74eeac43bd3c42cd88955c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dd981ed0e74eeac43bd3c42cd88955c">&#9670;&nbsp;</a></span>AddParticipant()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -150,20 +148,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void cqsp::common::actions::AddParticipant </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>market_node</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
-          <td class="paramname"><em>market_entity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
-          <td class="paramname"><em>entity</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>participant</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -313,63 +305,47 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aacb425d6e06997100d66a9d87599b014" name="aacb425d6e06997100d66a9d87599b014"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacb425d6e06997100d66a9d87599b014">&#9670;&nbsp;</a></span>CreateCommercialArea()</h2>
+<a id="aed06178c9a43408f3ab2e807ec41b4e0" name="aed06178c9a43408f3ab2e807ec41b4e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed06178c9a43408f3ab2e807ec41b4e0">&#9670;&nbsp;</a></span>CreateCommercialArea()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">entt::entity cqsp::common::actions::CreateCommercialArea </td>
+          <td class="memname"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> cqsp::common::actions::CreateCommercialArea </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>city</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
-          <td class="paramname"><em>city</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a477566ad7878b84142fea517c158f2c4" name="a477566ad7878b84142fea517c158f2c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a477566ad7878b84142fea517c158f2c4">&#9670;&nbsp;</a></span>CreateFactory()</h2>
+<a id="a730e0f754b387dfab92b8f33474bebbe" name="a730e0f754b387dfab92b8f33474bebbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a730e0f754b387dfab92b8f33474bebbe">&#9670;&nbsp;</a></span>CreateFactory()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">entt::entity cqsp::common::actions::CreateFactory </td>
+          <td class="memname"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> cqsp::common::actions::CreateFactory </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>city</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>recipe</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>productivity</em>, </td>
+          <td class="paramname"><em>productivity</em> = <code>1</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -417,14 +393,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0708ed47baeb1886cdcb481367c3cf98" name="a0708ed47baeb1886cdcb481367c3cf98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0708ed47baeb1886cdcb481367c3cf98">&#9670;&nbsp;</a></span>CreateMarket() <span class="overload">[1/2]</span></h2>
+<a id="a8bf793639890dfde95ae67126f2af93d" name="a8bf793639890dfde95ae67126f2af93d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bf793639890dfde95ae67126f2af93d">&#9670;&nbsp;</a></span>CreateMarket()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">entt::entity cqsp::common::actions::CreateMarket </td>
+          <td class="memname"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> cqsp::common::actions::CreateMarket </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
           <td class="paramname"><em>universe</em></td><td>)</td>
@@ -434,34 +410,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a market two instance. </p>
-
-</div>
-</div>
-<a id="aab779069054b4667fa7a3d81d271849c" name="aab779069054b4667fa7a3d81d271849c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab779069054b4667fa7a3d81d271849c">&#9670;&nbsp;</a></span>CreateMarket() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void cqsp::common::actions::CreateMarket </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
-          <td class="paramname"><em>market</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -676,8 +624,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac324c6984ca4c875311ae8400e857243" name="ac324c6984ca4c875311ae8400e857243"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac324c6984ca4c875311ae8400e857243">&#9670;&nbsp;</a></span>GetCost()</h2>
+<a id="afe297da6b77fc1579bab775a37dd107b" name="afe297da6b77fc1579bab775a37dd107b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe297da6b77fc1579bab775a37dd107b">&#9670;&nbsp;</a></span>GetCost()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -685,13 +633,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">double cqsp::common::actions::GetCost </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>market</em>, </td>
         </tr>
         <tr>
@@ -710,8 +652,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a58bd7e2e77c83f139464ca671f088acc" name="a58bd7e2e77c83f139464ca671f088acc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58bd7e2e77c83f139464ca671f088acc">&#9670;&nbsp;</a></span>GetFactoryCost()</h2>
+<a id="a406ff8e4310629d251a1bc79d83f279a" name="a406ff8e4310629d251a1bc79d83f279a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a406ff8e4310629d251a1bc79d83f279a">&#9670;&nbsp;</a></span>GetFactoryCost()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -719,19 +661,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classcqsp_1_1common_1_1components_1_1_resource_ledger.html">components::ResourceLedger</a> cqsp::common::actions::GetFactoryCost </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>city</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>recipe</em>, </td>
         </tr>
         <tr>
@@ -778,47 +714,41 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa8201951be2eb7454d59ed8fc704e4ba" name="aa8201951be2eb7454d59ed8fc704e4ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8201951be2eb7454d59ed8fc704e4ba">&#9670;&nbsp;</a></span>OrderConstructionFactory()</h2>
+<a id="a54954ec5ac09c54ef942c5642528747d" name="a54954ec5ac09c54ef942c5642528747d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54954ec5ac09c54ef942c5642528747d">&#9670;&nbsp;</a></span>OrderConstructionFactory()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">entt::entity cqsp::common::actions::OrderConstructionFactory </td>
+          <td class="memname"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> cqsp::common::actions::OrderConstructionFactory </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>city</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>market</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>recipe</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>productivity</em>, </td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>builder</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
-          <td class="paramname"><em>builder</em>&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>productivity</em> = <code>1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -843,8 +773,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae887348fb63369914c12fbb43c540d48" name="ae887348fb63369914c12fbb43c540d48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae887348fb63369914c12fbb43c540d48">&#9670;&nbsp;</a></span>ProcessAction()</h2>
+<a id="ab11bd8a2998fe9aff89da6ff5e9a73f7" name="ab11bd8a2998fe9aff89da6ff5e9a73f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab11bd8a2998fe9aff89da6ff5e9a73f7">&#9670;&nbsp;</a></span>ProcessAction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -852,13 +782,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void cqsp::common::actions::ProcessAction </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>civilization</em>, </td>
         </tr>
         <tr>
@@ -877,8 +801,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4957171e4473db41206ce16b602872c3" name="a4957171e4473db41206ce16b602872c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4957171e4473db41206ce16b602872c3">&#9670;&nbsp;</a></span>PurchaseGood()</h2>
+<a id="a051e259327951ff9400724da3271e5d4" name="a051e259327951ff9400724da3271e5d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a051e259327951ff9400724da3271e5d4">&#9670;&nbsp;</a></span>PurchaseGood()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -886,13 +810,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">bool cqsp::common::actions::PurchaseGood </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>agent</em>, </td>
         </tr>
         <tr>
@@ -922,8 +840,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4bb37e92c7a236eec1bb1c6e488fd09f" name="a4bb37e92c7a236eec1bb1c6e488fd09f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bb37e92c7a236eec1bb1c6e488fd09f">&#9670;&nbsp;</a></span>ResearchTech()</h2>
+<a id="a053946f80833a53b576acdadd11fb725" name="a053946f80833a53b576acdadd11fb725"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a053946f80833a53b576acdadd11fb725">&#9670;&nbsp;</a></span>ResearchTech()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -931,19 +849,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void cqsp::common::actions::ResearchTech </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>civilization</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>tech</em>&#160;</td>
         </tr>
         <tr>
@@ -1014,8 +926,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9da5bb884098e998c55da391d1cfb38f" name="a9da5bb884098e998c55da391d1cfb38f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9da5bb884098e998c55da391d1cfb38f">&#9670;&nbsp;</a></span>SellGood() <span class="overload">[2/2]</span></h2>
+<a id="a47aabc2ae02b0a335b330dac7e3a317c" name="a47aabc2ae02b0a335b330dac7e3a317c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47aabc2ae02b0a335b330dac7e3a317c">&#9670;&nbsp;</a></span>SellGood() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1023,13 +935,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">bool cqsp::common::actions::SellGood </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>agent</em>, </td>
         </tr>
         <tr>
@@ -1110,7 +1016,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 4 2025 02:02:27 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 7 2025 02:59:38 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

@@ -13,7 +13,7 @@ var searchData=
   ['addlayer_10',['AddLayer',['../classcqsp_1_1engine_1_1_layer_renderer.html#aaec75a245b9eb6f79f4d3a97119759d5',1,'cqsp::engine::LayerRenderer']]],
   ['addmountpoint_11',['AddMountPoint',['../classcqsp_1_1asset_1_1_virtual_mounter.html#a2fdd0dadd6a63107480a41628057f941',1,'cqsp::asset::VirtualMounter']]],
   ['addnegative_12',['AddNegative',['../classcqsp_1_1common_1_1components_1_1_resource_ledger.html#a7c2a7655ee6ca006a8d0fe833d0ada31',1,'cqsp::common::components::ResourceLedger']]],
-  ['addparticipant_13',['AddParticipant',['../namespacecqsp_1_1common_1_1actions.html#a4c5ec8b5f3d292695819d547c86b24ae',1,'cqsp::common::actions::AddParticipant()'],['../structcqsp_1_1common_1_1components_1_1_market.html#ad27f3a6c5c0586f0e8c365becfbe6a5d',1,'cqsp::common::components::Market::AddParticipant()']]],
+  ['addparticipant_13',['AddParticipant',['../namespacecqsp_1_1common_1_1actions.html#a5dd981ed0e74eeac43bd3c42cd88955c',1,'cqsp::common::actions::AddParticipant()'],['../structcqsp_1_1common_1_1components_1_1_market.html#ad27f3a6c5c0586f0e8c365becfbe6a5d',1,'cqsp::common::components::Market::AddParticipant()']]],
   ['addpositive_14',['AddPositive',['../classcqsp_1_1common_1_1components_1_1_resource_ledger.html#a488584c225f8521ee5279e3756bb5a3c',1,'cqsp::common::components::ResourceLedger']]],
   ['addrmluisystem_15',['AddRmlUiSystem',['../classcqsp_1_1client_1_1scene_1_1_universe_scene.html#a5443f063ef3fc78235f42d75c7a5b196',1,'cqsp::client::scene::UniverseScene']]],
   ['addscienceresearch_16',['AddScienceResearch',['../namespacecqsp_1_1common_1_1actions.html#adcc3a5dcea95c426f2b71270c69ebdd4',1,'cqsp::common::actions']]],

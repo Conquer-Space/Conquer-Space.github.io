@@ -39,7 +39,7 @@ var searchData=
   ['rendertext_36',['RenderText',['../namespacecqsp_1_1asset.html#a013310334bd077829a7a52f63a73a165',1,'cqsp::asset']]],
   ['rendertoclipmask_37',['RenderToClipMask',['../class_render_interface___g_l3.html#ac95abfbb62b266d07771a4e0fd07738e',1,'RenderInterface_GL3']]],
   ['requestplayaudio_38',['RequestPlayAudio',['../classcqsp_1_1engine_1_1audio_1_1_i_audio_interface.html#a3232d123c63fd3325fa606ee41f3ab5d',1,'cqsp::engine::audio::IAudioInterface::RequestPlayAudio()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#aae6b87e6210d53c3743094d5f83d8ca6',1,'cqsp::engine::audio::AudioInterface::RequestPlayAudio()']]],
-  ['researchtech_39',['ResearchTech',['../namespacecqsp_1_1common_1_1actions.html#a4bb37e92c7a236eec1bb1c6e488fd09f',1,'cqsp::common::actions']]],
+  ['researchtech_39',['ResearchTech',['../namespacecqsp_1_1common_1_1actions.html#a053946f80833a53b576acdadd11fb725',1,'cqsp::common::actions']]],
   ['reset_40',['Reset',['../structcqsp_1_1common_1_1components_1_1_cost_breakdown.html#adc7b3bd4cbecc6919611beb79720d973',1,'cqsp::common::components::CostBreakdown::Reset()'],['../structcqsp_1_1common_1_1components_1_1_wallet.html#a7f5200b2c406a206f5251aefb83f0198',1,'cqsp::common::components::Wallet::Reset()']]],
   ['resetgame_41',['ResetGame',['../classcqsp_1_1engine_1_1_application.html#a7a807acdd01e6afb07d97e7d3e76d79e',1,'cqsp::engine::Application']]],
   ['resetledgers_42',['ResetLedgers',['../structcqsp_1_1common_1_1components_1_1_market_information.html#a8cc2e8cd6195ae1c8bc36a87b9a17362',1,'cqsp::common::components::MarketInformation']]],

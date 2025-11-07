@@ -103,10 +103,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae0fc2bad1b7e592f9b43f7ac8cfb429e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20684d4604d9bac0b85735c79a06f677"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1loading_1_1_hjson_loader.html#a20684d4604d9bac0b85735c79a06f677">LoadHjson</a> (const Hjson::Value &amp;values)</td></tr>
 <tr class="separator:a20684d4604d9bac0b85735c79a06f677"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e9931fb42635e7dc8955ca9c3a4bdba"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1loading_1_1_hjson_loader.html#a1e9931fb42635e7dc8955ca9c3a4bdba">LoadValue</a> (const Hjson::Value &amp;values, entt::entity entity)=0</td></tr>
-<tr class="separator:a1e9931fb42635e7dc8955ca9c3a4bdba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac43635ab25623cce4ca59190b214a511"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1loading_1_1_hjson_loader.html#ac43635ab25623cce4ca59190b214a511">PostLoad</a> (const entt::entity &amp;entity)</td></tr>
-<tr class="separator:ac43635ab25623cce4ca59190b214a511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac74214c1baef3214b928578f095e8306"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1loading_1_1_hjson_loader.html#ac74214c1baef3214b928578f095e8306">LoadValue</a> (const Hjson::Value &amp;values, <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;node)=0</td></tr>
+<tr class="separator:ac74214c1baef3214b928578f095e8306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57123b4abbcf4dcecc9183aecccfe234"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1loading_1_1_hjson_loader.html#a57123b4abbcf4dcecc9183aecccfe234">PostLoad</a> (const <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;node)</td></tr>
+<tr class="separator:a57123b4abbcf4dcecc9183aecccfe234"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb2128bd30a91d8f974db9b3b81d813e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1loading_1_1_hjson_loader.html#aeb2128bd30a91d8f974db9b3b81d813e">NeedIdentifier</a> ()</td></tr>
 <tr class="separator:aeb2128bd30a91d8f974db9b3b81d813e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -214,8 +214,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e9931fb42635e7dc8955ca9c3a4bdba" name="a1e9931fb42635e7dc8955ca9c3a4bdba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e9931fb42635e7dc8955ca9c3a4bdba">&#9670;&nbsp;</a></span>LoadValue()</h2>
+<a id="ac74214c1baef3214b928578f095e8306" name="ac74214c1baef3214b928578f095e8306"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac74214c1baef3214b928578f095e8306">&#9670;&nbsp;</a></span>LoadValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -232,8 +232,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">entt::entity&#160;</td>
-          <td class="paramname"><em>entity</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -248,7 +248,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcqsp_1_1common_1_1loading_1_1_city_loader.html#adb8cc254ae403ba9508934caa19ff3d3">cqsp::common::loading::CityLoader</a>, <a class="el" href="classcqsp_1_1common_1_1loading_1_1_country_loader.html#addc07e59acf894ccec55319f7360b7ff">cqsp::common::loading::CountryLoader</a>, <a class="el" href="classcqsp_1_1common_1_1loading_1_1_good_loader.html#a06f8c15f7017d0f63021beb50b06be4b">cqsp::common::loading::GoodLoader</a>, <a class="el" href="classcqsp_1_1common_1_1loading_1_1_satellite_loader.html#a1fda526c46700aedde773857526509d1">cqsp::common::loading::SatelliteLoader</a>, <a class="el" href="classcqsp_1_1common_1_1loading_1_1_planet_loader.html#a638553fab9fa1ed1fd500a702f7a78bf">cqsp::common::loading::PlanetLoader</a>, <a class="el" href="classcqsp_1_1common_1_1loading_1_1_recipe_loader.html#a35764874e8b9a5ff6633487332ea8888">cqsp::common::loading::RecipeLoader</a>, and <a class="el" href="classcqsp_1_1common_1_1loading_1_1_timezone_loader.html#a020f5fb46bf827fd0fdddd5a7a88f4d3">cqsp::common::loading::TimezoneLoader</a>.</p>
+<p>Implemented in <a class="el" href="classcqsp_1_1common_1_1loading_1_1_city_loader.html#a99d7c142d7f817c173111fb67fafed19">cqsp::common::loading::CityLoader</a>, <a class="el" href="classcqsp_1_1common_1_1loading_1_1_country_loader.html#acedf71287458fdffad86a66466243c93">cqsp::common::loading::CountryLoader</a>, <a class="el" href="classcqsp_1_1common_1_1loading_1_1_good_loader.html#aebeadea3945931a002a5443cd1d681e3">cqsp::common::loading::GoodLoader</a>, <a class="el" href="classcqsp_1_1common_1_1loading_1_1_satellite_loader.html#a8ad06f294c28cf647a5d3458b8eb5f40">cqsp::common::loading::SatelliteLoader</a>, <a class="el" href="classcqsp_1_1common_1_1loading_1_1_planet_loader.html#aa37dec01414ca4b5d48a028016df3024">cqsp::common::loading::PlanetLoader</a>, <a class="el" href="classcqsp_1_1common_1_1loading_1_1_recipe_loader.html#a01ed2cea2c3df8cf793f12db5ad17a4a">cqsp::common::loading::RecipeLoader</a>, and <a class="el" href="classcqsp_1_1common_1_1loading_1_1_timezone_loader.html#a76c9be6b5fcc5675718091fad5b4a7ab">cqsp::common::loading::TimezoneLoader</a>.</p>
 
 </div>
 </div>
@@ -279,8 +279,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac43635ab25623cce4ca59190b214a511" name="ac43635ab25623cce4ca59190b214a511"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac43635ab25623cce4ca59190b214a511">&#9670;&nbsp;</a></span>PostLoad()</h2>
+<a id="a57123b4abbcf4dcecc9183aecccfe234" name="a57123b4abbcf4dcecc9183aecccfe234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57123b4abbcf4dcecc9183aecccfe234">&#9670;&nbsp;</a></span>PostLoad()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,8 +291,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual void cqsp::common::loading::HjsonLoader::PostLoad </td>
           <td>(</td>
-          <td class="paramtype">const entt::entity &amp;&#160;</td>
-          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1common_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -303,7 +303,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classcqsp_1_1common_1_1loading_1_1_city_loader.html#a7f60dee840f9ae79cec9fa4d0f4f2c48">cqsp::common::loading::CityLoader</a>, <a class="el" href="classcqsp_1_1common_1_1loading_1_1_planet_loader.html#a0f62eef79e13662de8b1afa60a06f6b6">cqsp::common::loading::PlanetLoader</a>, and <a class="el" href="classcqsp_1_1common_1_1loading_1_1_timezone_loader.html#a465074a2c1d07d523df39efb1dc79ace">cqsp::common::loading::TimezoneLoader</a>.</p>
+<p>Reimplemented in <a class="el" href="classcqsp_1_1common_1_1loading_1_1_city_loader.html#a32be4aeac0c60535f1a8ea08e0eabddd">cqsp::common::loading::CityLoader</a>, <a class="el" href="classcqsp_1_1common_1_1loading_1_1_planet_loader.html#a0b1134225aac2ed26029cd425a32e71c">cqsp::common::loading::PlanetLoader</a>, and <a class="el" href="classcqsp_1_1common_1_1loading_1_1_timezone_loader.html#a9e6225bdc95ec88f9dccdbc180a1e6bf">cqsp::common::loading::TimezoneLoader</a>.</p>
 
 </div>
 </div>
@@ -337,7 +337,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 4 2025 02:02:27 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 7 2025 02:59:38 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
