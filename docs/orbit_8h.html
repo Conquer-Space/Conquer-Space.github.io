@@ -72,7 +72,8 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">orbit.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -112,8 +113,8 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad3d77d26a296d969d3d806679ae3e6bf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad3d77d26a296d969d3d806679ae3e6bf">cqsp::common::components::types::GetOrbitingRadius</a> (const double &amp;e, const radian &amp;a, const radian &amp;v)</td></tr>
-<tr class="separator:ad3d77d26a296d969d3d806679ae3e6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab67fe3e536ed81389c3c5b634a545915"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ab67fe3e536ed81389c3c5b634a545915">cqsp::common::components::types::GetOrbitingRadius</a> (const double e, const kilometer a, const radian v)</td></tr>
+<tr class="separator:ab67fe3e536ed81389c3c5b634a545915"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51d31dee9ee6ad5a2e422e220462ee60"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a51d31dee9ee6ad5a2e422e220462ee60">cqsp::common::components::types::operator&lt;&lt;</a> (std::ostream &amp;outs, const Orbit &amp;orb)</td></tr>
 <tr class="separator:a51d31dee9ee6ad5a2e422e220462ee60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a295c90db9d8393eb83c655900b9ce7f0"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a295c90db9d8393eb83c655900b9ce7f0">cqsp::common::components::types::ConvertOrbParams</a> (const double LAN, const double i, const double w, const glm::dvec3 &amp;vec)</td></tr>
@@ -230,11 +231,24 @@ Functions</h2></td></tr>
 <tr class="separator:a026d3df45b104e4dd72cd38f00588927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a557214f27d759892827ebcd5d6ccd2a1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a557214f27d759892827ebcd5d6ccd2a1">cqsp::common::components::types::AscendingTrueAnomaly</a> (const Orbit &amp;start, const Orbit &amp;dest)</td></tr>
 <tr class="separator:a557214f27d759892827ebcd5d6ccd2a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a240ec52c275c0f4f381bfdb1aac25eed"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a240ec52c275c0f4f381bfdb1aac25eed">cqsp::common::components::types::GetEccentricity</a> (double apoapsis, double periapsis)</td></tr>
+<tr class="separator:a240ec52c275c0f4f381bfdb1aac25eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9867e24893eb42a224a4ceb48c341a6"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad9867e24893eb42a224a4ceb48c341a6">cqsp::common::components::types::GetEccentricityVector</a> (const glm::dvec3 &amp;h, const glm::dvec3 &amp;r, const glm::dvec3 &amp;v, const double GM)</td></tr>
+<tr class="separator:ad9867e24893eb42a224a4ceb48c341a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a376f16f95928574a440dd4ebd8c7099d"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a376f16f95928574a440dd4ebd8c7099d">cqsp::common::components::types::GetEccentricityVector</a> (const glm::dvec3 &amp;r, const glm::dvec3 &amp;v, const double GM)</td></tr>
+<tr class="separator:a376f16f95928574a440dd4ebd8c7099d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a4017f6c14ea08b79447e1f907ba47080"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a4017f6c14ea08b79447e1f907ba47080">cqsp::common::components::types::apoapsis</a> = PI</td></tr>
+<tr class="separator:a4017f6c14ea08b79447e1f907ba47080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83c3829478530c28771ccd8c265d8ee9"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a83c3829478530c28771ccd8c265d8ee9">cqsp::common::components::types::periapsis</a> = 0</td></tr>
+<tr class="separator:a83c3829478530c28771ccd8c265d8ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 8 2025 06:54:13 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Nov 11 2025 02:43:00 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
