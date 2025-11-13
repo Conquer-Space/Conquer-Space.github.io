@@ -76,8 +76,8 @@ $(function() {
 <li>GDP_change&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_wallet.html#a058f0853c710e18d2697e0d962dd676d">cqsp::common::components::Wallet</a></li>
 <li>gen&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1util_1_1_orbit_generator.html#a2b37372dc2d16d134b3fbb2e5cf5dd45">cqsp::common::util::OrbitGenerator</a></li>
 <li>Generate()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1actions_1_1_name_generator.html#ae3d42b9f8059f38957a92ce1e7e4e1e4">cqsp::common::actions::NameGenerator</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1universegenerator_1_1_i_sys_universe_generator.html#acfcecfc31994969c13c402f655939fc6">cqsp::common::systems::universegenerator::ISysUniverseGenerator</a>, <a class="el" href="classcqsp_1_1common_1_1systems_1_1universegenerator_1_1_script_universe_generator.html#ac565d265795249fcbd68f249e23c0ad9">cqsp::common::systems::universegenerator::ScriptUniverseGenerator</a></li>
-<li>GenerateOrbit()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aece885397741b4b628bbf677e286fc55">cqsp::client::systems::SysStarSystemRenderer</a>, <a class="el" href="classcqsp_1_1common_1_1util_1_1_orbit_generator.html#af7f71a239d850a237914069bfc645849">cqsp::common::util::OrbitGenerator</a></li>
-<li>GenerateOrbitLines()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a24fd90a676310ff15762b2066339274b">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>GenerateOrbit()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_orbit_geometry.html#a1724aef730f2d1255f53fe09bfe4b8e8">cqsp::client::systems::SysOrbitGeometry</a>, <a class="el" href="classcqsp_1_1common_1_1util_1_1_orbit_generator.html#af7f71a239d850a237914069bfc645849">cqsp::common::util::OrbitGenerator</a></li>
+<li>GenerateOrbitLines()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_orbit_geometry.html#a94eb2c52a17852d1a57cd7e9da66bcd2">cqsp::client::systems::SysOrbitGeometry</a></li>
 <li>GenerateTexture()&#160;:&#160;<a class="el" href="class_render_interface___g_l3.html#a77d0269baacab4bbd6d1395409027e57">RenderInterface_GL3</a></li>
 <li>GenerateVectors()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1util_1_1_orbit_generator.html#a72a03e049d7ec0e5357827c6efe22429">cqsp::common::util::OrbitGenerator</a></li>
 <li>geometry&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_shader_definition.html#a5a22113415710a19f177b989ec92800a">cqsp::asset::ShaderDefinition</a></li>
@@ -105,7 +105,7 @@ $(function() {
 <li>GetBillboardMatrix()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a622483b4045433fdcb24aca86c61fe62">cqsp::client::systems::SysStarSystemRenderer</a></li>
 <li>GetBillboardPosition()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a6ddee493ec5ad0621b7c715eeeb69176">cqsp::client::systems::SysStarSystemRenderer</a></li>
 <li>GetBlendMask()&#160;:&#160;<a class="el" href="class_render_interface___g_l3_1_1_render_layer_stack.html#ab5b3822d4b1ef0ab145213f2a88a0193">RenderInterface_GL3::RenderLayerStack</a></li>
-<li>GetBodyRotation()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a63cdfa7007d39d2676f16aadfec19005">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>GetBodyRotation()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ad84202abeff7944f88c5be6fb39212bf">cqsp::client::systems::StarSystemController</a></li>
 <li>GetChange()&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_wallet.html#a2372f0c34cf5188b0768ad2bd6da14d1">cqsp::common::components::Wallet</a></li>
 <li>GetClientOptions()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a998a7ed240ed82176c57cdc5b88e0749">cqsp::engine::Application</a></li>
 <li>GetClipboardText()&#160;:&#160;<a class="el" href="class_system_interface___g_l_f_w.html#a8204f97ee90783c02a4298eb0cc52884">SystemInterface_GLFW</a></li>
@@ -141,9 +141,11 @@ $(function() {
 <li>GetMissingAssets()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#abeefae59de7a458d299b8bc3f39e238b">cqsp::asset::AssetLoader</a></li>
 <li>GetModFilePath()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a59a00cb968d52278e9d65b0b9860b1c8">cqsp::asset::AssetLoader</a></li>
 <li>GetMonth()&#160;:&#160;<a class="el" href="classcqsp_1_1common_1_1components_1_1_star_date.html#a2fd40820bf76ac870da1ed9dbf5db24d">cqsp::common::components::StarDate</a></li>
-<li>GetMouseIntersectionOnObject()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a3a6bcad5702bad241fb3a7c433a2a651">cqsp::client::systems::SysStarSystemRenderer</a></li>
-<li>GetMouseOnObject()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a6e901e547c3c1427d155a8560dce6d5d">cqsp::client::systems::SysStarSystemRenderer</a></li>
-<li>GetMouseSurfaceIntersection()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#afe85b82ab6041079b35701cd3c0cc4c7">cqsp::client::systems::SysStarSystemRenderer</a></li>
+<li>GetMouseInScreenSpace()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#abc4b5b90594ed94579ce50d2732e3a27">cqsp::client::systems::StarSystemController</a></li>
+<li>GetMouseIntersectionOnObject()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ae2eabb2a57cf13bbfd2641ca0e124da0">cqsp::client::systems::StarSystemController</a></li>
+<li>GetMouseOnObject()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a81de5e94cd63e843b8e2de884a508898">cqsp::client::systems::StarSystemController</a></li>
+<li>GetMouseOnObjectPosition()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a6cb8f859c5dadd70c9544dd453bfbc79">cqsp::client::systems::StarSystemController</a></li>
+<li>GetMouseSurfaceIntersection()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ae0f674e99dbec6ef1aa1e5ed99e259fe">cqsp::client::systems::StarSystemController</a></li>
 <li>GetMouseX()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a9dd88797845c24776c1a31880b912707">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#adf0c6513542eeed19badc6ef5387d674">cqsp::engine::GLWindow</a>, <a class="el" href="classcqsp_1_1engine_1_1_window.html#a92ee7988ed4c2bc19ef35f81afc9c7b4">cqsp::engine::Window</a></li>
 <li>GetMouseY()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#ad4a8a1116b6ffb0c4d51d0c39dfbb7de">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a0651462f0529e7ea930e29c64cd1d8f1">cqsp::engine::GLWindow</a>, <a class="el" href="classcqsp_1_1engine_1_1_window.html#ab348cdc10c095fe9f41e922741a558c1">cqsp::engine::Window</a></li>
 <li>GetMtElliptic()&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#abbb37b758f6a18e60638c4fb6b5d3a85">cqsp::common::components::types::Orbit</a></li>
@@ -171,6 +173,7 @@ $(function() {
 <li>GetScene()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_scene_manager.html#aa6655e1e24ffa3b32e9348902611d7ef">cqsp::engine::SceneManager</a></li>
 <li>GetScriptInterface()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1_client_scene.html#a144715f543007b3fe092d1f761e40eae">cqsp::client::ClientScene</a>, <a class="el" href="classcqsp_1_1client_1_1_conquer_space.html#a5414d23d5b1ffe887bef634740d0a84f">cqsp::client::ConquerSpace</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html#ab4b129e8330534aa7936a8d58957d1e4">cqsp::client::systems::SysUserInterface</a>, <a class="el" href="classcqsp_1_1common_1_1_game.html#a2940794a30797c6ba13ebb1f2a02dd15">cqsp::common::Game</a></li>
 <li>GetScrollAmount()&#160;:&#160;<a class="el" href="classcqsp_1_1engine_1_1_application.html#a4f77accf5cc7263c3e1448fe70e55c9d">cqsp::engine::Application</a>, <a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a9cbc307f3c7cb135589bb61371070851">cqsp::engine::GLWindow</a>, <a class="el" href="classcqsp_1_1engine_1_1_window.html#a7e12cc1844d68cb8fac33a40311eae3e">cqsp::engine::Window</a></li>
+<li>GetScrollValue()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ad47303d591d42f214e35a2567481d195">cqsp::client::systems::StarSystemController</a></li>
 <li>GetSDRatio()&#160;:&#160;<a class="el" href="structcqsp_1_1common_1_1components_1_1_market.html#a8de824be8af251549520cdd6700902c0">cqsp::common::components::Market</a></li>
 <li>GetSimulation()&#160;:&#160;<a class="el" href="classcqsp_1_1client_1_1headless_1_1_headless_application.html#a5bcc2bbabb81a6280f36689af00e4b5e">cqsp::client::headless::HeadlessApplication</a></li>
 <li>GetSize()&#160;:&#160;<a class="el" href="classcqsp_1_1asset_1_1_i_virtual_directory.html#a03be39d129083b1bb53812a2c9801e1a">cqsp::asset::IVirtualDirectory</a>, <a class="el" href="classcqsp_1_1asset_1_1_native_directory.html#a768551e95d25fec0d7206462fbc147c0">cqsp::asset::NativeDirectory</a></li>
@@ -202,7 +205,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 11 2025 02:43:02 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 13 2025 07:56:56 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

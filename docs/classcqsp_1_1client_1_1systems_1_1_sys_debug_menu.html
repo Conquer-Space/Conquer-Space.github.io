@@ -159,8 +159,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ac12f5edb9ea395a4b4f80481682d84fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a375e2ab3c81cbfdbff13da33bee63058"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::pair&lt; std::string, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a19edd86749d0007ac86f3293212241f0">DebugCommand_t</a> &gt;, std::less&lt;&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a375e2ab3c81cbfdbff13da33bee63058">commands</a></td></tr>
 <tr class="separator:a375e2ab3c81cbfdbff13da33bee63058"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc61c16e77cd0f7c84b0f40f481111ef"><td class="memItemLeft" align="right" valign="top">std::vector&lt; ImVec2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#acc61c16e77cd0f7c84b0f40f481111ef">fps_history</a></td></tr>
-<tr class="separator:acc61c16e77cd0f7c84b0f40f481111ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c735353e395f085eb9fb44aa4778f2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a17c735353e395f085eb9fb44aa4778f2">fps_history</a></td></tr>
+<tr class="separator:a17c735353e395f085eb9fb44aa4778f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1ca5f1f64f95669f42867306f3e8606"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#ac1ca5f1f64f95669f42867306f3e8606">time_history</a></td></tr>
+<tr class="separator:ac1ca5f1f64f95669f42867306f3e8606"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa23639868fd2a6e2b5e95b9496fab6b7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#aa23639868fd2a6e2b5e95b9496fab6b7">fps_history_len</a> = 10</td></tr>
 <tr class="separator:aa23639868fd2a6e2b5e95b9496fab6b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91c7c566500fc9b131d3105bd8b0461e"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::vector&lt; ImVec2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#a91c7c566500fc9b131d3105bd8b0461e">history_maps</a></td></tr>
@@ -545,8 +547,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="acc61c16e77cd0f7c84b0f40f481111ef" name="acc61c16e77cd0f7c84b0f40f481111ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc61c16e77cd0f7c84b0f40f481111ef">&#9670;&nbsp;</a></span>fps_history</h2>
+<a id="a17c735353e395f085eb9fb44aa4778f2" name="a17c735353e395f085eb9fb44aa4778f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17c735353e395f085eb9fb44aa4778f2">&#9670;&nbsp;</a></span>fps_history</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -555,7 +557,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;ImVec2&gt; cqsp::client::systems::SysDebugMenu::fps_history</td>
+          <td class="memname">std::vector&lt;float&gt; cqsp::client::systems::SysDebugMenu::fps_history</td>
         </tr>
       </table>
   </td>
@@ -666,6 +668,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool cqsp::client::systems::SysDebugMenu::scroll_to_bottom = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1ca5f1f64f95669f42867306f3e8606" name="ac1ca5f1f64f95669f42867306f3e8606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1ca5f1f64f95669f42867306f3e8606">&#9670;&nbsp;</a></span>time_history</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;float&gt; cqsp::client::systems::SysDebugMenu::time_history</td>
         </tr>
       </table>
   </td>
@@ -816,7 +840,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 11 2025 02:43:01 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 13 2025 07:56:55 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

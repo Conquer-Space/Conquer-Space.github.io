@@ -34,7 +34,7 @@ var searchData=
   ['mousedragged_31',['MouseDragged',['../classcqsp_1_1engine_1_1_application.html#a7f23d7d8753c9c088da9f2617cf5f693',1,'cqsp::engine::Application::MouseDragged()'],['../classcqsp_1_1engine_1_1_window.html#a7b8f8f882ef833b0268f9f8b29fafd10',1,'cqsp::engine::Window::MouseDragged()'],['../classcqsp_1_1engine_1_1_g_l_window.html#af2e96bc4c9b6ee520b525fb5f3e9b06f',1,'cqsp::engine::GLWindow::MouseDragged() const']]],
   ['mouseentercallback_32',['MouseEnterCallback',['../classcqsp_1_1engine_1_1_g_l_window.html#a520e0fc76bc875fd34c2bcfede27541c',1,'cqsp::engine::GLWindow']]],
   ['mousepositioncallback_33',['MousePositionCallback',['../classcqsp_1_1engine_1_1_g_l_window.html#ad6d82df86ed38300a5a5147bb80a7561',1,'cqsp::engine::GLWindow']]],
-  ['movecamera_34',['MoveCamera',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a8de01ba565f030c5911e0e59b885d57a',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['movecamera_34',['MoveCamera',['../classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aa71d497b7498c9aa2594177d70126906',1,'cqsp::client::systems::StarSystemController']]],
   ['movetarget_35',['MoveTarget',['../structcqsp_1_1common_1_1components_1_1types_1_1_move_target.html#a2229790afce1784119b9654d85614af6',1,'cqsp::common::components::types::MoveTarget']]],
   ['multiplyadd_36',['MultiplyAdd',['../classcqsp_1_1common_1_1components_1_1_resource_ledger.html#ab0931b6d6f83042d3e8183c21d12886d',1,'cqsp::common::components::ResourceLedger']]],
   ['multiplyandgetsum_37',['MultiplyAndGetSum',['../classcqsp_1_1common_1_1components_1_1_resource_ledger.html#a17ca7fca6bdb82054823b5c7934da4d3',1,'cqsp::common::components::ResourceLedger']]]

@@ -25,10 +25,10 @@ var searchData=
   ['intermediatefbo_22',['intermediateFBO',['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a9551d650df2adc47cd66d1fe724e7af7',1,'cqsp::engine::AAFrameBufferRenderer']]],
   ['interp_23',['interp',['../classcqsp_1_1client_1_1scene_1_1_universe_scene.html#a8d91099ecf274812c2851d675d566e03',1,'cqsp::client::scene::UniverseScene']]],
   ['interval_24',['interval',['../structcqsp_1_1common_1_1components_1_1_recipe.html#a299b89fd21e2cd24966ff2bfa2702918',1,'cqsp::common::components::Recipe::interval()'],['../structcqsp_1_1common_1_1components_1_1_factory_timer.html#a7b09e1406f666328eca64fce3166e430',1,'cqsp::common::components::FactoryTimer::interval()']]],
-  ['is_5ffounding_5fcity_25',['is_founding_city',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a7a9ecdd0c73dca66564bfc721b44ffd8',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['is_5ffounding_5fcity_25',['is_founding_city',['../classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a98499a4182fa10c0caedc672bf2e5a93',1,'cqsp::client::systems::StarSystemController']]],
   ['is_5foptions_5fvisible_26',['is_options_visible',['../classcqsp_1_1client_1_1scene_1_1_main_menu_scene.html#a8ea1569a2ac86be57576bfb63d42c671',1,'cqsp::client::scene::MainMenuScene']]],
   ['is_5fpaused_27',['is_paused',['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a52073c60e65987882d029bd283f18645',1,'cqsp::client::systems::rmlui::TurnSaveWindow']]],
-  ['is_5frendering_5ffounding_5fcity_28',['is_rendering_founding_city',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a27d3b19aa78df4a3228d3ff3e79e0a50',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['is_5frendering_5ffounding_5fcity_28',['is_rendering_founding_city',['../classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ac7842c706bba131adfed8d3970a0c500',1,'cqsp::client::systems::StarSystemController']]],
   ['items_29',['items',['../classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#ac12f5edb9ea395a4b4f80481682d84fe',1,'cqsp::client::systems::SysDebugMenu']]],
   ['ivfp_30',['ivfp',['../classcqsp_1_1asset_1_1_i_o_stream.html#abf0e5da3ac2bd737ef8145df1571e4dc',1,'cqsp::asset::IOStream']]]
 ];
