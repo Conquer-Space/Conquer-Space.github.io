@@ -7,11 +7,12 @@ var searchData=
   ['orbit_4',['orbit',['../structcqsp_1_1common_1_1components_1_1_orbit_target.html#af0a7eb201f983d18dad5a234da270614',1,'cqsp::common::components::OrbitTarget']]],
   ['orbit_5fgeometry_5',['orbit_geometry',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a0e7b5d296fecac97bb3883c178ceb939',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['orbit_5fmesh_6',['orbit_mesh',['../structcqsp_1_1client_1_1components_1_1_orbit_mesh.html#a20b110fcd75e61be1ea0cb4c29c13c2a',1,'cqsp::client::components::OrbitMesh']]],
-  ['orbit_5fshader_7',['orbit_shader',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a393e340f88afe93ea940ec3e4c73562d',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['orbits_5fgenerated_8',['orbits_generated',['../classcqsp_1_1client_1_1systems_1_1_sys_orbit_geometry.html#abc4568507cd42be45b093b4b9cafb6ec',1,'cqsp::client::systems::SysOrbitGeometry']]],
-  ['output_9',['output',['../structcqsp_1_1common_1_1components_1_1_recipe.html#a1c6a97fe2ccb92718b2976ef7e3bedfa',1,'cqsp::common::components::Recipe']]],
-  ['output_5fresources_10',['output_resources',['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_space_port.html#ad4328a9a0d86f076218f01bf62e307c1',1,'cqsp::common::components::infrastructure::SpacePort']]],
-  ['output_5fresources_5frate_11',['output_resources_rate',['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_space_port.html#a6f0e8a981da1c2ce78c778c88f049466',1,'cqsp::common::components::infrastructure::SpacePort']]],
-  ['owner_12',['owner',['../structcqsp_1_1common_1_1components_1_1_owned.html#ac17c20e72be125275824ff3da94edc72',1,'cqsp::common::components::Owned::owner()'],['../structcqsp_1_1common_1_1components_1_1ships_1_1_fleet.html#a41e4787dbbc437046282b594f99dfd57',1,'cqsp::common::components::ships::Fleet::owner()']]],
-  ['owns_5fdepth_5fstencil_5fbuffer_13',['owns_depth_stencil_buffer',['../struct_gfx_1_1_framebuffer_data.html#a888df663964e0c7b13583679ff4e0902',1,'Gfx::FramebufferData']]]
+  ['orbit_5fresolution_7',['ORBIT_RESOLUTION',['../classcqsp_1_1client_1_1systems_1_1_sys_orbit_geometry.html#a1be4129e7c37b7b572d6c858bb2b76e8',1,'cqsp::client::systems::SysOrbitGeometry']]],
+  ['orbit_5fshader_8',['orbit_shader',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a393e340f88afe93ea940ec3e4c73562d',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['orbits_5fgenerated_9',['orbits_generated',['../classcqsp_1_1client_1_1systems_1_1_sys_orbit_geometry.html#abc4568507cd42be45b093b4b9cafb6ec',1,'cqsp::client::systems::SysOrbitGeometry']]],
+  ['output_10',['output',['../structcqsp_1_1common_1_1components_1_1_recipe.html#a1c6a97fe2ccb92718b2976ef7e3bedfa',1,'cqsp::common::components::Recipe']]],
+  ['output_5fresources_11',['output_resources',['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_space_port.html#ad4328a9a0d86f076218f01bf62e307c1',1,'cqsp::common::components::infrastructure::SpacePort']]],
+  ['output_5fresources_5frate_12',['output_resources_rate',['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_space_port.html#a6f0e8a981da1c2ce78c778c88f049466',1,'cqsp::common::components::infrastructure::SpacePort']]],
+  ['owner_13',['owner',['../structcqsp_1_1common_1_1components_1_1_owned.html#ac17c20e72be125275824ff3da94edc72',1,'cqsp::common::components::Owned::owner()'],['../structcqsp_1_1common_1_1components_1_1ships_1_1_fleet.html#a41e4787dbbc437046282b594f99dfd57',1,'cqsp::common::components::ships::Fleet::owner()']]],
+  ['owns_5fdepth_5fstencil_5fbuffer_14',['owns_depth_stencil_buffer',['../struct_gfx_1_1_framebuffer_data.html#a888df663964e0c7b13583679ff4e0902',1,'Gfx::FramebufferData']]]
 ];
