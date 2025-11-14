@@ -95,14 +95,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab32a4ae9cfe79143d62aff39f4694053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ee9219fc01cf67400b1158fe32414a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a4ee9219fc01cf67400b1158fe32414a9">Initialize</a> () override</td></tr>
 <tr class="separator:a4ee9219fc01cf67400b1158fe32414a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60d2521d3cd1bb8715e3a1e712a4c456"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file.html">IVirtualFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a60d2521d3cd1bb8715e3a1e712a4c456">Open</a> (const std::string &amp;path, <a class="el" href="namespacecqsp_1_1asset.html#aed22fbadec167de1f146f108ba1f550a">FileModes</a>) override</td></tr>
-<tr class="memdesc:a60d2521d3cd1bb8715e3a1e712a4c456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens file from the filesystem. Returns nullptr if file is invalid  <a href="classcqsp_1_1asset_1_1_native_file_system.html#a60d2521d3cd1bb8715e3a1e712a4c456">More...</a><br /></td></tr>
-<tr class="separator:a60d2521d3cd1bb8715e3a1e712a4c456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a9d3d1ae9df61157a1af53730f9ef07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a4a9d3d1ae9df61157a1af53730f9ef07">Close</a> (std::shared_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file.html">IVirtualFile</a> &gt; &amp;) override</td></tr>
-<tr class="separator:a4a9d3d1ae9df61157a1af53730f9ef07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aace941f3dab3cf95edd5674ad4d2a3ac"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_i_virtual_directory.html">IVirtualDirectory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#aace941f3dab3cf95edd5674ad4d2a3ac">OpenDirectory</a> (const std::string &amp;dir) override</td></tr>
-<tr class="memdesc:aace941f3dab3cf95edd5674ad4d2a3ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists all the files in the directory. Does not list directories in the list because for our purposes, we do not need to traverse and process directories with this. Returns nullptr if path does not exist or is not a directory.  <a href="classcqsp_1_1asset_1_1_native_file_system.html#aace941f3dab3cf95edd5674ad4d2a3ac">More...</a><br /></td></tr>
-<tr class="separator:aace941f3dab3cf95edd5674ad4d2a3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b306efbe40e139054d403e79e4226b4"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file.html">IVirtualFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a7b306efbe40e139054d403e79e4226b4">Open</a> (const std::string &amp;path, <a class="el" href="namespacecqsp_1_1asset.html#aed22fbadec167de1f146f108ba1f550a">FileModes</a>) override</td></tr>
+<tr class="memdesc:a7b306efbe40e139054d403e79e4226b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens file from the filesystem. Returns nullptr if file is invalid  <a href="classcqsp_1_1asset_1_1_native_file_system.html#a7b306efbe40e139054d403e79e4226b4">More...</a><br /></td></tr>
+<tr class="separator:a7b306efbe40e139054d403e79e4226b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec006a9826742fe898892fd3fee1e852"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#aec006a9826742fe898892fd3fee1e852">Close</a> (<a class="el" href="namespacecqsp_1_1asset.html#aad34e921425ce7efb4d34c87e5002f31">IVirtualFilePtr</a> &amp;) override</td></tr>
+<tr class="memdesc:aec006a9826742fe898892fd3fee1e852"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the file.  <a href="classcqsp_1_1asset_1_1_native_file_system.html#aec006a9826742fe898892fd3fee1e852">More...</a><br /></td></tr>
+<tr class="separator:aec006a9826742fe898892fd3fee1e852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f46acd7c99bc811263e6890b426575"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1asset.html#afc57671f834b100155e4e56af3b80577">IVirtualDirectoryPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a19f46acd7c99bc811263e6890b426575">OpenDirectory</a> (const std::string &amp;dir) override</td></tr>
+<tr class="memdesc:a19f46acd7c99bc811263e6890b426575"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists all the files in the directory and subdirectories. Returns nullptr if path does not exist or is not a directory.  <a href="classcqsp_1_1asset_1_1_native_file_system.html#a19f46acd7c99bc811263e6890b426575">More...</a><br /></td></tr>
+<tr class="separator:a19f46acd7c99bc811263e6890b426575"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5ca947548553abb0d379ae139707a38"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#ad5ca947548553abb0d379ae139707a38">IsFile</a> (const std::string &amp;path) override</td></tr>
 <tr class="memdesc:ad5ca947548553abb0d379ae139707a38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the file a file  <a href="classcqsp_1_1asset_1_1_native_file_system.html#ad5ca947548553abb0d379ae139707a38">More...</a><br /></td></tr>
 <tr class="separator:ad5ca947548553abb0d379ae139707a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,9 +120,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad4ac6555fff82b524ed39cc32e745fd2 inherit pub_methods_classcqsp_1_1asset_1_1_i_virtual_file_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1a61f682a063489a274e35eaa111206 inherit pub_methods_classcqsp_1_1asset_1_1_i_virtual_file_system"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad1a61f682a063489a274e35eaa111206">~IVirtualFileSystem</a> ()</td></tr>
 <tr class="separator:ad1a61f682a063489a274e35eaa111206 inherit pub_methods_classcqsp_1_1asset_1_1_i_virtual_file_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad60fdbf195286ba87e7059a1e93ec377 inherit pub_methods_classcqsp_1_1asset_1_1_i_virtual_file_system"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad60fdbf195286ba87e7059a1e93ec377">Close</a> (<a class="el" href="namespacecqsp_1_1asset.html#aad34e921425ce7efb4d34c87e5002f31">IVirtualFilePtr</a> &amp;)=0</td></tr>
-<tr class="memdesc:ad60fdbf195286ba87e7059a1e93ec377 inherit pub_methods_classcqsp_1_1asset_1_1_i_virtual_file_system"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the file.  <a href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad60fdbf195286ba87e7059a1e93ec377">More...</a><br /></td></tr>
-<tr class="separator:ad60fdbf195286ba87e7059a1e93ec377 inherit pub_methods_classcqsp_1_1asset_1_1_i_virtual_file_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -183,8 +181,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4a9d3d1ae9df61157a1af53730f9ef07" name="a4a9d3d1ae9df61157a1af53730f9ef07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a9d3d1ae9df61157a1af53730f9ef07">&#9670;&nbsp;</a></span>Close()</h2>
+<a id="aec006a9826742fe898892fd3fee1e852" name="aec006a9826742fe898892fd3fee1e852"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec006a9826742fe898892fd3fee1e852">&#9670;&nbsp;</a></span>Close()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,17 +193,21 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void cqsp::asset::NativeFileSystem::Close </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file.html">IVirtualFile</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>vf</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespacecqsp_1_1asset.html#aad34e921425ce7efb4d34c87e5002f31">IVirtualFilePtr</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Closes the file. </p>
+
+<p>Implements <a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad60fdbf195286ba87e7059a1e93ec377">cqsp::asset::IVirtualFileSystem</a>.</p>
 
 </div>
 </div>
@@ -351,8 +353,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a60d2521d3cd1bb8715e3a1e712a4c456" name="a60d2521d3cd1bb8715e3a1e712a4c456"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60d2521d3cd1bb8715e3a1e712a4c456">&#9670;&nbsp;</a></span>Open()</h2>
+<a id="a7b306efbe40e139054d403e79e4226b4" name="a7b306efbe40e139054d403e79e4226b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b306efbe40e139054d403e79e4226b4">&#9670;&nbsp;</a></span>Open()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -361,7 +363,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file.html">cqsp::asset::IVirtualFile</a> &gt; cqsp::asset::NativeFileSystem::Open </td>
+          <td class="memname"><a class="el" href="namespacecqsp_1_1asset.html#aad34e921425ce7efb4d34c87e5002f31">IVirtualFilePtr</a> cqsp::asset::NativeFileSystem::Open </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>path</em>, </td>
@@ -391,8 +393,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aace941f3dab3cf95edd5674ad4d2a3ac" name="aace941f3dab3cf95edd5674ad4d2a3ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aace941f3dab3cf95edd5674ad4d2a3ac">&#9670;&nbsp;</a></span>OpenDirectory()</h2>
+<a id="a19f46acd7c99bc811263e6890b426575" name="a19f46acd7c99bc811263e6890b426575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19f46acd7c99bc811263e6890b426575">&#9670;&nbsp;</a></span>OpenDirectory()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -401,7 +403,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classcqsp_1_1asset_1_1_i_virtual_directory.html">cqsp::asset::IVirtualDirectory</a> &gt; cqsp::asset::NativeFileSystem::OpenDirectory </td>
+          <td class="memname"><a class="el" href="namespacecqsp_1_1asset.html#afc57671f834b100155e4e56af3b80577">IVirtualDirectoryPtr</a> cqsp::asset::NativeFileSystem::OpenDirectory </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -415,7 +417,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Lists all the files in the directory. Does not list directories in the list because for our purposes, we do not need to traverse and process directories with this. Returns nullptr if path does not exist or is not a directory. </p>
+<p>Lists all the files in the directory and subdirectories. Returns nullptr if path does not exist or is not a directory. </p>
 
 <p>Implements <a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#a94fccab64ee9454574d896a6b5d97f59">cqsp::asset::IVirtualFileSystem</a>.</p>
 
@@ -473,7 +475,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 22 2025 22:26:15 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 14 2025 09:20:00 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

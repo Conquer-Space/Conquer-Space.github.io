@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/systems/loading/loadprovinces.h Source File</title>
+<title>Conquer Space: /github/workspace/src/common/loading/loadprovinces.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_ed16aa4d92549c1d71767d16186572e4.html">systems</a></li><li class="navelem"><a class="el" href="dir_26e4b7b7abf737d39ae914e1b55b26e2.html">loading</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_42207e80102a6555a76f2fa09c11e3e0.html">loading</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -89,21 +89,28 @@ $(function() {
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment"> */</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;hjson.h&gt;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="universe_8h.html">common/universe.h</a>&quot;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1common_1_1systems_1_1loading.html">cqsp::common::systems::loading</a> {</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a6cadd21a274e2b031de9ca1df9b9a1f8">LoadProvinces</a>(common::Universe&amp; <a class="code hl_variable" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, <span class="keyword">const</span> std::string&amp; text);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>}</div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1systems_1_1loading_html"><div class="ttname"><a href="namespacecqsp_1_1common_1_1systems_1_1loading.html">cqsp::common::systems::loading</a></div><div class="ttdef"><b>Definition:</b> hjsonloader.cpp:26</div></div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1systems_1_1loading_html_a6cadd21a274e2b031de9ca1df9b9a1f8"><div class="ttname"><a href="namespacecqsp_1_1common_1_1systems_1_1loading.html#a6cadd21a274e2b031de9ca1df9b9a1f8">cqsp::common::systems::loading::LoadProvinces</a></div><div class="ttdeci">void LoadProvinces(common::Universe &amp;universe, const std::string &amp;text)</div><div class="ttdef"><b>Definition:</b> loadprovinces.cpp:27</div></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &quot;<a class="code" href="universe_8h.html">common/universe.h</a>&quot;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1common_1_1loading.html">cqsp::common::loading</a> {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacecqsp_1_1common_1_1loading.html#a78613cb296b0f7938d090c00d7a4b8e8">LoadProvinces</a>(Node&amp; planet, <span class="keyword">const</span> std::string&amp; text);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacecqsp_1_1common_1_1loading.html#ad7880880c42b75b7ebcd4d38f28acabd">LoadAdjProvinces</a>(Universe&amp; <a class="code hl_variable" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, Hjson::Value&amp; adjacency_map);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="namespacecqsp_1_1common_1_1loading.html#af899fd537ff2125122931b4b2ee6e332">   28</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacecqsp_1_1common_1_1loading.html#af899fd537ff2125122931b4b2ee6e332">LoadAllProvinces</a>(<a class="code hl_class" href="classcqsp_1_1common_1_1_universe.html">Universe</a>&amp; <a class="code hl_variable" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}  <span class="comment">// namespace cqsp::common::loading</span></div>
+<div class="ttc" id="aclasscqsp_1_1common_1_1_universe_html"><div class="ttname"><a href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a></div><div class="ttdef"><b>Definition:</b> universe.h:38</div></div>
+<div class="ttc" id="anamespacecqsp_1_1common_1_1loading_html"><div class="ttname"><a href="namespacecqsp_1_1common_1_1loading.html">cqsp::common::loading</a></div><div class="ttdef"><b>Definition:</b> fields.cpp:36</div></div>
+<div class="ttc" id="anamespacecqsp_1_1common_1_1loading_html_a78613cb296b0f7938d090c00d7a4b8e8"><div class="ttname"><a href="namespacecqsp_1_1common_1_1loading.html#a78613cb296b0f7938d090c00d7a4b8e8">cqsp::common::loading::LoadProvinces</a></div><div class="ttdeci">void LoadProvinces(Node &amp;planet, const std::string &amp;text)</div><div class="ttdef"><b>Definition:</b> loadprovinces.cpp:28</div></div>
+<div class="ttc" id="anamespacecqsp_1_1common_1_1loading_html_ad7880880c42b75b7ebcd4d38f28acabd"><div class="ttname"><a href="namespacecqsp_1_1common_1_1loading.html#ad7880880c42b75b7ebcd4d38f28acabd">cqsp::common::loading::LoadAdjProvinces</a></div><div class="ttdeci">void LoadAdjProvinces(Universe &amp;universe, Hjson::Value &amp;adjacency_map)</div><div class="ttdef"><b>Definition:</b> loadprovinces.cpp:71</div></div>
+<div class="ttc" id="anamespacecqsp_1_1common_1_1loading_html_af899fd537ff2125122931b4b2ee6e332"><div class="ttname"><a href="namespacecqsp_1_1common_1_1loading.html#af899fd537ff2125122931b4b2ee6e332">cqsp::common::loading::LoadAllProvinces</a></div><div class="ttdeci">void LoadAllProvinces(Universe &amp;universe)</div></div>
 <div class="ttc" id="aturnsavewindow_8h_html_adfd4fe8b82e62f73d8931ecb95c24d4e"><div class="ttname"><a href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a></div><div class="ttdeci">common::Universe * universe</div><div class="ttdef"><b>Definition:</b> turnsavewindow.h:3</div></div>
 <div class="ttc" id="auniverse_8h_html"><div class="ttname"><a href="universe_8h.html">universe.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 22 2025 22:26:14 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 14 2025 09:19:59 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

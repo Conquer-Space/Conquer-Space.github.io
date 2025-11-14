@@ -76,23 +76,30 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af0f07b35efcec8d3db69117902a7db8d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1util.html#af0f07b35efcec8d3db69117902a7db8d">LongToHumanString</a> (int64_t l)</td></tr>
-<tr class="separator:af0f07b35efcec8d3db69117902a7db8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14d75c0fb66d99d40e2cbe6d42fceb68"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1util.html#a14d75c0fb66d99d40e2cbe6d42fceb68">strip</a> (const std::string &amp;inpt)</td></tr>
+<tr class="separator:a14d75c0fb66d99d40e2cbe6d42fceb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf14af6467c8b1e4eb545f5e0b3bc1cc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1util.html#adf14af6467c8b1e4eb545f5e0b3bc1cc">split</a> (const std::string &amp;s, const std::string &amp;delimiter)</td></tr>
+<tr class="separator:adf14af6467c8b1e4eb545f5e0b3bc1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf332947cd896c0172b4d3c0b33be6f9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aaf332947cd896c0172b4d3c0b33be6f9"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1util.html#aaf332947cd896c0172b4d3c0b33be6f9">NumberToHumanString</a> (const T l)</td></tr>
+<tr class="separator:aaf332947cd896c0172b4d3c0b33be6f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="af0f07b35efcec8d3db69117902a7db8d" name="af0f07b35efcec8d3db69117902a7db8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0f07b35efcec8d3db69117902a7db8d">&#9670;&nbsp;</a></span>LongToHumanString()</h2>
+<a id="aaf332947cd896c0172b4d3c0b33be6f9" name="aaf332947cd896c0172b4d3c0b33be6f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf332947cd896c0172b4d3c0b33be6f9">&#9670;&nbsp;</a></span>NumberToHumanString()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string cqsp::util::LongToHumanString </td>
+          <td class="memname">std::string cqsp::util::NumberToHumanString </td>
           <td>(</td>
-          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramtype">const T&#160;</td>
           <td class="paramname"><em>l</em></td><td>)</td>
           <td></td>
         </tr>
@@ -106,10 +113,56 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="adf14af6467c8b1e4eb545f5e0b3bc1cc" name="adf14af6467c8b1e4eb545f5e0b3bc1cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf14af6467c8b1e4eb545f5e0b3bc1cc">&#9670;&nbsp;</a></span>split()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; cqsp::util::split </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>delimiter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14d75c0fb66d99d40e2cbe6d42fceb68" name="a14d75c0fb66d99d40e2cbe6d42fceb68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14d75c0fb66d99d40e2cbe6d42fceb68">&#9670;&nbsp;</a></span>strip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cqsp::util::strip </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>inpt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 22 2025 22:26:15 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 14 2025 09:20:00 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

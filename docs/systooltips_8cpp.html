@@ -78,11 +78,12 @@ $(function() {
 <code>#include &lt;cmath&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &quot;<a class="el" href="sysstockpileui_8h_source.html">client/scenes/universe/interface/sysstockpileui.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cityinformation_8h_source.html">common/actions/population/cityinformation.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="area_8h_source.html">common/components/area.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="bodies_8h_source.html">common/components/bodies.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="coordinates_8h_source.html">common/components/coordinates.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="economy_8h_source.html">common/components/economy.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="infrastructure_8h_source.html">common/components/infrastructure.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="market_8h_source.html">common/components/market.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="name_8h_source.html">common/components/name.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="orbit_8h_source.html">common/components/orbit.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="organizations_8h_source.html">common/components/organizations.h</a>&quot;</code><br />
@@ -91,7 +92,6 @@ $(function() {
 <code>#include &quot;<a class="el" href="science_8h_source.html">common/components/science.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ships_8h_source.html">common/components/ships.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="surface_8h_source.html">common/components/surface.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="cityinformation_8h_source.html">common/systems/population/cityinformation.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="nameutil_8h_source.html">common/util/nameutil.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utilnumberdisplay_8h_source.html">common/util/utilnumberdisplay.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gui_8h_source.html">engine/gui.h</a>&quot;</code><br />
@@ -99,7 +99,6 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp.html">cqsp</a></td></tr>
-<tr class="memdesc:namespacecqsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">When adding assets, it is extremely crucial that you read <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9df5f3c899dcd0e3bfa77929a986ce1c">cqsp::asset::AssetLoader::LoadResources</a> to find out how to add a resource to the game. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacecqsp_1_1client"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client.html">cqsp::client</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -110,17 +109,21 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aacdccc6d5af5f8f3ffef3b2430421aef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems_1_1gui.html#aacdccc6d5af5f8f3ffef3b2430421aef">cqsp::client::systems::gui::EntityTooltipContent</a> (const <a class="el" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;, entt::entity)</td></tr>
-<tr class="memdesc:aacdccc6d5af5f8f3ffef3b2430421aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">In case you want the tooltip content for debug displaying the information of an entity.  <a href="namespacecqsp_1_1client_1_1systems_1_1gui.html#aacdccc6d5af5f8f3ffef3b2430421aef">More...</a><br /></td></tr>
-<tr class="separator:aacdccc6d5af5f8f3ffef3b2430421aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a695b206fdc92b419cf9333f017141507"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems_1_1gui.html#a695b206fdc92b419cf9333f017141507">cqsp::client::systems::gui::EntityTooltip</a> (const <a class="el" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;, entt::entity)</td></tr>
-<tr class="memdesc:a695b206fdc92b419cf9333f017141507"><td class="mdescLeft">&#160;</td><td class="mdescRight">This actually creates the tooltip for the entity  <a href="namespacecqsp_1_1client_1_1systems_1_1gui.html#a695b206fdc92b419cf9333f017141507">More...</a><br /></td></tr>
-<tr class="separator:a695b206fdc92b419cf9333f017141507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add2badae72df471465b9052c02a09496"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems_1_1gui.html#add2badae72df471465b9052c02a09496">cqsp::client::systems::gui::RenderEntityType</a> (const Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity entity)</td></tr>
+<tr class="separator:add2badae72df471465b9052c02a09496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8e5bad59b8ebb57d809e6982c92d8d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems_1_1gui.html#ac8e5bad59b8ebb57d809e6982c92d8d7">cqsp::client::systems::gui::ResourceTooltipSection</a> (const Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity entity)</td></tr>
+<tr class="separator:ac8e5bad59b8ebb57d809e6982c92d8d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f5f09bdf6890041bf54b38b0763e25c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems_1_1gui.html#a9f5f09bdf6890041bf54b38b0763e25c">cqsp::client::systems::gui::EntityTooltipContent</a> (const common::Universe &amp;, entt::entity)</td></tr>
+<tr class="memdesc:a9f5f09bdf6890041bf54b38b0763e25c"><td class="mdescLeft">&#160;</td><td class="mdescRight">In case you want the tooltip content for debug displaying the information of an entity.  <a href="namespacecqsp_1_1client_1_1systems_1_1gui.html#a9f5f09bdf6890041bf54b38b0763e25c">More...</a><br /></td></tr>
+<tr class="separator:a9f5f09bdf6890041bf54b38b0763e25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13d4c477824a4505921258ca973c9d2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems_1_1gui.html#a13d4c477824a4505921258ca973c9d2c">cqsp::client::systems::gui::EntityTooltip</a> (const common::Universe &amp;, entt::entity)</td></tr>
+<tr class="memdesc:a13d4c477824a4505921258ca973c9d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This actually creates the tooltip for the entity  <a href="namespacecqsp_1_1client_1_1systems_1_1gui.html#a13d4c477824a4505921258ca973c9d2c">More...</a><br /></td></tr>
+<tr class="separator:a13d4c477824a4505921258ca973c9d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 22 2025 22:26:14 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 14 2025 09:19:59 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

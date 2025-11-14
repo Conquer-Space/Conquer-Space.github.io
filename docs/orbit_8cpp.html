@@ -77,7 +77,9 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="orbit_8h_source.html">common/components/orbit.h</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;cassert&gt;</code><br />
+<code>#include &lt;iomanip&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
 <code>#include &lt;glm/gtc/quaternion.hpp&gt;</code><br />
 <code>#include &lt;glm/gtx/projection.hpp&gt;</code><br />
 <code>#include &lt;glm/gtx/vector_angle.hpp&gt;</code><br />
@@ -85,7 +87,6 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp.html">cqsp</a></td></tr>
-<tr class="memdesc:namespacecqsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">When adding assets, it is extremely crucial that you read <a class="el" href="classcqsp_1_1asset_1_1_asset_loader.html#a9df5f3c899dcd0e3bfa77929a986ce1c">cqsp::asset::AssetLoader::LoadResources</a> to find out how to add a resource to the game. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacecqsp_1_1common"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common.html">cqsp::common</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -96,8 +97,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad3d77d26a296d969d3d806679ae3e6bf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad3d77d26a296d969d3d806679ae3e6bf">cqsp::common::components::types::GetOrbitingRadius</a> (const double &amp;e, const radian &amp;a, const radian &amp;v)</td></tr>
-<tr class="separator:ad3d77d26a296d969d3d806679ae3e6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab67fe3e536ed81389c3c5b634a545915"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ab67fe3e536ed81389c3c5b634a545915">cqsp::common::components::types::GetOrbitingRadius</a> (const double e, const kilometer a, const radian v)</td></tr>
+<tr class="separator:ab67fe3e536ed81389c3c5b634a545915"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a715d0f014c8d6420cf304fad2e921671"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a715d0f014c8d6420cf304fad2e921671">cqsp::common::components::types::MatrixConvertOrbParams</a> (const double LAN, const double i, const double w, const glm::dvec3 &amp;vec)</td></tr>
 <tr class="separator:a715d0f014c8d6420cf304fad2e921671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a295c90db9d8393eb83c655900b9ce7f0"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a295c90db9d8393eb83c655900b9ce7f0">cqsp::common::components::types::ConvertOrbParams</a> (const double LAN, const double i, const double w, const glm::dvec3 &amp;vec)</td></tr>
@@ -105,6 +106,10 @@ Functions</h2></td></tr>
 <tr class="separator:a295c90db9d8393eb83c655900b9ce7f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c571d969f3694393106bb599fe5f4a6"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a2c571d969f3694393106bb599fe5f4a6">cqsp::common::components::types::ConvertToOrbitalVector</a> (const double LAN, const double i, const double w, const double v, const glm::dvec3 &amp;vec)</td></tr>
 <tr class="separator:a2c571d969f3694393106bb599fe5f4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9867e24893eb42a224a4ceb48c341a6"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#ad9867e24893eb42a224a4ceb48c341a6">cqsp::common::components::types::GetEccentricityVector</a> (const glm::dvec3 &amp;h, const glm::dvec3 &amp;r, const glm::dvec3 &amp;v, const double GM)</td></tr>
+<tr class="separator:ad9867e24893eb42a224a4ceb48c341a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a376f16f95928574a440dd4ebd8c7099d"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a376f16f95928574a440dd4ebd8c7099d">cqsp::common::components::types::GetEccentricityVector</a> (const glm::dvec3 &amp;r, const glm::dvec3 &amp;v, const double GM)</td></tr>
+<tr class="separator:a376f16f95928574a440dd4ebd8c7099d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf095e129f33c2f3c1f80af47b679eff"><td class="memItemLeft" align="right" valign="top">Orbit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#abf095e129f33c2f3c1f80af47b679eff">cqsp::common::components::types::Vec3ToOrbit</a> (const glm::dvec3 &amp;position, const glm::dvec3 &amp;velocity, const double &amp;GM, const double &amp;time)</td></tr>
 <tr class="memdesc:abf095e129f33c2f3c1f80af47b679eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts position and velocity to orbit. Note: you will have to set the reference body after the orbit is returned  <a href="namespacecqsp_1_1common_1_1components_1_1types.html#abf095e129f33c2f3c1f80af47b679eff">More...</a><br /></td></tr>
 <tr class="separator:abf095e129f33c2f3c1f80af47b679eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,11 +195,21 @@ Functions</h2></td></tr>
 <tr class="separator:a026d3df45b104e4dd72cd38f00588927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a557214f27d759892827ebcd5d6ccd2a1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a557214f27d759892827ebcd5d6ccd2a1">cqsp::common::components::types::AscendingTrueAnomaly</a> (const Orbit &amp;start, const Orbit &amp;dest)</td></tr>
 <tr class="separator:a557214f27d759892827ebcd5d6ccd2a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a240ec52c275c0f4f381bfdb1aac25eed"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a240ec52c275c0f4f381bfdb1aac25eed">cqsp::common::components::types::GetEccentricity</a> (double apoapsis, double periapsis)</td></tr>
+<tr class="separator:a240ec52c275c0f4f381bfdb1aac25eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b25de677d7da009059a799e860f498"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a44b25de677d7da009059a799e860f498">cqsp::common::components::types::GetRadialVector</a> (const Orbit &amp;orbit)</td></tr>
+<tr class="separator:a44b25de677d7da009059a799e860f498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea141119fbdfba9e8f9e4feba2ead946"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#aea141119fbdfba9e8f9e4feba2ead946">cqsp::common::components::types::GetRadialVector</a> (const Orbit &amp;orbit, double true_anomaly)</td></tr>
+<tr class="separator:aea141119fbdfba9e8f9e4feba2ead946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01e1569a7814cfb986d8c49d9392ac7c"><td class="memItemLeft" align="right" valign="top">glm::dvec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a01e1569a7814cfb986d8c49d9392ac7c">cqsp::common::components::types::InvertOrbitalVector</a> (const double LAN, const double i, const double w, const double v, const glm::dvec3 &amp;vec)</td></tr>
+<tr class="separator:a01e1569a7814cfb986d8c49d9392ac7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d3243c8742bfc656894fe392870e6f0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components_1_1types.html#a7d3243c8742bfc656894fe392870e6f0">cqsp::common::components::types::AngleWith</a> (const Orbit &amp;orbit, const Orbit &amp;second_orbit)</td></tr>
+<tr class="separator:a7d3243c8742bfc656894fe392870e6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 22 2025 22:26:14 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 14 2025 09:19:59 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

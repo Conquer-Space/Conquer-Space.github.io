@@ -93,10 +93,10 @@ cqsp-client</h3>
 <p >We use <a href="https://github.com/mikke89/RmlUi">RmlUi</a> for our main UI, and <a href="https://github.com/ocornut/imgui">ImGui</a> to create our UI for debugging or prototyping.</p>
 <p >cqsp-client runs off a <a class="el" href="classcqsp_1_1engine_1_1_scene.html">scene system</a>, where different classes serve as scene and have specific code that runs every frame.</p>
 <p >There are 4 scenes for the main game loop, and 2 that matter.</p>
-<p >The first scene is the <a class="el" href="classcqsp_1_1scene_1_1_loading_scene.html">loading scene</a>, where the game asset's are loaded.</p>
-<p >The second scene is the <a class="el" href="classcqsp_1_1scene_1_1_main_menu_scene.html">main menu scene</a>, where the main menu UI takes place. So far, this is the only place where the UI is fully converted to RmlUi, so it is a good place to see how to intergrate RmlUi into the code.</p>
-<p >The third scene is the <a class="el" href="classcqsp_1_1scene_1_1_universe_loading_scene.html">universe loader scene</a>, where the all the game objects are created from the game assets to the actual entities. We used to use lua to load the universe, but after changing from a procedually generate universe, it is not really used.</p>
-<p >The final and scene that matters the most is the <a class="el" href="classcqsp_1_1scene_1_1_universe_scene.html">universe scene</a>. This is where the star system is <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html">rendered</a>. Most of the UI also exists here. We only support <a class="el" href="namespace_im_gui.html">ImGui</a>, but RmlUi replacements are planned after we have a proper structure.</p>
+<p >The first scene is the loading scene, where the game asset's are loaded.</p>
+<p >The second scene is the main menu scene, where the main menu UI takes place. So far, this is the only place where the UI is fully converted to RmlUi, so it is a good place to see how to intergrate RmlUi into the code.</p>
+<p >The third scene is the universe loader scene, where the all the game objects are created from the game assets to the actual entities. We used to use lua to load the universe, but after changing from a procedually generate universe, it is not really used.</p>
+<p >The final and scene that matters the most is the universe scene. This is where the star system is <a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html">rendered</a>. Most of the UI also exists here. We only support <a class="el" href="namespace_im_gui.html">ImGui</a>, but RmlUi replacements are planned after we have a proper structure.</p>
 <h3><a class="anchor" id="autotoc_md5"></a>
 cqsp-main</h3>
 <p >Just a main function to run the application.</p>
@@ -111,7 +111,7 @@ Scripting</h2>
 </div><!-- PageDoc -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 22 2025 22:26:15 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 14 2025 09:19:59 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

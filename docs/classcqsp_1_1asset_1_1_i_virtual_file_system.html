@@ -104,7 +104,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad60fdbf195286ba87e7059a1e93ec377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the file.  <a href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#ad60fdbf195286ba87e7059a1e93ec377">More...</a><br /></td></tr>
 <tr class="separator:ad60fdbf195286ba87e7059a1e93ec377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94fccab64ee9454574d896a6b5d97f59"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacecqsp_1_1asset.html#afc57671f834b100155e4e56af3b80577">IVirtualDirectoryPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#a94fccab64ee9454574d896a6b5d97f59">OpenDirectory</a> (const std::string &amp;path)=0</td></tr>
-<tr class="memdesc:a94fccab64ee9454574d896a6b5d97f59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists all the files in the directory. Does not list directories in the list because for our purposes, we do not need to traverse and process directories with this. Returns nullptr if path does not exist or is not a directory.  <a href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#a94fccab64ee9454574d896a6b5d97f59">More...</a><br /></td></tr>
+<tr class="memdesc:a94fccab64ee9454574d896a6b5d97f59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists all the files in the directory and subdirectories. Returns nullptr if path does not exist or is not a directory.  <a href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#a94fccab64ee9454574d896a6b5d97f59">More...</a><br /></td></tr>
 <tr class="separator:a94fccab64ee9454574d896a6b5d97f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5fea2682a840912035722cc123764c6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#ab5fea2682a840912035722cc123764c6">IsFile</a> (const std::string &amp;path)=0</td></tr>
 <tr class="memdesc:ab5fea2682a840912035722cc123764c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the file a file  <a href="classcqsp_1_1asset_1_1_i_virtual_file_system.html#ab5fea2682a840912035722cc123764c6">More...</a><br /></td></tr>
@@ -195,6 +195,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Closes the file. </p>
+
+<p>Implemented in <a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#aec006a9826742fe898892fd3fee1e852">cqsp::asset::NativeFileSystem</a>.</p>
 
 </div>
 </div>
@@ -351,7 +353,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Opens file from the filesystem. Returns nullptr if file is invalid </p>
 
-<p>Implemented in <a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a60d2521d3cd1bb8715e3a1e712a4c456">cqsp::asset::NativeFileSystem</a>.</p>
+<p>Implemented in <a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a7b306efbe40e139054d403e79e4226b4">cqsp::asset::NativeFileSystem</a>.</p>
 
 </div>
 </div>
@@ -379,9 +381,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Lists all the files in the directory. Does not list directories in the list because for our purposes, we do not need to traverse and process directories with this. Returns nullptr if path does not exist or is not a directory. </p>
+<p>Lists all the files in the directory and subdirectories. Returns nullptr if path does not exist or is not a directory. </p>
 
-<p>Implemented in <a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#aace941f3dab3cf95edd5674ad4d2a3ac">cqsp::asset::NativeFileSystem</a>.</p>
+<p>Implemented in <a class="el" href="classcqsp_1_1asset_1_1_native_file_system.html#a19f46acd7c99bc811263e6890b426575">cqsp::asset::NativeFileSystem</a>.</p>
 
 </div>
 </div>
@@ -391,7 +393,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 22 2025 22:26:15 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 14 2025 09:20:00 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

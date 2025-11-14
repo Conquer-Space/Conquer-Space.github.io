@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/client/systems/savegame.h Source File</title>
+<title>Conquer Space: /github/workspace/src/common/util/save/savegame.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6908ff505388a07996d238c763adbdab.html">client</a></li><li class="navelem"><a class="el" href="dir_803042ff8f64c8f5568f7e6f135513c7.html">systems</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_be04617272aece3468352586f0f1ec2c.html">util</a></li><li class="navelem"><a class="el" href="dir_3ca363a778ca64943dbef3e5ce1e1bec.html">save</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -93,20 +93,19 @@ $(function() {
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="universe_8h.html">common/universe.h</a>&quot;</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="namespacecqsp_1_1client_1_1save.html">   23</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1client_1_1save.html">cqsp::client::save</a> {</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacecqsp_1_1client_1_1save.html#aa528f61f26c18defaac5cda5c8c63929">save_game</a>(<a class="code hl_class" href="classcqsp_1_1common_1_1_universe.html">common::Universe</a>&amp; <a class="code hl_variable" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacecqsp_1_1client_1_1save.html#a5238980645efe5355e4d53a703b2d5f6">load_game</a>(<a class="code hl_class" href="classcqsp_1_1common_1_1_universe.html">common::Universe</a>&amp; <a class="code hl_variable" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, std::string_view directory);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}  <span class="comment">// namespace cqsp::client::save</span></div>
-<div class="ttc" id="aclasscqsp_1_1common_1_1_universe_html"><div class="ttname"><a href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a></div><div class="ttdef"><b>Definition:</b> universe.h:34</div></div>
-<div class="ttc" id="anamespacecqsp_1_1client_1_1save_html"><div class="ttname"><a href="namespacecqsp_1_1client_1_1save.html">cqsp::client::save</a></div><div class="ttdef"><b>Definition:</b> savegame.h:23</div></div>
-<div class="ttc" id="anamespacecqsp_1_1client_1_1save_html_a5238980645efe5355e4d53a703b2d5f6"><div class="ttname"><a href="namespacecqsp_1_1client_1_1save.html#a5238980645efe5355e4d53a703b2d5f6">cqsp::client::save::load_game</a></div><div class="ttdeci">void load_game(common::Universe &amp;universe, std::string_view directory)</div><div class="ttdef"><b>Definition:</b> savegame.cpp:48</div></div>
-<div class="ttc" id="anamespacecqsp_1_1client_1_1save_html_aa528f61f26c18defaac5cda5c8c63929"><div class="ttname"><a href="namespacecqsp_1_1client_1_1save.html#aa528f61f26c18defaac5cda5c8c63929">cqsp::client::save::save_game</a></div><div class="ttdeci">void save_game(common::Universe &amp;universe)</div><div class="ttdef"><b>Definition:</b> savegame.cpp:28</div></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1common_1_1save.html">cqsp::common::save</a> {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacecqsp_1_1common_1_1save.html#ae51de02772a1511d3e9dac33436fed70">save_game</a>(Universe&amp; <a class="code hl_variable" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacecqsp_1_1common_1_1save.html#a25019befdb5c249c87286fbd9069f24a">load_game</a>(Universe&amp; <a class="code hl_variable" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, std::string_view directory);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}  <span class="comment">// namespace cqsp::common::save</span></div>
+<div class="ttc" id="anamespacecqsp_1_1common_1_1save_html"><div class="ttname"><a href="namespacecqsp_1_1common_1_1save.html">cqsp::common::save</a></div><div class="ttdef"><b>Definition:</b> save.cpp:26</div></div>
+<div class="ttc" id="anamespacecqsp_1_1common_1_1save_html_a25019befdb5c249c87286fbd9069f24a"><div class="ttname"><a href="namespacecqsp_1_1common_1_1save.html#a25019befdb5c249c87286fbd9069f24a">cqsp::common::save::load_game</a></div><div class="ttdeci">void load_game(Universe &amp;universe, std::string_view directory)</div><div class="ttdef"><b>Definition:</b> savegame.cpp:49</div></div>
+<div class="ttc" id="anamespacecqsp_1_1common_1_1save_html_ae51de02772a1511d3e9dac33436fed70"><div class="ttname"><a href="namespacecqsp_1_1common_1_1save.html#ae51de02772a1511d3e9dac33436fed70">cqsp::common::save::save_game</a></div><div class="ttdeci">void save_game(Universe &amp;universe)</div><div class="ttdef"><b>Definition:</b> savegame.cpp:29</div></div>
 <div class="ttc" id="aturnsavewindow_8h_html_adfd4fe8b82e62f73d8931ecb95c24d4e"><div class="ttname"><a href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a></div><div class="ttdeci">common::Universe * universe</div><div class="ttdef"><b>Definition:</b> turnsavewindow.h:3</div></div>
 <div class="ttc" id="auniverse_8h_html"><div class="ttname"><a href="universe_8h.html">universe.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 22 2025 22:26:14 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Nov 14 2025 09:19:59 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
