@@ -70,6 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">glfwdebug.h File Reference</div></div>
 </div><!--header-->
@@ -88,6 +89,11 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp_1_1engine"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1engine.html">cqsp::engine</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a1102549bdf613a6640b0f79622ed9481"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="glfwdebug_8h.html#a1102549bdf613a6640b0f79622ed9481">LogGlError</a>(x)</td></tr>
+<tr class="separator:a1102549bdf613a6640b0f79622ed9481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a40c1dd9c5bd467faeee307586a77dfeb"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1engine.html#a40c1dd9c5bd467faeee307586a77dfeb">cqsp::engine::ParseType</a> (GLenum type)</td></tr>
@@ -101,10 +107,38 @@ Functions</h2></td></tr>
 <tr class="memitem:a0a07b9035f2f1f8354d2188b4aba4c6a"><td class="memItemLeft" align="right" valign="top">void APIENTRY&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1engine.html#a0a07b9035f2f1f8354d2188b4aba4c6a">cqsp::engine::glDebugOutput</a> (GLenum source, GLenum type, unsigned int id, GLenum severity, GLsizei length, const char *message, const void *userParam)</td></tr>
 <tr class="separator:a0a07b9035f2f1f8354d2188b4aba4c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a1102549bdf613a6640b0f79622ed9481" name="a1102549bdf613a6640b0f79622ed9481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1102549bdf613a6640b0f79622ed9481">&#9670;&nbsp;</a></span>LogGlError</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LogGlError</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                             \</div>
+<div class="line">        GLenum error = glGetError();                                 \</div>
+<div class="line">        while ((error = glGetError()) != GL_NO_ERROR) {              \</div>
+<div class="line">            if (error != GL_NO_ERROR) {                              \</div>
+<div class="line">                SPDLOG_ERROR(<span class="stringliteral">&quot;{} {}&quot;</span>, x, <a class="code hl_function" href="namespacecqsp_1_1engine.html#ab103adefc1a5f6d1baa1359974de5338">engine::GetGlError</a>(error)); \</div>
+<div class="line">            }                                                        \</div>
+<div class="line">        }                                                            \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+<div class="ttc" id="anamespacecqsp_1_1engine_html_ab103adefc1a5f6d1baa1359974de5338"><div class="ttname"><a href="namespacecqsp_1_1engine.html#ab103adefc1a5f6d1baa1359974de5338">cqsp::engine::GetGlError</a></div><div class="ttdeci">const std::string GetGlError(GLenum error)</div><div class="ttdef"><b>Definition:</b> glfwdebug.h:93</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 15 2025 08:31:44 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Nov 16 2025 07:14:07 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

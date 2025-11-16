@@ -93,7 +93,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a216c041c8afe09bce22b9e65b73d3287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd755784c448afba79a044e228c4dfcf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#acd755784c448afba79a044e228c4dfcf">~FramebufferRenderer</a> ()</td></tr>
 <tr class="separator:acd755784c448afba79a044e228c4dfcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6e51ae582b559d35021e87972f67f05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#aa6e51ae582b559d35021e87972f67f05">InitTexture</a> (int width, int height) override</td></tr>
+<tr class="memitem:aa6e51ae582b559d35021e87972f67f05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#aa6e51ae582b559d35021e87972f67f05">InitTexture</a> (int <a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#a1067888345775cce0374706114e6e171">width</a>, int <a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#aed0c9e4698f0dee3e42f8ad28961e13a">height</a>) override</td></tr>
 <tr class="separator:aa6e51ae582b559d35021e87972f67f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42d975100068c3e352e100ce04f61137"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#a42d975100068c3e352e100ce04f61137">Clear</a> () override</td></tr>
 <tr class="separator:a42d975100068c3e352e100ce04f61137"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,6 +125,12 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ac3658f5736930383e08efb341f802753"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa03d3aa3d8d13032ba1b4dda284fb700"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#aa03d3aa3d8d13032ba1b4dda284fb700">colorbuffer</a></td></tr>
 <tr class="separator:aa03d3aa3d8d13032ba1b4dda284fb700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70280f41d28a47ae23f5718b59894dae"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#a70280f41d28a47ae23f5718b59894dae">rbo</a></td></tr>
+<tr class="separator:a70280f41d28a47ae23f5718b59894dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1067888345775cce0374706114e6e171"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#a1067888345775cce0374706114e6e171">width</a></td></tr>
+<tr class="separator:a1067888345775cce0374706114e6e171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed0c9e4698f0dee3e42f8ad28961e13a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#aed0c9e4698f0dee3e42f8ad28961e13a">height</a></td></tr>
+<tr class="separator:aed0c9e4698f0dee3e42f8ad28961e13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02f7740d771fc2e24d85625e61e9347f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">asset::ShaderProgram_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#a02f7740d771fc2e24d85625e61e9347f">buffer_shader</a></td></tr>
 <tr class="separator:a02f7740d771fc2e24d85625e61e9347f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59bad2be7d997157dc665b31b55a3030"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1engine.html#aa13aeaaec2a13d95d478f2140fdaa7e0">engine::Mesh_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_framebuffer_renderer.html#a59bad2be7d997157dc665b31b55a3030">mesh_output</a></td></tr>
@@ -542,6 +548,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aed0c9e4698f0dee3e42f8ad28961e13a" name="aed0c9e4698f0dee3e42f8ad28961e13a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed0c9e4698f0dee3e42f8ad28961e13a">&#9670;&nbsp;</a></span>height</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::engine::FramebufferRenderer::height</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a59bad2be7d997157dc665b31b55a3030" name="a59bad2be7d997157dc665b31b55a3030"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a59bad2be7d997157dc665b31b55a3030">&#9670;&nbsp;</a></span>mesh_output</h2>
 
@@ -564,6 +592,50 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a70280f41d28a47ae23f5718b59894dae" name="a70280f41d28a47ae23f5718b59894dae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70280f41d28a47ae23f5718b59894dae">&#9670;&nbsp;</a></span>rbo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int cqsp::engine::FramebufferRenderer::rbo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1067888345775cce0374706114e6e171" name="a1067888345775cce0374706114e6e171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1067888345775cce0374706114e6e171">&#9670;&nbsp;</a></span>width</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::engine::FramebufferRenderer::width</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/engine/renderer/<a class="el" href="framebuffer_8h_source.html">framebuffer.h</a></li>
 <li>/github/workspace/src/engine/renderer/<a class="el" href="framebuffer_8cpp.html">framebuffer.cpp</a></li>
@@ -571,7 +643,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 15 2025 08:31:45 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Nov 16 2025 07:14:07 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

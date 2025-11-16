@@ -70,17 +70,17 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">framebuffer.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="framebuffer_8h_source.html">engine/renderer/framebuffer.h</a>&quot;</code><br />
 <code>#include &lt;glad/glad.h&gt;</code><br />
-<code>#include &lt;spdlog/spdlog.h&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;tracy/Tracy.hpp&gt;</code><br />
-<code>#include &quot;<a class="el" href="profiler_8h_source.html">common/util/profiler.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="enginelogger_8h_source.html">engine/enginelogger.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="glfwdebug_8h_source.html">engine/glfwdebug.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pane_8h_source.html">engine/graphics/primitives/pane.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -90,15 +90,48 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp_1_1engine"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1engine.html">cqsp::engine</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a6840f5b3e01a3453fe54f38b19dcb6eb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="framebuffer_8cpp.html#a6840f5b3e01a3453fe54f38b19dcb6eb">FRAMEBUFFER_ERROR</a>()</td></tr>
+<tr class="separator:a6840f5b3e01a3453fe54f38b19dcb6eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a758e167186035376474c7c7a04eb6b39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1engine.html#a758e167186035376474c7c7a04eb6b39">cqsp::engine::GenerateFrameBuffer</a> (unsigned int &amp;framebuffer)</td></tr>
 <tr class="separator:a758e167186035376474c7c7a04eb6b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31595a5076cbecd5b8e3c8df1787108d"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1engine.html#a31595a5076cbecd5b8e3c8df1787108d">cqsp::engine::FramebufferStatusToString</a> (GLenum error)</td></tr>
+<tr class="separator:a31595a5076cbecd5b8e3c8df1787108d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a6840f5b3e01a3453fe54f38b19dcb6eb" name="a6840f5b3e01a3453fe54f38b19dcb6eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6840f5b3e01a3453fe54f38b19dcb6eb">&#9670;&nbsp;</a></span>FRAMEBUFFER_ERROR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FRAMEBUFFER_ERROR</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                 \</div>
+<div class="line">        GLenum framebuffer_status = glCheckFramebufferStatus(GL_FRAMEBUFFER);            \</div>
+<div class="line">        if (framebuffer_status != GL_FRAMEBUFFER_COMPLETE) {                             \</div>
+<div class="line">            ENGINE_LOG_ERROR(<span class="stringliteral">&quot;Incomplete framebuffer: 0x{:x} ({})!&quot;</span>, framebuffer_status, \</div>
+<div class="line">                             <a class="code hl_function" href="namespacecqsp_1_1engine.html#a31595a5076cbecd5b8e3c8df1787108d">FramebufferStatusToString</a>(framebuffer_status));             \</div>
+<div class="line">        }                                                                                \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+<div class="ttc" id="anamespacecqsp_1_1engine_html_a31595a5076cbecd5b8e3c8df1787108d"><div class="ttname"><a href="namespacecqsp_1_1engine.html#a31595a5076cbecd5b8e3c8df1787108d">cqsp::engine::FramebufferStatusToString</a></div><div class="ttdeci">const char * FramebufferStatusToString(GLenum error)</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:253</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 15 2025 08:31:44 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Nov 16 2025 07:14:07 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

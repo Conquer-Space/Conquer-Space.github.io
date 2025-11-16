@@ -86,6 +86,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aa41b37984f2c17f9c674c84deded34a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_layer_renderer.html#aa41b37984f2c17f9c674c84deded34a1">LayerRenderer</a> ()</td></tr>
+<tr class="separator:aa41b37984f2c17f9c674c84deded34a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaec75a245b9eb6f79f4d3a97119759d5"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:aaec75a245b9eb6f79f4d3a97119759d5"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_layer_renderer.html#aaec75a245b9eb6f79f4d3a97119759d5">AddLayer</a> (<a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">asset::ShaderProgram_t</a> shader, const <a class="el" href="classcqsp_1_1engine_1_1_window.html">engine::Window</a> &amp;<a class="el" href="namespacecqsp_1_1engine.html#ae64ba3351b5e7f6d24909a38eb0d53c7">window</a>)</td></tr>
 <tr class="separator:aaec75a245b9eb6f79f4d3a97119759d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -109,6 +111,10 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a5bc501176b0c2f4377a58074ac69f3e6"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_layer_renderer.html#a5bc501176b0c2f4377a58074ac69f3e6">blend_source_factor</a></td></tr>
+<tr class="separator:a5bc501176b0c2f4377a58074ac69f3e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac670ccc54fc144edf2af18a01958c5bd"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_layer_renderer.html#ac670ccc54fc144edf2af18a01958c5bd">blend_dest_factor</a></td></tr>
+<tr class="separator:ac670ccc54fc144edf2af18a01958c5bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad719d1a0e62d7be39528774531b88dda"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classcqsp_1_1engine_1_1_i_framebuffer.html">IFramebuffer</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_layer_renderer.html#ad719d1a0e62d7be39528774531b88dda">framebuffers</a></td></tr>
 <tr class="separator:ad719d1a0e62d7be39528774531b88dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -118,7 +124,7 @@ Private Attributes</h2></td></tr>
  </p>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">ShaderProgram_t</a> shader; <span class="comment">// Initialized somewhere above</span></div>
 <div class="line"><span class="comment">// Init layer renderer</span></div>
-<div class="line">LayerRenderer layers;</div>
+<div class="line"><a class="code hl_function" href="classcqsp_1_1engine_1_1_layer_renderer.html#aa41b37984f2c17f9c674c84deded34a1">LayerRenderer</a> layers;</div>
 <div class="line"><span class="comment">// Add a new layer, and you can note down the index number</span></div>
 <div class="line"><span class="comment">// The layers will be rendered in order of what you define it, so to reorganize layers</span></div>
 <div class="line"><span class="comment">// you can just reorder the order they are initialized.</span></div>
@@ -137,14 +143,33 @@ Private Attributes</h2></td></tr>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Now this will be drawn at the end</span></div>
 <div class="line"><a class="code hl_function" href="classcqsp_1_1engine_1_1_layer_renderer.html#ae9dba7beb89b936d1c6b73ec287e624e">DrawAllLayers</a>();</div>
-<div class="ttc" id="aclasscqsp_1_1engine_1_1_layer_renderer_html_a3ba39ffac0fb35f1cfd585c9dec3c79c"><div class="ttname"><a href="classcqsp_1_1engine_1_1_layer_renderer.html#a3ba39ffac0fb35f1cfd585c9dec3c79c">cqsp::engine::LayerRenderer::EndDraw</a></div><div class="ttdeci">void EndDraw(int layer)</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:205</div></div>
-<div class="ttc" id="aclasscqsp_1_1engine_1_1_layer_renderer_html_ac94d6c090b53f6420e5653ee40fc92bc"><div class="ttname"><a href="classcqsp_1_1engine_1_1_layer_renderer.html#ac94d6c090b53f6420e5653ee40fc92bc">cqsp::engine::LayerRenderer::NewFrame</a></div><div class="ttdeci">void NewFrame(const cqsp::engine::Window &amp;window)</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:221</div></div>
-<div class="ttc" id="aclasscqsp_1_1engine_1_1_layer_renderer_html_acb60afe87dd8d1af63c9f088e0ea3b1c"><div class="ttname"><a href="classcqsp_1_1engine_1_1_layer_renderer.html#acb60afe87dd8d1af63c9f088e0ea3b1c">cqsp::engine::LayerRenderer::BeginDraw</a></div><div class="ttdeci">void BeginDraw(int layer)</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:203</div></div>
-<div class="ttc" id="aclasscqsp_1_1engine_1_1_layer_renderer_html_ae9dba7beb89b936d1c6b73ec287e624e"><div class="ttname"><a href="classcqsp_1_1engine_1_1_layer_renderer.html#ae9dba7beb89b936d1c6b73ec287e624e">cqsp::engine::LayerRenderer::DrawAllLayers</a></div><div class="ttdeci">void DrawAllLayers()</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:207</div></div>
+<div class="ttc" id="aclasscqsp_1_1engine_1_1_layer_renderer_html_a3ba39ffac0fb35f1cfd585c9dec3c79c"><div class="ttname"><a href="classcqsp_1_1engine_1_1_layer_renderer.html#a3ba39ffac0fb35f1cfd585c9dec3c79c">cqsp::engine::LayerRenderer::EndDraw</a></div><div class="ttdeci">void EndDraw(int layer)</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:221</div></div>
+<div class="ttc" id="aclasscqsp_1_1engine_1_1_layer_renderer_html_aa41b37984f2c17f9c674c84deded34a1"><div class="ttname"><a href="classcqsp_1_1engine_1_1_layer_renderer.html#aa41b37984f2c17f9c674c84deded34a1">cqsp::engine::LayerRenderer::LayerRenderer</a></div><div class="ttdeci">LayerRenderer()</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:217</div></div>
+<div class="ttc" id="aclasscqsp_1_1engine_1_1_layer_renderer_html_ac94d6c090b53f6420e5653ee40fc92bc"><div class="ttname"><a href="classcqsp_1_1engine_1_1_layer_renderer.html#ac94d6c090b53f6420e5653ee40fc92bc">cqsp::engine::LayerRenderer::NewFrame</a></div><div class="ttdeci">void NewFrame(const cqsp::engine::Window &amp;window)</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:237</div></div>
+<div class="ttc" id="aclasscqsp_1_1engine_1_1_layer_renderer_html_acb60afe87dd8d1af63c9f088e0ea3b1c"><div class="ttname"><a href="classcqsp_1_1engine_1_1_layer_renderer.html#acb60afe87dd8d1af63c9f088e0ea3b1c">cqsp::engine::LayerRenderer::BeginDraw</a></div><div class="ttdeci">void BeginDraw(int layer)</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:219</div></div>
+<div class="ttc" id="aclasscqsp_1_1engine_1_1_layer_renderer_html_ae9dba7beb89b936d1c6b73ec287e624e"><div class="ttname"><a href="classcqsp_1_1engine_1_1_layer_renderer.html#ae9dba7beb89b936d1c6b73ec287e624e">cqsp::engine::LayerRenderer::DrawAllLayers</a></div><div class="ttdeci">void DrawAllLayers()</div><div class="ttdef"><b>Definition:</b> framebuffer.cpp:223</div></div>
 <div class="ttc" id="anamespacecqsp_1_1asset_html_a74a088f4e1a910af95096bd0f682a2e7"><div class="ttname"><a href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">cqsp::asset::ShaderProgram_t</a></div><div class="ttdeci">std::shared_ptr&lt; ShaderProgram &gt; ShaderProgram_t</div><div class="ttdoc">The preferred way of using a shader program.</div><div class="ttdef"><b>Definition:</b> shader.h:113</div></div>
 <div class="ttc" id="anamespacecqsp_1_1common_1_1components_1_1types_html_a3d4c4a3f8ef6bc75489047a5652fff94"><div class="ttname"><a href="namespacecqsp_1_1common_1_1components_1_1types.html#a3d4c4a3f8ef6bc75489047a5652fff94">cqsp::common::components::types::second</a></div><div class="ttdeci">double second</div><div class="ttdef"><b>Definition:</b> units.h:42</div></div>
 <div class="ttc" id="anamespacecqsp_1_1engine_html_ae64ba3351b5e7f6d24909a38eb0d53c7"><div class="ttname"><a href="namespacecqsp_1_1engine.html#ae64ba3351b5e7f6d24909a38eb0d53c7">cqsp::engine::window</a></div><div class="ttdeci">GLFWwindow * window(Window *window)</div><div class="ttdef"><b>Definition:</b> application.cpp:60</div></div>
-</div><!-- fragment --> </div><h2 class="groupheader">Member Function Documentation</h2>
+</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa41b37984f2c17f9c674c84deded34a1" name="aa41b37984f2c17f9c674c84deded34a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa41b37984f2c17f9c674c84deded34a1">&#9670;&nbsp;</a></span>LayerRenderer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cqsp::engine::LayerRenderer::LayerRenderer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="aaec75a245b9eb6f79f4d3a97119759d5" name="aaec75a245b9eb6f79f4d3a97119759d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaec75a245b9eb6f79f4d3a97119759d5">&#9670;&nbsp;</a></span>AddLayer()</h2>
 
@@ -340,6 +365,50 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac670ccc54fc144edf2af18a01958c5bd" name="ac670ccc54fc144edf2af18a01958c5bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac670ccc54fc144edf2af18a01958c5bd">&#9670;&nbsp;</a></span>blend_dest_factor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int cqsp::engine::LayerRenderer::blend_dest_factor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5bc501176b0c2f4377a58074ac69f3e6" name="a5bc501176b0c2f4377a58074ac69f3e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bc501176b0c2f4377a58074ac69f3e6">&#9670;&nbsp;</a></span>blend_source_factor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int cqsp::engine::LayerRenderer::blend_source_factor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad719d1a0e62d7be39528774531b88dda" name="ad719d1a0e62d7be39528774531b88dda"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad719d1a0e62d7be39528774531b88dda">&#9670;&nbsp;</a></span>framebuffers</h2>
 
@@ -369,7 +438,7 @@ template&lt;class T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 15 2025 08:31:45 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Nov 16 2025 07:14:08 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
