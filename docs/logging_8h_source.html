@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/util/logging.h Source File</title>
+<title>Conquer Space: /github/workspace/src/core/util/logging.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_be04617272aece3468352586f0f1ec2c.html">util</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="dir_1e13eb70021b1d47a39bb763c978d2ce.html">util</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -94,17 +94,17 @@ $(function() {
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1common_1_1util.html">cqsp::common::util</a> {</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>std::shared_ptr&lt;spdlog::logger&gt; <a class="code hl_function" href="namespacecqsp_1_1common_1_1util.html#aca38cf3b1a35c9ea798bf9cf8d69cfa7">make_logger</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keywordtype">bool</span> error = <span class="keyword">false</span>);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>std::shared_ptr&lt;spdlog::logger&gt; <a class="code hl_function" href="namespacecqsp_1_1common_1_1util.html#a9a15b60db847f11f67db4ee736114d1e">make_registered_logger</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keywordtype">bool</span> error = <span class="keyword">false</span>);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}  <span class="comment">// namespace cqsp::common::util</span></div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1util_html"><div class="ttname"><a href="namespacecqsp_1_1common_1_1util.html">cqsp::common::util</a></div><div class="ttdef"><b>Definition:</b> logging.cpp:55</div></div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1util_html_a9a15b60db847f11f67db4ee736114d1e"><div class="ttname"><a href="namespacecqsp_1_1common_1_1util.html#a9a15b60db847f11f67db4ee736114d1e">cqsp::common::util::make_registered_logger</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::logger &gt; make_registered_logger(const std::string &amp;name, bool error)</div><div class="ttdef"><b>Definition:</b> logging.cpp:102</div></div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1util_html_aca38cf3b1a35c9ea798bf9cf8d69cfa7"><div class="ttname"><a href="namespacecqsp_1_1common_1_1util.html#aca38cf3b1a35c9ea798bf9cf8d69cfa7">cqsp::common::util::make_logger</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::logger &gt; make_logger(const std::string &amp;name, bool error)</div><div class="ttdoc">Initializes a logger with the right outputs based on the various configurations</div><div class="ttdef"><b>Definition:</b> logging.cpp:56</div></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1core_1_1util.html">cqsp::core::util</a> {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>std::shared_ptr&lt;spdlog::logger&gt; <a class="code hl_function" href="namespacecqsp_1_1core_1_1util.html#a611462081911f75922f7a9a3a4e9a925">make_logger</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keywordtype">bool</span> error = <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>std::shared_ptr&lt;spdlog::logger&gt; <a class="code hl_function" href="namespacecqsp_1_1core_1_1util.html#a0a91d843a4b734628c7aeefaf7bc7359">make_registered_logger</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keywordtype">bool</span> error = <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}  <span class="comment">// namespace cqsp::core::util</span></div>
+<div class="ttc" id="anamespacecqsp_1_1core_1_1util_html"><div class="ttname"><a href="namespacecqsp_1_1core_1_1util.html">cqsp::core::util</a></div><div class="ttdef"><b>Definition:</b> logging.cpp:55</div></div>
+<div class="ttc" id="anamespacecqsp_1_1core_1_1util_html_a0a91d843a4b734628c7aeefaf7bc7359"><div class="ttname"><a href="namespacecqsp_1_1core_1_1util.html#a0a91d843a4b734628c7aeefaf7bc7359">cqsp::core::util::make_registered_logger</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::logger &gt; make_registered_logger(const std::string &amp;name, bool error)</div><div class="ttdef"><b>Definition:</b> logging.cpp:102</div></div>
+<div class="ttc" id="anamespacecqsp_1_1core_1_1util_html_a611462081911f75922f7a9a3a4e9a925"><div class="ttname"><a href="namespacecqsp_1_1core_1_1util.html#a611462081911f75922f7a9a3a4e9a925">cqsp::core::util::make_logger</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::logger &gt; make_logger(const std::string &amp;name, bool error)</div><div class="ttdoc">Initializes a logger with the right outputs based on the various configurations</div><div class="ttdef"><b>Definition:</b> logging.cpp:56</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 16 2025 07:14:06 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 20 2025 05:27:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

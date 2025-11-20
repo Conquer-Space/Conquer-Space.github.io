@@ -1,11 +1,11 @@
 var searchData=
 [
   ['ebo_0',['EBO',['../classcqsp_1_1engine_1_1_mesh.html#ad2462528e1117f9c203d444bde00c175',1,'cqsp::engine::Mesh']]],
-  ['eccentricity_1',['eccentricity',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#a0e28823b065de984e5d4748f39e507ba',1,'cqsp::common::components::types::Orbit']]],
-  ['echelon_2',['echelon',['../structcqsp_1_1common_1_1components_1_1ships_1_1_fleet.html#abc8934b10cdd5c4c5d4d3fda98d27bff',1,'cqsp::common::components::ships::Fleet']]],
-  ['economy_5fconfig_3',['economy_config',['../classcqsp_1_1common_1_1_universe.html#a799cd9853787b3512c734057e2c86d22',1,'cqsp::common::Universe']]],
-  ['employed_5famount_4',['employed_amount',['../structcqsp_1_1common_1_1components_1_1_population_segment.html#a2614bd4e1630c32e9d5b68a3454805e5',1,'cqsp::common::components::PopulationSegment']]],
-  ['employed_5fpopulation_5',['employed_population',['../structcqsp_1_1common_1_1components_1_1_labor_information.html#ae314cbdc06871ed032b7198d8537402f',1,'cqsp::common::components::LaborInformation']]],
+  ['eccentricity_1',['eccentricity',['../structcqsp_1_1core_1_1components_1_1types_1_1_orbit.html#abe1fb87849dc5f132ca07c96ec42e4f4',1,'cqsp::core::components::types::Orbit']]],
+  ['echelon_2',['echelon',['../structcqsp_1_1core_1_1components_1_1ships_1_1_fleet.html#a563ced998e1f458f7cd34468086ee900',1,'cqsp::core::components::ships::Fleet']]],
+  ['economy_5fconfig_3',['economy_config',['../classcqsp_1_1core_1_1_universe.html#a648cd07139bcb6f17c96d13f6ff32bad',1,'cqsp::core::Universe']]],
+  ['employed_5famount_4',['employed_amount',['../structcqsp_1_1core_1_1components_1_1_population_segment.html#a43c88db0b712b2884f999f0eaa090b43',1,'cqsp::core::components::PopulationSegment']]],
+  ['employed_5fpopulation_5',['employed_population',['../structcqsp_1_1core_1_1components_1_1_labor_information.html#a9aed50e054d142651d4fca8743e9b026',1,'cqsp::core::components::LaborInformation']]],
   ['empty_5ftexture_6',['empty_texture',['../classcqsp_1_1asset_1_1_asset_manager.html#a6ae2f2ae0be8150da2e09fb961f780f7',1,'cqsp::asset::AssetManager']]],
   ['enable_5fblend_7',['enable_blend',['../struct_render_interface___g_l3_1_1_g_l_state_backup.html#a5d99924354c6238acdffcc971c4b2cf6',1,'RenderInterface_GL3::GLStateBackup']]],
   ['enable_5fcull_5fface_8',['enable_cull_face',['../struct_render_interface___g_l3_1_1_g_l_state_backup.html#ac4dcddf6edabdf81a52b356083dc644a',1,'RenderInterface_GL3::GLStateBackup']]],
@@ -13,13 +13,13 @@ var searchData=
   ['enable_5fscissor_5ftest_10',['enable_scissor_test',['../struct_render_interface___g_l3_1_1_g_l_state_backup.html#a1ec5f9d1bd5ffd28550ae6a11ccd4ef7',1,'RenderInterface_GL3::GLStateBackup']]],
   ['enable_5fstencil_5ftest_11',['enable_stencil_test',['../struct_render_interface___g_l3_1_1_g_l_state_backup.html#a1b564d24c6bf435344148d8c89ecbd80',1,'RenderInterface_GL3::GLStateBackup']]],
   ['enabled_12',['enabled',['../classcqsp_1_1asset_1_1_package_prototype.html#ab5476e764945ee604a232a6ab0f69243',1,'cqsp::asset::PackagePrototype']]],
-  ['energy_13',['energy',['../structcqsp_1_1common_1_1components_1_1_energy.html#a4ad3a0d481bfda5d30983af7b40e2abc',1,'cqsp::common::components::Energy']]],
+  ['energy_13',['energy',['../structcqsp_1_1core_1_1components_1_1_energy.html#a2bb97292e511ab9cc606b4c4621dae2d',1,'cqsp::core::components::Energy']]],
   ['engine_5flogger_14',['engine_logger',['../namespacecqsp_1_1engine.html#a8c3cd23d89a7fba3596ecde34cafde2f',1,'cqsp::engine']]],
   ['entities_15',['entities',['../loadcities_8cpp.html#abaccc4ea845319cc5281ac60dbeb08f2',1,'loadcities.cpp']]],
-  ['entity_16',['entity',['../structcqsp_1_1common_1_1components_1_1_recipe_output.html#a689a6e693fafd0419bc070beb8cce539',1,'cqsp::common::components::RecipeOutput']]],
+  ['entity_16',['entity',['../structcqsp_1_1core_1_1components_1_1_recipe_output.html#ae52f7c57b8305e476ae37bbadc35e3b4',1,'cqsp::core::components::RecipeOutput']]],
   ['enumeration_17',['enumeration',['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#a4e5b42eaf9808b4ca3a45f3e608eec1a',1,'cqsp::engine::audio::AudioInterface']]],
-  ['epoch_18',['epoch',['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#ab9c0c3b1a19cbc75708c38d57093052a',1,'cqsp::common::components::types::Orbit']]],
-  ['events_19',['events',['../structcqsp_1_1common_1_1event_1_1_event_queue.html#af20390d70ea7f4b4e018ecdbbaba609f',1,'cqsp::common::event::EventQueue::events()'],['../classcqsp_1_1common_1_1systems_1_1_sys_script.html#af2a7b43bf62d43169064857253e010f8',1,'cqsp::common::systems::SysScript::events()']]],
+  ['epoch_18',['epoch',['../structcqsp_1_1core_1_1components_1_1types_1_1_orbit.html#a11f60cc759e919b1003b967adc45a645',1,'cqsp::core::components::types::Orbit']]],
+  ['events_19',['events',['../structcqsp_1_1core_1_1event_1_1_event_queue.html#a200f17a1e2e1d5a12c5e3666716cc58d',1,'cqsp::core::event::EventQueue::events()'],['../classcqsp_1_1core_1_1systems_1_1_sys_script.html#a02ea8b135a44f7650e86438f1eef4696',1,'cqsp::core::systems::SysScript::events()']]],
   ['expected_5fproduction_20',['expected_production',['../classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html#a9c0df2d5a20c2174384b36e7b079fe2c',1,'cqsp::client::systems::SysRecipeViewer']]],
-  ['extent_21',['extent',['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_highway.html#a06128d7d5807eaf4f54008f344cb294e',1,'cqsp::common::components::infrastructure::Highway']]]
+  ['extent_21',['extent',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_highway.html#a7b088235d9216d05c5ab2c517a9fd965',1,'cqsp::core::components::infrastructure::Highway']]]
 ];

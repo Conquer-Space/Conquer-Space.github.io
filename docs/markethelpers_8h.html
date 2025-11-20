@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/actions/economy/markethelpers.h File Reference</title>
+<title>Conquer Space: /github/workspace/src/core/actions/economy/markethelpers.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_53739f8383ee811a514a5725a11b20ee.html">actions</a></li><li class="navelem"><a class="el" href="dir_94094641052077aa82a806cea2b4f9c5.html">economy</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="dir_1bb4127b59506e9c297a3a3632806743.html">actions</a></li><li class="navelem"><a class="el" href="dir_cbfd132d517665f62da93c14dcaf15d6.html">economy</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -75,8 +75,8 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;entt/entt.hpp&gt;</code><br />
-<code>#include &quot;<a class="el" href="resource_8h_source.html">common/components/resource.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="universe_8h_source.html">common/universe.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="resource_8h_source.html">core/components/resource.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="universe_8h_source.html">core/universe.h</a>&quot;</code><br />
 </div>
 <p><a href="markethelpers_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -84,30 +84,30 @@ $(function() {
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp.html">cqsp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common.html">cqsp::common</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1core"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core.html">cqsp::core</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common_1_1actions"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html">cqsp::common::actions</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1core_1_1actions"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1actions.html">cqsp::core::actions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8bf793639890dfde95ae67126f2af93d"><td class="memItemLeft" align="right" valign="top">Node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a8bf793639890dfde95ae67126f2af93d">cqsp::common::actions::CreateMarket</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>)</td></tr>
-<tr class="memdesc:a8bf793639890dfde95ae67126f2af93d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a market two instance.  <a href="namespacecqsp_1_1common_1_1actions.html#a8bf793639890dfde95ae67126f2af93d">More...</a><br /></td></tr>
-<tr class="separator:a8bf793639890dfde95ae67126f2af93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a051e259327951ff9400724da3271e5d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a051e259327951ff9400724da3271e5d4">cqsp::common::actions::PurchaseGood</a> (Node &amp;agent, const components::ResourceLedger &amp;purchase)</td></tr>
-<tr class="memdesc:a051e259327951ff9400724da3271e5d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Note: This will only buy the maximum resources that are in the market. If there aren't enough resources on the market, then we buy all the remaining resources on the market. You'll have to calculate how much you want later on  <a href="namespacecqsp_1_1common_1_1actions.html#a051e259327951ff9400724da3271e5d4">More...</a><br /></td></tr>
-<tr class="separator:a051e259327951ff9400724da3271e5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47aabc2ae02b0a335b330dac7e3a317c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a47aabc2ae02b0a335b330dac7e3a317c">cqsp::common::actions::SellGood</a> (Node &amp;agent, const components::ResourceLedger &amp;selling)</td></tr>
-<tr class="separator:a47aabc2ae02b0a335b330dac7e3a317c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dd981ed0e74eeac43bd3c42cd88955c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#a5dd981ed0e74eeac43bd3c42cd88955c">cqsp::common::actions::AddParticipant</a> (Node &amp;market_node, Node &amp;participant)</td></tr>
-<tr class="separator:a5dd981ed0e74eeac43bd3c42cd88955c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe297da6b77fc1579bab775a37dd107b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1actions.html#afe297da6b77fc1579bab775a37dd107b">cqsp::common::actions::GetCost</a> (Node &amp;market, const components::ResourceLedger &amp;ledger)</td></tr>
-<tr class="separator:afe297da6b77fc1579bab775a37dd107b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a802d44720fb1538ecb4e81cbec8a2b20"><td class="memItemLeft" align="right" valign="top">Node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1actions.html#a802d44720fb1538ecb4e81cbec8a2b20">cqsp::core::actions::CreateMarket</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>)</td></tr>
+<tr class="memdesc:a802d44720fb1538ecb4e81cbec8a2b20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a market two instance.  <a href="namespacecqsp_1_1core_1_1actions.html#a802d44720fb1538ecb4e81cbec8a2b20">More...</a><br /></td></tr>
+<tr class="separator:a802d44720fb1538ecb4e81cbec8a2b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e5fa0655dab5bf650bc9913c09ec5a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1actions.html#a9e5fa0655dab5bf650bc9913c09ec5a8">cqsp::core::actions::PurchaseGood</a> (Node &amp;agent, const components::ResourceLedger &amp;purchase)</td></tr>
+<tr class="memdesc:a9e5fa0655dab5bf650bc9913c09ec5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Note: This will only buy the maximum resources that are in the market. If there aren't enough resources on the market, then we buy all the remaining resources on the market. You'll have to calculate how much you want later on  <a href="namespacecqsp_1_1core_1_1actions.html#a9e5fa0655dab5bf650bc9913c09ec5a8">More...</a><br /></td></tr>
+<tr class="separator:a9e5fa0655dab5bf650bc9913c09ec5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb511f702ce83595df935106e46a964d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1actions.html#afb511f702ce83595df935106e46a964d">cqsp::core::actions::SellGood</a> (Node &amp;agent, const components::ResourceLedger &amp;selling)</td></tr>
+<tr class="separator:afb511f702ce83595df935106e46a964d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacf05e1d04fd26a328d6811f47fdd9f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1actions.html#aacf05e1d04fd26a328d6811f47fdd9f7">cqsp::core::actions::AddParticipant</a> (Node &amp;market_node, Node &amp;participant)</td></tr>
+<tr class="separator:aacf05e1d04fd26a328d6811f47fdd9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4e23282985f9f325947a5b5d136ce4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1actions.html#a8d4e23282985f9f325947a5b5d136ce4">cqsp::core::actions::GetCost</a> (Node &amp;market, const components::ResourceLedger &amp;ledger)</td></tr>
+<tr class="separator:a8d4e23282985f9f325947a5b5d136ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 16 2025 07:14:06 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 20 2025 05:27:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

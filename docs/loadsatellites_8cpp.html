@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/loading/loadsatellites.cpp File Reference</title>
+<title>Conquer Space: /github/workspace/src/core/loading/loadsatellites.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_42207e80102a6555a76f2fa09c11e3e0.html">loading</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="dir_03fb91a5f965790af714574580137486.html">loading</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -74,44 +74,44 @@ $(function() {
   <div class="headertitle"><div class="title">loadsatellites.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="loadsatellites_8h_source.html">common/loading/loadsatellites.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="loadsatellites_8h_source.html">core/loading/loadsatellites.h</a>&quot;</code><br />
 <code>#include &lt;fmt/format.h&gt;</code><br />
 <code>#include &lt;spdlog/spdlog.h&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;sstream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="coordinates_8h_source.html">common/components/coordinates.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="common_2components_2model_8h_source.html">common/components/model.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="name_8h_source.html">common/components/name.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="orbit_8h_source.html">common/components/orbit.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="ships_8h_source.html">common/components/ships.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="loadorbit_8h_source.html">common/loading/loadorbit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="coordinates_8h_source.html">core/components/coordinates.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="core_2components_2model_8h_source.html">core/components/model.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="name_8h_source.html">core/components/name.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="orbit_8h_source.html">core/components/orbit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ships_8h_source.html">core/components/ships.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="loadorbit_8h_source.html">core/loading/loadorbit.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp.html">cqsp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common.html">cqsp::common</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1core"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core.html">cqsp::core</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common_1_1loading"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html">cqsp::common::loading</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1core_1_1loading"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1loading.html">cqsp::core::loading</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a97ac2896aca676336f4252644ed54fde"><td class="memItemLeft" align="right" valign="top">Orbit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#a97ac2896aca676336f4252644ed54fde">cqsp::common::loading::GetOrbit</a> (const std::string &amp;line_one, const std::string &amp;line_two, const double &amp;GM)</td></tr>
-<tr class="separator:a97ac2896aca676336f4252644ed54fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a841e818dadf4d5f5ff49eeed5e43f366"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#a841e818dadf4d5f5ff49eeed5e43f366">cqsp::common::loading::GetEpochYear</a> (int year)</td></tr>
-<tr class="separator:a841e818dadf4d5f5ff49eeed5e43f366"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a07a0dbf1b9ae1f2a4463afbb2b2640"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#a2a07a0dbf1b9ae1f2a4463afbb2b2640">cqsp::common::loading::GetEpoch</a> (double year, double time)</td></tr>
-<tr class="separator:a2a07a0dbf1b9ae1f2a4463afbb2b2640"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c591d81a9b0c05cb974255d01e2cad8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1loading.html#a7c591d81a9b0c05cb974255d01e2cad8">cqsp::common::loading::LoadSatellites</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, std::string &amp;string)</td></tr>
-<tr class="separator:a7c591d81a9b0c05cb974255d01e2cad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e3064d962b00e5719b7782d6400eab7"><td class="memItemLeft" align="right" valign="top">Orbit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1loading.html#a9e3064d962b00e5719b7782d6400eab7">cqsp::core::loading::GetOrbit</a> (const std::string &amp;line_one, const std::string &amp;line_two, const double &amp;GM)</td></tr>
+<tr class="separator:a9e3064d962b00e5719b7782d6400eab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace4c9614bac42f508fc54f0e34130fa5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1loading.html#ace4c9614bac42f508fc54f0e34130fa5">cqsp::core::loading::GetEpochYear</a> (int year)</td></tr>
+<tr class="separator:ace4c9614bac42f508fc54f0e34130fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab9eedbe706fb5d2a87fc27e33c4c65"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1loading.html#aeab9eedbe706fb5d2a87fc27e33c4c65">cqsp::core::loading::GetEpoch</a> (double year, double time)</td></tr>
+<tr class="separator:aeab9eedbe706fb5d2a87fc27e33c4c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cc268ecd78484cc131e9650bd657167"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1loading.html#a9cc268ecd78484cc131e9650bd657167">cqsp::core::loading::LoadSatellites</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, std::string &amp;string)</td></tr>
+<tr class="separator:a9cc268ecd78484cc131e9650bd657167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 16 2025 07:14:06 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 20 2025 05:27:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

@@ -81,22 +81,22 @@ $(function() {
 <code>#include &quot;<a class="el" href="clientscripting_8h_source.html">client/scripting/clientscripting.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="clientuielements_8h_source.html">client/scripting/clientuielements.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="imguifunctions_8h_source.html">client/scripting/imguifunctions.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="surface_8h_source.html">common/components/surface.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="fields_8h_source.html">common/loading/fields.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="hjsonloader_8h_source.html">common/loading/hjsonloader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="loadcities_8h_source.html">common/loading/loadcities.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="loadcountries_8h_source.html">common/loading/loadcountries.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="loadgoods_8h_source.html">common/loading/loadgoods.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="loadnames_8h_source.html">common/loading/loadnames.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="loadprovinces_8h_source.html">common/loading/loadprovinces.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="loadsatellites_8h_source.html">common/loading/loadsatellites.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="loadterrain_8h_source.html">common/loading/loadterrain.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="planetloader_8h_source.html">common/loading/planetloader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="recipeloader_8h_source.html">common/loading/recipeloader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="technology_8h_source.html">common/loading/technology.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="timezoneloader_8h_source.html">common/loading/timezoneloader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="luafunctions_8h_source.html">common/scripting/luafunctions.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="sysuniversegenerator_8h_source.html">common/systems/sysuniversegenerator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="surface_8h_source.html">core/components/surface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="fields_8h_source.html">core/loading/fields.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hjsonloader_8h_source.html">core/loading/hjsonloader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="loadcities_8h_source.html">core/loading/loadcities.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="loadcountries_8h_source.html">core/loading/loadcountries.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="loadgoods_8h_source.html">core/loading/loadgoods.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="loadnames_8h_source.html">core/loading/loadnames.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="loadprovinces_8h_source.html">core/loading/loadprovinces.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="loadsatellites_8h_source.html">core/loading/loadsatellites.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="loadterrain_8h_source.html">core/loading/loadterrain.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="planetloader_8h_source.html">core/loading/planetloader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="recipeloader_8h_source.html">core/loading/recipeloader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="technology_8h_source.html">core/loading/technology.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timezoneloader_8h_source.html">core/loading/timezoneloader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="luafunctions_8h_source.html">core/scripting/luafunctions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sysuniversegenerator_8h_source.html">core/systems/sysuniversegenerator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="assetmanager_8h_source.html">engine/asset/assetmanager.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -110,10 +110,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a987792cf9bfc0ee4123cefb35273fa77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems.html#a987792cf9bfc0ee4123cefb35273fa77">cqsp::client::systems::LoadResource</a> (AssetManager &amp;asset_manager, Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const std::string &amp;asset_name, void(*func)(Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;recipes))</td></tr>
+<tr class="memitem:a987792cf9bfc0ee4123cefb35273fa77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems.html#a987792cf9bfc0ee4123cefb35273fa77">cqsp::client::systems::LoadResource</a> (AssetManager &amp;asset_manager, Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, const std::string &amp;asset_name, void(*func)(Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, <a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a689202409e48743b914713f96d93947c">Hjson::Value</a> &amp;recipes))</td></tr>
 <tr class="separator:a987792cf9bfc0ee4123cefb35273fa77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac911d6891805d462c32e9bf158ede4f8"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ac911d6891805d462c32e9bf158ede4f8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems.html#ac911d6891805d462c32e9bf158ede4f8">cqsp::client::systems::LoadResource</a> (AssetManager &amp;asset_manager, Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, const std::string &amp;asset_name)</td></tr>
+<tr class="memitem:ac911d6891805d462c32e9bf158ede4f8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems.html#ac911d6891805d462c32e9bf158ede4f8">cqsp::client::systems::LoadResource</a> (AssetManager &amp;asset_manager, Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, const std::string &amp;asset_name)</td></tr>
 <tr class="separator:ac911d6891805d462c32e9bf158ede4f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58ed83b6b45261be02caac766ada4c2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems.html#a58ed83b6b45261be02caac766ada4c2c">cqsp::client::systems::LoadPlanetProvinces</a> (AssetManager &amp;asset_manager, ConquerSpace &amp;conquer_space)</td></tr>
 <tr class="separator:a58ed83b6b45261be02caac766ada4c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,7 +123,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 16 2025 07:14:06 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 20 2025 05:27:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

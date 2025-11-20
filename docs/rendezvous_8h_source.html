@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/actions/maneuver/rendezvous.h Source File</title>
+<title>Conquer Space: /github/workspace/src/core/actions/maneuver/rendezvous.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_53739f8383ee811a514a5725a11b20ee.html">actions</a></li><li class="navelem"><a class="el" href="dir_c9a112fbffeba15921f3e1f8b1ba2e03.html">maneuver</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="dir_1bb4127b59506e9c297a3a3632806743.html">actions</a></li><li class="navelem"><a class="el" href="dir_b307d0e3510968598f47d97956311391.html">maneuver</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -93,27 +93,27 @@ $(function() {
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;glm/vec3.hpp&gt;</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &quot;<a class="code" href="hohmann_8h.html">common/actions/maneuver/hohmann.h</a>&quot;</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &quot;<a class="code" href="maneuver_8h.html">common/components/maneuver.h</a>&quot;</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &quot;<a class="code" href="orbit_8h.html">common/components/orbit.h</a>&quot;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &quot;<a class="code" href="hohmann_8h.html">core/actions/maneuver/hohmann.h</a>&quot;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &quot;<a class="code" href="maneuver_8h.html">core/components/maneuver.h</a>&quot;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &quot;<a class="code" href="orbit_8h.html">core/components/orbit.h</a>&quot;</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1common_1_1systems.html">cqsp::common::systems</a> {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1core_1_1systems.html">cqsp::core::systems</a> {</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">// Tools for rendezvous</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">// Coplanar rendezvous</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">// Basically a Hohmann transfer at the right time</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><a class="code hl_typedef" href="namespacecqsp_1_1common_1_1components.html#ad6e9c65e6b09f4ef56e35a247d5a87ff">components::HohmannPair_t</a> <a class="code hl_function" href="namespacecqsp_1_1common_1_1systems.html#acb177158a38bee2bc76b1d4d3a3056e3">CoplanarIntercept</a>(<span class="keyword">const</span> components::types::Orbit&amp; start_orbit,</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><a class="code hl_typedef" href="namespacecqsp_1_1core_1_1components.html#abc9b11a1c8f346afa6feea4be89571d1">components::HohmannPair_t</a> <a class="code hl_function" href="namespacecqsp_1_1core_1_1systems.html#a4751b3adc38897c231032eaa073c045d">CoplanarIntercept</a>(<span class="keyword">const</span> components::types::Orbit&amp; start_orbit,</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                                            <span class="keyword">const</span> components::types::Orbit&amp; end_orbit, <span class="keywordtype">double</span> epoch);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}  <span class="comment">// namespace cqsp::common::systems</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}  <span class="comment">// namespace cqsp::core::systems</span></div>
 <div class="ttc" id="ahohmann_8h_html"><div class="ttname"><a href="hohmann_8h.html">hohmann.h</a></div></div>
 <div class="ttc" id="amaneuver_8h_html"><div class="ttname"><a href="maneuver_8h.html">maneuver.h</a></div></div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1components_html_ad6e9c65e6b09f4ef56e35a247d5a87ff"><div class="ttname"><a href="namespacecqsp_1_1common_1_1components.html#ad6e9c65e6b09f4ef56e35a247d5a87ff">cqsp::common::components::HohmannPair_t</a></div><div class="ttdeci">std::pair&lt; Maneuver_t, Maneuver_t &gt; HohmannPair_t</div><div class="ttdef"><b>Definition:</b> maneuver.h:28</div></div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1systems_html"><div class="ttname"><a href="namespacecqsp_1_1common_1_1systems.html">cqsp::common::systems</a></div><div class="ttdef"><b>Definition:</b> basicmaneuver.cpp:23</div></div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1systems_html_acb177158a38bee2bc76b1d4d3a3056e3"><div class="ttname"><a href="namespacecqsp_1_1common_1_1systems.html#acb177158a38bee2bc76b1d4d3a3056e3">cqsp::common::systems::CoplanarIntercept</a></div><div class="ttdeci">components::HohmannPair_t CoplanarIntercept(const Orbit &amp;start_orbit, const Orbit &amp;end_orbit, double epoch)</div><div class="ttdef"><b>Definition:</b> rendezvous.cpp:23</div></div>
+<div class="ttc" id="anamespacecqsp_1_1core_1_1components_html_abc9b11a1c8f346afa6feea4be89571d1"><div class="ttname"><a href="namespacecqsp_1_1core_1_1components.html#abc9b11a1c8f346afa6feea4be89571d1">cqsp::core::components::HohmannPair_t</a></div><div class="ttdeci">std::pair&lt; Maneuver_t, Maneuver_t &gt; HohmannPair_t</div><div class="ttdef"><b>Definition:</b> maneuver.h:28</div></div>
+<div class="ttc" id="anamespacecqsp_1_1core_1_1systems_html"><div class="ttname"><a href="namespacecqsp_1_1core_1_1systems.html">cqsp::core::systems</a></div><div class="ttdef"><b>Definition:</b> basicmaneuver.cpp:23</div></div>
+<div class="ttc" id="anamespacecqsp_1_1core_1_1systems_html_a4751b3adc38897c231032eaa073c045d"><div class="ttname"><a href="namespacecqsp_1_1core_1_1systems.html#a4751b3adc38897c231032eaa073c045d">cqsp::core::systems::CoplanarIntercept</a></div><div class="ttdeci">components::HohmannPair_t CoplanarIntercept(const Orbit &amp;start_orbit, const Orbit &amp;end_orbit, double epoch)</div><div class="ttdef"><b>Definition:</b> rendezvous.cpp:23</div></div>
 <div class="ttc" id="aorbit_8h_html"><div class="ttname"><a href="orbit_8h.html">orbit.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 16 2025 07:14:06 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 20 2025 05:27:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

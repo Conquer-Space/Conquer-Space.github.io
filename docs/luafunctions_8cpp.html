@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/scripting/luafunctions.cpp File Reference</title>
+<title>Conquer Space: /github/workspace/src/core/scripting/luafunctions.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_0b9863d9ac19f411a03e031bf8bb0e94.html">scripting</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="dir_6fa23c04531a439f3aee5f41c05bf8b5.html">scripting</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -74,82 +74,82 @@ $(function() {
   <div class="headertitle"><div class="title">luafunctions.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="luafunctions_8h_source.html">common/scripting/luafunctions.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="luafunctions_8h_source.html">core/scripting/luafunctions.h</a>&quot;</code><br />
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="cityactions_8h_source.html">common/actions/cityactions.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="markethelpers_8h_source.html">common/actions/economy/markethelpers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="factoryconstructaction_8h_source.html">common/actions/factoryconstructaction.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="labs_8h_source.html">common/actions/science/labs.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="shiplaunchaction_8h_source.html">common/actions/shiplaunchaction.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="area_8h_source.html">common/components/area.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="bodies_8h_source.html">common/components/bodies.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="coordinates_8h_source.html">common/components/coordinates.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="event_8h_source.html">common/components/event.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="infrastructure_8h_source.html">common/components/infrastructure.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="market_8h_source.html">common/components/market.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="name_8h_source.html">common/components/name.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="orbit_8h_source.html">common/components/orbit.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="organizations_8h_source.html">common/components/organizations.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="player_8h_source.html">common/components/player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="population_8h_source.html">common/components/population.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="resource_8h_source.html">common/components/resource.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="science_8h_source.html">common/components/science.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="ships_8h_source.html">common/components/ships.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="surface_8h_source.html">common/components/surface.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="technology_8h_source.html">common/loading/technology.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="functionreg_8h_source.html">common/scripting/functionreg.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="nameutil_8h_source.html">common/util/nameutil.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="stdrandom_8h_source.html">common/util/random/stdrandom.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="utilnumberdisplay_8h_source.html">common/util/utilnumberdisplay.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cityactions_8h_source.html">core/actions/cityactions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="markethelpers_8h_source.html">core/actions/economy/markethelpers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="factoryconstructaction_8h_source.html">core/actions/factoryconstructaction.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="labs_8h_source.html">core/actions/science/labs.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="shiplaunchaction_8h_source.html">core/actions/shiplaunchaction.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="area_8h_source.html">core/components/area.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bodies_8h_source.html">core/components/bodies.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="coordinates_8h_source.html">core/components/coordinates.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="event_8h_source.html">core/components/event.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="infrastructure_8h_source.html">core/components/infrastructure.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="market_8h_source.html">core/components/market.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="name_8h_source.html">core/components/name.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="orbit_8h_source.html">core/components/orbit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="organizations_8h_source.html">core/components/organizations.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="player_8h_source.html">core/components/player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="population_8h_source.html">core/components/population.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="resource_8h_source.html">core/components/resource.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="science_8h_source.html">core/components/science.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ships_8h_source.html">core/components/ships.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="surface_8h_source.html">core/components/surface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="technology_8h_source.html">core/loading/technology.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="functionreg_8h_source.html">core/scripting/functionreg.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="nameutil_8h_source.html">core/util/nameutil.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="stdrandom_8h_source.html">core/util/random/stdrandom.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="utilnumberdisplay_8h_source.html">core/util/utilnumberdisplay.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp.html">cqsp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common.html">cqsp::common</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1core"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core.html">cqsp::core</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common_1_1scripting"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html">cqsp::common::scripting</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1core_1_1scripting"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html">cqsp::core::scripting</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa8aa77dcc7fabf399e83986ce65071d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#aa8aa77dcc7fabf399e83986ce65071d1">cqsp::common::scripting::FunctionRandom</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="memdesc:aa8aa77dcc7fabf399e83986ce65071d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes functions for RNG  <a href="namespacecqsp_1_1common_1_1scripting.html#aa8aa77dcc7fabf399e83986ce65071d1">More...</a><br /></td></tr>
-<tr class="separator:aa8aa77dcc7fabf399e83986ce65071d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec39a179efcc62ce1f97c8dc2284ae73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#aec39a179efcc62ce1f97c8dc2284ae73">cqsp::common::scripting::FunctionUniverseBodyGen</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="separator:aec39a179efcc62ce1f97c8dc2284ae73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18795a6a866e73a0bf3bebc4b0f06a94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#a18795a6a866e73a0bf3bebc4b0f06a94">cqsp::common::scripting::FunctionCivilizationGen</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="separator:a18795a6a866e73a0bf3bebc4b0f06a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae088573efc5875f862e2586a3fb05e9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#ae088573efc5875f862e2586a3fb05e9f">cqsp::common::scripting::FunctionEconomy</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="separator:ae088573efc5875f862e2586a3fb05e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fb7bb4c09d63cdaddbd09b7007d17dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#a6fb7bb4c09d63cdaddbd09b7007d17dd">cqsp::common::scripting::FunctionUser</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="separator:a6fb7bb4c09d63cdaddbd09b7007d17dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac354ee927f3f44c9f6f8d92967d92cd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#ac354ee927f3f44c9f6f8d92967d92cd3">cqsp::common::scripting::FunctionPopulation</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="separator:ac354ee927f3f44c9f6f8d92967d92cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a287255db8df02a845bac088787a91976"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#a287255db8df02a845bac088787a91976">cqsp::common::scripting::FunctionShips</a> (<a class="el" href="classcqsp_1_1common_1_1_universe.html">cqsp::common::Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="separator:a287255db8df02a845bac088787a91976"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31e8bda37eda47599660fcfd1486e687"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#a31e8bda37eda47599660fcfd1486e687">cqsp::common::scripting::FunctionEvent</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="separator:a31e8bda37eda47599660fcfd1486e687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa48326982c20bdbc2c7840ae5b4fae4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#aa48326982c20bdbc2c7840ae5b4fae4c">cqsp::common::scripting::FunctionResource</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="separator:aa48326982c20bdbc2c7840ae5b4fae4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c3e49b4622e41997a5e67d9525f44d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#a8c3e49b4622e41997a5e67d9525f44d8">cqsp::common::scripting::FunctionCivilizations</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="separator:a8c3e49b4622e41997a5e67d9525f44d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6c78818e80d8a6a596dc9e9d0619bad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#ad6c78818e80d8a6a596dc9e9d0619bad">cqsp::common::scripting::FunctionScience</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="separator:ad6c78818e80d8a6a596dc9e9d0619bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e9cf2a9424437d77f6ead7e13002458"><td class="memItemLeft" align="right" valign="top">sol::table&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#a9e9cf2a9424437d77f6ead7e13002458">cqsp::common::scripting::GetMarketTable</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine, entt::entity market)</td></tr>
-<tr class="separator:a9e9cf2a9424437d77f6ead7e13002458"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5234d547fea82f8ddb829f0572f9b7db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#a5234d547fea82f8ddb829f0572f9b7db">cqsp::common::scripting::FunctionTrade</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="separator:a5234d547fea82f8ddb829f0572f9b7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad66894f875b8baa549aa2b465d11b1d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1scripting.html#ad66894f875b8baa549aa2b465d11b1d8">cqsp::common::scripting::LoadFunctions</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
-<tr class="separator:ad66894f875b8baa549aa2b465d11b1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56c85bf9056c3608d53ee8fbcbd7aa4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#ae56c85bf9056c3608d53ee8fbcbd7aa4">cqsp::core::scripting::FunctionRandom</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="memdesc:ae56c85bf9056c3608d53ee8fbcbd7aa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes functions for RNG  <a href="namespacecqsp_1_1core_1_1scripting.html#ae56c85bf9056c3608d53ee8fbcbd7aa4">More...</a><br /></td></tr>
+<tr class="separator:ae56c85bf9056c3608d53ee8fbcbd7aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81feae7bc689aa35ee9aed78740b439"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#ab81feae7bc689aa35ee9aed78740b439">cqsp::core::scripting::FunctionUniverseBodyGen</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="separator:ab81feae7bc689aa35ee9aed78740b439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50b3948625925bff02f35f6d37d7e8c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#a50b3948625925bff02f35f6d37d7e8c8">cqsp::core::scripting::FunctionCivilizationGen</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="separator:a50b3948625925bff02f35f6d37d7e8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90f4e22765a2663795df7f24084e8d3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#a90f4e22765a2663795df7f24084e8d3d">cqsp::core::scripting::FunctionEconomy</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="separator:a90f4e22765a2663795df7f24084e8d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7752f1fa9619198d4416ab8953030a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#ac7752f1fa9619198d4416ab8953030a0">cqsp::core::scripting::FunctionUser</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="separator:ac7752f1fa9619198d4416ab8953030a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2522bcb1dafcdaf753a80ce58b5f247"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#ae2522bcb1dafcdaf753a80ce58b5f247">cqsp::core::scripting::FunctionPopulation</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="separator:ae2522bcb1dafcdaf753a80ce58b5f247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e443f74abff0afdfe5d2d94273489d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#a2e443f74abff0afdfe5d2d94273489d7">cqsp::core::scripting::FunctionShips</a> (<a class="el" href="classcqsp_1_1core_1_1_universe.html">cqsp::core::Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="separator:a2e443f74abff0afdfe5d2d94273489d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7c9b6086600272754cfeb78ea396110"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#ab7c9b6086600272754cfeb78ea396110">cqsp::core::scripting::FunctionEvent</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="separator:ab7c9b6086600272754cfeb78ea396110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa75b97e40eba0f39dd9c6b113a498b32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#aa75b97e40eba0f39dd9c6b113a498b32">cqsp::core::scripting::FunctionResource</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="separator:aa75b97e40eba0f39dd9c6b113a498b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a538979b9f9f8eea70ce17b2d3819dbee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#a538979b9f9f8eea70ce17b2d3819dbee">cqsp::core::scripting::FunctionCivilizations</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="separator:a538979b9f9f8eea70ce17b2d3819dbee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eb6db24503b19381ba8763e05cc65aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#a8eb6db24503b19381ba8763e05cc65aa">cqsp::core::scripting::FunctionScience</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="separator:a8eb6db24503b19381ba8763e05cc65aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab1e9ffe31bf1e208dedf66b88f4fe3d"><td class="memItemLeft" align="right" valign="top">sol::table&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#aab1e9ffe31bf1e208dedf66b88f4fe3d">cqsp::core::scripting::GetMarketTable</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine, entt::entity market)</td></tr>
+<tr class="separator:aab1e9ffe31bf1e208dedf66b88f4fe3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae92844dfb2e7344664da8b2e135d078"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#aae92844dfb2e7344664da8b2e135d078">cqsp::core::scripting::FunctionTrade</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="separator:aae92844dfb2e7344664da8b2e135d078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84344df745fec13b53798d3111be7e8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1scripting.html#a84344df745fec13b53798d3111be7e8d">cqsp::core::scripting::LoadFunctions</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, ScriptInterface &amp;script_engine)</td></tr>
+<tr class="separator:a84344df745fec13b53798d3111be7e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 16 2025 07:14:06 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 20 2025 05:27:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

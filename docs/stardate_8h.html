@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/components/stardate.h File Reference</title>
+<title>Conquer Space: /github/workspace/src/core/components/stardate.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_2291727caf9acaee3f125d082d7de276.html">components</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="dir_d9eb0d80e09d6ce0555608cf805d2a66.html">components</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -81,23 +81,23 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1common_1_1components_1_1_star_date.html">cqsp::common::components::StarDate</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds and calculates the tick that is on going. Date is the number of hours that has been ongoing since the start of the day. Here is some rough thinking for what interval things should be done at. 1 tick: Combat ticks, planetary and ship movement? 25 ticks: (about a day) Economic activity, though I don't think it's such a good idea to put them in such a tight interval. 25 * 5 = 125 ticks: (about 5 days) 25 * 25 = 625 ticks: (about 26 days) Construction progress, pop growth, social changes, will also be the interval that would be used for the reference value 25 ^ 3 / 2 ~= 15625 ticks: (about 312 days) Momentous things and things that take a long time, such as planet's climates changing We will not do days and years, because these are specific to only earth, and we would like to portray the different cultural differences resulting from different orbital periods and rotational periods from planets, and it would be rather human-centric to assume other civilizations would use our calendar. As a result, I plan to introduce a system that allows the creation of different types of calendars. That would come later, though  <a href="classcqsp_1_1common_1_1components_1_1_star_date.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html">cqsp::core::components::StarDate</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds and calculates the tick that is on going. Date is the number of hours that has been ongoing since the start of the day. Here is some rough thinking for what interval things should be done at. 1 tick: Combat ticks, planetary and ship movement? 25 ticks: (about a day) Economic activity, though I don't think it's such a good idea to put them in such a tight interval. 25 * 5 = 125 ticks: (about 5 days) 25 * 25 = 625 ticks: (about 26 days) Construction progress, pop growth, social changes, will also be the interval that would be used for the reference value 25 ^ 3 / 2 ~= 15625 ticks: (about 312 days) Momentous things and things that take a long time, such as planet's climates changing We will not do days and years, because these are specific to only earth, and we would like to portray the different cultural differences resulting from different orbital periods and rotational periods from planets, and it would be rather human-centric to assume other civilizations would use our calendar. As a result, I plan to introduce a system that allows the creation of different types of calendars. That would come later, though  <a href="classcqsp_1_1core_1_1components_1_1_star_date.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp.html">cqsp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common.html">cqsp::common</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1core"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core.html">cqsp::core</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common_1_1components"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1components.html">cqsp::common::components</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1core_1_1components"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html">cqsp::core::components</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 16 2025 07:14:06 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 20 2025 05:27:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

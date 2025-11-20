@@ -1,16 +1,16 @@
 var searchData=
 [
-  ['v_0',['v',['../struct_compiled_shader.html#ab034cff5952cec6ab871766f8e30bd09',1,'CompiledShader::v()'],['../structcqsp_1_1common_1_1components_1_1types_1_1_orbit.html#ac6a5d8fa9e33a26cc3a5df0865038f4a',1,'cqsp::common::components::types::Orbit::v()']]],
+  ['v_0',['v',['../struct_compiled_shader.html#ab034cff5952cec6ab871766f8e30bd09',1,'CompiledShader::v()'],['../structcqsp_1_1core_1_1components_1_1types_1_1_orbit.html#a73400f1dba6962139c3c86e814bac6a7',1,'cqsp::core::components::types::Orbit::v()']]],
   ['valid_1',['valid',['../classcqsp_1_1asset_1_1_package_index.html#ae9fcdfd5c31ad8077efbabf46f1547ba',1,'cqsp::asset::PackageIndex']]],
-  ['value_2',['value',['../structcqsp_1_1common_1_1components_1_1_orbit_scalar.html#a34b7f284c43101fc982986f0b17835ef',1,'cqsp::common::components::OrbitScalar']]],
+  ['value_2',['value',['../structcqsp_1_1core_1_1components_1_1_orbit_scalar.html#ac95d7d1dd0ab909b6ed0db4f17ca61bd',1,'cqsp::core::components::OrbitScalar']]],
   ['value_5fmask_3',['value_mask',['../struct_render_interface___g_l3_1_1_g_l_state_backup_1_1_stencil.html#ae150147c38177c7f0bbe79b6bf0242e2',1,'RenderInterface_GL3::GLStateBackup::Stencil']]],
-  ['values_4',['values',['../classcqsp_1_1common_1_1scripting_1_1_script_interface.html#a6d6211f9049b383346d0be03243277b7',1,'cqsp::common::scripting::ScriptInterface']]],
+  ['values_4',['values',['../classcqsp_1_1core_1_1scripting_1_1_script_interface.html#a294c8c7cfcfbf4c9f654c0ea4adb0abc',1,'cqsp::core::scripting::ScriptInterface']]],
   ['vao_5',['vao',['../struct_gfx_1_1_compiled_geometry_data.html#a162220f4cc2564b40b80e304ebe91f49',1,'Gfx::CompiledGeometryData']]],
   ['vao_6',['VAO',['../classcqsp_1_1engine_1_1_mesh.html#a4cf144a44e3dc061dec757299000d982',1,'cqsp::engine::Mesh::VAO()'],['../classcqsp_1_1asset_1_1_font.html#a0cdd081bad490d75fda166666f0b3b76',1,'cqsp::asset::Font::VAO()']]],
   ['vbo_7',['VBO',['../classcqsp_1_1asset_1_1_font.html#aa918eafb0be58bce0a73bcf94f2ecc7c',1,'cqsp::asset::Font::VBO()'],['../classcqsp_1_1engine_1_1_mesh.html#a9e581c6a9d87b0713c6335ca382465f3',1,'cqsp::engine::Mesh::VBO()']]],
   ['vbo_8',['vbo',['../struct_gfx_1_1_compiled_geometry_data.html#abb99961a9abb529c95288d73f6aed7d8',1,'Gfx::CompiledGeometryData']]],
-  ['velocity_9',['velocity',['../structcqsp_1_1common_1_1components_1_1types_1_1_kinematics.html#a577fc7b368063e8af02dcbf272385b8e',1,'cqsp::common::components::types::Kinematics::velocity()'],['../structcqsp_1_1common_1_1components_1_1types_1_1_future_position.html#a8323a52eb6cb3868aeb0b4e2ee3690c5',1,'cqsp::common::components::types::FuturePosition::velocity()']]],
-  ['velocity_5fdistribution_10',['velocity_distribution',['../classcqsp_1_1common_1_1util_1_1_orbit_generator.html#a37c0f4e99cba60e516c277efb5ed36e4',1,'cqsp::common::util::OrbitGenerator']]],
+  ['velocity_9',['velocity',['../structcqsp_1_1core_1_1components_1_1types_1_1_kinematics.html#aaee572fdd322ee888feda3495dfdbe9c',1,'cqsp::core::components::types::Kinematics::velocity()'],['../structcqsp_1_1core_1_1components_1_1types_1_1_future_position.html#ae9ddf0540022098df625af035745ffd8',1,'cqsp::core::components::types::FuturePosition::velocity()']]],
+  ['velocity_5fdistribution_10',['velocity_distribution',['../classcqsp_1_1core_1_1util_1_1_orbit_generator.html#a9ccb3a5adf2ae60b80b10d0a214d3af1',1,'cqsp::core::util::OrbitGenerator']]],
   ['version_11',['version',['../classcqsp_1_1asset_1_1_package.html#ad4b5784668f8d22afff289d6522fe35d',1,'cqsp::asset::Package::version()'],['../classcqsp_1_1asset_1_1_package_prototype.html#a3f55af083292c18f85edbbe466ee4283',1,'cqsp::asset::PackagePrototype::version()']]],
   ['vert_12',['vert',['../classcqsp_1_1asset_1_1_shader_definition.html#a506ce98ad82d0693f602b52dde229e9b',1,'cqsp::asset::ShaderDefinition']]],
   ['vert_5fshader_13',['vert_shader',['../struct_gfx_1_1_program_definition.html#a55a2e805cc1bfe2707f039c5fe2d7b9d',1,'Gfx::ProgramDefinition']]],
@@ -29,5 +29,5 @@ var searchData=
   ['viewport_5fwidth_26',['viewport_width',['../class_render_interface___g_l3.html#a4d4452a61c9a153f6ecfeae461e274b9',1,'RenderInterface_GL3']]],
   ['vis_5fshader_27',['vis_shader',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af0f4ecd06aeb3a5b1ac23880f7a405fb',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['visible_28',['visible',['../classcqsp_1_1client_1_1systems_1_1_sys_orbit_filter.html#a1b7bee07164c528683af2782529a2943',1,'cqsp::client::systems::SysOrbitFilter::visible()'],['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html#a1013b8ece88379e91bd7d2008e3d7422',1,'cqsp::client::systems::SysProvinceInformation::visible()']]],
-  ['volume_29',['volume',['../classcqsp_1_1common_1_1components_1_1_market_history.html#acd742bc968d7f4cab28fb6dfbb2d859b',1,'cqsp::common::components::MarketHistory::volume()'],['../structcqsp_1_1common_1_1components_1_1_market_information.html#ac830e4a1c38adf9c5201ee9747f59534',1,'cqsp::common::components::MarketInformation::volume()'],['../structcqsp_1_1common_1_1components_1_1_matter.html#af429a6998eb7ddbde2fe2ca83eb609fd',1,'cqsp::common::components::Matter::volume()']]]
+  ['volume_29',['volume',['../classcqsp_1_1core_1_1components_1_1_market_history.html#a07b4afebaa2b83ce8acf50cecef320aa',1,'cqsp::core::components::MarketHistory::volume()'],['../structcqsp_1_1core_1_1components_1_1_market_information.html#a929df6170158f52e531d0ce1b9b5d0da',1,'cqsp::core::components::MarketInformation::volume()'],['../structcqsp_1_1core_1_1components_1_1_matter.html#abc97b34403cd56698d9e3e203d3035a7',1,'cqsp::core::components::Matter::volume()']]]
 ];

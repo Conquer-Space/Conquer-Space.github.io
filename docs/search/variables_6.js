@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['factory_5fmin_5futilization_0',['factory_min_utilization',['../structcqsp_1_1common_1_1systems_1_1_economy_config.html#aa284bb545c91a5bd09a61c10feda74e2',1,'cqsp::common::systems::EconomyConfig']]],
+  ['factory_5fmin_5futilization_0',['factory_min_utilization',['../structcqsp_1_1core_1_1systems_1_1_economy_config.html#a9a0a828e99fe0fa6df5d7454e70b9d24',1,'cqsp::core::systems::EconomyConfig']]],
   ['fail_1',['fail',['../struct_render_interface___g_l3_1_1_g_l_state_backup_1_1_stencil.html#a02f13a808bf61277e826d1e1611e9844',1,'RenderInterface_GL3::GLStateBackup::Stencil']]],
   ['fast_5fscroll_2',['fast_scroll',['../classcqsp_1_1client_1_1_credits_window.html#ae9402cf857beab92136c04ceb7184d83',1,'cqsp::client::CreditsWindow']]],
   ['fb_5flayers_3',['fb_layers',['../class_render_interface___g_l3_1_1_render_layer_stack.html#aeb7179f05973d2f4c409fd49f24fe0dc',1,'RenderInterface_GL3::RenderLayerStack']]],
   ['fb_5fpostprocess_4',['fb_postprocess',['../class_render_interface___g_l3_1_1_render_layer_stack.html#a15403603c548ecf8a653dee350099706',1,'RenderInterface_GL3::RenderLayerStack']]],
-  ['fields_5',['fields',['../structcqsp_1_1common_1_1components_1_1science_1_1_science.html#a08fc1a52eb8ceccb0c9a0bd394be7ce1',1,'cqsp::common::components::science::Science::fields()'],['../structcqsp_1_1common_1_1components_1_1science_1_1_technology.html#a2b0aaf7829b8466982a9d26602f48471',1,'cqsp::common::components::science::Technology::fields()'],['../classcqsp_1_1common_1_1_universe.html#ab5912200968b73bccda02c7a4f1a22f7',1,'cqsp::common::Universe::fields()']]],
+  ['fields_5',['fields',['../structcqsp_1_1core_1_1components_1_1science_1_1_science.html#a7e4d2634ca972573686861508ff0d2ff',1,'cqsp::core::components::science::Science::fields()'],['../structcqsp_1_1core_1_1components_1_1science_1_1_technology.html#ad71f54fc4d054b3f4ec76d7cf375fd16',1,'cqsp::core::components::science::Technology::fields()'],['../classcqsp_1_1core_1_1_universe.html#a693bb5080a23dcfb6c819c639e48e1ab',1,'cqsp::core::Universe::fields()']]],
   ['file_6',['file',['../classcqsp_1_1asset_1_1_native_file.html#a2bd308863fdd81518ba5a9f288dc8b25',1,'cqsp::asset::NativeFile']]],
   ['file_5flist_7',['file_list',['../classcqsp_1_1client_1_1scene_1_1_main_menu_scene.html#ae0133324573d2dd2f3d4c2ad90b147c9',1,'cqsp::client::scene::MainMenuScene']]],
   ['file_5fname_8',['file_name',['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#af108b0a8e9f5074dd487644bfd74183d',1,'cqsp::client::systems::rmlui::TurnSaveWindow']]],
-  ['fixed_9',['fixed',['../structcqsp_1_1common_1_1components_1_1_recipe_cost.html#a2948ec41c5381c8a753bdfc68c11c741',1,'cqsp::common::components::RecipeCost']]],
+  ['fixed_9',['fixed',['../structcqsp_1_1core_1_1components_1_1_recipe_cost.html#a53069d2a8b3c0b2cc2626f147896cd74',1,'cqsp::core::components::RecipeCost']]],
   ['font_5fsize_10',['font_size',['../classcqsp_1_1client_1_1scene_1_1_text_test_scene.html#a5fa63e17f11fd4103eb4ac3316889223',1,'cqsp::client::scene::TextTestScene']]],
   ['fontbuffer_11',['fontBuffer',['../classcqsp_1_1asset_1_1_font_prototype.html#a2479f590485338873ff6cdffb2a92634',1,'cqsp::asset::FontPrototype']]],
   ['fontshader_12',['fontShader',['../classcqsp_1_1engine_1_1_application.html#a5bc292a80b886ec588885e3c97f34251',1,'cqsp::engine::Application']]],
@@ -22,7 +22,7 @@ var searchData=
   ['frag_5fshaders_19',['frag_shaders',['../struct_gfx_1_1_program_data.html#a8ef36971eb1cf34525c192620e99bb09',1,'Gfx::ProgramData']]],
   ['framebuffer_20',['framebuffer',['../classcqsp_1_1engine_1_1_framebuffer_renderer.html#ac3658f5736930383e08efb341f802753',1,'cqsp::engine::FramebufferRenderer::framebuffer()'],['../classcqsp_1_1engine_1_1_a_a_frame_buffer_renderer.html#a875b181c5f8e01ddc1fdac055b243ca4',1,'cqsp::engine::AAFrameBufferRenderer::framebuffer()'],['../struct_gfx_1_1_framebuffer_data.html#ae9c787626ed1bbad2d48822721a5a918',1,'Gfx::FramebufferData::framebuffer()']]],
   ['framebuffers_21',['framebuffers',['../classcqsp_1_1engine_1_1_layer_renderer.html#ad719d1a0e62d7be39528774531b88dda',1,'cqsp::engine::LayerRenderer']]],
-  ['fulfilled_22',['fulfilled',['../structcqsp_1_1common_1_1components_1_1infrastructure_1_1_transported_good.html#a7887fa23fbc3e100eaad6c9eaa94d608',1,'cqsp::common::components::infrastructure::TransportedGood']]],
+  ['fulfilled_22',['fulfilled',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_transported_good.html#abc80627d2c213e4b61591a40b088103a',1,'cqsp::core::components::infrastructure::TransportedGood']]],
   ['full_5fscreen_23',['full_screen',['../classcqsp_1_1client_1_1_settings_window.html#a6585983194f4e3a80d8948a443baf4ba',1,'cqsp::client::SettingsWindow::full_screen()'],['../classcqsp_1_1engine_1_1_application.html#aa3520f24b665eaac2c5974073f249c03',1,'cqsp::engine::Application::full_screen()']]],
   ['fullscreen_5fquad_5fgeometry_24',['fullscreen_quad_geometry',['../class_render_interface___g_l3.html#ad86413ec3d9f6c033aabd3f004094483',1,'RenderInterface_GL3']]],
   ['func_25',['func',['../struct_render_interface___g_l3_1_1_g_l_state_backup_1_1_stencil.html#a4ab82854d1d420c56decf8eb0f3412ed',1,'RenderInterface_GL3::GLStateBackup::Stencil']]]

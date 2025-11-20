@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/actions/shiplaunchaction.h Source File</title>
+<title>Conquer Space: /github/workspace/src/core/actions/shiplaunchaction.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_53739f8383ee811a514a5725a11b20ee.html">actions</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="dir_1bb4127b59506e9c297a3a3632806743.html">actions</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -94,30 +94,30 @@ $(function() {
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;entt/entt.hpp&gt;</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &lt;glm/vec3.hpp&gt;</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &quot;<a class="code" href="coordinates_8h.html">common/components/coordinates.h</a>&quot;</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &quot;<a class="code" href="orbit_8h.html">common/components/orbit.h</a>&quot;</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &quot;<a class="code" href="universe_8h.html">common/universe.h</a>&quot;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &quot;<a class="code" href="coordinates_8h.html">core/components/coordinates.h</a>&quot;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &quot;<a class="code" href="orbit_8h.html">core/components/orbit.h</a>&quot;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &quot;<a class="code" href="universe_8h.html">core/universe.h</a>&quot;</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1common_1_1actions.html">cqsp::common::actions</a> {</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>Node <a class="code hl_function" href="namespacecqsp_1_1common_1_1actions.html#a2c5ddc49db1c01f9db4e7261f41a89bc">CreateShip</a>(Node&amp; starsystem, Node&amp; fleet, <span class="keyword">const</span> glm::vec3&amp; orbit, <span class="keyword">const</span> std::string&amp; shipName = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1core_1_1actions.html">cqsp::core::actions</a> {</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>Node <a class="code hl_function" href="namespacecqsp_1_1core_1_1actions.html#a807b101300c85a55784f3f22aa198060">CreateShip</a>(Node&amp; starsystem, Node&amp; fleet, <span class="keyword">const</span> glm::vec3&amp; orbit, <span class="keyword">const</span> std::string&amp; shipName = <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="comment">//@brief just like createShip with fleets but uses an orbit entity instead</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>Node <a class="code hl_function" href="namespacecqsp_1_1common_1_1actions.html#a2c5ddc49db1c01f9db4e7261f41a89bc">CreateShip</a>(Node&amp; starsystem, Node&amp; fleet, Node&amp; orbit, <span class="keyword">const</span> std::string&amp; shipName = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>Node <a class="code hl_function" href="namespacecqsp_1_1core_1_1actions.html#a807b101300c85a55784f3f22aa198060">CreateShip</a>(Node&amp; starsystem, Node&amp; fleet, Node&amp; orbit, <span class="keyword">const</span> std::string&amp; shipName = <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>[[nodiscard]] entt::entity <a class="code hl_function" href="namespacecqsp_1_1common_1_1actions.html#a5ec0c8052d220c6bfe98c94a32499c30">LaunchShip</a>(Universe&amp; <a class="code hl_variable" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, <span class="keyword">const</span> components::types::Orbit&amp; orbit);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>[[nodiscard]] entt::entity <a class="code hl_function" href="namespacecqsp_1_1core_1_1actions.html#aa22f0dce105907d5790cdaa96880acb8">LaunchShip</a>(Universe&amp; <a class="code hl_variable" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, <span class="keyword">const</span> components::types::Orbit&amp; orbit);</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>Node <a class="code hl_function" href="namespacecqsp_1_1common_1_1actions.html#a2c5ddc49db1c01f9db4e7261f41a89bc">CreateShip</a>(Node&amp; starsystem, Node&amp; fleet, <span class="keyword">const</span> components::types::Orbit&amp; orbit, <span class="keyword">const</span> std::string&amp; shipName = <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>}  <span class="comment">// namespace cqsp::common::actions</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>Node <a class="code hl_function" href="namespacecqsp_1_1core_1_1actions.html#a807b101300c85a55784f3f22aa198060">CreateShip</a>(Node&amp; starsystem, Node&amp; fleet, <span class="keyword">const</span> components::types::Orbit&amp; orbit, <span class="keyword">const</span> std::string&amp; shipName = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>}  <span class="comment">// namespace cqsp::core::actions</span></div>
 <div class="ttc" id="acoordinates_8h_html"><div class="ttname"><a href="coordinates_8h.html">coordinates.h</a></div></div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1actions_html"><div class="ttname"><a href="namespacecqsp_1_1common_1_1actions.html">cqsp::common::actions</a></div><div class="ttdef"><b>Definition:</b> cityactions.cpp:23</div></div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1actions_html_a2c5ddc49db1c01f9db4e7261f41a89bc"><div class="ttname"><a href="namespacecqsp_1_1common_1_1actions.html#a2c5ddc49db1c01f9db4e7261f41a89bc">cqsp::common::actions::CreateShip</a></div><div class="ttdeci">Node CreateShip(Node &amp;starsystem, Node &amp;fleet, const glm::vec3 &amp;orbit, const std::string &amp;shipName)</div><div class="ttdoc">creates a ship with a name and assigns it to a fleet and solar system</div><div class="ttdef"><b>Definition:</b> shiplaunchaction.cpp:39</div></div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1actions_html_a5ec0c8052d220c6bfe98c94a32499c30"><div class="ttname"><a href="namespacecqsp_1_1common_1_1actions.html#a5ec0c8052d220c6bfe98c94a32499c30">cqsp::common::actions::LaunchShip</a></div><div class="ttdeci">entt::entity LaunchShip(Universe &amp;universe, const components::types::Orbit &amp;orbit)</div><div class="ttdef"><b>Definition:</b> shiplaunchaction.cpp:68</div></div>
+<div class="ttc" id="anamespacecqsp_1_1core_1_1actions_html"><div class="ttname"><a href="namespacecqsp_1_1core_1_1actions.html">cqsp::core::actions</a></div><div class="ttdef"><b>Definition:</b> cityactions.cpp:23</div></div>
+<div class="ttc" id="anamespacecqsp_1_1core_1_1actions_html_a807b101300c85a55784f3f22aa198060"><div class="ttname"><a href="namespacecqsp_1_1core_1_1actions.html#a807b101300c85a55784f3f22aa198060">cqsp::core::actions::CreateShip</a></div><div class="ttdeci">Node CreateShip(Node &amp;starsystem, Node &amp;fleet, const glm::vec3 &amp;orbit, const std::string &amp;shipName)</div><div class="ttdoc">creates a ship with a name and assigns it to a fleet and solar system</div><div class="ttdef"><b>Definition:</b> shiplaunchaction.cpp:39</div></div>
+<div class="ttc" id="anamespacecqsp_1_1core_1_1actions_html_aa22f0dce105907d5790cdaa96880acb8"><div class="ttname"><a href="namespacecqsp_1_1core_1_1actions.html#aa22f0dce105907d5790cdaa96880acb8">cqsp::core::actions::LaunchShip</a></div><div class="ttdeci">entt::entity LaunchShip(Universe &amp;universe, const components::types::Orbit &amp;orbit)</div><div class="ttdef"><b>Definition:</b> shiplaunchaction.cpp:68</div></div>
 <div class="ttc" id="aorbit_8h_html"><div class="ttname"><a href="orbit_8h.html">orbit.h</a></div></div>
-<div class="ttc" id="aturnsavewindow_8h_html_adfd4fe8b82e62f73d8931ecb95c24d4e"><div class="ttname"><a href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a></div><div class="ttdeci">common::Universe * universe</div><div class="ttdef"><b>Definition:</b> turnsavewindow.h:3</div></div>
+<div class="ttc" id="aturnsavewindow_8h_html_a535d52d7362db66ef905218b3bdd788f"><div class="ttname"><a href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a></div><div class="ttdeci">core::Universe * universe</div><div class="ttdef"><b>Definition:</b> turnsavewindow.h:3</div></div>
 <div class="ttc" id="auniverse_8h_html"><div class="ttname"><a href="universe_8h.html">universe.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 16 2025 07:14:06 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 20 2025 05:27:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

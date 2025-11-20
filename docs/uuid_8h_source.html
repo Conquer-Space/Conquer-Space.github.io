@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/util/uuid.h Source File</title>
+<title>Conquer Space: /github/workspace/src/core/util/uuid.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_be04617272aece3468352586f0f1ec2c.html">util</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="dir_1e13eb70021b1d47a39bb763c978d2ce.html">util</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -92,9 +92,9 @@ $(function() {
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;random&gt;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1common_1_1util.html">cqsp::common::util</a> {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1core_1_1util.html">cqsp::core::util</a> {</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">// Generates 6 digit hexidecimal id</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="namespacecqsp_1_1common_1_1util.html#a9c5caccc203234e7118aaf9422692569">   24</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespacecqsp_1_1common_1_1util.html#a9c5caccc203234e7118aaf9422692569">random_id</a>() {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="namespacecqsp_1_1core_1_1util.html#ab5c28c433ead51d4dc1970acc7053d34">   24</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespacecqsp_1_1core_1_1util.html#ab5c28c433ead51d4dc1970acc7053d34">random_id</a>() {</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">int</span> len = 6;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* alpha_num = <span class="stringliteral">&quot;0123456789abcdef&quot;</span>;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keyword">thread_local</span> <span class="keyword">static</span> std::mt19937 rg {std::random_device {}()};</div>
@@ -108,13 +108,13 @@ $(function() {
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">return</span> s;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}  <span class="comment">// namespace cqsp::common::util</span></div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1util_html"><div class="ttname"><a href="namespacecqsp_1_1common_1_1util.html">cqsp::common::util</a></div><div class="ttdef"><b>Definition:</b> logging.cpp:55</div></div>
-<div class="ttc" id="anamespacecqsp_1_1common_1_1util_html_a9c5caccc203234e7118aaf9422692569"><div class="ttname"><a href="namespacecqsp_1_1common_1_1util.html#a9c5caccc203234e7118aaf9422692569">cqsp::common::util::random_id</a></div><div class="ttdeci">std::string random_id()</div><div class="ttdef"><b>Definition:</b> uuid.h:24</div></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}  <span class="comment">// namespace cqsp::core::util</span></div>
+<div class="ttc" id="anamespacecqsp_1_1core_1_1util_html"><div class="ttname"><a href="namespacecqsp_1_1core_1_1util.html">cqsp::core::util</a></div><div class="ttdef"><b>Definition:</b> logging.cpp:55</div></div>
+<div class="ttc" id="anamespacecqsp_1_1core_1_1util_html_ab5c28c433ead51d4dc1970acc7053d34"><div class="ttname"><a href="namespacecqsp_1_1core_1_1util.html#ab5c28c433ead51d4dc1970acc7053d34">cqsp::core::util::random_id</a></div><div class="ttdeci">std::string random_id()</div><div class="ttdef"><b>Definition:</b> uuid.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 16 2025 07:14:06 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 20 2025 05:27:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: /github/workspace/src/common/actions/maneuver/commands.cpp File Reference</title>
+<title>Conquer Space: /github/workspace/src/core/actions/maneuver/commands.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="dir_53739f8383ee811a514a5725a11b20ee.html">actions</a></li><li class="navelem"><a class="el" href="dir_c9a112fbffeba15921f3e1f8b1ba2e03.html">maneuver</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html">core</a></li><li class="navelem"><a class="el" href="dir_1bb4127b59506e9c297a3a3632806743.html">actions</a></li><li class="navelem"><a class="el" href="dir_b307d0e3510968598f47d97956311391.html">maneuver</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -74,61 +74,61 @@ $(function() {
   <div class="headertitle"><div class="title">commands.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="commands_8h_source.html">common/actions/maneuver/commands.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="commands_8h_source.html">core/actions/maneuver/commands.h</a>&quot;</code><br />
 <code>#include &lt;spdlog/spdlog.h&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;tracy/Tracy.hpp&gt;</code><br />
-<code>#include &quot;<a class="el" href="basicmaneuver_8h_source.html">common/actions/maneuver/basicmaneuver.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="rendezvous_8h_source.html">common/actions/maneuver/rendezvous.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="transfers_8h_source.html">common/actions/maneuver/transfers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="maneuver_8h_source.html">common/components/maneuver.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="orbit_8h_source.html">common/components/orbit.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="ships_8h_source.html">common/components/ships.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="surface_8h_source.html">common/components/surface.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="nameutil_8h_source.html">common/util/nameutil.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="basicmaneuver_8h_source.html">core/actions/maneuver/basicmaneuver.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="rendezvous_8h_source.html">core/actions/maneuver/rendezvous.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="transfers_8h_source.html">core/actions/maneuver/transfers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="maneuver_8h_source.html">core/components/maneuver.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="orbit_8h_source.html">core/components/orbit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ships_8h_source.html">core/components/ships.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="surface_8h_source.html">core/components/surface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="nameutil_8h_source.html">core/util/nameutil.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp.html">cqsp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common.html">cqsp::common</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1core"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core.html">cqsp::core</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common_1_1systems"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems.html">cqsp::common::systems</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1core_1_1systems"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems.html">cqsp::core::systems</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacecqsp_1_1common_1_1systems_1_1commands"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html">cqsp::common::systems::commands</a></td></tr>
+<tr class="memitem:namespacecqsp_1_1core_1_1systems_1_1commands"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html">cqsp::core::systems::commands</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac18c19532157c43e231d92207c680006"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html#ac18c19532157c43e231d92207c680006">cqsp::common::systems::commands::VerifyCommand</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity command)</td></tr>
-<tr class="separator:ac18c19532157c43e231d92207c680006"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11508aae1c38be20161f319c0ead111f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html#a11508aae1c38be20161f319c0ead111f">cqsp::common::systems::commands::ExecuteCommand</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity entity, entt::entity command_entity, Command command)</td></tr>
-<tr class="separator:a11508aae1c38be20161f319c0ead111f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22ba3e709195679b9d978697db9a1b9c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html#a22ba3e709195679b9d978697db9a1b9c">cqsp::common::systems::commands::ProcessCommandQueue</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity body, Trigger trigger)</td></tr>
-<tr class="separator:a22ba3e709195679b9d978697db9a1b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b53982cc1058df3bf175624c5f55057"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html#a5b53982cc1058df3bf175624c5f55057">cqsp::common::systems::commands::TransferToMoon</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity agent, entt::entity target)</td></tr>
-<tr class="separator:a5b53982cc1058df3bf175624c5f55057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb65b85a0c4744f393204bc75bc7d9fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html#adb65b85a0c4744f393204bc75bc7d9fa">cqsp::common::systems::commands::PushManeuver</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity entity, components::Maneuver_t maneuver, double offset)</td></tr>
-<tr class="separator:adb65b85a0c4744f393204bc75bc7d9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee423b1c1877b2122d00e7c670e88874"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html#aee423b1c1877b2122d00e7c670e88874">cqsp::common::systems::commands::PushManeuvers</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity entity, std::initializer_list&lt; components::Maneuver_t &gt; maneuver, double offset)</td></tr>
-<tr class="separator:aee423b1c1877b2122d00e7c670e88874"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a394733fca51280c1aaca09e27dbff77c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html#a394733fca51280c1aaca09e27dbff77c">cqsp::common::systems::commands::PushManeuvers</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity entity, components::HohmannPair_t hohmann_pair, double offset)</td></tr>
-<tr class="separator:a394733fca51280c1aaca09e27dbff77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39c8accf0659ed3cac98746bbd9aded3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html#a39c8accf0659ed3cac98746bbd9aded3">cqsp::common::systems::commands::LandOnMoon</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity agent, entt::entity target, entt::entity city)</td></tr>
-<tr class="separator:a39c8accf0659ed3cac98746bbd9aded3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4238e7cf3963edff15b271ce1d6656a6"><td class="memItemLeft" align="right" valign="top">components::Maneuver_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html#a4238e7cf3963edff15b271ce1d6656a6">cqsp::common::systems::commands::MakeManeuver</a> (const glm::dvec3 &amp;vector, double time)</td></tr>
-<tr class="separator:a4238e7cf3963edff15b271ce1d6656a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a792cf107fec0113a23ec8e4eaccb3e80"><td class="memItemLeft" align="right" valign="top">std::vector&lt; entt::entity &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html#a792cf107fec0113a23ec8e4eaccb3e80">cqsp::common::systems::commands::GetSOIHierarchy</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity source)</td></tr>
-<tr class="separator:a792cf107fec0113a23ec8e4eaccb3e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf0997dd53a13a201e4d2628d90089a7"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html#acf0997dd53a13a201e4d2628d90089a7">cqsp::common::systems::commands::GetCommonSOI</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity source, entt::entity target)</td></tr>
-<tr class="separator:acf0997dd53a13a201e4d2628d90089a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60a907a85f766af48a70de3988e11000"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1common_1_1systems_1_1commands.html#a60a907a85f766af48a70de3988e11000">cqsp::common::systems::commands::LeaveSOI</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#adfd4fe8b82e62f73d8931ecb95c24d4e">universe</a>, entt::entity agent, double altitude)</td></tr>
-<tr class="separator:a60a907a85f766af48a70de3988e11000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af22843d42cb267c70c3aa3a8e3a1128d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html#af22843d42cb267c70c3aa3a8e3a1128d">cqsp::core::systems::commands::VerifyCommand</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, entt::entity command)</td></tr>
+<tr class="separator:af22843d42cb267c70c3aa3a8e3a1128d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb8daec19bdfd8cc1705d3671a81f5b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html#afb8daec19bdfd8cc1705d3671a81f5b2">cqsp::core::systems::commands::ExecuteCommand</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, entt::entity entity, entt::entity command_entity, Command command)</td></tr>
+<tr class="separator:afb8daec19bdfd8cc1705d3671a81f5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab91808495bb132c0e5b4d6ca45af8007"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html#ab91808495bb132c0e5b4d6ca45af8007">cqsp::core::systems::commands::ProcessCommandQueue</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, entt::entity body, Trigger trigger)</td></tr>
+<tr class="separator:ab91808495bb132c0e5b4d6ca45af8007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72f38e070731b0480beb1238b8cf0ec1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html#a72f38e070731b0480beb1238b8cf0ec1">cqsp::core::systems::commands::TransferToMoon</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, entt::entity agent, entt::entity target)</td></tr>
+<tr class="separator:a72f38e070731b0480beb1238b8cf0ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8809773fd4d9728a60b61f0c9dda1a0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html#a8809773fd4d9728a60b61f0c9dda1a0b">cqsp::core::systems::commands::PushManeuver</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, entt::entity entity, components::Maneuver_t maneuver, double offset)</td></tr>
+<tr class="separator:a8809773fd4d9728a60b61f0c9dda1a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19737d0a6c94647488dfaae5b6b5de43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html#a19737d0a6c94647488dfaae5b6b5de43">cqsp::core::systems::commands::PushManeuvers</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, entt::entity entity, std::initializer_list&lt; components::Maneuver_t &gt; maneuver, double offset)</td></tr>
+<tr class="separator:a19737d0a6c94647488dfaae5b6b5de43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4480b98928a31ecfc08cc1cf5733f2ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html#a4480b98928a31ecfc08cc1cf5733f2ca">cqsp::core::systems::commands::PushManeuvers</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, entt::entity entity, components::HohmannPair_t hohmann_pair, double offset)</td></tr>
+<tr class="separator:a4480b98928a31ecfc08cc1cf5733f2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ad919cfc5e6548458d82b6677883c25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html#a8ad919cfc5e6548458d82b6677883c25">cqsp::core::systems::commands::LandOnMoon</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, entt::entity agent, entt::entity target, entt::entity city)</td></tr>
+<tr class="separator:a8ad919cfc5e6548458d82b6677883c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae07e772f9f25a118f6ecc57d2f6f4f18"><td class="memItemLeft" align="right" valign="top">components::Maneuver_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html#ae07e772f9f25a118f6ecc57d2f6f4f18">cqsp::core::systems::commands::MakeManeuver</a> (const glm::dvec3 &amp;vector, double time)</td></tr>
+<tr class="separator:ae07e772f9f25a118f6ecc57d2f6f4f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35b5840c19e24228857f8679cda799ea"><td class="memItemLeft" align="right" valign="top">std::vector&lt; entt::entity &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html#a35b5840c19e24228857f8679cda799ea">cqsp::core::systems::commands::GetSOIHierarchy</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, entt::entity source)</td></tr>
+<tr class="separator:a35b5840c19e24228857f8679cda799ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bb91121eb34274ca4a3949d2b2aec2f"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html#a3bb91121eb34274ca4a3949d2b2aec2f">cqsp::core::systems::commands::GetCommonSOI</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, entt::entity source, entt::entity target)</td></tr>
+<tr class="separator:a3bb91121eb34274ca4a3949d2b2aec2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3782796d90602e41f3857181db5d46d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1systems_1_1commands.html#ad3782796d90602e41f3857181db5d46d">cqsp::core::systems::commands::LeaveSOI</a> (Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, entt::entity agent, double altitude)</td></tr>
+<tr class="separator:ad3782796d90602e41f3857181db5d46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 16 2025 07:14:06 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Nov 20 2025 05:27:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
