@@ -21,5 +21,6 @@ var searchData=
   ['programdefinition_18',['ProgramDefinition',['../struct_gfx_1_1_program_definition.html',1,'Gfx']]],
   ['province_19',['Province',['../structcqsp_1_1core_1_1components_1_1_province.html',1,'cqsp::core::components']]],
   ['provincecolor_20',['ProvinceColor',['../structcqsp_1_1core_1_1components_1_1_province_color.html',1,'cqsp::core::components']]],
-  ['provincedplanet_21',['ProvincedPlanet',['../structcqsp_1_1core_1_1components_1_1_provinced_planet.html',1,'cqsp::core::components']]]
+  ['provincedplanet_21',['ProvincedPlanet',['../structcqsp_1_1core_1_1components_1_1_provinced_planet.html',1,'cqsp::core::components']]],
+  ['provinceloader_22',['ProvinceLoader',['../classcqsp_1_1core_1_1loading_1_1_province_loader.html',1,'cqsp::core::loading']]]
 ];

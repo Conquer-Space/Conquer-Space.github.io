@@ -88,6 +88,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1loading_1_1_planet_loader.html">PlanetLoader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1loading_1_1_province_loader.html">ProvinceLoader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This loader has to be loaded after <a class="el" href="classcqsp_1_1core_1_1loading_1_1_planet_loader.html">PlanetLoader</a> because it adds the cities to the respectve planets  <a href="classcqsp_1_1core_1_1loading_1_1_province_loader.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1loading_1_1_recipe_loader.html">RecipeLoader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1loading_1_1_satellite_loader.html">SatelliteLoader</a></td></tr>
@@ -106,12 +109,6 @@ Functions</h2></td></tr>
 <tr class="memitem:abf0a31092b878ea1d1c98979c5581897"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structcqsp_1_1core_1_1components_1_1types_1_1_orbit.html">Orbit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1loading.html#abf0a31092b878ea1d1c98979c5581897">LoadOrbit</a> (const Hjson::Value &amp;values)</td></tr>
 <tr class="memdesc:abf0a31092b878ea1d1c98979c5581897"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads an orbit from a hjson object Note: The caller will have to set the center entity.  <a href="namespacecqsp_1_1core_1_1loading.html#abf0a31092b878ea1d1c98979c5581897">More...</a><br /></td></tr>
 <tr class="separator:abf0a31092b878ea1d1c98979c5581897"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfabcc252e2aa635d028026c374573c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1loading.html#acfabcc252e2aa635d028026c374573c6">LoadProvinces</a> (<a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;planet, const std::string &amp;text)</td></tr>
-<tr class="separator:acfabcc252e2aa635d028026c374573c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a429ac48efbaa7874ba0968f6cd91af7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1loading.html#a429ac48efbaa7874ba0968f6cd91af7a">LoadAdjProvinces</a> (<a class="el" href="classcqsp_1_1core_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, Hjson::Value &amp;adjacency_map)</td></tr>
-<tr class="separator:a429ac48efbaa7874ba0968f6cd91af7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56fcac939fac14ee0bffd93c7038af92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1loading.html#a56fcac939fac14ee0bffd93c7038af92">LoadAllProvinces</a> (<a class="el" href="classcqsp_1_1core_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>)</td></tr>
-<tr class="separator:a56fcac939fac14ee0bffd93c7038af92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e3064d962b00e5719b7782d6400eab7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcqsp_1_1core_1_1components_1_1types_1_1_orbit.html">Orbit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1loading.html#a9e3064d962b00e5719b7782d6400eab7">GetOrbit</a> (const std::string &amp;line_one, const std::string &amp;line_two, const double &amp;GM)</td></tr>
 <tr class="separator:a9e3064d962b00e5719b7782d6400eab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace4c9614bac42f508fc54f0e34130fa5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1loading.html#ace4c9614bac42f508fc54f0e34130fa5">GetEpochYear</a> (int year)</td></tr>
@@ -252,52 +249,6 @@ Functions</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a429ac48efbaa7874ba0968f6cd91af7a" name="a429ac48efbaa7874ba0968f6cd91af7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a429ac48efbaa7874ba0968f6cd91af7a">&#9670;&nbsp;</a></span>LoadAdjProvinces()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void cqsp::core::loading::LoadAdjProvinces </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1core_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Hjson::Value &amp;&#160;</td>
-          <td class="paramname"><em>adjacency_map</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a56fcac939fac14ee0bffd93c7038af92" name="a56fcac939fac14ee0bffd93c7038af92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56fcac939fac14ee0bffd93c7038af92">&#9670;&nbsp;</a></span>LoadAllProvinces()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void cqsp::core::loading::LoadAllProvinces </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1core_1_1_universe.html">Universe</a> &amp;&#160;</td>
-          <td class="paramname"><em>universe</em></td><td>)</td>
-          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -501,34 +452,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Will return a nullopt if the struct is invalid </dd></dl>
-
-</div>
-</div>
-<a id="acfabcc252e2aa635d028026c374573c6" name="acfabcc252e2aa635d028026c374573c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfabcc252e2aa635d028026c374573c6">&#9670;&nbsp;</a></span>LoadProvinces()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void cqsp::core::loading::LoadProvinces </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;&#160;</td>
-          <td class="paramname"><em>planet</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>text</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -809,7 +732,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 20 2025 05:27:13 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jan 1 2026 14:21:00 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
