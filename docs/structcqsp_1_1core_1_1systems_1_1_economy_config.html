@@ -82,6 +82,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a0e672d013c4ba263d3cac5a30a96a91a"><td class="memItemLeft" >struct {</td></tr>
 <tr class="memitem:a1b90ace24dc49b2a5b8cb98aef904e8d"><td class="memItemLeft" >&#160;&#160;&#160;double&#160;&#160;&#160;<a class="el" href="structcqsp_1_1core_1_1systems_1_1_economy_config.html#a743daa3e428d01e3aaec11124cd6047f">base_price_deviation</a> = 0.75</td></tr>
 <tr class="separator:a1b90ace24dc49b2a5b8cb98aef904e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af18de02193d477f637cbcfe1a28b3d09"><td class="memItemLeft" >&#160;&#160;&#160;double&#160;&#160;&#160;<a class="el" href="structcqsp_1_1core_1_1systems_1_1_economy_config.html#afd4d3843f61da67ee4cc9f27c0ed297f">shortage_level</a> = 0.8</td></tr>
+<tr class="separator:af18de02193d477f637cbcfe1a28b3d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4329ec2e112b3bd7c2028d8cc29cad6f"><td class="memItemLeft" >&#160;&#160;&#160;double&#160;&#160;&#160;<a class="el" href="structcqsp_1_1core_1_1systems_1_1_economy_config.html#a8d08ef5585ba375156633a95ef2b7529">default_market_access</a> = 0.8</td></tr>
+<tr class="separator:a4329ec2e112b3bd7c2028d8cc29cad6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e672d013c4ba263d3cac5a30a96a91a"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1systems_1_1_economy_config.html#a0e672d013c4ba263d3cac5a30a96a91a">market_config</a></td></tr>
 <tr class="separator:a0e672d013c4ba263d3cac5a30a96a91a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcb46cb887dfcb98c8e00de150cae0a3"><td class="memItemLeft" >struct {</td></tr>
@@ -109,6 +113,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Fraction that the price of a good can deviate from the base price. </p>
+
+</div>
+</div>
+<a id="a8d08ef5585ba375156633a95ef2b7529" name="a8d08ef5585ba375156633a95ef2b7529"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d08ef5585ba375156633a95ef2b7529">&#9670;&nbsp;</a></span>default_market_access</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::core::systems::EconomyConfig::default_market_access = 0.8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >What to initialize our market access with. </p>
 
 </div>
 </div>
@@ -182,13 +201,28 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="afd4d3843f61da67ee4cc9f27c0ed297f" name="afd4d3843f61da67ee4cc9f27c0ed297f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd4d3843f61da67ee4cc9f27c0ed297f">&#9670;&nbsp;</a></span>shortage_level</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::core::systems::EconomyConfig::shortage_level = 0.8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >How much of a deficit we have ((demand - supply) / demand) to be considered a shortage. </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>/github/workspace/src/core/systems/economy/<a class="el" href="economyconfig_8h_source.html">economyconfig.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 1 2026 14:21:00 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jan 1 2026 15:23:16 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

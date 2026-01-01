@@ -122,10 +122,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adc34f507248ad91df3595a10d684b615 inherit pub_methods_structcqsp_1_1core_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e906250bb73953f2cb0f24eceef9356 inherit pub_methods_structcqsp_1_1core_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_market_information.html#a1e906250bb73953f2cb0f24eceef9356">demand</a> ()</td></tr>
 <tr class="separator:a1e906250bb73953f2cb0f24eceef9356 inherit pub_methods_structcqsp_1_1core_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a565bba2204444b64ff03dbe29677f080 inherit pub_methods_structcqsp_1_1core_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_market_information.html#a565bba2204444b64ff03dbe29677f080">previous_supply</a> ()</td></tr>
-<tr class="separator:a565bba2204444b64ff03dbe29677f080 inherit pub_methods_structcqsp_1_1core_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68c6d617be02c53ae59dbf91ffd8f31a inherit pub_methods_structcqsp_1_1core_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_market_information.html#a68c6d617be02c53ae59dbf91ffd8f31a">previous_demand</a> ()</td></tr>
-<tr class="separator:a68c6d617be02c53ae59dbf91ffd8f31a inherit pub_methods_structcqsp_1_1core_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -145,6 +141,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a09e3a2591f40ce4e7d5825f6d34b0ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac985dbfaebd3490fcad31e0f8f3e818c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_market.html#ac985dbfaebd3490fcad31e0f8f3e818c">GDP</a> = 0</td></tr>
 <tr class="separator:ac985dbfaebd3490fcad31e0f8f3e818c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae3d4406fa92f95897507240b23c1813"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_market.html#aae3d4406fa92f95897507240b23c1813">deficit</a> = 0</td></tr>
+<tr class="separator:aae3d4406fa92f95897507240b23c1813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a246ebfd2d84e666516fffcadb47cb35c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_market.html#a246ebfd2d84e666516fffcadb47cb35c">last_deficit</a> = 0</td></tr>
+<tr class="separator:a246ebfd2d84e666516fffcadb47cb35c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structcqsp_1_1core_1_1components_1_1_market_information"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structcqsp_1_1core_1_1components_1_1_market_information')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structcqsp_1_1core_1_1components_1_1_market_information.html">cqsp::core::components::MarketInformation</a></td></tr>
 <tr class="memitem:a00be435057d1300e0831a268f7e00f3a inherit pub_attribs_structcqsp_1_1core_1_1components_1_1_market_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_market_information.html#a00be435057d1300e0831a268f7e00f3a">sd_ratio</a></td></tr>
 <tr class="separator:a00be435057d1300e0831a268f7e00f3a inherit pub_attribs_structcqsp_1_1core_1_1components_1_1_market_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -464,6 +464,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aae3d4406fa92f95897507240b23c1813" name="aae3d4406fa92f95897507240b23c1813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae3d4406fa92f95897507240b23c1813">&#9670;&nbsp;</a></span>deficit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::core::components::Market::deficit = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac985dbfaebd3490fcad31e0f8f3e818c" name="ac985dbfaebd3490fcad31e0f8f3e818c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac985dbfaebd3490fcad31e0f8f3e818c">&#9670;&nbsp;</a></span>GDP</h2>
 
@@ -486,6 +500,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt;<a class="el" href="structcqsp_1_1core_1_1components_1_1_market_information.html">MarketInformation</a>&gt; cqsp::core::components::Market::history</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a246ebfd2d84e666516fffcadb47cb35c" name="a246ebfd2d84e666516fffcadb47cb35c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a246ebfd2d84e666516fffcadb47cb35c">&#9670;&nbsp;</a></span>last_deficit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::core::components::Market::last_deficit = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -569,7 +597,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 1 2026 14:21:00 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jan 1 2026 15:23:15 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
