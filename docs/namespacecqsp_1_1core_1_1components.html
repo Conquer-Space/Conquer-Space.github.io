@@ -231,11 +231,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_consumption.html">ResourceConsumption</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_converter.html">ResourceConverter</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_distribution.html">ResourceDistribution</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_production.html">ResourceProduction</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -280,8 +280,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a9ed31038399ba8a3ede5fe71516e79d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc9b11a1c8f346afa6feea4be89571d1"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#a9ed31038399ba8a3ede5fe71516e79d2">Maneuver_t</a>, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a9ed31038399ba8a3ede5fe71516e79d2">Maneuver_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#abc9b11a1c8f346afa6feea4be89571d1">HohmannPair_t</a></td></tr>
 <tr class="separator:abc9b11a1c8f346afa6feea4be89571d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5589278800610d33e9f24fa4453e7783"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; entt::entity, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a5589278800610d33e9f24fa4453e7783">LedgerMap</a></td></tr>
-<tr class="separator:a5589278800610d33e9f24fa4453e7783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b6a33721f8e13ed45c713ca63082150"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">GoodEntity</a>, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a8b6a33721f8e13ed45c713ca63082150">LedgerMap</a></td></tr>
+<tr class="separator:a8b6a33721f8e13ed45c713ca63082150"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -317,6 +317,8 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacecqsp_1_1core_1_1components.html#a3d9c80d1c761868c2337c14a3ba99343ab90d8d12213e2f63f5fe260cd791d34a">OnCrash</a>
  }</td></tr>
 <tr class="separator:a3d9c80d1c761868c2337c14a3ba99343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1978b488c0326ad51d0a8cae7f1c44a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">GoodEntity</a> : uint32_t </td></tr>
+<tr class="separator:aa1978b488c0326ad51d0a8cae7f1c44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -324,9 +326,9 @@ Functions</h2></td></tr>
 <tr class="separator:adc7e14c5021cb978dd6ba91522fe9702"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a096df3ffa341d18754c747cadd6cbe43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a096df3ffa341d18754c747cadd6cbe43">operator&gt;</a> (const <a class="el" href="structcqsp_1_1core_1_1components_1_1_order.html">Order</a> &amp;lhs, const <a class="el" href="structcqsp_1_1core_1_1components_1_1_order.html">Order</a> &amp;rhs)</td></tr>
 <tr class="separator:a096df3ffa341d18754c747cadd6cbe43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a527e0c1168c4c62d31a8b87a9ba3f203"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a527e0c1168c4c62d31a8b87a9ba3f203">CopyVals</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;keys, const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;values)</td></tr>
-<tr class="memdesc:a527e0c1168c4c62d31a8b87a9ba3f203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new resource ledger using the keys from one resource ledger, and the values from annother  <a href="namespacecqsp_1_1core_1_1components.html#a527e0c1168c4c62d31a8b87a9ba3f203">More...</a><br /></td></tr>
-<tr class="separator:a527e0c1168c4c62d31a8b87a9ba3f203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de1ed1ad94813de15015bc4aabd8d78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a7de1ed1ad94813de15015bc4aabd8d78">CopyVals</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;keys, const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;values)</td></tr>
+<tr class="memdesc:a7de1ed1ad94813de15015bc4aabd8d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new resource ledger using the keys from one resource ledger, and the values from annother  <a href="namespacecqsp_1_1core_1_1components.html#a7de1ed1ad94813de15015bc4aabd8d78">More...</a><br /></td></tr>
+<tr class="separator:a7de1ed1ad94813de15015bc4aabd8d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="aae4fe0566d7e3d5470711f3ae5cae870" name="aae4fe0566d7e3d5470711f3ae5cae870"></a>
@@ -375,14 +377,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5589278800610d33e9f24fa4453e7783" name="a5589278800610d33e9f24fa4453e7783"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5589278800610d33e9f24fa4453e7783">&#9670;&nbsp;</a></span>LedgerMap</h2>
+<a id="a8b6a33721f8e13ed45c713ca63082150" name="a8b6a33721f8e13ed45c713ca63082150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b6a33721f8e13ed45c713ca63082150">&#9670;&nbsp;</a></span>LedgerMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::map&lt;entt::entity, double&gt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#a5589278800610d33e9f24fa4453e7783">cqsp::core::components::LedgerMap</a></td>
+          <td class="memname">typedef std::map&lt;<a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">GoodEntity</a>, double&gt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#a8b6a33721f8e13ed45c713ca63082150">cqsp::core::components::LedgerMap</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -442,6 +444,29 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa1978b488c0326ad51d0a8cae7f1c44a" name="aa1978b488c0326ad51d0a8cae7f1c44a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1978b488c0326ad51d0a8cae7f1c44a">&#9670;&nbsp;</a></span>GoodEntity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">cqsp::core::components::GoodEntity</a> : uint32_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Class for goods to be accessed through an array </p>
+
+</div>
+</div>
 <a id="a5063a70c0ade8a828770539fc38571f4" name="a5063a70c0ade8a828770539fc38571f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5063a70c0ade8a828770539fc38571f4">&#9670;&nbsp;</a></span>ProductionType</h2>
 
@@ -490,22 +515,22 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a527e0c1168c4c62d31a8b87a9ba3f203" name="a527e0c1168c4c62d31a8b87a9ba3f203"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a527e0c1168c4c62d31a8b87a9ba3f203">&#9670;&nbsp;</a></span>CopyVals()</h2>
+<a id="a7de1ed1ad94813de15015bc4aabd8d78" name="a7de1ed1ad94813de15015bc4aabd8d78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7de1ed1ad94813de15015bc4aabd8d78">&#9670;&nbsp;</a></span>CopyVals()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> cqsp::core::components::CopyVals </td>
+          <td class="memname"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> cqsp::core::components::CopyVals </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;&#160;</td>
           <td class="paramname"><em>keys</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;&#160;</td>
           <td class="paramname"><em>values</em>&#160;</td>
         </tr>
         <tr>
@@ -595,7 +620,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 4 2026 02:33:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jan 8 2026 14:48:58 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

@@ -4,7 +4,7 @@ var searchData=
   ['balance_1',['balance',['../structcqsp_1_1core_1_1components_1_1_wallet.html#a8ce11dea60c18506efa5e1fd0cd47812',1,'cqsp::core::components::Wallet']]],
   ['base_5fmap_2',['base_map',['../structcqsp_1_1asset_1_1_material_prototype.html#afb39e6acee84ee0eaaf4b4c52274e246',1,'cqsp::asset::MaterialPrototype']]],
   ['base_5fprice_5fdeviation_3',['base_price_deviation',['../structcqsp_1_1core_1_1systems_1_1_economy_config.html#a743daa3e428d01e3aaec11124cd6047f',1,'cqsp::core::systems::EconomyConfig']]],
-  ['base_5fprices_4',['base_prices',['../classcqsp_1_1core_1_1systems_1_1_sys_market.html#a4f2c38d27a9ff7347660915d97f3a20c',1,'cqsp::core::systems::SysMarket::base_prices()'],['../classcqsp_1_1core_1_1systems_1_1_sys_planetary_trade.html#a9dddf4e823db470fb01a0d5277d15562',1,'cqsp::core::systems::SysPlanetaryTrade::base_prices()']]],
+  ['base_5fprices_4',['base_prices',['../classcqsp_1_1core_1_1systems_1_1_sys_market.html#a4f2c38d27a9ff7347660915d97f3a20c',1,'cqsp::core::systems::SysMarket::base_prices()'],['../classcqsp_1_1core_1_1systems_1_1_sys_planetary_trade.html#aeb82ea0401b587068ac522c1c1f7e61a',1,'cqsp::core::systems::SysPlanetaryTrade::base_prices()']]],
   ['bearing_5',['Bearing',['../structcqsp_1_1asset_1_1_character.html#aac61756a41590ba53a9be3fedd0eba3f',1,'cqsp::asset::Character']]],
   ['bitangent_6',['bitangent',['../structcqsp_1_1asset_1_1_vertex.html#a991bb01f69ad407488a0a7a1ff88afa4',1,'cqsp::asset::Vertex']]],
   ['bitsperpixel_7',['bitsPerPixel',['../struct_t_g_a_header.html#a449f82dee56b17f41d0580265b834768',1,'TGAHeader']]],

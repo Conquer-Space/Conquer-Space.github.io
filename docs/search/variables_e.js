@@ -11,8 +11,8 @@ var searchData=
   ['orbit_5fshader_8',['orbit_shader',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a393e340f88afe93ea940ec3e4c73562d',1,'cqsp::client::systems::SysStarSystemRenderer']]],
   ['orbits_5fgenerated_9',['orbits_generated',['../classcqsp_1_1client_1_1systems_1_1_sys_orbit_geometry.html#abc4568507cd42be45b093b4b9cafb6ec',1,'cqsp::client::systems::SysOrbitGeometry']]],
   ['output_10',['output',['../structcqsp_1_1core_1_1components_1_1_recipe.html#a2ea4fe0a3e61bc7440528a86c43bece9',1,'cqsp::core::components::Recipe']]],
-  ['output_5fresources_11',['output_resources',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_space_port.html#a7197b8844c8b316819fdc49069e7c2d3',1,'cqsp::core::components::infrastructure::SpacePort']]],
-  ['output_5fresources_5frate_12',['output_resources_rate',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_space_port.html#aeff2623a8410c4110acae04f0b2faf25',1,'cqsp::core::components::infrastructure::SpacePort']]],
+  ['output_5fresources_11',['output_resources',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_space_port.html#a7af65f1095e94d44d85693d405baba04',1,'cqsp::core::components::infrastructure::SpacePort']]],
+  ['output_5fresources_5frate_12',['output_resources_rate',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_space_port.html#abf82532cec05f4ed5b865a6c77b710f9',1,'cqsp::core::components::infrastructure::SpacePort']]],
   ['owner_13',['owner',['../structcqsp_1_1core_1_1components_1_1_owned.html#aa3bf5e8860768cdb1a9a6734dcac45a2',1,'cqsp::core::components::Owned::owner()'],['../structcqsp_1_1core_1_1components_1_1ships_1_1_fleet.html#a00538bebe22325abee0e0ac1edf52066',1,'cqsp::core::components::ships::Fleet::owner()']]],
   ['owns_5fdepth_5fstencil_5fbuffer_14',['owns_depth_stencil_buffer',['../struct_gfx_1_1_framebuffer_data.html#a888df663964e0c7b13583679ff4e0902',1,'Gfx::FramebufferData']]]
 ];

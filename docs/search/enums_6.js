@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mouseinput_0',['MouseInput',['../namespacecqsp_1_1engine.html#a4e6678eecbbb72088d5afd2557593c68',1,'cqsp::engine']]]
+  ['keyinput_0',['KeyInput',['../namespacecqsp_1_1engine.html#a14929188c3e91b52bc4b8584c3010de5',1,'cqsp::engine']]]
 ];

@@ -70,33 +70,24 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::core::components::ResourceLedger Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="resource_8h_source.html">resource.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for cqsp::core::components::ResourceLedger:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classcqsp_1_1core_1_1components_1_1_resource_ledger.png" usemap="#cqsp::core::components::ResourceLedger_map" alt=""/>
-  <map id="cqsp::core::components::ResourceLedger_map" name="cqsp::core::components::ResourceLedger_map">
-<area href="structcqsp_1_1core_1_1components_1_1_cost_table.html" title="Records the prices of goods and other things" alt="cqsp::core::components::CostTable" shape="rect" coords="0,112,275,136"/>
-<area href="structcqsp_1_1core_1_1components_1_1_resource_consumption.html" alt="cqsp::core::components::ResourceConsumption" shape="rect" coords="285,112,560,136"/>
-<area href="structcqsp_1_1core_1_1components_1_1_resource_production.html" alt="cqsp::core::components::ResourceProduction" shape="rect" coords="570,112,845,136"/>
-<area href="structcqsp_1_1core_1_1components_1_1_resource_stockpile.html" alt="cqsp::core::components::ResourceStockpile" shape="rect" coords="855,112,1130,136"/>
-  </map>
-</div></div>
+<p><code>#include &lt;<a class="el" href="resourceledger_8h_source.html">resourceledger.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a82eba53e02a958da87f6daec496df944"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a82eba53e02a958da87f6daec496df944">ResourceLedger</a> ()=default</td></tr>
-<tr class="separator:a82eba53e02a958da87f6daec496df944"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b260e4d73d94574aa8011f21693848b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a7b260e4d73d94574aa8011f21693848b">~ResourceLedger</a> ()=default</td></tr>
-<tr class="separator:a7b260e4d73d94574aa8011f21693848b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05f4800eba0586da36802cc18916fe1a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a05f4800eba0586da36802cc18916fe1a">operator[]</a> (const entt::entity) const</td></tr>
-<tr class="separator:a05f4800eba0586da36802cc18916fe1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee71b7fa8b1f132df06f8882724e8df9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#aee71b7fa8b1f132df06f8882724e8df9">ResourceLedger</a> (size_t count)</td></tr>
+<tr class="separator:aee71b7fa8b1f132df06f8882724e8df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e9dcd78ef4107425a81580c94fe0527"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a6e9dcd78ef4107425a81580c94fe0527">operator ResourceMap</a> () const</td></tr>
+<tr class="separator:a6e9dcd78ef4107425a81580c94fe0527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc79e6c81f362102201fdf9e6a57dd8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a2bc79e6c81f362102201fdf9e6a57dd8">operator[]</a> (const <a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">GoodEntity</a> value) const</td></tr>
+<tr class="separator:a2bc79e6c81f362102201fdf9e6a57dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a369c6b43adb7581bafaf3782fd8f9f3d"><td class="memItemLeft" align="right" valign="top">double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a369c6b43adb7581bafaf3782fd8f9f3d">operator[]</a> (const <a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">GoodEntity</a> value)</td></tr>
+<tr class="separator:a369c6b43adb7581bafaf3782fd8f9f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ca3c4742b8554a0356ad2a562e52c8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a9ca3c4742b8554a0356ad2a562e52c8d">EnoughToTransfer</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;amount)</td></tr>
 <tr class="memdesc:a9ca3c4742b8554a0356ad2a562e52c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This resource ledger has enough resources inside to transfer "amount" amount of resources away  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a9ca3c4742b8554a0356ad2a562e52c8d">More...</a><br /></td></tr>
 <tr class="separator:a9ca3c4742b8554a0356ad2a562e52c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -108,6 +99,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5329324800a0f3d090bf4c16c24c7f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a49ce51cf6783acb54790cd6b08d709"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a1a49ce51cf6783acb54790cd6b08d709">operator/=</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;)</td></tr>
 <tr class="separator:a1a49ce51cf6783acb54790cd6b08d709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7fde22aa527b7561aef15aec73e9111"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#aa7fde22aa527b7561aef15aec73e9111">operator-=</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;)</td></tr>
+<tr class="separator:aa7fde22aa527b7561aef15aec73e9111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f41b69a3c9be3190d3b68c54e8e0b29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a5f41b69a3c9be3190d3b68c54e8e0b29">operator+=</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;)</td></tr>
+<tr class="separator:a5f41b69a3c9be3190d3b68c54e8e0b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a7e54075adbdecde628aef202ed3199"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a8a7e54075adbdecde628aef202ed3199">operator*=</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;)</td></tr>
+<tr class="separator:a8a7e54075adbdecde628aef202ed3199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa12911e81914561270fd372812317fbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#aa12911e81914561270fd372812317fbc">operator/=</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;)</td></tr>
+<tr class="separator:aa12911e81914561270fd372812317fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f5ad51ff0c015c54633b93f3eb01063"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a2f5ad51ff0c015c54633b93f3eb01063">operator-=</a> (const double value)</td></tr>
 <tr class="separator:a2f5ad51ff0c015c54633b93f3eb01063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbbc6a5b8174798920a4d588f588fc3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#acbbc6a5b8174798920a4d588f588fc3a">operator+=</a> (const double value)</td></tr>
@@ -124,6 +123,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a36e67e4e8cebc7c7d02148e22380d8bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa60a91dcee14c8ec597577c1dfc84113"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#aa60a91dcee14c8ec597577c1dfc84113">operator/</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;) const</td></tr>
 <tr class="separator:aa60a91dcee14c8ec597577c1dfc84113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3af96a9b342b0c86d2111dd0bc4449e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ae3af96a9b342b0c86d2111dd0bc4449e">operator-</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;) const</td></tr>
+<tr class="separator:ae3af96a9b342b0c86d2111dd0bc4449e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a242a6a1d9a1abc4c7f9899627c892e23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a242a6a1d9a1abc4c7f9899627c892e23">operator+</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;) const</td></tr>
+<tr class="separator:a242a6a1d9a1abc4c7f9899627c892e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fbcbbca516513c70a92efb581ac0ff5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a0fbcbbca516513c70a92efb581ac0ff5">operator*</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;) const</td></tr>
+<tr class="separator:a0fbcbbca516513c70a92efb581ac0ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab523783f9d1243ebf47b0fcac9292ab3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ab523783f9d1243ebf47b0fcac9292ab3">operator/</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;) const</td></tr>
+<tr class="separator:ab523783f9d1243ebf47b0fcac9292ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab51041e78e1b07c80f79173c6a6915cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ab51041e78e1b07c80f79173c6a6915cb">operator-</a> (const double value) const</td></tr>
 <tr class="separator:ab51041e78e1b07c80f79173c6a6915cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ef1bc01b83b83bb0d35400780919dbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a7ef1bc01b83b83bb0d35400780919dbd">operator+</a> (const double value) const</td></tr>
@@ -144,8 +151,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6980a38492bd7a1e6c0d16963f9aab75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a6980a38492bd7a1e6c0d16963f9aab75">operator&gt;=</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;)</td></tr>
 <tr class="memdesc:a6980a38492bd7a1e6c0d16963f9aab75"><td class="mdescLeft">&#160;</td><td class="mdescRight">All resources in this ledger are greater than or equal to the other ledger  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a6980a38492bd7a1e6c0d16963f9aab75">More...</a><br /></td></tr>
 <tr class="separator:a6980a38492bd7a1e6c0d16963f9aab75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ad4b24b91b23ac23a3b331807be4ee6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a0ad4b24b91b23ac23a3b331807be4ee6">LedgerEquals</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;)</td></tr>
-<tr class="separator:a0ad4b24b91b23ac23a3b331807be4ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdb19ae7171dd5e23bd7559f875f2bee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#afdb19ae7171dd5e23bd7559f875f2bee">operator&gt;</a> (const double &amp;)</td></tr>
 <tr class="memdesc:afdb19ae7171dd5e23bd7559f875f2bee"><td class="mdescLeft">&#160;</td><td class="mdescRight">All resources in this ledger are greater than the number  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#afdb19ae7171dd5e23bd7559f875f2bee">More...</a><br /></td></tr>
 <tr class="separator:afdb19ae7171dd5e23bd7559f875f2bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,25 +159,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa7628fdc550fd5cad6e067e1b88ad03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad78f27b48adeae62dca1d2aaa9e37591"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ad78f27b48adeae62dca1d2aaa9e37591">operator==</a> (const double &amp;)</td></tr>
 <tr class="separator:ad78f27b48adeae62dca1d2aaa9e37591"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab45486f1c53197f7deb1c7625ebd154a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ab45486f1c53197f7deb1c7625ebd154a">operator!=</a> (const double &amp;)</td></tr>
+<tr class="separator:ab45486f1c53197f7deb1c7625ebd154a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dc3f5d4d90899099d7f52401c44d799"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a8dc3f5d4d90899099d7f52401c44d799">operator&lt;=</a> (const double &amp;)</td></tr>
 <tr class="separator:a8dc3f5d4d90899099d7f52401c44d799"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dfec78e79b67896033e66c4b681440f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a8dfec78e79b67896033e66c4b681440f">operator&gt;=</a> (const double &amp;)</td></tr>
 <tr class="separator:a8dfec78e79b67896033e66c4b681440f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ae79e0420dc542d4c0851caf6a33a30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a1ae79e0420dc542d4c0851caf6a33a30">AssignFrom</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;)</td></tr>
 <tr class="separator:a1ae79e0420dc542d4c0851caf6a33a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f6a75c76ad468fa2c1e963edb9ec4d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a9f6a75c76ad468fa2c1e963edb9ec4d9">TransferTo</a> (<a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;, const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;)</td></tr>
-<tr class="separator:a9f6a75c76ad468fa2c1e963edb9ec4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5ab58cb347ab75b40d92a5f1008d10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#aae5ab58cb347ab75b40d92a5f1008d10">TransferTo</a> (<a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;ledger_to, const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;amount)</td></tr>
+<tr class="separator:aae5ab58cb347ab75b40d92a5f1008d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad10d43e0810285a964b0250571dd28d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ad10d43e0810285a964b0250571dd28d2">MultiplyAdd</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;, double)</td></tr>
 <tr class="separator:ad10d43e0810285a964b0250571dd28d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad16c3ddec2ddd9417975bbb59fbc5041"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ad16c3ddec2ddd9417975bbb59fbc5041">RemoveResourcesLimited</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;)</td></tr>
-<tr class="memdesc:ad16c3ddec2ddd9417975bbb59fbc5041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the resources, and if the amount of resources removed are more than the resources inside the stockpile, it will set that resource to zero.  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ad16c3ddec2ddd9417975bbb59fbc5041">More...</a><br /></td></tr>
-<tr class="separator:ad16c3ddec2ddd9417975bbb59fbc5041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bb2b4d316426f844cdc8e06efea9cde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a3bb2b4d316426f844cdc8e06efea9cde">LimitedRemoveResources</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;)</td></tr>
-<tr class="memdesc:a3bb2b4d316426f844cdc8e06efea9cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as RemoveResourcesLimited, except that it returns how much resources it took out.  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a3bb2b4d316426f844cdc8e06efea9cde">More...</a><br /></td></tr>
-<tr class="separator:a3bb2b4d316426f844cdc8e06efea9cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0075ef2804af2eae18f8008d80eb937"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ab0075ef2804af2eae18f8008d80eb937">UnitLedger</a> (const double)</td></tr>
-<tr class="memdesc:ab0075ef2804af2eae18f8008d80eb937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of the vector with the values set to indicated value  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ab0075ef2804af2eae18f8008d80eb937">More...</a><br /></td></tr>
-<tr class="separator:ab0075ef2804af2eae18f8008d80eb937"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a344e26f02e94639701c05240f9ec3236"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a344e26f02e94639701c05240f9ec3236">AddPositive</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;)</td></tr>
 <tr class="separator:a344e26f02e94639701c05240f9ec3236"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a732e54973d036af970b8eb2d2b93360c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a732e54973d036af970b8eb2d2b93360c">AddNegative</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;)</td></tr>
@@ -186,31 +184,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a097981aa4f3846bd8763f0a0ac44318f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a097981aa4f3846bd8763f0a0ac44318f">SafeDivision</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;, double)</td></tr>
 <tr class="memdesc:a097981aa4f3846bd8763f0a0ac44318f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of the vector divided by the indicated vector, with division by zero resulting in the specified value  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a097981aa4f3846bd8763f0a0ac44318f">More...</a><br /></td></tr>
 <tr class="separator:a097981aa4f3846bd8763f0a0ac44318f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e58d4c99bf6b8a8d7b6a808834f055c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a7e58d4c99bf6b8a8d7b6a808834f055c">Average</a> ()</td></tr>
-<tr class="memdesc:a7e58d4c99bf6b8a8d7b6a808834f055c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of the vector divided by the indicated vector, with division by zero resulting in infiniy  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a7e58d4c99bf6b8a8d7b6a808834f055c">More...</a><br /></td></tr>
-<tr class="separator:a7e58d4c99bf6b8a8d7b6a808834f055c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dfad664fa5cdb9fd11fc266a16008b4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a4dfad664fa5cdb9fd11fc266a16008b4">Min</a> ()</td></tr>
-<tr class="memdesc:a4dfad664fa5cdb9fd11fc266a16008b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the smallest value in the Ledger.  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a4dfad664fa5cdb9fd11fc266a16008b4">More...</a><br /></td></tr>
-<tr class="separator:a4dfad664fa5cdb9fd11fc266a16008b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d395ddf2904b7933faf21fff926ba01"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a0d395ddf2904b7933faf21fff926ba01">Max</a> ()</td></tr>
-<tr class="memdesc:a0d395ddf2904b7933faf21fff926ba01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the largest value in the Ledger.  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a0d395ddf2904b7933faf21fff926ba01">More...</a><br /></td></tr>
-<tr class="separator:a0d395ddf2904b7933faf21fff926ba01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3e513b3a93feb39cd7d74189b519dce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ad3e513b3a93feb39cd7d74189b519dce">HasAllResources</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;)</td></tr>
-<tr class="memdesc:ad3e513b3a93feb39cd7d74189b519dce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if this current resource ledger has any resources in this list  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ad3e513b3a93feb39cd7d74189b519dce">More...</a><br /></td></tr>
-<tr class="separator:ad3e513b3a93feb39cd7d74189b519dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab46b18ac862c5f2af1efd46a020a3822"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ab46b18ac862c5f2af1efd46a020a3822">HasGood</a> (entt::entity good)</td></tr>
-<tr class="separator:ab46b18ac862c5f2af1efd46a020a3822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea38730d792e93ce1a8c0d970462363"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#abea38730d792e93ce1a8c0d970462363">Average</a> () const</td></tr>
+<tr class="memdesc:abea38730d792e93ce1a8c0d970462363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of the vector divided by the indicated vector, with division by zero resulting in infiniy  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#abea38730d792e93ce1a8c0d970462363">More...</a><br /></td></tr>
+<tr class="separator:abea38730d792e93ce1a8c0d970462363"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47edb6a7f0d0f6ed177bb7f52eea9257"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a47edb6a7f0d0f6ed177bb7f52eea9257">Min</a> () const</td></tr>
+<tr class="separator:a47edb6a7f0d0f6ed177bb7f52eea9257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c75f846900c5b5215e32776b0976452"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a7c75f846900c5b5215e32776b0976452">Max</a> () const</td></tr>
+<tr class="separator:a7c75f846900c5b5215e32776b0976452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22b01b7b7b26c7f3cf84e454144430f1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a22b01b7b7b26c7f3cf84e454144430f1">GetSum</a> ()</td></tr>
 <tr class="separator:a22b01b7b7b26c7f3cf84e454144430f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a411b354b9a8388fc6108b9d2fb3dd434"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a411b354b9a8388fc6108b9d2fb3dd434">MultiplyAndGetSum</a> (<a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;other)</td></tr>
-<tr class="memdesc:a411b354b9a8388fc6108b9d2fb3dd434"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplies the numbers stated in the resource ledger. Used for calculating the price, becuase usually the resource ledger will be the price.  <a href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a411b354b9a8388fc6108b9d2fb3dd434">More...</a><br /></td></tr>
-<tr class="separator:a411b354b9a8388fc6108b9d2fb3dd434"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab2b3512fd0840f74710b6dc2d5a9ba7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#aab2b3512fd0840f74710b6dc2d5a9ba7">to_string</a> ()</td></tr>
-<tr class="separator:aab2b3512fd0840f74710b6dc2d5a9ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b3aaaca10e7e49062caa01804e48336"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a4b3aaaca10e7e49062caa01804e48336">begin</a> ()</td></tr>
+<tr class="separator:a4b3aaaca10e7e49062caa01804e48336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c512d99f77a664a469e1b3bf8f8914"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a38c512d99f77a664a469e1b3bf8f8914">end</a> ()</td></tr>
+<tr class="separator:a38c512d99f77a664a469e1b3bf8f8914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcc91649933422d174ad2531703376c2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#afcc91649933422d174ad2531703376c2">size</a> ()</td></tr>
+<tr class="separator:afcc91649933422d174ad2531703376c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb4642ef071c4eb6a8b4461c88b4a32f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#adb4642ef071c4eb6a8b4461c88b4a32f">clear</a> ()</td></tr>
+<tr class="separator:adb4642ef071c4eb6a8b4461c88b4a32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac51bcc0e28a3ed7efad68b2ecbd521c4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html#ac51bcc0e28a3ed7efad68b2ecbd521c4">ledger</a></td></tr>
+<tr class="separator:ac51bcc0e28a3ed7efad68b2ecbd521c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a82eba53e02a958da87f6daec496df944" name="a82eba53e02a958da87f6daec496df944"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82eba53e02a958da87f6daec496df944">&#9670;&nbsp;</a></span>ResourceLedger()</h2>
+<a id="aee71b7fa8b1f132df06f8882724e8df9" name="aee71b7fa8b1f132df06f8882724e8df9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee71b7fa8b1f132df06f8882724e8df9">&#9670;&nbsp;</a></span>ResourceLedger()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,38 +220,14 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">cqsp::core::components::ResourceLedger::ResourceLedger </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>count</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7b260e4d73d94574aa8011f21693848b" name="a7b260e4d73d94574aa8011f21693848b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b260e4d73d94574aa8011f21693848b">&#9670;&nbsp;</a></span>~ResourceLedger()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">cqsp::core::components::ResourceLedger::~ResourceLedger </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -288,7 +263,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void cqsp::core::components::ResourceLedger::AddPositive </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -306,17 +281,16 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void cqsp::core::components::ResourceLedger::AssignFrom </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
-          <td class="paramname"><em>ledger</em></td><td>)</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Assigns values from the other ledger to this ledger. </p>
 
 </div>
 </div>
-<a id="a7e58d4c99bf6b8a8d7b6a808834f055c" name="a7e58d4c99bf6b8a8d7b6a808834f055c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e58d4c99bf6b8a8d7b6a808834f055c">&#9670;&nbsp;</a></span>Average()</h2>
+<a id="abea38730d792e93ce1a8c0d970462363" name="abea38730d792e93ce1a8c0d970462363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abea38730d792e93ce1a8c0d970462363">&#9670;&nbsp;</a></span>Average()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,12 +299,37 @@ Public Member Functions</h2></td></tr>
           <td class="memname">double cqsp::core::components::ResourceLedger::Average </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Returns a copy of the vector divided by the indicated vector, with division by zero resulting in infiniy </p>
+
+</div>
+</div>
+<a id="a4b3aaaca10e7e49062caa01804e48336" name="a4b3aaaca10e7e49062caa01804e48336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b3aaaca10e7e49062caa01804e48336">&#9670;&nbsp;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto cqsp::core::components::ResourceLedger::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -344,13 +343,13 @@ Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> cqsp::core::components::ResourceLedger::Clamp </td>
           <td>(</td>
           <td class="paramtype">const double&#160;</td>
-          <td class="paramname"><em>minclamp</em>, </td>
+          <td class="paramname"><em>low</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const double&#160;</td>
-          <td class="paramname"><em>maxclamp</em>&#160;</td>
+          <td class="paramname"><em>high</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -361,6 +360,48 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a copy of the vector with the values clamped between the min and max indicated </p>
+
+</div>
+</div>
+<a id="adb4642ef071c4eb6a8b4461c88b4a32f" name="adb4642ef071c4eb6a8b4461c88b4a32f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb4642ef071c4eb6a8b4461c88b4a32f">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::core::components::ResourceLedger::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a38c512d99f77a664a469e1b3bf8f8914" name="a38c512d99f77a664a469e1b3bf8f8914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38c512d99f77a664a469e1b3bf8f8914">&#9670;&nbsp;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto cqsp::core::components::ResourceLedger::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -409,93 +450,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad3e513b3a93feb39cd7d74189b519dce" name="ad3e513b3a93feb39cd7d74189b519dce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3e513b3a93feb39cd7d74189b519dce">&#9670;&nbsp;</a></span>HasAllResources()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool cqsp::core::components::ResourceLedger::HasAllResources </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
-          <td class="paramname"><em>ledger</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Checks if this current resource ledger has any resources in this list </p>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<a id="ab46b18ac862c5f2af1efd46a020a3822" name="ab46b18ac862c5f2af1efd46a020a3822"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab46b18ac862c5f2af1efd46a020a3822">&#9670;&nbsp;</a></span>HasGood()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool cqsp::core::components::ResourceLedger::HasGood </td>
-          <td>(</td>
-          <td class="paramtype">entt::entity&#160;</td>
-          <td class="paramname"><em>good</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0ad4b24b91b23ac23a3b331807be4ee6" name="a0ad4b24b91b23ac23a3b331807be4ee6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ad4b24b91b23ac23a3b331807be4ee6">&#9670;&nbsp;</a></span>LedgerEquals()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool cqsp::core::components::ResourceLedger::LedgerEquals </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
-          <td class="paramname"><em>ledger</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3bb2b4d316426f844cdc8e06efea9cde" name="a3bb2b4d316426f844cdc8e06efea9cde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bb2b4d316426f844cdc8e06efea9cde">&#9670;&nbsp;</a></span>LimitedRemoveResources()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> cqsp::core::components::ResourceLedger::LimitedRemoveResources </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Same as RemoveResourcesLimited, except that it returns how much resources it took out. </p>
-
-</div>
-</div>
-<a id="a0d395ddf2904b7933faf21fff926ba01" name="a0d395ddf2904b7933faf21fff926ba01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d395ddf2904b7933faf21fff926ba01">&#9670;&nbsp;</a></span>Max()</h2>
+<a id="a7c75f846900c5b5215e32776b0976452" name="a7c75f846900c5b5215e32776b0976452"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c75f846900c5b5215e32776b0976452">&#9670;&nbsp;</a></span>Max()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -504,18 +460,15 @@ Public Member Functions</h2></td></tr>
           <td class="memname">double cqsp::core::components::ResourceLedger::Max </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Finds the largest value in the Ledger. </p>
-<dl class="section return"><dt>Returns</dt><dd>The largest value in the ledger</dd></dl>
-
 </div>
 </div>
-<a id="a4dfad664fa5cdb9fd11fc266a16008b4" name="a4dfad664fa5cdb9fd11fc266a16008b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dfad664fa5cdb9fd11fc266a16008b4">&#9670;&nbsp;</a></span>Min()</h2>
+<a id="a47edb6a7f0d0f6ed177bb7f52eea9257" name="a47edb6a7f0d0f6ed177bb7f52eea9257"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47edb6a7f0d0f6ed177bb7f52eea9257">&#9670;&nbsp;</a></span>Min()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -524,13 +477,10 @@ Public Member Functions</h2></td></tr>
           <td class="memname">double cqsp::core::components::ResourceLedger::Min </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Finds the smallest value in the Ledger. </p>
-<dl class="section return"><dt>Returns</dt><dd>The smallest value in the ledger, returns 0 if none found</dd></dl>
 
 </div>
 </div>
@@ -562,29 +512,43 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a411b354b9a8388fc6108b9d2fb3dd434" name="a411b354b9a8388fc6108b9d2fb3dd434"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a411b354b9a8388fc6108b9d2fb3dd434">&#9670;&nbsp;</a></span>MultiplyAndGetSum()</h2>
+<a id="a6e9dcd78ef4107425a81580c94fe0527" name="a6e9dcd78ef4107425a81580c94fe0527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e9dcd78ef4107425a81580c94fe0527">&#9670;&nbsp;</a></span>operator ResourceMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double cqsp::core::components::ResourceLedger::MultiplyAndGetSum </td>
+          <td class="memname">cqsp::core::components::ResourceLedger::operator <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab45486f1c53197f7deb1c7625ebd154a" name="ab45486f1c53197f7deb1c7625ebd154a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab45486f1c53197f7deb1c7625ebd154a">&#9670;&nbsp;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::core::components::ResourceLedger::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const double &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Multiplies the numbers stated in the resource ledger. Used for calculating the price, becuase usually the resource ledger will be the price. </p>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
 </div>
 </div>
 <a id="aec9299a6732af13f7dba18303bcd3f0a" name="aec9299a6732af13f7dba18303bcd3f0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec9299a6732af13f7dba18303bcd3f0a">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aec9299a6732af13f7dba18303bcd3f0a">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -602,7 +566,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a36e67e4e8cebc7c7d02148e22380d8bc" name="a36e67e4e8cebc7c7d02148e22380d8bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36e67e4e8cebc7c7d02148e22380d8bc">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36e67e4e8cebc7c7d02148e22380d8bc">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -619,8 +583,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0fbcbbca516513c70a92efb581ac0ff5" name="a0fbcbbca516513c70a92efb581ac0ff5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fbcbbca516513c70a92efb581ac0ff5">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> cqsp::core::components::ResourceLedger::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a440c47946a526e57a738283cfda2e000" name="a440c47946a526e57a738283cfda2e000"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a440c47946a526e57a738283cfda2e000">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a440c47946a526e57a738283cfda2e000">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -638,7 +620,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a5329324800a0f3d090bf4c16c24c7f56" name="a5329324800a0f3d090bf4c16c24c7f56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5329324800a0f3d090bf4c16c24c7f56">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5329324800a0f3d090bf4c16c24c7f56">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -655,8 +637,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8a7e54075adbdecde628aef202ed3199" name="a8a7e54075adbdecde628aef202ed3199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a7e54075adbdecde628aef202ed3199">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::core::components::ResourceLedger::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7ef1bc01b83b83bb0d35400780919dbd" name="a7ef1bc01b83b83bb0d35400780919dbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ef1bc01b83b83bb0d35400780919dbd">&#9670;&nbsp;</a></span>operator+() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ef1bc01b83b83bb0d35400780919dbd">&#9670;&nbsp;</a></span>operator+() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -674,7 +674,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ad0aa66b9c043fed84115fac077cc9cf0" name="ad0aa66b9c043fed84115fac077cc9cf0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0aa66b9c043fed84115fac077cc9cf0">&#9670;&nbsp;</a></span>operator+() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0aa66b9c043fed84115fac077cc9cf0">&#9670;&nbsp;</a></span>operator+() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -691,8 +691,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a242a6a1d9a1abc4c7f9899627c892e23" name="a242a6a1d9a1abc4c7f9899627c892e23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a242a6a1d9a1abc4c7f9899627c892e23">&#9670;&nbsp;</a></span>operator+() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> cqsp::core::components::ResourceLedger::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acbbc6a5b8174798920a4d588f588fc3a" name="acbbc6a5b8174798920a4d588f588fc3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbbc6a5b8174798920a4d588f588fc3a">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acbbc6a5b8174798920a4d588f588fc3a">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -710,7 +728,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="aebaca8b90a9b5d42d8aae69993dc7519" name="aebaca8b90a9b5d42d8aae69993dc7519"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebaca8b90a9b5d42d8aae69993dc7519">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aebaca8b90a9b5d42d8aae69993dc7519">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -727,8 +745,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5f41b69a3c9be3190d3b68c54e8e0b29" name="a5f41b69a3c9be3190d3b68c54e8e0b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f41b69a3c9be3190d3b68c54e8e0b29">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::core::components::ResourceLedger::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab51041e78e1b07c80f79173c6a6915cb" name="ab51041e78e1b07c80f79173c6a6915cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab51041e78e1b07c80f79173c6a6915cb">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab51041e78e1b07c80f79173c6a6915cb">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -746,7 +782,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ae005f5751072a42617bf95ebde1368b8" name="ae005f5751072a42617bf95ebde1368b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae005f5751072a42617bf95ebde1368b8">&#9670;&nbsp;</a></span>operator-() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae005f5751072a42617bf95ebde1368b8">&#9670;&nbsp;</a></span>operator-() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -763,8 +799,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae3af96a9b342b0c86d2111dd0bc4449e" name="ae3af96a9b342b0c86d2111dd0bc4449e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3af96a9b342b0c86d2111dd0bc4449e">&#9670;&nbsp;</a></span>operator-() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> cqsp::core::components::ResourceLedger::operator- </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2f5ad51ff0c015c54633b93f3eb01063" name="a2f5ad51ff0c015c54633b93f3eb01063"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f5ad51ff0c015c54633b93f3eb01063">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f5ad51ff0c015c54633b93f3eb01063">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -782,7 +836,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ae1526ba6f6d2873541e8082b43cc4b50" name="ae1526ba6f6d2873541e8082b43cc4b50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1526ba6f6d2873541e8082b43cc4b50">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1526ba6f6d2873541e8082b43cc4b50">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -799,8 +853,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa7fde22aa527b7561aef15aec73e9111" name="aa7fde22aa527b7561aef15aec73e9111"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7fde22aa527b7561aef15aec73e9111">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::core::components::ResourceLedger::operator-= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a16fc457be17137e3ee1c43155138d2ab" name="a16fc457be17137e3ee1c43155138d2ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16fc457be17137e3ee1c43155138d2ab">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a16fc457be17137e3ee1c43155138d2ab">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -818,7 +890,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="aa60a91dcee14c8ec597577c1dfc84113" name="aa60a91dcee14c8ec597577c1dfc84113"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa60a91dcee14c8ec597577c1dfc84113">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa60a91dcee14c8ec597577c1dfc84113">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -835,8 +907,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab523783f9d1243ebf47b0fcac9292ab3" name="ab523783f9d1243ebf47b0fcac9292ab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab523783f9d1243ebf47b0fcac9292ab3">&#9670;&nbsp;</a></span>operator/() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> cqsp::core::components::ResourceLedger::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a39884568bc8dd82f6918ece47217c2b7" name="a39884568bc8dd82f6918ece47217c2b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39884568bc8dd82f6918ece47217c2b7">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a39884568bc8dd82f6918ece47217c2b7">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -854,7 +944,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a1a49ce51cf6783acb54790cd6b08d709" name="a1a49ce51cf6783acb54790cd6b08d709"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a49ce51cf6783acb54790cd6b08d709">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a49ce51cf6783acb54790cd6b08d709">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -863,6 +953,24 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void cqsp::core::components::ResourceLedger::operator/= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa12911e81914561270fd372812317fbc" name="aa12911e81914561270fd372812317fbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa12911e81914561270fd372812317fbc">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::core::components::ResourceLedger::operator/= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -881,7 +989,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool cqsp::core::components::ResourceLedger::operator&lt; </td>
           <td>(</td>
           <td class="paramtype">const double &amp;&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -901,7 +1009,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool cqsp::core::components::ResourceLedger::operator&lt; </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
-          <td class="paramname"><em>ledger</em></td><td>)</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -921,7 +1029,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool cqsp::core::components::ResourceLedger::operator&lt;= </td>
           <td>(</td>
           <td class="paramtype">const double &amp;&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -939,7 +1047,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool cqsp::core::components::ResourceLedger::operator&lt;= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
-          <td class="paramname"><em>ledger</em></td><td>)</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -959,7 +1067,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool cqsp::core::components::ResourceLedger::operator== </td>
           <td>(</td>
           <td class="paramtype">const double &amp;&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -977,7 +1085,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool cqsp::core::components::ResourceLedger::operator&gt; </td>
           <td>(</td>
           <td class="paramtype">const double &amp;&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -997,7 +1105,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool cqsp::core::components::ResourceLedger::operator&gt; </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
-          <td class="paramname"><em>ledger</em></td><td>)</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1017,7 +1125,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool cqsp::core::components::ResourceLedger::operator&gt;= </td>
           <td>(</td>
           <td class="paramtype">const double &amp;&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1035,7 +1143,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool cqsp::core::components::ResourceLedger::operator&gt;= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
-          <td class="paramname"><em>ledger</em></td><td>)</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1045,8 +1153,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a05f4800eba0586da36802cc18916fe1a" name="a05f4800eba0586da36802cc18916fe1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05f4800eba0586da36802cc18916fe1a">&#9670;&nbsp;</a></span>operator[]()</h2>
+<a id="a369c6b43adb7581bafaf3782fd8f9f3d" name="a369c6b43adb7581bafaf3782fd8f9f3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a369c6b43adb7581bafaf3782fd8f9f3d">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double &amp; cqsp::core::components::ResourceLedger::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">GoodEntity</a>&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2bc79e6c81f362102201fdf9e6a57dd8" name="a2bc79e6c81f362102201fdf9e6a57dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc79e6c81f362102201fdf9e6a57dd8">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1054,32 +1180,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">double cqsp::core::components::ResourceLedger::operator[] </td>
           <td>(</td>
-          <td class="paramtype">const entt::entity&#160;</td>
-          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">GoodEntity</a>&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad16c3ddec2ddd9417975bbb59fbc5041" name="ad16c3ddec2ddd9417975bbb59fbc5041"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad16c3ddec2ddd9417975bbb59fbc5041">&#9670;&nbsp;</a></span>RemoveResourcesLimited()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void cqsp::core::components::ResourceLedger::RemoveResourcesLimited </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Removes the resources, and if the amount of resources removed are more than the resources inside the stockpile, it will set that resource to zero. </p>
 
 </div>
 </div>
@@ -1133,25 +1239,33 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aab2b3512fd0840f74710b6dc2d5a9ba7" name="aab2b3512fd0840f74710b6dc2d5a9ba7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab2b3512fd0840f74710b6dc2d5a9ba7">&#9670;&nbsp;</a></span>to_string()</h2>
+<a id="afcc91649933422d174ad2531703376c2" name="afcc91649933422d174ad2531703376c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcc91649933422d174ad2531703376c2">&#9670;&nbsp;</a></span>size()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string cqsp::core::components::ResourceLedger::to_string </td>
+          <td class="memname">size_t cqsp::core::components::ResourceLedger::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a9f6a75c76ad468fa2c1e963edb9ec4d9" name="a9f6a75c76ad468fa2c1e963edb9ec4d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f6a75c76ad468fa2c1e963edb9ec4d9">&#9670;&nbsp;</a></span>TransferTo()</h2>
+<a id="aae5ab58cb347ab75b40d92a5f1008d10" name="aae5ab58cb347ab75b40d92a5f1008d10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae5ab58cb347ab75b40d92a5f1008d10">&#9670;&nbsp;</a></span>TransferTo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1175,37 +1289,41 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Transfers amount resoures into ledger_to </p>
 
 </div>
 </div>
-<a id="ab0075ef2804af2eae18f8008d80eb937" name="ab0075ef2804af2eae18f8008d80eb937"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0075ef2804af2eae18f8008d80eb937">&#9670;&nbsp;</a></span>UnitLedger()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac51bcc0e28a3ed7efad68b2ecbd521c4" name="ac51bcc0e28a3ed7efad68b2ecbd521c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac51bcc0e28a3ed7efad68b2ecbd521c4">&#9670;&nbsp;</a></span>ledger</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">ResourceLedger</a> cqsp::core::components::ResourceLedger::UnitLedger </td>
-          <td>(</td>
-          <td class="paramtype">const double&#160;</td>
-          <td class="paramname"><em>val</em></td><td>)</td>
-          <td></td>
+          <td class="memname">std::vector&lt;double&gt; cqsp::core::components::ResourceLedger::ledger</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>Returns a copy of the vector with the values set to indicated value </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/github/workspace/src/core/components/<a class="el" href="resource_8h_source.html">resource.h</a></li>
-<li>/github/workspace/src/core/components/<a class="el" href="resource_8cpp.html">resource.cpp</a></li>
+<li>/github/workspace/src/core/components/<a class="el" href="resourceledger_8h_source.html">resourceledger.h</a></li>
+<li>/github/workspace/src/core/components/<a class="el" href="resourceledger_8cpp.html">resourceledger.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 4 2026 02:33:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jan 8 2026 14:48:58 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

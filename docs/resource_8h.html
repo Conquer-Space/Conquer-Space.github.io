@@ -70,9 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle"><div class="title">resource.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -82,6 +80,7 @@ $(function() {
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;entt/entt.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="area_8h_source.html">core/components/area.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="resourceledger_8h_source.html">core/components/resourceledger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="units_8h_source.html">core/components/units.h</a>&quot;</code><br />
 </div>
 <p><a href="resource_8h_source.html">Go to the source code of this file.</a></p>
@@ -105,8 +104,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_capital_good.html">cqsp::core::components::CapitalGood</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_ledger.html">cqsp::core::components::ResourceLedger</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_recipe_output.html">cqsp::core::components::RecipeOutput</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_recipe.html">cqsp::core::components::Recipe</a></td></tr>
@@ -122,8 +119,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_consumption.html">cqsp::core::components::ResourceConsumption</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_production.html">cqsp::core::components::ResourceProduction</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_converter.html">cqsp::core::components::ResourceConverter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_stockpile.html">cqsp::core::components::ResourceStockpile</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,22 +139,11 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacecqsp_1_1core_1_1components"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html">cqsp::core::components</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a5589278800610d33e9f24fa4453e7783"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; entt::entity, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a5589278800610d33e9f24fa4453e7783">cqsp::core::components::LedgerMap</a></td></tr>
-<tr class="separator:a5589278800610d33e9f24fa4453e7783"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a527e0c1168c4c62d31a8b87a9ba3f203"><td class="memItemLeft" align="right" valign="top">ResourceLedger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a527e0c1168c4c62d31a8b87a9ba3f203">cqsp::core::components::CopyVals</a> (const ResourceLedger &amp;keys, const ResourceLedger &amp;values)</td></tr>
-<tr class="memdesc:a527e0c1168c4c62d31a8b87a9ba3f203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new resource ledger using the keys from one resource ledger, and the values from annother  <a href="namespacecqsp_1_1core_1_1components.html#a527e0c1168c4c62d31a8b87a9ba3f203">More...</a><br /></td></tr>
-<tr class="separator:a527e0c1168c4c62d31a8b87a9ba3f203"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 4 2026 02:33:11 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jan 8 2026 14:48:58 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

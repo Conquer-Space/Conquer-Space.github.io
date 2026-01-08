@@ -13,7 +13,9 @@ var searchData=
   ['glstate_5fbackup_10',['glstate_backup',['../class_render_interface___g_l3.html#af19c34af45965cb31e148ed51d3e58eb',1,'RenderInterface_GL3']]],
   ['gm_11',['GM',['../structcqsp_1_1core_1_1components_1_1bodies_1_1_body.html#ac435738906d96e88cfa41714616c30f8',1,'cqsp::core::components::bodies::Body::GM()'],['../structcqsp_1_1core_1_1components_1_1types_1_1_orbit.html#a6e74b3a5e035b91c70fc6cbcb9d95ddf',1,'cqsp::core::components::types::Orbit::GM()']]],
   ['good_12',['good',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_transported_good.html#a7aa2c14969f6c449a019360a7d3c5bda',1,'cqsp::core::components::infrastructure::TransportedGood']]],
-  ['goods_13',['goods',['../classcqsp_1_1core_1_1_universe.html#a83d57d4a10b77e45ee132202ef062491',1,'cqsp::core::Universe']]],
-  ['governor_14',['governor',['../structcqsp_1_1core_1_1components_1_1_governed.html#a9ed3e010022e89eca38d9d69a2714d0d',1,'cqsp::core::components::Governed']]],
-  ['gradient_5ffunction_15',['gradient_function',['../struct_compiled_shader.html#a5de39b49c0006daa13fcd47b6c49d850',1,'CompiledShader']]]
+  ['good_5fmap_13',['good_map',['../classcqsp_1_1core_1_1_universe.html#a7970e344e281e600b897cf3fcd687481',1,'cqsp::core::Universe']]],
+  ['good_5fvector_14',['good_vector',['../classcqsp_1_1core_1_1_universe.html#aa84c9360444c8401472b1ae24b2c2979',1,'cqsp::core::Universe']]],
+  ['goods_15',['goods',['../classcqsp_1_1core_1_1_universe.html#a83d57d4a10b77e45ee132202ef062491',1,'cqsp::core::Universe']]],
+  ['governor_16',['governor',['../structcqsp_1_1core_1_1components_1_1_governed.html#a9ed3e010022e89eca38d9d69a2714d0d',1,'cqsp::core::components::Governed']]],
+  ['gradient_5ffunction_17',['gradient_function',['../struct_compiled_shader.html#a5de39b49c0006daa13fcd47b6c49d850',1,'CompiledShader']]]
 ];

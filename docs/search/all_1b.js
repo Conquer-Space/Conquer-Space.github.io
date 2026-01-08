@@ -34,7 +34,7 @@ var searchData=
   ['_7eorbitmesh_31',['~OrbitMesh',['../structcqsp_1_1client_1_1components_1_1_orbit_mesh.html#a055a7fe228a7aa7b02aad247b1b07f85',1,'cqsp::client::components::OrbitMesh']]],
   ['_7erenderinterface_5fgl3_32',['~RenderInterface_GL3',['../class_render_interface___g_l3.html#a42aac1d3459d4d6b307dbfdaefa7716e',1,'RenderInterface_GL3']]],
   ['_7erenderlayerstack_33',['~RenderLayerStack',['../class_render_interface___g_l3_1_1_render_layer_stack.html#aa3a4995452e194c5e04a3c3f5df93e6b',1,'RenderInterface_GL3::RenderLayerStack']]],
-  ['_7eresourceledger_34',['~ResourceLedger',['../classcqsp_1_1core_1_1components_1_1_resource_ledger.html#a7b260e4d73d94574aa8011f21693848b',1,'cqsp::core::components::ResourceLedger']]],
+  ['_7eresourcemap_34',['~ResourceMap',['../classcqsp_1_1core_1_1components_1_1_resource_map.html#a9b290d0782b1edb318f9d7bc024d22f3',1,'cqsp::core::components::ResourceMap']]],
   ['_7escene_35',['~Scene',['../classcqsp_1_1engine_1_1_scene.html#ab7b7538bc8b8c71ca6e2226c59ec740b',1,'cqsp::engine::Scene']]],
   ['_7eshader_36',['~Shader',['../classcqsp_1_1asset_1_1_shader.html#a9194ee66db5aca012ebb1c9fd4da4ace',1,'cqsp::asset::Shader']]],
   ['_7eshaderprogram_37',['~ShaderProgram',['../classcqsp_1_1asset_1_1_shader_program.html#a05969f2a9dd3981e5f811f81b974432a',1,'cqsp::asset::ShaderProgram']]],
