@@ -15,5 +15,6 @@ var searchData=
   ['normalize_5fradian_12',['normalize_radian',['../namespacecqsp_1_1core_1_1components_1_1types.html#a23884d00b635fdc8f53353c4da5a7194',1,'cqsp::core::components::types']]],
   ['normalize_5fradian_5fcoord_13',['normalize_radian_coord',['../namespacecqsp_1_1core_1_1components_1_1types.html#a08ba0c0a492f540efa47317a637eb611',1,'cqsp::core::components::types']]],
   ['nu_14',['nu',['../structcqsp_1_1core_1_1components_1_1types_1_1_orbit.html#abd47aba4eb3fb762e87c29b013a583c5',1,'cqsp::core::components::types::Orbit']]],
-  ['numbertohumanstring_15',['NumberToHumanString',['../namespacecqsp_1_1util.html#aaf332947cd896c0172b4d3c0b33be6f9',1,'cqsp::util']]]
+  ['null_15',['null',['../classcqsp_1_1core_1_1_universe.html#a6a4ade47ea5931db13891f17dd1b7a31',1,'cqsp::core::Universe']]],
+  ['numbertohumanstring_16',['NumberToHumanString',['../namespacecqsp_1_1util.html#aaf332947cd896c0172b4d3c0b33be6f9',1,'cqsp::util']]]
 ];
