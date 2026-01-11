@@ -84,7 +84,7 @@ var searchData=
   ['crashobject_81',['CrashObject',['../classcqsp_1_1core_1_1systems_1_1_sys_orbit.html#ac08fe748c54c7ba25c2ced8ece2dd26b',1,'cqsp::core::systems::SysOrbit']]],
   ['createcity_82',['CreateCity',['../namespacecqsp_1_1core_1_1actions.html#a60c7c04044a4ab7b5badcd0763f3bb60',1,'cqsp::core::actions::CreateCity(Node &amp;planet, components::types::SurfaceCoordinate coords)'],['../namespacecqsp_1_1core_1_1actions.html#a0e01f5ab68eae4466cdbe5d5e0fdb55d',1,'cqsp::core::actions::CreateCity(Node &amp;planet, double lat, double longi)']]],
   ['createcommercialarea_83',['CreateCommercialArea',['../namespacecqsp_1_1core_1_1actions.html#aaf81f353392cf0fb6be08df55257d4a4',1,'cqsp::core::actions']]],
-  ['createfactory_84',['CreateFactory',['../namespacecqsp_1_1core_1_1actions.html#a5420f2252306a40cc6dd095ad3fbd7ad',1,'cqsp::core::actions']]],
+  ['createfactory_84',['CreateFactory',['../namespacecqsp_1_1core_1_1actions.html#a3e8522e6896a9ab7da16086ddc8b3dd0',1,'cqsp::core::actions']]],
   ['createfilledcircle_85',['CreateFilledCircle',['../namespacecqsp_1_1engine_1_1primitive.html#a3b5b4503ad48b6475767343d90f4c09b',1,'cqsp::engine::primitive']]],
   ['createfilledsquare_86',['CreateFilledSquare',['../namespacecqsp_1_1engine_1_1primitive.html#a3b59a010d25393c8e0a2a8f25c638d67',1,'cqsp::engine::primitive']]],
   ['createfilledtriangle_87',['CreateFilledTriangle',['../namespacecqsp_1_1engine_1_1primitive.html#a83bb39098e14ebf7b80a94d7c7917a08',1,'cqsp::engine::primitive']]],
