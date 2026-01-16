@@ -21,7 +21,7 @@ var searchData=
   ['researched_5frecipes_18',['researched_recipes',['../structcqsp_1_1core_1_1components_1_1science_1_1_technological_progress.html#a6180492bdf9ceb0011aa4e7245b13331',1,'cqsp::core::components::science::TechnologicalProgress']]],
   ['researched_5ftechs_19',['researched_techs',['../structcqsp_1_1core_1_1components_1_1science_1_1_technological_progress.html#a8a76f00f12d3d9a5f0073be86c5ddba6',1,'cqsp::core::components::science::TechnologicalProgress']]],
   ['resource_20',['resource',['../structcqsp_1_1client_1_1components_1_1_planet_terrain_render.html#abc1578a95338f5f37be0da9551c1083e',1,'cqsp::client::components::PlanetTerrainRender']]],
-  ['resource_5ffulfilled_21',['resource_fulfilled',['../structcqsp_1_1core_1_1components_1_1_market_information.html#a62b3d571571ac8987143e107d6449563',1,'cqsp::core::components::MarketInformation']]],
+  ['resource_5ffulfilled_21',['resource_fulfilled',['../structcqsp_1_1core_1_1components_1_1_market.html#a1c2457a8f9d08f6dd48afa581d676625',1,'cqsp::core::components::Market']]],
   ['resource_5fstockpile_22',['resource_stockpile',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_space_port.html#aad10456daf3c4fd37d70da0d0f06cd0a',1,'cqsp::core::components::infrastructure::SpacePort']]],
   ['revenue_23',['revenue',['../structcqsp_1_1core_1_1components_1_1_cost_breakdown.html#a8ab89a339ce695425d1e877cc4b58f42',1,'cqsp::core::components::CostBreakdown']]],
   ['ringbuffer_5fsink_24',['ringbuffer_sink',['../classcqsp_1_1core_1_1scripting_1_1_script_interface.html#a360306d5d5d15321dc8375ac518cb8d6',1,'cqsp::core::scripting::ScriptInterface']]],

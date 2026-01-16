@@ -43,7 +43,7 @@ var searchData=
   ['reset_40',['Reset',['../structcqsp_1_1core_1_1components_1_1_cost_breakdown.html#a647cc325c904f6cd845d40178b4dcaf0',1,'cqsp::core::components::CostBreakdown::Reset()'],['../structcqsp_1_1core_1_1components_1_1_wallet.html#a36cd68f8126e1441bedd1877894c3991',1,'cqsp::core::components::Wallet::Reset()']]],
   ['resetcameraup_41',['ResetCameraUp',['../structcqsp_1_1client_1_1systems_1_1_star_system_camera.html#ace8e40f08a703aad636e27a485fbea2d',1,'cqsp::client::systems::StarSystemCamera']]],
   ['resetgame_42',['ResetGame',['../classcqsp_1_1engine_1_1_application.html#a7a807acdd01e6afb07d97e7d3e76d79e',1,'cqsp::engine::Application']]],
-  ['resetledgers_43',['ResetLedgers',['../structcqsp_1_1core_1_1components_1_1_market_information.html#aa3fcbe0bcd98c6bc8f80ff716006cc19',1,'cqsp::core::components::MarketInformation']]],
+  ['resetledgers_43',['ResetLedgers',['../structcqsp_1_1core_1_1components_1_1_market.html#a49a84a416289ce21b0739e1620d996ce',1,'cqsp::core::components::Market']]],
   ['resetmousedragdelta_44',['ResetMouseDragDelta',['../namespacecqsp_1_1client_1_1scripting.html#a18ab280daf1e40eca4f16bbb01034efd',1,'cqsp::client::scripting::ResetMouseDragDelta(int button)'],['../namespacecqsp_1_1client_1_1scripting.html#aa21a94522b48f6ab22b21a95b1411759',1,'cqsp::client::scripting::ResetMouseDragDelta()']]],
   ['resetselection_45',['ResetSelection',['../classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html#ac4ad94ce7d654c21c39aab5b0d75afcc',1,'cqsp::client::systems::SysRecipeViewer']]],
   ['resolvetrades_46',['ResolveTrades',['../classcqsp_1_1core_1_1systems_1_1_sys_interplanetary_trade.html#a90dfc08732b960683e4643c72bf9cbe7',1,'cqsp::core::systems::SysInterplanetaryTrade']]],

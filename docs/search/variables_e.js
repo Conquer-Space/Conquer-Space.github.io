@@ -13,6 +13,7 @@ var searchData=
   ['output_10',['output',['../structcqsp_1_1core_1_1components_1_1_recipe.html#a2ea4fe0a3e61bc7440528a86c43bece9',1,'cqsp::core::components::Recipe']]],
   ['output_5fresources_11',['output_resources',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_space_port.html#a7af65f1095e94d44d85693d405baba04',1,'cqsp::core::components::infrastructure::SpacePort']]],
   ['output_5fresources_5frate_12',['output_resources_rate',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_space_port.html#abf82532cec05f4ed5b865a6c77b710f9',1,'cqsp::core::components::infrastructure::SpacePort']]],
-  ['owner_13',['owner',['../structcqsp_1_1core_1_1components_1_1_owned.html#aa3bf5e8860768cdb1a9a6734dcac45a2',1,'cqsp::core::components::Owned::owner()'],['../structcqsp_1_1core_1_1components_1_1ships_1_1_fleet.html#a00538bebe22325abee0e0ac1edf52066',1,'cqsp::core::components::ships::Fleet::owner()']]],
-  ['owns_5fdepth_5fstencil_5fbuffer_14',['owns_depth_stencil_buffer',['../struct_gfx_1_1_framebuffer_data.html#a888df663964e0c7b13583679ff4e0902',1,'Gfx::FramebufferData']]]
+  ['output_5fstream_13',['output_stream',['../classcqsp_1_1core_1_1systems_1_1history_1_1_sys_market_csv_history.html#aa887ff0c3efa1504bbc0f81f758aee2e',1,'cqsp::core::systems::history::SysMarketCsvHistory']]],
+  ['owner_14',['owner',['../structcqsp_1_1core_1_1components_1_1_owned.html#aa3bf5e8860768cdb1a9a6734dcac45a2',1,'cqsp::core::components::Owned::owner()'],['../structcqsp_1_1core_1_1components_1_1ships_1_1_fleet.html#a00538bebe22325abee0e0ac1edf52066',1,'cqsp::core::components::ships::Fleet::owner()']]],
+  ['owns_5fdepth_5fstencil_5fbuffer_15',['owns_depth_stencil_buffer',['../struct_gfx_1_1_framebuffer_data.html#a888df663964e0c7b13583679ff4e0902',1,'Gfx::FramebufferData']]]
 ];

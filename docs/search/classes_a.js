@@ -8,5 +8,6 @@ var searchData=
   ['load_5',['Load',['../classcqsp_1_1core_1_1save_1_1_load.html',1,'cqsp::core::save']]],
   ['loadgamewindow_6',['LoadGameWindow',['../classcqsp_1_1client_1_1_load_game_window.html',1,'cqsp::client']]],
   ['loadingdatamodel_7',['LoadingDataModel',['../structcqsp_1_1client_1_1scene_1_1_loading_scene_1_1_loading_data_model.html',1,'cqsp::client::scene::LoadingScene']]],
-  ['loadingscene_8',['LoadingScene',['../classcqsp_1_1client_1_1scene_1_1_loading_scene.html',1,'cqsp::client::scene']]]
+  ['loadingscene_8',['LoadingScene',['../classcqsp_1_1client_1_1scene_1_1_loading_scene.html',1,'cqsp::client::scene']]],
+  ['logmarket_9',['LogMarket',['../classcqsp_1_1core_1_1components_1_1_log_market.html',1,'cqsp::core::components']]]
 ];

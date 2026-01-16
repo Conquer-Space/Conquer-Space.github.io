@@ -43,7 +43,7 @@ var searchData=
   ['sysgoodviewer_40',['SysGoodViewer',['../classcqsp_1_1client_1_1systems_1_1_sys_good_viewer.html',1,'cqsp::client::systems']]],
   ['sysinterplanetarytrade_41',['SysInterplanetaryTrade',['../classcqsp_1_1core_1_1systems_1_1_sys_interplanetary_trade.html',1,'cqsp::core::systems']]],
   ['sysmarket_42',['SysMarket',['../classcqsp_1_1core_1_1systems_1_1_sys_market.html',1,'cqsp::core::systems']]],
-  ['sysmarkethistory_43',['SysMarketHistory',['../classcqsp_1_1core_1_1systems_1_1history_1_1_sys_market_history.html',1,'cqsp::core::systems::history']]],
+  ['sysmarketcsvhistory_43',['SysMarketCsvHistory',['../classcqsp_1_1core_1_1systems_1_1history_1_1_sys_market_csv_history.html',1,'cqsp::core::systems::history']]],
   ['sysmarketreset_44',['SysMarketReset',['../classcqsp_1_1core_1_1systems_1_1_sys_market_reset.html',1,'cqsp::core::systems']]],
   ['sysorbit_45',['SysOrbit',['../classcqsp_1_1core_1_1systems_1_1_sys_orbit.html',1,'cqsp::core::systems']]],
   ['sysorbitfilter_46',['SysOrbitFilter',['../classcqsp_1_1client_1_1systems_1_1_sys_orbit_filter.html',1,'cqsp::client::systems']]],

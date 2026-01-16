@@ -66,7 +66,7 @@ var searchData=
   ['tooltip_63',['tooltip',['../structcqsp_1_1core_1_1event_1_1_event_result.html#a77cbba9091483a124423d6c07b439091',1,'cqsp::core::event::EventResult']]],
   ['total_5fpower_5fconsumption_64',['total_power_consumption',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_city_power.html#a3e0b8cf966d7723fba35cc3c2b39b76f',1,'cqsp::core::components::infrastructure::CityPower']]],
   ['total_5fpower_5fprod_65',['total_power_prod',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_city_power.html#ab0b5525f970d93201afe87a0aa921e72',1,'cqsp::core::components::infrastructure::CityPower']]],
-  ['trade_66',['trade',['../structcqsp_1_1core_1_1components_1_1_market_information.html#a90654aae6ceaa6da72dc8f57c802e6d4',1,'cqsp::core::components::MarketInformation']]],
+  ['trade_66',['trade',['../structcqsp_1_1core_1_1components_1_1_market.html#aa1ef89011979e8e11b1433ae75178194',1,'cqsp::core::components::Market']]],
   ['trade_5fdeficit_67',['trade_deficit',['../structcqsp_1_1core_1_1components_1_1_market.html#acd048fd5453b4ee3f70e7a696538262b',1,'cqsp::core::components::Market']]],
   ['transfer_5fradius_68',['transfer_radius',['../classcqsp_1_1client_1_1systems_1_1_spaceship_window.html#abb926da357353b8c4703c479591d72d6',1,'cqsp::client::systems::SpaceshipWindow']]],
   ['transform_69',['transform',['../class_render_interface___g_l3.html#a85d8bee4141d9ccd169ae74d5c9286fc',1,'RenderInterface_GL3']]],
