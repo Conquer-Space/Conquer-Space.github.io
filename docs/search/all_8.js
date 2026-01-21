@@ -34,7 +34,7 @@ var searchData=
   ['hohmann_2eh_31',['hohmann.h',['../hohmann_8h.html',1,'']]],
   ['hohmannpair_5ft_32',['HohmannPair_t',['../namespacecqsp_1_1core_1_1components.html#abc9b11a1c8f346afa6feea4be89571d1',1,'cqsp::core::components']]],
   ['hohmanntransfer_33',['HohmannTransfer',['../namespacecqsp_1_1core_1_1systems.html#af6281df65b71a4fbc06f4af7c860cce0',1,'cqsp::core::systems']]],
-  ['hour_34',['HOUR',['../classcqsp_1_1core_1_1components_1_1_star_date.html#a7de0ed40f4887c9c97f7257afe497954',1,'cqsp::core::components::StarDate']]],
+  ['hour_34',['HOUR',['../classcqsp_1_1core_1_1components_1_1_star_date.html#a09050264263da6e61b6bcf7b939e12cd',1,'cqsp::core::components::StarDate']]],
   ['householder_35',['householder',['../classcqsp_1_1core_1_1systems_1_1lambert_1_1_izzo.html#a21f291115c46da1a179e6c47e2849467',1,'cqsp::core::systems::lambert::Izzo']]],
   ['hovering_5fprovince_36',['hovering_province',['../classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aa5e626d41c3ebf44abcc546f3d0db1e7',1,'cqsp::client::systems::StarSystemController']]],
   ['hovering_5fprovince_5fcolor_37',['hovering_province_color',['../classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#abc681fac909d2d1bdb789c830f23f564',1,'cqsp::client::systems::StarSystemController']]],

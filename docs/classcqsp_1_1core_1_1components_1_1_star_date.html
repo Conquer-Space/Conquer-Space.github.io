@@ -107,6 +107,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aec744fbdab0c92ea7a010b683e68cde8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a668810a0707b52085c33b8250e84fa09"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a668810a0707b52085c33b8250e84fa09">GetMinute</a> () const</td></tr>
 <tr class="separator:a668810a0707b52085c33b8250e84fa09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca128d799761eceaeab32fcf3b687ebb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#aca128d799761eceaeab32fcf3b687ebb">ToTicks</a> (double seconds)</td></tr>
+<tr class="separator:aca128d799761eceaeab32fcf3b687ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5327a446162c7ce8078de6e7f152de2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a5327a446162c7ce8078de6e7f152de2e">SetDate</a> (unsigned int _date)</td></tr>
 <tr class="separator:a5327a446162c7ce8078de6e7f152de2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bdb1e8e37b0099c554642fbede3a705"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a4bdb1e8e37b0099c554642fbede3a705">operator()</a> () const</td></tr>
@@ -114,17 +116,17 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a186c71cabef41d65670e53a9627adeec"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a186c71cabef41d65670e53a9627adeec">TIME_INCREMENT</a> = 60</td></tr>
+<tr class="memitem:a186c71cabef41d65670e53a9627adeec"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a186c71cabef41d65670e53a9627adeec">TIME_INCREMENT</a> = 60 * 10</td></tr>
 <tr class="separator:a186c71cabef41d65670e53a9627adeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a764088da646d78170f9dfc270018def4"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a764088da646d78170f9dfc270018def4">MINUTE</a> = 1</td></tr>
-<tr class="separator:a764088da646d78170f9dfc270018def4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7de0ed40f4887c9c97f7257afe497954"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a7de0ed40f4887c9c97f7257afe497954">HOUR</a> = 60 * <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a764088da646d78170f9dfc270018def4">MINUTE</a></td></tr>
-<tr class="separator:a7de0ed40f4887c9c97f7257afe497954"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94defb7d9579c5dc793f48586a1f2e46"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a94defb7d9579c5dc793f48586a1f2e46">DAY</a> = 24 * <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a7de0ed40f4887c9c97f7257afe497954">HOUR</a></td></tr>
-<tr class="separator:a94defb7d9579c5dc793f48586a1f2e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85d5159ff6076da3d58ceb60e9b3a4bb"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a85d5159ff6076da3d58ceb60e9b3a4bb">WEEK</a> = <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a94defb7d9579c5dc793f48586a1f2e46">DAY</a> * 7</td></tr>
-<tr class="separator:a85d5159ff6076da3d58ceb60e9b3a4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6f96aa1392b77ebba601f847769c3f0"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#aa6f96aa1392b77ebba601f847769c3f0">YEAR</a> = <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a94defb7d9579c5dc793f48586a1f2e46">DAY</a> * 365</td></tr>
+<tr class="memitem:abbc4bcf5fcf9544d82ff14428871eb22"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#abbc4bcf5fcf9544d82ff14428871eb22">MINUTE</a> = 0.1f</td></tr>
+<tr class="separator:abbc4bcf5fcf9544d82ff14428871eb22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09050264263da6e61b6bcf7b939e12cd"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a09050264263da6e61b6bcf7b939e12cd">HOUR</a> = static_cast&lt;int&gt;(60 * <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#abbc4bcf5fcf9544d82ff14428871eb22">MINUTE</a>)</td></tr>
+<tr class="separator:a09050264263da6e61b6bcf7b939e12cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46711dc94b4c7a40300d0baf54112f93"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a46711dc94b4c7a40300d0baf54112f93">DAY</a> = 24 * <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a09050264263da6e61b6bcf7b939e12cd">HOUR</a></td></tr>
+<tr class="separator:a46711dc94b4c7a40300d0baf54112f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79374210b8563b5d2107e7b32e759825"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a79374210b8563b5d2107e7b32e759825">WEEK</a> = <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a46711dc94b4c7a40300d0baf54112f93">DAY</a> * 7</td></tr>
+<tr class="separator:a79374210b8563b5d2107e7b32e759825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f96aa1392b77ebba601f847769c3f0"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#aa6f96aa1392b77ebba601f847769c3f0">YEAR</a> = <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a46711dc94b4c7a40300d0baf54112f93">DAY</a> * 365</td></tr>
 <tr class="separator:aa6f96aa1392b77ebba601f847769c3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -419,6 +421,32 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aca128d799761eceaeab32fcf3b687ebb" name="aca128d799761eceaeab32fcf3b687ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca128d799761eceaeab32fcf3b687ebb">&#9670;&nbsp;</a></span>ToTicks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::core::components::StarDate::ToTicks </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>seconds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a60903bb38c7f3a9aa036bad66f6a0387" name="a60903bb38c7f3a9aa036bad66f6a0387"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60903bb38c7f3a9aa036bad66f6a0387">&#9670;&nbsp;</a></span>date</h2>
@@ -442,8 +470,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a94defb7d9579c5dc793f48586a1f2e46" name="a94defb7d9579c5dc793f48586a1f2e46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94defb7d9579c5dc793f48586a1f2e46">&#9670;&nbsp;</a></span>DAY</h2>
+<a id="a46711dc94b4c7a40300d0baf54112f93" name="a46711dc94b4c7a40300d0baf54112f93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46711dc94b4c7a40300d0baf54112f93">&#9670;&nbsp;</a></span>DAY</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -452,20 +480,20 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int cqsp::core::components::StarDate::DAY = 24 * <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a7de0ed40f4887c9c97f7257afe497954">HOUR</a></td>
+          <td class="memname">constexpr int cqsp::core::components::StarDate::DAY = 24 * <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a09050264263da6e61b6bcf7b939e12cd">HOUR</a></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7de0ed40f4887c9c97f7257afe497954" name="a7de0ed40f4887c9c97f7257afe497954"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7de0ed40f4887c9c97f7257afe497954">&#9670;&nbsp;</a></span>HOUR</h2>
+<a id="a09050264263da6e61b6bcf7b939e12cd" name="a09050264263da6e61b6bcf7b939e12cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09050264263da6e61b6bcf7b939e12cd">&#9670;&nbsp;</a></span>HOUR</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -474,20 +502,20 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int cqsp::core::components::StarDate::HOUR = 60 * <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a764088da646d78170f9dfc270018def4">MINUTE</a></td>
+          <td class="memname">constexpr int cqsp::core::components::StarDate::HOUR = static_cast&lt;int&gt;(60 * <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#abbc4bcf5fcf9544d82ff14428871eb22">MINUTE</a>)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a764088da646d78170f9dfc270018def4" name="a764088da646d78170f9dfc270018def4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a764088da646d78170f9dfc270018def4">&#9670;&nbsp;</a></span>MINUTE</h2>
+<a id="abbc4bcf5fcf9544d82ff14428871eb22" name="abbc4bcf5fcf9544d82ff14428871eb22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbc4bcf5fcf9544d82ff14428871eb22">&#9670;&nbsp;</a></span>MINUTE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -496,12 +524,12 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int cqsp::core::components::StarDate::MINUTE = 1</td>
+          <td class="memname">constexpr float cqsp::core::components::StarDate::MINUTE = 0.1f</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -540,7 +568,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int cqsp::core::components::StarDate::TIME_INCREMENT = 60</td>
+          <td class="memname">const int cqsp::core::components::StarDate::TIME_INCREMENT = 60 * 10</td>
         </tr>
       </table>
   </td>
@@ -552,8 +580,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a85d5159ff6076da3d58ceb60e9b3a4bb" name="a85d5159ff6076da3d58ceb60e9b3a4bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85d5159ff6076da3d58ceb60e9b3a4bb">&#9670;&nbsp;</a></span>WEEK</h2>
+<a id="a79374210b8563b5d2107e7b32e759825" name="a79374210b8563b5d2107e7b32e759825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79374210b8563b5d2107e7b32e759825">&#9670;&nbsp;</a></span>WEEK</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -562,12 +590,12 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int cqsp::core::components::StarDate::WEEK = <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a94defb7d9579c5dc793f48586a1f2e46">DAY</a> * 7</td>
+          <td class="memname">constexpr int cqsp::core::components::StarDate::WEEK = <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a46711dc94b4c7a40300d0baf54112f93">DAY</a> * 7</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -584,7 +612,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int cqsp::core::components::StarDate::YEAR = <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a94defb7d9579c5dc793f48586a1f2e46">DAY</a> * 365</td>
+          <td class="memname">const int cqsp::core::components::StarDate::YEAR = <a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html#a46711dc94b4c7a40300d0baf54112f93">DAY</a> * 365</td>
         </tr>
       </table>
   </td>
@@ -603,7 +631,7 @@ Static Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jan 17 2026 07:23:14 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jan 21 2026 07:47:17 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
