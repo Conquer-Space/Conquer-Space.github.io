@@ -87,7 +87,7 @@ var searchData=
   ['researched_5frecipes_84',['researched_recipes',['../structcqsp_1_1core_1_1components_1_1science_1_1_technological_progress.html#a6180492bdf9ceb0011aa4e7245b13331',1,'cqsp::core::components::science::TechnologicalProgress']]],
   ['researched_5ftechs_85',['researched_techs',['../structcqsp_1_1core_1_1components_1_1science_1_1_technological_progress.html#a8a76f00f12d3d9a5f0073be86c5ddba6',1,'cqsp::core::components::science::TechnologicalProgress']]],
   ['researchtech_86',['ResearchTech',['../namespacecqsp_1_1core_1_1actions.html#a4ee28f6f2486dbb28aa328a232e3962c',1,'cqsp::core::actions']]],
-  ['reset_87',['Reset',['../structcqsp_1_1core_1_1components_1_1_wallet.html#a36cd68f8126e1441bedd1877894c3991',1,'cqsp::core::components::Wallet::Reset()'],['../structcqsp_1_1core_1_1components_1_1_cost_breakdown.html#a647cc325c904f6cd845d40178b4dcaf0',1,'cqsp::core::components::CostBreakdown::Reset()']]],
+  ['reset_87',['Reset',['../structcqsp_1_1core_1_1components_1_1_cost_breakdown.html#a647cc325c904f6cd845d40178b4dcaf0',1,'cqsp::core::components::CostBreakdown::Reset()'],['../structcqsp_1_1core_1_1components_1_1_wallet.html#a36cd68f8126e1441bedd1877894c3991',1,'cqsp::core::components::Wallet::Reset()']]],
   ['resetcameraup_88',['ResetCameraUp',['../structcqsp_1_1client_1_1systems_1_1_star_system_camera.html#ace8e40f08a703aad636e27a485fbea2d',1,'cqsp::client::systems::StarSystemCamera']]],
   ['resetgame_89',['ResetGame',['../classcqsp_1_1engine_1_1_application.html#a7a807acdd01e6afb07d97e7d3e76d79e',1,'cqsp::engine::Application']]],
   ['resetledgers_90',['ResetLedgers',['../structcqsp_1_1core_1_1components_1_1_market.html#a49a84a416289ce21b0739e1620d996ce',1,'cqsp::core::components::Market']]],

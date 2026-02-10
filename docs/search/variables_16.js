@@ -12,7 +12,7 @@ var searchData=
   ['window_5fsizes_9',['window_sizes',['../classcqsp_1_1client_1_1_settings_window.html#a175d32e868a45ee935f0a023d01f0c44',1,'cqsp::client::SettingsWindow']]],
   ['windowheight_10',['windowHeight',['../classcqsp_1_1client_1_1scene_1_1_loading_scene.html#a6aaaf97ab021bda659ca65627f5da853',1,'cqsp::client::scene::LoadingScene']]],
   ['windowwidth_11',['windowWidth',['../classcqsp_1_1client_1_1scene_1_1_loading_scene.html#a11920f34a2247ff34ae7a636edefec4a',1,'cqsp::client::scene::LoadingScene']]],
-  ['workers_12',['workers',['../structcqsp_1_1core_1_1components_1_1_recipe.html#a72e490285074b047dd41270a77c2b646',1,'cqsp::core::components::Recipe::workers()'],['../structcqsp_1_1core_1_1components_1_1_industry_size.html#a036ece1af5987fb89d421041e383ba46',1,'cqsp::core::components::IndustrySize::workers()']]],
+  ['workers_12',['workers',['../structcqsp_1_1core_1_1components_1_1_industry_size.html#a036ece1af5987fb89d421041e383ba46',1,'cqsp::core::components::IndustrySize::workers()'],['../structcqsp_1_1core_1_1components_1_1_recipe.html#a72e490285074b047dd41270a77c2b646',1,'cqsp::core::components::Recipe::workers()']]],
   ['working_5fpopulation_13',['working_population',['../structcqsp_1_1core_1_1components_1_1_labor_information.html#ac1b4f1354f6f886206cf1bd275f66faa',1,'cqsp::core::components::LaborInformation']]],
   ['writemask_14',['writemask',['../struct_render_interface___g_l3_1_1_g_l_state_backup_1_1_stencil.html#a29daa7e7c1497e0693328754bd567383',1,'RenderInterface_GL3::GLStateBackup::Stencil']]]
 ];
