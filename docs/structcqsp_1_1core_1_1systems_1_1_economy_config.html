@@ -95,6 +95,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a32c5d5b056bd1e8db094005db132c364"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a553d98f373b47420b75efdc3e19651a8"><td class="memItemLeft" >&#160;&#160;&#160;double&#160;&#160;&#160;<a class="el" href="structcqsp_1_1core_1_1systems_1_1_economy_config.html#a9a0a828e99fe0fa6df5d7454e70b9d24">factory_min_utilization</a> = 0.05</td></tr>
 <tr class="separator:a553d98f373b47420b75efdc3e19651a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4997e4cb55b276872a83a978de894da0"><td class="memItemLeft" >&#160;&#160;&#160;int&#160;&#160;&#160;<a class="el" href="structcqsp_1_1core_1_1systems_1_1_economy_config.html#aef548bb831e66f32a65aa1d12a9ff10b">construction_limit</a> = 90</td></tr>
+<tr class="separator:a4997e4cb55b276872a83a978de894da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f8a3cb373011d0816a57ec80067a49"><td class="memItemLeft" >&#160;&#160;&#160;double&#160;&#160;&#160;<a class="el" href="structcqsp_1_1core_1_1systems_1_1_economy_config.html#a35543cc919259e78d8eaf6b993a415fe">underutilization_limit</a> = 30</td></tr>
+<tr class="separator:ac7f8a3cb373011d0816a57ec80067a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcb46cb887dfcb98c8e00de150cae0a3"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1systems_1_1_economy_config.html#adcb46cb887dfcb98c8e00de150cae0a3">production_config</a></td></tr>
 <tr class="separator:adcb46cb887dfcb98c8e00de150cae0a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -113,6 +117,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Fraction that the price of a good can deviate from the base price. </p>
+
+</div>
+</div>
+<a id="aef548bb831e66f32a65aa1d12a9ff10b" name="aef548bb831e66f32a65aa1d12a9ff10b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef548bb831e66f32a65aa1d12a9ff10b">&#9670;&nbsp;</a></span>construction_limit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::core::systems::EconomyConfig::construction_limit = 90</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >How long the factory will need continous gains to start constructing a new factory of itself. </p>
 
 </div>
 </div>
@@ -219,13 +238,28 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a35543cc919259e78d8eaf6b993a415fe" name="a35543cc919259e78d8eaf6b993a415fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35543cc919259e78d8eaf6b993a415fe">&#9670;&nbsp;</a></span>underutilization_limit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::core::systems::EconomyConfig::underutilization_limit = 30</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >What factor our factory is underutilized by before we start reducing production </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>/github/workspace/src/core/systems/economy/<a class="el" href="economyconfig_8h_source.html">economyconfig.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 10 2026 19:34:54 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Feb 13 2026 17:52:48 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
