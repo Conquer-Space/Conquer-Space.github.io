@@ -186,6 +186,14 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a995a42314bbb6505377657bb73b569bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ad089110facfc772ef39f1c4f755790"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a1ad089110facfc772ef39f1c4f755790">Lerp</a> (float a, float b, float t)</td></tr>
 <tr class="separator:a1ad089110facfc772ef39f1c4f755790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7207a7bac9127be6c73682e6fcdbec85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a7207a7bac9127be6c73682e6fcdbec85">SetupDummyTextures</a> ()</td></tr>
+<tr class="separator:a7207a7bac9127be6c73682e6fcdbec85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6e09dea75b2ce01a686ed7967bbb0d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af6e09dea75b2ce01a686ed7967bbb0d8">UpdatePlanetProvinceColors</a> (entt::entity body, entt::entity province, glm::vec4 color)</td></tr>
+<tr class="separator:af6e09dea75b2ce01a686ed7967bbb0d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbf5075bc40a856f630eff4f32729c84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#acbf5075bc40a856f630eff4f32729c84">MassUpdatePlanetProvinceColors</a> (entt::entity entity)</td></tr>
+<tr class="separator:acbf5075bc40a856f630eff4f32729c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bbd6ea3ba5f2bf1d975cf6490c71e87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a6bbd6ea3ba5f2bf1d975cf6490c71e87">GeneratePlanetProvinceMap</a> (entt::entity entity, int province_width, int province_height, uint16_t province_count)</td></tr>
+<tr class="separator:a6bbd6ea3ba5f2bf1d975cf6490c71e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -201,8 +209,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:abaa1191b821c873ec2c25a45bc8ffb3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e7b5d296fecac97bb3883c178ceb939"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_orbit_geometry.html">SysOrbitGeometry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a0e7b5d296fecac97bb3883c178ceb939">orbit_geometry</a></td></tr>
 <tr class="separator:a0e7b5d296fecac97bb3883c178ceb939"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a414ad37bc864e127c9cfd7e3d005b7ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">engine::Renderable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a414ad37bc864e127c9cfd7e3d005b7ad">planet</a></td></tr>
-<tr class="separator:a414ad37bc864e127c9cfd7e3d005b7ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac25e892873b8f37c73b3d8c3ef6d2ef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">engine::Renderable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ac25e892873b8f37c73b3d8c3ef6d2ef9">textured_planet</a></td></tr>
 <tr class="separator:ac25e892873b8f37c73b3d8c3ef6d2ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa824b1798c1e48aaf618dbb2dcef889a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">engine::Renderable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aa824b1798c1e48aaf618dbb2dcef889a">sky</a></td></tr>
@@ -225,8 +231,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:af0f4ecd06aeb3a5b1ac23880f7a405fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a955fa8397b785a1ad43da5718900e77e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">asset::ShaderProgram_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a955fa8397b785a1ad43da5718900e77e">circle_shader</a></td></tr>
 <tr class="separator:a955fa8397b785a1ad43da5718900e77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9541ba47709a724dc4a37f9de33bfe6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">asset::ShaderProgram_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ac9541ba47709a724dc4a37f9de33bfe6">planet_shader</a></td></tr>
-<tr class="separator:ac9541ba47709a724dc4a37f9de33bfe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5a72629c87aede242197c70af0209e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">asset::ShaderProgram_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#aa5a72629c87aede242197c70af0209e6">textured_planet_shader</a></td></tr>
 <tr class="separator:aa5a72629c87aede242197c70af0209e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f199229c981a5e219e2ebc7c088a41a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">asset::ShaderProgram_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a0f199229c981a5e219e2ebc7c088a41a">sun_shader</a></td></tr>
@@ -261,8 +265,14 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ad33608341837d4d8d03faa6fac70df7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a608cd31b9ace7c9554ca9148d23018b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a608cd31b9ace7c9554ca9148d23018b4">have_province</a> = false</td></tr>
 <tr class="separator:a608cd31b9ace7c9554ca9148d23018b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a4fcc636f8b48a639d4a5778a814fe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_texture.html">asset::Texture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a7a4fcc636f8b48a639d4a5778a814fe8">dummy_index_texture</a> = nullptr</td></tr>
+<tr class="separator:a7a4fcc636f8b48a639d4a5778a814fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5da5a728c8ab60af636c7880e05e244"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_t_b_o_texture.html">asset::TBOTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af5da5a728c8ab60af636c7880e05e244">dummy_color_map</a> = nullptr</td></tr>
+<tr class="separator:af5da5a728c8ab60af636c7880e05e244"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab31ade79fa9119c741c4949b3b892b02"><td class="memItemLeft" align="right" valign="top">friend&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#ab31ade79fa9119c741c4949b3b892b02">StarSystemViewUI</a></td></tr>
 <tr class="separator:ab31ade79fa9119c741c4949b3b892b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c4e79d017126e27f941f073d2b78840"><td class="memItemLeft" align="right" valign="top">friend&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a6c4e79d017126e27f941f073d2b78840">StarSystemController</a></td></tr>
+<tr class="separator:a6c4e79d017126e27f941f073d2b78840"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad735b627b1e36c40205dc9c797cdefeb" name="ad735b627b1e36c40205dc9c797cdefeb"></a>
@@ -298,9 +308,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">cqsp::client::systems::SysStarSystemRenderer::~SysStarSystemRenderer </td>
@@ -309,11 +316,6 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -972,6 +974,55 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6bbd6ea3ba5f2bf1d975cf6490c71e87" name="a6bbd6ea3ba5f2bf1d975cf6490c71e87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bbd6ea3ba5f2bf1d975cf6490c71e87">&#9670;&nbsp;</a></span>GeneratePlanetProvinceMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::GeneratePlanetProvinceMap </td>
+          <td>(</td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>province_width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>province_height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>province_count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Generates the OpenGL textures for the province map and the colors we are to assign to the province map </p>
+
+</div>
+</div>
 <a id="a622483b4045433fdcb24aca86c61fe62" name="a622483b4045433fdcb24aca86c61fe62"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a622483b4045433fdcb24aca86c61fe62">&#9670;&nbsp;</a></span>GetBillboardMatrix()</h2>
 
@@ -1319,6 +1370,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acbf5075bc40a856f630eff4f32729c84" name="acbf5075bc40a856f630eff4f32729c84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbf5075bc40a856f630eff4f32729c84">&#9670;&nbsp;</a></span>MassUpdatePlanetProvinceColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::MassUpdatePlanetProvinceColors </td>
+          <td>(</td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4c1ab539aef49d353b723b017edeb030" name="a4c1ab539aef49d353b723b017edeb030"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c1ab539aef49d353b723b017edeb030">&#9670;&nbsp;</a></span>OnTick()</h2>
 
@@ -1443,6 +1520,31 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7207a7bac9127be6c73682e6fcdbec85" name="a7207a7bac9127be6c73682e6fcdbec85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7207a7bac9127be6c73682e6fcdbec85">&#9670;&nbsp;</a></span>SetupDummyTextures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::SetupDummyTextures </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4c4152cc2dc0fa5d6fb71da8b8696f66" name="a4c4152cc2dc0fa5d6fb71da8b8696f66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c4152cc2dc0fa5d6fb71da8b8696f66">&#9670;&nbsp;</a></span>TranslateToNormalized()</h2>
 
@@ -1483,6 +1585,48 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6e09dea75b2ce01a686ed7967bbb0d8" name="af6e09dea75b2ce01a686ed7967bbb0d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e09dea75b2ce01a686ed7967bbb0d8">&#9670;&nbsp;</a></span>UpdatePlanetProvinceColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysStarSystemRenderer::UpdatePlanetProvinceColors </td>
+          <td>(</td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>province</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">glm::vec4&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1664,6 +1808,50 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af5da5a728c8ab60af636c7880e05e244" name="af5da5a728c8ab60af636c7880e05e244"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5da5a728c8ab60af636c7880e05e244">&#9670;&nbsp;</a></span>dummy_color_map</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_t_b_o_texture.html">asset::TBOTexture</a>* cqsp::client::systems::SysStarSystemRenderer::dummy_color_map = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a4fcc636f8b48a639d4a5778a814fe8" name="a7a4fcc636f8b48a639d4a5778a814fe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a4fcc636f8b48a639d4a5778a814fe8">&#9670;&nbsp;</a></span>dummy_index_texture</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1asset_1_1_texture.html">asset::Texture</a>* cqsp::client::systems::SysStarSystemRenderer::dummy_index_texture = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a608cd31b9ace7c9554ca9148d23018b4" name="a608cd31b9ace7c9554ca9148d23018b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a608cd31b9ace7c9554ca9148d23018b4">&#9670;&nbsp;</a></span>have_province</h2>
 
@@ -1824,28 +2012,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a414ad37bc864e127c9cfd7e3d005b7ad" name="a414ad37bc864e127c9cfd7e3d005b7ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a414ad37bc864e127c9cfd7e3d005b7ad">&#9670;&nbsp;</a></span>planet</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classcqsp_1_1engine_1_1_renderable.html">engine::Renderable</a> cqsp::client::systems::SysStarSystemRenderer::planet</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a81e25a02cfff16837b5625b1ca199c6e" name="a81e25a02cfff16837b5625b1ca199c6e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a81e25a02cfff16837b5625b1ca199c6e">&#9670;&nbsp;</a></span>planet_circle</h2>
 
@@ -1879,28 +2045,6 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int cqsp::client::systems::SysStarSystemRenderer::planet_icon_layer</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac9541ba47709a724dc4a37f9de33bfe6" name="ac9541ba47709a724dc4a37f9de33bfe6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9541ba47709a724dc4a37f9de33bfe6">&#9670;&nbsp;</a></span>planet_shader</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespacecqsp_1_1asset.html#a74a088f4e1a910af95096bd0f682a2e7">asset::ShaderProgram_t</a> cqsp::client::systems::SysStarSystemRenderer::planet_shader</td>
         </tr>
       </table>
   </td>
@@ -2083,6 +2227,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const int cqsp::client::systems::SysStarSystemRenderer::sphere_resolution = 64</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c4e79d017126e27f941f073d2b78840" name="a6c4e79d017126e27f941f073d2b78840"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c4e79d017126e27f941f073d2b78840">&#9670;&nbsp;</a></span>StarSystemController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend cqsp::client::systems::SysStarSystemRenderer::StarSystemController</td>
         </tr>
       </table>
   </td>
@@ -2365,7 +2531,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 13 2026 17:52:48 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Feb 14 2026 20:19:34 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

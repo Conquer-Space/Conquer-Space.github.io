@@ -33,5 +33,7 @@ var searchData=
   ['document_5fname_30',['document_name',['../classcqsp_1_1client_1_1_load_game_window.html#afebaf8340626377930e4f31eedf82bbe',1,'cqsp::client::LoadGameWindow::document_name()'],['../classcqsp_1_1client_1_1_settings_window.html#a64bd45f1bcff16947e93169522e34956',1,'cqsp::client::SettingsWindow::document_name()']]],
   ['documents_31',['documents',['../classcqsp_1_1client_1_1scene_1_1_universe_scene.html#a9cec436cd79655438b46875f6e0d3d86',1,'cqsp::client::scene::UniverseScene']]],
   ['draw_5fcount_32',['draw_count',['../struct_gfx_1_1_compiled_geometry_data.html#a8764ad3fe27e949a22f76eaafca6b5cb',1,'Gfx::CompiledGeometryData']]],
-  ['draw_5ffps_33',['draw_fps',['../classcqsp_1_1engine_1_1_application.html#a2a28d5cafde1b8bcf75cd3970c6cd3a6',1,'cqsp::engine::Application']]]
+  ['draw_5ffps_33',['draw_fps',['../classcqsp_1_1engine_1_1_application.html#a2a28d5cafde1b8bcf75cd3970c6cd3a6',1,'cqsp::engine::Application']]],
+  ['dummy_5fcolor_5fmap_34',['dummy_color_map',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af5da5a728c8ab60af636c7880e05e244',1,'cqsp::client::systems::SysStarSystemRenderer']]],
+  ['dummy_5findex_5ftexture_35',['dummy_index_texture',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#a7a4fcc636f8b48a639d4a5778a814fe8',1,'cqsp::client::systems::SysStarSystemRenderer']]]
 ];
