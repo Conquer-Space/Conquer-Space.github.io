@@ -25,7 +25,7 @@ var searchData=
   ['cmd_5fline_5fargs_22',['cmd_line_args',['../classcqsp_1_1engine_1_1_application.html#a8a0caa6703616fbab952f37f97706df9',1,'cqsp::engine::Application']]],
   ['code_5finput_23',['code_input',['../classcqsp_1_1engine_1_1_g_l_window.html#a11b0e3bdaf261824612706b8fc2b0b0a',1,'cqsp::engine::GLWindow']]],
   ['code_5fstr_24',['code_str',['../struct_gfx_1_1_vert_shader_definition.html#a67aef66c575d6da4634c282d27013b80',1,'Gfx::VertShaderDefinition::code_str()'],['../struct_gfx_1_1_frag_shader_definition.html#aed5f3dbe42b64babc0ab4e9a0deb6d3a',1,'Gfx::FragShaderDefinition::code_str()']]],
-  ['color_25',['color',['../struct_compiled_filter.html#af913f63efc258d839f9c8a05d0a2fa2c',1,'CompiledFilter']]],
+  ['color_25',['color',['../struct_compiled_filter.html#af913f63efc258d839f9c8a05d0a2fa2c',1,'CompiledFilter::color()'],['../structcqsp_1_1core_1_1components_1_1_country.html#ac49aa8af7e15827f6d89fd9ea5be629a',1,'cqsp::core::components::Country::color()']]],
   ['color_5fclear_5fvalue_26',['color_clear_value',['../struct_render_interface___g_l3_1_1_g_l_state_backup.html#afe3f06eac9aa23ee9f563f003bb87549',1,'RenderInterface_GL3::GLStateBackup']]],
   ['color_5fmatrix_27',['color_matrix',['../struct_compiled_filter.html#a584eb3b6ec7fd6a01e82d3ac259a18a1',1,'CompiledFilter']]],
   ['color_5frender_5fbuffer_28',['color_render_buffer',['../struct_gfx_1_1_framebuffer_data.html#a96a699d0857af037e461248a082cd89a',1,'Gfx::FramebufferData']]],

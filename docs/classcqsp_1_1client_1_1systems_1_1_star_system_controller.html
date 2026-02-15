@@ -141,6 +141,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a6394d268327483412222f808e0f2886d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad20c052121953d3ce4bef5d2d5bb092a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ad20c052121953d3ce4bef5d2d5bb092a">IsFoundingCity</a> ()</td></tr>
 <tr class="separator:ad20c052121953d3ce4bef5d2d5bb092a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a39ab153eb1b94339c70678c491eab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a54a39ab153eb1b94339c70678c491eab">UpdateMapMode</a> ()</td></tr>
+<tr class="separator:a54a39ab153eb1b94339c70678c491eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f9483dcedcbaabf1a5810e38658b1e9"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a2f9483dcedcbaabf1a5810e38658b1e9">CalculateMouseRay</a> (const glm::vec3 &amp;ray_nds)</td></tr>
 <tr class="separator:a2f9483dcedcbaabf1a5810e38658b1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81de5e94cd63e843b8e2de884a508898"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a81de5e94cd63e843b8e2de884a508898">GetMouseOnObject</a> (int mouse_x, int mouse_y)</td></tr>
@@ -155,6 +157,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:abc4b5b90594ed94579ce50d2732e3a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5422bffe91b05dc3aa56197abfc7e4c"><td class="memItemLeft" align="right" valign="top">std::optional&lt; glm::vec3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ae5422bffe91b05dc3aa56197abfc7e4c">CheckIntersection</a> (const glm::vec3 &amp;object_pos, const glm::vec3 &amp;ray_wor, float radius)</td></tr>
 <tr class="separator:ae5422bffe91b05dc3aa56197abfc7e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a257052e54b6162d6bf8c344e5985466e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a257052e54b6162d6bf8c344e5985466e">SetCountryProvincesColor</a> (entt::entity country)</td></tr>
+<tr class="separator:a257052e54b6162d6bf8c344e5985466e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a474f16cbf6e1f5da82fbf44a1d1be14a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a474f16cbf6e1f5da82fbf44a1d1be14a">SelectProvince</a> ()</td></tr>
 <tr class="separator:a474f16cbf6e1f5da82fbf44a1d1be14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6907836e6a15c1ce908a7129b6d2d28b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcqsp_1_1core_1_1components_1_1types_1_1_surface_coordinate.html">core::components::types::SurfaceCoordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a6907836e6a15c1ce908a7129b6d2d28b">GetCameraOverCoordinate</a> ()</td></tr>
@@ -220,6 +224,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a7a23a9cb179dfe0455331564d207e761"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e723ca3f2000239d9ae9561664610a1"><td class="memItemLeft" align="right" valign="top">const glm::vec4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a8e723ca3f2000239d9ae9561664610a1">selected_province_color</a> = glm::vec4(1.f, 0.f, 0.f, 0.35f)</td></tr>
 <tr class="separator:a8e723ca3f2000239d9ae9561664610a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cac70e25fbaae5bacef7f6041722590"><td class="memItemLeft" align="right" valign="top">const entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a9cac70e25fbaae5bacef7f6041722590">map_mode</a></td></tr>
+<tr class="separator:a9cac70e25fbaae5bacef7f6041722590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29ab91c3a5988f515ff721bd09d7493f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1client_1_1ctx.html#af88db2e7b386622b4c2684402ecb06e5">ctx::MapMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a29ab91c3a5988f515ff721bd09d7493f">last_map_mode</a> = <a class="el" href="namespacecqsp_1_1client_1_1ctx.html#af88db2e7b386622b4c2684402ecb06e5a6a0548efa49e06afbd629707a8302ddf">ctx::MapMode::NoMapMode</a></td></tr>
+<tr class="separator:a29ab91c3a5988f515ff721bd09d7493f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aca8f8aaa630c0ade120b51bdde80e4b3" name="aca8f8aaa630c0ade120b51bdde80e4b3"></a>
@@ -1093,6 +1101,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a257052e54b6162d6bf8c344e5985466e" name="a257052e54b6162d6bf8c344e5985466e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a257052e54b6162d6bf8c344e5985466e">&#9670;&nbsp;</a></span>SetCountryProvincesColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::StarSystemController::SetCountryProvincesColor </td>
+          <td>(</td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>country</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad97173928e939448c1cdda8db172840b" name="ad97173928e939448c1cdda8db172840b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad97173928e939448c1cdda8db172840b">&#9670;&nbsp;</a></span>ShouldDrawCityPrototype()</h2>
 
@@ -1124,6 +1158,31 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a54a39ab153eb1b94339c70678c491eab" name="a54a39ab153eb1b94339c70678c491eab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54a39ab153eb1b94339c70678c491eab">&#9670;&nbsp;</a></span>UpdateMapMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::StarSystemController::UpdateMapMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1283,6 +1342,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a29ab91c3a5988f515ff721bd09d7493f" name="a29ab91c3a5988f515ff721bd09d7493f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29ab91c3a5988f515ff721bd09d7493f">&#9670;&nbsp;</a></span>last_map_mode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacecqsp_1_1client_1_1ctx.html#af88db2e7b386622b4c2684402ecb06e5">ctx::MapMode</a> cqsp::client::systems::StarSystemController::last_map_mode = <a class="el" href="namespacecqsp_1_1client_1_1ctx.html#af88db2e7b386622b4c2684402ecb06e5a6a0548efa49e06afbd629707a8302ddf">ctx::MapMode::NoMapMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9167ee093a39557f100c064d50cc723b" name="a9167ee093a39557f100c064d50cc723b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9167ee093a39557f100c064d50cc723b">&#9670;&nbsp;</a></span>m_viewing_entity</h2>
 
@@ -1293,6 +1374,28 @@ Private Attributes</h2></td></tr>
           <td class="memname">entt::entity cqsp::client::systems::StarSystemController::m_viewing_entity = entt::null</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9cac70e25fbaae5bacef7f6041722590" name="a9cac70e25fbaae5bacef7f6041722590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cac70e25fbaae5bacef7f6041722590">&#9670;&nbsp;</a></span>map_mode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const entt::entity cqsp::client::systems::StarSystemController::map_mode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1770,7 +1873,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 15 2026 01:30:16 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Feb 15 2026 06:44:35 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
