@@ -15,12 +15,15 @@ var searchData=
   ['populationsegment_12',['PopulationSegment',['../structcqsp_1_1core_1_1components_1_1_population_segment.html',1,'cqsp::core::components']]],
   ['powerconsumption_13',['PowerConsumption',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_power_consumption.html',1,'cqsp::core::components::infrastructure']]],
   ['powerplant_14',['PowerPlant',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_power_plant.html',1,'cqsp::core::components::infrastructure']]],
-  ['price_15',['Price',['../structcqsp_1_1core_1_1components_1_1_price.html',1,'cqsp::core::components']]],
-  ['production_16',['Production',['../structcqsp_1_1core_1_1components_1_1_production.html',1,'cqsp::core::components']]],
-  ['programdata_17',['ProgramData',['../struct_gfx_1_1_program_data.html',1,'Gfx']]],
-  ['programdefinition_18',['ProgramDefinition',['../struct_gfx_1_1_program_definition.html',1,'Gfx']]],
-  ['province_19',['Province',['../structcqsp_1_1core_1_1components_1_1_province.html',1,'cqsp::core::components']]],
-  ['provincecolor_20',['ProvinceColor',['../structcqsp_1_1core_1_1components_1_1_province_color.html',1,'cqsp::core::components']]],
-  ['provincedplanet_21',['ProvincedPlanet',['../structcqsp_1_1core_1_1components_1_1_provinced_planet.html',1,'cqsp::core::components']]],
-  ['provinceloader_22',['ProvinceLoader',['../classcqsp_1_1core_1_1loading_1_1_province_loader.html',1,'cqsp::core::loading']]]
+  ['powersuite_15',['PowerSuite',['../structcqsp_1_1core_1_1components_1_1ships_1_1_power_suite.html',1,'cqsp::core::components::ships']]],
+  ['price_16',['Price',['../structcqsp_1_1core_1_1components_1_1_price.html',1,'cqsp::core::components']]],
+  ['production_17',['Production',['../structcqsp_1_1core_1_1components_1_1_production.html',1,'cqsp::core::components']]],
+  ['programdata_18',['ProgramData',['../struct_gfx_1_1_program_data.html',1,'Gfx']]],
+  ['programdefinition_19',['ProgramDefinition',['../struct_gfx_1_1_program_definition.html',1,'Gfx']]],
+  ['project_20',['Project',['../structcqsp_1_1core_1_1components_1_1_project.html',1,'cqsp::core::components']]],
+  ['propulsion_21',['Propulsion',['../structcqsp_1_1core_1_1components_1_1ships_1_1_propulsion.html',1,'cqsp::core::components::ships']]],
+  ['province_22',['Province',['../structcqsp_1_1core_1_1components_1_1_province.html',1,'cqsp::core::components']]],
+  ['provincecolor_23',['ProvinceColor',['../structcqsp_1_1core_1_1components_1_1_province_color.html',1,'cqsp::core::components']]],
+  ['provincedplanet_24',['ProvincedPlanet',['../structcqsp_1_1core_1_1components_1_1_provinced_planet.html',1,'cqsp::core::components']]],
+  ['provinceloader_25',['ProvinceLoader',['../classcqsp_1_1core_1_1loading_1_1_province_loader.html',1,'cqsp::core::loading']]]
 ];

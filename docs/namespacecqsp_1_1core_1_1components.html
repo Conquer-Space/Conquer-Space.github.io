@@ -99,6 +99,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_capital_good.html">CapitalGood</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_city.html">City</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_city_time_zone.html">CityTimeZone</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_command_queue.html">CommandQueue</a></td></tr>
@@ -209,6 +211,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_production.html">Production</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_project.html">Project</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_province.html">Province</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_province_color.html">ProvinceColor</a></td></tr>
@@ -244,6 +248,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of cities and settlements that are on a city  <a href="structcqsp_1_1core_1_1components_1_1_settlements.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_sorted_order_list.html">SortedOrderList</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_space_capability.html">SpaceCapability</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html">StarDate</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds and calculates the tick that is on going. Date is the number of hours that has been ongoing since the start of the day. Here is some rough thinking for what interval things should be done at. 1 tick: Combat ticks, planetary and ship movement? 25 ticks: (about a day) Economic activity, though I don't think it's such a good idea to put them in such a tight interval. 25 * 5 = 125 ticks: (about 5 days) 25 * 25 = 625 ticks: (about 26 days) <a class="el" href="structcqsp_1_1core_1_1components_1_1_construction.html">Construction</a> progress, pop growth, social changes, will also be the interval that would be used for the reference value 25 ^ 3 / 2 ~= 15625 ticks: (about 312 days) Momentous things and things that take a long time, such as planet's climates changing We will not do days and years, because these are specific to only earth, and we would like to portray the different cultural differences resulting from different orbital periods and rotational periods from planets, and it would be rather human-centric to assume other civilizations would use our calendar. As a result, I plan to introduce a system that allows the creation of different types of calendars. That would come later, though  <a href="classcqsp_1_1core_1_1components_1_1_star_date.html#details">More...</a><br /></td></tr>
@@ -311,6 +317,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacecqsp_1_1core_1_1components.html#a3d9c80d1c761868c2337c14a3ba99343ab90d8d12213e2f63f5fe260cd791d34a">OnCrash</a>
  }</td></tr>
 <tr class="separator:a3d9c80d1c761868c2337c14a3ba99343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae270f5029063ea17520246708bfc9ed8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#ae270f5029063ea17520246708bfc9ed8">ProjectType</a> { <a class="el" href="namespacecqsp_1_1core_1_1components.html#ae270f5029063ea17520246708bfc9ed8a1afa74da05ca145d3418aad9af510109">Design</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#ae270f5029063ea17520246708bfc9ed8ae86883c7cfc07afcf1e5ad8dffd7e1cc">Manufacturing</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#ae270f5029063ea17520246708bfc9ed8a1115b855bb2a508bc2ca0609cc2d0f65">Integration</a>
+ }</td></tr>
+<tr class="separator:ae270f5029063ea17520246708bfc9ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1978b488c0326ad51d0a8cae7f1c44a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">GoodEntity</a> : uint32_t </td></tr>
 <tr class="separator:aa1978b488c0326ad51d0a8cae7f1c44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -488,6 +499,33 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae270f5029063ea17520246708bfc9ed8" name="ae270f5029063ea17520246708bfc9ed8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae270f5029063ea17520246708bfc9ed8">&#9670;&nbsp;</a></span>ProjectType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="namespacecqsp_1_1core_1_1components.html#ae270f5029063ea17520246708bfc9ed8">cqsp::core::components::ProjectType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae270f5029063ea17520246708bfc9ed8a1afa74da05ca145d3418aad9af510109" name="ae270f5029063ea17520246708bfc9ed8a1afa74da05ca145d3418aad9af510109"></a>Design&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae270f5029063ea17520246708bfc9ed8ae86883c7cfc07afcf1e5ad8dffd7e1cc" name="ae270f5029063ea17520246708bfc9ed8ae86883c7cfc07afcf1e5ad8dffd7e1cc"></a>Manufacturing&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae270f5029063ea17520246708bfc9ed8a1115b855bb2a508bc2ca0609cc2d0f65" name="ae270f5029063ea17520246708bfc9ed8a1115b855bb2a508bc2ca0609cc2d0f65"></a>Integration&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a3d9c80d1c761868c2337c14a3ba99343" name="a3d9c80d1c761868c2337c14a3ba99343"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d9c80d1c761868c2337c14a3ba99343">&#9670;&nbsp;</a></span>Trigger</h2>
 
@@ -622,7 +660,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 15 2026 08:42:41 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Feb 16 2026 06:26:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
