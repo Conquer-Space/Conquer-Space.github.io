@@ -46,6 +46,7 @@ a {
 a.uilink:hover, a.uilink:focus {
   color:#069;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 a:hover, a:focus {
