@@ -88,8 +88,8 @@ $(function() {
 <code>#include &lt;RmlUi/Core/MeshUtilities.h&gt;</code><br />
 <code>#include &lt;RmlUi/Core/Platform.h&gt;</code><br />
 <code>#include &lt;RmlUi/Core/SystemInterface.h&gt;</code><br />
-<code>#include &lt;stb_image.h&gt;</code><br />
-<code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;<a class="el" href="string_8h_source.html">string.h</a>&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;glad/glad.h&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -128,6 +128,8 @@ Macros</h2></td></tr>
 <tr class="separator:a53818a00780c5bf3cac60b829757903e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09f9c3bf094ecaf707c673924ffd615a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#a09f9c3bf094ecaf707c673924ffd615a">GLAD_GL_IMPLEMENTATION</a></td></tr>
 <tr class="separator:a09f9c3bf094ecaf707c673924ffd615a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91e1b09ddbda2b579f90d86b83631bf4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#a91e1b09ddbda2b579f90d86b83631bf4">RMLUI_NUM_MSAA_SAMPLES</a>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:a91e1b09ddbda2b579f90d86b83631bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6a981349cf9115ef9889672213edcf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#ac6a981349cf9115ef9889672213edcf9">MAX_NUM_STOPS</a>&#160;&#160;&#160;16</td></tr>
 <tr class="separator:ac6a981349cf9115ef9889672213edcf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab28061d09f719155d5323a371c59190c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#ab28061d09f719155d5323a371c59190c">BLUR_SIZE</a>&#160;&#160;&#160;7</td></tr>
@@ -238,7 +240,6 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:a18823fdafde60692d4eeac379b903b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a8eacf67f9e951ff855489fe86edb52"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_gfx.html#a6a8eacf67f9e951ff855489fe86edb52">Gfx::FramebufferAttachment</a> { <a class="el" href="namespace_gfx.html#a6a8eacf67f9e951ff855489fe86edb52a6adf97f83acf6453d4a6a4b1070f3754">Gfx::None</a>
-, <a class="el" href="namespace_gfx.html#a6a8eacf67f9e951ff855489fe86edb52a675056ad1441b6375b2c5abd48c27ef1">Gfx::Depth</a>
 , <a class="el" href="namespace_gfx.html#a6a8eacf67f9e951ff855489fe86edb52a2fa8076285272883c91e14402975a441">Gfx::DepthStencil</a>
  }</td></tr>
 <tr class="separator:a6a8eacf67f9e951ff855489fe86edb52"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,8 +262,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab3798816e1baa135b26d788a58c25fe3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_gfx.html#ab3798816e1baa135b26d788a58c25fe3">Gfx::GetFirstNMessages</a> (GLuint numMsgs)</td></tr>
-<tr class="separator:ab3798816e1baa135b26d788a58c25fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0de4550771fd83db67c33457a0ce4ac"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_gfx.html#ad0de4550771fd83db67c33457a0ce4ac">Gfx::CheckGLError</a> (const char *operation_name)</td></tr>
 <tr class="separator:ad0de4550771fd83db67c33457a0ce4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad81faedfd8b6938526df6fcabe86e42b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_gfx.html#ad81faedfd8b6938526df6fcabe86e42b">Gfx::CreateShader</a> (GLuint &amp;out_shader_id, GLenum shader_type, const char *code_string)</td></tr>
@@ -273,6 +272,8 @@ Functions</h2></td></tr>
 <tr class="separator:a003816b2e7e991ed17a4f2de2ba2da89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9cd25304e236a960f62dfceb40d0733"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_gfx.html#aa9cd25304e236a960f62dfceb40d0733">Gfx::DestroyFramebuffer</a> (FramebufferData &amp;fb)</td></tr>
 <tr class="separator:aa9cd25304e236a960f62dfceb40d0733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e3f379859a99dbe7971f551a0fb6e48"><td class="memItemLeft" align="right" valign="top">static GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_gfx.html#a7e3f379859a99dbe7971f551a0fb6e48">Gfx::CreateTexture</a> (Rml::Span&lt; const Rml::byte &gt; source_data, Rml::Vector2i source_dimensions)</td></tr>
+<tr class="separator:a7e3f379859a99dbe7971f551a0fb6e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc18e28108e97c79b407c45e42a80123"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_gfx.html#adc18e28108e97c79b407c45e42a80123">Gfx::BindTexture</a> (const FramebufferData &amp;fb)</td></tr>
 <tr class="separator:adc18e28108e97c79b407c45e42a80123"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a767b53d30a58a5eef5324cc9b178b7b6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_gfx.html#a767b53d30a58a5eef5324cc9b178b7b6">Gfx::CreateShaders</a> (ProgramData &amp;data)</td></tr>
@@ -292,8 +293,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a2fcc3801dba1a1e549508b42e979616b"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#a2fcc3801dba1a1e549508b42e979616b">NUM_MSAA_SAMPLES</a> = 2</td></tr>
-<tr class="separator:a2fcc3801dba1a1e549508b42e979616b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72b0fdf62beadaada88220726b99e061"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#a72b0fdf62beadaada88220726b99e061">shader_vert_main</a></td></tr>
 <tr class="separator:a72b0fdf62beadaada88220726b99e061"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a402cf0b0451c7350ee7291ca6014c2cb"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rml_ui___renderer___g_l3_8cpp.html#a402cf0b0451c7350ee7291ca6014c2cb">shader_frag_texture</a></td></tr>
@@ -386,6 +385,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a91e1b09ddbda2b579f90d86b83631bf4" name="a91e1b09ddbda2b579f90d86b83631bf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91e1b09ddbda2b579f90d86b83631bf4">&#9670;&nbsp;</a></span>RMLUI_NUM_MSAA_SAMPLES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RMLUI_NUM_MSAA_SAMPLES&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ada858bba43faa0488673e27513a0fc05" name="ada858bba43faa0488673e27513a0fc05"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada858bba43faa0488673e27513a0fc05">&#9670;&nbsp;</a></span>RMLUI_SHADER_BLUR_HEADER</h2>
 
@@ -399,10 +412,10 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a49bb28b36c995d984c4403390c998e61">RMLUI_SHADER_HEADER</a> <span class="stringliteral">&quot;\n#define BLUR_SIZE &quot;</span> <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a8c8c320fa437008df42810d2091c593b">RMLUI_STRINGIFY</a>( \</div>
 <div class="line">        <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#ab28061d09f719155d5323a371c59190c">BLUR_SIZE</a>) <span class="stringliteral">&quot;\n#define BLUR_NUM_WEIGHTS &quot;</span> <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a8c8c320fa437008df42810d2091c593b">RMLUI_STRINGIFY</a>(<a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a32605bf3f0e64919f6a66a44af97268d">BLUR_NUM_WEIGHTS</a>)</div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a32605bf3f0e64919f6a66a44af97268d"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a32605bf3f0e64919f6a66a44af97268d">BLUR_NUM_WEIGHTS</a></div><div class="ttdeci">#define BLUR_NUM_WEIGHTS</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:67</div></div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a49bb28b36c995d984c4403390c998e61"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a49bb28b36c995d984c4403390c998e61">RMLUI_SHADER_HEADER</a></div><div class="ttdeci">#define RMLUI_SHADER_HEADER</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:72</div></div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a8c8c320fa437008df42810d2091c593b"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a8c8c320fa437008df42810d2091c593b">RMLUI_STRINGIFY</a></div><div class="ttdeci">#define RMLUI_STRINGIFY(x)</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:70</div></div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_ab28061d09f719155d5323a371c59190c"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#ab28061d09f719155d5323a371c59190c">BLUR_SIZE</a></div><div class="ttdeci">#define BLUR_SIZE</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:66</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a32605bf3f0e64919f6a66a44af97268d"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a32605bf3f0e64919f6a66a44af97268d">BLUR_NUM_WEIGHTS</a></div><div class="ttdeci">#define BLUR_NUM_WEIGHTS</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:72</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a49bb28b36c995d984c4403390c998e61"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a49bb28b36c995d984c4403390c998e61">RMLUI_SHADER_HEADER</a></div><div class="ttdeci">#define RMLUI_SHADER_HEADER</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:77</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a8c8c320fa437008df42810d2091c593b"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a8c8c320fa437008df42810d2091c593b">RMLUI_STRINGIFY</a></div><div class="ttdeci">#define RMLUI_STRINGIFY(x)</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:75</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_ab28061d09f719155d5323a371c59190c"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#ab28061d09f719155d5323a371c59190c">BLUR_SIZE</a></div><div class="ttdeci">#define BLUR_SIZE</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:71</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -419,8 +432,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a53818a00780c5bf3cac60b829757903e">RMLUI_SHADER_HEADER_VERSION</a> \</div>
 <div class="line">    <span class="stringliteral">&quot;#define MAX_NUM_STOPS &quot;</span> <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a8c8c320fa437008df42810d2091c593b">RMLUI_STRINGIFY</a>(<a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#ac6a981349cf9115ef9889672213edcf9">MAX_NUM_STOPS</a>) <span class="stringliteral">&quot;\n#line &quot;</span> <a class="code hl_define" href="_rml_ui___renderer___g_l3_8cpp.html#a8c8c320fa437008df42810d2091c593b">RMLUI_STRINGIFY</a>(__LINE__) <span class="stringliteral">&quot;\n&quot;</span></div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a53818a00780c5bf3cac60b829757903e"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a53818a00780c5bf3cac60b829757903e">RMLUI_SHADER_HEADER_VERSION</a></div><div class="ttdeci">#define RMLUI_SHADER_HEADER_VERSION</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:57</div></div>
-<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_ac6a981349cf9115ef9889672213edcf9"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#ac6a981349cf9115ef9889672213edcf9">MAX_NUM_STOPS</a></div><div class="ttdeci">#define MAX_NUM_STOPS</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:65</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_a53818a00780c5bf3cac60b829757903e"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#a53818a00780c5bf3cac60b829757903e">RMLUI_SHADER_HEADER_VERSION</a></div><div class="ttdeci">#define RMLUI_SHADER_HEADER_VERSION</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:60</div></div>
+<div class="ttc" id="a_rml_ui___renderer___g_l3_8cpp_html_ac6a981349cf9115ef9889672213edcf9"><div class="ttname"><a href="_rml_ui___renderer___g_l3_8cpp.html#ac6a981349cf9115ef9889672213edcf9">MAX_NUM_STOPS</a></div><div class="ttdeci">#define MAX_NUM_STOPS</div><div class="ttdef"><b>Definition:</b> RmlUi_Renderer_GL3.cpp:70</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -888,35 +901,13 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Flip vertical axis of the rectangle, and move its origin to the vertically opposite side of the viewport. </p><dl class="section note"><dt>Note</dt><dd>Changes coordinate system from RmlUi to OpenGL, or equivalently in reverse. </dd>
+<p >Flip the vertical axis of the rectangle, and move its origin to the vertically opposite side of the viewport. </p><dl class="section note"><dt>Note</dt><dd>Changes the coordinate system from RmlUi to OpenGL, or equivalently in reverse. </dd>
 <dd>
 The Rectangle::Top and Rectangle::Bottom members will have reverse meaning in the returned rectangle. </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a2fcc3801dba1a1e549508b42e979616b" name="a2fcc3801dba1a1e549508b42e979616b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fcc3801dba1a1e549508b42e979616b">&#9670;&nbsp;</a></span>NUM_MSAA_SAMPLES</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int NUM_MSAA_SAMPLES = 2</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ab5d05066c8f83d80ccc6686b6a2c6d6d" name="ab5d05066c8f83d80ccc6686b6a2c6d6d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab5d05066c8f83d80ccc6686b6a2c6d6d">&#9670;&nbsp;</a></span>shader_frag_blend_mask</h2>
 
@@ -1231,11 +1222,6 @@ The Rectangle::Top and Rectangle::Bottom members will have reverse meaning in th
 <div class="line"><span class="stringliteral"></span> </div>
 <div class="line"><span class="stringliteral">void main() {</span></div>
 <div class="line"><span class="stringliteral">    vec4 texColor = texture(_tex, fragTexCoord);</span></div>
-<div class="line"><span class="stringliteral">    // TODO: Remove the following 3 lines when we can root cause</span></div>
-<div class="line"><span class="stringliteral">    // why the alpha channel is not alphing</span></div>
-<div class="line"><span class="stringliteral">    if (texColor.a == 0) {</span></div>
-<div class="line"><span class="stringliteral">        discard;</span></div>
-<div class="line"><span class="stringliteral">    }</span></div>
 <div class="line"><span class="stringliteral">    finalColor = fragColor * texColor;</span></div>
 <div class="line"><span class="stringliteral">}</span></div>
 <div class="line"><span class="stringliteral">)&quot;</span></div>
@@ -1357,7 +1343,7 @@ The Rectangle::Top and Rectangle::Bottom members will have reverse meaning in th
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 20 2026 02:35:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Feb 20 2026 03:22:58 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

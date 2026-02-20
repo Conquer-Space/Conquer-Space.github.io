@@ -99,8 +99,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a42aac1d3459d4d6b307dbfdaefa7716e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a989b6e27da894015ade503aba6afdd8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a989b6e27da894015ade503aba6afdd8d">operator bool</a> () const</td></tr>
 <tr class="separator:a989b6e27da894015ade503aba6afdd8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadd438a7c9594567a2059ea954b05919"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#aadd438a7c9594567a2059ea954b05919">SetViewport</a> (int <a class="el" href="class_render_interface___g_l3.html#a4d4452a61c9a153f6ecfeae461e274b9">viewport_width</a>, int <a class="el" href="class_render_interface___g_l3.html#a917b8758f79ac12643b963fc30d68221">viewport_height</a>)</td></tr>
-<tr class="separator:aadd438a7c9594567a2059ea954b05919"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accc7f05bb4789fc66a7bdb7f92536b9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#accc7f05bb4789fc66a7bdb7f92536b9d">SetViewport</a> (int <a class="el" href="class_render_interface___g_l3.html#a4d4452a61c9a153f6ecfeae461e274b9">viewport_width</a>, int <a class="el" href="class_render_interface___g_l3.html#a917b8758f79ac12643b963fc30d68221">viewport_height</a>, int <a class="el" href="class_render_interface___g_l3.html#abc75d3a65da4e7e7aad72c8e474ce9f2">viewport_offset_x</a>=0, int <a class="el" href="class_render_interface___g_l3.html#ade882e8b59b60abecc140dd9842ba50f">viewport_offset_y</a>=0)</td></tr>
+<tr class="separator:accc7f05bb4789fc66a7bdb7f92536b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acba1fbfd56b8bc18cee7b76191234fcb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#acba1fbfd56b8bc18cee7b76191234fcb">BeginFrame</a> ()</td></tr>
 <tr class="separator:acba1fbfd56b8bc18cee7b76191234fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72c18f929c935eb01031e911aac937f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a72c18f929c935eb01031e911aac937f3">EndFrame</a> ()</td></tr>
@@ -149,6 +149,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af9cfc9599280e112344606605dbb6f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fa01ad48f2e8fba5cddcb94193ae479"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a6fa01ad48f2e8fba5cddcb94193ae479">ReleaseShader</a> (Rml::CompiledShaderHandle effect_handle) override</td></tr>
 <tr class="separator:a6fa01ad48f2e8fba5cddcb94193ae479"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9936d772bdf698d6ff1e11bd7e4f0165"><td class="memItemLeft" align="right" valign="top">const Rml::Matrix4f &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a9936d772bdf698d6ff1e11bd7e4f0165">GetTransform</a> () const</td></tr>
+<tr class="separator:a9936d772bdf698d6ff1e11bd7e4f0165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5583ae695f5a2f23718ec93ce02aeedf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a5583ae695f5a2f23718ec93ce02aeedf">ResetProgram</a> ()</td></tr>
+<tr class="separator:a5583ae695f5a2f23718ec93ce02aeedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -194,6 +198,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a4d4452a61c9a153f6ecfeae461e274b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a917b8758f79ac12643b963fc30d68221"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a917b8758f79ac12643b963fc30d68221">viewport_height</a> = 0</td></tr>
 <tr class="separator:a917b8758f79ac12643b963fc30d68221"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc75d3a65da4e7e7aad72c8e474ce9f2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#abc75d3a65da4e7e7aad72c8e474ce9f2">viewport_offset_x</a> = 0</td></tr>
+<tr class="separator:abc75d3a65da4e7e7aad72c8e474ce9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade882e8b59b60abecc140dd9842ba50f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ade882e8b59b60abecc140dd9842ba50f">viewport_offset_y</a> = 0</td></tr>
+<tr class="separator:ade882e8b59b60abecc140dd9842ba50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad86413ec3d9f6c033aabd3f004094483"><td class="memItemLeft" align="right" valign="top">Rml::CompiledGeometryHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#ad86413ec3d9f6c033aabd3f004094483">fullscreen_quad_geometry</a> = {}</td></tr>
 <tr class="separator:ad86413ec3d9f6c033aabd3f004094483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55714774b174464e079b6a729772b15b"><td class="memItemLeft" align="right" valign="top">Rml::UniquePtr&lt; const <a class="el" href="struct_gfx_1_1_program_data.html">Gfx::ProgramData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_interface___g_l3.html#a55714774b174464e079b6a729772b15b">program_data</a></td></tr>
@@ -622,6 +630,23 @@ Static Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9936d772bdf698d6ff1e11bd7e4f0165" name="a9936d772bdf698d6ff1e11bd7e4f0165"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9936d772bdf698d6ff1e11bd7e4f0165">&#9670;&nbsp;</a></span>GetTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Rml::Matrix4f &amp; RenderInterface_GL3::GetTransform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -1073,6 +1098,23 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5583ae695f5a2f23718ec93ce02aeedf" name="a5583ae695f5a2f23718ec93ce02aeedf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5583ae695f5a2f23718ec93ce02aeedf">&#9670;&nbsp;</a></span>ResetProgram()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderInterface_GL3::ResetProgram </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afc43e9b90a320c1e076ea977d59daca5" name="afc43e9b90a320c1e076ea977d59daca5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc43e9b90a320c1e076ea977d59daca5">&#9670;&nbsp;</a></span>SaveLayerAsMaskImage()</h2>
 
@@ -1211,8 +1253,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aadd438a7c9594567a2059ea954b05919" name="aadd438a7c9594567a2059ea954b05919"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadd438a7c9594567a2059ea954b05919">&#9670;&nbsp;</a></span>SetViewport()</h2>
+<a id="accc7f05bb4789fc66a7bdb7f92536b9d" name="accc7f05bb4789fc66a7bdb7f92536b9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accc7f05bb4789fc66a7bdb7f92536b9d">&#9670;&nbsp;</a></span>SetViewport()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1227,7 +1269,19 @@ Static Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>viewport_height</em>&#160;</td>
+          <td class="paramname"><em>viewport_height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>viewport_offset_x</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>viewport_offset_y</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1578,6 +1632,50 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abc75d3a65da4e7e7aad72c8e474ce9f2" name="abc75d3a65da4e7e7aad72c8e474ce9f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc75d3a65da4e7e7aad72c8e474ce9f2">&#9670;&nbsp;</a></span>viewport_offset_x</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RenderInterface_GL3::viewport_offset_x = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade882e8b59b60abecc140dd9842ba50f" name="ade882e8b59b60abecc140dd9842ba50f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade882e8b59b60abecc140dd9842ba50f">&#9670;&nbsp;</a></span>viewport_offset_y</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RenderInterface_GL3::viewport_offset_y = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4d4452a61c9a153f6ecfeae461e274b9" name="a4d4452a61c9a153f6ecfeae461e274b9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d4452a61c9a153f6ecfeae461e274b9">&#9670;&nbsp;</a></span>viewport_width</h2>
 
@@ -1607,7 +1705,7 @@ Static Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 20 2026 02:35:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Feb 20 2026 03:22:58 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
