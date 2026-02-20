@@ -70,7 +70,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">cqsp::client::ctx Namespace Reference</div></div>
 </div><!--header-->
@@ -81,6 +83,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1client_1_1ctx_1_1_game_load.html">GameLoad</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1client_1_1ctx_1_1_hovering_item.html">HoveringItem</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1client_1_1ctx_1_1overloaded.html">overloaded</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1client_1_1ctx_1_1_pause_options.html">PauseOptions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -93,6 +97,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1client_1_1ctx_1_1_visible_orbit.html">VisibleOrbit</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a67c051d5271b996057ed6c52b66c26e1"><td class="memItemLeft" align="right" valign="top">typedef std::variant&lt; std::monostate, entt::entity, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1ctx.html#a67c051d5271b996057ed6c52b66c26e1">SelectedItem</a></td></tr>
+<tr class="separator:a67c051d5271b996057ed6c52b66c26e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:af88db2e7b386622b4c2684402ecb06e5"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1ctx.html#af88db2e7b386622b4c2684402ecb06e5">MapMode</a> { <a class="el" href="namespacecqsp_1_1client_1_1ctx.html#af88db2e7b386622b4c2684402ecb06e5a6a0548efa49e06afbd629707a8302ddf">NoMapMode</a>
@@ -102,11 +111,32 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:af88db2e7b386622b4c2684402ecb06e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a45564f943a13b087a26aa6e08897dab8"><td class="memTemplParams" colspan="2">template&lt;class... Ts&gt; </td></tr>
+<tr class="memitem:a45564f943a13b087a26aa6e08897dab8"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1ctx.html#a45564f943a13b087a26aa6e08897dab8">overloaded</a> (Ts...) -&gt; <a class="el" href="structcqsp_1_1client_1_1ctx_1_1overloaded.html">overloaded</a>&lt; Ts... &gt;</td></tr>
+<tr class="separator:a45564f943a13b087a26aa6e08897dab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a16a7cc88c83f4731c1da3abebe3f4f5a"><td class="memItemLeft" align="right" valign="top">static const std::array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1ctx.html#a16a7cc88c83f4731c1da3abebe3f4f5a">tick_speeds</a> {1000, 500, 333, 100, 50, 10, 1, -1, -2, -5, -10}</td></tr>
 <tr class="separator:a16a7cc88c83f4731c1da3abebe3f4f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a67c051d5271b996057ed6c52b66c26e1" name="a67c051d5271b996057ed6c52b66c26e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67c051d5271b996057ed6c52b66c26e1">&#9670;&nbsp;</a></span>SelectedItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::variant&lt;std::monostate, entt::entity, std::string&gt; <a class="el" href="namespacecqsp_1_1client_1_1ctx.html#a67c051d5271b996057ed6c52b66c26e1">cqsp::client::ctx::SelectedItem</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="af88db2e7b386622b4c2684402ecb06e5" name="af88db2e7b386622b4c2684402ecb06e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af88db2e7b386622b4c2684402ecb06e5">&#9670;&nbsp;</a></span>MapMode</h2>
@@ -136,6 +166,27 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a45564f943a13b087a26aa6e08897dab8" name="a45564f943a13b087a26aa6e08897dab8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45564f943a13b087a26aa6e08897dab8">&#9670;&nbsp;</a></span>overloaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class... Ts&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structcqsp_1_1client_1_1ctx_1_1overloaded.html">cqsp::client::ctx::overloaded</a> </td>
+          <td>(</td>
+          <td class="paramtype">Ts...&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt;  <a class="el" href="structcqsp_1_1client_1_1ctx_1_1overloaded.html">overloaded</a>&lt; Ts... &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a16a7cc88c83f4731c1da3abebe3f4f5a" name="a16a7cc88c83f4731c1da3abebe3f4f5a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a16a7cc88c83f4731c1da3abebe3f4f5a">&#9670;&nbsp;</a></span>tick_speeds</h2>
@@ -162,7 +213,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 18 2026 07:00:23 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Feb 20 2026 02:35:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

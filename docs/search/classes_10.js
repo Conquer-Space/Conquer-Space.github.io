@@ -14,5 +14,6 @@ var searchData=
   ['resourceledger_11',['ResourceLedger',['../classcqsp_1_1core_1_1components_1_1_resource_ledger.html',1,'cqsp::core::components']]],
   ['resourcemap_12',['ResourceMap',['../classcqsp_1_1core_1_1components_1_1_resource_map.html',1,'cqsp::core::components']]],
   ['resourceproduction_13',['ResourceProduction',['../structcqsp_1_1core_1_1components_1_1_resource_production.html',1,'cqsp::core::components']]],
-  ['resourcestockpile_14',['ResourceStockpile',['../structcqsp_1_1core_1_1components_1_1_resource_stockpile.html',1,'cqsp::core::components']]]
+  ['resourcestockpile_14',['ResourceStockpile',['../structcqsp_1_1core_1_1components_1_1_resource_stockpile.html',1,'cqsp::core::components']]],
+  ['rightclickwindow_15',['RightClickWindow',['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html',1,'cqsp::client::systems::rmlui']]]
 ];

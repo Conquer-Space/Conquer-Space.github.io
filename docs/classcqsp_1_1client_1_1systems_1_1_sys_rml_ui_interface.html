@@ -71,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::client::systems::SysRmlUiInterface Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
@@ -84,8 +85,9 @@ Inheritance diagram for cqsp::client::systems::SysRmlUiInterface:</div>
  <div class="center">
   <img src="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.png" usemap="#cqsp::client::systems::SysRmlUiInterface_map" alt=""/>
   <map id="cqsp::client::systems::SysRmlUiInterface_map" name="cqsp::client::systems::SysRmlUiInterface_map">
-<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html" alt="cqsp::client::systems::rmlui::ToolTipWindow" shape="rect" coords="0,56,262,80"/>
-<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html" alt="cqsp::client::systems::rmlui::TurnSaveWindow" shape="rect" coords="272,56,534,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html" alt="cqsp::client::systems::rmlui::RightClickWindow" shape="rect" coords="0,56,263,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html" alt="cqsp::client::systems::rmlui::ToolTipWindow" shape="rect" coords="273,56,536,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html" alt="cqsp::client::systems::rmlui::TurnSaveWindow" shape="rect" coords="546,56,809,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -99,6 +101,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a54312b6bfaaaee7e46ec2b8dd36bac20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbc51ae0eb82c510d4618ed4a65ea813"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.html#adbc51ae0eb82c510d4618ed4a65ea813">OpenDocument</a> ()=0</td></tr>
 <tr class="separator:adbc51ae0eb82c510d4618ed4a65ea813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40190be617f996bccec424a84c9b1437"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.html#a40190be617f996bccec424a84c9b1437">ReloadWindow</a> ()</td></tr>
+<tr class="separator:a40190be617f996bccec424a84c9b1437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -108,6 +112,13 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a5a997e764777e855f9a6ec33385857e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc6d454a7cc1b0cf9156121024cf61ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1asset_1_1_asset_manager.html">asset::AssetManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.html#afc6d454a7cc1b0cf9156121024cf61ae">GetAssetManager</a> ()</td></tr>
 <tr class="separator:afc6d454a7cc1b0cf9156121024cf61ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8ff2b52920f87f71a7c219c20aa255"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.html#adb8ff2b52920f87f71a7c219c20aa255">MouseOverDocument</a> ()</td></tr>
+<tr class="separator:adb8ff2b52920f87f71a7c219c20aa255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a11cc2c843b41e49b65f13c06a0c4fad8"><td class="memItemLeft" align="right" valign="top">Rml::ElementDocument *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.html#a11cc2c843b41e49b65f13c06a0c4fad8">document</a> = nullptr</td></tr>
+<tr class="separator:a11cc2c843b41e49b65f13c06a0c4fad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -242,6 +253,31 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="adb8ff2b52920f87f71a7c219c20aa255" name="adb8ff2b52920f87f71a7c219c20aa255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb8ff2b52920f87f71a7c219c20aa255">&#9670;&nbsp;</a></span>MouseOverDocument()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::client::systems::SysRmlUiInterface::MouseOverDocument </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adbc51ae0eb82c510d4618ed4a65ea813" name="adbc51ae0eb82c510d4618ed4a65ea813"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adbc51ae0eb82c510d4618ed4a65ea813">&#9670;&nbsp;</a></span>OpenDocument()</h2>
 
@@ -265,7 +301,34 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a240638655640636d288d311f325f2591">cqsp::client::systems::rmlui::ToolTipWindow</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a8744c32c016479c592e8f708eede821b">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
+<p>Implemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a240638655640636d288d311f325f2591">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#a6b5a914a4b35b1295217a22b20b548dc">cqsp::client::systems::rmlui::RightClickWindow</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a8744c32c016479c592e8f708eede821b">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
+
+</div>
+</div>
+<a id="a40190be617f996bccec424a84c9b1437" name="a40190be617f996bccec424a84c9b1437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40190be617f996bccec424a84c9b1437">&#9670;&nbsp;</a></span>ReloadWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void cqsp::client::systems::SysRmlUiInterface::ReloadWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a755f0d37ec67c7405c029bd87f6886eb">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#a5d4928b11a57ec49e45a390cb8f5448b">cqsp::client::systems::rmlui::RightClickWindow</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#afa4147a83fe0f57a109ad286b164884f">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
 
 </div>
 </div>
@@ -293,11 +356,33 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a8d9e9ee52a63bb48e2bc277c3c54e45d">cqsp::client::systems::rmlui::ToolTipWindow</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a583dd7b95befd85e022c58be905af7d9">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
+<p>Implemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a8d9e9ee52a63bb48e2bc277c3c54e45d">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#aa0a135f3fb76e0d56ba6713659134f74">cqsp::client::systems::rmlui::RightClickWindow</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a583dd7b95befd85e022c58be905af7d9">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a11cc2c843b41e49b65f13c06a0c4fad8" name="a11cc2c843b41e49b65f13c06a0c4fad8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11cc2c843b41e49b65f13c06a0c4fad8">&#9670;&nbsp;</a></span>document</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rml::ElementDocument* cqsp::client::systems::SysRmlUiInterface::document = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6d2c228f758a05069a614c08a066c75a" name="a6d2c228f758a05069a614c08a066c75a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d2c228f758a05069a614c08a066c75a">&#9670;&nbsp;</a></span>m_app</h2>
 
@@ -320,13 +405,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/client/systems/<a class="el" href="sysgui_8h_source.html">sysgui.h</a></li>
+<li>/github/workspace/src/client/systems/<a class="el" href="sysgui_8cpp.html">sysgui.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 18 2026 07:00:23 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Feb 20 2026 02:35:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

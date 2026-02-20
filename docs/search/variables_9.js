@@ -31,5 +31,7 @@ var searchData=
   ['is_5fpaused_28',['is_paused',['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a52073c60e65987882d029bd283f18645',1,'cqsp::client::systems::rmlui::TurnSaveWindow']]],
   ['is_5frendering_5ffounding_5fcity_29',['is_rendering_founding_city',['../classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ac7842c706bba131adfed8d3970a0c500',1,'cqsp::client::systems::StarSystemController']]],
   ['items_30',['items',['../classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#ac12f5edb9ea395a4b4f80481682d84fe',1,'cqsp::client::systems::SysDebugMenu']]],
-  ['ivfp_31',['ivfp',['../classcqsp_1_1asset_1_1_i_o_stream.html#abf0e5da3ac2bd737ef8145df1571e4dc',1,'cqsp::asset::IOStream']]]
+  ['itemx_31',['itemX',['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a88d418559f68975eb003c134c3dc6ab2',1,'cqsp::client::systems::rmlui::ToolTipWindow::itemX()'],['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#a32e54590edaf951ce80f32b5c88a26a4',1,'cqsp::client::systems::rmlui::RightClickWindow::itemX()']]],
+  ['itemy_32',['itemY',['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a071b0aeac2d84319c83d529c41a7e518',1,'cqsp::client::systems::rmlui::ToolTipWindow::itemY()'],['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#afac1c171df23d63aa0b457c5eb1ea12e',1,'cqsp::client::systems::rmlui::RightClickWindow::itemY()']]],
+  ['ivfp_33',['ivfp',['../classcqsp_1_1asset_1_1_i_o_stream.html#abf0e5da3ac2bd737ef8145df1571e4dc',1,'cqsp::asset::IOStream']]]
 ];
