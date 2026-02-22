@@ -76,7 +76,10 @@ $(function() {
   <div class="headertitle"><div class="title">rightclickwindow.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &lt;RmlUi/Core/DataModelHandle.h&gt;</code><br />
+<code>#include &lt;RmlUi/Core/Event.h&gt;</code><br />
+<code>#include &lt;RmlUi/Core/Types.h&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 <code>#include &quot;<a class="el" href="clientctx_8h_source.html">client/components/clientctx.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sysgui_8h_source.html">client/systems/sysgui.h</a>&quot;</code><br />
 </div>
@@ -87,6 +90,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html">cqsp::client::systems::rmlui::RightClickWindow</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window_1_1_event_listener.html">cqsp::client::systems::rmlui::RightClickWindow::EventListener</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window_1_1_right_click_menu_item.html">cqsp::client::systems::rmlui::RightClickWindow::RightClickMenuItem</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window_1_1_click_event_listener.html">cqsp::client::systems::rmlui::RightClickWindow::ClickEventListener</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -104,15 +111,55 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:adc4e52b4ed38a877302d0d224935610f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rightclickwindow_8h.html#adc4e52b4ed38a877302d0d224935610f">EventListener</a> (core::Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>)</td></tr>
 <tr class="separator:adc4e52b4ed38a877302d0d224935610f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac187933e2f5e28883e862a78c3f1a764"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rightclickwindow_8h.html#ac187933e2f5e28883e862a78c3f1a764">ProcessEvent</a> (Rml::Event &amp;event)</td></tr>
-<tr class="separator:ac187933e2f5e28883e862a78c3f1a764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a803b091334a0c0ccb17d21029cd356bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rightclickwindow_8h.html#a803b091334a0c0ccb17d21029cd356bc">ProcessEvent</a> (Rml::Event &amp;event)</td></tr>
+<tr class="separator:a803b091334a0c0ccb17d21029cd356bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b2884f990aed736cb76b253bb356779"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rightclickwindow_8h.html#a8b2884f990aed736cb76b253bb356779">ClickEventListener</a> (core::Universe &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, RightClickWindow &amp;<a class="el" href="rightclickwindow_8h.html#a2b2d1911865e4c1fcfa0764aefef3540">window</a>)</td></tr>
+<tr class="separator:a8b2884f990aed736cb76b253bb356779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a40af1ea3a8cf890e0c59d2d2527507f1"><td class="memItemLeft" align="right" valign="top">core::Universe &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rightclickwindow_8h.html#a40af1ea3a8cf890e0c59d2d2527507f1">universe</a></td></tr>
-<tr class="separator:a40af1ea3a8cf890e0c59d2d2527507f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed19452fadfb30f9623a291c6b0d980f"><td class="memItemLeft" align="right" valign="top">core::Universe &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rightclickwindow_8h.html#aed19452fadfb30f9623a291c6b0d980f">universe</a></td></tr>
+<tr class="separator:aed19452fadfb30f9623a291c6b0d980f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b2d1911865e4c1fcfa0764aefef3540"><td class="memItemLeft" align="right" valign="top">RightClickWindow &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rightclickwindow_8h.html#a2b2d1911865e4c1fcfa0764aefef3540">window</a></td></tr>
+<tr class="separator:a2b2d1911865e4c1fcfa0764aefef3540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a8b2884f990aed736cb76b253bb356779" name="a8b2884f990aed736cb76b253bb356779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b2884f990aed736cb76b253bb356779">&#9670;&nbsp;</a></span>ClickEventListener()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GetUniverse::ClickEventListener </td>
+          <td>(</td>
+          <td class="paramtype">core::Universe &amp;&#160;</td>
+          <td class="paramname"><em>universe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RightClickWindow &amp;&#160;</td>
+          <td class="paramname"><em>window</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adc4e52b4ed38a877302d0d224935610f" name="adc4e52b4ed38a877302d0d224935610f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc4e52b4ed38a877302d0d224935610f">&#9670;&nbsp;</a></span>EventListener()</h2>
 
@@ -139,14 +186,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac187933e2f5e28883e862a78c3f1a764" name="ac187933e2f5e28883e862a78c3f1a764"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac187933e2f5e28883e862a78c3f1a764">&#9670;&nbsp;</a></span>ProcessEvent()</h2>
+<a id="a803b091334a0c0ccb17d21029cd356bc" name="a803b091334a0c0ccb17d21029cd356bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a803b091334a0c0ccb17d21029cd356bc">&#9670;&nbsp;</a></span>ProcessEvent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void GetUniverse::ProcessEvent </td>
+          <td class="memname">void ProcessEvent </td>
           <td>(</td>
           <td class="paramtype">Rml::Event &amp;&#160;</td>
           <td class="paramname"><em>event</em></td><td>)</td>
@@ -158,14 +205,28 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a40af1ea3a8cf890e0c59d2d2527507f1" name="a40af1ea3a8cf890e0c59d2d2527507f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40af1ea3a8cf890e0c59d2d2527507f1">&#9670;&nbsp;</a></span>universe</h2>
+<a id="aed19452fadfb30f9623a291c6b0d980f" name="aed19452fadfb30f9623a291c6b0d980f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed19452fadfb30f9623a291c6b0d980f">&#9670;&nbsp;</a></span>universe</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">core::Universe&amp; universe</td>
+          <td class="memname">core::Universe &amp; universe</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b2d1911865e4c1fcfa0764aefef3540" name="a2b2d1911865e4c1fcfa0764aefef3540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b2d1911865e4c1fcfa0764aefef3540">&#9670;&nbsp;</a></span>window</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RightClickWindow&amp; window</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -175,7 +236,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 21 2026 19:28:33 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Feb 22 2026 06:57:34 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
