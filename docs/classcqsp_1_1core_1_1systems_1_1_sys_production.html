@@ -112,6 +112,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a8197e92d364f8266382d756413d99f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9512b65228a1a3ce313136d27ae6819"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_production.html#ae9512b65228a1a3ce313136d27ae6819">ProcessIndustry</a> (<a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;industry_node, <a class="el" href="structcqsp_1_1core_1_1components_1_1_market.html">components::Market</a> &amp;market, <a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;population_node, double infra_cost)</td></tr>
 <tr class="separator:ae9512b65228a1a3ce313136d27ae6819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1ba91772aba818b234406c5458f3bd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_production.html#ac1ba91772aba818b234406c5458f3bd9">ScaleConstruction</a> (<a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;industry_node, double pl_ratio)</td></tr>
+<tr class="separator:ac1ba91772aba818b234406c5458f3bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a198e97381e501ed4141f1457ffc0adc6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_production.html#a198e97381e501ed4141f1457ffc0adc6">HandleConstruction</a> (<a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;industry_node, <a class="el" href="structcqsp_1_1core_1_1components_1_1_market.html">components::Market</a> &amp;market)</td></tr>
+<tr class="separator:a198e97381e501ed4141f1457ffc0adc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -173,6 +177,43 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classcqsp_1_1core_1_1systems_1_1_i_simulation_system.html#aa00a29b48b60ac5a0252f3e8d7d88fd3">cqsp::core::systems::ISimulationSystem</a>.</p>
+
+</div>
+</div>
+<a id="a198e97381e501ed4141f1457ffc0adc6" name="a198e97381e501ed4141f1457ffc0adc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a198e97381e501ed4141f1457ffc0adc6">&#9670;&nbsp;</a></span>HandleConstruction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::core::systems::SysProduction::HandleConstruction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>industry_node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structcqsp_1_1core_1_1components_1_1_market.html">components::Market</a> &amp;&#160;</td>
+          <td class="paramname"><em>market</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns true if we should continue with production false if we are constructing something </p>
 
 </div>
 </div>
@@ -288,6 +329,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ac1ba91772aba818b234406c5458f3bd9" name="ac1ba91772aba818b234406c5458f3bd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1ba91772aba818b234406c5458f3bd9">&#9670;&nbsp;</a></span>ScaleConstruction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::core::systems::SysProduction::ScaleConstruction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>industry_node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>pl_ratio</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8197e92d364f8266382d756413d99f71" name="a8197e92d364f8266382d756413d99f71"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8197e92d364f8266382d756413d99f71">&#9670;&nbsp;</a></span>ScaleIndustry()</h2>
 
@@ -331,7 +408,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 24 2026 00:03:05 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Feb 26 2026 18:20:32 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

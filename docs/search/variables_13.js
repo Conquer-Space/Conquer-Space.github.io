@@ -40,7 +40,7 @@ var searchData=
   ['tick_5fonce_37',['tick_once',['../structcqsp_1_1client_1_1ctx_1_1_pause_options.html#aa615e590c8ce1ac251413184bb816fdb',1,'cqsp::client::ctx::PauseOptions']]],
   ['tick_5fspeed_38',['tick_speed',['../structcqsp_1_1client_1_1ctx_1_1_pause_options.html#adf1d4a8865144ae4a984b7f657b83601',1,'cqsp::client::ctx::PauseOptions']]],
   ['tick_5fspeeds_39',['tick_speeds',['../namespacecqsp_1_1client_1_1ctx.html#a16a7cc88c83f4731c1da3abebe3f4f5a',1,'cqsp::client::ctx']]],
-  ['time_40',['time',['../structcqsp_1_1core_1_1components_1_1_maneuver.html#a6f537d6611ca5402444e99c09f9d0636',1,'cqsp::core::components::Maneuver']]],
+  ['time_40',['time',['../structcqsp_1_1core_1_1components_1_1_maneuver.html#a6f537d6611ca5402444e99c09f9d0636',1,'cqsp::core::components::Maneuver::time()'],['../structcqsp_1_1core_1_1components_1_1_construction_cost.html#aa4ec3f8403984d8694ea3bc8b3b616b6',1,'cqsp::core::components::ConstructionCost::time()']]],
   ['time_5fdiff_41',['time_diff',['../structcqsp_1_1core_1_1components_1_1_time_zone.html#a673041b366a3b37b3aa76dab199bd58b',1,'cqsp::core::components::TimeZone']]],
   ['time_5felement_42',['time_element',['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#ab61f07975823819df32f03f720485447',1,'cqsp::client::systems::rmlui::TurnSaveWindow']]],
   ['time_5fhistory_43',['time_history',['../classcqsp_1_1client_1_1systems_1_1_sys_debug_menu.html#ac1ca5f1f64f95669f42867306f3e8606',1,'cqsp::client::systems::SysDebugMenu']]],
