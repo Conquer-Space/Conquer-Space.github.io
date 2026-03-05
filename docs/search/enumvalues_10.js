@@ -11,5 +11,6 @@ var searchData=
   ['spacemenu_8',['SpaceMenu',['../namespacecqsp_1_1client_1_1ctx.html#a2a5f9e02f79f051a25a0f818c5503f7facabec45b70165240add34da6f36aca72',1,'cqsp::client::ctx']]],
   ['square_9',['Square',['../namespaceax_1_1_drawing.html#ab1df3a7263c0f5d36c706d066c90fe0aaceb46ca115d05c51aa5a16a8867c3304',1,'ax::Drawing']]],
   ['stopcolors_10',['StopColors',['../_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5af89a19f620eb34b446045529e3d353b1',1,'RmlUi_Renderer_GL3.cpp']]],
-  ['stoppositions_11',['StopPositions',['../_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a4befde37b7a20334ecafba339f512333',1,'RmlUi_Renderer_GL3.cpp']]]
+  ['stoppositions_11',['StopPositions',['../_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a4befde37b7a20334ecafba339f512333',1,'RmlUi_Renderer_GL3.cpp']]],
+  ['surveying_12',['Surveying',['../namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca7c2c2096b8569ca5951076413b1f1af1',1,'cqsp::core::components']]]
 ];

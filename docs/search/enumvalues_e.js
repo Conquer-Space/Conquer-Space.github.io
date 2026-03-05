@@ -2,7 +2,9 @@ var searchData=
 [
   ['p_0',['P',['../_rml_ui___renderer___g_l3_8cpp.html#adad77d2c16c419d8ae9cc19e7d849fd5a44c29edb103a2872f519ad0c9a0fdaaa',1,'RmlUi_Renderer_GL3.cpp']]],
   ['passthrough_1',['Passthrough',['../_rml_ui___renderer___g_l3_8cpp.html#aef39ea06ec027f46e65b8280775df70aaf6124225f7555a9190621c9886890973',1,'Passthrough():&#160;RmlUi_Renderer_GL3.cpp'],['../_rml_ui___renderer___g_l3_8cpp.html#a31a58e9ede5df1dcf7c52d5f494e7018af6124225f7555a9190621c9886890973',1,'Passthrough():&#160;RmlUi_Renderer_GL3.cpp'],['../_rml_ui___renderer___g_l3_8cpp.html#a630a8aba1ff1cb02f04423d6dbe7a0c6af6124225f7555a9190621c9886890973',1,'Passthrough():&#160;RmlUi_Renderer_GL3.cpp'],['../_rml_ui___renderer___g_l3_8cpp.html#a7ef0ab496f57e183b484e62e2053c94faf6124225f7555a9190621c9886890973',1,'Passthrough():&#160;RmlUi_Renderer_GL3.cpp']]],
-  ['position_2',['Position',['../namespace_gfx.html#a18823fdafde60692d4eeac379b903b06a52f5e0bc3859bc5f5e25130b6c7e8881',1,'Gfx']]],
-  ['projectsmenu_3',['ProjectsMenu',['../namespacecqsp_1_1client_1_1ctx.html#a2a5f9e02f79f051a25a0f818c5503f7fa4d9fb2c1b5b35c8635d038dccb5d67b8',1,'cqsp::client::ctx']]],
-  ['provincemapmode_4',['ProvinceMapMode',['../namespacecqsp_1_1client_1_1ctx.html#af88db2e7b386622b4c2684402ecb06e5aa49a86ba8943d905bd7971e7bfd4f922',1,'cqsp::client::ctx']]]
+  ['permanentsettlement_2',['PermanentSettlement',['../namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca462c6a9799b116b8772a1585a650af2a',1,'cqsp::core::components']]],
+  ['position_3',['Position',['../namespace_gfx.html#a18823fdafde60692d4eeac379b903b06a52f5e0bc3859bc5f5e25130b6c7e8881',1,'Gfx']]],
+  ['preparation_4',['Preparation',['../namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca9a5f09cf66e692efdae493ce4c9aa64f',1,'cqsp::core::components']]],
+  ['projectsmenu_5',['ProjectsMenu',['../namespacecqsp_1_1client_1_1ctx.html#a2a5f9e02f79f051a25a0f818c5503f7fa4d9fb2c1b5b35c8635d038dccb5d67b8',1,'cqsp::client::ctx']]],
+  ['provincemapmode_6',['ProvinceMapMode',['../namespacecqsp_1_1client_1_1ctx.html#af88db2e7b386622b4c2684402ecb06e5aa49a86ba8943d905bd7971e7bfd4f922',1,'cqsp::client::ctx']]]
 ];
