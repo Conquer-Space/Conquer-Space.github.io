@@ -71,12 +71,15 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">bodies.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;limits&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
+<code>#include &lt;ranges&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;tuple&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
@@ -92,6 +95,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1bodies_1_1_textured_terrain.html">cqsp::core::components::bodies::TexturedTerrain</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1bodies_1_1_nautral_object.html">cqsp::core::components::bodies::NautralObject</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1bodies_1_1_get_first_type_t.html">cqsp::core::components::bodies::GetFirstTypeT&lt; T, Rest &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1bodies_1_1_expanded_iter_3_01_r_00_01_ranges_8_8_8_01_4.html">cqsp::core::components::bodies::ExpandedIter&lt; R, Ranges... &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1bodies_1_1_expanded_iter_3_4.html">cqsp::core::components::bodies::ExpandedIter&lt;&gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1bodies_1_1_concat_iter.html">cqsp::core::components::bodies::ConcatIter&lt; Views &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1bodies_1_1_end_iter.html">cqsp::core::components::bodies::EndIter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1bodies_1_1_concat_view.html">cqsp::core::components::bodies::ConcatView&lt; Ranges &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1bodies_1_1_orbital_system.html">cqsp::core::components::bodies::OrbitalSystem</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object for the children of an orbital object.  <a href="structcqsp_1_1core_1_1components_1_1bodies_1_1_orbital_system.html#details">More...</a><br /></td></tr>
@@ -120,6 +135,12 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacecqsp_1_1core_1_1components_1_1bodies"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components_1_1bodies.html">cqsp::core::components::bodies</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a25ee9a26b79dd56aec17333beeff9e03"><td class="memTemplParams" colspan="2">template&lt;typename... Pack&gt; </td></tr>
+<tr class="memitem:a25ee9a26b79dd56aec17333beeff9e03"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components_1_1bodies.html#a25ee9a26b79dd56aec17333beeff9e03">cqsp::core::components::bodies::GetFirstType</a> = GetFirstTypeT&lt; Pack... &gt;::Type</td></tr>
+<tr class="separator:a25ee9a26b79dd56aec17333beeff9e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8afbc27d9a91c8cefecdc34102be09d1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components_1_1bodies.html#a8afbc27d9a91c8cefecdc34102be09d1">cqsp::core::components::bodies::CalculateSOI</a> (const double &amp;mass, const double &amp;reference_mass, const double &amp;sma)</td></tr>
@@ -131,11 +152,20 @@ Functions</h2></td></tr>
 <tr class="memitem:ab35d54b81faa87ef3e62a9b87c497c5d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components_1_1bodies.html#ab35d54b81faa87ef3e62a9b87c497c5d">cqsp::core::components::bodies::GetPlanetRotationAngle</a> (const double &amp;time, const double &amp;day_length, const double &amp;offset)</td></tr>
 <tr class="memdesc:ab35d54b81faa87ef3e62a9b87c497c5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the current planet rotation angle  <a href="namespacecqsp_1_1core_1_1components_1_1bodies.html#ab35d54b81faa87ef3e62a9b87c497c5d">More...</a><br /></td></tr>
 <tr class="separator:ab35d54b81faa87ef3e62a9b87c497c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba291f66370c08e4cfa1521ce40e8853"><td class="memTemplParams" colspan="2">template&lt;typename... Rs&gt; </td></tr>
+<tr class="memitem:aba291f66370c08e4cfa1521ce40e8853"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components_1_1bodies.html#aba291f66370c08e4cfa1521ce40e8853">cqsp::core::components::bodies::operator==</a> (const ConcatIter&lt; Rs... &gt; &amp;iter, EndIter)</td></tr>
+<tr class="separator:aba291f66370c08e4cfa1521ce40e8853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af3036f00e45302c85e1dee02152461a7"><td class="memTemplParams" colspan="2">template&lt;typename... Rs&gt; </td></tr>
+<tr class="memitem:af3036f00e45302c85e1dee02152461a7"><td class="memTemplItemLeft" align="right" valign="top">return&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components_1_1bodies.html#af3036f00e45302c85e1dee02152461a7">cqsp::core::components::bodies::v</a></td></tr>
+<tr class="separator:af3036f00e45302c85e1dee02152461a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Mar 5 2026 20:08:20 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sat Mar 7 2026 00:36:56 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

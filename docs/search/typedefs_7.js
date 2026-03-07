@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ivirtualdirectoryptr_0',['IVirtualDirectoryPtr',['../namespacecqsp_1_1asset.html#afc57671f834b100155e4e56af3b80577',1,'cqsp::asset']]],
-  ['ivirtualfileptr_1',['IVirtualFilePtr',['../namespacecqsp_1_1asset.html#aad34e921425ce7efb4d34c87e5002f31',1,'cqsp::asset']]],
-  ['ivirtualfilesystemptr_2',['IVirtualFileSystemPtr',['../namespacecqsp_1_1asset.html#aa19d0f697b784e44aa726c3a86cfa9bf',1,'cqsp::asset']]]
+  ['headlesscommand_0',['HeadlessCommand',['../namespacecqsp_1_1client_1_1headless.html#ad90a8816a86822aaea105e51adacae9d',1,'cqsp::client::headless']]],
+  ['hohmannpair_5ft_1',['HohmannPair_t',['../namespacecqsp_1_1core_1_1components.html#abc9b11a1c8f346afa6feea4be89571d1',1,'cqsp::core::components']]]
 ];

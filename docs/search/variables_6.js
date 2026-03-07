@@ -28,5 +28,7 @@ var searchData=
   ['fulfilled_25',['fulfilled',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_transported_good.html#abc80627d2c213e4b61591a40b088103a',1,'cqsp::core::components::infrastructure::TransportedGood']]],
   ['full_5fscreen_26',['full_screen',['../classcqsp_1_1client_1_1_settings_window.html#a6585983194f4e3a80d8948a443baf4ba',1,'cqsp::client::SettingsWindow::full_screen()'],['../classcqsp_1_1engine_1_1_application.html#aa3520f24b665eaac2c5974073f249c03',1,'cqsp::engine::Application::full_screen()']]],
   ['fullscreen_5fquad_5fgeometry_27',['fullscreen_quad_geometry',['../class_render_interface___g_l3.html#ad86413ec3d9f6c033aabd3f004094483',1,'RenderInterface_GL3']]],
-  ['func_28',['func',['../struct_render_interface___g_l3_1_1_g_l_state_backup_1_1_stencil.html#a4ab82854d1d420c56decf8eb0f3412ed',1,'RenderInterface_GL3::GLStateBackup::Stencil']]]
+  ['func_28',['func',['../struct_render_interface___g_l3_1_1_g_l_state_backup_1_1_stencil.html#a4ab82854d1d420c56decf8eb0f3412ed',1,'RenderInterface_GL3::GLStateBackup::Stencil']]],
+  ['future_5fcenter_29',['future_center',['../structcqsp_1_1core_1_1systems_1_1_sys_orbit_1_1_body_cache.html#a7c7bb46250d761fc427cc20034ad7853',1,'cqsp::core::systems::SysOrbit::BodyCache']]],
+  ['future_5fposition_30',['future_position',['../structcqsp_1_1core_1_1systems_1_1_sys_orbit_1_1_body_cache.html#a586f6788404c4a35b009b37ebbf9290a',1,'cqsp::core::systems::SysOrbit::BodyCache']]]
 ];
