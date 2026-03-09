@@ -166,6 +166,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a65bf949856633209468e4b24ccbd8751"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8047fd956393e16bf7a410d7cc8037c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a8047fd956393e16bf7a410d7cc8037c5">HandleProvinceHoverColor</a> ()</td></tr>
 <tr class="separator:a8047fd956393e16bf7a410d7cc8037c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49392e3dd16ef3f227b04fdec16c59d1"><td class="memItemLeft" align="right" valign="top">glm::vec4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a49392e3dd16ef3f227b04fdec16c59d1">GetCountryProvinceColor</a> (entt::entity province)</td></tr>
+<tr class="separator:a49392e3dd16ef3f227b04fdec16c59d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e45bd874214f31ecc6e080857dec647"><td class="memItemLeft" align="right" valign="top">glm::vec4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a6e45bd874214f31ecc6e080857dec647">ColonizationTargetProvinceColor</a> (entt::entity province)</td></tr>
+<tr class="separator:a6e45bd874214f31ecc6e080857dec647"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a474f16cbf6e1f5da82fbf44a1d1be14a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a474f16cbf6e1f5da82fbf44a1d1be14a">SelectProvince</a> ()</td></tr>
 <tr class="separator:a474f16cbf6e1f5da82fbf44a1d1be14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a029f19d654360db998eb5f7261e3dff3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a029f19d654360db998eb5f7261e3dff3">ResetProvinceColor</a> (entt::entity province)</td></tr>
@@ -623,6 +627,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6e45bd874214f31ecc6e080857dec647" name="a6e45bd874214f31ecc6e080857dec647"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e45bd874214f31ecc6e080857dec647">&#9670;&nbsp;</a></span>ColonizationTargetProvinceColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec4 cqsp::client::systems::StarSystemController::ColonizationTargetProvinceColor </td>
+          <td>(</td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>province</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a91392df66961b9aa05405cfad6e5a928" name="a91392df66961b9aa05405cfad6e5a928"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91392df66961b9aa05405cfad6e5a928">&#9670;&nbsp;</a></span>FocusCityView()</h2>
 
@@ -798,6 +828,32 @@ Private Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="structcqsp_1_1core_1_1components_1_1types_1_1_surface_coordinate.html">core::components::types::SurfaceCoordinate</a> cqsp::client::systems::StarSystemController::GetCameraOverCoordinate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49392e3dd16ef3f227b04fdec16c59d1" name="a49392e3dd16ef3f227b04fdec16c59d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49392e3dd16ef3f227b04fdec16c59d1">&#9670;&nbsp;</a></span>GetCountryProvinceColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec4 cqsp::client::systems::StarSystemController::GetCountryProvinceColor </td>
+          <td>(</td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>province</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1007,6 +1063,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Sets the province color after the mouse hovers on a province. This would be making the province color lighter compared to the original color, especially if it has a color. </p>
 
 </div>
 </div>
@@ -2253,7 +2310,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 7 2026 00:36:57 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Mar 9 2026 01:06:32 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

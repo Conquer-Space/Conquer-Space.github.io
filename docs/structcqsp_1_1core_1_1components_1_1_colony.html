@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: cqsp::core::components::bodies::TerrainData Struct Reference</title>
+<title>Conquer Space: cqsp::core::components::Colony Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,49 +64,65 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacecqsp.html">cqsp</a></li><li class="navelem"><a class="el" href="namespacecqsp_1_1core.html">core</a></li><li class="navelem"><a class="el" href="namespacecqsp_1_1core_1_1components.html">components</a></li><li class="navelem"><a class="el" href="namespacecqsp_1_1core_1_1components_1_1bodies.html">bodies</a></li><li class="navelem"><a class="el" href="structcqsp_1_1core_1_1components_1_1bodies_1_1_terrain_data.html">TerrainData</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacecqsp.html">cqsp</a></li><li class="navelem"><a class="el" href="namespacecqsp_1_1core.html">core</a></li><li class="navelem"><a class="el" href="namespacecqsp_1_1core_1_1components.html">components</a></li><li class="navelem"><a class="el" href="structcqsp_1_1core_1_1components_1_1_colony.html">Colony</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structcqsp_1_1core_1_1components_1_1bodies_1_1_terrain_data-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">cqsp::core::components::bodies::TerrainData Struct Reference</div></div>
+<a href="structcqsp_1_1core_1_1components_1_1_colony-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">cqsp::core::components::Colony Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="bodies_8h_source.html">bodies.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="colony_8h_source.html">colony.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a94214c8bbb46f6b805fd2dae081cee28"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1bodies_1_1_terrain_data.html#a94214c8bbb46f6b805fd2dae081cee28">sea_level</a></td></tr>
-<tr class="separator:a94214c8bbb46f6b805fd2dae081cee28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae74481e6631cc16f8f9264b883098dc3"><td class="memItemLeft" align="right" valign="top">std::map&lt; float, std::tuple&lt; int, int, int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1bodies_1_1_terrain_data.html#ae74481e6631cc16f8f9264b883098dc3">data</a></td></tr>
-<tr class="separator:ae74481e6631cc16f8f9264b883098dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52fccc2a07a60045ecbce6ee8fe582df"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_colony.html#a52fccc2a07a60045ecbce6ee8fe582df">population</a></td></tr>
+<tr class="separator:a52fccc2a07a60045ecbce6ee8fe582df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a252e1bf9d4a5578f8b7b344437283a5e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_colony.html#a252e1bf9d4a5578f8b7b344437283a5e">max_population</a></td></tr>
+<tr class="separator:a252e1bf9d4a5578f8b7b344437283a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d07b07a787943e736f282237e4568a6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; entt::entity &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_colony.html#a4d07b07a787943e736f282237e4568a6">components</a></td></tr>
+<tr class="separator:a4d07b07a787943e736f282237e4568a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae74481e6631cc16f8f9264b883098dc3" name="ae74481e6631cc16f8f9264b883098dc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae74481e6631cc16f8f9264b883098dc3">&#9670;&nbsp;</a></span>data</h2>
+<a id="a4d07b07a787943e736f282237e4568a6" name="a4d07b07a787943e736f282237e4568a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d07b07a787943e736f282237e4568a6">&#9670;&nbsp;</a></span>components</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;float, std::tuple&lt;int, int, int, int&gt; &gt; cqsp::core::components::bodies::TerrainData::data</td>
+          <td class="memname">std::vector&lt;entt::entity&gt; cqsp::core::components::Colony::components</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a94214c8bbb46f6b805fd2dae081cee28" name="a94214c8bbb46f6b805fd2dae081cee28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94214c8bbb46f6b805fd2dae081cee28">&#9670;&nbsp;</a></span>sea_level</h2>
+<a id="a252e1bf9d4a5578f8b7b344437283a5e" name="a252e1bf9d4a5578f8b7b344437283a5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a252e1bf9d4a5578f8b7b344437283a5e">&#9670;&nbsp;</a></span>max_population</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float cqsp::core::components::bodies::TerrainData::sea_level</td>
+          <td class="memname">uint16_t cqsp::core::components::Colony::max_population</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52fccc2a07a60045ecbce6ee8fe582df" name="a52fccc2a07a60045ecbce6ee8fe582df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52fccc2a07a60045ecbce6ee8fe582df">&#9670;&nbsp;</a></span>population</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t cqsp::core::components::Colony::population</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -114,12 +130,12 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/github/workspace/src/core/components/<a class="el" href="bodies_8h_source.html">bodies.h</a></li>
+<li>/github/workspace/src/core/components/<a class="el" href="colony_8h_source.html">colony.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 7 2026 00:36:57 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Mar 9 2026 01:06:32 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

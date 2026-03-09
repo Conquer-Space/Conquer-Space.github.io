@@ -105,6 +105,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_colonization_target.html">ColonizationTarget</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_colony.html">Colony</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_command_queue.html">CommandQueue</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_commercial.html">Commercial</a></td></tr>
@@ -131,6 +133,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_description.html">Description</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_discovery_status.html">DiscoveryStatus</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_docked_ships.html">DockedShips</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_employer.html">Employer</a></td></tr>
@@ -153,6 +157,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_governed.html">Governed</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The civilization or organization that owns or governs the city  <a href="structcqsp_1_1core_1_1components_1_1_governed.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_habitation_module.html">HabitationModule</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_hunger.html">Hunger</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -268,6 +274,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1components_1_1_star_date.html">StarDate</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds and calculates the tick that is on going. Date is the number of hours that has been ongoing since the start of the day. Here is some rough thinking for what interval things should be done at. 1 tick: Combat ticks, planetary and ship movement? 25 ticks: (about a day) Economic activity, though I don't think it's such a good idea to put them in such a tight interval. 25 * 5 = 125 ticks: (about 5 days) 25 * 25 = 625 ticks: (about 26 days) <a class="el" href="structcqsp_1_1core_1_1components_1_1_construction.html">Construction</a> progress, pop growth, social changes, will also be the interval that would be used for the reference value 25 ^ 3 / 2 ~= 15625 ticks: (about 312 days) Momentous things and things that take a long time, such as planet's climates changing We will not do days and years, because these are specific to only earth, and we would like to portray the different cultural differences resulting from different orbital periods and rotational periods from planets, and it would be rather human-centric to assume other civilizations would use our calendar. As a result, I plan to introduce a system that allows the creation of different types of calendars. That would come later, though  <a href="classcqsp_1_1core_1_1components_1_1_star_date.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_survey.html">Survey</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_tags.html">Tags</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_time_zone.html">TimeZone</a></td></tr>
@@ -304,6 +312,26 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacecqsp_1_1core_1_1components.html#a5063a70c0ade8a828770539fc38571f4aaaabf0d39951f3e6c3e8a7911df524c2">service</a>
  }</td></tr>
 <tr class="separator:a5063a70c0ade8a828770539fc38571f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68320dde55ba1228df42efc7f6df370c"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370c">ColonizationSteps</a> { <br />
+&#160;&#160;<a class="el" href="namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca7c2c2096b8569ca5951076413b1f1af1">Surveying</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca9a5f09cf66e692efdae493ce4c9aa64f">Preparation</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370cacc9ea715802493781696863530eb5814">InitialBase</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca0bdbbc9e8ef0763d43c11644b91a61b5">HumanSettlement</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca462c6a9799b116b8772a1585a650af2a">PermanentSettlement</a>
+<br />
+ }</td></tr>
+<tr class="separator:a68320dde55ba1228df42efc7f6df370c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affbbbb8f9680f264349faac715d73fea"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#affbbbb8f9680f264349faac715d73fea">States</a> { <br />
+&#160;&#160;<a class="el" href="namespacecqsp_1_1core_1_1components.html#affbbbb8f9680f264349faac715d73feaa1c67e1c9ddba63e88ec2627263387808">FLYBY</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#affbbbb8f9680f264349faac715d73feaa48d80811ec81276fb3ee0df3944e7aee">ORBIT</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#affbbbb8f9680f264349faac715d73feaac795a519a8c386e2dfad0dc5dd577ebf">ATMOSPHERIC_FLIGHT</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#affbbbb8f9680f264349faac715d73feaa3d8c894b27670cfcfa85c05331bf6111">LANDED</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacecqsp_1_1core_1_1components.html#affbbbb8f9680f264349faac715d73feaaa2bec276a54439fe011eb523b845dac5">RETURN</a>
+<br />
+ }</td></tr>
+<tr class="separator:affbbbb8f9680f264349faac715d73fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0528ad41b9c8f9590e3808eacbfce35"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#ae0528ad41b9c8f9590e3808eacbfce35">Command</a> { <br />
 &#160;&#160;<a class="el" href="namespacecqsp_1_1core_1_1components.html#ae0528ad41b9c8f9590e3808eacbfce35a453d28c70b71787e92cc825f5278333c">CircularizeAtApoapsis</a>
 , <a class="el" href="namespacecqsp_1_1core_1_1components.html#ae0528ad41b9c8f9590e3808eacbfce35a4cf83239f3451dca22d77228b752e021">CircularizeAtPeriapsis</a>
@@ -338,16 +366,6 @@ Enumerations</h2></td></tr>
 <tr class="separator:ae270f5029063ea17520246708bfc9ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1978b488c0326ad51d0a8cae7f1c44a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">GoodEntity</a> : uint32_t </td></tr>
 <tr class="separator:aa1978b488c0326ad51d0a8cae7f1c44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68320dde55ba1228df42efc7f6df370c"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370c">ColonizationSteps</a> { <br />
-&#160;&#160;<a class="el" href="namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca7c2c2096b8569ca5951076413b1f1af1">Surveying</a>
-, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca9a5f09cf66e692efdae493ce4c9aa64f">Preparation</a>
-, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370cacc9ea715802493781696863530eb5814">InitialBase</a>
-, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca0bdbbc9e8ef0763d43c11644b91a61b5">HumanSettlement</a>
-, <br />
-&#160;&#160;<a class="el" href="namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca462c6a9799b116b8772a1585a650af2a">PermanentSettlement</a>
-<br />
- }</td></tr>
-<tr class="separator:a68320dde55ba1228df42efc7f6df370c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -579,6 +597,35 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="affbbbb8f9680f264349faac715d73fea" name="affbbbb8f9680f264349faac715d73fea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affbbbb8f9680f264349faac715d73fea">&#9670;&nbsp;</a></span>States</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="namespacecqsp_1_1core_1_1components.html#affbbbb8f9680f264349faac715d73fea">cqsp::core::components::States</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="affbbbb8f9680f264349faac715d73feaa1c67e1c9ddba63e88ec2627263387808" name="affbbbb8f9680f264349faac715d73feaa1c67e1c9ddba63e88ec2627263387808"></a>FLYBY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affbbbb8f9680f264349faac715d73feaa48d80811ec81276fb3ee0df3944e7aee" name="affbbbb8f9680f264349faac715d73feaa48d80811ec81276fb3ee0df3944e7aee"></a>ORBIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affbbbb8f9680f264349faac715d73feaac795a519a8c386e2dfad0dc5dd577ebf" name="affbbbb8f9680f264349faac715d73feaac795a519a8c386e2dfad0dc5dd577ebf"></a>ATMOSPHERIC_FLIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affbbbb8f9680f264349faac715d73feaa3d8c894b27670cfcfa85c05331bf6111" name="affbbbb8f9680f264349faac715d73feaa3d8c894b27670cfcfa85c05331bf6111"></a>LANDED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affbbbb8f9680f264349faac715d73feaaa2bec276a54439fe011eb523b845dac5" name="affbbbb8f9680f264349faac715d73feaaa2bec276a54439fe011eb523b845dac5"></a>RETURN&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a3d9c80d1c761868c2337c14a3ba99343" name="a3d9c80d1c761868c2337c14a3ba99343"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d9c80d1c761868c2337c14a3ba99343">&#9670;&nbsp;</a></span>Trigger</h2>
 
@@ -713,7 +760,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 7 2026 00:36:57 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Mon Mar 9 2026 01:06:32 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
