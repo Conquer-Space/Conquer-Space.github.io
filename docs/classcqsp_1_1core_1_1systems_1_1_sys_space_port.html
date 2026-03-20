@@ -113,6 +113,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:af1b6f9bae11a715a9a031aa598527244"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a202db0903e822048e24698dde54bcebc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_space_port.html#a202db0903e822048e24698dde54bcebc">ProcessShippedGood</a> (const <a class="el" href="structcqsp_1_1core_1_1components_1_1infrastructure_1_1_transported_good.html">components::infrastructure::TransportedGood</a> &amp;element, entt::entity target, entt::entity common_soi, <a class="el" href="structcqsp_1_1core_1_1components_1_1infrastructure_1_1_space_port.html">components::infrastructure::SpacePort</a> &amp;port_component)</td></tr>
 <tr class="separator:a202db0903e822048e24698dde54bcebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af19cc1a5c314d8afa4151b646bc8e4bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_space_port.html#af19cc1a5c314d8afa4151b646bc8e4bd">ProcessLandedCargo</a> (entt::entity space_port, entt::entity ship)</td></tr>
+<tr class="separator:af19cc1a5c314d8afa4151b646bc8e4bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4418ab746391d8a0d7fcb33423c6492"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_space_port.html#ae4418ab746391d8a0d7fcb33423c6492">AutoMissionQueue</a> ()</td></tr>
+<tr class="separator:ae4418ab746391d8a0d7fcb33423c6492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -150,6 +154,31 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae4418ab746391d8a0d7fcb33423c6492" name="ae4418ab746391d8a0d7fcb33423c6492"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4418ab746391d8a0d7fcb33423c6492">&#9670;&nbsp;</a></span>AutoMissionQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::core::systems::SysSpacePort::AutoMissionQueue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a692e0d157f2e1d91e016d325a0391443" name="a692e0d157f2e1d91e016d325a0391443"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a692e0d157f2e1d91e016d325a0391443">&#9670;&nbsp;</a></span>DoSystem()</h2>
 
@@ -220,6 +249,42 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramtype">entt::entity&#160;</td>
           <td class="paramname"><em>space_port</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af19cc1a5c314d8afa4151b646bc8e4bd" name="af19cc1a5c314d8afa4151b646bc8e4bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af19cc1a5c314d8afa4151b646bc8e4bd">&#9670;&nbsp;</a></span>ProcessLandedCargo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::core::systems::SysSpacePort::ProcessLandedCargo </td>
+          <td>(</td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>space_port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">entt::entity&#160;</td>
+          <td class="paramname"><em>ship</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -370,7 +435,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 9 2026 01:06:33 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Mar 20 2026 04:20:38 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

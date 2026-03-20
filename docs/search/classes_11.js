@@ -62,15 +62,11 @@ var searchData=
   ['sysprovinceinformation_59',['SysProvinceInformation',['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html',1,'cqsp::client::systems']]],
   ['sysrecipeviewer_60',['SysRecipeViewer',['../classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html',1,'cqsp::client::systems']]],
   ['sysrmluiinterface_61',['SysRmlUiInterface',['../classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.html',1,'cqsp::client::systems']]],
-  ['syssciencelab_62',['SysScienceLab',['../classcqsp_1_1core_1_1systems_1_1_sys_science_lab.html',1,'cqsp::core::systems']]],
-  ['sysscript_63',['SysScript',['../classcqsp_1_1core_1_1systems_1_1_sys_script.html',1,'cqsp::core::systems']]],
-  ['sysspaceport_64',['SysSpacePort',['../classcqsp_1_1core_1_1systems_1_1_sys_space_port.html',1,'cqsp::core::systems']]],
-  ['sysstarsystemrenderer_65',['SysStarSystemRenderer',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html',1,'cqsp::client::systems']]],
-  ['sysstarsystemtree_66',['SysStarSystemTree',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_tree.html',1,'cqsp::client::systems']]],
-  ['systechnologyprojectviewer_67',['SysTechnologyProjectViewer',['../classcqsp_1_1client_1_1systems_1_1_sys_technology_project_viewer.html',1,'cqsp::client::systems']]],
-  ['systechnologyviewer_68',['SysTechnologyViewer',['../classcqsp_1_1client_1_1systems_1_1_sys_technology_viewer.html',1,'cqsp::client::systems']]],
-  ['systechprogress_69',['SysTechProgress',['../classcqsp_1_1core_1_1systems_1_1_sys_tech_progress.html',1,'cqsp::core::systems']]],
-  ['systeminterface_5fglfw_70',['SystemInterface_GLFW',['../class_system_interface___g_l_f_w.html',1,'']]],
-  ['sysuserinterface_71',['SysUserInterface',['../classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html',1,'cqsp::client::systems']]],
-  ['syswalletreset_72',['SysWalletReset',['../classcqsp_1_1core_1_1systems_1_1_sys_wallet_reset.html',1,'cqsp::core::systems']]]
+  ['sysscript_62',['SysScript',['../classcqsp_1_1core_1_1systems_1_1_sys_script.html',1,'cqsp::core::systems']]],
+  ['sysspaceport_63',['SysSpacePort',['../classcqsp_1_1core_1_1systems_1_1_sys_space_port.html',1,'cqsp::core::systems']]],
+  ['sysstarsystemrenderer_64',['SysStarSystemRenderer',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html',1,'cqsp::client::systems']]],
+  ['sysstarsystemtree_65',['SysStarSystemTree',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_tree.html',1,'cqsp::client::systems']]],
+  ['systeminterface_5fglfw_66',['SystemInterface_GLFW',['../class_system_interface___g_l_f_w.html',1,'']]],
+  ['sysuserinterface_67',['SysUserInterface',['../classcqsp_1_1client_1_1systems_1_1_sys_user_interface.html',1,'cqsp::client::systems']]],
+  ['syswalletreset_68',['SysWalletReset',['../classcqsp_1_1core_1_1systems_1_1_sys_wallet_reset.html',1,'cqsp::core::systems']]]
 ];

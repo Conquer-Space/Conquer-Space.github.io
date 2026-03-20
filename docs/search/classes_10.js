@@ -9,13 +9,14 @@ var searchData=
   ['renderer2d_6',['Renderer2D',['../classcqsp_1_1engine_1_1_renderer2_d.html',1,'cqsp::engine']]],
   ['renderinterface_5fgl3_7',['RenderInterface_GL3',['../class_render_interface___g_l3.html',1,'']]],
   ['renderlayerstack_8',['RenderLayerStack',['../class_render_interface___g_l3_1_1_render_layer_stack.html',1,'RenderInterface_GL3']]],
-  ['resourceconsumption_9',['ResourceConsumption',['../structcqsp_1_1core_1_1components_1_1_resource_consumption.html',1,'cqsp::core::components']]],
-  ['resourcedistribution_10',['ResourceDistribution',['../structcqsp_1_1core_1_1components_1_1_resource_distribution.html',1,'cqsp::core::components']]],
+  ['resourceamenability_9',['ResourceAmenability',['../structcqsp_1_1core_1_1components_1_1_resource_amenability.html',1,'cqsp::core::components']]],
+  ['resourceconsumption_10',['ResourceConsumption',['../structcqsp_1_1core_1_1components_1_1_resource_consumption.html',1,'cqsp::core::components']]],
   ['resourceledger_11',['ResourceLedger',['../classcqsp_1_1core_1_1components_1_1_resource_ledger.html',1,'cqsp::core::components']]],
   ['resourcemap_12',['ResourceMap',['../classcqsp_1_1core_1_1components_1_1_resource_map.html',1,'cqsp::core::components']]],
   ['resourceproduction_13',['ResourceProduction',['../structcqsp_1_1core_1_1components_1_1_resource_production.html',1,'cqsp::core::components']]],
   ['resourcestockpile_14',['ResourceStockpile',['../structcqsp_1_1core_1_1components_1_1_resource_stockpile.html',1,'cqsp::core::components']]],
   ['resourcevector_15',['ResourceVector',['../classcqsp_1_1core_1_1components_1_1_resource_vector.html',1,'cqsp::core::components']]],
   ['rightclickmenuitem_16',['RightClickMenuItem',['../structcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window_1_1_right_click_menu_item.html',1,'cqsp::client::systems::rmlui::RightClickWindow']]],
-  ['rightclickwindow_17',['RightClickWindow',['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html',1,'cqsp::client::systems::rmlui']]]
+  ['rightclickwindow_17',['RightClickWindow',['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html',1,'cqsp::client::systems::rmlui']]],
+  ['rmlfileinterface_18',['RmlFileInterface',['../classcqsp_1_1engine_1_1_application_1_1_rml_file_interface.html',1,'cqsp::engine::Application']]]
 ];

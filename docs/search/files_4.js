@@ -7,5 +7,7 @@ var searchData=
   ['engine_2eh_4',['engine.h',['../engine_8h.html',1,'']]],
   ['enginelogger_2ecpp_5',['enginelogger.cpp',['../enginelogger_8cpp.html',1,'']]],
   ['enginelogger_2eh_6',['enginelogger.h',['../enginelogger_8h.html',1,'']]],
-  ['event_2eh_7',['event.h',['../event_8h.html',1,'']]]
+  ['event_2eh_7',['event.h',['../event_8h.html',1,'']]],
+  ['explorationwindow_2ecpp_8',['explorationwindow.cpp',['../explorationwindow_8cpp.html',1,'']]],
+  ['explorationwindow_2eh_9',['explorationwindow.h',['../explorationwindow_8h.html',1,'']]]
 ];

@@ -8,5 +8,7 @@ var searchData=
   ['hjsonloader_2ecpp_5',['hjsonloader.cpp',['../hjsonloader_8cpp.html',1,'']]],
   ['hjsonloader_2eh_6',['hjsonloader.h',['../hjsonloader_8h.html',1,'']]],
   ['hohmann_2ecpp_7',['hohmann.cpp',['../hohmann_8cpp.html',1,'']]],
-  ['hohmann_2eh_8',['hohmann.h',['../hohmann_8h.html',1,'']]]
+  ['hohmann_2eh_8',['hohmann.h',['../hohmann_8h.html',1,'']]],
+  ['hovertext_2ecpp_9',['hovertext.cpp',['../hovertext_8cpp.html',1,'']]],
+  ['hovertext_2eh_10',['hovertext.h',['../hovertext_8h.html',1,'']]]
 ];

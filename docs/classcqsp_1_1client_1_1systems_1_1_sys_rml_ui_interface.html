@@ -85,10 +85,11 @@ Inheritance diagram for cqsp::client::systems::SysRmlUiInterface:</div>
  <div class="center">
   <img src="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.png" usemap="#cqsp::client::systems::SysRmlUiInterface_map" alt=""/>
   <map id="cqsp::client::systems::SysRmlUiInterface_map" name="cqsp::client::systems::SysRmlUiInterface_map">
-<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html" alt="cqsp::client::systems::rmlui::RightClickWindow" shape="rect" coords="0,56,263,80"/>
-<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html" alt="cqsp::client::systems::rmlui::SideMenu" shape="rect" coords="273,56,536,80"/>
-<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html" alt="cqsp::client::systems::rmlui::ToolTipWindow" shape="rect" coords="546,56,809,80"/>
-<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html" alt="cqsp::client::systems::rmlui::TurnSaveWindow" shape="rect" coords="819,56,1082,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_exploration_window.html" alt="cqsp::client::systems::rmlui::ExplorationWindow" shape="rect" coords="0,56,270,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html" alt="cqsp::client::systems::rmlui::RightClickWindow" shape="rect" coords="280,56,550,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html" alt="cqsp::client::systems::rmlui::SideMenu" shape="rect" coords="560,56,830,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html" alt="cqsp::client::systems::rmlui::ToolTipWindow" shape="rect" coords="840,56,1110,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html" alt="cqsp::client::systems::rmlui::TurnSaveWindow" shape="rect" coords="1120,56,1390,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -102,6 +103,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a54312b6bfaaaee7e46ec2b8dd36bac20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbc51ae0eb82c510d4618ed4a65ea813"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.html#adbc51ae0eb82c510d4618ed4a65ea813">OpenDocument</a> ()=0</td></tr>
 <tr class="separator:adbc51ae0eb82c510d4618ed4a65ea813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95800e6df469ade7250de5ead776b3b1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.html#a95800e6df469ade7250de5ead776b3b1">OnTick</a> ()</td></tr>
+<tr class="separator:a95800e6df469ade7250de5ead776b3b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40190be617f996bccec424a84c9b1437"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.html#a40190be617f996bccec424a84c9b1437">ReloadWindow</a> ()</td></tr>
 <tr class="separator:a40190be617f996bccec424a84c9b1437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -279,6 +282,31 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a95800e6df469ade7250de5ead776b3b1" name="a95800e6df469ade7250de5ead776b3b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95800e6df469ade7250de5ead776b3b1">&#9670;&nbsp;</a></span>OnTick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void cqsp::client::systems::SysRmlUiInterface::OnTick </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adbc51ae0eb82c510d4618ed4a65ea813" name="adbc51ae0eb82c510d4618ed4a65ea813"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adbc51ae0eb82c510d4618ed4a65ea813">&#9670;&nbsp;</a></span>OpenDocument()</h2>
 
@@ -302,7 +330,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a240638655640636d288d311f325f2591">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#a6b5a914a4b35b1295217a22b20b548dc">cqsp::client::systems::rmlui::RightClickWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html#a8845fde311851123c8350ec47d87b20e">cqsp::client::systems::rmlui::SideMenu</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a8744c32c016479c592e8f708eede821b">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
+<p>Implemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_exploration_window.html#ab92d50fe0ea9e62631e6fa1064df123c">cqsp::client::systems::rmlui::ExplorationWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a240638655640636d288d311f325f2591">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#a6b5a914a4b35b1295217a22b20b548dc">cqsp::client::systems::rmlui::RightClickWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html#a8845fde311851123c8350ec47d87b20e">cqsp::client::systems::rmlui::SideMenu</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a8744c32c016479c592e8f708eede821b">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
 
 </div>
 </div>
@@ -329,7 +357,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a755f0d37ec67c7405c029bd87f6886eb">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#a5d4928b11a57ec49e45a390cb8f5448b">cqsp::client::systems::rmlui::RightClickWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html#ab8d6254638c395a0fccff026f93b5b28">cqsp::client::systems::rmlui::SideMenu</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#afa4147a83fe0f57a109ad286b164884f">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
+<p>Reimplemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_exploration_window.html#a2c1f1f683e77f0ea92f7107cc4b37055">cqsp::client::systems::rmlui::ExplorationWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a755f0d37ec67c7405c029bd87f6886eb">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#a5d4928b11a57ec49e45a390cb8f5448b">cqsp::client::systems::rmlui::RightClickWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html#ab8d6254638c395a0fccff026f93b5b28">cqsp::client::systems::rmlui::SideMenu</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#afa4147a83fe0f57a109ad286b164884f">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
 
 </div>
 </div>
@@ -357,7 +385,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a8d9e9ee52a63bb48e2bc277c3c54e45d">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#aa0a135f3fb76e0d56ba6713659134f74">cqsp::client::systems::rmlui::RightClickWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html#adb4690628a0786c7bd8c0d7b201a32d0">cqsp::client::systems::rmlui::SideMenu</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a583dd7b95befd85e022c58be905af7d9">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
+<p>Implemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_exploration_window.html#adaff3b1d8eb9fcba022c60a9f58df408">cqsp::client::systems::rmlui::ExplorationWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a8d9e9ee52a63bb48e2bc277c3c54e45d">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#aa0a135f3fb76e0d56ba6713659134f74">cqsp::client::systems::rmlui::RightClickWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html#adb4690628a0786c7bd8c0d7b201a32d0">cqsp::client::systems::rmlui::SideMenu</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a583dd7b95befd85e022c58be905af7d9">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
 
 </div>
 </div>
@@ -413,7 +441,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 9 2026 01:06:32 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Fri Mar 20 2026 04:20:38 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
