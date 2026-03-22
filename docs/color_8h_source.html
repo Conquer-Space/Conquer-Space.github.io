@@ -92,15 +92,22 @@ $(function() {
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;tuple&gt;</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1util.html">cqsp::util</a> {</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>std::tuple&lt;int, int, int&gt; <a class="code hl_function" href="namespacecqsp_1_1util.html#ae334614f55715a3b9735c7c26d5aa90b">HexToRgb</a>(<span class="keyword">const</span> std::string&amp; str);</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>}  <span class="comment">// namespace cqsp::util</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &lt;glm/glm.hpp&gt;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecqsp_1_1util.html">cqsp::util</a> {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>std::tuple&lt;int, int, int&gt; <a class="code hl_function" href="namespacecqsp_1_1util.html#ae334614f55715a3b9735c7c26d5aa90b">HexToRgb</a>(<span class="keyword">const</span> std::string&amp; str);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>glm::vec3 <a class="code hl_function" href="namespacecqsp_1_1util.html#a2f9b833b9bc289cba70c60c000adcbef">toHSL</a>(<span class="keyword">const</span> glm::vec3 rgb);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>glm::vec3 <a class="code hl_function" href="namespacecqsp_1_1util.html#ade623f00d046c9cc5db83f4754849392">toRGB</a>(<span class="keyword">const</span> glm::vec3 hsl);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}  <span class="comment">// namespace cqsp::util</span></div>
 <div class="ttc" id="anamespacecqsp_1_1util_html"><div class="ttname"><a href="namespacecqsp_1_1util.html">cqsp::util</a></div><div class="ttdef"><b>Definition:</b> color.cpp:21</div></div>
+<div class="ttc" id="anamespacecqsp_1_1util_html_a2f9b833b9bc289cba70c60c000adcbef"><div class="ttname"><a href="namespacecqsp_1_1util.html#a2f9b833b9bc289cba70c60c000adcbef">cqsp::util::toHSL</a></div><div class="ttdeci">glm::vec3 toHSL(const glm::vec3 rgb)</div><div class="ttdef"><b>Definition:</b> color.cpp:66</div></div>
+<div class="ttc" id="anamespacecqsp_1_1util_html_ade623f00d046c9cc5db83f4754849392"><div class="ttname"><a href="namespacecqsp_1_1util.html#ade623f00d046c9cc5db83f4754849392">cqsp::util::toRGB</a></div><div class="ttdeci">glm::vec3 toRGB(const glm::vec3 hsl)</div><div class="ttdef"><b>Definition:</b> color.cpp:90</div></div>
 <div class="ttc" id="anamespacecqsp_1_1util_html_ae334614f55715a3b9735c7c26d5aa90b"><div class="ttname"><a href="namespacecqsp_1_1util.html#ae334614f55715a3b9735c7c26d5aa90b">cqsp::util::HexToRgb</a></div><div class="ttdeci">std::tuple&lt; int, int, int &gt; HexToRgb(const std::string &amp;str)</div><div class="ttdef"><b>Definition:</b> color.cpp:22</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Mar 22 2026 02:16:56 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Mar 22 2026 08:09:07 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
