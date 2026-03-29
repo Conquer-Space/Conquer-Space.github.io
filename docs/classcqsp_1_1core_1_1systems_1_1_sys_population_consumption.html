@@ -71,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::core::systems::SysPopulationConsumption Class Reference</div></div>
 </div><!--header-->
@@ -93,6 +94,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5f176030d08c28d16ea0310900f58fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a467b7f70e3cf4a5d15eebb8fcc4fce5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#a467b7f70e3cf4a5d15eebb8fcc4fce5e">DoSystem</a> () override</td></tr>
 <tr class="separator:a467b7f70e3cf4a5d15eebb8fcc4fce5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac918993ca5d9f75b82cdd2dc82d3c0b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#ac918993ca5d9f75b82cdd2dc82d3c0b8">Init</a> () override</td></tr>
+<tr class="separator:ac918993ca5d9f75b82cdd2dc82d3c0b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a279604b7ecb3c519324cdb88dd7aaec4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#a279604b7ecb3c519324cdb88dd7aaec4">Interval</a> () override</td></tr>
 <tr class="separator:a279604b7ecb3c519324cdb88dd7aaec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classcqsp_1_1core_1_1systems_1_1_i_simulation_system"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcqsp_1_1core_1_1systems_1_1_i_simulation_system')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcqsp_1_1core_1_1systems_1_1_i_simulation_system.html">cqsp::core::systems::ISimulationSystem</a></td></tr>
@@ -100,13 +103,24 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3dbfdee2e749cd365126a68b4d52fa83 inherit pub_methods_classcqsp_1_1core_1_1systems_1_1_i_simulation_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea5917f8fd27083fdcb756032998a797 inherit pub_methods_classcqsp_1_1core_1_1systems_1_1_i_simulation_system"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_i_simulation_system.html#aea5917f8fd27083fdcb756032998a797">~ISimulationSystem</a> ()=default</td></tr>
 <tr class="separator:aea5917f8fd27083fdcb756032998a797 inherit pub_methods_classcqsp_1_1core_1_1systems_1_1_i_simulation_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a7b36e0135849f982157c288b14257a inherit pub_methods_classcqsp_1_1core_1_1systems_1_1_i_simulation_system"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_i_simulation_system.html#a5a7b36e0135849f982157c288b14257a">Init</a> ()</td></tr>
-<tr class="separator:a5a7b36e0135849f982157c288b14257a inherit pub_methods_classcqsp_1_1core_1_1systems_1_1_i_simulation_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a8cd49b27cb82af22a2741d3dd2dbaff3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#a8cd49b27cb82af22a2741d3dd2dbaff3">ProcessSettlement</a> (<a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;settlement, const <a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_consumption.html">components::ResourceConsumption</a> &amp;marginal_propensity_base, const <a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_consumption.html">components::ResourceConsumption</a> &amp;autonomous_consumption_base, const float savings)</td></tr>
+<tr class="memitem:a8cd49b27cb82af22a2741d3dd2dbaff3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#a8cd49b27cb82af22a2741d3dd2dbaff3">ProcessSettlement</a> (<a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;settlement, const <a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_consumption.html">components::ResourceConsumption</a> &amp;<a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#ab23a164490d0c009aa4963825929a217">marginal_propensity_base</a>, const <a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_consumption.html">components::ResourceConsumption</a> &amp;<a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#ad85c38ac42a40f5205ea8d1ff8528576">autonomous_consumption_base</a>, const float <a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#a9e25d9f88eed59316bb2364656502215">savings</a>)</td></tr>
 <tr class="separator:a8cd49b27cb82af22a2741d3dd2dbaff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ab23a164490d0c009aa4963825929a217"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_consumption.html">components::ResourceConsumption</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#ab23a164490d0c009aa4963825929a217">marginal_propensity_base</a></td></tr>
+<tr class="separator:ab23a164490d0c009aa4963825929a217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad85c38ac42a40f5205ea8d1ff8528576"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_consumption.html">components::ResourceConsumption</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#ad85c38ac42a40f5205ea8d1ff8528576">autonomous_consumption_base</a></td></tr>
+<tr class="separator:ad85c38ac42a40f5205ea8d1ff8528576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e25d9f88eed59316bb2364656502215"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#a9e25d9f88eed59316bb2364656502215">savings</a> = 0</td></tr>
+<tr class="separator:a9e25d9f88eed59316bb2364656502215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a719141427b16576182cdd2dc11545157"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#a719141427b16576182cdd2dc11545157">total_population</a> = 0</td></tr>
+<tr class="separator:a719141427b16576182cdd2dc11545157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af98aa17e6ac88f7ff06a9a1b31e5c7a7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#af98aa17e6ac88f7ff06a9a1b31e5c7a7">total_sol</a> = 0</td></tr>
+<tr class="separator:af98aa17e6ac88f7ff06a9a1b31e5c7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -168,6 +182,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classcqsp_1_1core_1_1systems_1_1_i_simulation_system.html#aa00a29b48b60ac5a0252f3e8d7d88fd3">cqsp::core::systems::ISimulationSystem</a>.</p>
+
+</div>
+</div>
+<a id="ac918993ca5d9f75b82cdd2dc82d3c0b8" name="ac918993ca5d9f75b82cdd2dc82d3c0b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac918993ca5d9f75b82cdd2dc82d3c0b8">&#9670;&nbsp;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::core::systems::SysPopulationConsumption::Init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classcqsp_1_1core_1_1systems_1_1_i_simulation_system.html#a5a7b36e0135849f982157c288b14257a">cqsp::core::systems::ISimulationSystem</a>.</p>
 
 </div>
 </div>
@@ -247,6 +288,117 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad85c38ac42a40f5205ea8d1ff8528576" name="ad85c38ac42a40f5205ea8d1ff8528576"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad85c38ac42a40f5205ea8d1ff8528576">&#9670;&nbsp;</a></span>autonomous_consumption_base</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_consumption.html">components::ResourceConsumption</a> cqsp::core::systems::SysPopulationConsumption::autonomous_consumption_base</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab23a164490d0c009aa4963825929a217" name="ab23a164490d0c009aa4963825929a217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab23a164490d0c009aa4963825929a217">&#9670;&nbsp;</a></span>marginal_propensity_base</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structcqsp_1_1core_1_1components_1_1_resource_consumption.html">components::ResourceConsumption</a> cqsp::core::systems::SysPopulationConsumption::marginal_propensity_base</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e25d9f88eed59316bb2364656502215" name="a9e25d9f88eed59316bb2364656502215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e25d9f88eed59316bb2364656502215">&#9670;&nbsp;</a></span>savings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float cqsp::core::systems::SysPopulationConsumption::savings = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a719141427b16576182cdd2dc11545157" name="a719141427b16576182cdd2dc11545157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a719141427b16576182cdd2dc11545157">&#9670;&nbsp;</a></span>total_population</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::core::systems::SysPopulationConsumption::total_population = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af98aa17e6ac88f7ff06a9a1b31e5c7a7" name="af98aa17e6ac88f7ff06a9a1b31e5c7a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af98aa17e6ac88f7ff06a9a1b31e5c7a7">&#9670;&nbsp;</a></span>total_sol</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::core::systems::SysPopulationConsumption::total_sol = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/github/workspace/src/core/systems/economy/<a class="el" href="syspopulation_8h_source.html">syspopulation.h</a></li>
 <li>/github/workspace/src/core/systems/economy/<a class="el" href="syspopulation_8cpp.html">syspopulation.cpp</a></li>
@@ -254,7 +406,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Mar 26 2026 16:05:08 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Mar 29 2026 05:17:46 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

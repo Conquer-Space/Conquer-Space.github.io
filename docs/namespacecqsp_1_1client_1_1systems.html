@@ -154,6 +154,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5ce23888994d43d5ef6d7fa67bf455f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22a09fc26d230ab8581966e9d400f9fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems.html#a22a09fc26d230ab8581966e9d400f9fb">ResourceMapTable</a> (const <a class="el" href="classcqsp_1_1core_1_1_universe.html">core::Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_vector.html">core::components::ResourceVector</a> &amp;ledger, const char *name)</td></tr>
 <tr class="separator:a22a09fc26d230ab8581966e9d400f9fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91cb08d6540ce07b1798a4b790ebf9a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">core::components::GoodEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems.html#a91cb08d6540ce07b1798a4b790ebf9a3">SelectableMarketInformationTable</a> (<a class="el" href="classcqsp_1_1core_1_1_universe.html">core::Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, const entt::entity &amp;market_entity)</td></tr>
+<tr class="separator:a91cb08d6540ce07b1798a4b790ebf9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fb603b1bc61c03ff1b0956faceb4906"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems.html#a5fb603b1bc61c03ff1b0956faceb4906">DrawLedgerTable</a> (const std::string &amp;name, const <a class="el" href="classcqsp_1_1core_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;ledger)</td></tr>
 <tr class="separator:a5fb603b1bc61c03ff1b0956faceb4906"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac95a478a944d7e992ab255c5ef0ffd77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1client_1_1systems.html#ac95a478a944d7e992ab255c5ef0ffd77">DrawLedgerTable</a> (const std::string &amp;name, const <a class="el" href="classcqsp_1_1core_1_1_universe.html">Universe</a> &amp;<a class="el" href="turnsavewindow_8h.html#a535d52d7362db66ef905218b3bdd788f">universe</a>, const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;ledger, const <a class="el" href="structcqsp_1_1core_1_1components_1_1_market.html">core::components::Market</a> &amp;market)</td></tr>
@@ -491,6 +493,34 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a91cb08d6540ce07b1798a4b790ebf9a3" name="a91cb08d6540ce07b1798a4b790ebf9a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91cb08d6540ce07b1798a4b790ebf9a3">&#9670;&nbsp;</a></span>SelectableMarketInformationTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">core::components::GoodEntity</a> cqsp::client::systems::SelectableMarketInformationTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1core_1_1_universe.html">core::Universe</a> &amp;&#160;</td>
+          <td class="paramname"><em>universe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const entt::entity &amp;&#160;</td>
+          <td class="paramname"><em>market_entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a42a014632dcd6dea1381c9675d2a163e" name="a42a014632dcd6dea1381c9675d2a163e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42a014632dcd6dea1381c9675d2a163e">&#9670;&nbsp;</a></span>ShowOptionsWindow()</h2>
 
@@ -522,7 +552,7 @@ template&lt;class T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Mar 26 2026 16:05:07 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Mar 29 2026 05:17:45 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
