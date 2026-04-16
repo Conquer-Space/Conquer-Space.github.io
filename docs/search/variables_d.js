@@ -14,8 +14,9 @@ var searchData=
   ['new_5fhohmann_11',['new_hohmann',['../classcqsp_1_1client_1_1systems_1_1_spaceship_window.html#a1a64bdfd33e6b97d149bb285353dd76b',1,'cqsp::client::systems::SpaceshipWindow']]],
   ['new_5fperigee_12',['new_perigee',['../classcqsp_1_1client_1_1systems_1_1_spaceship_window.html#a6473e119c1a16395dfa9c52823eb9678',1,'cqsp::client::systems::SpaceshipWindow']]],
   ['nfs_13',['nfs',['../classcqsp_1_1asset_1_1_native_file.html#abf72486fd77187d42a0cacb054cec57b',1,'cqsp::asset::NativeFile::nfs()'],['../classcqsp_1_1asset_1_1_native_directory.html#a7cca36bc9d6ce9e1ec7ef4a30c1b7285',1,'cqsp::asset::NativeDirectory::nfs()']]],
-  ['nodefactory_14',['nodeFactory',['../classcqsp_1_1core_1_1_universe.html#a2091a9e6fbce150f9dfe071085e8a197',1,'cqsp::core::Universe']]],
-  ['normal_15',['normal',['../structcqsp_1_1client_1_1components_1_1_planet_texture.html#a56bd14b293856834f040bcb31be9f8d3',1,'cqsp::client::components::PlanetTexture::normal()'],['../structcqsp_1_1asset_1_1_vertex.html#a33c1f8fb55ccafadce08728882ad38f5',1,'cqsp::asset::Vertex::normal()']]],
-  ['normal_5fname_16',['normal_name',['../structcqsp_1_1core_1_1components_1_1bodies_1_1_textured_terrain.html#a1178f9a99cc3b7b043b25c325ce6f06a',1,'cqsp::core::components::bodies::TexturedTerrain']]],
-  ['num_5fmsaa_5fsamples_17',['NUM_MSAA_SAMPLES',['../_rml_ui___renderer___g_l3_8cpp.html#a2fcc3801dba1a1e549508b42e979616b',1,'RmlUi_Renderer_GL3.cpp']]]
+  ['node_5feditor_5fconfig_14',['node_editor_config',['../classcqsp_1_1engine_1_1_application.html#a1966678bfa5962ab2e6f7a507f66c4ad',1,'cqsp::engine::Application']]],
+  ['nodefactory_15',['nodeFactory',['../classcqsp_1_1core_1_1_universe.html#a2091a9e6fbce150f9dfe071085e8a197',1,'cqsp::core::Universe']]],
+  ['normal_16',['normal',['../structcqsp_1_1client_1_1components_1_1_planet_texture.html#a56bd14b293856834f040bcb31be9f8d3',1,'cqsp::client::components::PlanetTexture::normal()'],['../structcqsp_1_1asset_1_1_vertex.html#a33c1f8fb55ccafadce08728882ad38f5',1,'cqsp::asset::Vertex::normal()']]],
+  ['normal_5fname_17',['normal_name',['../structcqsp_1_1core_1_1components_1_1bodies_1_1_textured_terrain.html#a1178f9a99cc3b7b043b25c325ce6f06a',1,'cqsp::core::components::bodies::TexturedTerrain']]],
+  ['num_5fmsaa_5fsamples_18',['NUM_MSAA_SAMPLES',['../_rml_ui___renderer___g_l3_8cpp.html#a2fcc3801dba1a1e549508b42e979616b',1,'RmlUi_Renderer_GL3.cpp']]]
 ];
