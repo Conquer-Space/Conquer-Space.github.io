@@ -2,7 +2,7 @@ var searchData=
 [
   ['factory_0',['Factory',['../structcqsp_1_1core_1_1components_1_1_factory.html',1,'cqsp::core::components']]],
   ['factory_1',['factory',['../namespacecqsp_1_1core_1_1components.html#a5063a70c0ade8a828770539fc38571f4a9549dd6065d019211460c59a86dd6536',1,'cqsp::core::components']]],
-  ['factory_5fmin_5futilization_2',['factory_min_utilization',['../structcqsp_1_1core_1_1systems_1_1_economy_config.html#a9a0a828e99fe0fa6df5d7454e70b9d24',1,'cqsp::core::systems::EconomyConfig']]],
+  ['factory_5fmin_5futilization_2',['factory_min_utilization',['../structcqsp_1_1core_1_1systems_1_1_economy_config_1_1_production_config.html#a59aca04ccd8cdbff25bfcfb8dc22d665',1,'cqsp::core::systems::EconomyConfig::ProductionConfig']]],
   ['factoryconstructaction_2ecpp_3',['factoryconstructaction.cpp',['../factoryconstructaction_8cpp.html',1,'']]],
   ['factoryconstructaction_2eh_4',['factoryconstructaction.h',['../factoryconstructaction_8h.html',1,'']]],
   ['factoryproducing_5',['FactoryProducing',['../structcqsp_1_1core_1_1components_1_1_factory_producing.html',1,'cqsp::core::components']]],

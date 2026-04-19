@@ -71,11 +71,13 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">area.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;entt/entt.hpp&gt;</code><br />
 </div>
 <p><a href="area_8h_source.html">Go to the source code of this file.</a></p>
@@ -85,8 +87,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_industrial_zone.html">cqsp::core::components::IndustrialZone</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_construction.html">cqsp::core::components::Construction</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_production.html">cqsp::core::components::Production</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_factory.html">cqsp::core::components::Factory</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -98,9 +98,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_raw_resource_gen.html">cqsp::core::components::RawResourceGen</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_industry_size.html">cqsp::core::components::IndustrySize</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_cost_breakdown.html">cqsp::core::components::CostBreakdown</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_production_unit.html">cqsp::core::components::ProductionUnit</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -119,11 +117,29 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacecqsp_1_1core_1_1components.html#a5063a70c0ade8a828770539fc38571f4aaaabf0d39951f3e6c3e8a7911df524c2">cqsp::core::components::service</a>
  }</td></tr>
 <tr class="separator:a5063a70c0ade8a828770539fc38571f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb44a9b257a7f7d5858be2d7dd5feee"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a9fb44a9b257a7f7d5858be2d7dd5feee">cqsp::core::components::IndustryState</a> { <br />
+&#160;&#160;<a class="el" href="namespacecqsp_1_1core_1_1components.html#a9fb44a9b257a7f7d5858be2d7dd5feeea936336a4a2b22a66aca8458db0cf9a85">cqsp::core::components::SteadyState</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a9fb44a9b257a7f7d5858be2d7dd5feeea499d01b72a425206c926147bc2d69bc8">cqsp::core::components::MaximumProduction</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a9fb44a9b257a7f7d5858be2d7dd5feeea05082c0dd072cf618ccb05840dd5452a">cqsp::core::components::MinimumProduction</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a9fb44a9b257a7f7d5858be2d7dd5feeea2a0d30cb1153031c3dfc239c6e0407ea">cqsp::core::components::Construction</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacecqsp_1_1core_1_1components.html#a9fb44a9b257a7f7d5858be2d7dd5feeeade405fb04af871a26742b3e8e54e4a74">cqsp::core::components::Demolishing</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a9fb44a9b257a7f7d5858be2d7dd5feeeae4c2a63bd3a9a9a4cfda13f35146a0b4">cqsp::core::components::Shrinking</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a9fb44a9b257a7f7d5858be2d7dd5feeea1c9861d5cf1799b46578652b62ce1d49">cqsp::core::components::Expanding</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a9fb44a9b257a7f7d5858be2d7dd5feeea849feb0abd1c1e6779ab12e8b0be166a">cqsp::core::components::Shortage</a>
+<br />
+ }</td></tr>
+<tr class="separator:a9fb44a9b257a7f7d5858be2d7dd5feee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a5f2564859bcd79d755407ac30eb033b7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a5f2564859bcd79d755407ac30eb033b7">cqsp::core::components::IndustryStateToString</a> (IndustryState state)</td></tr>
+<tr class="separator:a5f2564859bcd79d755407ac30eb033b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 16 2026 05:11:35 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Apr 19 2026 17:15:14 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

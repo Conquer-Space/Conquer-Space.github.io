@@ -42,7 +42,7 @@ var searchData=
   ['rendertext_39',['RenderText',['../namespacecqsp_1_1asset.html#a013310334bd077829a7a52f63a73a165',1,'cqsp::asset']]],
   ['rendertoclipmask_40',['RenderToClipMask',['../class_render_interface___g_l3.html#ac95abfbb62b266d07771a4e0fd07738e',1,'RenderInterface_GL3']]],
   ['requestplayaudio_41',['RequestPlayAudio',['../classcqsp_1_1engine_1_1audio_1_1_i_audio_interface.html#a3232d123c63fd3325fa606ee41f3ab5d',1,'cqsp::engine::audio::IAudioInterface::RequestPlayAudio()'],['../classcqsp_1_1engine_1_1audio_1_1_audio_interface.html#aae6b87e6210d53c3743094d5f83d8ca6',1,'cqsp::engine::audio::AudioInterface::RequestPlayAudio()']]],
-  ['reset_42',['Reset',['../structcqsp_1_1client_1_1ctx_1_1_hovering_item.html#a3b8b3ca485458a736db3240c5d405b51',1,'cqsp::client::ctx::HoveringItem::Reset()'],['../structcqsp_1_1core_1_1components_1_1_cost_breakdown.html#a647cc325c904f6cd845d40178b4dcaf0',1,'cqsp::core::components::CostBreakdown::Reset()'],['../structcqsp_1_1core_1_1components_1_1_wallet.html#a36cd68f8126e1441bedd1877894c3991',1,'cqsp::core::components::Wallet::Reset()']]],
+  ['reset_42',['Reset',['../structcqsp_1_1client_1_1ctx_1_1_hovering_item.html#a3b8b3ca485458a736db3240c5d405b51',1,'cqsp::client::ctx::HoveringItem::Reset()'],['../structcqsp_1_1core_1_1components_1_1_production_unit.html#a31679374cf5e9d21586108d0fc58c402',1,'cqsp::core::components::ProductionUnit::Reset()'],['../structcqsp_1_1core_1_1components_1_1_wallet.html#a36cd68f8126e1441bedd1877894c3991',1,'cqsp::core::components::Wallet::Reset()']]],
   ['resetcameraup_43',['ResetCameraUp',['../structcqsp_1_1client_1_1systems_1_1_star_system_camera.html#ace8e40f08a703aad636e27a485fbea2d',1,'cqsp::client::systems::StarSystemCamera']]],
   ['resetgame_44',['ResetGame',['../classcqsp_1_1engine_1_1_application.html#a7a807acdd01e6afb07d97e7d3e76d79e',1,'cqsp::engine::Application']]],
   ['resetledgers_45',['ResetLedgers',['../structcqsp_1_1core_1_1components_1_1_market.html#a49a84a416289ce21b0739e1620d996ce',1,'cqsp::core::components::Market']]],
@@ -65,7 +65,7 @@ var searchData=
   ['rmlfileinterface_62',['RmlFileInterface',['../classcqsp_1_1engine_1_1_application_1_1_rml_file_interface.html#a098dacf2ec32e344ba79d4a8827a828a',1,'cqsp::engine::Application::RmlFileInterface']]],
   ['rocketmanufacturingrightpanel_63',['RocketManufacturingRightPanel',['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html#ac7aaf3fb966a058f20c2e0c8662197ba',1,'cqsp::client::systems::SysProvinceInformation']]],
   ['rocketmanufacturingtab_64',['RocketManufacturingTab',['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html#a5c915a2146c27c92931463a3eacf9adf',1,'cqsp::client::systems::SysProvinceInformation']]],
-  ['run_65',['Run',['../class_rml_1_1_data_expression.html#a141176a03d89ef32f29132e9aeda6871',1,'Rml::DataExpression']]],
-  ['run_66',['run',['../classcqsp_1_1engine_1_1_application.html#a3f5053e9f930d016e909c184cf910094',1,'cqsp::engine::Application::run()'],['../classcqsp_1_1client_1_1headless_1_1_headless_application.html#abdc2c0e909dc31496ce06199821ee786',1,'cqsp::client::headless::HeadlessApplication::run()']]],
+  ['run_65',['run',['../classcqsp_1_1engine_1_1_application.html#a3f5053e9f930d016e909c184cf910094',1,'cqsp::engine::Application::run()'],['../classcqsp_1_1client_1_1headless_1_1_headless_application.html#abdc2c0e909dc31496ce06199821ee786',1,'cqsp::client::headless::HeadlessApplication::run()']]],
+  ['run_66',['Run',['../class_rml_1_1_data_expression.html#a141176a03d89ef32f29132e9aeda6871',1,'Rml::DataExpression']]],
   ['runscript_67',['RunScript',['../classcqsp_1_1core_1_1scripting_1_1_script_interface.html#a43470eed3db8174eed8bcb6540572b1b',1,'cqsp::core::scripting::ScriptInterface']]]
 ];
