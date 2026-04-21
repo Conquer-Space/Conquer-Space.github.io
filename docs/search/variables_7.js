@@ -13,7 +13,7 @@ var searchData=
   ['getuniverse_10',['GetUniverse',['../classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#abe6e91b29cf7a54d1cd2790f8ed52cae',1,'cqsp::client::systems::rmlui::RightClickWindow']]],
   ['glstate_5fbackup_11',['glstate_backup',['../class_render_interface___g_l3.html#af19c34af45965cb31e148ed51d3e58eb',1,'RenderInterface_GL3']]],
   ['gm_12',['GM',['../structcqsp_1_1core_1_1components_1_1bodies_1_1_body.html#ac435738906d96e88cfa41714616c30f8',1,'cqsp::core::components::bodies::Body::GM()'],['../structcqsp_1_1core_1_1components_1_1types_1_1_orbit.html#a6e74b3a5e035b91c70fc6cbcb9d95ddf',1,'cqsp::core::components::types::Orbit::GM()']]],
-  ['good_13',['good',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_transported_good.html#a7aa2c14969f6c449a019360a7d3c5bda',1,'cqsp::core::components::infrastructure::TransportedGood']]],
+  ['good_13',['good',['../structcqsp_1_1core_1_1components_1_1_labor.html#a95f9b17a2acd86cda46588af6c388b50',1,'cqsp::core::components::Labor::good()'],['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_transported_good.html#a7aa2c14969f6c449a019360a7d3c5bda',1,'cqsp::core::components::infrastructure::TransportedGood::good()']]],
   ['good_5fmap_14',['good_map',['../classcqsp_1_1core_1_1_universe.html#a7970e344e281e600b897cf3fcd687481',1,'cqsp::core::Universe']]],
   ['good_5fprices_15',['good_prices',['../classcqsp_1_1core_1_1_universe.html#ae5e44ca6aa6facf9107038e08a5071ca',1,'cqsp::core::Universe']]],
   ['good_5fvector_16',['good_vector',['../classcqsp_1_1core_1_1_universe.html#aa84c9360444c8401472b1ae24b2c2979',1,'cqsp::core::Universe']]],

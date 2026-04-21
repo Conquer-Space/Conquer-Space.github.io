@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Conquer Space: cqsp::core::components::Matter Struct Reference</title>
+<title>Conquer Space: cqsp::core::components::RecipeWorkers Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,54 +64,65 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacecqsp.html">cqsp</a></li><li class="navelem"><a class="el" href="namespacecqsp_1_1core.html">core</a></li><li class="navelem"><a class="el" href="namespacecqsp_1_1core_1_1components.html">components</a></li><li class="navelem"><a class="el" href="structcqsp_1_1core_1_1components_1_1_matter.html">Matter</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacecqsp.html">cqsp</a></li><li class="navelem"><a class="el" href="namespacecqsp_1_1core.html">core</a></li><li class="navelem"><a class="el" href="namespacecqsp_1_1core_1_1components.html">components</a></li><li class="navelem"><a class="el" href="structcqsp_1_1core_1_1components_1_1_recipe_workers.html">RecipeWorkers</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structcqsp_1_1core_1_1components_1_1_matter-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">cqsp::core::components::Matter Struct Reference</div></div>
+<a href="structcqsp_1_1core_1_1components_1_1_recipe_workers-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">cqsp::core::components::RecipeWorkers Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Something that has a mass.  
- <a href="structcqsp_1_1core_1_1components_1_1_matter.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="resource_8h_source.html">resource.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a84669e3bf2d8b8ae7cae4a6712025ab1"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_recipe_workers.html#a84669e3bf2d8b8ae7cae4a6712025ab1">GetSum</a> ()</td></tr>
+<tr class="separator:a84669e3bf2d8b8ae7cae4a6712025ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:abc97b34403cd56698d9e3e203d3035a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1core_1_1components_1_1types.html#acd839643f4b4d960b8304778ca5ea571">types::meter_cube</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_matter.html#abc97b34403cd56698d9e3e203d3035a7">volume</a></td></tr>
-<tr class="separator:abc97b34403cd56698d9e3e203d3035a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f1353151e67863229460956318b944b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1core_1_1components_1_1types.html#ad6c5f0e0340ba3ec76ebd02eaed7ca02">types::kilogram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_matter.html#a7f1353151e67863229460956318b944b">mass</a></td></tr>
-<tr class="separator:a7f1353151e67863229460956318b944b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e589e4d044a0015bc4ba6328c0d7fda"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; entt::entity, uint32_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_recipe_workers.html#a1e589e4d044a0015bc4ba6328c0d7fda">workers</a></td></tr>
+<tr class="separator:a1e589e4d044a0015bc4ba6328c0d7fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Something that has a mass. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7f1353151e67863229460956318b944b" name="a7f1353151e67863229460956318b944b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f1353151e67863229460956318b944b">&#9670;&nbsp;</a></span>mass</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a84669e3bf2d8b8ae7cae4a6712025ab1" name="a84669e3bf2d8b8ae7cae4a6712025ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84669e3bf2d8b8ae7cae4a6712025ab1">&#9670;&nbsp;</a></span>GetSum()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacecqsp_1_1core_1_1components_1_1types.html#ad6c5f0e0340ba3ec76ebd02eaed7ca02">types::kilogram</a> cqsp::core::components::Matter::mass</td>
+          <td class="memname">uint32_t cqsp::core::components::RecipeWorkers::GetSum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="abc97b34403cd56698d9e3e203d3035a7" name="abc97b34403cd56698d9e3e203d3035a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc97b34403cd56698d9e3e203d3035a7">&#9670;&nbsp;</a></span>volume</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1e589e4d044a0015bc4ba6328c0d7fda" name="a1e589e4d044a0015bc4ba6328c0d7fda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e589e4d044a0015bc4ba6328c0d7fda">&#9670;&nbsp;</a></span>workers</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacecqsp_1_1core_1_1components_1_1types.html#acd839643f4b4d960b8304778ca5ea571">types::meter_cube</a> cqsp::core::components::Matter::volume</td>
+          <td class="memname">std::vector&lt;std::pair&lt;entt::entity, uint32_t&gt; &gt; cqsp::core::components::RecipeWorkers::workers</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -124,7 +135,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Apr 19 2026 17:15:14 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Apr 21 2026 19:55:43 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
