@@ -89,8 +89,8 @@ $(function() {
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment"> */</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;utility&gt;</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;utility&gt;</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &lt;entt/entity/entity.hpp&gt;</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
@@ -104,11 +104,12 @@ $(function() {
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="structcqsp_1_1core_1_1components_1_1_population_labor.html">   32</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structcqsp_1_1core_1_1components_1_1_population_labor.html">PopulationLabor</a> {</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="comment">// This will be updated less regularly</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="structcqsp_1_1core_1_1components_1_1_population_labor.html#aed090852cb4f987c95ca5d3cb791e1a5">   34</a></span>    std::vector&lt;std::pair&lt;entt::entity, uint64_t&gt;&gt; <a class="code hl_variable" href="structcqsp_1_1core_1_1components_1_1_population_labor.html#aed090852cb4f987c95ca5d3cb791e1a5">labor_distribution</a>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="comment">// A pop sells its labor hours on the market</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="structcqsp_1_1core_1_1components_1_1_population_labor.html#a180d394676f8d5980472b1cf9ee7afff">   36</a></span>    <a class="code hl_class" href="classcqsp_1_1core_1_1components_1_1_resource_vector.html">ResourceVector</a> <a class="code hl_variable" href="structcqsp_1_1core_1_1components_1_1_population_labor.html#a180d394676f8d5980472b1cf9ee7afff">labor_hours</a>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}  <span class="comment">// namespace cqsp::core::components</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="comment">// TODO(EhWhoAmI): Fix this to a vector or something</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="structcqsp_1_1core_1_1components_1_1_population_labor.html#af07e4ae693630789c521b23c9bfc3952">   35</a></span>    std::unordered_map&lt;entt::entity, uint64_t&gt; <a class="code hl_variable" href="structcqsp_1_1core_1_1components_1_1_population_labor.html#af07e4ae693630789c521b23c9bfc3952">labor_distribution</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="comment">// A pop sells its labor hours on the market</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="structcqsp_1_1core_1_1components_1_1_population_labor.html#a180d394676f8d5980472b1cf9ee7afff">   37</a></span>    <a class="code hl_class" href="classcqsp_1_1core_1_1components_1_1_resource_vector.html">ResourceVector</a> <a class="code hl_variable" href="structcqsp_1_1core_1_1components_1_1_population_labor.html#a180d394676f8d5980472b1cf9ee7afff">labor_hours</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}  <span class="comment">// namespace cqsp::core::components</span></div>
 <div class="ttc" id="aclasscqsp_1_1core_1_1components_1_1_resource_vector_html"><div class="ttname"><a href="classcqsp_1_1core_1_1components_1_1_resource_vector.html">cqsp::core::components::ResourceVector</a></div><div class="ttdoc">This is a vector meant for fast iteration</div><div class="ttdef"><b>Definition:</b> resourceledger.h:226</div></div>
 <div class="ttc" id="anamespacecqsp_1_1core_1_1components_html"><div class="ttname"><a href="namespacecqsp_1_1core_1_1components.html">cqsp::core::components</a></div><div class="ttdef"><b>Definition:</b> area.h:26</div></div>
 <div class="ttc" id="anamespacecqsp_1_1core_1_1components_html_aa1978b488c0326ad51d0a8cae7f1c44a"><div class="ttname"><a href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">cqsp::core::components::GoodEntity</a></div><div class="ttdeci">GoodEntity</div><div class="ttdef"><b>Definition:</b> resourceledger.h:28</div></div>
@@ -116,12 +117,12 @@ $(function() {
 <div class="ttc" id="astructcqsp_1_1core_1_1components_1_1_labor_html"><div class="ttname"><a href="structcqsp_1_1core_1_1components_1_1_labor.html">cqsp::core::components::Labor</a></div><div class="ttdef"><b>Definition:</b> labor.h:27</div></div>
 <div class="ttc" id="astructcqsp_1_1core_1_1components_1_1_labor_html_a95f9b17a2acd86cda46588af6c388b50"><div class="ttname"><a href="structcqsp_1_1core_1_1components_1_1_labor.html#a95f9b17a2acd86cda46588af6c388b50">cqsp::core::components::Labor::good</a></div><div class="ttdeci">GoodEntity good</div><div class="ttdef"><b>Definition:</b> labor.h:28</div></div>
 <div class="ttc" id="astructcqsp_1_1core_1_1components_1_1_population_labor_html"><div class="ttname"><a href="structcqsp_1_1core_1_1components_1_1_population_labor.html">cqsp::core::components::PopulationLabor</a></div><div class="ttdef"><b>Definition:</b> labor.h:32</div></div>
-<div class="ttc" id="astructcqsp_1_1core_1_1components_1_1_population_labor_html_a180d394676f8d5980472b1cf9ee7afff"><div class="ttname"><a href="structcqsp_1_1core_1_1components_1_1_population_labor.html#a180d394676f8d5980472b1cf9ee7afff">cqsp::core::components::PopulationLabor::labor_hours</a></div><div class="ttdeci">ResourceVector labor_hours</div><div class="ttdef"><b>Definition:</b> labor.h:36</div></div>
-<div class="ttc" id="astructcqsp_1_1core_1_1components_1_1_population_labor_html_aed090852cb4f987c95ca5d3cb791e1a5"><div class="ttname"><a href="structcqsp_1_1core_1_1components_1_1_population_labor.html#aed090852cb4f987c95ca5d3cb791e1a5">cqsp::core::components::PopulationLabor::labor_distribution</a></div><div class="ttdeci">std::vector&lt; std::pair&lt; entt::entity, uint64_t &gt; &gt; labor_distribution</div><div class="ttdef"><b>Definition:</b> labor.h:34</div></div>
+<div class="ttc" id="astructcqsp_1_1core_1_1components_1_1_population_labor_html_a180d394676f8d5980472b1cf9ee7afff"><div class="ttname"><a href="structcqsp_1_1core_1_1components_1_1_population_labor.html#a180d394676f8d5980472b1cf9ee7afff">cqsp::core::components::PopulationLabor::labor_hours</a></div><div class="ttdeci">ResourceVector labor_hours</div><div class="ttdef"><b>Definition:</b> labor.h:37</div></div>
+<div class="ttc" id="astructcqsp_1_1core_1_1components_1_1_population_labor_html_af07e4ae693630789c521b23c9bfc3952"><div class="ttname"><a href="structcqsp_1_1core_1_1components_1_1_population_labor.html#af07e4ae693630789c521b23c9bfc3952">cqsp::core::components::PopulationLabor::labor_distribution</a></div><div class="ttdeci">std::unordered_map&lt; entt::entity, uint64_t &gt; labor_distribution</div><div class="ttdef"><b>Definition:</b> labor.h:35</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 21 2026 19:55:41 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu May 7 2026 05:53:39 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

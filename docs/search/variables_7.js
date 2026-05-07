@@ -14,10 +14,12 @@ var searchData=
   ['glstate_5fbackup_11',['glstate_backup',['../class_render_interface___g_l3.html#af19c34af45965cb31e148ed51d3e58eb',1,'RenderInterface_GL3']]],
   ['gm_12',['GM',['../structcqsp_1_1core_1_1components_1_1bodies_1_1_body.html#ac435738906d96e88cfa41714616c30f8',1,'cqsp::core::components::bodies::Body::GM()'],['../structcqsp_1_1core_1_1components_1_1types_1_1_orbit.html#a6e74b3a5e035b91c70fc6cbcb9d95ddf',1,'cqsp::core::components::types::Orbit::GM()']]],
   ['good_13',['good',['../structcqsp_1_1core_1_1components_1_1_labor.html#a95f9b17a2acd86cda46588af6c388b50',1,'cqsp::core::components::Labor::good()'],['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_transported_good.html#a7aa2c14969f6c449a019360a7d3c5bda',1,'cqsp::core::components::infrastructure::TransportedGood::good()']]],
-  ['good_5fmap_14',['good_map',['../classcqsp_1_1core_1_1_universe.html#a7970e344e281e600b897cf3fcd687481',1,'cqsp::core::Universe']]],
-  ['good_5fprices_15',['good_prices',['../classcqsp_1_1core_1_1_universe.html#ae5e44ca6aa6facf9107038e08a5071ca',1,'cqsp::core::Universe']]],
-  ['good_5fvector_16',['good_vector',['../classcqsp_1_1core_1_1_universe.html#aa84c9360444c8401472b1ae24b2c2979',1,'cqsp::core::Universe']]],
-  ['goods_17',['goods',['../classcqsp_1_1core_1_1_universe.html#a83d57d4a10b77e45ee132202ef062491',1,'cqsp::core::Universe']]],
-  ['governor_18',['governor',['../structcqsp_1_1core_1_1components_1_1_governed.html#a9ed3e010022e89eca38d9d69a2714d0d',1,'cqsp::core::components::Governed']]],
-  ['gradient_5ffunction_19',['gradient_function',['../struct_compiled_shader.html#a5de39b49c0006daa13fcd47b6c49d850',1,'CompiledShader']]]
+  ['good_5flabors_14',['good_labors',['../classcqsp_1_1core_1_1systems_1_1_sys_population_consumption.html#a011953f1988bccf16b305de5f0b204fb',1,'cqsp::core::systems::SysPopulationConsumption']]],
+  ['good_5fmap_15',['good_map',['../classcqsp_1_1core_1_1_universe.html#a7970e344e281e600b897cf3fcd687481',1,'cqsp::core::Universe']]],
+  ['good_5fprices_16',['good_prices',['../classcqsp_1_1core_1_1_universe.html#ae5e44ca6aa6facf9107038e08a5071ca',1,'cqsp::core::Universe']]],
+  ['good_5fto_5flabor_5fmap_17',['good_to_labor_map',['../classcqsp_1_1core_1_1systems_1_1_sys_labor_market.html#a55db2df7b569d4507e381c8a87b6919b',1,'cqsp::core::systems::SysLaborMarket']]],
+  ['good_5fvector_18',['good_vector',['../classcqsp_1_1core_1_1_universe.html#aa84c9360444c8401472b1ae24b2c2979',1,'cqsp::core::Universe']]],
+  ['goods_19',['goods',['../classcqsp_1_1core_1_1_universe.html#a83d57d4a10b77e45ee132202ef062491',1,'cqsp::core::Universe']]],
+  ['governor_20',['governor',['../structcqsp_1_1core_1_1components_1_1_governed.html#a9ed3e010022e89eca38d9d69a2714d0d',1,'cqsp::core::components::Governed']]],
+  ['gradient_5ffunction_21',['gradient_function',['../struct_compiled_shader.html#a5de39b49c0006daa13fcd47b6c49d850',1,'CompiledShader']]]
 ];
