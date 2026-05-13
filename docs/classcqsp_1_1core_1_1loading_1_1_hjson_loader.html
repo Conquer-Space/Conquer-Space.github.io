@@ -70,6 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classcqsp_1_1core_1_1loading_1_1_hjson_loader-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cqsp::core::loading::HjsonLoader Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
@@ -112,6 +113,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a25fe6ec607543bf37e1953757e2a5bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa6d6ebbfe12bdac04091512443fa343"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1loading_1_1_hjson_loader.html#afa6d6ebbfe12bdac04091512443fa343">NeedIdentifier</a> ()</td></tr>
 <tr class="separator:afa6d6ebbfe12bdac04091512443fa343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a5fa0bdcb7c8e4d8b7d801a1f2863c56f"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1loading_1_1_hjson_loader.html#a5fa0bdcb7c8e4d8b7d801a1f2863c56f">LoadColor</a> (const Hjson::Value &amp;value, std::string_view identifier)</td></tr>
+<tr class="separator:a5fa0bdcb7c8e4d8b7d801a1f2863c56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a068500f3f0ece932997640a5bc3982f2"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1loading_1_1_hjson_loader.html#a068500f3f0ece932997640a5bc3982f2">LoadColor</a> (const Hjson::Value &amp;value)</td></tr>
+<tr class="separator:a068500f3f0ece932997640a5bc3982f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9238a63795881cc59225e5f2d800184"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1loading_1_1_hjson_loader.html#ae9238a63795881cc59225e5f2d800184">StringHash</a> (std::string_view)</td></tr>
+<tr class="separator:ae9238a63795881cc59225e5f2d800184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -195,6 +205,68 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="classcqsp_1_1core_1_1loading_1_1_labor_loader.html#a39601a4b2569f67b67de8c8dc4adeff3">cqsp::core::loading::LaborLoader</a>, <a class="el" href="classcqsp_1_1core_1_1loading_1_1_city_loader.html#a2341962cb05df42c5c096931d7e81aba">cqsp::core::loading::CityLoader</a>, <a class="el" href="classcqsp_1_1core_1_1loading_1_1_country_loader.html#a9e8cb2177aa523bb499d7e366bd68fae">cqsp::core::loading::CountryLoader</a>, <a class="el" href="classcqsp_1_1core_1_1loading_1_1_good_loader.html#a1c6702996b5347b9ed4930f50897b77a">cqsp::core::loading::GoodLoader</a>, <a class="el" href="classcqsp_1_1core_1_1loading_1_1_satellite_loader.html#a27a0ab0d258c9ee6387c8f4b7a067f41">cqsp::core::loading::SatelliteLoader</a>, <a class="el" href="classcqsp_1_1core_1_1loading_1_1_planet_loader.html#a139f7887025efdd18ac5e93aed0d10e0">cqsp::core::loading::PlanetLoader</a>, <a class="el" href="classcqsp_1_1core_1_1loading_1_1_project_loader.html#a4c8a4c95a8b34544d3bb4bb1c8fa3f28">cqsp::core::loading::ProjectLoader</a>, <a class="el" href="classcqsp_1_1core_1_1loading_1_1_province_loader.html#a4ff77f65acac23984ef74b202ecd8277">cqsp::core::loading::ProvinceLoader</a>, <a class="el" href="classcqsp_1_1core_1_1loading_1_1_recipe_loader.html#a765d4d705ed7847d6ee84828068ebe24">cqsp::core::loading::RecipeLoader</a>, and <a class="el" href="classcqsp_1_1core_1_1loading_1_1_timezone_loader.html#a8e847cc35f697d5975e5ff157349f543">cqsp::core::loading::TimezoneLoader</a>.</p>
+
+</div>
+</div>
+<a id="a068500f3f0ece932997640a5bc3982f2" name="a068500f3f0ece932997640a5bc3982f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a068500f3f0ece932997640a5bc3982f2">&#9670;&nbsp;</a></span>LoadColor() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 cqsp::core::loading::HjsonLoader::LoadColor </td>
+          <td>(</td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5fa0bdcb7c8e4d8b7d801a1f2863c56f" name="a5fa0bdcb7c8e4d8b7d801a1f2863c56f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fa0bdcb7c8e4d8b7d801a1f2863c56f">&#9670;&nbsp;</a></span>LoadColor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 cqsp::core::loading::HjsonLoader::LoadColor </td>
+          <td>(</td>
+          <td class="paramtype">const Hjson::Value &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>identifier</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -310,6 +382,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae9238a63795881cc59225e5f2d800184" name="ae9238a63795881cc59225e5f2d800184"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9238a63795881cc59225e5f2d800184">&#9670;&nbsp;</a></span>StringHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t cqsp::core::loading::HjsonLoader::StringHash </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>string</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a83935e538bc0c0763ac2432efe040abd" name="a83935e538bc0c0763ac2432efe040abd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a83935e538bc0c0763ac2432efe040abd">&#9670;&nbsp;</a></span>universe</h2>
@@ -340,7 +438,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 11 2026 15:23:11 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed May 13 2026 22:31:34 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
