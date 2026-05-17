@@ -107,6 +107,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acca931b40e1b609d27bc3f20a6e62c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc953a859524e7bfa93388b7a518aa68"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#acc953a859524e7bfa93388b7a518aa68">CalculateFutureCenteredPosition</a> (const entt::entity entity)</td></tr>
 <tr class="separator:acc953a859524e7bfa93388b7a518aa68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad748083dd6a19c80ed33f2882b7deb16"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ad748083dd6a19c80ed33f2882b7deb16">GetSelectedCountry</a> ()</td></tr>
+<tr class="separator:ad748083dd6a19c80ed33f2882b7deb16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -188,6 +190,14 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a1699a73535e13fbed39b1757c6a49fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0334d790a3cc32a53c04ad8dc91534f7"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a0334d790a3cc32a53c04ad8dc91534f7">SurfaceCoordinateToProvince</a> (<a class="el" href="structcqsp_1_1core_1_1components_1_1types_1_1_surface_coordinate.html">core::components::types::SurfaceCoordinate</a> coordinate, entt::entity planet)</td></tr>
 <tr class="separator:a0334d790a3cc32a53c04ad8dc91534f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a050e9430b7712610701d9e5bcbe8083f"><td class="memItemLeft" align="right" valign="top">glm::vec4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a050e9430b7712610701d9e5bcbe8083f">CountryColorToVec4</a> (const glm::vec3 &amp;color)</td></tr>
+<tr class="separator:a050e9430b7712610701d9e5bcbe8083f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3be123dd7132f4c8b49e7028b982098"><td class="memItemLeft" align="right" valign="top">glm::vec4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ad3be123dd7132f4c8b49e7028b982098">CountryColorToVec4</a> (const <a class="el" href="structcqsp_1_1core_1_1components_1_1_province_color.html">core::components::ProvinceColor</a> &amp;color)</td></tr>
+<tr class="separator:ad3be123dd7132f4c8b49e7028b982098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eed05e0d3f08e11532c6373b06a684f"><td class="memItemLeft" align="right" valign="top">glm::vec4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a0eed05e0d3f08e11532c6373b06a684f">CountryColorToVec4</a> (const entt::entity province)</td></tr>
+<tr class="separator:a0eed05e0d3f08e11532c6373b06a684f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33276c4fdf1c6b7a0f002a53ba92a71"><td class="memItemLeft" align="right" valign="top">glm::vec4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ad33276c4fdf1c6b7a0f002a53ba92a71">GetCountrySelectionColor</a> (const glm::vec3 &amp;country_color)</td></tr>
+<tr class="separator:ad33276c4fdf1c6b7a0f002a53ba92a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6907836e6a15c1ce908a7129b6d2d28b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcqsp_1_1core_1_1components_1_1types_1_1_surface_coordinate.html">core::components::types::SurfaceCoordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a6907836e6a15c1ce908a7129b6d2d28b">GetCameraOverCoordinate</a> ()</td></tr>
 <tr class="separator:a6907836e6a15c1ce908a7129b6d2d28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -655,6 +665,84 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad3be123dd7132f4c8b49e7028b982098" name="ad3be123dd7132f4c8b49e7028b982098"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3be123dd7132f4c8b49e7028b982098">&#9670;&nbsp;</a></span>CountryColorToVec4() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec4 cqsp::client::systems::StarSystemController::CountryColorToVec4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structcqsp_1_1core_1_1components_1_1_province_color.html">core::components::ProvinceColor</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0eed05e0d3f08e11532c6373b06a684f" name="a0eed05e0d3f08e11532c6373b06a684f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eed05e0d3f08e11532c6373b06a684f">&#9670;&nbsp;</a></span>CountryColorToVec4() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec4 cqsp::client::systems::StarSystemController::CountryColorToVec4 </td>
+          <td>(</td>
+          <td class="paramtype">const entt::entity&#160;</td>
+          <td class="paramname"><em>province</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a050e9430b7712610701d9e5bcbe8083f" name="a050e9430b7712610701d9e5bcbe8083f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a050e9430b7712610701d9e5bcbe8083f">&#9670;&nbsp;</a></span>CountryColorToVec4() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec4 cqsp::client::systems::StarSystemController::CountryColorToVec4 </td>
+          <td>(</td>
+          <td class="paramtype">const glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a91392df66961b9aa05405cfad6e5a928" name="a91392df66961b9aa05405cfad6e5a928"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91392df66961b9aa05405cfad6e5a928">&#9670;&nbsp;</a></span>FocusCityView()</h2>
 
@@ -868,6 +956,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad33276c4fdf1c6b7a0f002a53ba92a71" name="ad33276c4fdf1c6b7a0f002a53ba92a71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad33276c4fdf1c6b7a0f002a53ba92a71">&#9670;&nbsp;</a></span>GetCountrySelectionColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec4 cqsp::client::systems::StarSystemController::GetCountrySelectionColor </td>
+          <td>(</td>
+          <td class="paramtype">const glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>country_color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abc4b5b90594ed94579ce50d2732e3a27" name="abc4b5b90594ed94579ce50d2732e3a27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc4b5b90594ed94579ce50d2732e3a27">&#9670;&nbsp;</a></span>GetMouseInScreenSpace()</h2>
 
@@ -1011,6 +1125,31 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad748083dd6a19c80ed33f2882b7deb16" name="ad748083dd6a19c80ed33f2882b7deb16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad748083dd6a19c80ed33f2882b7deb16">&#9670;&nbsp;</a></span>GetSelectedCountry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">entt::entity cqsp::client::systems::StarSystemController::GetSelectedCountry </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2334,7 +2473,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 13 2026 23:19:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun May 17 2026 05:13:28 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

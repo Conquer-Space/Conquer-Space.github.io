@@ -85,11 +85,12 @@ Inheritance diagram for cqsp::client::systems::SysRmlUiInterface:</div>
  <div class="center">
   <img src="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.png" usemap="#cqsp::client::systems::SysRmlUiInterface_map" alt=""/>
   <map id="cqsp::client::systems::SysRmlUiInterface_map" name="cqsp::client::systems::SysRmlUiInterface_map">
-<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_exploration_window.html" alt="cqsp::client::systems::rmlui::ExplorationWindow" shape="rect" coords="0,56,270,80"/>
-<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html" alt="cqsp::client::systems::rmlui::RightClickWindow" shape="rect" coords="280,56,550,80"/>
-<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html" alt="cqsp::client::systems::rmlui::SideMenu" shape="rect" coords="560,56,830,80"/>
-<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html" alt="cqsp::client::systems::rmlui::ToolTipWindow" shape="rect" coords="840,56,1110,80"/>
-<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html" alt="cqsp::client::systems::rmlui::TurnSaveWindow" shape="rect" coords="1120,56,1390,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_country_selection_menu.html" alt="cqsp::client::systems::rmlui::CountrySelectionMenu" shape="rect" coords="0,56,292,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_exploration_window.html" alt="cqsp::client::systems::rmlui::ExplorationWindow" shape="rect" coords="302,56,594,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html" alt="cqsp::client::systems::rmlui::RightClickWindow" shape="rect" coords="604,56,896,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html" alt="cqsp::client::systems::rmlui::SideMenu" shape="rect" coords="906,56,1198,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html" alt="cqsp::client::systems::rmlui::ToolTipWindow" shape="rect" coords="1208,56,1500,80"/>
+<area href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html" alt="cqsp::client::systems::rmlui::TurnSaveWindow" shape="rect" coords="1510,56,1802,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -107,6 +108,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a95800e6df469ade7250de5ead776b3b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40190be617f996bccec424a84c9b1437"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.html#a40190be617f996bccec424a84c9b1437">ReloadWindow</a> ()</td></tr>
 <tr class="separator:a40190be617f996bccec424a84c9b1437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8567ec673c33317210160b1c0a802ec4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_rml_ui_interface.html#a8567ec673c33317210160b1c0a802ec4">DispatchEvent</a> (const Rml::String &amp;event, const Rml::Dictionary &amp;parameters)</td></tr>
+<tr class="separator:a8567ec673c33317210160b1c0a802ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -182,6 +185,44 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8567ec673c33317210160b1c0a802ec4" name="a8567ec673c33317210160b1c0a802ec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8567ec673c33317210160b1c0a802ec4">&#9670;&nbsp;</a></span>DispatchEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void cqsp::client::systems::SysRmlUiInterface::DispatchEvent </td>
+          <td>(</td>
+          <td class="paramtype">const Rml::String &amp;&#160;</td>
+          <td class="paramname"><em>event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Rml::Dictionary &amp;&#160;</td>
+          <td class="paramname"><em>parameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_country_selection_menu.html#a1bcaf41906bf9c49801b6a69c40802b0">cqsp::client::systems::rmlui::CountrySelectionMenu</a>.</p>
+
+</div>
+</div>
 <a id="af72c4f31d18103fd160c2557c8f1bc8d" name="af72c4f31d18103fd160c2557c8f1bc8d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af72c4f31d18103fd160c2557c8f1bc8d">&#9670;&nbsp;</a></span>GetApp()</h2>
 
@@ -330,7 +371,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_exploration_window.html#ab92d50fe0ea9e62631e6fa1064df123c">cqsp::client::systems::rmlui::ExplorationWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a240638655640636d288d311f325f2591">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#a6b5a914a4b35b1295217a22b20b548dc">cqsp::client::systems::rmlui::RightClickWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html#a8845fde311851123c8350ec47d87b20e">cqsp::client::systems::rmlui::SideMenu</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a8744c32c016479c592e8f708eede821b">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
+<p>Implemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_country_selection_menu.html#a64afe8cbccf0c460a8d07de370e1e7a1">cqsp::client::systems::rmlui::CountrySelectionMenu</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_exploration_window.html#ab92d50fe0ea9e62631e6fa1064df123c">cqsp::client::systems::rmlui::ExplorationWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a240638655640636d288d311f325f2591">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#a6b5a914a4b35b1295217a22b20b548dc">cqsp::client::systems::rmlui::RightClickWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html#a8845fde311851123c8350ec47d87b20e">cqsp::client::systems::rmlui::SideMenu</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a8744c32c016479c592e8f708eede821b">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
 
 </div>
 </div>
@@ -357,7 +398,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_exploration_window.html#a2c1f1f683e77f0ea92f7107cc4b37055">cqsp::client::systems::rmlui::ExplorationWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a755f0d37ec67c7405c029bd87f6886eb">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#a5d4928b11a57ec49e45a390cb8f5448b">cqsp::client::systems::rmlui::RightClickWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html#ab8d6254638c395a0fccff026f93b5b28">cqsp::client::systems::rmlui::SideMenu</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#afa4147a83fe0f57a109ad286b164884f">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
+<p>Reimplemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_country_selection_menu.html#ac99ef522d123854a5aff8e2e9f1cc417">cqsp::client::systems::rmlui::CountrySelectionMenu</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_exploration_window.html#a2c1f1f683e77f0ea92f7107cc4b37055">cqsp::client::systems::rmlui::ExplorationWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a755f0d37ec67c7405c029bd87f6886eb">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#a5d4928b11a57ec49e45a390cb8f5448b">cqsp::client::systems::rmlui::RightClickWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html#ab8d6254638c395a0fccff026f93b5b28">cqsp::client::systems::rmlui::SideMenu</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#afa4147a83fe0f57a109ad286b164884f">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
 
 </div>
 </div>
@@ -385,7 +426,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_exploration_window.html#adaff3b1d8eb9fcba022c60a9f58df408">cqsp::client::systems::rmlui::ExplorationWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a8d9e9ee52a63bb48e2bc277c3c54e45d">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#aa0a135f3fb76e0d56ba6713659134f74">cqsp::client::systems::rmlui::RightClickWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html#adb4690628a0786c7bd8c0d7b201a32d0">cqsp::client::systems::rmlui::SideMenu</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a583dd7b95befd85e022c58be905af7d9">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
+<p>Implemented in <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_country_selection_menu.html#adeac33114feeb2d114c79bc92e7bfb9f">cqsp::client::systems::rmlui::CountrySelectionMenu</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_exploration_window.html#adaff3b1d8eb9fcba022c60a9f58df408">cqsp::client::systems::rmlui::ExplorationWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_tool_tip_window.html#a8d9e9ee52a63bb48e2bc277c3c54e45d">cqsp::client::systems::rmlui::ToolTipWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_right_click_window.html#aa0a135f3fb76e0d56ba6713659134f74">cqsp::client::systems::rmlui::RightClickWindow</a>, <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_side_menu.html#adb4690628a0786c7bd8c0d7b201a32d0">cqsp::client::systems::rmlui::SideMenu</a>, and <a class="el" href="classcqsp_1_1client_1_1systems_1_1rmlui_1_1_turn_save_window.html#a583dd7b95befd85e022c58be905af7d9">cqsp::client::systems::rmlui::TurnSaveWindow</a>.</p>
 
 </div>
 </div>
@@ -441,7 +482,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 13 2026 23:19:12 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun May 17 2026 05:13:28 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
