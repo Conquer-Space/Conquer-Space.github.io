@@ -120,6 +120,12 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ac15e968484ee59bcf5e2bb5a112ba258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4ad94ce7d654c21c39aab5b0d75afcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html#ac4ad94ce7d654c21c39aab5b0d75afcc">ResetSelection</a> ()</td></tr>
 <tr class="separator:ac4ad94ce7d654c21c39aab5b0d75afcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a490703e51f40b7ec977c3ff1c7c20c18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html#a490703e51f40b7ec977c3ff1c7c20c18">SaveRecipes</a> ()</td></tr>
+<tr class="separator:a490703e51f40b7ec977c3ff1c7c20c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79ebcac2f1c70df82a3ddc5e2ce68b81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html#a79ebcac2f1c70df82a3ddc5e2ce68b81">InitializeRecipeFiles</a> ()</td></tr>
+<tr class="separator:a79ebcac2f1c70df82a3ddc5e2ce68b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5df4fcc1ca06b733f6c5057a81fed42d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html#a5df4fcc1ca06b733f6c5057a81fed42d">CreateRecipe</a> ()</td></tr>
+<tr class="separator:a5df4fcc1ca06b733f6c5057a81fed42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -131,6 +137,14 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a9c0df2d5a20c2174384b36e7b079fe2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8816c9ccba61e8002dcadb6afd5b872"><td class="memItemLeft" align="right" valign="top">const ImVec4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html#ad8816c9ccba61e8002dcadb6afd5b872">id_copy_color</a> = ImVec4(0.921568627f, 0.392156863f, 0.203921569f, 1.f)</td></tr>
 <tr class="separator:ad8816c9ccba61e8002dcadb6afd5b872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe4ca306c83de83bb5c3608002d7f14d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html#afe4ca306c83de83bb5c3608002d7f14d">new_input_good_idx</a> = 0</td></tr>
+<tr class="separator:afe4ca306c83de83bb5c3608002d7f14d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb9e168a58fb9da8e4ba3f95d80fc0d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html#abdb9e168a58fb9da8e4ba3f95d80fc0d">new_capital_good_idx</a> = 0</td></tr>
+<tr class="separator:abdb9e168a58fb9da8e4ba3f95d80fc0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7824186848ec68b6b721770dd1274f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html#ae7824186848ec68b6b721770dd1274f8">new_labor_job_idx</a> = 0</td></tr>
+<tr class="separator:ae7824186848ec68b6b721770dd1274f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaff270585cea3d5db93c85098d20fc21"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html#aaff270585cea3d5db93c85098d20fc21">new_output_good_idx</a> = 0</td></tr>
+<tr class="separator:aaff270585cea3d5db93c85098d20fc21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -166,6 +180,31 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5df4fcc1ca06b733f6c5057a81fed42d" name="a5df4fcc1ca06b733f6c5057a81fed42d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5df4fcc1ca06b733f6c5057a81fed42d">&#9670;&nbsp;</a></span>CreateRecipe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysRecipeViewer::CreateRecipe </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8695d9675ab465966e89beeafdb143a5" name="a8695d9675ab465966e89beeafdb143a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8695d9675ab465966e89beeafdb143a5">&#9670;&nbsp;</a></span>DoUI()</h2>
 
@@ -249,6 +288,31 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a79ebcac2f1c70df82a3ddc5e2ce68b81" name="a79ebcac2f1c70df82a3ddc5e2ce68b81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79ebcac2f1c70df82a3ddc5e2ce68b81">&#9670;&nbsp;</a></span>InitializeRecipeFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysRecipeViewer::InitializeRecipeFiles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac15e968484ee59bcf5e2bb5a112ba258" name="ac15e968484ee59bcf5e2bb5a112ba258"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac15e968484ee59bcf5e2bb5a112ba258">&#9670;&nbsp;</a></span>RecipeViewerRight()</h2>
 
@@ -299,6 +363,31 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a490703e51f40b7ec977c3ff1c7c20c18" name="a490703e51f40b7ec977c3ff1c7c20c18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a490703e51f40b7ec977c3ff1c7c20c18">&#9670;&nbsp;</a></span>SaveRecipes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::SysRecipeViewer::SaveRecipes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a9c0df2d5a20c2174384b36e7b079fe2c" name="a9c0df2d5a20c2174384b36e7b079fe2c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c0df2d5a20c2174384b36e7b079fe2c">&#9670;&nbsp;</a></span>expected_production</h2>
@@ -333,6 +422,94 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const ImVec4 cqsp::client::systems::SysRecipeViewer::id_copy_color = ImVec4(0.921568627f, 0.392156863f, 0.203921569f, 1.f)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abdb9e168a58fb9da8e4ba3f95d80fc0d" name="abdb9e168a58fb9da8e4ba3f95d80fc0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb9e168a58fb9da8e4ba3f95d80fc0d">&#9670;&nbsp;</a></span>new_capital_good_idx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::client::systems::SysRecipeViewer::new_capital_good_idx = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe4ca306c83de83bb5c3608002d7f14d" name="afe4ca306c83de83bb5c3608002d7f14d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe4ca306c83de83bb5c3608002d7f14d">&#9670;&nbsp;</a></span>new_input_good_idx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::client::systems::SysRecipeViewer::new_input_good_idx = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7824186848ec68b6b721770dd1274f8" name="ae7824186848ec68b6b721770dd1274f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7824186848ec68b6b721770dd1274f8">&#9670;&nbsp;</a></span>new_labor_job_idx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::client::systems::SysRecipeViewer::new_labor_job_idx = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaff270585cea3d5db93c85098d20fc21" name="aaff270585cea3d5db93c85098d20fc21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaff270585cea3d5db93c85098d20fc21">&#9670;&nbsp;</a></span>new_output_good_idx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::client::systems::SysRecipeViewer::new_output_good_idx = 0</td>
         </tr>
       </table>
   </td>
@@ -395,7 +572,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 17 2026 05:13:28 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue May 26 2026 09:19:00 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
