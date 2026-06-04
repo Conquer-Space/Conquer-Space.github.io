@@ -161,6 +161,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a929342a967f80999dbf0117212a130bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14ac728e02cb8e9ec60c826d99fb66da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a14ac728e02cb8e9ec60c826d99fb66da">SetIcon</a> (std::string_view path)</td></tr>
 <tr class="separator:a14ac728e02cb8e9ec60c826d99fb66da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f084a8856e3b738aae3be3129d35964"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a2f084a8856e3b738aae3be3129d35964">RmlUiCapturedKeyboardInput</a> () const override</td></tr>
+<tr class="separator:a2f084a8856e3b738aae3be3129d35964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c711161d1f53f8d9589ebf76252e26f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a3c711161d1f53f8d9589ebf76252e26f">RmlUiCapturedMouseInput</a> () const override</td></tr>
+<tr class="separator:a3c711161d1f53f8d9589ebf76252e26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67a180eea0f7813c6f5e2beca7f4c07d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a67a180eea0f7813c6f5e2beca7f4c07d">RmlUiCapturedTextInput</a> () const override</td></tr>
+<tr class="separator:a67a180eea0f7813c6f5e2beca7f4c07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -213,6 +219,12 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ac807746d9b4e7cb46c4506b2efbf41e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe01ea92d5830c530cd495df9071491c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#afe01ea92d5830c530cd495df9071491c">m_window_height</a></td></tr>
 <tr class="separator:afe01ea92d5830c530cd495df9071491c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e7fce1fa256c85580eee6ffde89abd1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a1e7fce1fa256c85580eee6ffde89abd1">rmlui_keyboard_processed</a> = false</td></tr>
+<tr class="separator:a1e7fce1fa256c85580eee6ffde89abd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3efce181badf28579acd1cd0b0444a30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a3efce181badf28579acd1cd0b0444a30">rmlui_mouse_processed</a> = false</td></tr>
+<tr class="separator:a3efce181badf28579acd1cd0b0444a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a218cca41df169d9091a92ddf035ece63"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a218cca41df169d9091a92ddf035ece63">rmlui_text_processed</a> = false</td></tr>
+<tr class="separator:a218cca41df169d9091a92ddf035ece63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a25c1247d1c1df65bd922d2a192b9b8ca" name="a25c1247d1c1df65bd922d2a192b9b8ca"></a>
@@ -331,9 +343,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void cqsp::engine::GLWindow::CharacterCallback </td>
@@ -353,11 +362,6 @@ Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -950,9 +954,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void cqsp::engine::GLWindow::MouseEnterCallback </td>
@@ -972,11 +973,6 @@ Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -1013,9 +1009,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void cqsp::engine::GLWindow::MousePositionCallback </td>
@@ -1041,11 +1034,6 @@ Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -1079,14 +1067,92 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acc6809f138610f54e1cecfc791c3e4dd" name="acc6809f138610f54e1cecfc791c3e4dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc6809f138610f54e1cecfc791c3e4dd">&#9670;&nbsp;</a></span>ScrollCallback()</h2>
+<a id="a2f084a8856e3b738aae3be3129d35964" name="a2f084a8856e3b738aae3be3129d35964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f084a8856e3b738aae3be3129d35964">&#9670;&nbsp;</a></span>RmlUiCapturedKeyboardInput()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::engine::GLWindow::RmlUiCapturedKeyboardInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classcqsp_1_1engine_1_1_window.html#a00e71e14c93496f0d40d5fcec304e41e">cqsp::engine::Window</a>.</p>
+
+</div>
+</div>
+<a id="a3c711161d1f53f8d9589ebf76252e26f" name="a3c711161d1f53f8d9589ebf76252e26f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c711161d1f53f8d9589ebf76252e26f">&#9670;&nbsp;</a></span>RmlUiCapturedMouseInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::engine::GLWindow::RmlUiCapturedMouseInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classcqsp_1_1engine_1_1_window.html#a02c39c820e07a4164d7087b985eeb5f6">cqsp::engine::Window</a>.</p>
+
+</div>
+</div>
+<a id="a67a180eea0f7813c6f5e2beca7f4c07d" name="a67a180eea0f7813c6f5e2beca7f4c07d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67a180eea0f7813c6f5e2beca7f4c07d">&#9670;&nbsp;</a></span>RmlUiCapturedTextInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::engine::GLWindow::RmlUiCapturedTextInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classcqsp_1_1engine_1_1_window.html#a761bd333120f2a336c96fe4dc6d17891">cqsp::engine::Window</a>.</p>
+
+</div>
+</div>
+<a id="acc6809f138610f54e1cecfc791c3e4dd" name="acc6809f138610f54e1cecfc791c3e4dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc6809f138610f54e1cecfc791c3e4dd">&#9670;&nbsp;</a></span>ScrollCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void cqsp::engine::GLWindow::ScrollCallback </td>
@@ -1112,11 +1178,6 @@ Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -1719,6 +1780,72 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1e7fce1fa256c85580eee6ffde89abd1" name="a1e7fce1fa256c85580eee6ffde89abd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e7fce1fa256c85580eee6ffde89abd1">&#9670;&nbsp;</a></span>rmlui_keyboard_processed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::engine::GLWindow::rmlui_keyboard_processed = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3efce181badf28579acd1cd0b0444a30" name="a3efce181badf28579acd1cd0b0444a30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3efce181badf28579acd1cd0b0444a30">&#9670;&nbsp;</a></span>rmlui_mouse_processed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::engine::GLWindow::rmlui_mouse_processed = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a218cca41df169d9091a92ddf035ece63" name="a218cca41df169d9091a92ddf035ece63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a218cca41df169d9091a92ddf035ece63">&#9670;&nbsp;</a></span>rmlui_text_processed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cqsp::engine::GLWindow::rmlui_text_processed = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a14288689eeb4b3cab2ba7aa2a82a3546" name="a14288689eeb4b3cab2ba7aa2a82a3546"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a14288689eeb4b3cab2ba7aa2a82a3546">&#9670;&nbsp;</a></span>window</h2>
 
@@ -1762,7 +1889,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri May 29 2026 08:38:31 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jun 4 2026 08:55:30 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

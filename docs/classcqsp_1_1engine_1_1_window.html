@@ -144,6 +144,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acaff53caca37624524a00437c48d1d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0585e018589b2177a42d8f9d6f3bc55c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_window.html#a0585e018589b2177a42d8f9d6f3bc55c">SetIcon</a> (std::string_view path)=0</td></tr>
 <tr class="separator:a0585e018589b2177a42d8f9d6f3bc55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e71e14c93496f0d40d5fcec304e41e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_window.html#a00e71e14c93496f0d40d5fcec304e41e">RmlUiCapturedKeyboardInput</a> () const =0</td></tr>
+<tr class="separator:a00e71e14c93496f0d40d5fcec304e41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02c39c820e07a4164d7087b985eeb5f6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_window.html#a02c39c820e07a4164d7087b985eeb5f6">RmlUiCapturedMouseInput</a> () const =0</td></tr>
+<tr class="separator:a02c39c820e07a4164d7087b985eeb5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a761bd333120f2a336c96fe4dc6d17891"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_window.html#a761bd333120f2a336c96fe4dc6d17891">RmlUiCapturedTextInput</a> () const =0</td></tr>
+<tr class="separator:a761bd333120f2a336c96fe4dc6d17891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The window handles the initialization of the callbacks, and all the input and output. It also manages all the pointers for the windows. </p>
@@ -709,6 +715,87 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a00e71e14c93496f0d40d5fcec304e41e" name="a00e71e14c93496f0d40d5fcec304e41e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e71e14c93496f0d40d5fcec304e41e">&#9670;&nbsp;</a></span>RmlUiCapturedKeyboardInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool cqsp::engine::Window::RmlUiCapturedKeyboardInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a2f084a8856e3b738aae3be3129d35964">cqsp::engine::GLWindow</a>.</p>
+
+</div>
+</div>
+<a id="a02c39c820e07a4164d7087b985eeb5f6" name="a02c39c820e07a4164d7087b985eeb5f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02c39c820e07a4164d7087b985eeb5f6">&#9670;&nbsp;</a></span>RmlUiCapturedMouseInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool cqsp::engine::Window::RmlUiCapturedMouseInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a3c711161d1f53f8d9589ebf76252e26f">cqsp::engine::GLWindow</a>.</p>
+
+</div>
+</div>
+<a id="a761bd333120f2a336c96fe4dc6d17891" name="a761bd333120f2a336c96fe4dc6d17891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a761bd333120f2a336c96fe4dc6d17891">&#9670;&nbsp;</a></span>RmlUiCapturedTextInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool cqsp::engine::Window::RmlUiCapturedTextInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a67a180eea0f7813c6f5e2beca7f4c07d">cqsp::engine::GLWindow</a>.</p>
+
+</div>
+</div>
 <a id="aaa8f9dbb41715219f3f109ad6ebb8ed8" name="aaa8f9dbb41715219f3f109ad6ebb8ed8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaa8f9dbb41715219f3f109ad6ebb8ed8">&#9670;&nbsp;</a></span>SetCallbacks()</h2>
 
@@ -890,7 +977,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri May 29 2026 08:38:31 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Thu Jun 4 2026 08:55:30 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
