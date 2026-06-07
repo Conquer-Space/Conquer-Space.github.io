@@ -71,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcqsp_1_1client_1_1systems_1_1_star_system_controller-members.html">List of all members</a>  </div>
@@ -119,6 +120,14 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9167ee093a39557f100c064d50cc723b"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a9167ee093a39557f100c064d50cc723b">m_viewing_entity</a> = entt::null</td></tr>
 <tr class="separator:a9167ee093a39557f100c064d50cc723b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:aa8cf9dbeef75dc423391ced0261aadb7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aa8cf9dbeef75dc423391ced0261aadb7">CameraState</a> { <a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aa8cf9dbeef75dc423391ced0261aadb7aad78937c0db1b24c0a35568247661659">FreeCamera</a>
+, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aa8cf9dbeef75dc423391ced0261aadb7a9e18a196e6feb296b35fe10372e409b0">PlanetIntertial</a>
+, <a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aa8cf9dbeef75dc423391ced0261aadb7af8b9eb0f8b3711d2d844a2c88f0b0e2a">PlanetFixed</a>
+ }</td></tr>
+<tr class="separator:aa8cf9dbeef75dc423391ced0261aadb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a057dbd4011a6ca14ae8191a852be42a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a057dbd4011a6ca14ae8191a852be42a9">SeeEntity</a> ()</td></tr>
@@ -139,6 +148,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a92766f1173892443f3e8378f5cc111e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91392df66961b9aa05405cfad6e5a928"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a91392df66961b9aa05405cfad6e5a928">FocusCityView</a> ()</td></tr>
 <tr class="separator:a91392df66961b9aa05405cfad6e5a928"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5409ad35d0869b407a9ad5675258d089"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a5409ad35d0869b407a9ad5675258d089">HandleCameraMovement</a> (float delta_time)</td></tr>
+<tr class="separator:a5409ad35d0869b407a9ad5675258d089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d5aa98f99ce5748ac3fb6454f05f749"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a6d5aa98f99ce5748ac3fb6454f05f749">CalculateCityPositions</a> (entt::entity entity)</td></tr>
 <tr class="memdesc:a6d5aa98f99ce5748ac3fb6454f05f749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate offset for all cities on planet if they exist.  <a href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a6d5aa98f99ce5748ac3fb6454f05f749">More...</a><br /></td></tr>
 <tr class="separator:a6d5aa98f99ce5748ac3fb6454f05f749"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,37 +232,37 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ad553c02a5c7aa4e9551a858d71d50c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cca9fc25ae045c332a8f641d2e2e916"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a1cca9fc25ae045c332a8f641d2e2e916">selected_city</a> = entt::null</td></tr>
 <tr class="separator:a1cca9fc25ae045c332a8f641d2e2e916"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d6cf70ed134efd034577563eb5ffcdf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a1d6cf70ed134efd034577563eb5ffcdf">previous_mouseX</a></td></tr>
+<tr class="memitem:a1d6cf70ed134efd034577563eb5ffcdf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a1d6cf70ed134efd034577563eb5ffcdf">previous_mouseX</a> = 0</td></tr>
 <tr class="separator:a1d6cf70ed134efd034577563eb5ffcdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf9a7ec434605c5835cc73d1d1cd73d2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#adf9a7ec434605c5835cc73d1d1cd73d2">previous_mouseY</a></td></tr>
+<tr class="memitem:adf9a7ec434605c5835cc73d1d1cd73d2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#adf9a7ec434605c5835cc73d1d1cd73d2">previous_mouseY</a> = 0</td></tr>
 <tr class="separator:adf9a7ec434605c5835cc73d1d1cd73d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff0ef4491e6aeb8d44652cd8f3ecdde8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aff0ef4491e6aeb8d44652cd8f3ecdde8">tex_x</a></td></tr>
+<tr class="memitem:aff0ef4491e6aeb8d44652cd8f3ecdde8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aff0ef4491e6aeb8d44652cd8f3ecdde8">tex_x</a> = 0</td></tr>
 <tr class="memdesc:aff0ef4491e6aeb8d44652cd8f3ecdde8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debugging mouse position  <a href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aff0ef4491e6aeb8d44652cd8f3ecdde8">More...</a><br /></td></tr>
 <tr class="separator:aff0ef4491e6aeb8d44652cd8f3ecdde8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac12afdb2b63b362a74b9b7476a8529c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ac12afdb2b63b362a74b9b7476a8529c7">tex_y</a></td></tr>
+<tr class="memitem:ac12afdb2b63b362a74b9b7476a8529c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ac12afdb2b63b362a74b9b7476a8529c7">tex_y</a> = 0</td></tr>
 <tr class="separator:ac12afdb2b63b362a74b9b7476a8529c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd5b79bad21060dbcab4428d2ff87448"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#abd5b79bad21060dbcab4428d2ff87448">tex_r</a></td></tr>
+<tr class="memitem:abd5b79bad21060dbcab4428d2ff87448"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#abd5b79bad21060dbcab4428d2ff87448">tex_r</a> = 0</td></tr>
 <tr class="memdesc:abd5b79bad21060dbcab4428d2ff87448"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debugging colors  <a href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#abd5b79bad21060dbcab4428d2ff87448">More...</a><br /></td></tr>
 <tr class="separator:abd5b79bad21060dbcab4428d2ff87448"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf44a9c1b523607325719fda34ea65c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#abf44a9c1b523607325719fda34ea65c6">tex_g</a></td></tr>
+<tr class="memitem:abf44a9c1b523607325719fda34ea65c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#abf44a9c1b523607325719fda34ea65c6">tex_g</a> = 0</td></tr>
 <tr class="separator:abf44a9c1b523607325719fda34ea65c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbaddf5c6bfaf1b794a2df7315ad7d43"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#abbaddf5c6bfaf1b794a2df7315ad7d43">tex_b</a></td></tr>
+<tr class="memitem:abbaddf5c6bfaf1b794a2df7315ad7d43"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#abbaddf5c6bfaf1b794a2df7315ad7d43">tex_b</a> = 0</td></tr>
 <tr class="separator:abbaddf5c6bfaf1b794a2df7315ad7d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5e626d41c3ebf44abcc546f3d0db1e7"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aa5e626d41c3ebf44abcc546f3d0db1e7">hovering_province</a></td></tr>
 <tr class="separator:aa5e626d41c3ebf44abcc546f3d0db1e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45b198e3a290b804f8b54c09fbae3840"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a45b198e3a290b804f8b54c09fbae3840">hovering_planet</a></td></tr>
+<tr class="memitem:a45b198e3a290b804f8b54c09fbae3840"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a45b198e3a290b804f8b54c09fbae3840">hovering_planet</a> = entt::null</td></tr>
 <tr class="separator:a45b198e3a290b804f8b54c09fbae3840"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dbed67aee6263f22563406f18d8108b"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a8dbed67aee6263f22563406f18d8108b">hovering_country</a></td></tr>
+<tr class="memitem:a8dbed67aee6263f22563406f18d8108b"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a8dbed67aee6263f22563406f18d8108b">hovering_country</a> = entt::null</td></tr>
 <tr class="separator:a8dbed67aee6263f22563406f18d8108b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98520d5d7f580fb86ae83909d16434d7"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a98520d5d7f580fb86ae83909d16434d7">selected_province</a></td></tr>
+<tr class="memitem:a98520d5d7f580fb86ae83909d16434d7"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a98520d5d7f580fb86ae83909d16434d7">selected_province</a> = entt::null</td></tr>
 <tr class="separator:a98520d5d7f580fb86ae83909d16434d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5660149c9f098439a99d7a659a4e65b8"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a5660149c9f098439a99d7a659a4e65b8">selected_country</a></td></tr>
+<tr class="memitem:a5660149c9f098439a99d7a659a4e65b8"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a5660149c9f098439a99d7a659a4e65b8">selected_country</a> = entt::null</td></tr>
 <tr class="separator:a5660149c9f098439a99d7a659a4e65b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaeb276ecb07387afd4c6dbbee54ccaba"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aaeb276ecb07387afd4c6dbbee54ccaba">mouse_on_object_position</a></td></tr>
+<tr class="memitem:aaeb276ecb07387afd4c6dbbee54ccaba"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aaeb276ecb07387afd4c6dbbee54ccaba">mouse_on_object_position</a> = glm::vec3(0)</td></tr>
 <tr class="separator:aaeb276ecb07387afd4c6dbbee54ccaba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7842c706bba131adfed8d3970a0c500"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ac7842c706bba131adfed8d3970a0c500">is_rendering_founding_city</a></td></tr>
+<tr class="memitem:ac7842c706bba131adfed8d3970a0c500"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ac7842c706bba131adfed8d3970a0c500">is_rendering_founding_city</a> = false</td></tr>
 <tr class="separator:ac7842c706bba131adfed8d3970a0c500"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98499a4182fa10c0caedc672bf2e5a93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a98499a4182fa10c0caedc672bf2e5a93">is_founding_city</a></td></tr>
+<tr class="memitem:a98499a4182fa10c0caedc672bf2e5a93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a98499a4182fa10c0caedc672bf2e5a93">is_founding_city</a> = false</td></tr>
 <tr class="separator:a98499a4182fa10c0caedc672bf2e5a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a305e02880d885dd4ca34a19626fbcccd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a305e02880d885dd4ca34a19626fbcccd">focus_on_city</a> = false</td></tr>
 <tr class="separator:a305e02880d885dd4ca34a19626fbcccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,7 +270,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a30f8fdd07fcf4aadfe3e675e116920ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1834e78392f6289841aeb2fd7d7a68e"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#ae1834e78392f6289841aeb2fd7d7a68e">CAMERA_MOVEMENT_SPEED</a> = 30.f / 40.f</td></tr>
 <tr class="separator:ae1834e78392f6289841aeb2fd7d7a68e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae7ce9f65123704c22fe7dd9f993fbdc"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aae7ce9f65123704c22fe7dd9f993fbdc">PAN_SPEED</a> = 4.0f</td></tr>
+<tr class="memitem:aae7ce9f65123704c22fe7dd9f993fbdc"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aae7ce9f65123704c22fe7dd9f993fbdc">PAN_SPEED</a> = 2.0f</td></tr>
 <tr class="separator:aae7ce9f65123704c22fe7dd9f993fbdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42c93104f6b3977ee3b6b962121b7a92"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a42c93104f6b3977ee3b6b962121b7a92">SCROLL_SENSITIVITY</a> = 3.f / 33.f</td></tr>
 <tr class="separator:a42c93104f6b3977ee3b6b962121b7a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -279,7 +290,37 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a3cc0673e0c2dda749b98d04cc6b82a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50e456ea04601f32331d1275c0f3ddda"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a50e456ea04601f32331d1275c0f3ddda">last_hovered_province</a> = entt::null</td></tr>
 <tr class="separator:a50e456ea04601f32331d1275c0f3ddda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15df003da35f3f094c1f116fc7c9fc57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aa8cf9dbeef75dc423391ced0261aadb7">CameraState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#a15df003da35f3f094c1f116fc7c9fc57">camera_state</a> = CameraState::FreeCamera</td></tr>
+<tr class="separator:a15df003da35f3f094c1f116fc7c9fc57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="aa8cf9dbeef75dc423391ced0261aadb7" name="aa8cf9dbeef75dc423391ced0261aadb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8cf9dbeef75dc423391ced0261aadb7">&#9670;&nbsp;</a></span>CameraState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aa8cf9dbeef75dc423391ced0261aadb7">cqsp::client::systems::StarSystemController::CameraState</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa8cf9dbeef75dc423391ced0261aadb7aad78937c0db1b24c0a35568247661659" name="aa8cf9dbeef75dc423391ced0261aadb7aad78937c0db1b24c0a35568247661659"></a>FreeCamera&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa8cf9dbeef75dc423391ced0261aadb7a9e18a196e6feb296b35fe10372e409b0" name="aa8cf9dbeef75dc423391ced0261aadb7a9e18a196e6feb296b35fe10372e409b0"></a>PlanetIntertial&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa8cf9dbeef75dc423391ced0261aadb7af8b9eb0f8b3711d2d844a2c88f0b0e2a" name="aa8cf9dbeef75dc423391ced0261aadb7af8b9eb0f8b3711d2d844a2c88f0b0e2a"></a>PlanetFixed&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aca8f8aaa630c0ade120b51bdde80e4b3" name="aca8f8aaa630c0ade120b51bdde80e4b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca8f8aaa630c0ade120b51bdde80e4b3">&#9670;&nbsp;</a></span>StarSystemController()</h2>
@@ -1198,6 +1239,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5409ad35d0869b407a9ad5675258d089" name="a5409ad35d0869b407a9ad5675258d089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5409ad35d0869b407a9ad5675258d089">&#9670;&nbsp;</a></span>HandleCameraMovement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cqsp::client::systems::StarSystemController::HandleCameraMovement </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>delta_time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4fadaec9f3f7563ad31bc2e860e2f8e6" name="a4fadaec9f3f7563ad31bc2e860e2f8e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4fadaec9f3f7563ad31bc2e860e2f8e6">&#9670;&nbsp;</a></span>HandleHoverTooltip()</h2>
 
@@ -1832,6 +1899,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a15df003da35f3f094c1f116fc7c9fc57" name="a15df003da35f3f094c1f116fc7c9fc57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15df003da35f3f094c1f116fc7c9fc57">&#9670;&nbsp;</a></span>camera_state</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aa8cf9dbeef75dc423391ced0261aadb7">CameraState</a> cqsp::client::systems::StarSystemController::camera_state = CameraState::FreeCamera</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a53dd81c0ee8e7ccae170d075fbddd363" name="a53dd81c0ee8e7ccae170d075fbddd363"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a53dd81c0ee8e7ccae170d075fbddd363">&#9670;&nbsp;</a></span>DEFAULT_PROVINCE_APLHA</h2>
 
@@ -1908,7 +1997,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">entt::entity cqsp::client::systems::StarSystemController::hovering_country</td>
+          <td class="memname">entt::entity cqsp::client::systems::StarSystemController::hovering_country = entt::null</td>
         </tr>
       </table>
   </td>
@@ -1930,7 +2019,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">entt::entity cqsp::client::systems::StarSystemController::hovering_planet</td>
+          <td class="memname">entt::entity cqsp::client::systems::StarSystemController::hovering_planet = entt::null</td>
         </tr>
       </table>
   </td>
@@ -1975,7 +2064,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool cqsp::client::systems::StarSystemController::is_founding_city</td>
+          <td class="memname">bool cqsp::client::systems::StarSystemController::is_founding_city = false</td>
         </tr>
       </table>
   </td>
@@ -1997,7 +2086,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool cqsp::client::systems::StarSystemController::is_rendering_founding_city</td>
+          <td class="memname">bool cqsp::client::systems::StarSystemController::is_rendering_founding_city = false</td>
         </tr>
       </table>
   </td>
@@ -2099,7 +2188,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">glm::vec3 cqsp::client::systems::StarSystemController::mouse_on_object_position</td>
+          <td class="memname">glm::vec3 cqsp::client::systems::StarSystemController::mouse_on_object_position = glm::vec3(0)</td>
         </tr>
       </table>
   </td>
@@ -2122,7 +2211,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const float cqsp::client::systems::StarSystemController::PAN_SPEED = 4.0f</td>
+          <td class="memname">const float cqsp::client::systems::StarSystemController::PAN_SPEED = 2.0f</td>
         </tr>
       </table>
   </td>
@@ -2166,7 +2255,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double cqsp::client::systems::StarSystemController::previous_mouseX</td>
+          <td class="memname">double cqsp::client::systems::StarSystemController::previous_mouseX = 0</td>
         </tr>
       </table>
   </td>
@@ -2188,7 +2277,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double cqsp::client::systems::StarSystemController::previous_mouseY</td>
+          <td class="memname">double cqsp::client::systems::StarSystemController::previous_mouseY = 0</td>
         </tr>
       </table>
   </td>
@@ -2276,7 +2365,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">entt::entity cqsp::client::systems::StarSystemController::selected_country</td>
+          <td class="memname">entt::entity cqsp::client::systems::StarSystemController::selected_country = entt::null</td>
         </tr>
       </table>
   </td>
@@ -2298,7 +2387,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">entt::entity cqsp::client::systems::StarSystemController::selected_province</td>
+          <td class="memname">entt::entity cqsp::client::systems::StarSystemController::selected_province = entt::null</td>
         </tr>
       </table>
   </td>
@@ -2373,7 +2462,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">        core::components::types::SurfaceCoordinate(0, 0)</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad553c02a5c7aa4e9551a858d71d50c02" name="ad553c02a5c7aa4e9551a858d71d50c02"></a>
@@ -2408,7 +2499,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int cqsp::client::systems::StarSystemController::tex_b</td>
+          <td class="memname">int cqsp::client::systems::StarSystemController::tex_b = 0</td>
         </tr>
       </table>
   </td>
@@ -2430,7 +2521,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int cqsp::client::systems::StarSystemController::tex_g</td>
+          <td class="memname">int cqsp::client::systems::StarSystemController::tex_g = 0</td>
         </tr>
       </table>
   </td>
@@ -2452,7 +2543,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int cqsp::client::systems::StarSystemController::tex_r</td>
+          <td class="memname">int cqsp::client::systems::StarSystemController::tex_r = 0</td>
         </tr>
       </table>
   </td>
@@ -2476,7 +2567,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int cqsp::client::systems::StarSystemController::tex_x</td>
+          <td class="memname">int cqsp::client::systems::StarSystemController::tex_x = 0</td>
         </tr>
       </table>
   </td>
@@ -2500,7 +2591,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int cqsp::client::systems::StarSystemController::tex_y</td>
+          <td class="memname">int cqsp::client::systems::StarSystemController::tex_y = 0</td>
         </tr>
       </table>
   </td>
@@ -2541,7 +2632,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 4 2026 08:55:29 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Jun 7 2026 10:52:28 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

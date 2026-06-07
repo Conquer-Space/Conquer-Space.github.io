@@ -197,6 +197,14 @@ Private Attributes</h2></td></tr>
 <tr class="separator:af456c7430074c2c75b0ae21cddf6103a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d45d7a1e5d15037ed2c014bd8c62eac"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a7d45d7a1e5d15037ed2c014bd8c62eac">m_mouse_y_on_pressed</a></td></tr>
 <tr class="separator:a7d45d7a1e5d15037ed2c014bd8c62eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcc09e9dc3f216d7d7dcdc6a52ceb77c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#abcc09e9dc3f216d7d7dcdc6a52ceb77c">m_mouse_button_last_pressed</a></td></tr>
+<tr class="separator:abcc09e9dc3f216d7d7dcdc6a52ceb77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac470f253bb0228908f04c8c4dae649cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#ac470f253bb0228908f04c8c4dae649cf">m_mouse_button_current_pressed</a></td></tr>
+<tr class="separator:ac470f253bb0228908f04c8c4dae649cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf606c2615201b07dc27d1e20a799b1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#adcf606c2615201b07dc27d1e20a799b1">m_mouse_x_last_clicked</a></td></tr>
+<tr class="separator:adcf606c2615201b07dc27d1e20a799b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1333858c06d686433df60c3a71bb32a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#ab1333858c06d686433df60c3a71bb32a">m_mouse_y_last_clicked</a></td></tr>
+<tr class="separator:ab1333858c06d686433df60c3a71bb32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72f20539f311ec1edc6f8307d57eee41"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a72f20539f311ec1edc6f8307d57eee41">m_mouse_keys_held</a> [GLFW_MOUSE_BUTTON_LAST] = {false}</td></tr>
 <tr class="separator:a72f20539f311ec1edc6f8307d57eee41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75efd610a76dd5a4e042950d4f62b431"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1engine_1_1_g_l_window.html#a75efd610a76dd5a4e042950d4f62b431">m_mouse_keys_released</a> [GLFW_MOUSE_BUTTON_LAST] = {false}</td></tr>
@@ -801,7 +809,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1494,6 +1502,50 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac470f253bb0228908f04c8c4dae649cf" name="ac470f253bb0228908f04c8c4dae649cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac470f253bb0228908f04c8c4dae649cf">&#9670;&nbsp;</a></span>m_mouse_button_current_pressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::engine::GLWindow::m_mouse_button_current_pressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcc09e9dc3f216d7d7dcdc6a52ceb77c" name="abcc09e9dc3f216d7d7dcdc6a52ceb77c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcc09e9dc3f216d7d7dcdc6a52ceb77c">&#9670;&nbsp;</a></span>m_mouse_button_last_pressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cqsp::engine::GLWindow::m_mouse_button_last_pressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a72f20539f311ec1edc6f8307d57eee41" name="a72f20539f311ec1edc6f8307d57eee41"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72f20539f311ec1edc6f8307d57eee41">&#9670;&nbsp;</a></span>m_mouse_keys_held</h2>
 
@@ -1648,6 +1700,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="adcf606c2615201b07dc27d1e20a799b1" name="adcf606c2615201b07dc27d1e20a799b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf606c2615201b07dc27d1e20a799b1">&#9670;&nbsp;</a></span>m_mouse_x_last_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::engine::GLWindow::m_mouse_x_last_clicked</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af456c7430074c2c75b0ae21cddf6103a" name="af456c7430074c2c75b0ae21cddf6103a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af456c7430074c2c75b0ae21cddf6103a">&#9670;&nbsp;</a></span>m_mouse_x_on_pressed</h2>
 
@@ -1681,6 +1755,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">double cqsp::engine::GLWindow::m_mouse_y</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1333858c06d686433df60c3a71bb32a" name="ab1333858c06d686433df60c3a71bb32a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1333858c06d686433df60c3a71bb32a">&#9670;&nbsp;</a></span>m_mouse_y_last_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::engine::GLWindow::m_mouse_y_last_clicked</td>
         </tr>
       </table>
   </td>
@@ -1889,7 +1985,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 4 2026 08:55:30 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Sun Jun 7 2026 10:52:29 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
