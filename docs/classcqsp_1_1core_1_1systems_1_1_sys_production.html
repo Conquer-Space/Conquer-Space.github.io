@@ -109,12 +109,10 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a566945b9d33edb233c40e688278fcde7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_production.html#a566945b9d33edb233c40e688278fcde7">ProcessIndustries</a> (<a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;node)</td></tr>
 <tr class="memdesc:a566945b9d33edb233c40e688278fcde7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the production cycle Consumes material from the market based on supply and then sells the manufactured goods on the market.  <a href="classcqsp_1_1core_1_1systems_1_1_sys_production.html#a566945b9d33edb233c40e688278fcde7">More...</a><br /></td></tr>
 <tr class="separator:a566945b9d33edb233c40e688278fcde7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c617205016e5a101ef8c55742bed5d0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_production.html#a7c617205016e5a101ef8c55742bed5d0">ProcessIndustry</a> (<a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;industry_node, <a class="el" href="structcqsp_1_1core_1_1components_1_1_market.html">components::Market</a> &amp;market, double infra_cost)</td></tr>
-<tr class="separator:a7c617205016e5a101ef8c55742bed5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecec5317d956cad2e008023db51503bd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_production.html#aecec5317d956cad2e008023db51503bd">ProcessIndustry</a> (<a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;industry_node, <a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;market_node, <a class="el" href="structcqsp_1_1core_1_1components_1_1_market.html">components::Market</a> &amp;market, double infra_cost)</td></tr>
+<tr class="separator:aecec5317d956cad2e008023db51503bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1ba91772aba818b234406c5458f3bd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_production.html#ac1ba91772aba818b234406c5458f3bd9">ScaleConstruction</a> (<a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;industry_node, double pl_ratio)</td></tr>
 <tr class="separator:ac1ba91772aba818b234406c5458f3bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a198e97381e501ed4141f1457ffc0adc6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_production.html#a198e97381e501ed4141f1457ffc0adc6">HandleConstruction</a> (<a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;industry_node, <a class="el" href="structcqsp_1_1core_1_1components_1_1_market.html">components::Market</a> &amp;market)</td></tr>
-<tr class="separator:a198e97381e501ed4141f1457ffc0adc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cf6071f8819ee925101bf750159fa06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_production.html#a8cf6071f8819ee925101bf750159fa06">IndustryFsm</a> ()</td></tr>
 <tr class="separator:a8cf6071f8819ee925101bf750159fa06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affdc3cbf579ec21e622375fa0abd5cde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a9fb44a9b257a7f7d5858be2d7dd5feee">components::IndustryState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcqsp_1_1core_1_1systems_1_1_sys_production.html#affdc3cbf579ec21e622375fa0abd5cde">SteadyState</a> (entt::entity industry, <a class="el" href="structcqsp_1_1core_1_1components_1_1_production_unit.html">components::ProductionUnit</a> &amp;production)</td></tr>
@@ -314,43 +312,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a198e97381e501ed4141f1457ffc0adc6" name="a198e97381e501ed4141f1457ffc0adc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a198e97381e501ed4141f1457ffc0adc6">&#9670;&nbsp;</a></span>HandleConstruction()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool cqsp::core::systems::SysProduction::HandleConstruction </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;&#160;</td>
-          <td class="paramname"><em>industry_node</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structcqsp_1_1core_1_1components_1_1_market.html">components::Market</a> &amp;&#160;</td>
-          <td class="paramname"><em>market</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Returns true if we should continue with production false if we are constructing something </p>
-
-</div>
-</div>
 <a id="a8cf6071f8819ee925101bf750159fa06" name="a8cf6071f8819ee925101bf750159fa06"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8cf6071f8819ee925101bf750159fa06">&#9670;&nbsp;</a></span>IndustryFsm()</h2>
 
@@ -512,8 +473,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a7c617205016e5a101ef8c55742bed5d0" name="a7c617205016e5a101ef8c55742bed5d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c617205016e5a101ef8c55742bed5d0">&#9670;&nbsp;</a></span>ProcessIndustry()</h2>
+<a id="aecec5317d956cad2e008023db51503bd" name="aecec5317d956cad2e008023db51503bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecec5317d956cad2e008023db51503bd">&#9670;&nbsp;</a></span>ProcessIndustry()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -526,6 +487,12 @@ Additional Inherited Members</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;&#160;</td>
           <td class="paramname"><em>industry_node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcqsp_1_1core_1_1_node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>market_node</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -786,7 +753,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 7 2026 10:52:29 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jun 10 2026 02:33:33 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
