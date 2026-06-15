@@ -36,6 +36,6 @@ var searchData=
   ['views_5fto_5fadd_33',['views_to_add',['../class_rml_1_1_data_views.html#aa800d61bd6760e06010fa8849c190317',1,'Rml::DataViews']]],
   ['views_5fto_5fremove_34',['views_to_remove',['../class_rml_1_1_data_views.html#aa3d7e1d2d9ac25dd0c1acc8b18a8d277',1,'Rml::DataViews']]],
   ['vis_5fshader_35',['vis_shader',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_renderer.html#af0f4ecd06aeb3a5b1ac23880f7a405fb',1,'cqsp::client::systems::SysStarSystemRenderer']]],
-  ['visible_36',['visible',['../classcqsp_1_1client_1_1systems_1_1_sys_orbit_filter.html#a1b7bee07164c528683af2782529a2943',1,'cqsp::client::systems::SysOrbitFilter::visible()'],['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html#a1013b8ece88379e91bd7d2008e3d7422',1,'cqsp::client::systems::SysProvinceInformation::visible()']]],
+  ['visible_36',['visible',['../classcqsp_1_1client_1_1systems_1_1_sys_province_information.html#a1013b8ece88379e91bd7d2008e3d7422',1,'cqsp::client::systems::SysProvinceInformation']]],
   ['volume_37',['volume',['../structcqsp_1_1core_1_1components_1_1_market.html#aa3574da1fde963bb7deedd208322eafc',1,'cqsp::core::components::Market::volume()'],['../structcqsp_1_1core_1_1components_1_1_good.html#a5c8697fa973f7ee99b8555c325a63c2e',1,'cqsp::core::components::Good::volume()']]]
 ];

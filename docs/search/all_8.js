@@ -28,7 +28,7 @@ var searchData=
   ['heightmap_25',['heightmap',['../structcqsp_1_1client_1_1components_1_1_terrain_texture_data.html#a408caf012c5779939cc86aada68987cb',1,'cqsp::client::components::TerrainTextureData']]],
   ['hextorgb_26',['HexToRgb',['../namespacecqsp_1_1util.html#ae334614f55715a3b9735c7c26d5aa90b',1,'cqsp::util']]],
   ['hide_27',['Hide',['../classcqsp_1_1client_1_1_settings_window.html#afa0aa5d4e56fe37d18c04aaa016aef0f',1,'cqsp::client::SettingsWindow::Hide()'],['../classcqsp_1_1client_1_1_credits_window.html#a75e4a6bf6c529fa1478aedc5c18fa35e',1,'cqsp::client::CreditsWindow::Hide()'],['../classcqsp_1_1client_1_1_load_game_window.html#ae86f7d3f94fc1c2845e4c15959faa3ee',1,'cqsp::client::LoadGameWindow::Hide()']]],
-  ['hide_5fall_5forbits_28',['hide_all_orbits',['../classcqsp_1_1client_1_1systems_1_1_sys_orbit_filter.html#ace2be5a912b1c5e72d02288d6be48b2d',1,'cqsp::client::systems::SysOrbitFilter']]],
+  ['hide_5fall_5forbits_28',['hide_all_orbits',['../classcqsp_1_1client_1_1systems_1_1_sys_star_system_tree.html#ac5c26b06e7305fb195aa04fd97728c42',1,'cqsp::client::systems::SysStarSystemTree']]],
   ['highway_29',['Highway',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_highway.html',1,'cqsp::core::components::infrastructure']]],
   ['hints_30',['hints',['../classcqsp_1_1asset_1_1_shader_prototype.html#afab8fc283696b750fc233aafa266c5ed',1,'cqsp::asset::ShaderPrototype']]],
   ['history_2eh_31',['history.h',['../history_8h.html',1,'']]],
