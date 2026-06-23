@@ -103,6 +103,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:afba1fd25cfb831d124f02fc9a01d1a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f30dd764fe3a8b05130f24ce202e4e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_production_unit.html#a7f30dd764fe3a8b05130f24ce202e4e4">stability</a> = 0</td></tr>
 <tr class="separator:a7f30dd764fe3a8b05130f24ce202e4e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2068c212c853386c05e9351626260bd"><td class="memItemLeft" align="right" valign="top">std::pair&lt; entt::entity, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_production_unit.html#ae2068c212c853386c05e9351626260bd">consumption</a></td></tr>
+<tr class="separator:ae2068c212c853386c05e9351626260bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf9f9aecdcab4a6c695afe8b28eef605"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a5063a70c0ade8a828770539fc38571f4">ProductionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_production_unit.html#acf9f9aecdcab4a6c695afe8b28eef605">type</a></td></tr>
 <tr class="separator:acf9f9aecdcab4a6c695afe8b28eef605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36d7136692a88a3efa7e4d0797cff7cb"><td class="memItemLeft" align="right" valign="top">entt::entity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_production_unit.html#a36d7136692a88a3efa7e4d0797cff7cb">recipe</a></td></tr>
@@ -125,6 +127,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a46cb978c43ccd73fcc1d1d2c99451e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96a51b468b3110a24946377057aaf371"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_production_unit.html#a96a51b468b3110a24946377057aaf371">transport</a></td></tr>
 <tr class="separator:a96a51b468b3110a24946377057aaf371"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac682f82933d1aa477798eeae00a97d8f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_production_unit.html#ac682f82933d1aa477798eeae00a97d8f">output_subsidy</a> = 0.0</td></tr>
+<tr class="separator:ac682f82933d1aa477798eeae00a97d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d4acb8a66e0ff743eacf8c7343011aa"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_production_unit.html#a7d4acb8a66e0ff743eacf8c7343011aa">output_subsidy_amount</a> = 0.0</td></tr>
+<tr class="separator:a7d4acb8a66e0ff743eacf8c7343011aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32a36f81b7a0ba6561d8ca0cad284b59"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_production_unit.html#a32a36f81b7a0ba6561d8ca0cad284b59">amount_sold</a> = 0</td></tr>
 <tr class="separator:a32a36f81b7a0ba6561d8ca0cad284b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -210,6 +216,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae2068c212c853386c05e9351626260bd" name="ae2068c212c853386c05e9351626260bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2068c212c853386c05e9351626260bd">&#9670;&nbsp;</a></span>consumption</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt;entt::entity, int&gt; cqsp::core::components::ProductionUnit::consumption</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afba1fd25cfb831d124f02fc9a01d1a49" name="afba1fd25cfb831d124f02fc9a01d1a49"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afba1fd25cfb831d124f02fc9a01d1a49">&#9670;&nbsp;</a></span>continuous_gains</h2>
 
@@ -274,6 +294,34 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">double cqsp::core::components::ProductionUnit::material_costs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac682f82933d1aa477798eeae00a97d8f" name="ac682f82933d1aa477798eeae00a97d8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac682f82933d1aa477798eeae00a97d8f">&#9670;&nbsp;</a></span>output_subsidy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::core::components::ProductionUnit::output_subsidy = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d4acb8a66e0ff743eacf8c7343011aa" name="a7d4acb8a66e0ff743eacf8c7343011aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d4acb8a66e0ff743eacf8c7343011aa">&#9670;&nbsp;</a></span>output_subsidy_amount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cqsp::core::components::ProductionUnit::output_subsidy_amount = 0.0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -468,7 +516,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 15 2026 12:07:48 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Jun 23 2026 09:46:25 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
