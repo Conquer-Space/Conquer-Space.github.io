@@ -5,8 +5,8 @@ var searchData=
   ['echelon_2',['echelon',['../structcqsp_1_1core_1_1components_1_1ships_1_1_fleet.html#a563ced998e1f458f7cd34468086ee900',1,'cqsp::core::components::ships::Fleet']]],
   ['economic_5ftick_3',['ECONOMIC_TICK',['../namespacecqsp_1_1core_1_1systems.html#a1a117a7401d6009bc5d22a8023638568',1,'cqsp::core::systems']]],
   ['economy_5fconfig_4',['economy_config',['../classcqsp_1_1core_1_1_universe.html#a648cd07139bcb6f17c96d13f6ff32bad',1,'cqsp::core::Universe']]],
-  ['element_5',['element',['../class_rml_1_1_data_expression_interface.html#a14828cd743e9f9ecbe64704a224789e4',1,'Rml::DataExpressionInterface']]],
-  ['employed_6',['employed',['../classcqsp_1_1core_1_1systems_1_1_sys_production.html#aeaacfaf32feb11a48a4ad2482f0e6af6',1,'cqsp::core::systems::SysProduction']]],
+  ['education_5',['education',['../structcqsp_1_1core_1_1components_1_1_population_segment.html#a46dc26692eba0b06362a5e942191ccca',1,'cqsp::core::components::PopulationSegment']]],
+  ['element_6',['element',['../class_rml_1_1_data_expression_interface.html#a14828cd743e9f9ecbe64704a224789e4',1,'Rml::DataExpressionInterface']]],
   ['employed_5famount_7',['employed_amount',['../structcqsp_1_1core_1_1components_1_1_population_segment.html#a43c88db0b712b2884f999f0eaa090b43',1,'cqsp::core::components::PopulationSegment']]],
   ['employed_5fpopulation_8',['employed_population',['../structcqsp_1_1core_1_1components_1_1_labor_information.html#a9aed50e054d142651d4fca8743e9b026',1,'cqsp::core::components::LaborInformation']]],
   ['employment_9',['employment',['../classcqsp_1_1core_1_1components_1_1_population_history.html#a05d42c08a4f034c73f067b480b6621fb',1,'cqsp::core::components::PopulationHistory']]],
@@ -31,6 +31,8 @@ var searchData=
   ['events_28',['events',['../structcqsp_1_1core_1_1event_1_1_event_queue.html#a200f17a1e2e1d5a12c5e3666716cc58d',1,'cqsp::core::event::EventQueue::events()'],['../classcqsp_1_1core_1_1systems_1_1_sys_script.html#a02ea8b135a44f7650e86438f1eef4696',1,'cqsp::core::systems::SysScript::events()']]],
   ['exp_5fiter_29',['exp_iter',['../classcqsp_1_1core_1_1components_1_1bodies_1_1_concat_iter.html#ab669a13de6034ba855238f2053bec3ad',1,'cqsp::core::components::bodies::ConcatIter']]],
   ['expected_5fproduction_30',['expected_production',['../classcqsp_1_1client_1_1systems_1_1_sys_recipe_viewer.html#a9c0df2d5a20c2174384b36e7b079fe2c',1,'cqsp::client::systems::SysRecipeViewer']]],
-  ['expression_31',['expression',['../class_rml_1_1_data_expression.html#a2107201f0439db1b08a8b3de1055b316',1,'Rml::DataExpression::expression()'],['../class_rml_1_1_data_view_common.html#a8ece4f61c7ff71cd527419d3ee482f6e',1,'Rml::DataViewCommon::expression()']]],
-  ['extent_32',['extent',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_highway.html#a7b088235d9216d05c5ab2c517a9fd965',1,'cqsp::core::components::infrastructure::Highway']]]
+  ['expertise_31',['expertise',['../structcqsp_1_1core_1_1components_1_1_production_unit.html#a6215a1c2c7e6d27233dbe85d99a3cbec',1,'cqsp::core::components::ProductionUnit']]],
+  ['expertise_5fgain_32',['expertise_gain',['../structcqsp_1_1core_1_1components_1_1_production_unit.html#ab9afc808f97fbfcc7bf9e85305869813',1,'cqsp::core::components::ProductionUnit']]],
+  ['expression_33',['expression',['../class_rml_1_1_data_expression.html#a2107201f0439db1b08a8b3de1055b316',1,'Rml::DataExpression::expression()'],['../class_rml_1_1_data_view_common.html#a8ece4f61c7ff71cd527419d3ee482f6e',1,'Rml::DataViewCommon::expression()']]],
+  ['extent_34',['extent',['../structcqsp_1_1core_1_1components_1_1infrastructure_1_1_highway.html#a7b088235d9216d05c5ab2c517a9fd965',1,'cqsp::core::components::infrastructure::Highway']]]
 ];

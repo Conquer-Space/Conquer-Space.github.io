@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['zoningloader_0',['ZoningLoader',['../classcqsp_1_1core_1_1loading_1_1_zoning_loader.html#a77d8cfc6ab4d6224ffefa040954f2de9',1,'cqsp::core::loading::ZoningLoader']]],
-  ['zoomontoprovince_1',['ZoomOntoProvince',['../namespacecqsp_1_1client_1_1ctx.html#a079079c4c3affec4da5e75bbfbe8e31a',1,'cqsp::client::ctx']]]
+  ['x2tof_0',['x2tof',['../classcqsp_1_1core_1_1systems_1_1lambert_1_1_izzo.html#a276a1a1ab3099d89c16a5353d4752b7d',1,'cqsp::core::systems::lambert::Izzo']]],
+  ['x2tof2_1',['x2tof2',['../classcqsp_1_1core_1_1systems_1_1lambert_1_1_izzo.html#ae3ae2ce36010442b3124d56b63bf1e75',1,'cqsp::core::systems::lambert::Izzo']]]
 ];

@@ -1,7 +1,8 @@
 var searchData=
 [
   ['x_0',['x',['../structcqsp_1_1core_1_1components_1_1types_1_1_galactic_coordinate.html#ab2315d74c5a051808bcbc886218c0845',1,'cqsp::core::components::types::GalacticCoordinate']]],
-  ['x2tof_1',['x2tof',['../classcqsp_1_1core_1_1systems_1_1lambert_1_1_izzo.html#a276a1a1ab3099d89c16a5353d4752b7d',1,'cqsp::core::systems::lambert::Izzo']]],
-  ['x2tof2_2',['x2tof2',['../classcqsp_1_1core_1_1systems_1_1lambert_1_1_izzo.html#ae3ae2ce36010442b3124d56b63bf1e75',1,'cqsp::core::systems::lambert::Izzo']]],
-  ['xorigin_3',['xOrigin',['../struct_t_g_a_header.html#a3e82f50e8e5c9be9fc8d485ada97c0a4',1,'TGAHeader']]]
+  ['x_1',['X',['../modifier_8cpp.html#a7bd6903d238c88413346dbe2ec53f2c5',1,'X():&#160;modifier.cpp'],['../modifier_8cpp.html#a7bd6903d238c88413346dbe2ec53f2c5',1,'X():&#160;modifier.cpp'],['../modifier_8h.html#a7bd6903d238c88413346dbe2ec53f2c5',1,'X():&#160;modifier.h'],['../namespacecqsp_1_1core_1_1components.html#afb9cc233d8c7f929e076977c4a2163f3ab322147fc69d7d47b5d2bfe310fd1dd9',1,'cqsp::core::components::X()']]],
+  ['x2tof_2',['x2tof',['../classcqsp_1_1core_1_1systems_1_1lambert_1_1_izzo.html#a276a1a1ab3099d89c16a5353d4752b7d',1,'cqsp::core::systems::lambert::Izzo']]],
+  ['x2tof2_3',['x2tof2',['../classcqsp_1_1core_1_1systems_1_1lambert_1_1_izzo.html#ae3ae2ce36010442b3124d56b63bf1e75',1,'cqsp::core::systems::lambert::Izzo']]],
+  ['xorigin_4',['xOrigin',['../struct_t_g_a_header.html#a3e82f50e8e5c9be9fc8d485ada97c0a4',1,'TGAHeader']]]
 ];

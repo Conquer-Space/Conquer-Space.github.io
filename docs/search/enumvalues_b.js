@@ -11,5 +11,6 @@ var searchData=
   ['millimeter_8',['Millimeter',['../namespacecqsp_1_1core_1_1components_1_1types.html#a88b019950a51a11265b342a500489911a5c02c01134800ddf4847256b32b645ae',1,'cqsp::core::components::types']]],
   ['mine_9',['mine',['../namespacecqsp_1_1core_1_1components.html#a5063a70c0ade8a828770539fc38571f4a918b81db5e91d031548b963c93845e5b',1,'cqsp::core::components']]],
   ['minimumproduction_10',['MinimumProduction',['../namespacecqsp_1_1core_1_1components.html#a9fb44a9b257a7f7d5858be2d7dd5feeea05082c0dd072cf618ccb05840dd5452a',1,'cqsp::core::components']]],
-  ['model_11',['MODEL',['../namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafad4ccb98b1681735ec19c59da619efd96',1,'cqsp::asset::MODEL()'],['../namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafa7a03bac2692f8d17e2cda1b0721ffd0e',1,'cqsp::asset::MODEL()']]]
+  ['model_11',['MODEL',['../namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafad4ccb98b1681735ec19c59da619efd96',1,'cqsp::asset::MODEL()'],['../namespacecqsp_1_1asset.html#a9ff0db1e6cd51c9b51b7e87c54cc0bafa7a03bac2692f8d17e2cda1b0721ffd0e',1,'cqsp::asset::MODEL()']]],
+  ['multiplicative_12',['Multiplicative',['../namespacecqsp_1_1core_1_1components.html#ad076baa084d34ce09a2b0e10aee31a45a0d73bf5decac382ed6a8adc3838fd7e2',1,'cqsp::core::components']]]
 ];

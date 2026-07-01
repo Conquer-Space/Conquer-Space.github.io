@@ -201,6 +201,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_mission_queue.html">MissionQueue</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_modifiable_value.html">ModifiableValue</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_modifier.html">Modifier</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_name.html">Name</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcqsp_1_1core_1_1components_1_1_orbit_entity_target.html">OrbitEntityTarget</a></td></tr>
@@ -323,6 +327,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:a9ed31038399ba8a3ede5fe71516e79d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc9b11a1c8f346afa6feea4be89571d1"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#a9ed31038399ba8a3ede5fe71516e79d2">Maneuver_t</a>, <a class="el" href="namespacecqsp_1_1core_1_1components.html#a9ed31038399ba8a3ede5fe71516e79d2">Maneuver_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#abc9b11a1c8f346afa6feea4be89571d1">HohmannPair_t</a></td></tr>
 <tr class="separator:abc9b11a1c8f346afa6feea4be89571d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95320a78d1f4912a954f8ab5e27a86df"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structcqsp_1_1core_1_1components_1_1_modifiable_value.html">ModifiableValue</a>&lt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#ad076baa084d34ce09a2b0e10aee31a45a3f7b3d8ee7bf0d542bd50821c083888f">ModifierOp::Additive</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a95320a78d1f4912a954f8ab5e27a86df">AdditiveModifier</a></td></tr>
+<tr class="separator:a95320a78d1f4912a954f8ab5e27a86df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab13c44a011b5dc3d9d5b44167d33f2fc"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structcqsp_1_1core_1_1components_1_1_modifiable_value.html">ModifiableValue</a>&lt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#ad076baa084d34ce09a2b0e10aee31a45a0d73bf5decac382ed6a8adc3838fd7e2">ModifierOp::Multiplicative</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#ab13c44a011b5dc3d9d5b44167d33f2fc">MultiplicativeModifier</a></td></tr>
+<tr class="separator:ab13c44a011b5dc3d9d5b44167d33f2fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b6a33721f8e13ed45c713ca63082150"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#aa1978b488c0326ad51d0a8cae7f1c44a">GoodEntity</a>, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a8b6a33721f8e13ed45c713ca63082150">LedgerMap</a></td></tr>
 <tr class="separator:a8b6a33721f8e13ed45c713ca63082150"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -366,6 +374,14 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:affbbbb8f9680f264349faac715d73fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9cc233d8c7f929e076977c4a2163f3"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#afb9cc233d8c7f929e076977c4a2163f3">ModifierTarget</a> : uint16_t { <a class="el" href="namespacecqsp_1_1core_1_1components.html#afb9cc233d8c7f929e076977c4a2163f3ab322147fc69d7d47b5d2bfe310fd1dd9">X</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#afb9cc233d8c7f929e076977c4a2163f3aeb9cb03b83fe586ab9feef68cf001ce4">CQSP_MODIFIER_TARGET_LIST</a>
+ }</td></tr>
+<tr class="separator:afb9cc233d8c7f929e076977c4a2163f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad076baa084d34ce09a2b0e10aee31a45"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#ad076baa084d34ce09a2b0e10aee31a45">ModifierOp</a> { <a class="el" href="namespacecqsp_1_1core_1_1components.html#ad076baa084d34ce09a2b0e10aee31a45a3f7b3d8ee7bf0d542bd50821c083888f">Additive</a>
+, <a class="el" href="namespacecqsp_1_1core_1_1components.html#ad076baa084d34ce09a2b0e10aee31a45a0d73bf5decac382ed6a8adc3838fd7e2">Multiplicative</a>
+ }</td></tr>
+<tr class="separator:ad076baa084d34ce09a2b0e10aee31a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0528ad41b9c8f9590e3808eacbfce35"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#ae0528ad41b9c8f9590e3808eacbfce35">Command</a> { <br />
 &#160;&#160;<a class="el" href="namespacecqsp_1_1core_1_1components.html#ae0528ad41b9c8f9590e3808eacbfce35a453d28c70b71787e92cc825f5278333c">CircularizeAtApoapsis</a>
 , <a class="el" href="namespacecqsp_1_1core_1_1components.html#ae0528ad41b9c8f9590e3808eacbfce35a4cf83239f3451dca22d77228b752e021">CircularizeAtPeriapsis</a>
@@ -410,6 +426,10 @@ Functions</h2></td></tr>
 <tr class="separator:adc7e14c5021cb978dd6ba91522fe9702"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a096df3ffa341d18754c747cadd6cbe43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a096df3ffa341d18754c747cadd6cbe43">operator&gt;</a> (const <a class="el" href="structcqsp_1_1core_1_1components_1_1_order.html">Order</a> &amp;lhs, const <a class="el" href="structcqsp_1_1core_1_1components_1_1_order.html">Order</a> &amp;rhs)</td></tr>
 <tr class="separator:a096df3ffa341d18754c747cadd6cbe43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a101dc841752e103f38831329d3769f98"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a101dc841752e103f38831329d3769f98">ModifierTargetToString</a> (<a class="el" href="namespacecqsp_1_1core_1_1components.html#afb9cc233d8c7f929e076977c4a2163f3">ModifierTarget</a> t)</td></tr>
+<tr class="separator:a101dc841752e103f38831329d3769f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98a03769ddd8db76a69b58413fab6851"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#afb9cc233d8c7f929e076977c4a2163f3">ModifierTarget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a98a03769ddd8db76a69b58413fab6851">ModifierTargetFromString</a> (std::string_view s)</td></tr>
+<tr class="separator:a98a03769ddd8db76a69b58413fab6851"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7de1ed1ad94813de15015bc4aabd8d78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecqsp_1_1core_1_1components.html#a7de1ed1ad94813de15015bc4aabd8d78">CopyVals</a> (const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;keys, const <a class="el" href="classcqsp_1_1core_1_1components_1_1_resource_map.html">ResourceMap</a> &amp;values)</td></tr>
 <tr class="memdesc:a7de1ed1ad94813de15015bc4aabd8d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new resource ledger using the keys from one resource ledger, and the values from annother  <a href="namespacecqsp_1_1core_1_1components.html#a7de1ed1ad94813de15015bc4aabd8d78">More...</a><br /></td></tr>
 <tr class="separator:a7de1ed1ad94813de15015bc4aabd8d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -417,6 +437,20 @@ Functions</h2></td></tr>
 <tr class="separator:adaec220d14bc797954b1a241ab8b8f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a95320a78d1f4912a954f8ab5e27a86df" name="a95320a78d1f4912a954f8ab5e27a86df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95320a78d1f4912a954f8ab5e27a86df">&#9670;&nbsp;</a></span>AdditiveModifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structcqsp_1_1core_1_1components_1_1_modifiable_value.html">ModifiableValue</a>&lt;<a class="el" href="namespacecqsp_1_1core_1_1components.html#ad076baa084d34ce09a2b0e10aee31a45a3f7b3d8ee7bf0d542bd50821c083888f">ModifierOp::Additive</a>&gt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#a95320a78d1f4912a954f8ab5e27a86df">cqsp::core::components::AdditiveModifier</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aae4fe0566d7e3d5470711f3ae5cae870" name="aae4fe0566d7e3d5470711f3ae5cae870"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae4fe0566d7e3d5470711f3ae5cae870">&#9670;&nbsp;</a></span>AscendingSortedOrderList</h2>
 
@@ -485,6 +519,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef std::pair&lt;glm::dvec3, double&gt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#a9ed31038399ba8a3ede5fe71516e79d2">cqsp::core::components::Maneuver_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab13c44a011b5dc3d9d5b44167d33f2fc" name="ab13c44a011b5dc3d9d5b44167d33f2fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab13c44a011b5dc3d9d5b44167d33f2fc">&#9670;&nbsp;</a></span>MultiplicativeModifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structcqsp_1_1core_1_1components_1_1_modifiable_value.html">ModifiableValue</a>&lt;<a class="el" href="namespacecqsp_1_1core_1_1components.html#ad076baa084d34ce09a2b0e10aee31a45a0d73bf5decac382ed6a8adc3838fd7e2">ModifierOp::Multiplicative</a>&gt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#ab13c44a011b5dc3d9d5b44167d33f2fc">cqsp::core::components::MultiplicativeModifier</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -613,6 +661,58 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a9fb44a9b257a7f7d5858be2d7dd5feeeae4c2a63bd3a9a9a4cfda13f35146a0b4" name="a9fb44a9b257a7f7d5858be2d7dd5feeeae4c2a63bd3a9a9a4cfda13f35146a0b4"></a>Shrinking&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9fb44a9b257a7f7d5858be2d7dd5feeea1c9861d5cf1799b46578652b62ce1d49" name="a9fb44a9b257a7f7d5858be2d7dd5feeea1c9861d5cf1799b46578652b62ce1d49"></a>Expanding&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9fb44a9b257a7f7d5858be2d7dd5feeea849feb0abd1c1e6779ab12e8b0be166a" name="a9fb44a9b257a7f7d5858be2d7dd5feeea849feb0abd1c1e6779ab12e8b0be166a"></a>Shortage&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ad076baa084d34ce09a2b0e10aee31a45" name="ad076baa084d34ce09a2b0e10aee31a45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad076baa084d34ce09a2b0e10aee31a45">&#9670;&nbsp;</a></span>ModifierOp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="namespacecqsp_1_1core_1_1components.html#ad076baa084d34ce09a2b0e10aee31a45">cqsp::core::components::ModifierOp</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad076baa084d34ce09a2b0e10aee31a45a3f7b3d8ee7bf0d542bd50821c083888f" name="ad076baa084d34ce09a2b0e10aee31a45a3f7b3d8ee7bf0d542bd50821c083888f"></a>Additive&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad076baa084d34ce09a2b0e10aee31a45a0d73bf5decac382ed6a8adc3838fd7e2" name="ad076baa084d34ce09a2b0e10aee31a45a0d73bf5decac382ed6a8adc3838fd7e2"></a>Multiplicative&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="afb9cc233d8c7f929e076977c4a2163f3" name="afb9cc233d8c7f929e076977c4a2163f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb9cc233d8c7f929e076977c4a2163f3">&#9670;&nbsp;</a></span>ModifierTarget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="namespacecqsp_1_1core_1_1components.html#afb9cc233d8c7f929e076977c4a2163f3">cqsp::core::components::ModifierTarget</a> : uint16_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afb9cc233d8c7f929e076977c4a2163f3ab322147fc69d7d47b5d2bfe310fd1dd9" name="afb9cc233d8c7f929e076977c4a2163f3ab322147fc69d7d47b5d2bfe310fd1dd9"></a>X&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afb9cc233d8c7f929e076977c4a2163f3aeb9cb03b83fe586ab9feef68cf001ce4" name="afb9cc233d8c7f929e076977c4a2163f3aeb9cb03b83fe586ab9feef68cf001ce4"></a>CQSP_MODIFIER_TARGET_LIST&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -785,6 +885,42 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a98a03769ddd8db76a69b58413fab6851" name="a98a03769ddd8db76a69b58413fab6851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98a03769ddd8db76a69b58413fab6851">&#9670;&nbsp;</a></span>ModifierTargetFromString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="namespacecqsp_1_1core_1_1components.html#afb9cc233d8c7f929e076977c4a2163f3">ModifierTarget</a> &gt; cqsp::core::components::ModifierTargetFromString </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a101dc841752e103f38831329d3769f98" name="a101dc841752e103f38831329d3769f98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a101dc841752e103f38831329d3769f98">&#9670;&nbsp;</a></span>ModifierTargetToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string_view cqsp::core::components::ModifierTargetToString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacecqsp_1_1core_1_1components.html#afb9cc233d8c7f929e076977c4a2163f3">ModifierTarget</a>&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adc7e14c5021cb978dd6ba91522fe9702" name="adc7e14c5021cb978dd6ba91522fe9702"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc7e14c5021cb978dd6ba91522fe9702">&#9670;&nbsp;</a></span>operator&lt;()</h2>
 
@@ -886,7 +1022,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 26 2026 13:00:08 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Wed Jul 1 2026 13:47:21 for Conquer Space by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
