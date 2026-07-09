@@ -6,7 +6,8 @@ var searchData=
   ['planetfixed_3',['PlanetFixed',['../classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aa8cf9dbeef75dc423391ced0261aadb7af8b9eb0f8b3711d2d844a2c88f0b0e2a',1,'cqsp::client::systems::StarSystemController']]],
   ['planetintertial_4',['PlanetIntertial',['../classcqsp_1_1client_1_1systems_1_1_star_system_controller.html#aa8cf9dbeef75dc423391ced0261aadb7a9e18a196e6feb296b35fe10372e409b0',1,'cqsp::client::systems::StarSystemController']]],
   ['position_5',['Position',['../namespace_gfx.html#a18823fdafde60692d4eeac379b903b06a52f5e0bc3859bc5f5e25130b6c7e8881',1,'Gfx']]],
-  ['preparation_6',['Preparation',['../namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca9a5f09cf66e692efdae493ce4c9aa64f',1,'cqsp::core::components']]],
-  ['projectsmenu_7',['ProjectsMenu',['../namespacecqsp_1_1client_1_1ctx.html#a2a5f9e02f79f051a25a0f818c5503f7fa4d9fb2c1b5b35c8635d038dccb5d67b8',1,'cqsp::client::ctx']]],
-  ['provincemapmode_8',['ProvinceMapMode',['../namespacecqsp_1_1client_1_1ctx.html#af88db2e7b386622b4c2684402ecb06e5aa49a86ba8943d905bd7971e7bfd4f922',1,'cqsp::client::ctx']]]
+  ['power_6',['Power',['../namespacecqsp_1_1core_1_1components_1_1types.html#a8749d881b8e2c91fb0a601a8d7338101a64a080099cbacf71e168c6b471aed18f',1,'cqsp::core::components::types']]],
+  ['preparation_7',['Preparation',['../namespacecqsp_1_1core_1_1components.html#a68320dde55ba1228df42efc7f6df370ca9a5f09cf66e692efdae493ce4c9aa64f',1,'cqsp::core::components']]],
+  ['projectsmenu_8',['ProjectsMenu',['../namespacecqsp_1_1client_1_1ctx.html#a2a5f9e02f79f051a25a0f818c5503f7fa4d9fb2c1b5b35c8635d038dccb5d67b8',1,'cqsp::client::ctx']]],
+  ['provincemapmode_9',['ProvinceMapMode',['../namespacecqsp_1_1client_1_1ctx.html#af88db2e7b386622b4c2684402ecb06e5aa49a86ba8943d905bd7971e7bfd4f922',1,'cqsp::client::ctx']]]
 ];
